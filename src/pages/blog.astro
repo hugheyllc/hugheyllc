@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allBlogPosts = await getCollection('blog');
+
+// Filter out draft posts and sort by date (newest first)
+const posts = allBlogPosts
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+
+<BaseLayout
+  title="Law Firm Marketing Blog | Hughey LLC"
+  description="Insights, strategies, and best practices for law firm marketing. From SEO to client intake to marketing analytics — everything you need to know."
+  canonical="https://hugheyllc.com/blog"
+>
+  <div style="min-height: 100vh; background: var(--ink); padding-top: 100px; padding-bottom: 80px;">
+    <div class="w">
+      <div style="margin-bottom: 80px;">
+        <h1 style="font-size: 48px; color: var(--white); margin-bottom: 20px;">Law Firm Marketing Blog</h1>
+        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px;">
+          Strategies, insights, and frameworks for law firm marketing — from data analysis to client intake to marketing operations.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 40px;">
+        {posts.map((post) => (
+          <article style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 32px; display: flex; flex-direction: column;">
+            <div style="margin-bottom: 16px;">
+              <time style="font-size: 12px; color: rgba(200, 151, 58, 0.7); text-transform: uppercase; letter-spacing: 0.1em;">
+                {new Date(post.data.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })}
+              </time>
+            </div>
+            <h2 style="font-size: 22px; font-weight: 700; color: var(--white); margin-bottom: 12px; line-height: 1.3;">
+              <a href={`/blog/${post.id}`} style="color: var(--white); text-decoration: none; transition: color 0.2s;">
+                {post.data.title}
+              </a>
+            </h2>
+            <p style="font-size: 14px; color: rgba(255, 255, 255, 0.5); margin-bottom: 20px; flex-grow: 1; line-height: 1.6;">
+              {post.data.excerpt}
+            </p>
+            {post.data.tags.length > 0 && (
+              <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                {post.data.tags.slice(0, 3).map((tag) => (
+                  <span style="font-size: 11px; color: rgba(200, 151, 58, 0.6); background: rgba(200, 151, 58, 0.08); padding: 4px 10px; border-radius: 2px;">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </article>
+        ))}
+      </div>
+
+      {posts.length === 0 && (
+        <div style="text-align: center; padding: 80px 0;">
+          <p style="font-size: 18px; color: rgba(255, 255, 255, 0.4);">No published blog posts yet.</p>
+        </div>
+      )}
+    </div>
+  </div>
+
+  <style>
+    a:hover {
+      color: var(--gold) !important;
+    }
+  </style>
+</BaseLayout>

@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Hughey LLC",
+  "image": "https://hugheyllc.com/hughey-logo.png",
+  "description": "Law firm marketing consulting firm specializing in marketing operations for law firms.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5412 Dover St NE",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "postalCode": "33703",
+    "addressCountry": "US"
+  },
+  "telephone": "727-483-3222",
+  "url": "https://hugheyllc.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/joehughey/",
+    "https://www.facebook.com/profile.php?id=61577138003264"
+  ],
+  "priceRange": "$$"
+};
+---
+
+<BaseLayout
+  title="Hughey LLC Location | Tampa Bay, Florida"
+  description="Visit Hughey LLC in St. Petersburg, Florida. Serving law firms across Tampa Bay and nationally."
+  canonical="https://hugheyllc.com/location"
+  schema={JSON.stringify(schema)}
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <div style="min-height: 300px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 80px 0;">
+      <div class="w">
+        <h1 style="font-size: clamp(42px, 6vw, 72px); font-weight: 800; line-height: 1.1; max-width: 900px; margin-bottom: 20px;">
+          Based in<br />St. Petersburg,<br />Serving Nationally
+        </h1>
+        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px; line-height: 1.6;">
+          We're located on Florida's Gulf Coast, but we work with law firms across the country.
+        </p>
+      </div>
+    </div>
+
+    <div style="padding: 80px 0;">
+      <div class="w">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; max-width: 1200px; margin: 0 auto;">
+          <div>
+            <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 32px;">Contact</h2>
+            
+            <div style="margin-bottom: 40px;">
+              <p style="font-size: 12px; color: rgba(200, 151, 58, 0.9); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;">Office</p>
+              <p style="font-size: 16px; color: var(--white); font-weight: 600; line-height: 1.6;">
+                Hughey LLC<br />
+                5412 Dover St NE<br />
+                St. Petersburg, FL 33703
+              </p>
+            </div>
+
+            <div style="margin-bottom: 40px;">
+              <p style="font-size: 12px; color: rgba(200, 151, 58, 0.9); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;">Phone</p>
+              <p style="font-size: 16px; color: var(--white); font-weight: 600;">727-483-3222</p>
+            </div>
+
+            <div style="margin-bottom: 40px;">
+              <p style="font-size: 12px; color: rgba(200, 151, 58, 0.9); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;">Hours</p>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7);">Monday – Friday, 9am – 5pm EST</p>
+            </div>
+
+            <a href="/contact" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+              Schedule a Call →
+            </a>
+          </div>
+
+          <div>
+            <div style="background: rgba(200, 151, 58, 0.05); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 32px; text-align: center; margin-bottom: 40px;">
+              <h3 style="font-size: 18px; font-weight: 700; color: var(--gold); margin-bottom: 16px;">Service Areas</h3>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.8;">
+                Tampa Bay, Florida<br />
+                Gulf Coast<br />
+                National (remote consulting)<br />
+              </p>
+            </div>
+
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 32px;">
+              <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 16px;">Practice Areas</h3>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.8;">
+                Personal Injury Law<br />
+                Family Law<br />
+                Business Law<br />
+                Complex Civil Litigation<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 80px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 900px; margin: 0 auto;">
+          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px; text-align: center;">Why Tampa Bay?</h2>
+          <p style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
+            Florida's Gulf Coast has a vibrant legal market—personal injury, family law, business law, and complex civil litigation firms all competing for client attention. It's taught us what works in competitive markets and how to help firms stand out.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    a:hover {
+      background: var(--glt) !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
+    }
+  </style>
+</BaseLayout>

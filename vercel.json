@@ -1,0 +1,184 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "framework": "astro",
+  "crons": [
+    {
+      "path": "/api/cron/ping-sitemap",
+      "schedule": "0 0 1 * *"
+    },
+    {
+      "path": "/api/cron/schema-validate",
+      "schedule": "0 7 * * 1"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/blog/case-study/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/team",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/news",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/:category",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:tag",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/our-services",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/service/:service",
+      "destination": "/services/:service",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/request-consultation",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/get-started",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/schedule-call",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/locations/:location",
+      "destination": "/location",
+      "permanent": true
+    },
+    {
+      "source": "/office",
+      "destination": "/location",
+      "permanent": true
+    },
+    {
+      "source": "/blog/feed",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin",
+      "destination": "/admin",
+      "permanent": true
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "/admin",
+      "permanent": true
+    },
+    {
+      "source": "/index.php/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/api/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
+      "source": "/images/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/admin/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store, no-cache"
+        }
+      ]
+    }
+  ]
+}

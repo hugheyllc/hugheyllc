@@ -1,0 +1,133 @@
+---
+---
+
+<!-- LOGO SWAP: replace .logo-sig with <img src="/images/Signature_800.png"> when ready -->
+
+<nav id="nav">
+  <a href="/" class="logo-sig">
+    Hughey<span class="logo-llc">LLC</span>
+  </a>
+  <div class="nav-r">
+    <a href="/about">About</a>
+    <a href="/services">Services</a>
+    <a href="/insights">Insights</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact" class="nav-btn">Schedule a Call</a>
+  </div>
+</nav>
+
+<style>
+  /* ── LOGO TREATMENT ──────────────────────────────────────────── */
+  .logo-sig {
+    font-family: var(--sig);
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.01em;
+    line-height: 1;
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+  }
+
+  .logo-sig .logo-llc {
+    font-family: var(--man);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    align-self: center;
+    margin-left: 2px;
+  }
+
+  .logo-sig.dark {
+    color: var(--navy);
+  }
+
+  .logo-sig.dark .logo-llc {
+    color: rgba(15, 32, 64, 0.4);
+  }
+
+  .logo-img {
+    height: 36px;
+    width: auto;
+  }
+
+  .logo-img.logo-light {
+    filter: brightness(0) invert(1);
+  }
+
+  .logo-img.logo-dark {
+    filter: brightness(0);
+  }
+
+  /* ── NAV ─────────────────────────────────────────────────────── */
+  nav {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 600;
+    height: 70px;
+    padding: 0 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background 0.4s, border-color 0.4s, box-shadow 0.4s;
+    border-bottom: 1px solid transparent;
+  }
+
+  nav.scrolled {
+    background: rgba(9, 19, 31, 0.96);
+    border-color: rgba(200, 151, 58, 0.15);
+    box-shadow: 0 2px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(16px);
+  }
+
+  .nav-r {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .nav-r a {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
+  }
+
+  .nav-r a:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .nav-btn {
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--gold);
+    color: var(--gold) !important;
+    padding: 9px 22px;
+    border-radius: 2px;
+    transition: all 0.22s !important;
+  }
+
+  .nav-btn:hover {
+    background: var(--gold) !important;
+    color: var(--ink) !important;
+  }
+</style>
+
+<script>
+  // ── NAV SCROLL DETECTION ──────────────────────────────────────
+  window.addEventListener(
+    'scroll',
+    () => {
+      document.getElementById('nav')?.classList.toggle('scrolled', window.scrollY > 40);
+    },
+    { passive: true }
+  );
+</script>

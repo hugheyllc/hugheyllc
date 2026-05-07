@@ -1,0 +1,177 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const firmNarrative = `Hughey LLC is a law firm marketing operations consulting firm founded in 2004. We work exclusively with law firms to build marketing systems that generate retained clients—not just leads, not just brand awareness, but the specific metric that matters: retained clients.
+
+Twenty years in the legal marketing space has taught us one thing: most law firm marketing fails not because of the agencies or the tactics, but because of the disconnect between marketing operations and client intake. A campaign can look perfect in the agency report. The cost-per-click metrics can be excellent. The ad creative can be award-winning. And yet the retained client count doesn't move.
+
+We solve for that disconnect.
+
+Our approach combines three core capabilities: deep data analysis to understand what's actually driving clients, strategic direction that aligns marketing investment with intake capacity, and operational framework that connects every marketing channel to the metrics that matter for retained clients.
+
+We serve law firms nationally, with particular expertise in personal injury, family law, business law, and complex civil litigation. Our home is Tampa Bay, Florida, where we work with firms across the Gulf Coast.`;
+
+const joeBio = `Joe Hughey founded Hughey LLC in 2004 and has focused exclusively on law firm marketing ever since. In two decades, he's worked with over 150 law firms—from solo practitioners to 200+ attorney regional firms—helping them build marketing operations that generate measurable retained clients.
+
+His background includes:
+- 20+ years in legal marketing strategy and operations
+- Expertise in marketing analytics, client intake systems, and agency management
+- Published insights on law firm marketing data, SEO, paid search, and marketing attribution
+- Speaker at legal marketing conferences and firm leadership events
+- Based in St. Petersburg, Florida
+
+Joe's philosophy is simple: law firm marketing should be measured by one metric—retained clients. Everything else is a means to that end.`;
+---
+
+<BaseLayout
+  title="About Hughey LLC | 20 Years of Law Firm Marketing"
+  description="Learn about Hughey LLC's approach to law firm marketing operations, our philosophy, and Joe Hughey's 20-year journey in legal marketing consulting."
+  canonical="https://hugheyllc.com/about"
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <!-- Hero Section -->
+    <div style="min-height: 300px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 80px 0;">
+      <div class="w">
+        <h1 style="font-size: clamp(42px, 6vw, 72px); font-weight: 800; line-height: 1.1; max-width: 900px; margin-bottom: 20px;">
+          20 Years Focused<br />on One Metric:<br /><em style="color: var(--glt); font-style: italic;">Retained Clients</em>
+        </h1>
+        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px; line-height: 1.6;">
+          We work exclusively with law firms to build marketing systems that connect every dollar spent to actual client retention.
+        </p>
+      </div>
+    </div>
+
+    <!-- Firm Narrative -->
+    <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 900px; margin: 0 auto;">
+          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px; line-height: 1.2;">Our Story</h2>
+          <div style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
+            {firmNarrative.split('\n\n').map((paragraph) => (
+              <p style="margin-bottom: 24px;">{paragraph}</p>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Values / Approach -->
+    <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 900px; margin: 0 auto;">
+          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 48px; line-height: 1.2;">How We Work</h2>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px;">
+            <div>
+              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Data Analysis</h3>
+              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.65); line-height: 1.6;">
+                We start by understanding your current marketing data. What channels are actually driving retained clients? Where is money being wasted?
+              </p>
+            </div>
+            
+            <div>
+              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Strategic Direction</h3>
+              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.65); line-height: 1.6;">
+                We develop integrated strategy that aligns marketing investment with your intake capacity and growth goals.
+              </p>
+            </div>
+            
+            <div>
+              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Operations Framework</h3>
+              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.65); line-height: 1.6;">
+                We connect your marketing channels to intake to client retention, creating visibility into what actually matters.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Joe Bio -->
+    <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; max-width: 1200px; margin: 0 auto;">
+          <div>
+            <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px; line-height: 1.2;">About Joe</h2>
+            <div style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
+              {joeBio.split('\n\n').map((section) => {
+                if (section.startsWith('His background')) {
+                  const parts = section.split(':');
+                  const items = parts[1].split('\n').filter(s => s.trim());
+                  return (
+                    <>
+                      <p style="margin-bottom: 16px;"><strong>His background includes:</strong></p>
+                      <ul style="margin-bottom: 24px; padding-left: 20px;">
+                        {items.map((item) => (
+                          <li style="margin-bottom: 8px;">{item.trim()}</li>
+                        ))}
+                      </ul>
+                    </>
+                  );
+                }
+                return (
+                  <p style="margin-bottom: 24px;">{section}</p>
+                );
+              })}
+            </div>
+          </div>
+          
+          <div style="background: rgba(200, 151, 58, 0.1); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 4px; padding: 40px; text-align: center;">
+            <div style="font-size: 56px; font-weight: 800; color: var(--gold); margin-bottom: 16px;">20+</div>
+            <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7); margin-bottom: 24px;">Years focused on law firm marketing</p>
+            
+            <div style="border-top: 1px solid rgba(200, 151, 58, 0.2); padding-top: 24px; margin-top: 24px;">
+              <div style="font-size: 42px; font-weight: 800; color: var(--gold); margin-bottom: 8px;">150+</div>
+              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7);">Law firms consulted</p>
+            </div>
+            
+            <div style="border-top: 1px solid rgba(200, 151, 58, 0.2); padding-top: 24px; margin-top: 24px;">
+              <p style="font-size: 15px; color: rgba(200, 151, 58, 0.9);">Based in<br /><strong>St. Petersburg, Florida</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div style="padding: 80px 0;">
+      <div class="w">
+        <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+          <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 20px;">Let's Talk About Your Firm</h2>
+          <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7); margin-bottom: 32px; line-height: 1.6;">
+            If you're interested in learning how we work with law firms or discussing your firm's current marketing situation, let's schedule a free strategy call.
+          </p>
+          <a href="/contact" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; transition: background 0.25s, transform 0.2s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Free Strategy Call →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    a:hover {
+      background: var(--glt) !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
+    }
+
+    em {
+      color: var(--glt);
+      font-style: italic;
+    }
+
+    strong {
+      color: var(--white);
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: disc;
+    }
+
+    li {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  </style>
+</BaseLayout>

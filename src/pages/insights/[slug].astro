@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const insights = await getCollection('insights');
+  return insights.map((insight) => ({
+    params: { slug: insight.data.slug },
+    props: { insight },
+  }));
+}
+
+interface Props {
+  insight: any;
+}
+
+const { insight } = Astro.props;
+const { body } = insight;
+const { title, excerpt } = insight.data;
+---
+
+<BaseLayout
+  title={`${title} | Hughey LLC`}
+  description={excerpt}
+  canonical={`https://hugheyllc.com/insights/${insight.data.slug}`}
+>
+  <article style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <div style="min-height: 320px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 80px 0;">
+      <div class="w">
+        <div style="max-width: 900px;">
+          <h1 style="font-size: clamp(36px, 5vw, 56px); font-weight: 800; line-height: 1.2; margin-bottom: 20px;">
+            {title}
+          </h1>
+          <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7);">
+            {excerpt}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 80px 0;">
+      <div class="w">
+        <div style="max-width: 900px;">
+          <div style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
+            <div set:html={body}></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 60px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+          <h3 style="font-size: 28px; font-weight: 800; margin-bottom: 20px;">Ready to Improve Your Marketing?</h3>
+          <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); margin-bottom: 28px;">
+            Schedule a free strategy call to discuss your firm's marketing situation.
+          </p>
+          <a href="/contact" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Call →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 60px 0;">
+      <div class="w">
+        <div style="max-width: 900px;">
+          <a href="/insights" style="display: inline-flex; align-items: center; gap: 8px; color: var(--gold); text-decoration: none; font-weight: 600;">
+            ← Back to Insights
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <style>
+    :global(article h2) {
+      font-size: 32px;
+      font-weight: 700;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      color: var(--white);
+      line-height: 1.3;
+    }
+
+    :global(article h3) {
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 16px;
+      color: var(--white);
+      line-height: 1.3;
+    }
+
+    :global(article p) {
+      margin-bottom: 20px;
+    }
+
+    :global(article ul),
+    :global(article ol) {
+      margin-bottom: 20px;
+      padding-left: 24px;
+    }
+
+    :global(article li) {
+      margin-bottom: 8px;
+    }
+
+    :global(article a) {
+      color: var(--gold);
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+
+    :global(article a:hover) {
+      color: var(--glt);
+    }
+
+    :global(article strong) {
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    :global(article em) {
+      font-style: italic;
+    }
+
+    a:hover {
+      color: var(--glt) !important;
+    }
+  </style>
+</BaseLayout>

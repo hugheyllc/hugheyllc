@@ -1,0 +1,212 @@
+name: Generate Draft Blog Post
+
+on:
+  schedule:
+    # Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  generate-content:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Get current week number
+        id: week
+        run: |
+          WEEK=$(node -e "console.log(Math.ceil((new Date().getDate() + new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay()) / 7))")
+          echo "week=$WEEK" >> $GITHUB_OUTPUT
+
+      - name: Read topic from content calendar
+        id: topic
+        run: |
+          TOPIC=$(jq -r ".topics[${{ steps.week.outputs.week }} - 1] | .topic" .github/content-calendar.json)
+          FOCUS=$(jq -r ".topics[${{ steps.week.outputs.week }} - 1] | .focus" .github/content-calendar.json)
+          echo "topic=$TOPIC" >> $GITHUB_OUTPUT
+          echo "focus=$FOCUS" >> $GITHUB_OUTPUT
+
+      - name: Generate blog post with Claude
+        id: generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+
+          const topic = "${{ steps.topic.outputs.topic }}";
+          const focus = "${{ steps.topic.outputs.focus }}";
+
+          const prompt = `You are an expert legal marketing consultant. Generate a comprehensive blog post about this topic for law firms.
+
+Topic: ${topic}
+Focus areas: ${focus}
+
+Requirements:
+- Write in a professional but conversational tone
+- Include 2-3 main sections with subsections
+- Include practical, actionable advice
+- Keep it 1800-2200 words
+- Use Markdown formatting
+- Include at least one statistic or data point
+- End with a call-to-action to schedule a strategy call
+
+Return ONLY the blog post content in Markdown format, starting with the main heading.`;
+
+          const payload = JSON.stringify({
+            model: "claude-3-5-sonnet-20241022",
+            max_tokens: 4096,
+            messages: [
+              {
+                role: "user",
+                content: prompt
+              }
+            ]
+          });
+
+          const options = {
+            hostname: 'api.anthropic.com',
+            path: '/v1/messages',
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Content-Length': Buffer.byteLength(payload),
+              'x-api-key': process.env.ANTHROPIC_API_KEY,
+              'anthropic-version': '2023-06-01'
+            }
+          };
+
+          return new Promise((resolve, reject) => {
+            const req = https.request(options, (res) => {
+              let data = '';
+              res.on('data', chunk => { data += chunk; });
+              res.on('end', () => {
+                if (res.statusCode === 200) {
+                  const response = JSON.parse(data);
+                  const content = response.content[0].text;
+                  fs.writeFileSync('/tmp/generated_content.md', content);
+                  console.log('Content generated successfully');
+                  resolve();
+                } else {
+                  console.error('API Error:', data);
+                  reject(new Error('Failed to generate content'));
+                }
+              });
+            });
+
+            req.on('error', reject);
+            req.write(payload);
+            req.end();
+          });
+          EOF
+
+      - name: Extract frontmatter from generated content
+        id: frontmatter
+        run: |
+          node << 'EOF'
+          const fs = require('fs');
+          const content = fs.readFileSync('/tmp/generated_content.md', 'utf-8');
+
+          // Extract title from first heading
+          const titleMatch = content.match(/^# (.+)/m);
+          const title = titleMatch ? titleMatch[1] : "Untitled Blog Post";
+
+          // Create slug from title
+          const slug = title
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+
+          // Create excerpt from first paragraph
+          const paragraphs = content.split('\n\n').filter(p => p.trim() && !p.startsWith('#'));
+          const excerpt = paragraphs[0]
+            .replace(/[#*_`[\]()]/g, '')
+            .substring(0, 160);
+
+          // Get current date
+          const date = new Date().toISOString().split('T')[0];
+
+          console.log(JSON.stringify({
+            title,
+            slug,
+            excerpt,
+            date,
+            content: content.substring(content.indexOf('\n') + 1) // Remove title heading
+          }));
+          EOF
+
+      - name: Parse frontmatter
+        id: parsed
+        run: |
+          METADATA=$(node -e "
+            const fs = require('fs');
+            const content = fs.readFileSync('/tmp/generated_content.md', 'utf-8');
+            const titleMatch = content.match(/^# (.+)/m);
+            const title = titleMatch ? titleMatch[1] : 'Untitled';
+            const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+            const date = new Date().toISOString().split('T')[0];
+            console.log(JSON.stringify({title, slug, date}));
+          ")
+          echo "metadata=$METADATA" >> $GITHUB_OUTPUT
+
+      - name: Create markdown file with frontmatter
+        run: |
+          TITLE=$(echo '${{ steps.parsed.outputs.metadata }}' | jq -r '.title')
+          SLUG=$(echo '${{ steps.parsed.outputs.metadata }}' | jq -r '.slug')
+          DATE=$(echo '${{ steps.parsed.outputs.metadata }}' | jq -r '.date')
+          CONTENT=$(cat /tmp/generated_content.md | tail -n +2)
+          EXCERPT=$(echo "$CONTENT" | head -1 | cut -c1-160)
+          SEO_DESC=$(echo "$CONTENT" | head -1 | cut -c1-160)
+
+          cat > "src/content/blog/${SLUG}.md" << 'EOFILE'
+          ---
+          title: "$TITLE"
+          slug: "$SLUG"
+          date: $DATE
+          author: "Joe Hughey"
+          excerpt: "$EXCERPT"
+          tags: ["legal-marketing", "law-firm-strategy"]
+          seo_title: "$TITLE"
+          seo_description: "$SEO_DESC"
+          draft: true
+          ---
+
+          $CONTENT
+          EOFILE
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Draft: Auto-generated blog post for week ${{ steps.week.outputs.week }}"
+          title: "Draft: ${{ steps.topic.outputs.topic }}"
+          body: |
+            🤖 **Auto-generated Draft Blog Post**
+
+            **Topic**: ${{ steps.topic.outputs.topic }}
+            **Focus**: ${{ steps.topic.outputs.focus }}
+            **Week**: ${{ steps.week.outputs.week }}
+
+            This is a draft generated by Claude. Please review for:
+            - Accuracy and factual correctness
+            - Alignment with brand voice
+            - Any edits needed before publication
+            - Whether to publish or request revisions
+
+            Once approved, this can be published or edited further.
+          branch: draft/blog-week-${{ steps.week.outputs.week }}
+          delete-branch: true
+          labels: |
+            content
+            auto-generated
+            blog

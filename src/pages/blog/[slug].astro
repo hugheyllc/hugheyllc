@@ -1,0 +1,173 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, getEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: any;
+}
+
+const { entry } = Astro.props;
+const { body } = entry;
+const { title, seo_title, seo_description, date, author, excerpt, tags } = entry.data;
+---
+
+<BaseLayout
+  title={seo_title || title}
+  description={seo_description || excerpt}
+  canonical={`https://hugheyllc.com/blog/${entry.id}`}
+>
+  <article style="background: var(--ink); color: var(--white);">
+    <div style="min-height: 400px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding-top: 100px; padding-bottom: 60px;">
+      <div class="w">
+        <div style="max-width: 800px;">
+          {tags.length > 0 && (
+            <div style="margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 8px;">
+              {tags.slice(0, 4).map((tag: string) => (
+                <span style="font-size: 11px; color: rgba(200, 151, 58, 0.7); background: rgba(200, 151, 58, 0.1); padding: 6px 12px; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em;">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+          <h1 style="font-size: clamp(32px, 6vw, 56px); font-weight: 800; line-height: 1.2; margin-bottom: 20px;">
+            {title}
+          </h1>
+          <div style="display: flex; align-items: center; gap: 24px; font-size: 14px; color: rgba(255, 255, 255, 0.6);">
+            <time>
+              {new Date(date).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </time>
+            <span>•</span>
+            <span>By {author}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 80px 0;">
+      <div class="w">
+        <div style="max-width: 800px;">
+          <div style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
+            <div set:html={body}></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15); border-bottom: 1px solid rgba(200, 151, 58, 0.15); padding: 60px 0;">
+      <div class="w">
+        <div style="max-width: 800px;">
+          <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--gold);">About the Author</h3>
+          <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+            {author} is the founder of Hughey LLC, a law firm marketing strategy consulting firm. With 20+ years of legal marketing experience, Joe works exclusively with law firms to build marketing operations that generate retained clients.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 60px 0;">
+      <div class="w">
+        <div style="max-width: 800px;">
+          <a href="/blog" style="display: inline-flex; align-items: center; gap: 8px; color: var(--gold); text-decoration: none; font-weight: 600; transition: color 0.2s;">
+            ← Back to Blog
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <style>
+    :global(article h2) {
+      font-size: 32px;
+      font-weight: 700;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      color: var(--white);
+      line-height: 1.3;
+    }
+
+    :global(article h3) {
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 16px;
+      color: var(--white);
+      line-height: 1.3;
+    }
+
+    :global(article p) {
+      margin-bottom: 20px;
+    }
+
+    :global(article ul),
+    :global(article ol) {
+      margin-bottom: 20px;
+      padding-left: 24px;
+    }
+
+    :global(article li) {
+      margin-bottom: 8px;
+    }
+
+    :global(article a) {
+      color: var(--gold);
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+
+    :global(article a:hover) {
+      color: var(--glt);
+    }
+
+    :global(article strong) {
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    :global(article em) {
+      font-style: italic;
+    }
+
+    :global(article blockquote) {
+      border-left: 4px solid var(--gold);
+      padding-left: 20px;
+      margin-left: 0;
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.7);
+      font-style: italic;
+    }
+
+    :global(article code) {
+      background: rgba(200, 151, 58, 0.08);
+      color: rgba(200, 151, 58, 0.9);
+      padding: 2px 6px;
+      border-radius: 2px;
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+    }
+
+    :global(article pre) {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      padding: 20px;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin-bottom: 20px;
+    }
+
+    a:hover {
+      color: var(--glt);
+    }
+  </style>
+</BaseLayout>

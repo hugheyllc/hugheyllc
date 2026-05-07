@@ -1,0 +1,62 @@
+---
+---
+
+<section class="trust-bar rx">
+  <div class="w">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-num">150+</div>
+        <div class="trust-label">Law Firms Served</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-num">20+</div>
+        <div class="trust-label">Years in Legal Marketing</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-num">$500M+</div>
+        <div class="trust-label">Client Revenue Influenced</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-num">94%</div>
+        <div class="trust-label">Client Retention Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .trust-bar {
+    padding: 60px 0;
+    background: var(--white);
+    border-top: 1px solid rgba(200, 151, 58, 0.1);
+    border-bottom: 1px solid rgba(200, 151, 58, 0.1);
+  }
+
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    text-align: center;
+  }
+
+  .trust-item {
+    padding: 0 20px;
+  }
+
+  .trust-num {
+    font-family: var(--bar);
+    font-weight: 800;
+    font-size: clamp(32px, 5vw, 56px);
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 12px;
+    letter-spacing: -0.03em;
+  }
+
+  .trust-label {
+    font-size: 14px;
+    color: var(--sub);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+</style>

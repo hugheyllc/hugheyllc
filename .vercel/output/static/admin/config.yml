@@ -1,0 +1,92 @@
+backend:
+  name: git-gateway
+  branch: main
+  squash_merges: true
+
+media_folder: /public/images/uploads
+public_folder: /images/uploads
+
+site_url: https://hugheyllc.com
+display_url: https://hugheyllc.com
+logo_url: https://hugheyllc.com/logo.svg
+
+editor:
+  preview: true
+
+collections:
+  # Blog Posts
+  - name: blog
+    label: Blog Posts
+    folder: src/content/blog
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Slug, name: slug, widget: string, required: true, hint: "URL-friendly version of the title (auto-filled)" }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", required: true }
+      - { label: Author, name: author, widget: string, default: "Joe Hughey", required: true }
+      - { label: Excerpt, name: excerpt, widget: text, required: true, hint: "Short summary (160 chars max)" }
+      - { label: Content, name: body, widget: markdown, required: true }
+      - { label: Tags, name: tags, widget: list, required: false, hint: "Comma-separated topics" }
+      - { label: SEO Title, name: seo_title, widget: string, required: true, hint: "For search results (60 chars)" }
+      - { label: SEO Description, name: seo_description, widget: text, required: true, hint: "Meta description (160 chars)" }
+      - { label: Draft, name: draft, widget: boolean, default: false, required: true }
+
+  # Insights
+  - name: insights
+    label: Insights
+    folder: src/content/insights
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Slug, name: slug, widget: string, required: true }
+      - { label: Excerpt, name: excerpt, widget: text, required: true, hint: "Short summary" }
+      - { label: Content, name: body, widget: markdown, required: true }
+
+  # Services
+  - name: services
+    label: Services
+    folder: src/content/services
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Slug, name: slug, widget: string, required: true }
+      - { label: Short Description, name: excerpt, widget: text, required: true, hint: "One-line summary for grid cards" }
+      - { label: Full Description, name: body, widget: markdown, required: true }
+      - { label: Icon, name: icon, widget: string, default: "⚙️", required: false }
+      - { label: Order, name: order, widget: number, default: 1, required: true }
+
+  # Site Settings
+  - name: settings
+    label: Site Settings
+    files:
+      - file: src/content/site-copy.md
+        label: Site Copy & Brand Content
+        name: site_copy
+        format: frontmatter
+        fields:
+          - { label: Firm Narrative, name: firm_narrative, widget: markdown, required: true }
+          - { label: "Joe's Bio", name: joe_bio, widget: markdown, required: true }
+          - { label: Contact Page Copy, name: contact_copy, widget: markdown, required: true }
+          - { label: Location Page Copy, name: location_copy, widget: markdown, required: true }
+
+  # Testimonials
+  - name: testimonials
+    label: Testimonials
+    folder: src/content/testimonials
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Client Name, name: title, widget: string, required: true }
+      - { label: Firm Name, name: firm, widget: string, required: true }
+      - { label: Practice Area, name: practice_area, widget: string, required: true }
+      - { label: Quote, name: body, widget: markdown, required: true }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Featured, name: featured, widget: boolean, default: false }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", required: true }

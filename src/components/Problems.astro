@@ -1,0 +1,152 @@
+---
+---
+
+<section class="problems rx">
+  <div class="w">
+    <div class="problems-header">
+      <span class="prob-eyebrow">The Real Problem</span>
+      <h2 class="prob-title">Most Law Firms Are Measuring the Wrong Thing</h2>
+    </div>
+
+    <div class="problems-grid">
+      <div class="problem-card rxl d1">
+        <!-- pie-chart -->
+        <svg class="prob-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M12 12v10"></path>
+          <path d="M12 12L19.66 5.34"></path>
+        </svg>
+        <h3>Vanity Metrics</h3>
+        <p>Marketing teams celebrate impressions, clicks, and leads. But nobody asks: how many of those leads actually become retained clients?</p>
+      </div>
+
+      <div class="problem-card rxl d2">
+        <!-- database -->
+        <svg class="prob-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+          <path d="M3 5v14a9 3 0 0 0 18 0V5"></path>
+          <path d="M3 12a9 3 0 0 0 18 0"></path>
+        </svg>
+        <h3>Siloed Data</h3>
+        <p>Your website, Google Ads, CRM, intake forms, and billing system don't talk to each other. Marketing doesn't know what closes cases.</p>
+      </div>
+
+      <div class="problem-card rxl d3">
+        <!-- dollar-sign -->
+        <svg class="prob-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="1" x2="12" y2="23"></line>
+          <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+        </svg>
+        <h3>Budget Waste</h3>
+        <p>You're spending on channels that don't convert while underfunding the ones that do. No system to connect spend to retained clients.</p>
+      </div>
+
+      <div class="problem-card rxr d1">
+        <!-- droplet -->
+        <svg class="prob-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+        </svg>
+        <h3>Lead Leakage</h3>
+        <p>53% of qualified leads never reach a consultation. Form submission to first call takes days. Intake process loses them to competitors.</p>
+      </div>
+
+      <div class="problem-card rxr d2">
+        <!-- map -->
+        <svg class="prob-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+          <line x1="8" y1="2" x2="8" y2="18"></line>
+          <line x1="16" y1="6" x2="16" y2="22"></line>
+        </svg>
+        <h3>No Strategy</h3>
+        <p>You react to vendor pitches instead of following a plan. "Let's try SEO" one quarter, "now PPC" the next. Inconsistent results.</p>
+      </div>
+
+      <div class="problem-card rxr d3">
+        <!-- x-octagon -->
+        <svg class="prob-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 20 6 22 12 20 18 12 22 4 18 2 12 4 6 12 2"></polygon>
+          <line x1="7" y1="7" x2="17" y2="17"></line>
+          <line x1="17" y1="7" x2="7" y2="17"></line>
+        </svg>
+        <h3>Wrong KPIs</h3>
+        <p>You can't answer: "What does it cost us to acquire a retained client?" So you can't make rational budget decisions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .problems {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #FAFAF5 0%, #FFFFFF 100%);
+  }
+
+  .problems-header {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .prob-eyebrow {
+    display: block;
+    font-family: var(--man);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(17, 24, 39, 0.5);
+    margin-bottom: 16px;
+  }
+
+  .prob-title {
+    font-family: var(--man);
+    font-weight: 800;
+    font-size: clamp(32px, 6vw, 56px);
+    color: var(--ink);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+
+  .problems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+  }
+
+  .problem-card {
+    padding: 32px;
+    background: var(--white);
+    border: 1px solid rgba(200, 151, 58, 0.1);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  .problem-card:hover {
+    border-color: rgba(200, 151, 58, 0.3);
+    box-shadow: 0 8px 32px rgba(200, 151, 58, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .prob-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    display: block;
+    stroke: var(--gold);
+    color: var(--gold);
+  }
+
+  .problem-card h3 {
+    font-family: var(--man);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--ink);
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
+  }
+
+  .problem-card p {
+    font-size: 15px;
+    color: var(--sub);
+    line-height: 1.6;
+  }
+</style>

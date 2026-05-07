@@ -1,0 +1,177 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Contact Hughey LLC | Law Firm Marketing Consulting"
+  description="Schedule a free strategy call with Joe Hughey to discuss your law firm's marketing. Response within 1 business day."
+  canonical="https://hugheyllc.com/contact"
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <!-- Hero -->
+    <div style="min-height: 280px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 80px 0;">
+      <div class="w">
+        <h1 style="font-size: clamp(42px, 6vw, 72px); font-weight: 800; line-height: 1.1; max-width: 900px; margin-bottom: 20px;">
+          Let's Talk About Your Law Firm
+        </h1>
+        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px; line-height: 1.6;">
+          Schedule a free strategy call to discuss your firm's marketing. We'll respond within one business day.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div style="padding: 80px 0; max-width: 1200px; margin: 0 auto;">
+      <div class="w">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start;">
+          <!-- Form -->
+          <div>
+            <form id="contactForm" style="display: flex; flex-direction: column; gap: 24px;">
+              <div>
+                <label for="name" style="display: block; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.6); margin-bottom: 8px;">Name *</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 12px 16px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 2px; color: var(--white); font-size: 14px;" />
+              </div>
+
+              <div>
+                <label for="firmName" style="display: block; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.6); margin-bottom: 8px;">Firm Name *</label>
+                <input type="text" id="firmName" name="firmName" required style="width: 100%; padding: 12px 16px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 2px; color: var(--white); font-size: 14px;" />
+              </div>
+
+              <div>
+                <label for="phone" style="display: block; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.6); margin-bottom: 8px;">Phone *</label>
+                <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 12px 16px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 2px; color: var(--white); font-size: 14px;" />
+              </div>
+
+              <div>
+                <label for="source" style="display: block; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.6); margin-bottom: 8px;">How did you find us? *</label>
+                <select id="source" name="source" required style="width: 100%; padding: 12px 16px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 2px; color: var(--white); font-size: 14px;">
+                  <option value="">Select an option</option>
+                  <option value="Search engine">Search engine</option>
+                  <option value="Referral">Referral</option>
+                  <option value="Social media">Social media</option>
+                  <option value="Speaking engagement">Speaking engagement</option>
+                  <option value="Conference">Conference</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message" style="display: block; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.6); margin-bottom: 8px;">Message *</label>
+                <textarea id="message" name="message" required rows="5" style="width: 100%; padding: 12px 16px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 2px; color: var(--white); font-size: 14px; font-family: inherit; resize: vertical;"></textarea>
+              </div>
+
+              <!-- Honeypot -->
+              <input type="text" id="honeypot" name="honeypot" style="display: none;" />
+
+              <!-- Status Messages -->
+              <div id="statusMessage" style="display: none; padding: 16px; border-radius: 2px; font-size: 14px; margin-top: 16px;"></div>
+
+              <!-- Submit -->
+              <button type="submit" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42); align-self: flex-start;">
+                Send Message →
+              </button>
+            </form>
+          </div>
+
+          <!-- Info Sidebar -->
+          <div>
+            <div style="background: rgba(200, 151, 58, 0.05); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 40px; margin-bottom: 40px;">
+              <h3 style="font-size: 18px; font-weight: 700; color: var(--gold); margin-bottom: 24px;">Get in Touch</h3>
+              
+              <div style="margin-bottom: 32px;">
+                <p style="font-size: 12px; color: rgba(200, 151, 58, 0.9); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px;">Phone</p>
+                <p style="font-size: 16px; color: var(--white); font-weight: 600;">727-483-3222</p>
+              </div>
+
+              <div style="margin-bottom: 32px;">
+                <p style="font-size: 12px; color: rgba(200, 151, 58, 0.9); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px;">Address</p>
+                <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+                  5412 Dover St NE<br />
+                  St. Petersburg, FL 33703
+                </p>
+              </div>
+
+              <div>
+                <p style="font-size: 12px; color: rgba(200, 151, 58, 0.9); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px;">Response Time</p>
+                <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7);">Within 1 business day</p>
+              </div>
+            </div>
+
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 40px;">
+              <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 16px;">What to Expect</h3>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6; margin-bottom: 16px;">
+                We'll discuss your firm's current marketing situation, where you're seeing success, and where you need the most help.
+              </p>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
+                No pitch. No pressure. Just a conversation with someone who's spent 20 years working with law firms like yours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('contactForm') as HTMLFormElement;
+    const statusMessage = document.getElementById('statusMessage') as HTMLDivElement;
+
+    form.addEventListener('submit', async (e: SubmitEvent) => {
+      e.preventDefault();
+      
+      const formData = new FormData(form);
+      const data = {
+        name: formData.get('name'),
+        firmName: formData.get('firmName'),
+        phone: formData.get('phone'),
+        source: formData.get('source'),
+        message: formData.get('message'),
+        honeypot: formData.get('honeypot')
+      };
+
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          statusMessage.style.display = 'block';
+          statusMessage.style.background = 'rgba(200, 151, 58, 0.15)';
+          statusMessage.style.color = 'var(--gold)';
+          statusMessage.textContent = result.message;
+          form.reset();
+        } else {
+          statusMessage.style.display = 'block';
+          statusMessage.style.background = 'rgba(255, 100, 100, 0.15)';
+          statusMessage.style.color = '#ff6464';
+          statusMessage.textContent = result.error || 'An error occurred. Please try again.';
+        }
+      } catch (error) {
+        statusMessage.style.display = 'block';
+        statusMessage.style.background = 'rgba(255, 100, 100, 0.15)';
+        statusMessage.style.color = '#ff6464';
+        statusMessage.textContent = 'An error occurred. Please try again or call 727-483-3222.';
+      }
+    });
+  </script>
+
+  <style>
+    input:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--gold);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    button:hover {
+      background: var(--glt);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52);
+    }
+  </style>
+</BaseLayout>

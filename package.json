@@ -1,0 +1,20 @@
+{
+  "name": "hughey-llc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.18.0",
+    "@astrojs/sitemap": "^3.7.2",
+    "@astrojs/vercel": "^10.0.6",
+    "astro": "^6.2.1",
+    "fast-xml-parser": "^5.7.2",
+    "feather-icons": "^4.29.2",
+    "resend": "^6.12.2"
+  }
+}

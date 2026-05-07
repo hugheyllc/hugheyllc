@@ -1,0 +1,172 @@
+name: Link Checker
+
+on:
+  schedule:
+    # Sunday at 8:00 AM UTC
+    - cron: '0 8 * * 0'
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm install broken-link-checker
+
+      - name: Run link checker
+        id: linkcheck
+        continue-on-error: true
+        run: |
+          node << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+
+          // Get all markdown and HTML files
+          const getFiles = (dir, ext) => {
+            let files = [];
+            const items = fs.readdirSync(dir);
+            items.forEach(item => {
+              const fullPath = path.join(dir, item);
+              const stat = fs.statSync(fullPath);
+              if (stat.isDirectory()) {
+                if (!fullPath.includes('node_modules') && !fullPath.includes('.git')) {
+                  files = files.concat(getFiles(fullPath, ext));
+                }
+              } else if (fullPath.endsWith(ext)) {
+                files.push(fullPath);
+              }
+            });
+            return files;
+          };
+
+          const mdFiles = getFiles('.', '.md');
+          const htmlFiles = getFiles('public', '.html');
+
+          const brokenLinks = new Set();
+          const urlRegex = /https?:\/\/[^\s\)\"\']+/g;
+
+          // Extract URLs from files
+          const allFiles = [...mdFiles, ...htmlFiles];
+          allFiles.forEach(file => {
+            try {
+              const content = fs.readFileSync(file, 'utf-8');
+              const urls = content.match(urlRegex) || [];
+              urls.forEach(url => {
+                // Skip internal links and common patterns
+                if (!url.includes('localhost') &&
+                    !url.includes('example.com') &&
+                    !url.includes('hugheyllc.com') &&
+                    !url.endsWith('.yaml') &&
+                    !url.endsWith('.yml')) {
+                  brokenLinks.add(url);
+                }
+              });
+            } catch (e) {
+              console.error('Error reading file:', file);
+            }
+          });
+
+          console.log(`Found ${brokenLinks.size} external URLs to check`);
+
+          // Check each URL with timeout
+          const https = require('https');
+          const http = require('http');
+          const failedLinks = [];
+
+          const checkUrl = (url) => {
+            return new Promise((resolve) => {
+              const protocol = url.startsWith('https') ? https : http;
+              const timeout = setTimeout(() => {
+                resolve({ url, status: 'timeout' });
+              }, 5000);
+
+              protocol.head(url, { redirect: 'follow' }, (res) => {
+                clearTimeout(timeout);
+                if (res.statusCode >= 400) {
+                  resolve({ url, status: res.statusCode });
+                } else {
+                  resolve({ url, status: res.statusCode });
+                }
+              }).on('error', (err) => {
+                clearTimeout(timeout);
+                resolve({ url, status: 'error', error: err.message });
+              });
+            });
+          };
+
+          // Check URLs (limit to 50 for CI performance)
+          const urlsToCheck = Array.from(brokenLinks).slice(0, 50);
+          const results = await Promise.all(urlsToCheck.map(checkUrl));
+
+          results.forEach(result => {
+            if (result.status === 'timeout' ||
+                result.status >= 400 ||
+                result.status === 'error') {
+              failedLinks.push(result);
+            }
+          });
+
+          if (failedLinks.length > 0) {
+            fs.writeFileSync('/tmp/broken_links.json', JSON.stringify(failedLinks, null, 2));
+            console.log('BROKEN_LINKS_FOUND=true');
+            process.exit(1);
+          } else {
+            console.log('No broken links found');
+          }
+          EOF
+
+      - name: Create GitHub Issue if links broken
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let brokenLinks = [];
+
+            try {
+              brokenLinks = JSON.parse(fs.readFileSync('/tmp/broken_links.json', 'utf-8'));
+            } catch (e) {
+              brokenLinks = [{ error: 'Failed to read broken links data' }];
+            }
+
+            const linksList = brokenLinks
+              .slice(0, 20)
+              .map(link => `- ${link.url} (${link.status})`)
+              .join('\n');
+
+            const body = `🔗 **Broken Links Detected**
+
+            ${brokenLinks.length} broken or inaccessible external links found during link check.
+
+            **Sample links to review:**
+            ${linksList}
+
+            ${brokenLinks.length > 20 ? `\n*... and ${brokenLinks.length - 20} more links*` : ''}
+
+            **Action**: Review these links and either:
+            1. Update broken links with working alternatives
+            2. Remove references to dead pages
+            3. If these are false positives, add them to the exclusion list
+
+            [Link Check Report](/runs/${{ github.run_id }})`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🔗 Broken Links Found (${new Date().toISOString().split('T')[0]})`,
+              body: body,
+              labels: ['maintenance', 'link-check']
+            });

@@ -1,0 +1,64 @@
+{
+  "topics": [
+    {
+      "week": 1,
+      "topic": "AI-Powered Intake Systems for Law Firms: Capture More Leads, Lose Fewer to Competitors",
+      "focus": "Legal tech, automation, intake optimization"
+    },
+    {
+      "week": 2,
+      "topic": "The Cost Per Retained Client Framework: Why Law Firms Are Measuring the Wrong Metrics",
+      "focus": "Marketing analytics, attribution, law firm metrics"
+    },
+    {
+      "week": 3,
+      "topic": "Personal Injury Marketing 2026: What's Winning in the AI-Search World",
+      "focus": "Personal injury marketing, AI search, SEO strategy"
+    },
+    {
+      "week": 4,
+      "topic": "Building Your Own Marketing Operations Team vs. Hiring an Agency: The Decision Framework",
+      "focus": "In-house vs. agency, team building, marketing operations"
+    },
+    {
+      "week": 5,
+      "topic": "CRM Automation That Actually Converts: From Inquiry to Retained Client",
+      "focus": "CRM, automation, lead nurturing, conversion"
+    },
+    {
+      "week": 6,
+      "topic": "Generative AI for Law Firm Content: Beyond ChatGPT (And E-E-A-T Compliance)",
+      "focus": "AI content generation, E-E-A-T, Google requirements"
+    },
+    {
+      "week": 7,
+      "topic": "Family Law Marketing 2026: Positioning in an Oversaturated Market",
+      "focus": "Family law marketing, positioning, differentiation"
+    },
+    {
+      "week": 8,
+      "topic": "The Google Ads Audit Every Law Firm Needs Right Now (And How to Fix Common Mistakes)",
+      "focus": "Google Ads, PPC, legal advertising, optimization"
+    },
+    {
+      "week": 9,
+      "topic": "Data Privacy in Law Firm Marketing: TCPA, CCPA, and Florida Bar Advertising Rules",
+      "focus": "Legal compliance, data privacy, advertising regulations"
+    },
+    {
+      "week": 10,
+      "topic": "Local SEO Domination for Law Firms: Winning the Local Pack in 2026",
+      "focus": "Local SEO, Google Business Profile, competitive advantage"
+    },
+    {
+      "week": 11,
+      "topic": "Predictive Analytics for Law Firm Growth: Identifying Your Next 100 Clients",
+      "focus": "Analytics, prediction, growth strategy, data science"
+    },
+    {
+      "week": 12,
+      "topic": "The Marketing Vendor Audit: Evaluating Your Agency, Tech Stack, and Consulting Partners",
+      "focus": "Agency evaluation, vendor management, marketing audit"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Libre+Baskerville:ital@1&family=Barlow+Condensed:wght@700;800&family=Dancing+Script:wght@600&display=swap');
+
+/* ── TOKENS ──────────────────────────────────────────────────── */
+:root {
+  --ink:    #09131F;
+  --navy:   #0F2040;
+  --mid:    #1B3360;
+  --steel:  #243A66;
+  --gold:   #C8973A;
+  --glt:    #DDA94E;
+  --gdim:   #9A7030;
+  --gcm:    #F5E8CC;
+  --page:   #FAFAF5;
+  --warm:   #F4EDE0;
+  --cream:  #EDE2CC;
+  --white:  #FFFFFF;
+  --text:   #111827;
+  --sub:    #4A5568;
+  --dim:    #8896A5;
+  --bdr:    #E2D8C8;
+  --ok:     #1A9E6B;
+  --man:    'Manrope', sans-serif;
+  --bas:    'Libre Baskerville', serif;
+  --bar:    'Barlow Condensed', sans-serif;
+  --sig:    'Dancing Script', cursive;
+}
+
+/* ── RESET ───────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--man);
+  color: var(--text);
+  background: var(--white);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* ── LAYOUT ──────────────────────────────────────────────────── */
+.w {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 52px;
+}
+
+/* ── ANIMATIONS ──────────────────────────────────────────────── */
+.rx, .rxl, .rxr {
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.rx {
+  transform: translateY(24px);
+}
+
+.rxl {
+  transform: translateX(-24px);
+}
+
+.rxr {
+  transform: translateX(24px);
+}
+
+.rx.in,
+.rxl.in,
+.rxr.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Failsafe: if JS never runs or fails, show everything */
+.no-js .rx,
+.no-js .rxl,
+.no-js .rxr {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .rx, .rxl, .rxr {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+.d1 {
+  transition-delay: 0.1s !important;
+}
+
+.d2 {
+  transition-delay: 0.2s !important;
+}
+
+.d3 {
+  transition-delay: 0.3s !important;
+}

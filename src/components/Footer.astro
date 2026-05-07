@@ -1,0 +1,183 @@
+---
+---
+
+<footer>
+  <div class="w">
+    <div class="ft-top">
+      <div>
+        <div class="ft-logo-wrap">
+          <span class="ft-sig">Hughey</span>
+          <!-- SWAP: <img src="/images/Signature_800.png" class="logo-img logo-light" alt="Hughey LLC" style="height:44px;margin-bottom:4px"> -->
+          <span class="ft-llc-text">LLC</span>
+        </div>
+        <p class="ft-tagline">Legal marketing strategy built on twenty years of experience and a relentless focus on retained clients.</p>
+        <div class="ft-nap">
+          <strong>5412 Dover St NE</strong><br />
+          St. Petersburg, FL 33703<br />
+          <strong>727-483-3222</strong>
+        </div>
+      </div>
+      <div class="ft-col">
+        <div class="ft-ch">Services</div>
+        <ul>
+          <li><a href="/services/data-analysis-for-law-firms">Data Analysis</a></li>
+          <li><a href="/services/agency-management-for-law-firms">Agency Management</a></li>
+          <li><a href="/services/intake-process-optimization">Intake Optimization</a></li>
+          <li><a href="/services/strategic-marketing-for-law-firms">Strategic Marketing</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <div class="ft-ch">Insights</div>
+        <ul>
+          <li><a href="/insights/law-firm-marketing-operating-system">Marketing OS</a></li>
+          <li><a href="/insights/seo-law-firms-ai-search-world">SEO & AI Search</a></li>
+          <li><a href="/insights/intake-system">Intake Systems</a></li>
+          <li><a href="/insights/legal-marketing-kpis">Marketing KPIs</a></li>
+          <li><a href="/insights/choose-marketing-partner">Choosing a Partner</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <div class="ft-ch">Company</div>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/location">Location</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <div class="ft-copy">© 2026 Hughey LLC. All rights reserved.</div>
+      <div class="ft-soc">
+        <a href="https://www.linkedin.com/in/joehughey/" rel="noopener">LinkedIn</a>
+        <a href="https://www.facebook.com/profile.php?id=61577138003264" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* ── FOOTER ──────────────────────────────────────────────────── */
+  footer {
+    background: var(--ink);
+    padding: 72px 0 40px;
+  }
+
+  .ft-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 52px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    margin-bottom: 36px;
+  }
+
+  /* Footer logo: swap .ft-logo-text block with <img> when real logo available */
+  .ft-logo-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 18px;
+  }
+
+  .ft-sig {
+    font-family: var(--sig);
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--white);
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+  }
+
+  /* Real logo version: <img src="/images/Signature_800.png" class="logo-img logo-light" style="height:44px;margin-bottom:4px"> */
+  .ft-llc-text {
+    font-family: var(--man);
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.28);
+    margin-top: -2px;
+  }
+
+  .ft-tagline {
+    font-family: var(--bas);
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.28);
+    line-height: 1.65;
+    margin-bottom: 20px;
+  }
+
+  .ft-nap {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.22);
+    line-height: 1.9;
+  }
+
+  .ft-nap strong {
+    color: rgba(255, 255, 255, 0.42);
+    font-weight: 600;
+  }
+
+  .ft-ch {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  .ft-col ul {
+    list-style: none;
+  }
+
+  .ft-col ul li {
+    margin-bottom: 10px;
+  }
+
+  .ft-col ul a {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .ft-col ul a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .ft-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ft-copy {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.18);
+    font-weight: 500;
+  }
+
+  .ft-soc {
+    display: flex;
+    gap: 18px;
+  }
+
+  .ft-soc a {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.22);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .ft-soc a:hover {
+    color: var(--gold);
+  }
+</style>

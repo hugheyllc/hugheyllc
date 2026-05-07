@@ -1,0 +1,144 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const services = [
+  {
+    title: 'Data Analysis for Law Firms',
+    slug: 'data-analysis-for-law-firms',
+    excerpt: 'Understand which marketing channels actually drive retained clients with unified analytics and dashboards.',
+    description: 'Your marketing data is scattered across platforms. We audit your analytics stack, implement proper conversion tracking, and build dashboards showing cost-per-retained-client by channel.'
+  },
+  {
+    title: 'Agency Management for Law Firms',
+    slug: 'agency-management-for-law-firms',
+    excerpt: 'Coordinate multiple vendors into an integrated strategy aligned on metrics that matter.',
+    description: 'Managing an SEO agency, PPC agency, and web developer separately is inefficient. We become your marketing operations director, integrating all vendors and holding them accountable to retained client metrics.'
+  },
+  {
+    title: 'Intake Process Optimization',
+    slug: 'intake-process-optimization',
+    excerpt: 'Convert more leads to clients with a redesigned intake process that captures, qualifies, and converts faster.',
+    description: 'Your marketing drives leads but your intake process drops 30-40% of them. We redesign your intake workflow, implement the right technology, and train your team to convert more prospects into clients.'
+  },
+  {
+    title: 'Strategic Marketing for Law Firms',
+    slug: 'strategic-marketing-for-law-firms',
+    excerpt: 'Develop an integrated 12-month marketing strategy that aligns investment with growth goals and intake capacity.',
+    description: 'Reactive marketing wastes budget and confuses your team. We develop a clear, integrated strategy for the year ahead with realistic timelines, budget allocation, and monthly progress tracking.'
+  }
+];
+---
+
+<BaseLayout
+  title="Legal Marketing Services | Hughey LLC"
+  description="Law firm marketing strategy and operations services: data analysis, agency management, intake optimization, and strategic planning."
+  canonical="https://hugheyllc.com/services"
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <!-- Hero Section -->
+    <div style="min-height: 320px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 80px 0;">
+      <div class="w">
+        <h1 style="font-size: clamp(42px, 6vw, 72px); font-weight: 800; line-height: 1.1; max-width: 900px; margin-bottom: 20px;">
+          Four Services.<br />One Outcome:<br /><em style="color: var(--glt); font-style: italic;">Retained Clients</em>
+        </h1>
+        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px; line-height: 1.6;">
+          Most law firms need more than one. We combine them based on where your firm needs the most help.
+        </p>
+      </div>
+    </div>
+
+    <!-- Services Grid -->
+    <div style="padding: 80px 0;">
+      <div class="w">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 40px;">
+          {services.map((service) => (
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 40px; display: flex; flex-direction: column;">
+              <h2 style="font-size: 24px; font-weight: 700; color: var(--white); margin-bottom: 16px; line-height: 1.3;">
+                {service.title}
+              </h2>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.6); margin-bottom: 16px; line-height: 1.6;">
+                {service.description}
+              </p>
+              <a href={`/services/${service.slug}`} style="display: inline-flex; align-items: center; gap: 8px; color: var(--gold); text-decoration: none; font-weight: 600; transition: color 0.2s; margin-top: auto;">
+                Learn More →
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- How It Works -->
+    <div style="padding: 80px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15); border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 900px; margin: 0 auto;">
+          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 48px; text-align: center;">How We Work</h2>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px;">
+            <div style="text-align: center;">
+              <div style="font-size: 48px; font-weight: 800; color: var(--gold); margin-bottom: 16px;">1</div>
+              <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px;">Audit</h3>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.65); line-height: 1.6;">
+                We analyze your current marketing, analytics, intake process, and vendors.
+              </p>
+            </div>
+            
+            <div style="text-align: center;">
+              <div style="font-size: 48px; font-weight: 800; color: var(--gold); margin-bottom: 16px;">2</div>
+              <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px;">Strategy</h3>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.65); line-height: 1.6;">
+                We develop integrated strategy and implementation roadmap for the next 12 months.
+              </p>
+            </div>
+            
+            <div style="text-align: center;">
+              <div style="font-size: 48px; font-weight: 800; color: var(--gold); margin-bottom: 16px;">3</div>
+              <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px;">Execute</h3>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.65); line-height: 1.6;">
+                We work with you and your team to execute the plan and track progress.
+              </p>
+            </div>
+            
+            <div style="text-align: center;">
+              <div style="font-size: 48px; font-weight: 800; color: var(--gold); margin-bottom: 16px;">4</div>
+              <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 12px;">Measure</h3>
+              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.65); line-height: 1.6;">
+                We track cost-per-retained-client and adjust strategy based on results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div style="padding: 80px 0;">
+      <div class="w">
+        <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+          <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 20px;">Ready to Talk?</h2>
+          <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7); margin-bottom: 32px; line-height: 1.6;">
+            Schedule a free strategy call to discuss which service would help your firm most.
+          </p>
+          <a href="/contact" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; transition: background 0.25s, transform 0.2s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Call →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    a:hover {
+      color: var(--glt) !important;
+      background: var(--glt) !important;
+      color: var(--ink) !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
+    }
+
+    em {
+      color: var(--glt);
+      font-style: italic;
+    }
+  </style>
+</BaseLayout>

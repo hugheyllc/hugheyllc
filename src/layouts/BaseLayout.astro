@@ -1,0 +1,90 @@
+---
+import Nav from '../components/Nav.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+  schema?: any;
+}
+
+const { title, description, canonical, ogImage, schema } = Astro.props;
+const siteUrl = 'https://hugheyllc.com';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    {canonical && <link rel="canonical" href={canonical} />}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:type" content="website" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+
+    <!-- Schema.org -->
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+  </head>
+  <body>
+    <Nav />
+    <slot />
+
+    <script>
+      function initReveal() {
+        const targets = document.querySelectorAll('.rx, .rxl, .rxr');
+        if (!targets.length) return;
+
+        // Force-show anything already in the viewport right now
+        targets.forEach(el => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight + 100) {
+            el.classList.add('in');
+          }
+        });
+
+        // Watch everything else
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('in');
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          {
+            threshold: 0.05,
+            rootMargin: '0px 0px -20px 0px'
+          }
+        );
+
+        targets.forEach(el => {
+          if (!el.classList.contains('in')) {
+            observer.observe(el);
+          }
+        });
+      }
+
+      // Run on initial load
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initReveal);
+      } else {
+        initReveal();
+      }
+
+      // Run again after any Astro view transitions
+      document.addEventListener('astro:page-load', initReveal);
+      document.addEventListener('astro:after-swap', initReveal);
+    </script>
+  </body>
+</html>

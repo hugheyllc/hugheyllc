@@ -1,0 +1,181 @@
+---
+---
+
+<section class="final-cta rx">
+  <div class="w">
+    <div class="cta-content">
+      <span class="cta-eyebrow">Next Step</span>
+      <h2 class="cta-title">Ready to Fix Your Marketing Operations?</h2>
+      <p class="cta-desc">Start with a free audit. We'll spend an hour understanding your situation — your data, your intake process, your vendor landscape — and show you exactly what's costing you.</p>
+
+      <div class="cta-buttons">
+        <a href="/contact" class="btn-primary">Schedule Free Audit →</a>
+        <a href="/about" class="btn-ghost">Learn More About Us</a>
+      </div>
+
+      <div class="cta-contact">
+        <div class="contact-item">
+          <div class="contact-label">Phone</div>
+          <div class="contact-value"><a href="tel:7274833222">727-483-3222</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-label">Email</div>
+          <div class="contact-value"><a href="mailto:joe@joehughey.com">joe@joehughey.com</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-label">Response Time</div>
+          <div class="contact-value">Within 1 business day</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .final-cta {
+    padding: 100px 0;
+    background: linear-gradient(135deg, var(--ink) 0%, var(--navy) 100%);
+    color: var(--white);
+    text-align: center;
+  }
+
+  .cta-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .cta-eyebrow {
+    display: block;
+    font-family: var(--man);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 16px;
+  }
+
+  .cta-title {
+    font-family: var(--man);
+    font-weight: 800;
+    font-size: clamp(32px, 7vw, 56px);
+    color: var(--white);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+  }
+
+  .cta-desc {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: var(--gold);
+    color: var(--ink);
+    font-family: var(--man);
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 16px 34px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s;
+    box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);
+  }
+
+  .btn-primary:hover {
+    background: var(--glt);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52);
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: rgba(255, 255, 255, 0.07);
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--man);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 16px 28px;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.22s;
+  }
+
+  .btn-ghost:hover {
+    background: rgba(255, 255, 255, 0.13);
+    color: var(--white);
+  }
+
+  .cta-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .contact-item {
+    text-align: center;
+  }
+
+  .contact-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 8px;
+  }
+
+  .contact-value {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  .contact-value a {
+    color: var(--gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .contact-value a:hover {
+    color: var(--glt);
+  }
+
+  @media (max-width: 600px) {
+    .cta-buttons {
+      flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-ghost {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
