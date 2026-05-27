@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
 import { getCollection } from 'astro:content';
 
 const allBlogPosts = await getCollection('blog');
@@ -15,14 +16,9 @@ const posts = allBlogPosts
   description="Insights, strategies, and best practices for law firm marketing. From SEO to client intake to marketing analytics — everything you need to know."
   canonical="https://hugheyllc.com/blog"
 >
-  <div style="min-height: 100vh; background: var(--ink); padding-top: 100px; padding-bottom: 80px;">
-    <div class="w">
-      <div style="margin-bottom: 80px;">
-        <h1 style="font-size: 48px; color: var(--white); margin-bottom: 20px;">Law Firm Marketing Blog</h1>
-        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px;">
-          Strategies, insights, and frameworks for law firm marketing — from data analysis to client intake to marketing operations.
-        </p>
-      </div>
+  <div style="min-height: 100vh; background: var(--ink);">
+    <PageHero eyebrow="Insights & Strategy" heading="Law Firm Marketing<br /><em>Blog</em>" subheading="Strategies, insights, and frameworks for law firm marketing — from data analysis to client intake to marketing operations." />
+    <div class="w" style="padding-bottom: 80px;">
 
       <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 40px;">
         {posts.map((post) => (

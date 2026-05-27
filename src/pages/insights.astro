@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
 import { getCollection } from 'astro:content';
 
 const insights = await getCollection('insights');
@@ -11,16 +12,7 @@ const insights = await getCollection('insights');
   canonical="https://hugheyllc.com/insights"
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
-    <div style="min-height: 280px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 140px 0 80px;">
-      <div class="w">
-        <h1 style="font-size: clamp(42px, 6vw, 72px); font-weight: 800; line-height: 1.1; max-width: 900px; margin-bottom: 20px;">
-          Legal Marketing<br />Insights
-        </h1>
-        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px; line-height: 1.6;">
-          Strategic frameworks and insights for law firm marketing operations, from data analysis to intake systems to measuring what actually matters.
-        </p>
-      </div>
-    </div>
+    <PageHero eyebrow="Deep Dives" heading="Marketing Intelligence<br /><em>Insights</em>" subheading="Long-form frameworks and analysis for law firm marketing operations." />
 
     <div style="padding: 80px 0;">
       <div class="w">

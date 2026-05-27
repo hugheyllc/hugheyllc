@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -25,18 +26,7 @@ const { title, excerpt } = insight.data;
   canonical={`https://hugheyllc.com/insights/${insight.data.slug}`}
 >
   <article style="background: var(--ink); color: var(--white); min-height: 100vh;">
-    <div style="min-height: 320px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 140px 0 80px;">
-      <div class="w">
-        <div style="max-width: 900px;">
-          <h1 style="font-size: clamp(36px, 5vw, 56px); font-weight: 800; line-height: 1.2; margin-bottom: 20px;">
-            {title}
-          </h1>
-          <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7);">
-            {excerpt}
-          </p>
-        </div>
-      </div>
-    </div>
+    <PageHero heading={title} subheading={excerpt} />
 
     <div style="padding: 80px 0;">
       <div class="w">

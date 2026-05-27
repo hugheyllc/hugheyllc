@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -25,35 +26,7 @@ const { title, seo_title, seo_description, date, author, excerpt, tags } = entry
   canonical={`https://hugheyllc.com/blog/${entry.id}`}
 >
   <article style="background: var(--ink); color: var(--white);">
-    <div style="min-height: 400px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding-top: 100px; padding-bottom: 60px;">
-      <div class="w">
-        <div style="max-width: 800px;">
-          {tags.length > 0 && (
-            <div style="margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 8px;">
-              {tags.slice(0, 4).map((tag: string) => (
-                <span style="font-size: 11px; color: rgba(200, 151, 58, 0.7); background: rgba(200, 151, 58, 0.1); padding: 6px 12px; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em;">
-                  {tag}
-                </span>
-              ))}
-            </div>
-          )}
-          <h1 style="font-size: clamp(32px, 6vw, 56px); font-weight: 800; line-height: 1.2; margin-bottom: 20px;">
-            {title}
-          </h1>
-          <div style="display: flex; align-items: center; gap: 24px; font-size: 14px; color: rgba(255, 255, 255, 0.6);">
-            <time>
-              {new Date(date).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })}
-            </time>
-            <span>•</span>
-            <span>By {author}</span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <PageHero heading={title} subheading={excerpt} />
 
     <div style="padding: 80px 0;">
       <div class="w">

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
 
 const schema = {
   "@context": "https://schema.org",
@@ -32,16 +33,7 @@ const schema = {
   schema={JSON.stringify(schema)}
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
-    <div style="min-height: 300px; background: linear-gradient(135deg, rgba(200, 151, 58, 0.1) 0%, rgba(27, 51, 96, 0.15) 100%); display: flex; flex-direction: column; justify-content: center; padding: 140px 0 80px;">
-      <div class="w">
-        <h1 style="font-size: clamp(42px, 6vw, 72px); font-weight: 800; line-height: 1.1; max-width: 900px; margin-bottom: 20px;">
-          Based in<br />St. Petersburg,<br />Serving Nationally
-        </h1>
-        <p style="font-size: 18px; color: rgba(255, 255, 255, 0.6); max-width: 700px; line-height: 1.6;">
-          We're located on Florida's Gulf Coast, but we work with law firms across the country.
-        </p>
-      </div>
-    </div>
+    <PageHero eyebrow="Tampa Bay & Beyond" heading="Law Firm Marketing<br /><em>Tampa Bay, FL</em>" subheading="Based in St. Petersburg, FL. Serving law firms across the Gulf Coast and nationally since 2004." />
 
     <div style="padding: 80px 0;">
       <div class="w">
