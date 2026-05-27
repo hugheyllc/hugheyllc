@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
+import FaqSection from '../components/FaqSection.astro';
 
 const firmNarrative = `Hughey LLC is a law firm marketing operations consulting firm founded in 2004. We work exclusively with law firms to build marketing systems that generate retained clients—not just leads, not just brand awareness, but the specific metric that matters: retained clients.
 
@@ -11,6 +12,48 @@ We solve for that disconnect.
 Our approach combines three core capabilities: deep data analysis to understand what's actually driving clients, strategic direction that aligns marketing investment with intake capacity, and operational framework that connects every marketing channel to the metrics that matter for retained clients.
 
 We serve law firms nationally, with particular expertise in personal injury, family law, business law, and complex civil litigation. Our home is Tampa Bay, Florida, where we work with firms across the Gulf Coast.`;
+
+const faqs = [
+  {
+    q: 'Who is Joe Hughey?',
+    a: 'Joe Hughey is the founder of Hughey LLC and has worked exclusively in law firm marketing since 2004. He has helped law firms ranging from solo practitioners to 200+ attorney regional firms build marketing systems focused on retained client growth. He is based in St. Petersburg, Florida and serves firms nationally.',
+  },
+  {
+    q: 'What makes Hughey LLC different from other legal marketing firms?',
+    a: 'Hughey LLC focuses exclusively on law firms and operates at the strategy and operations level — not execution. We do not compete with your SEO agency or PPC firm. We sit above them, aligning all vendors and measuring everything against the metric that matters: cost per retained client.',
+  },
+  {
+    q: 'Does Hughey LLC work with law firms outside of Florida?',
+    a: 'Yes. While we are headquartered in St. Petersburg, Florida and have deep expertise in the Gulf Coast legal market, we work with law firms nationally. All engagements can be conducted remotely.',
+  },
+];
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://hugheyllc.com/about/#joe-hughey",
+  "name": "Joe Hughey",
+  "jobTitle": "Founder & Law Firm Marketing Consultant",
+  "worksFor": { "@id": "https://hugheyllc.com/#business" },
+  "url": "https://hugheyllc.com/about",
+  "sameAs": ["https://www.linkedin.com/in/joehughey/"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "knowsAbout": ["Law firm marketing", "Legal marketing strategy", "Client intake optimization", "Marketing analytics", "Agency management"]
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "About", "item": "https://hugheyllc.com/about" }
+  ]
+};
 
 const backgroundItems = [
   '20+ years in legal marketing strategy and operations',
@@ -25,6 +68,7 @@ const backgroundItems = [
   title="About Hughey LLC | 20+ Years of Law Firm Marketing"
   description="Learn about Hughey LLC's approach to law firm marketing operations, our philosophy, and Joe Hughey's 20+ year journey in legal marketing consulting."
   canonical="https://hugheyllc.com/about"
+  schema={[personSchema, breadcrumbSchema]}
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
     <PageHero eyebrow="20+ Years. One Focus." heading="Focused on One Metric:<br /><em>Retained Clients</em>" subheading="We work exclusively with law firms to build marketing systems that connect every dollar spent to actual client retention." />
@@ -110,6 +154,8 @@ const backgroundItems = [
         </div>
       </div>
     </div>
+
+    <FaqSection items={faqs} heading="Questions About Hughey LLC" />
 
     <!-- CTA Section -->
     <div style="padding: 80px 0;">

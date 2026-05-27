@@ -12,6 +12,61 @@ interface Props {
 
 const { title, description, canonical, ogImage, schema } = Astro.props;
 const siteUrl = 'https://hugheyllc.com';
+const defaultOgImage = `${siteUrl}/images/og-default.svg`;
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://hugheyllc.com/#business",
+  "name": "Hughey LLC",
+  "description": "Law firm marketing operations consulting — helping law firms build systems that generate retained clients.",
+  "url": "https://hugheyllc.com",
+  "telephone": "+17274833222",
+  "email": "joe@joehughey.com",
+  "founder": {
+    "@type": "Person",
+    "name": "Joe Hughey",
+    "url": "https://hugheyllc.com/about",
+    "sameAs": "https://www.linkedin.com/in/joehughey/"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5412 Dover St NE",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "postalCode": "33703",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 27.8206,
+    "longitude": -82.6331
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 27.8206,
+      "longitude": -82.6331
+    }
+  },
+  "knowsAbout": [
+    "Law firm marketing",
+    "Legal marketing strategy",
+    "Marketing analytics",
+    "Client intake optimization",
+    "SEO for law firms",
+    "Google Ads for lawyers"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/joehughey/",
+    "https://www.facebook.com/profile.php?id=61577138003264"
+  ]
+};
 ---
 
 <!DOCTYPE html>
@@ -21,6 +76,10 @@ const siteUrl = 'https://hugheyllc.com';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="apple-touch-icon" href="/images/logo.png" />
+
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     {canonical && <link rel="canonical" href={canonical} />}
@@ -28,12 +87,27 @@ const siteUrl = 'https://hugheyllc.com';
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     {description && <meta property="og:description" content={description} />}
-    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:url" content={canonical ?? siteUrl} />
     <meta property="og:type" content="website" />
-    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta property="og:image" content={ogImage ?? defaultOgImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Hughey LLC" />
+    <meta property="og:locale" content="en_US" />
 
-    <!-- Schema.org -->
-    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={ogImage ?? defaultOgImage} />
+
+    <!-- LocalBusiness Schema (every page) -->
+    <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+
+    <!-- Page-specific Schema -->
+    {schema && (Array.isArray(schema) ? schema : [schema]).map((s: any) => (
+      <script type="application/ld+json" set:html={JSON.stringify(s)} />
+    ))}
   </head>
   <body>
     <Nav />
@@ -44,7 +118,6 @@ const siteUrl = 'https://hugheyllc.com';
         const targets = document.querySelectorAll('.rx, .rxl, .rxr');
         if (!targets.length) return;
 
-        // Force-show anything already in the viewport right now
         targets.forEach(el => {
           const rect = el.getBoundingClientRect();
           if (rect.top < window.innerHeight + 100) {
@@ -52,7 +125,6 @@ const siteUrl = 'https://hugheyllc.com';
           }
         });
 
-        // Watch everything else
         const observer = new IntersectionObserver(
           (entries) => {
             entries.forEach(entry => {
@@ -62,27 +134,20 @@ const siteUrl = 'https://hugheyllc.com';
               }
             });
           },
-          {
-            threshold: 0.05,
-            rootMargin: '0px 0px -20px 0px'
-          }
+          { threshold: 0.05, rootMargin: '0px 0px -20px 0px' }
         );
 
         targets.forEach(el => {
-          if (!el.classList.contains('in')) {
-            observer.observe(el);
-          }
+          if (!el.classList.contains('in')) observer.observe(el);
         });
       }
 
-      // Run on initial load
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initReveal);
       } else {
         initReveal();
       }
 
-      // Run again after any Astro view transitions
       document.addEventListener('astro:page-load', initReveal);
       document.addEventListener('astro:after-swap', initReveal);
     </script>

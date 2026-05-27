@@ -1,0 +1,99 @@
+---
+interface FaqItem {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  items: FaqItem[];
+  heading?: string;
+}
+
+const { items, heading = 'Frequently Asked Questions' } = Astro.props;
+---
+
+<section class="faq-section rx">
+  <div class="w">
+    <h2 class="faq-title">{heading}</h2>
+    <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+      {items.map((item) => (
+        <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary class="faq-q" itemprop="name">{item.q}</summary>
+          <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">{item.a}</div>
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .faq-section {
+    padding: 80px 0;
+    background: var(--ink);
+    border-top: 1px solid rgba(200, 151, 58, 0.12);
+  }
+
+  .faq-title {
+    font-size: clamp(28px, 5vw, 42px);
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 48px;
+    line-height: 1.2;
+  }
+
+  .faq-list {
+    max-width: 860px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(200, 151, 58, 0.12);
+  }
+
+  .faq-item:first-child {
+    border-top: 1px solid rgba(200, 151, 58, 0.12);
+  }
+
+  .faq-q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--white);
+    cursor: pointer;
+    list-style: none;
+    gap: 16px;
+    line-height: 1.4;
+  }
+
+  .faq-q::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-q::after {
+    content: '+';
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--gold);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+
+  details[open] .faq-q::after {
+    transform: rotate(45deg);
+  }
+
+  .faq-a {
+    padding: 0 0 22px;
+    font-size: 15px;
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 780px;
+  }
+</style>

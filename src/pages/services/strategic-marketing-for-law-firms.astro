@@ -1,12 +1,38 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
+import FaqSection from '../../components/FaqSection.astro';
+
+const faqs = [
+  { q: 'What should a law firm marketing strategy include?', a: 'An effective law firm marketing strategy includes a clear definition of the target client (practice area, geography, case type), a channel mix with budget allocation by channel, a 12-month content and campaign calendar, intake process standards, agency accountability frameworks, and monthly KPI reviews tied to retained client targets. Strategy without accountability is just a document.' },
+  { q: 'How much should a law firm spend on marketing?', a: 'Industry benchmarks suggest law firms should spend 2–10% of gross revenue on marketing, depending on growth goals and practice area. Personal injury and criminal defense firms in competitive markets often spend 10–15%. The more important question is not how much you spend, but whether you know which channels are producing retained clients at an acceptable cost.' },
+  { q: 'How do I build a law firm marketing plan?', a: 'Start with a data audit to understand which existing channels produce retained clients. Layer in competitive analysis for your target geography and practice areas. Set retained client targets by quarter. Build a channel strategy and budget allocation that maps to those targets. Assign accountability — internal and vendor — for each component. Review monthly, adjust quarterly.' },
+  { q: 'What is the biggest mistake law firms make with marketing strategy?', a: 'Reacting to vendor pitches instead of leading with strategy. Most law firms add marketing channels opportunistically — a new agency pitches something and they try it. The result is a disconnected mix of tactics with no unified goal and no way to measure what is working. Strategy means deciding in advance which channels you will use, why, and what success looks like.' },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://hugheyllc.com/services" },
+      { "@type": "ListItem", "position": 3, "name": "Strategic Marketing", "item": "https://hugheyllc.com/services/strategic-marketing-for-law-firms" }
+    ]
+  }
+];
 ---
 
 <BaseLayout
   title="Strategic Marketing for Law Firms | Hughey LLC"
   description="12-month integrated marketing strategy with realistic goals, clear KPIs, and monthly progress tracking."
   canonical="https://hugheyllc.com/services/strategic-marketing-for-law-firms"
+  schema={schema}
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
     <PageHero eyebrow="Service" heading="Strategic Marketing<br /><em>for Law Firms</em>" subheading="We develop a clear 12-month plan with realistic timelines, resource allocation, and monthly progress tracking." />
@@ -105,4 +131,5 @@ import PageHero from '../../components/PageHero.astro';
       box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
     }
   </style>
+  <FaqSection items={faqs} heading="Questions About Law Firm Marketing Strategy" />
 </BaseLayout>

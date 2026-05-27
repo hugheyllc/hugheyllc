@@ -1,12 +1,38 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
+import FaqSection from '../../components/FaqSection.astro';
+
+const faqs = [
+  { q: 'What is law firm intake optimization?', a: 'Law firm intake optimization is the process of redesigning the workflow from a prospect’s first contact with your firm to the moment they sign a retainer. This includes auditing how quickly leads are followed up, how they are qualified, what technology handles routing and scheduling, and how your intake team is trained. Most firms lose 30–40% of qualified leads in this window.' },
+  { q: 'What percentage of law firm leads are lost before signing?', a: 'Industry data and our client work consistently show that 30–40% of qualified leads — people who contacted the firm and were a good fit — do not become retained clients due to intake process failures. The most common causes are slow follow-up (more than 5 minutes to first contact dramatically reduces conversion), poor qualification scripts, and manual scheduling friction.' },
+  { q: 'What technology does a law firm need for intake optimization?', a: 'Most firms benefit from a dedicated legal CRM (such as Lawmatics or Clio Grow), a call tracking system (such as CallRail), automated follow-up sequences, and an online scheduling tool. The specific stack depends on your practice area, volume, and existing systems. We recommend technology based on your situation, not on partnerships.' },
+  { q: 'How long does it take to see results from intake optimization?', a: 'Most firms see measurable improvement in form-to-consultation conversion rates within 30–60 days of implementing intake changes. The full impact, including the downstream effect on retained client numbers, is typically visible within 90 days.' },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://hugheyllc.com/services" },
+      { "@type": "ListItem", "position": 3, "name": "Intake Optimization", "item": "https://hugheyllc.com/services/intake-process-optimization" }
+    ]
+  }
+];
 ---
 
 <BaseLayout
   title="Intake Process Optimization for Law Firms | Hughey LLC"
   description="Redesign your intake process to convert more leads to clients. Faster qualification. Better data. Higher conversion rates."
   canonical="https://hugheyllc.com/services/intake-process-optimization"
+  schema={schema}
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
     <PageHero eyebrow="Service" heading="Intake Process<br /><em>Optimization</em>" subheading="We redesign your intake workflow, implement technology, and train your team to convert more prospects into clients." />
@@ -104,4 +130,5 @@ import PageHero from '../../components/PageHero.astro';
       box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
     }
   </style>
+  <FaqSection items={faqs} heading="Questions About Law Firm Intake Optimization" />
 </BaseLayout>

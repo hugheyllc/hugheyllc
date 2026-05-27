@@ -1,12 +1,38 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
+import FaqSection from '../../components/FaqSection.astro';
+
+const faqs = [
+  { q: 'What does a law firm marketing agency manager do?', a: 'A marketing agency manager for law firms acts as the strategic director above all your individual vendors — your SEO agency, PPC agency, web developer, and content team. They align all vendors on the same KPIs, eliminate duplication, fill gaps between agencies, and hold everyone accountable to retained client outcomes, not channel-specific vanity metrics.' },
+  { q: 'How do you manage multiple marketing vendors for a law firm?', a: 'We establish a unified KPI framework (cost per retained client by channel), run regular performance reviews with each vendor, coordinate strategy across channels, and ensure data flows between platforms correctly. We also negotiate contracts, evaluate vendor performance, and replace underperformers when needed.' },
+  { q: 'Should a law firm hire a CMO or a marketing consultant?', a: 'For most firms under 50 attorneys, a fractional marketing consultant provides significantly more strategic value per dollar than a full-time CMO. A consultant brings experience across many firms and specializations that a single internal hire typically cannot match. For larger firms, both can work together effectively.' },
+  { q: 'How do I know if my marketing agencies are performing?', a: 'The key signal is whether your retained client count is growing in proportion to marketing spend. If your agencies are reporting strong channel metrics (rankings, impressions, clicks) but your caseload is not growing, there is a disconnect between what is being measured and what your business needs. We help you build the reporting that surfaces this gap clearly.' },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://hugheyllc.com/services" },
+      { "@type": "ListItem", "position": 3, "name": "Agency Management", "item": "https://hugheyllc.com/services/agency-management-for-law-firms" }
+    ]
+  }
+];
 ---
 
 <BaseLayout
   title="Agency Management for Law Firms | Hughey LLC"
   description="Coordinate multiple marketing vendors into an integrated strategy. Unified KPIs. Vendor accountability. Better ROI."
   canonical="https://hugheyllc.com/services/agency-management-for-law-firms"
+  schema={schema}
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
     <PageHero eyebrow="Service" heading="Agency Management<br /><em>for Law Firms</em>" subheading="We become your marketing operations director, integrating all vendor work and measuring against retained client metrics." />
@@ -98,4 +124,5 @@ import PageHero from '../../components/PageHero.astro';
       box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
     }
   </style>
+  <FaqSection items={faqs} heading="Questions About Law Firm Agency Management" />
 </BaseLayout>

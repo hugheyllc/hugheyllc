@@ -1,12 +1,38 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
+import FaqSection from '../../components/FaqSection.astro';
+
+const faqs = [
+  { q: 'What is marketing data analysis for law firms?', a: 'Marketing data analysis for law firms means connecting data from all your marketing platforms — Google Analytics, Google Ads, your CRM, intake forms, and billing — into a single view that shows which channels and campaigns are actually producing retained clients, and at what cost. Without this analysis, you are allocating budget based on incomplete information.' },
+  { q: 'What is cost per retained client and how is it calculated?', a: 'Cost per retained client (CPRC) is your total marketing spend divided by the number of new clients retained in a given period, broken down by channel. Calculating it requires connecting your marketing platforms to your CRM and intake system so you can trace a client backward from the signed retainer to the original marketing touchpoint.' },
+  { q: 'How long does a marketing analytics audit take?', a: 'An initial analytics audit typically takes 2–4 weeks, depending on the number of platforms and the current state of your tracking setup. Building a complete dashboard with cost-per-retained-client visibility by channel usually takes 60–90 days from start to finish.' },
+  { q: 'Do I need to change my existing marketing platforms?', a: 'Usually not. We work with the platforms you already use — Google Analytics 4, Google Ads, most CRMs, and major intake tools. Our job is to connect them correctly and build the reporting layer on top, not replace the tools.' },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://hugheyllc.com/services" },
+      { "@type": "ListItem", "position": 3, "name": "Marketing Data Analysis", "item": "https://hugheyllc.com/services/data-analysis-for-law-firms" }
+    ]
+  }
+];
 ---
 
 <BaseLayout
   title="Marketing Data Analysis for Law Firms | Hughey LLC"
   description="Unified analytics and dashboards showing which marketing channels actually drive retained clients. Cost-per-retained-client by channel."
   canonical="https://hugheyllc.com/services/data-analysis-for-law-firms"
+  schema={schema}
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
     <PageHero eyebrow="Service" heading="Marketing Data<br /><em>Analysis</em>" subheading="We audit your analytics stack, implement proper conversion tracking, and build dashboards showing cost-per-retained-client by channel." />
@@ -106,4 +132,5 @@ import PageHero from '../../components/PageHero.astro';
       box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
     }
   </style>
+  <FaqSection items={faqs} heading="Questions About Law Firm Marketing Analytics" />
 </BaseLayout>

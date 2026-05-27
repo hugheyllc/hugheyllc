@@ -9,14 +9,91 @@ import StatsBand from '../components/StatsBand.astro';
 import About from '../components/About.astro';
 import Audit from '../components/Audit.astro';
 import Insights from '../components/Insights.astro';
+import FaqSection from '../components/FaqSection.astro';
 import FinalCta from '../components/FinalCta.astro';
 import Footer from '../components/Footer.astro';
+
+const faqs = [
+  {
+    q: 'What does a law firm marketing consultant do?',
+    a: 'A law firm marketing consultant audits your current marketing operations, analytics stack, and intake process to identify why leads are not converting into retained clients. At Hughey LLC, we do not run ads or build websites — we act as the strategic layer above your existing vendors, aligning all channels toward the one metric that matters: cost per retained client.',
+  },
+  {
+    q: 'How is Hughey LLC different from a law firm marketing agency?',
+    a: 'Agencies execute tactics — they run your ads, write your content, and optimize your SEO. Hughey LLC operates above the agency layer. We analyze your data, build your strategy, manage your vendors\' accountability, and optimize your intake process. We are the person responsible for whether all those tactics combine to actually grow your firm.',
+  },
+  {
+    q: 'What is cost per retained client and why does it matter?',
+    a: 'Cost per retained client (CPRC) is the total marketing spend required to sign one new client. It is the only marketing metric that connects spending to real business outcomes. Most firms track cost per click or cost per lead — these are inputs, not outcomes. CPRC shows you exactly which channels and campaigns are actually profitable for your firm.',
+  },
+  {
+    q: 'Which types of law firms does Hughey LLC work with?',
+    a: 'We work with law firms of all sizes, with particular depth in personal injury, family law, business law, and complex civil litigation. Our client base ranges from solo practitioners to regional firms with 200+ attorneys. We serve firms nationally, with deep roots in the Tampa Bay and Gulf Coast Florida market.',
+  },
+  {
+    q: 'How much does law firm marketing consulting cost?',
+    a: 'Engagements vary based on scope and firm size. The best starting point is a free 30-minute discovery call — we will listen to your situation and tell you honestly what level of engagement would help most, and whether we are the right fit. There is no obligation.',
+  },
+  {
+    q: 'What is law firm intake optimization?',
+    a: 'Intake optimization is the process of redesigning the workflow between a prospect\'s first contact with your firm and the moment they sign a retainer. Most firms lose 30–40% of qualified leads during this window due to slow follow-up, poor qualification processes, or technology gaps. We audit your current intake workflow, identify where leads are dropping off, and implement fixes — technology, process, and team training — to convert more of the leads your marketing already generates.',
+  },
+  {
+    q: 'How long before I see results from working with Hughey LLC?',
+    a: 'Intake optimizations typically show measurable improvement within 30–60 days. Analytics clarity — knowing which channels drive retained clients — usually takes 60–90 days to instrument properly. Strategic marketing results compound over 6–12 months. We will give you a realistic timeline based on your specific situation during the initial consultation.',
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": f.a,
+    }
+  }))
+};
+
+const professionalServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://hugheyllc.com/#service",
+  "name": "Hughey LLC — Law Firm Marketing Consulting",
+  "description": "Law firm marketing operations consulting specializing in data analysis, agency management, intake optimization, and strategic marketing planning.",
+  "url": "https://hugheyllc.com",
+  "telephone": "+17274833222",
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "paymentAccepted": "Invoice",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5412 Dover St NE",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "postalCode": "33703",
+    "addressCountry": "US"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Law Firm Marketing Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Marketing Data Analysis for Law Firms", "url": "https://hugheyllc.com/services/data-analysis-for-law-firms" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Agency Management for Law Firms", "url": "https://hugheyllc.com/services/agency-management-for-law-firms" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Intake Process Optimization", "url": "https://hugheyllc.com/services/intake-process-optimization" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic Marketing for Law Firms", "url": "https://hugheyllc.com/services/strategic-marketing-for-law-firms" } },
+    ]
+  }
+};
 ---
 
 <BaseLayout
   title="Law Firm Marketing Consultant Tampa Bay | Hughey LLC"
   description="Hughey LLC helps law firms build marketing operations that generate retained clients. 20+ years of legal marketing experience. Tampa Bay, FL. Schedule a free strategy call."
   canonical="https://hugheyllc.com"
+  schema={[faqSchema, professionalServiceSchema]}
 >
   <Hero />
   <TrustBar />
@@ -27,6 +104,7 @@ import Footer from '../components/Footer.astro';
   <About />
   <Audit />
   <Insights />
+  <FaqSection items={faqs} heading="Common Questions About Law Firm Marketing" />
   <FinalCta />
   <Footer />
 </BaseLayout>
