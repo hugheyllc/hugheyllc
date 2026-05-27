@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, passthroughImageService } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
 
@@ -7,6 +7,9 @@ export default defineConfig({
   integrations: [sitemap()],
   output: 'static',
   trailingSlash: 'always',
+  image: {
+    service: passthroughImageService(),
+  },
   adapter: vercel({
     webAnalytics: { enabled: true },
     imageService: false,
