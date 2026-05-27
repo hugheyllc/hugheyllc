@@ -7,6 +7,9 @@ export default defineConfig({
   integrations: [sitemap()],
   output: 'static',
   trailingSlash: 'always',
+  build: {
+    assets: 'assets',
+  },
   image: {
     service: passthroughImageService(),
   },
