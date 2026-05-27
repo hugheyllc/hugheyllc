@@ -6,6 +6,7 @@ export default defineConfig({
   site: 'https://hugheyllc.com',
   integrations: [sitemap()],
   output: 'static',
+  trailingSlash: 'always',
   adapter: vercel({
     webAnalytics: {
       enabled: true,

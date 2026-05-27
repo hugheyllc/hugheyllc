@@ -180,19 +180,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/blog",
-      "destination": "/blog/index.html"
-    },
-    {
-      "source": "/insights",
-      "destination": "/insights/index.html"
-    },
-    {
-      "source": "/services",
-      "destination": "/services/index.html"
-    }
   ]
 }
