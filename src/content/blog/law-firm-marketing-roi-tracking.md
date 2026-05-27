@@ -20,13 +20,11 @@ Here's exactly how to build that infrastructure.
 
 Before configuring any tracking, get clear on your conversion hierarchy. For a law firm, it typically looks like this:
 
-<ol>
 - **Micro-conversion** — website behavior indicating interest (page visit, time on site, blog post read)
 - **Lead** — a contact form submission, a phone call, or a consultation booking
 - **Qualified lead** — a lead that has been screened and meets your intake criteria
 - **Retained client** — a signed retainer agreement
 - **Revenue** — the actual fees collected on the matter
-</ol>
 
 Most law firm marketing tracking stops at step 2. The firms that manage marketing most effectively track all the way to step 5 — connecting their marketing channels to actual collected revenue. That's the number that determines whether a channel is worth investing in.
 
@@ -60,11 +58,9 @@ Few law firms have this fully connected, but it doesn't require a full technical
 
 Once you have all four layers connected, you can answer questions like:
 
-<ul>
 - Our Google Ads spend last month was $4,200. It generated 3 retained clients with a combined retainer value of $28,000. ROI: 567%.
 - Our organic SEO generates 60% of our leads but 45% of our retained clients — organic leads convert at a lower rate but have higher average case values.
 - Our referral channel generates 15% of our leads but 35% of our retained clients — by far our highest-value source. We should invest more in referral relationships.
-</ul>
 
 This is the level of clarity that our [law firm marketing technology consulting](https://hugheyllc.com/services) is built to deliver. It's not complicated in principle — it just requires the right systems, connected correctly.
 
@@ -78,7 +74,6 @@ This is the level of clarity that our [law firm marketing technology consulting]
 
 ### Related Reading
 
-<ul>
 - [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](https://hugheyllc.com/blog/law-firm-marketing-data)
 - [What Your Law Firm's Website Analytics Are Actually Telling You](https://hugheyllc.com/blog/law-firm-website-analytics)
 - [Our Law Firm Marketing Technology Services](https://hugheyllc.com/services)

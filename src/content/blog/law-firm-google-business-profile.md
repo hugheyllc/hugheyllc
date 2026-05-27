@@ -20,12 +20,10 @@ Most law firms treat their GBP as a one-time setup task. The firms that consiste
 
 Before optimizing, make sure your GBP foundation is solid. These are the most common issues we find when auditing law firm profiles:
 
-<ul>
 - **Inconsistent NAP data** — your Name, Address, and Phone number must be identical across your GBP, your website, and every directory listing. Even minor inconsistencies (St. vs Street, Suite vs Ste.) confuse Google's local algorithm. Use [a listing management tool](https://www.semrush.com/listing-management/) to audit consistency across directories.
 - **Wrong primary category** — "Lawyer" is too broad. Choose the most specific category that matches your primary practice area: "Personal Injury Attorney," "Family Law Attorney," "Business Attorney." Add secondary categories for additional practice areas.
 - **Missing service areas** — if you serve clients across multiple counties or cities, add each as a service area. This expands your local ranking footprint significantly.
 - **No business description** — you have 750 characters. Use them. Include your primary practice areas, the cities you serve, and a natural mention of your top keyword phrase in the first 250 characters (what shows before the "more" cutoff).
-</ul>
 
 ## The Content Actions That Actually Move Rankings
 
@@ -61,7 +59,6 @@ Our [law firm SEO and web development services](https://hugheyllc.com/services) 
 
 ### Related Reading
 
-<ul>
 - [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms)
 - [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion)
 - [Our Law Firm SEO Services](https://hugheyllc.com/services)

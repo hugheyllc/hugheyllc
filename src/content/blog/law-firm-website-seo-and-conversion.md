@@ -30,26 +30,22 @@ A practice area page should be built for transactional intent: clear attorney cr
 
 No amount of great content overcomes a broken technical foundation. Before worrying about keyword strategy, make sure your site passes these baseline checks:
 
-<ul>
 - **Mobile PageSpeed above 70** — run your site through [Google PageSpeed Insights](https://pagespeed.web.dev) right now. Below 70 on mobile is a ranking liability.
 - **Core Web Vitals in the green** — specifically Largest Contentful Paint under 2.5s and Cumulative Layout Shift under 0.1. Check via [Google Search Console](https://search.google.com/search-console).
 - **HTTPS on every page** — not just the homepage. Mixed content warnings erode trust and rankings.
 - **Crawlable site structure** — every important page reachable within 3 clicks from the homepage, with a clean XML sitemap submitted to Search Console.
 - **Structured data on key pages** — [LegalService schema](https://schema.org/LegalService) on your practice area pages tells Google exactly what your firm does and where.
-</ul>
 
 ## The Page Architecture That Ranks and Converts
 
 For law firms, the highest-value pages are practice area pages. These need to do double duty: rank for competitive queries and convert the visitors who land on them. Here's what every practice area page needs:
 
-<ul>
 - **An H1 that matches search intent** — not "Business Litigation" but "Tampa Business Litigation Attorney — Protecting Florida Companies"
 - **A clear above-the-fold CTA** — phone number, contact form, or consultation booking visible without scrolling
 - **Specific case types listed** — Google wants to understand the scope of the page; clients want to confirm you handle their specific situation
 - **Attorney credentials and bar admissions** — E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness) matter in legal, a YMYL category
 - **Internal links to related blog content** — connects your informational content to your transactional pages and distributes link equity
 - **FAQs with FAQ schema** — captures featured snippet opportunities and answers pre-conversion objections
-</ul>
 
 ## Content Velocity: How Much Is Enough?
 
@@ -75,7 +71,6 @@ This end-to-end architecture — from search ranking through to intake automatio
 
 ### Related Reading
 
-<ul>
 - [Why Your Law Firm's Website Is Losing Clients Before They Even Call](https://hugheyllc.com/blog/law-firm-website-losing-clients)
 - [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](https://hugheyllc.com/blog/law-firms-ditching-wordpress)
 - [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms)

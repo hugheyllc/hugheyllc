@@ -20,11 +20,9 @@ Here's the complete playbook for owning local attorney searches in your market.
 
 Google's [local search algorithm](https://support.google.com/business/answer/7091) weighs three factors above all others:
 
-<ul>
 - **Relevance** — how well your business matches the search query
 - **Distance** — how close your office is to the searcher (or the area they specified)
 - **Prominence** — how well-known and authoritative your business is, based on reviews, citations, and links
-</ul>
 
 Distance is largely fixed. Relevance and prominence are where you compete — and both are improvable with the right strategy.
 
@@ -54,13 +52,11 @@ Build review generation into your workflow, not as an afterthought. The moment a
 
 Links from locally relevant websites signal geographic authority to Google. For law firms, the best local link opportunities include:
 
-<ul>
 - Local bar association websites and member directories
 - Chamber of commerce membership listings
 - Local news outlets — earned through press releases, expert commentary, or sponsored content
 - Community organization sponsorships with website credits
 - Local business directories and professional association listings
-</ul>
 
 Each locally relevant link strengthens the connection between your firm and your geographic service area in Google's understanding of your business.
 
@@ -68,12 +64,10 @@ Each locally relevant link strengthens the connection between your firm and your
 
 Local SEO results don't show up in standard Google Analytics reports — you need to track them separately. Key metrics to monitor monthly:
 
-<ul>
 - **Local Pack impressions and click-through rate** — available in [Google Search Console](https://search.google.com/search-console) and your GBP Insights dashboard
 - **Calls and direction requests from GBP** — direct indicators of local lead generation
 - **Keyword ranking positions for local terms** — tracked by city, not just globally
 - **Citation consistency score** — any new inconsistencies should be caught and corrected monthly
-</ul>
 
 Connecting these local metrics to your intake data — which calls from local search actually became retained clients — is the full-loop reporting that our [law firm marketing technology work](https://hugheyllc.com/blog/law-firm-marketing-data) is built around.
 
@@ -87,7 +81,6 @@ Connecting these local metrics to your intake data — which calls from local se
 
 ### Related Reading
 
-<ul>
 - [The Law Firm Google Business Profile Guide: How to Dominate Local Search](https://hugheyllc.com/blog/law-firm-google-business-profile)
 - [How to Build a Law Firm Website That Ranks and Converts](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion)
 - [Our Law Firm SEO Services](https://hugheyllc.com/services)

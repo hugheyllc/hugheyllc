@@ -20,11 +20,9 @@ Here's what actually does — and how to find it.
 
 Before diving into specific metrics, frame what you're trying to learn. For a law firm, website analytics should answer three questions:
 
-<ol>
 - **Are people finding us?** — Traffic volume, traffic sources, keyword rankings
 - **Are the right people finding us?** — Traffic quality indicators, engagement metrics, conversion rates by source
 - **Are they taking action?** — Conversion events, form submissions, phone number clicks
-</ol>
 
 Every metric in your analytics dashboard is a tool for answering one of these three questions. If a metric doesn't help you answer any of them, ignore it.
 
@@ -32,11 +30,9 @@ Every metric in your analytics dashboard is a tool for answering one of these th
 
 Total sessions is a vanity metric. A spike in sessions is meaningless if those sessions aren't from people in your geographic market with a legal need. Focus instead on:
 
-<ul>
 - **Organic search traffic** — visitors who found you through a Google search. This is your SEO health indicator. Is it trending up month-over-month?
 - **Local organic traffic** — organic visitors from your city and surrounding area. Use the geographic dimension in GA4 to filter your organic traffic by location.
 - **Branded vs. non-branded search traffic** — branded searches (your firm name) show brand awareness; non-branded searches show SEO reach. Both matter, but non-branded growth is the harder and more valuable metric.
-</ul>
 
 ## Engagement: What It Actually Means
 
@@ -64,14 +60,12 @@ This conversion data is the bridge between your website analytics and your intak
 
 The goal isn't to live in your analytics dashboard — it's to build a monthly review habit around a small set of meaningful metrics. We recommend law firm clients track these six numbers monthly:
 
-<ol>
 - Total organic sessions (vs. prior month and prior year)
 - Organic sessions from target geographic area
 - Total conversion events by type
 - Conversion rate by traffic source
 - Top 5 landing pages by conversions
 - Practice area page engagement rates
-</ol>
 
 Trends in these six numbers will tell you whether your digital marketing is working — and where to focus next. Our [law firm marketing technology services](https://hugheyllc.com/services) include monthly reporting built around exactly these metrics, connected to your intake and revenue data.
 
@@ -85,7 +79,6 @@ Trends in these six numbers will tell you whether your digital marketing is work
 
 ### Related Reading
 
-<ul>
 - [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking)
 - [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](https://hugheyllc.com/blog/law-firm-marketing-data)
 - [Our Law Firm Analytics & Marketing Technology Services](https://hugheyllc.com/services)

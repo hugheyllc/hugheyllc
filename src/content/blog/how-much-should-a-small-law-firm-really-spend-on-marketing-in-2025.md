@@ -14,33 +14,27 @@ draft: false
 
 **On this page**
 
-<ul>
 - [Why Marketing Budgets Matter](#1)
 
 - [Benchmarks](#2)
 
 - [FAQ](#faq)
-</ul>
 
 ## Why Marketing Budgets Matter
 
-<ul>
 - Visibility drives intake
 
 - Clients start online
 
 - Budgets prevent random acts of marketing
-</ul>
 
 ## Benchmarks
 
-<ul>
 - 5–10% small firms
 
 - 10–15% growth mode
 
 - Up to 20% expansion
-</ul>
 
 ## Conclusion
 

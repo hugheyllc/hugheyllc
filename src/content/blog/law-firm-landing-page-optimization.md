@@ -32,12 +32,10 @@ A high-converting landing page has one primary CTA visible without scrolling. Fo
 
 Legal is a high-stakes, high-trust purchase. Prospective clients need reassurance before they'll pick up the phone. The most effective social proof elements for law firm landing pages, in order of impact:
 
-<ul>
 - Star rating + number of reviews with a direct link to your [Google Business Profile](https://hugheyllc.com/blog/law-firm-google-business-profile)
 - 2–3 specific client testimonials (not generic praise — specific outcomes: "They recovered $180,000 for my case after another firm said I had no claim")
 - Bar association memberships and relevant certifications
 - Press mentions or case results (where ethics rules permit)
-</ul>
 
 ## Element 4: A Short, Friction-Reducing Contact Form
 
@@ -75,7 +73,6 @@ Building, optimizing, and connecting landing pages to intake workflows is a core
 
 ### Related Reading
 
-<ul>
 - [Why Your Law Firm's Website Is Losing Clients Before They Even Call](https://hugheyllc.com/blog/law-firm-website-losing-clients)
 - [Google Ads for Law Firms: Why Most Campaigns Fail and What Winning Ones Do Differently](https://hugheyllc.com/blog/google-ads-law-firms)
 - [Our Law Firm Web Development Services](https://hugheyllc.com/services)

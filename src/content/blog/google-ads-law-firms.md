@@ -42,13 +42,11 @@ For law firms, this means connecting [CallRail](https://www.callrail.com) phone 
 
 The highest-performing law firm Google Ads campaigns share a few common characteristics:
 
-<ul>
 - **Tightly themed ad groups** — one ad group per specific practice area or service, not one giant "personal injury" campaign covering every keyword
 - **3–5 ad variants per group** — testing different headlines and descriptions to find what resonates with prospective clients
 - **Ad extensions fully populated** — call extensions, location extensions, sitelink extensions, and lead form extensions all increase click-through rates and Quality Scores
 - **Dayparting and geographic targeting** — running ads only during hours when your intake team is available, and only in the geographic areas you actually serve
 - **Monthly performance reviews against intake data** — not just click and impression metrics, but which campaigns are generating retained clients. This requires the [full attribution stack](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking) connecting Ads to your CRM.
-</ul>
 
 ## How Much Should a Law Firm Spend on Google Ads?
 
@@ -66,7 +64,6 @@ Getting to that calculation requires the full tracking stack: [CallRail](https:/
 
 ### Related Reading
 
-<ul>
 - [Why Law Firm Landing Pages Fail — And the 7 Elements That Make Them Convert](https://hugheyllc.com/blog/law-firm-landing-page-optimization)
 - [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking)
 - [Our Law Firm Paid Advertising Services](https://hugheyllc.com/services)

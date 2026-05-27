@@ -20,11 +20,9 @@ Here's how to build a content program that does that.
 
 Before writing a single word, understand where your prospective client is in their decision process. Legal content typically falls into three stages:
 
-<ul>
 - **Awareness stage** — the person knows they have a problem but doesn't know if they need an attorney yet. Content: "What to do after a car accident in Florida," "Signs you may need a business attorney."
 - **Consideration stage** — they know they need an attorney and are evaluating options. Content: "How to choose a personal injury attorney," "Questions to ask before hiring a business litigation lawyer."
 - **Decision stage** — they're ready to hire and comparing specific firms. Content: practice area pages, attorney bio pages, case results, client testimonials.
-</ul>
 
 Most law firm blogs only serve the awareness stage. They answer general legal questions but never move the reader closer to hiring. The most effective content programs create a pathway — awareness content links to consideration content, which links to practice area pages with clear CTAs.
 
@@ -48,12 +46,10 @@ This architecture signals to Google that your site is an authoritative resource 
 
 Every blog post should have at least one conversion element — a CTA that moves the reader toward becoming a lead. The most effective options for law firm content:
 
-<ul>
 - An inline CTA after the most compelling section: "If this situation sounds familiar, our [practice area] attorneys offer free consultations — [schedule yours here](https://hugheyllc.com/contact)."
 - A related resource download (a free guide, a checklist) that captures email in exchange for value
 - A sticky sidebar with a click-to-call button on desktop
 - A closing CTA block linking to the most relevant practice area page
-</ul>
 
 Posts that rank on page one but have no conversion path are leaving leads on the table every day.
 
@@ -73,7 +69,6 @@ This requires connecting your content analytics in [GA4](https://analytics.googl
 
 ### Related Reading
 
-<ul>
 - [How to Build a Law Firm Website That Ranks and Converts](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion)
 - [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](https://hugheyllc.com/blog/law-firm-marketing-data)
 - [Our Law Firm Content Marketing Services](https://hugheyllc.com/services)
