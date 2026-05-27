@@ -56,23 +56,33 @@ const { eyebrow, heading, subheading, cta, ctaSecondary } = Astro.props;
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(200, 151, 58, 0.10) 0%, transparent 65%);
+    background: radial-gradient(circle, rgba(200, 151, 58, 0.12) 0%, transparent 65%);
     top: -100px;
     right: -80px;
     pointer-events: none;
     z-index: 0;
+    animation: phg1 18s ease-in-out infinite alternate;
   }
 
   .ph-glow2 {
     position: absolute;
-    width: 320px;
-    height: 320px;
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(27, 51, 96, 0.25) 0%, transparent 65%);
-    bottom: -60px;
-    left: -60px;
+    background: radial-gradient(circle, rgba(27, 51, 96, 0.45) 0%, transparent 65%);
+    bottom: -80px;
+    left: -80px;
     pointer-events: none;
     z-index: 0;
+    animation: phg2 14s ease-in-out infinite alternate;
+  }
+
+  @keyframes phg1 {
+    to { transform: translate(-40px, 30px) scale(1.1); }
+  }
+
+  @keyframes phg2 {
+    to { transform: translate(30px, -20px) scale(1.06); }
   }
 
   .ph-inner {
@@ -88,7 +98,8 @@ const { eyebrow, heading, subheading, cta, ctaSecondary } = Astro.props;
     text-transform: uppercase;
     color: var(--glt);
     margin-bottom: 18px;
-    opacity: 0.9;
+    opacity: 0;
+    animation: phFadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
   }
 
   .ph-heading {
@@ -99,6 +110,8 @@ const { eyebrow, heading, subheading, cta, ctaSecondary } = Astro.props;
     color: var(--white);
     max-width: 860px;
     margin: 0 0 24px;
+    opacity: 0;
+    animation: phFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both;
   }
 
   .ph-heading :global(em) {
@@ -112,12 +125,28 @@ const { eyebrow, heading, subheading, cta, ctaSecondary } = Astro.props;
     max-width: 680px;
     line-height: 1.65;
     margin: 0 0 36px;
+    opacity: 0;
+    animation: phFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
   }
 
   .ph-btns {
     display: flex;
     gap: 14px;
     flex-wrap: wrap;
+    opacity: 0;
+    animation: phFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.55s both;
+  }
+
+  @keyframes phFadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ph-eyebrow, .ph-heading, .ph-sub, .ph-btns {
+      animation: none !important;
+      opacity: 1 !important;
+    }
   }
 
   /* Reuse global button styles */

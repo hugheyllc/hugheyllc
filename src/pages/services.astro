@@ -51,11 +51,11 @@ const services = [
     <PageHero eyebrow="What We Do" heading="Four Services.<br /><em>One Goal.</em>" subheading="Every service we offer is designed around a single metric: retained clients per marketing dollar." />
 
     <!-- Services List -->
-    <div style="padding: 80px 0;">
+    <div class="section-glow" style="padding: 80px 0;">
       <div class="w">
         <div style="display: flex; flex-direction: column; gap: 0;">
           {services.map((service, i) => (
-            <div class="service-row" style={`border-top: 1px solid rgba(200, 151, 58, 0.15); padding: 56px 0; ${i === services.length - 1 ? 'border-bottom: 1px solid rgba(200,151,58,0.15);' : ''}`}>
+            <div class="service-row rx" style={`border-top: 1px solid rgba(200, 151, 58, 0.15); padding: 56px 0; ${i === services.length - 1 ? 'border-bottom: 1px solid rgba(200,151,58,0.15);' : ''}`}>
               <div style="display: grid; grid-template-columns: 80px 1fr 1fr; gap: 48px; align-items: start;">
                 <!-- Number -->
                 <div style="font-size: 13px; font-weight: 700; color: rgba(200,151,58,0.5); letter-spacing: 0.15em; font-family: var(--man); padding-top: 6px;">{service.number}</div>
@@ -92,7 +92,7 @@ const services = [
     </div>
 
     <!-- Process Strip -->
-    <div style="padding: 80px 0; background: rgba(200, 151, 58, 0.04); border-top: 1px solid rgba(200,151,58,0.12); border-bottom: 1px solid rgba(200,151,58,0.12);">
+    <div class="rx" style="padding: 80px 0; background: rgba(200, 151, 58, 0.04); border-top: 1px solid rgba(200,151,58,0.12); border-bottom: 1px solid rgba(200,151,58,0.12);">
       <div class="w">
         <p style="text-align: center; font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(200,151,58,0.7); margin-bottom: 48px;">How Every Engagement Works</p>
         <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; max-width: 960px; margin: 0 auto; position: relative;">
@@ -107,7 +107,7 @@ const services = [
     </div>
 
     <!-- CTA -->
-    <div style="padding: 80px 0;">
+    <div class="rx" style="padding: 80px 0;">
       <div class="w">
         <div style="text-align: center; max-width: 640px; margin: 0 auto;">
           <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 16px;">Not Sure Where to Start?</h2>

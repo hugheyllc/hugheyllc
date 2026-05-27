@@ -131,3 +131,67 @@ a {
   }
 
 }
+
+/* ── GOLD ACCENT LINE (sections) ──────────────────────────── */
+.section-accent {
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+/* ── CARD HOVER LIFT ──────────────────────────────────────── */
+.card-hover {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s ease,
+              border-color 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  border-color: rgba(200, 151, 58, 0.35) !important;
+}
+
+/* ── GOLD UNDERLINE LINKS ─────────────────────────────────── */
+.link-gold {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(200, 151, 58, 0.3);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.link-gold:hover {
+  color: var(--glt);
+  border-color: var(--glt);
+}
+
+/* ── INLINE SECTION GLOW (reusable) ──────────────────────── */
+.section-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-glow::after {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(200, 151, 58, 0.06) 0%, transparent 70%);
+  top: -100px;
+  right: -100px;
+  pointer-events: none;
+  z-index: 0;
+  animation: sectionGlow 20s ease-in-out infinite alternate;
+}
+
+@keyframes sectionGlow {
+  to { transform: translate(-40px, 30px) scale(1.1); }
+}
+
+/* ── STAGGERED DELAY CLASSES ──────────────────────────────── */
+.d4 { transition-delay: 0.4s !important; }
+.d5 { transition-delay: 0.5s !important; }
