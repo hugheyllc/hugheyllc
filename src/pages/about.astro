@@ -4,7 +4,7 @@ import PageHero from '../components/PageHero.astro';
 
 const firmNarrative = `Hughey LLC is a law firm marketing operations consulting firm founded in 2004. We work exclusively with law firms to build marketing systems that generate retained clients—not just leads, not just brand awareness, but the specific metric that matters: retained clients.
 
-Twenty years in the legal marketing space has taught us one thing: most law firm marketing fails not because of the agencies or the tactics, but because of the disconnect between marketing operations and client intake. A campaign can look perfect in the agency report. The cost-per-click metrics can be excellent. The ad creative can be award-winning. And yet the retained client count doesn't move.
+20+ years in the legal marketing space has taught us one thing: most law firm marketing fails not because of the agencies or the tactics, but because of the disconnect between marketing operations and client intake. A campaign can look perfect in the agency report. The cost-per-click metrics can be excellent. The ad creative can be award-winning. And yet the retained client count doesn't move.
 
 We solve for that disconnect.
 
@@ -12,25 +12,22 @@ Our approach combines three core capabilities: deep data analysis to understand 
 
 We serve law firms nationally, with particular expertise in personal injury, family law, business law, and complex civil litigation. Our home is Tampa Bay, Florida, where we work with firms across the Gulf Coast.`;
 
-const joeBio = `Joe Hughey founded Hughey LLC in 2004 and has focused exclusively on law firm marketing ever since. In two decades, he's worked with over 150 law firms—from solo practitioners to 200+ attorney regional firms—helping them build marketing operations that generate measurable retained clients.
-
-His background includes:
-- 20+ years in legal marketing strategy and operations
-- Expertise in marketing analytics, client intake systems, and agency management
-- Published insights on law firm marketing data, SEO, paid search, and marketing attribution
-- Speaker at legal marketing conferences and firm leadership events
-- Based in St. Petersburg, Florida
-
-Joe's philosophy is simple: law firm marketing should be measured by one metric—retained clients. Everything else is a means to that end.`;
+const backgroundItems = [
+  '20+ years in legal marketing strategy and operations',
+  'Expertise in marketing analytics, client intake systems, and agency management',
+  'Published insights on law firm marketing data, SEO, paid search, and marketing attribution',
+  'Speaker at legal marketing conferences and firm leadership events',
+  'Based in St. Petersburg, Florida',
+];
 ---
 
 <BaseLayout
-  title="About Hughey LLC | 20 Years of Law Firm Marketing"
-  description="Learn about Hughey LLC's approach to law firm marketing operations, our philosophy, and Joe Hughey's 20-year journey in legal marketing consulting."
+  title="About Hughey LLC | 20+ Years of Law Firm Marketing"
+  description="Learn about Hughey LLC's approach to law firm marketing operations, our philosophy, and Joe Hughey's 20+ year journey in legal marketing consulting."
   canonical="https://hugheyllc.com/about"
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
-    <PageHero eyebrow="20 Years. One Focus." heading="Focused on One Metric:<br /><em>Retained Clients</em>" subheading="We work exclusively with law firms to build marketing systems that connect every dollar spent to actual client retention." />
+    <PageHero eyebrow="20+ Years. One Focus." heading="Focused on One Metric:<br /><em>Retained Clients</em>" subheading="We work exclusively with law firms to build marketing systems that connect every dollar spent to actual client retention." />
 
     <!-- Firm Narrative -->
     <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
@@ -81,43 +78,33 @@ Joe's philosophy is simple: law firm marketing should be measured by one metric�
     <!-- Joe Bio -->
     <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
       <div class="w">
-        <div class="grid-2col" style="align-items: center; max-width: 1200px; margin: 0 auto;">
+        <div class="grid-2col" style="align-items: start; max-width: 1200px; margin: 0 auto; gap: 64px;">
           <div>
-            <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px; line-height: 1.2;">About Joe</h2>
-            <div style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
-              {joeBio.split('\n\n').map((section) => {
-                if (section.startsWith('His background')) {
-                  const parts = section.split(':');
-                  const items = parts[1].split('\n').filter(s => s.trim());
-                  return (
-                    <>
-                      <p style="margin-bottom: 16px;"><strong>His background includes:</strong></p>
-                      <ul style="margin-bottom: 24px; padding-left: 20px;">
-                        {items.map((item) => (
-                          <li style="margin-bottom: 8px;">{item.trim()}</li>
-                        ))}
-                      </ul>
-                    </>
-                  );
-                }
-                return (
-                  <p style="margin-bottom: 24px;">{section}</p>
-                );
-              })}
-            </div>
+            <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 24px; line-height: 1.2;">About Joe</h2>
+            <p style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85); margin-bottom: 24px;">
+              Joe Hughey founded Hughey LLC in 2004 and has focused exclusively on law firm marketing ever since. In over two decades, he's worked with law firms ranging from solo practitioners to 200+ attorney regional firms—helping them build marketing operations that generate measurable retained clients.
+            </p>
+            <p style="font-size: 16px; font-weight: 600; color: var(--white); margin-bottom: 16px;">His background includes:</p>
+            <ul style="margin-bottom: 24px; padding-left: 0; list-style: none;">
+              {backgroundItems.map((item) => (
+                <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 15px; color: rgba(255,255,255,0.75); line-height: 1.5;">
+                  <span style="color: var(--gold); font-weight: 700; flex-shrink: 0; margin-top: 2px;">→</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <p style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
+              Joe's philosophy is simple: law firm marketing should be measured by one metric—retained clients. Everything else is a means to that end.
+            </p>
           </div>
           
-          <div style="background: rgba(200, 151, 58, 0.1); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 4px; padding: 40px; text-align: center;">
-            <div style="font-size: 56px; font-weight: 800; color: var(--gold); margin-bottom: 16px;">20+</div>
-            <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7); margin-bottom: 24px;">Years focused on law firm marketing</p>
+          <div style="background: rgba(200, 151, 58, 0.08); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 4px; padding: 48px; text-align: center;">
+            <div style="font-size: 72px; font-weight: 800; color: var(--gold); margin-bottom: 8px; line-height: 1;">20+</div>
+            <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7); margin-bottom: 0;">Years focused exclusively on<br />law firm marketing</p>
             
-            <div style="border-top: 1px solid rgba(200, 151, 58, 0.2); padding-top: 24px; margin-top: 24px;">
-              <div style="font-size: 42px; font-weight: 800; color: var(--gold); margin-bottom: 8px;">150+</div>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7);">Law firms consulted</p>
-            </div>
-            
-            <div style="border-top: 1px solid rgba(200, 151, 58, 0.2); padding-top: 24px; margin-top: 24px;">
-              <p style="font-size: 15px; color: rgba(200, 151, 58, 0.9);">Based in<br /><strong>St. Petersburg, Florida</strong></p>
+            <div style="border-top: 1px solid rgba(200, 151, 58, 0.2); padding-top: 32px; margin-top: 32px;">
+              <p style="font-size: 14px; color: rgba(200, 151, 58, 0.9); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;">Based in</p>
+              <p style="font-size: 18px; font-weight: 700; color: var(--white);">St. Petersburg, Florida</p>
             </div>
           </div>
         </div>
@@ -130,7 +117,7 @@ Joe's philosophy is simple: law firm marketing should be measured by one metric�
         <div style="text-align: center; max-width: 700px; margin: 0 auto;">
           <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 20px;">Let's Talk About Your Firm</h2>
           <p style="font-size: 16px; color: rgba(255, 255, 255, 0.7); margin-bottom: 32px; line-height: 1.6;">
-            If you're interested in learning how we work with law firms or discussing your firm's current marketing situation, let's schedule a free strategy call.
+            Schedule a free strategy call to discuss your firm's current marketing situation.
           </p>
           <a href="/contact" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; transition: background 0.25s, transform 0.2s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
             Schedule a Free Strategy Call →
@@ -155,14 +142,6 @@ Joe's philosophy is simple: law firm marketing should be measured by one metric�
     strong {
       color: var(--white);
       font-weight: 600;
-    }
-
-    ul {
-      list-style: disc;
-    }
-
-    li {
-      color: rgba(255, 255, 255, 0.7);
     }
   </style>
 </BaseLayout>
