@@ -171,14 +171,5 @@
       ]
     }
   ],
-  "crons": [
-    {
-      "path": "/api/cron/ping-sitemap",
-      "schedule": "0 0 1 * *"
-    },
-    {
-      "path": "/api/cron/schema-validate",
-      "schedule": "0 7 * * 1"
-    }
-  ]
+  "outputDirectory": "dist"
 }
