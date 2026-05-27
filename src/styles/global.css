@@ -115,3 +115,19 @@ a {
 .d3 {
   transition-delay: 0.3s !important;
 }
+
+/* ── RESPONSIVE GRID UTILITIES ────────────────────────────── */
+.grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .grid-2col {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+}

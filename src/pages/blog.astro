@@ -24,7 +24,7 @@ const posts = allBlogPosts
         </p>
       </div>
 
-      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 40px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 40px;">
         {posts.map((post) => (
           <article style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 32px; display: flex; flex-direction: column;">
             <div style="margin-bottom: 16px;">
