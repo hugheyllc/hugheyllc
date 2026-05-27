@@ -2,16 +2,6 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "framework": "astro",
-  "crons": [
-    {
-      "path": "/api/cron/ping-sitemap",
-      "schedule": "0 0 1 * *"
-    },
-    {
-      "path": "/api/cron/schema-validate",
-      "schedule": "0 7 * * 1"
-    }
-  ],
   "redirects": [
     {
       "source": "/blog/case-study/:slug",
@@ -179,6 +169,16 @@
           "value": "no-store, no-cache"
         }
       ]
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/ping-sitemap",
+      "schedule": "0 0 1 * *"
+    },
+    {
+      "path": "/api/cron/schema-validate",
+      "schedule": "0 7 * * 1"
     }
   ]
 }

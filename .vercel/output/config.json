@@ -2,6 +2,23 @@
 	"version": 3,
 	"routes": [
 		{
+			"src": "^/\\.well-known(?:/.*)?$"
+		},
+		{
+			"src": "^/((?:[^/]+/)*[^/\\.]+)$",
+			"headers": {
+				"Location": "/$1/"
+			},
+			"status": 308
+		},
+		{
+			"src": "^/((?:[^/]+/)*[^/]+\\.\\w+)/$",
+			"headers": {
+				"Location": "/$1"
+			},
+			"status": 308
+		},
+		{
 			"handle": "filesystem"
 		},
 		{
@@ -12,19 +29,19 @@
 			"continue": true
 		},
 		{
-			"src": "^/_server-islands/([^/]+?)/?$",
+			"src": "^/_server-islands/([^/]+?)/$",
 			"dest": "_render"
 		},
 		{
-			"src": "^/_image/?$",
+			"src": "^/_image/$",
 			"dest": "_render"
 		},
 		{
-			"src": "^/api/cron/ping-sitemap/?$",
+			"src": "^/api/cron/ping-sitemap/$",
 			"dest": "_render"
 		},
 		{
-			"src": "^/api/cron/schema-validate/?$",
+			"src": "^/api/cron/schema-validate/$",
 			"dest": "_render"
 		},
 		{

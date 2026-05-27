@@ -8,8 +8,7 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   adapter: vercel({
-    webAnalytics: {
-      enabled: true,
-    },
+    webAnalytics: { enabled: true },
+    imageService: false,
   }),
 });
