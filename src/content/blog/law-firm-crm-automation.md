@@ -8,6 +8,7 @@ tags: ["law-firm-crm-automation", "law-firm-intake-automation", "lawmatics-autom
 seo_title: "Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To"
 seo_description: "Most law firms lose 30–50% of their leads not from lack of interest — but from slow or inconsistent follow-up. Here's how to build a CRM automation workflow tha"
 draft: false
+image: "/images/blog/law-firm-crm-automation.png"
 ---
 
 Studies of law firm intake behavior consistently find that the single largest source of lost leads is not budget, not marketing quality, and not the firm's reputation — it's follow-up speed. A prospective client who fills out a contact form at 9 PM and hears nothing until the next morning has typically already called two other firms.

@@ -8,6 +8,7 @@ tags: ["AEO", "SEO for law firms", "law firm SEO", "law firm marketing"]
 seo_title: "The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025"
 seo_description: "For small and mid-sized law firms, the marketing landscape is rapidly evolving. Advanced marketing technology once reserved for large agencies is now accessible"
 draft: false
+image: "/images/blog/small-firm-aeo-playbook.png"
 ---
 
 *This guide is for small firms optimizing organically for Google AI Overviews.*

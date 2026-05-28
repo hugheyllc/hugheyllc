@@ -8,6 +8,7 @@ tags: ["content marketing", "law firm marketing", "law firm website", "legal mar
 seo_title: "The Future of Law Firm Video Marketing: Compliance Meets Conversion"
 seo_description: "Introduction: The New Face of Legal Marketing It’s 2025, and video has become the most powerful storytelling tool in legal marketing. Whether you’re an establis"
 draft: false
+image: "/images/blog/predictive-analytics-law-firm-growth.png"
 ---
 
 ## Introduction: The New Face of Legal Marketing

@@ -8,6 +8,7 @@ tags: ["law firm marketing", "marketing ROI", "law firm growth", "legal marketin
 seo_title: "How Much Should a Small Law Firm Really Spend on Marketing in 2025?"
 seo_description: ""
 draft: false
+image: "/images/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025.png"
 ---
 
 # Practical budgeting rules for firm owners in 2025.

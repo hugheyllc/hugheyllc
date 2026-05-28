@@ -8,6 +8,7 @@ tags: ["attorney-website-audit", "law-firm-seo", "seo-audit", "technical-seo"]
 seo_title: "The Law Firm SEO Audit: 10 Things to Check Before You Spend Another Dollar on Marketing"
 seo_description: "Before investing more in SEO or paid advertising, you need to know where your site actually stands. This 10-point audit covers the technical, content, and local"
 draft: false
+image: "/images/blog/law-firm-seo-audit.png"
 ---
 
 Before adding more budget to your SEO retainer or Google Ads campaign, there's a question worth asking: is your current marketing investment being undermined by fixable technical and content issues on your website?

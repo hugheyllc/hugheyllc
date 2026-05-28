@@ -8,6 +8,7 @@ tags: ["astro", "headless-cms", "law-firm-website", "website-performance", "word
 seo_title: "Why Smart Law Firms Are Ditching WordPress — And What They're Moving To"
 seo_description: "WordPress powers most law firm websites — but it's becoming a performance and security liability. Honest breakdown of the shift to modern web stacks, with real "
 draft: false
+image: "/images/blog/law-firms-ditching-wordpress.png"
 ---
 
 WordPress powers roughly [40% of all websites on the internet](/blog/). It's been the default for law firm web development for over a decade. So why are forward-thinking firms now migrating off it?

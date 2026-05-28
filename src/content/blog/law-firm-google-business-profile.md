@@ -8,6 +8,7 @@ tags: ["attorney local search","Google Business Profile","law firm marketing","l
 seo_title: "The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025"
 seo_description: "Your Google Business Profile is the single highest-ROI local SEO asset your law firm has. Most firms set it up once and forget it. Here's what the top-ranked fi"
 draft: false
+image: "/images/blog/law-firm-google-business-profile.png"
 ---
 
 When someone in your city searches for an attorney, the first thing they see isn't your website. It's the Google Local Pack — three business listings displayed above the organic search results, with ratings, hours, and a direct call button.

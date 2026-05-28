@@ -8,6 +8,7 @@ tags: ["law-firm-schema-markup", "legalservice-schema", "structured-data-attorne
 seo_title: "Law Firm Schema Markup: The Technical SEO Move Most Attorneys Are Missing"
 seo_description: "Schema markup is one of the highest-leverage technical SEO moves available to law firms — and one of the most consistently missing. Here's exactly what to imple"
 draft: false
+image: "/images/blog/law-firm-schema-markup.png"
 ---
 
 Among all technical SEO work law firm websites need, schema markup has the most favorable ratio of implementation effort to ranking impact — and it's missing from the majority of law firm sites we audit.

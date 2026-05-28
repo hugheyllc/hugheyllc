@@ -8,6 +8,7 @@ tags: ["findlaw-alternative", "law-firm-website", "law-firm-website-ownership", 
 seo_title: "Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk"
 seo_description: "Many law firms don't realize they don't own their website. If you're using a directory platform, certain agency solutions, or a hosted CMS, you may be renting y"
 draft: false
+image: "/images/blog/law-firm-website-ownership.png"
 ---
 
 Here's a question most law firms have never thought to ask their marketing vendor: *If we stopped working with you tomorrow, would we still have our website?*

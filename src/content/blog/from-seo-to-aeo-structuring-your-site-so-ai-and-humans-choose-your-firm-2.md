@@ -8,6 +8,7 @@ tags: ["AEO", "SEO for law firms", "law firm SEO", "law firm website"]
 seo_title: "From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm"
 seo_description: "Introduction SEO as we knew it is evolving — and fast. With Google’s AI Overviews and the rise of AI-driven search assistants, the new frontier for law firms is"
 draft: false
+image: "/images/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2.png"
 ---
 
 ## Introduction
