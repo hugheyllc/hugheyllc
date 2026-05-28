@@ -23,7 +23,7 @@ export default async function handler(req, res) {
 
     // Send notification to Joe
     const notifyJoe = resend.emails.send({
-      from: 'Hughey LLC <no-reply@hugheyllc.com>',
+      from: 'Hughey LLC <no-reply@notifications.hugheyllc.com>',
       to: 'joe@joehughey.com',
       replyTo: email,
       subject: `New Inquiry: ${name} — ${firmName}`,
@@ -48,7 +48,7 @@ export default async function handler(req, res) {
 
     // Send confirmation to the user
     const confirmUser = resend.emails.send({
-      from: 'Joe Hughey <no-reply@hugheyllc.com>',
+      from: 'Joe Hughey <no-reply@notifications.hugheyllc.com>',
       to: email,
       replyTo: 'joe@joehughey.com',
       subject: `Got your message — Hughey LLC`,
