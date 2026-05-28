@@ -12,7 +12,7 @@ draft: false
 
 The most important questions to ask a law firm marketing agency before signing a contract are: Who owns the website and data if we leave? How do you measure success — leads or retained clients? Do you work with competing firms in my market? What's the minimum contract term? And how do you report results? The answers to these questions reveal whether you're hiring a partner invested in your growth or a vendor optimized for their own revenue. Most law firms sign contracts without asking any of them, then spend 12 months discovering the answers the hard way.
 
-I've spent over 20 years watching law firms hire, fire, and re-hire marketing agencies. The firms that get it right almost always ask better questions upfront. The firms that get burned almost always skipped the vetting. Here are the 10 questions that separate a good agency relationship from an expensive mistake.
+I've spent over 20 years watching law firms hire, fire, and re-hire marketing agencies. The firms that get it right almost always ask better questions upfront. The [FTC's guidelines on deceptive advertising practices](https://www.ftc.gov/business-guidance/resources/ftcguide-endorsements-testimonials-advertising) are worth understanding too — because some of what agencies call "results" wouldn’t survive scrutiny under those standards. The firms that get burned almost always skipped the vetting. Here are the 10 questions that separate a good agency relationship from an expensive mistake.
 
 If you're debating whether an [agency or an independent consultant](/blog/agency-vs-consultant-law-firm-marketing/) is the right fit in the first place, start there. But if you've decided to go the agency route, bring this list to every pitch meeting.
 
@@ -22,7 +22,7 @@ If you're debating whether an [agency or an independent consultant](/blog/agency
 
 **Bad answer:** "We build on our proprietary platform." Or any hesitation at all.
 
-If you don't own your website, you don't have a marketing asset. You're renting one. And when you leave, you start over from zero. This is the single most common trap in legal marketing, and it costs firms years of SEO equity.
+If you don't own your website, you don't have a marketing asset. You're renting one. And when you leave, you start over from zero. This is the single most common trap in legal marketing, and it costs firms years of [SEO equity they've built up over time](https://developers.google.com/search/docs/fundamentals/how-search-works).
 
 ## 2. How Do You Measure Success?
 
@@ -54,7 +54,7 @@ Long contracts protect the agency, not you. Some ramp time is reasonable — SEO
 
 **Bad answer:** "We handle all billing." Or any structure where you don't see the actual ad spend.
 
-Some agencies take a percentage of your ad spend as their fee. That means they're financially incentivized to increase your budget whether or not it produces results. Others mark up the media spend itself, adding 15-30% you never see. Ask for the specific breakdown: what goes to the platform, what goes to the agency.
+Some agencies take a percentage of your ad spend as their fee. That means they're financially incentivized to increase your budget whether or not it produces results. Others mark up the media spend itself, adding 15-30% you never see. [Google's Partner program](https://support.google.com/google-ads/answer/9128669) requires agencies to disclose their fee structures — ask to see your firm's direct account access in Google Ads, not just a dashboard the agency controls.
 
 ## 6. How Will You Report Results?
 

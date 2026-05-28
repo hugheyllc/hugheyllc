@@ -16,6 +16,8 @@ Most law firms never calculate this number. They track cost-per-lead, cost-per-c
 
 This is the number I build every engagement around. If you want to understand [how to track your law firm's actual marketing ROI](/blog/law-firm-marketing-roi-tracking/), cost-per-retained-client is where it starts.
 
+According to the [American Bar Association's 2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/resources/tech-report/), a majority of law firms still don't track marketing ROI beyond basic lead volume — which explains why so many firms feel like their marketing spend is a black box.
+
 ## Why Cost-Per-Lead Is Misleading
 
 Your marketing agency probably reports cost-per-lead as a primary success metric. It feels intuitive: lower cost per lead means better marketing, right?
@@ -75,7 +77,7 @@ You can't calculate cost-per-retained-client without tracking the full journey f
 
 Most firms have pieces of this. Few have the complete picture. That gap is where money disappears.
 
-If you're not sure whether your current setup can support this level of [data analysis](/services/data-analysis-for-law-firms/), it probably can't — and that's worth fixing before you adjust a single dollar of ad spend.
+If you're not sure whether your current setup can support this level of [data analysis for law firms](/services/data-analysis-for-law-firms/), it probably can't — and that's worth fixing before you adjust a single dollar of ad spend.
 
 ## What a Good Number Looks Like
 
@@ -89,7 +91,7 @@ The rule: your cost-per-retained-client should be a fraction of your average cas
 
 ## What to Do With This Number
 
-Once you have cost-per-retained-client by channel, you can make real decisions:
+Once you have cost-per-retained-client by channel, you can make real decisions. [Google's own guidance on conversion tracking](https://support.google.com/google-ads/answer/1722022) outlines how to connect ad spend to downstream outcomes — but even Google's tools stop at the lead. Getting from lead to retained client requires your own data infrastructure.
 
 - **Kill or fix underperforming channels.** If a channel's CPRC is 3x your average, it needs to justify its existence or lose its budget.
 - **Double down on efficient channels.** If SEO is delivering clients at half the cost of paid ads, invest more in content and technical SEO.
