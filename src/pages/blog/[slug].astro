@@ -77,19 +77,16 @@ const breadcrumbSchema = {
   schema={[articleSchema, breadcrumbSchema]}
 >
   <article style="background: var(--ink); color: var(--white);">
-    <PageHero heading={title} subheading={excerpt} />
-
-    {coverImage && (
-      <div style="position: relative; height: 220px; overflow: hidden;">
-        <img
-          src={coverImage}
-          alt={title}
-          style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; opacity: 0.35; filter: saturate(0.4);"
-          loading="eager"
-        />
-        <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, var(--ink) 0%, transparent 30%, transparent 70%, var(--ink) 100%);"></div>
-        <div style="position: absolute; inset: 0; background: linear-gradient(to right, var(--ink) 0%, transparent 20%, transparent 80%, var(--ink) 100%);"></div>
-      </div>
+    {coverImage ? (
+      <section class="blog-hero" style={`background-image: url('${coverImage}');`}>
+        <div class="blog-hero-overlay"></div>
+        <div class="w blog-hero-inner">
+          <h1 class="ph-heading" style="opacity:1;transform:none;">{title}</h1>
+          {excerpt && <p class="ph-sub" style="opacity:1;transform:none;">{excerpt}</p>}
+        </div>
+      </section>
+    ) : (
+      <PageHero heading={title} subheading={excerpt} />
     )}
 
     <!-- Meta bar -->
@@ -375,6 +372,53 @@ const breadcrumbSchema = {
       line-height: 1.75;
       color: rgba(255, 255, 255, 0.7);
       max-width: 780px;
+    }
+
+    /* ── BLOG HERO WITH IMAGE BACKGROUND ──────────────── */
+    .blog-hero {
+      position: relative;
+      min-height: 52vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-end;
+      padding-top: 120px;
+    }
+    .blog-hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(11,11,11,0.45) 0%,
+        rgba(11,11,11,0.55) 40%,
+        rgba(11,11,11,0.85) 75%,
+        var(--ink) 100%
+      );
+    }
+    .blog-hero-inner {
+      position: relative;
+      z-index: 1;
+      padding-bottom: 52px;
+      max-width: 860px;
+    }
+    .blog-hero-inner .ph-heading {
+      font-size: clamp(32px, 5vw, 60px);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--white);
+      margin: 0 0 20px;
+    }
+    .blog-hero-inner .ph-sub {
+      font-size: clamp(16px, 1.6vw, 18px);
+      color: rgba(255,255,255,0.78);
+      line-height: 1.65;
+      max-width: 680px;
+      margin: 0;
+    }
+    @media (max-width: 640px) {
+      .blog-hero { min-height: 44vh; }
     }
   </style>
 </BaseLayout>
