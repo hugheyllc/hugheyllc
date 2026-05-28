@@ -46,9 +46,9 @@ With this data, the allocation decision becomes straightforward: referrals are t
 
 ## What It Takes to Build This
 
-Building full attribution requires connecting four systems: <a>CallRail</a> for phone call attribution, <a>Google Analytics 4</a> for web conversion tracking, <a>Lawmatics</a> or <a>Clio Grow</a> for lead-to-retained-client tracking, and a monthly reconciliation process connecting retained clients to their originating marketing source.
+Building full attribution requires connecting four systems: [CallRail](/blog/) for phone call attribution, [Google Analytics 4](/blog/) for web conversion tracking, [Lawmatics](/blog/) or [Clio Grow](/blog/) for lead-to-retained-client tracking, and a monthly reconciliation process connecting retained clients to their originating marketing source.
 
-This is typically a 2–4 week implementation with cost recovered within the first month through reallocation away from underperforming channels. Full technical breakdown: <a>law firm marketing technology stack guide</a>.
+This is typically a 2–4 week implementation with cost recovered within the first month through reallocation away from underperforming channels. Full technical breakdown: [law firm marketing technology stack guide](/blog/).
 
 For managing partners currently approving marketing budgets without this data: the information you need to make these decisions intelligently exists. It just hasn't been connected yet.
 
@@ -57,15 +57,15 @@ For managing partners currently approving marketing budgets without this data: t
 
 **Approving a marketing budget without knowing what each channel is returning?** We build the attribution infrastructure that gives you the financial clarity to make those decisions with evidence.
 
-<a>Build My Attribution Infrastructure →</a>
+[Build My Attribution Infrastructure →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Law Firm Marketing Technology Stack</a>
+- [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
 
-- <a>Track Law Firm Marketing ROI From First Click to Signed Retainer</a>
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
 
-- <a>The Marketing Data Your Law Firm Is Sitting On</a>
+- [The Marketing Data Your Law Firm Is Sitting On](/blog/)
 
-- <a>Why Law Firm Marketing Retainers Often Underdeliver</a>
+- [Why Law Firm Marketing Retainers Often Underdeliver](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)

@@ -18,7 +18,7 @@ Many law firms invest heavily in marketing — SEO, PPC, social, and video — y
 
 The problem isn’t the work itself; it’s the **lack of visibility** between what your agency reports and what your intake system confirms.
 
-At <a>**Hughey LLC**</a>, we act as a **Fractional CMO** for law firms, bridging that gap. We help you connect data from <a>Google Ads</a>, <a>CallRail</a> , <a>Lawmatics</a>, and your intake reports so you can see which campaigns generate signed clients — and which waste money.
+At [**Hughey LLC**](/blog/), we act as a **Fractional CMO** for law firms, bridging that gap. We help you connect data from [Google Ads](/blog/), [CallRail](/blog/) , [Lawmatics](/blog/), and your intake reports so you can see which campaigns generate signed clients — and which waste money.
 
 ## The Problem with Typical Law-Firm / Agency Relationships
 
@@ -36,7 +36,7 @@ Agencies controlling access to your analytics
 Little connection between marketing activity and revenue
 </li>
 
-The <a>**Clio Legal Trends Report**</a> shows that firms tracking marketing + intake conversion outperform peers by more than 30% in revenue per lawyer.
+The [**Clio Legal Trends Report**](/blog/) shows that firms tracking marketing + intake conversion outperform peers by more than 30% in revenue per lawyer.
 
 ## Step 1 — Define Goals That Tie Directly to Revenue
 
@@ -54,7 +54,7 @@ Every campaign should support these KPIs.
 
 Related reading:
 
-**<a>From PPC to Profit</a> — Mapping Spend to Revenue in Your Law Practice******
+**[From PPC to Profit](/blog/) — Mapping Spend to Revenue in Your Law Practice******
 
 ## Step 2 — Require Transparency and Shared Data Access
 
@@ -100,7 +100,7 @@ Budget allocation (SEO, PPC, LSAs, referrals)
 Predicted pipeline growth
 </li>
 
-Use dashboards in <a>Looker Studio</a> or Hughey KPI dashboards.
+Use dashboards in [Looker Studio](/blog/) or Hughey KPI dashboards.
 
 ## Step 5 — Know When to Pivot or Replace Your Agency
 
@@ -150,13 +150,13 @@ When your firm owns the data and reviews KPIs consistently, every dollar becomes
 
 If your agency’s reports don’t translate to signed clients, it’s time to take control.
 
-<a>Agency Management for Law Firms</a>
+[Agency Management for Law Firms](/blog/)
 
 ## Related Reading
 
-<a>From PPC to Profit</a>
+[From PPC to Profit](/blog/)
 
-<a>Call Tracking, CRM &amp; Web Analytics</a>
+[Call Tracking, CRM &amp; Web Analytics](/blog/)
 		
 					
 ## FAQs

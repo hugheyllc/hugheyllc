@@ -36,8 +36,8 @@ Lead volume alone is a vanity metric. Profitability comes from converting the ri
 				
 		
 
-- <a>Legal Marketing KPIs That Actually Predict Growth</a> (measure quality)
-- <a>The Intake System Is the Most Important Marketing Channel</a> (qualify leads quickly)
-- <a>From Click to Client</a> (map spend to retained cases)
-- <a>ABA article on aligning marketing and finances</a>.
-- <a>Practice Proof’s benchmark metrics</a> for cost and conversion data.
+- [Legal Marketing KPIs That Actually Predict Growth](/blog/) (measure quality)
+- [The Intake System Is the Most Important Marketing Channel](/blog/) (qualify leads quickly)
+- [From Click to Client](/blog/) (map spend to retained cases)
+- [ABA article on aligning marketing and finances](/blog/).
+- [Practice Proof’s benchmark metrics](/blog/) for cost and conversion data.

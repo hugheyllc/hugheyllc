@@ -18,11 +18,11 @@ And yet, the managing partners we talk to most often describe the same experienc
 
 ### 1. Success Is Measured in Proxy Metrics
 
-Most law firm marketing retainers are scoped and reported against traffic, rankings, and engagement metrics. These are proxy metrics — intermediate indicators that *might* correlate with business outcomes, but don't measure them directly. A firm can have growing organic traffic and flat intake numbers simultaneously. The fix requires connecting <a>GA4</a>, <a>CallRail</a>, and your intake CRM so that <a>every lead is attributed to its originating channel</a> and tracked through to retained client status.
+Most law firm marketing retainers are scoped and reported against traffic, rankings, and engagement metrics. These are proxy metrics — intermediate indicators that *might* correlate with business outcomes, but don't measure them directly. A firm can have growing organic traffic and flat intake numbers simultaneously. The fix requires connecting [GA4](/blog/), [CallRail](/blog/), and your intake CRM so that [every lead is attributed to its originating channel](/blog/) and tracked through to retained client status.
 
 ### 2. The Technical Foundation Was Never Built
 
-Content-focused agencies are good at producing content. They're typically not equipped to build and maintain the technical infrastructure that determines whether that content can rank and convert. This creates a situation where genuine effort is applied to the wrong layer of the problem. A firm might have excellent blog content that doesn't rank because its <a>PageSpeed score is 35 on mobile</a>. The content work is real — but it's sitting on a broken foundation.
+Content-focused agencies are good at producing content. They're typically not equipped to build and maintain the technical infrastructure that determines whether that content can rank and convert. This creates a situation where genuine effort is applied to the wrong layer of the problem. A firm might have excellent blog content that doesn't rank because its [PageSpeed score is 35 on mobile](/blog/). The content work is real — but it's sitting on a broken foundation.
 
 ### 3. No Accountability to Business Outcomes
 
@@ -36,13 +36,13 @@ The retainer model, by design, creates a services relationship rather than an ou
 
 - Your contact forms aren't connected to your CRM — leads are manually entered by staff
 
-- You have no <a>call tracking</a> — you don't know which marketing channels are driving inbound calls
+- You have no [call tracking](/blog/) — you don't know which marketing channels are driving inbound calls
 
-- Your <a>mobile PageSpeed score</a> is below 70 and has been for years — a technical issue no content agency has addressed
+- Your [mobile PageSpeed score](/blog/) is below 70 and has been for years — a technical issue no content agency has addressed
 
 ## The Framework for Fixing It
 
-- **Commission a technical audit** — independent of your current agency — using our <a>10-point SEO audit framework</a>
+- **Commission a technical audit** — independent of your current agency — using our [10-point SEO audit framework](/blog/)
 
 - **Build the attribution stack** — connect CallRail, GA4, and your intake CRM so every lead carries its originating channel through to retained client status
 
@@ -55,15 +55,15 @@ The retainer model, by design, creates a services relationship rather than an ou
 
 **Not sure your marketing retainer is delivering?** We'll audit your current setup and give you an independent view of what it's actually returning.
 
-<a>Get an Independent Marketing Audit →</a>
+[Get an Independent Marketing Audit →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>Law Firm Marketing Agency vs. Technical Partner</a>
+- [Law Firm Marketing Agency vs. Technical Partner](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
 
-- <a>How to Track Your Law Firm's Marketing ROI</a>
+- [How to Track Your Law Firm's Marketing ROI](/blog/)
 
-- <a>The Marketing Data Your Law Firm Is Sitting On</a>
+- [The Marketing Data Your Law Firm Is Sitting On](/blog/)
 
-- <a>The Law Firm Marketing Technology Stack Guide</a>
+- [The Law Firm Marketing Technology Stack Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)

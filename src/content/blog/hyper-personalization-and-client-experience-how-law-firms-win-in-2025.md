@@ -42,7 +42,7 @@ Intake should use practice-specific forms, smart routing, and tailored confirmat
 
 Use separate nurture flows for different audiences.
 
-Updated email personalization reference: <a>The Power of Email Personalization to Reach Humans (Not Just Inboxes)</a>
+Updated email personalization reference: [The Power of Email Personalization to Reach Humans (Not Just Inboxes)](/blog/)
 
 - **Visitor Behavior Tracking**
 
@@ -60,7 +60,7 @@ Provide case timelines, expectations, documentation guidance, and regular update
 
 Internal resource:
 
-https://hugheyllc.com/legal-marketing-in-2025-5-trends-every-law-firm-should-watch
+/blog/legal-marketing-in-2025-5-trends-every-law-firm-should-watch/
 
 - **Streamlined Onboarding**
 
@@ -80,7 +80,7 @@ AI tools personalize intake and guide users through questions.
 
 Use quizzes, assessments, tools, and checklists.
 
-**Updated interactive content reference: **<a>Brafton Interactive Content Marketring</a>
+**Updated interactive content reference: **[Brafton Interactive Content Marketring](/blog/)
 
 ## Measuring the Impact of Personalized Client Experience
 
@@ -159,6 +159,4 @@ Yes. Clients are more likely to return, refer others, and leave positive reviews
 					
 ## Ready to build a personalized client journey that wins more cases?
 				
-					<a>
-									Book a discovery call
-					</a>
+					[Book a discovery call](/blog/)

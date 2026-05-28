@@ -160,9 +160,7 @@ Your next clients are asking AI assistants for answers — make sure they find y
 
 Schedule an AEO audit with Hughey LLC to evaluate your schema, content, and intake performance.
 		
-					<a>
-									Book a discovery call
-					</a>
+					[Book a discovery call](/blog/)
 					
 ## FAQs
 				

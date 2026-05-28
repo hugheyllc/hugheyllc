@@ -30,36 +30,36 @@ Google Ads is non-negotiable for most Tampa PI practices — organic SEO alone t
 
 - Expected conversion rate on a well-built landing page: 4–8%
 
-Building a <a>conversion-optimized landing page</a> for each injury type and connecting <a>CallRail</a> to Google Ads conversion tracking is what determines whether your cost-per-retained-client is $1,500 or $4,000 for the same ad spend.
+Building a [conversion-optimized landing page](/blog/) for each injury type and connecting [CallRail](/blog/) to Google Ads conversion tracking is what determines whether your cost-per-retained-client is $1,500 or $4,000 for the same ad spend.
 
 ## Organic SEO: The Long-Term Case Cost Reducer
 
-Our <a>attribution framework for firm financial decision-makers</a> consistently shows organic SEO-generated PI clients cost 40–70% less to acquire than paid search clients — when the full attribution chain is measured.
+Our [attribution framework for firm financial decision-makers](/blog/) consistently shows organic SEO-generated PI clients cost 40–70% less to acquire than paid search clients — when the full attribution chain is measured.
 
-Tampa PI organic SEO priorities: practice area pages for each injury type, neighborhood and suburb location targeting ("car accident attorney Brandon FL," "personal injury lawyer Wesley Chapel"), and informational PI content targeting post-accident research queries. Full keyword framework: <a>personal injury law firm marketing guide</a>.
+Tampa PI organic SEO priorities: practice area pages for each injury type, neighborhood and suburb location targeting ("car accident attorney Brandon FL," "personal injury lawyer Wesley Chapel"), and informational PI content targeting post-accident research queries. Full keyword framework: [personal injury law firm marketing guide](/blog/).
 
 ## Local Pack Dominance: Where the Fastest ROI Lives
 
-For Tampa PI, the local pack is where the most immediately achievable competitive advantage exists. The local pack tactics that move PI rankings fastest in Tampa: systematic review generation (targeting 5+ new reviews per month minimum), weekly Google Posts referencing specific injury types and Tampa geography, and the citation audit and consistency work detailed in our <a>Tampa Local Pack guide</a>.
+For Tampa PI, the local pack is where the most immediately achievable competitive advantage exists. The local pack tactics that move PI rankings fastest in Tampa: systematic review generation (targeting 5+ new reviews per month minimum), weekly Google Posts referencing specific injury types and Tampa geography, and the citation audit and consistency work detailed in our [Tampa Local Pack guide](/blog/).
 
 ## The Full-Funnel Attribution Requirement
 
-At Tampa PI CPCs of $100+, the firms that can calculate their true cost-per-retained-case by channel have an enormous advantage. They know when to increase Google Ads spend, when to reduce it, which organic content is generating retained cases versus just traffic, and what their real marketing ROI is by practice area subcategory. This attribution capability — the connected stack of CallRail, GA4, Lawmatics, and monthly revenue reconciliation — separates data-driven PI marketing from gut-feel marketing. Full framework: <a>law firm marketing technology stack</a>.
+At Tampa PI CPCs of $100+, the firms that can calculate their true cost-per-retained-case by channel have an enormous advantage. They know when to increase Google Ads spend, when to reduce it, which organic content is generating retained cases versus just traffic, and what their real marketing ROI is by practice area subcategory. This attribution capability — the connected stack of CallRail, GA4, Lawmatics, and monthly revenue reconciliation — separates data-driven PI marketing from gut-feel marketing. Full framework: [law firm marketing technology stack](/blog/).
 
 <hr />
 <div>
 
 **Competing in Tampa Bay PI and not sure what your marketing spend is actually returning?** We build the full infrastructure — from landing pages to attribution stack — for PI firms that want to know their real cost-per-case.
 
-<a>Build My Tampa PI Marketing Infrastructure →</a>
+[Build My Tampa PI Marketing Infrastructure →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>Personal Injury Law Firm Marketing: The Complete Florida Strategy</a>
+- [Personal Injury Law Firm Marketing: The Complete Florida Strategy](/blog/)
 
-- <a>How Tampa Law Firms Win the Google Local Pack</a>
+- [How Tampa Law Firms Win the Google Local Pack](/blog/)
 
-- <a>Google Ads for Law Firms: Why Most Campaigns Fail</a>
+- [Google Ads for Law Firms: Why Most Campaigns Fail](/blog/)
 
-- <a>The Law Firm Marketing Technology Stack</a>
+- [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)

@@ -16,15 +16,15 @@ Hughey helps Tampa Bay law firms cut through the noise and implement what actual
 
 ## 1. Smarter Lead Tracking and Intake
  
-Managing leads from first contact to signed agreement is a common challenge. AI-powered CRM platforms like <a>Lawmatics</a> and <a>HubSpot</a> can automate lead capture, assign prospects to the right team member, and send timely follow-ups. Combine this with call tracking solutions such as <a>CallRail</a> and <a>RingCentral</a>, and you’ll ensure no potential client slips through the cracks.
+Managing leads from first contact to signed agreement is a common challenge. AI-powered CRM platforms like [Lawmatics](/blog/) and [HubSpot](/blog/) can automate lead capture, assign prospects to the right team member, and send timely follow-ups. Combine this with call tracking solutions such as [CallRail](/blog/) and [RingCentral](/blog/), and you’ll ensure no potential client slips through the cracks.
 
 ## 2. Automated Content Creation and Scheduling
 
-Content marketing remains essential for law firms. AI-driven tools like <a>Jasper</a> and <a>Grammarly</a> can help generate blog ideas, draft outlines, and even write first drafts. For scheduling and distributing content across multiple channels, platforms like <a>Buffer</a> or <a>Hootsuite</a> can save hours each week. These solutions help you maintain a consistent online presence while freeing up your team for client work.
+Content marketing remains essential for law firms. AI-driven tools like [Jasper](/blog/) and [Grammarly](/blog/) can help generate blog ideas, draft outlines, and even write first drafts. For scheduling and distributing content across multiple channels, platforms like [Buffer](/blog/) or [Hootsuite](/blog/) can save hours each week. These solutions help you maintain a consistent online presence while freeing up your team for client work.
 
 ## 3. Data-Driven Decision Making
 
-The best marketing strategies are built on actionable data. AI-powered analytics platforms such as <a>Google Analytics 4 (GA4)</a> and <a>Google Ads</a> can reveal which campaigns are generating qualified leads and where prospects drop off in your intake process. With these insights, small firms can make smarter decisions about where to focus their marketing spend. 
+The best marketing strategies are built on actionable data. AI-powered analytics platforms such as [Google Analytics 4 (GA4)](/blog/) and [Google Ads](/blog/) can reveal which campaigns are generating qualified leads and where prospects drop off in your intake process. With these insights, small firms can make smarter decisions about where to focus their marketing spend. 
 
 ## 4. Competitive Advantage Without the Overhead
 

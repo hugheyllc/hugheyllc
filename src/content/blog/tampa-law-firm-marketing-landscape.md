@@ -22,21 +22,21 @@ The Tampa Bay metro area — Hillsborough, Pinellas, and Pasco counties combined
 
 **Marketing vendor-backed smaller firms** — firms working with large national marketing agencies that provide templated websites, content packages, and citation management at scale. These firms often have decent organic visibility despite having no differentiated digital presence.
 
-**Directory profiles** — <a>Avvo</a>, <a>Martindale-Hubbell</a>, and <a>FindLaw</a> profiles often rank on page one for local attorney searches. These are both competition for your prospects' attention and citation opportunities for your own SEO.
+**Directory profiles** — [Avvo](/blog/), [Martindale-Hubbell](/blog/), and [FindLaw](/blog/) profiles often rank on page one for local attorney searches. These are both competition for your prospects' attention and citation opportunities for your own SEO.
 
 ## Where the Real Opportunity Is
 
-**Technical SEO performance.** The majority of law firm websites in Tampa have mobile PageSpeed scores in the 30–60 range and Core Web Vitals issues that suppress rankings. A firm that invests in <a>technical SEO remediation</a> and builds on a modern stack is competing with an unfair advantage over the field.
+**Technical SEO performance.** The majority of law firm websites in Tampa have mobile PageSpeed scores in the 30–60 range and Core Web Vitals issues that suppress rankings. A firm that invests in [technical SEO remediation](/blog/) and builds on a modern stack is competing with an unfair advantage over the field.
 
-**Attribution infrastructure.** Almost no law firm in the Tampa market has a fully connected <a>marketing attribution stack</a>. Firms that connect CallRail → GA4 → Lawmatics → revenue data can allocate marketing budgets with precision that competitors operating on gut feel cannot match.
+**Attribution infrastructure.** Almost no law firm in the Tampa market has a fully connected [marketing attribution stack](/blog/). Firms that connect CallRail → GA4 → Lawmatics → revenue data can allocate marketing budgets with precision that competitors operating on gut feel cannot match.
 
 **Topical authority.** Most Tampa law firm websites have some content but very few have the kind of comprehensive, well-structured topical authority that Google rewards with broad, sustained rankings.
 
-**Local pack optimization.** The Google Local Pack generates disproportionate click-through for attorney searches. <a>Google Business Profile optimization</a>, consistent citation management, and systematic review generation are underinvested by most Tampa firms relative to their impact.
+**Local pack optimization.** The Google Local Pack generates disproportionate click-through for attorney searches. [Google Business Profile optimization](/blog/), consistent citation management, and systematic review generation are underinvested by most Tampa firms relative to their impact.
 
 ## The Vendor Landscape in Tampa
 
-Tampa Bay has a reasonably active legal marketing vendor landscape — from large national agencies with Florida operations to local boutique shops. Most are content and campaign execution businesses. What's notably absent from the Tampa market is technical infrastructure expertise — the ability to build modern website stacks, connect marketing platforms through custom API integrations, and build the attribution infrastructure that connects marketing spend to retained client revenue. This is the gap <a>Hughey, LLC</a> fills.
+Tampa Bay has a reasonably active legal marketing vendor landscape — from large national agencies with Florida operations to local boutique shops. Most are content and campaign execution businesses. What's notably absent from the Tampa market is technical infrastructure expertise — the ability to build modern website stacks, connect marketing platforms through custom API integrations, and build the attribution infrastructure that connects marketing spend to retained client revenue. This is the gap [Hughey, LLC](/blog/) fills.
 
 ## What Winning Looks Like in This Market
 
@@ -47,15 +47,15 @@ The Tampa law firms pulling ahead in digital marketing share a few common charac
 
 **Want to know exactly where your firm stands in the Tampa market?** We'll run a full competitive audit and show you the clearest path to gaining ground.
 
-<a>Get a Tampa Market Competitive Audit →</a>
+[Get a Tampa Market Competitive Audit →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>Local SEO for Law Firms: Own "Attorney Near Me" Searches</a>
+- [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
 
-- <a>The Law Firm Google Business Profile Guide</a>
+- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
 
-- <a>St. Petersburg Law Firm SEO: How to Rank in Pinellas County</a>
+- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County](/blog/)
 
-- <a>The Complete Law Firm SEO Guide (2026)</a>
+- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)

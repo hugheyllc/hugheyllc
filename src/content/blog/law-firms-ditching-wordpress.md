@@ -10,7 +10,7 @@ seo_description: "WordPress powers most law firm websites — but it's becoming 
 draft: false
 ---
 
-WordPress powers roughly <a>40% of all websites on the internet</a>. It's been the default for law firm web development for over a decade. So why are forward-thinking firms now migrating off it?
+WordPress powers roughly [40% of all websites on the internet](/blog/). It's been the default for law firm web development for over a decade. So why are forward-thinking firms now migrating off it?
 
 The answer isn't that WordPress is bad. It's that **the legal web landscape has changed in ways that expose its limitations** — specifically around SEO performance, security, and long-term ownership.
 
@@ -18,29 +18,29 @@ The answer isn't that WordPress is bad. It's that **the legal web landscape has 
 
 ### 1. Performance Debt Accumulates Fast
 
-Page builders like <a>Elementor</a> and <a>Divi</a>, unoptimized media, and conflicting plugin updates cause WordPress sites to progressively slow down. In the era of <a>Google's Core Web Vitals</a> as a confirmed ranking factor, that's a direct SEO liability. We've inherited law firm WordPress sites with <a>PageSpeed</a> mobile scores in the 20s.
+Page builders like [Elementor](/blog/) and [Divi](/blog/), unoptimized media, and conflicting plugin updates cause WordPress sites to progressively slow down. In the era of [Google's Core Web Vitals](/blog/) as a confirmed ranking factor, that's a direct SEO liability. We've inherited law firm WordPress sites with [PageSpeed](/blog/) mobile scores in the 20s.
 
 ### 2. Security Is an Ongoing Burden
 
-WordPress's dominance makes it the <a>most-attacked CMS on the web</a>. For a law firm handling sensitive client data under <a>ABA Model Rule 1.6</a>, a security breach isn't just a PR problem — it's a potential ethics complaint.
+WordPress's dominance makes it the [most-attacked CMS on the web](/blog/). For a law firm handling sensitive client data under [ABA Model Rule 1.6](/blog/), a security breach isn't just a PR problem — it's a potential ethics complaint.
 
 ### 3. You Don't Own the Experience
 
-Most law firm WordPress sites are patchworks of third-party decisions. Custom changes — new layouts, direct integrations with <a>Lawmatics</a> — are constrained by what your theme or plugin allows.
+Most law firm WordPress sites are patchworks of third-party decisions. Custom changes — new layouts, direct integrations with [Lawmatics](/blog/) — are constrained by what your theme or plugin allows.
 
 ## What Modern Law Firm Websites Are Built On
 
 ### Static Site Generation — Astro or Next.js
 
-Instead of building pages from a database on every request, <a>Astro</a> and <a>Next.js</a> pre-build pages at deploy time. The result: near-instant load times served from a global CDN. Astro ships zero JavaScript by default — a major contributor to fast mobile scores, and our preferred choice for content-heavy law firm sites.
+Instead of building pages from a database on every request, [Astro](/blog/) and [Next.js](/blog/) pre-build pages at deploy time. The result: near-instant load times served from a global CDN. Astro ships zero JavaScript by default — a major contributor to fast mobile scores, and our preferred choice for content-heavy law firm sites.
 
 ### Headless CMS — Decap CMS or Sanity
 
-Non-technical staff still get a clean editorial interface. <a>Decap CMS</a> is a great fit for law firms — content is version-controlled in <a>GitHub</a>, never trapped in a proprietary platform. Attorneys update bios, marketing publishes posts, no code required.
+Non-technical staff still get a clean editorial interface. [Decap CMS](/blog/) is a great fit for law firms — content is version-controlled in [GitHub](/blog/), never trapped in a proprietary platform. Attorneys update bios, marketing publishes posts, no code required.
 
 ### Modern Hosting — Vercel or Netlify
 
-Automatic Git-based deployments, built-in global CDN, instant rollbacks, and branch previews — all standard on <a>Vercel</a> and <a>Netlify</a>. No manual FTP, no staging upcharges.
+Automatic Git-based deployments, built-in global CDN, instant rollbacks, and branch previews — all standard on [Vercel](/blog/) and [Netlify](/blog/). No manual FTP, no staging upcharges.
 
 ## Real-World Performance Numbers
 
@@ -56,7 +56,7 @@ Automatic Git-based deployments, built-in global CDN, instant rollbacks, and bra
 <tr><td>Organic Traffic (90 days)</td><td>Baseline</td><td>+67%</td></tr>
 </tbody></table>
 
-This is the stack we use for our <a>law firm website development projects</a>. Every migration includes a complete <a>Google Search Console</a> validation to protect existing rankings.
+This is the stack we use for our [law firm website development projects](/blog/). Every migration includes a complete [Google Search Console](/blog/) validation to protect existing rankings.
 
 <div>
 
@@ -75,13 +75,13 @@ This is the stack we use for our <a>law firm website development projects</a>. E
 
 **Curious whether your firm is a candidate for a migration?** We'll give you an honest assessment — no pressure, no sales deck.
 
-<a>Talk to Us About Your Website →</a>
+[Talk to Us About Your Website →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>Why Your Law Firm's Website Is Losing Clients Before They Even Call</a>
+- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
 
-- <a>The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It</a>
+- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](/blog/)
 
-- <a>Our Law Firm Web Development Services</a>
+- [Our Law Firm Web Development Services](/blog/)

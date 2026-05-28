@@ -20,50 +20,50 @@ The payoff is twofold: better semantic understanding of your pages (supporting r
 
 ### LegalService Schema
 
-<a>LegalService</a> is the primary schema type for practice area pages. It tells Google explicitly what type of legal service is offered, who provides it, and where it's available. A complete implementation for a Tampa personal injury page includes name, description, URL, telephone, address with geographic coordinates, areaServed listing your cities, and serviceType.
+[LegalService](/blog/) is the primary schema type for practice area pages. It tells Google explicitly what type of legal service is offered, who provides it, and where it's available. A complete implementation for a Tampa personal injury page includes name, description, URL, telephone, address with geographic coordinates, areaServed listing your cities, and serviceType.
 
 ### LocalBusiness Schema on the Homepage
 
-Your homepage should implement <a>LocalBusiness schema</a> (Attorney type) to establish your firm's identity and location for Google's local knowledge graph. This schema supports both organic rankings and your <a>Google Business Profile</a> signals when data is consistent. Critical fields: name, address (matching your GBP exactly), phone, URL, opening hours, and geo coordinates.
+Your homepage should implement [LocalBusiness schema](/blog/) (Attorney type) to establish your firm's identity and location for Google's local knowledge graph. This schema supports both organic rankings and your [Google Business Profile](/blog/) signals when data is consistent. Critical fields: name, address (matching your GBP exactly), phone, URL, opening hours, and geo coordinates.
 
 ### FAQPage Schema
 
-<a>FAQPage schema</a> enables rich results where Q&A pairs from your page appear directly in search results, expanding your SERP presence without requiring additional rankings. For law firm practice area pages with FAQ sections, this schema can double your effective SERP real estate. Questions should target the "People Also Ask" queries that appear for your primary keywords.
+[FAQPage schema](/blog/) enables rich results where Q&A pairs from your page appear directly in search results, expanding your SERP presence without requiring additional rankings. For law firm practice area pages with FAQ sections, this schema can double your effective SERP real estate. Questions should target the "People Also Ask" queries that appear for your primary keywords.
 
 ### Person Schema for Attorney Bio Pages
 
-<a>Person schema</a> on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's <a>E-E-A-T evaluation</a>. Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
+[Person schema](/blog/) on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/). Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
 
 ### Article Schema for Blog Content
 
-<a>Article schema</a> on blog posts establishes the author, publication date, and organization. Combined with attorney author bylines and Person schema on bio pages, this creates a connected web of E-E-A-T signals Google's quality systems can parse explicitly.
+[Article schema](/blog/) on blog posts establishes the author, publication date, and organization. Combined with attorney author bylines and Person schema on bio pages, this creates a connected web of E-E-A-T signals Google's quality systems can parse explicitly.
 
 ## How to Implement Schema Markup
 
-The cleanest approach is JSON-LD — a block of schema code added to the page's HTML head section. For sites on <a>Astro</a> or <a>Next.js</a>, schema can be implemented as a component that accepts page-specific data and renders the correct JSON-LD block consistently across all pages of the same type.
+The cleanest approach is JSON-LD — a block of schema code added to the page's HTML head section. For sites on [Astro](/blog/) or [Next.js](/blog/), schema can be implemented as a component that accepts page-specific data and renders the correct JSON-LD block consistently across all pages of the same type.
 
-After implementation, validate using <a>Google's Rich Results Test</a> and the <a>Schema.org Validator</a>. Errors prevent Google from using schema for rich results and can negate the ranking benefit.
+After implementation, validate using [Google's Rich Results Test](/blog/) and the [Schema.org Validator](/blog/). Errors prevent Google from using schema for rich results and can negate the ranking benefit.
 
 ## Monitoring in Search Console
 
-Once implemented, monitor in <a>Google Search Console</a> under Enhancements. Search Console reports whether Google is successfully parsing your schema, any errors needing correction, and which pages have valid rich result eligibility — part of the monthly <a>SEO audit routine</a>.
+Once implemented, monitor in [Google Search Console](/blog/) under Enhancements. Search Console reports whether Google is successfully parsing your schema, any errors needing correction, and which pages have valid rich result eligibility — part of the monthly [SEO audit routine](/blog/).
 
-Schema markup is one of the technical implementations we include in every law firm website build and audit at <a>Hughey, LLC</a>. The implementation window is short; the ongoing ranking benefit is persistent.
+Schema markup is one of the technical implementations we include in every law firm website build and audit at [Hughey, LLC](/blog/). The implementation window is short; the ongoing ranking benefit is persistent.
 
 <hr />
 <div>
 
 **Missing schema markup on your law firm website?** We implement the complete schema stack as part of every technical SEO engagement.
 
-<a>Add Schema Markup to My Site →</a>
+[Add Schema Markup to My Site →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Complete Law Firm SEO Guide (2026)</a>
+- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
 
-- <a>The Law Firm SEO Audit: 10 Things to Check First</a>
+- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
 
-- <a>What Is E-E-A-T and Why It Matters for Law Firms</a>
+- [What Is E-E-A-T and Why It Matters for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
 
-- <a>The Law Firm Google Business Profile Guide</a>
+- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)

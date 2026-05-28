@@ -14,9 +14,9 @@ draft: false
 
 ## Step 1 — Integrate Marketing and Intake Data
 
-Integrating your advertising platforms (Google Ads, Microsoft Ads) with your CRM (<a>Lawmatics</a>, <a>Clio Grow</a>, or <a>HubSpot Legal</a>) ensures that every lead is properly tracked.
+Integrating your advertising platforms (Google Ads, Microsoft Ads) with your CRM ([Lawmatics](/blog/), [Clio Grow](/blog/), or [HubSpot Legal](/blog/)) ensures that every lead is properly tracked.
 
-Each phone call or form submission should include the campaign, ad group, and keyword that generated it. Call-tracking tools like <a>CallRail</a> or <a>WhatConverts</a> can automate this process.
+Each phone call or form submission should include the campaign, ad group, and keyword that generated it. Call-tracking tools like [CallRail](/blog/) or [WhatConverts](/blog/) can automate this process.
 
 ## Step 2 — Assign Value to Signed Clients
 
@@ -43,9 +43,7 @@ Once your PPC data connects seamlessly to your intake and financial systems, you
 					
 ## Ready to learn how to best use your marketing dollars? Let’s connect.
 				
-					<a>
-									Book a discovery call
-					</a>
+					[Book a discovery call](/blog/)
 					
 ## FAQs
 				

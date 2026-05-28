@@ -24,13 +24,13 @@ Paid visibility is moving beyond classic keyword ads. In the realm of legal mark
 </blockquote>
 ## Latest Signals: LLMs &amp; Answer Engines Are Adding Ads
 
-- **Google** is showing ads in and around *AI Overviews* / AI Mode; Google Ads documents how these can surface within the experience and how eligibility works.<br />See Google's support note "About ads and AI Overviews."<br />(<a>Google Ads Help</a>)
-- **Perplexity** publicly announced experiments with ads (e.g., sponsored follow-up questions positioned next to answers).<br />(<a>Perplexity Blog</a> •<br /><a>Search Engine Land coverage</a>)
-- **Microsoft** has been updating *Copilot* ad formats/triggering in its advertising stack, describing how ads appear within the Copilot environment and how they're labeled and triggered.<br />(<a>Microsoft Advertising blog</a> •<br /><a>Search Engine Land</a> •<br /><a>Copilot-native ad formats</a>)
-- **Market outlook:** Forecasts estimate U.S. spend on *AI-powered search ads* climbing from just over ~$1B in 2025 to roughly **$26B by 2029**.<br />(<a>Reuters</a> •<br /><a>TechMonitor</a>)
-- **OpenAI / ChatGPT:** industry reporting and interviews indicate the company is actively exploring ad models and hiring leadership to build an ads business as its assistant surfaces expand.<br />(<a>SEJ</a> •<br /><a>Times of India</a>)
+- **Google** is showing ads in and around *AI Overviews* / AI Mode; Google Ads documents how these can surface within the experience and how eligibility works.<br />See Google's support note "About ads and AI Overviews."<br />([Google Ads Help](/blog/))
+- **Perplexity** publicly announced experiments with ads (e.g., sponsored follow-up questions positioned next to answers).<br />([Perplexity Blog](/blog/) •<br />[Search Engine Land coverage](/blog/))
+- **Microsoft** has been updating *Copilot* ad formats/triggering in its advertising stack, describing how ads appear within the Copilot environment and how they're labeled and triggered.<br />([Microsoft Advertising blog](/blog/) •<br />[Search Engine Land](/blog/) •<br />[Copilot-native ad formats](/blog/))
+- **Market outlook:** Forecasts estimate U.S. spend on *AI-powered search ads* climbing from just over ~$1B in 2025 to roughly **$26B by 2029**.<br />([Reuters](/blog/) •<br />[TechMonitor](/blog/))
+- **OpenAI / ChatGPT:** industry reporting and interviews indicate the company is actively exploring ad models and hiring leadership to build an ads business as its assistant surfaces expand.<br />([SEJ](/blog/) •<br />[Times of India](/blog/))
 
-For the technically curious: researchers have proposed *RAG-based ad auctions* where ads are selected segment-by-segment inside an LLM's output, pointing to a future where auctions run within the answer itself.<br />(<a>Ad Auctions for LLMs via RAG</a>)
+For the technically curious: researchers have proposed *RAG-based ad auctions* where ads are selected segment-by-segment inside an LLM's output, pointing to a future where auctions run within the answer itself.<br />([Ad Auctions for LLMs via RAG](/blog/))
 
 ## Why This Matters to Law Firms
 
@@ -64,14 +64,14 @@ Reallocate as performance data accumulates. Forecasts suggest AI-search ad share
 
 ## 30-60-90 Day Launch Plan
 <table><thead><tr><th>Phase</th><th>Milestones</th><th>Outputs</th></tr></thead><tbody><tr><td>Days 1-30</td><td>Pick 3 assistant-intents; draft ad copy; build 2 landing pages w/ FAQ schema; compliance review.</td><td>Ads + LPs for "Demand Letter (FL)" and "Litigation Costs (FL)".</td></tr><tr><td>Days 31-60</td><td>Launch tests (Google AI Overviews where eligible, Copilot formats, Perplexity if available); set KPI dashboards.</td><td>Assistant impression share, CTR, CPA baselines.</td></tr><tr><td>Days 61-90</td><td>Iterate creatives; add video variant; expand to "Settlement vs Trial (FL)".</td><td>Scaled budget to top-performing placements.</td></tr></tbody></table>
-**Need help understanding how this impacts your firm?** Schedule a dicovery call and we'll sort this out for you.<br /><a>See Services</a> • <a>Contact</a>
+**Need help understanding how this impacts your firm?** Schedule a dicovery call and we'll sort this out for you.<br />[See Services](/blog/) • [Contact](/blog/)
 
 ## References
 
-- Google Ads Help - <a>About ads and AI Overviews</a>
-- Perplexity - <a>Why we're experimenting with advertising</a> | Coverage: <a>Search Engine Land</a>
-- Microsoft Advertising - <a>Ads in Copilot experiences</a> • <a>Copilot-native ad formats</a> • <a>SELand coverage</a>
-- Market Forecasts - <a>Reuters: AI search ad spend to ~$26B by 2029</a> • <a>TechMonitor</a>
-- Research - <a>Ad Auctions for LLMs via RAG</a>
-- OpenAI - <a>Altman on possible ads</a> • hiring reports for ad leadership (e.g., <a>TOI</a>)
+- Google Ads Help - [About ads and AI Overviews](/blog/)
+- Perplexity - [Why we're experimenting with advertising](/blog/) | Coverage: [Search Engine Land](/blog/)
+- Microsoft Advertising - [Ads in Copilot experiences](/blog/) • [Copilot-native ad formats](/blog/) • [SELand coverage](/blog/)
+- Market Forecasts - [Reuters: AI search ad spend to ~$26B by 2029](/blog/) • [TechMonitor](/blog/)
+- Research - [Ad Auctions for LLMs via RAG](/blog/)
+- OpenAI - [Altman on possible ads](/blog/) • hiring reports for ad leadership (e.g., [TOI](/blog/))
 </article>

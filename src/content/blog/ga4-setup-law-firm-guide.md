@@ -16,11 +16,11 @@ The useful version requires configuration work that takes 3–6 hours to do corr
 
 ## Why GA4 Setup Matters More Than Most Firms Realize
 
-GA4 is the central nervous system of your marketing attribution stack. When properly configured, it collects and routes the conversion data that enables: Google Ads smart bidding to optimize toward actual leads rather than clicks; accurate source attribution for every form submission and phone call; identification of which pages and content are generating qualified prospects; and the foundation for <a>true marketing ROI tracking</a> from first click to signed retainer.
+GA4 is the central nervous system of your marketing attribution stack. When properly configured, it collects and routes the conversion data that enables: Google Ads smart bidding to optimize toward actual leads rather than clicks; accurate source attribution for every form submission and phone call; identification of which pages and content are generating qualified prospects; and the foundation for [true marketing ROI tracking](/blog/) from first click to signed retainer.
 
 ## Step 1: Implement via Google Tag Manager
 
-Set up <a>Google Tag Manager</a> (GTM) as your implementation layer. GTM allows you to deploy and update tracking code without editing the site's source code directly. All tracking changes can be made in GTM without developer involvement, additional platforms can be added without new code deployments, and GTM's preview and debug mode lets you verify tracking before publishing.
+Set up [Google Tag Manager](/blog/) (GTM) as your implementation layer. GTM allows you to deploy and update tracking code without editing the site's source code directly. All tracking changes can be made in GTM without developer involvement, additional platforms can be added without new code deployments, and GTM's preview and debug mode lets you verify tracking before publishing.
 
 Install GTM on every page of your website, then deploy GA4 through a GTM tag rather than directly in the site code.
 
@@ -32,7 +32,7 @@ This is the most important configuration step and the one most commonly skipped.
 
 **Phone number click** — fires when a visitor clicks a phone number link on mobile. Configure via a GTM click trigger on elements with your phone number's href value.
 
-**Consultation booking completion** — fires when a consultation is successfully booked via <a>Calendly</a> or embedded booking tool.
+**Consultation booking completion** — fires when a consultation is successfully booked via [Calendly](/blog/) or embedded booking tool.
 
 **Live chat initiation** — fires when a visitor initiates a conversation via live chat.
 
@@ -40,7 +40,7 @@ Once configured in GTM, mark each as a conversion in GA4 (Admin → Events → t
 
 ## Step 3: Connect CallRail
 
-As detailed in our <a>CallRail setup guide</a>, configure CallRail to push call events into GA4 as conversion events. Once in place, phone calls appear in your GA4 conversion reports alongside form submissions — a complete view of all leads, not just digital forms.
+As detailed in our [CallRail setup guide](/blog/), configure CallRail to push call events into GA4 as conversion events. Once in place, phone calls appear in your GA4 conversion reports alongside form submissions — a complete view of all leads, not just digital forms.
 
 ## Step 4: Configure Custom Dimensions
 
@@ -62,22 +62,22 @@ In GA4, go to Admin → Product Links and connect:
 
 ## Step 6: Build the Core Reports Dashboard
 
-Build a custom exploration (GA4 → Explore → Free Form) for monthly review: organic sessions by geographic region; conversion events by source/medium; landing page by conversion events; practice area page engagement rate. This dashboard, reviewed monthly alongside your <a>CallRail</a> reports and intake CRM data, is the core of the <a>analytics review process</a> we recommend for law firms.
+Build a custom exploration (GA4 → Explore → Free Form) for monthly review: organic sessions by geographic region; conversion events by source/medium; landing page by conversion events; practice area page engagement rate. This dashboard, reviewed monthly alongside your [CallRail](/blog/) reports and intake CRM data, is the core of the [analytics review process](/blog/) we recommend for law firms.
 
 <hr />
 <div>
 
 **Want GA4 configured correctly — the first time?** We implement the complete configuration as part of our attribution stack setup.
 
-<a>Set Up My Analytics Properly →</a>
+[Set Up My Analytics Properly →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Law Firm Marketing Technology Stack: A Complete Guide</a>
+- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
 
-- <a>CallRail for Law Firms: The Complete Setup Guide</a>
+- [CallRail for Law Firms: The Complete Setup Guide](https://hugheyllc.com/blog/callrail-law-firm-setup-guide/)
 
-- <a>What Your Law Firm's Website Analytics Are Actually Telling You</a>
+- [What Your Law Firm's Website Analytics Are Actually Telling You](https://hugheyllc.com/blog/law-firm-website-analytics/)
 
-- <a>Track Law Firm Marketing ROI From First Click to Signed Retainer</a>
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)

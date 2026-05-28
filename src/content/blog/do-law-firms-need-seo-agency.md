@@ -22,9 +22,9 @@ Done well, SEO is one of the highest-ROI marketing channels available. Unlike Go
 
 ## When You Probably Don't Need an SEO Agency (Yet)
 
-**Your website has significant technical problems.** If your <a>mobile PageSpeed score</a> is below 60, your site has crawl errors in <a>Google Search Console</a>, or your <a>Core Web Vitals</a> are failing, content investment will underperform until those issues are fixed. See our <a>law firm SEO audit guide</a>.
+**Your website has significant technical problems.** If your [mobile PageSpeed score](/blog/) is below 60, your site has crawl errors in [Google Search Console](/blog/), or your [Core Web Vitals](/blog/) are failing, content investment will underperform until those issues are fixed. See our [law firm SEO audit guide](/blog/).
 
-**You don't have conversion tracking in place.** Without <a>call tracking</a> and <a>GA4 conversion events</a> connected to your intake CRM, you'll have no way to measure whether the SEO work is generating cases. Build the <a>attribution stack</a> first.
+**You don't have conversion tracking in place.** Without [call tracking](/blog/) and [GA4 conversion events](/blog/) connected to your intake CRM, you'll have no way to measure whether the SEO work is generating cases. Build the [attribution stack](/blog/) first.
 
 **Your intake process can't handle more leads.** If your firm can't respond to new inquiries within a few hours and doesn't have an automated follow-up workflow, more leads will just mean more dropped balls.
 
@@ -42,26 +42,26 @@ Not all SEO help is the same. For most law firms, the need breaks into three dis
 
 - **Attribution and reporting infrastructure** — connecting marketing platforms to intake data. Technical integration work that most agencies don't do.
 
-Our <a>complete law firm SEO guide</a> walks through each layer in detail.
+Our [complete law firm SEO guide](/blog/) walks through each layer in detail.
 
 ## The Question Beneath the Question
 
-When a managing partner asks "do we need an SEO agency," what they're usually really asking is: "is our marketing working, and if not, what should we do differently?" That deserves an honest, data-based answer — not a sales pitch. At <a>Hughey, LLC</a>, our process starts with an audit of your current setup. The audit tells us what's working, what isn't, and what the right next investment is.
+When a managing partner asks "do we need an SEO agency," what they're usually really asking is: "is our marketing working, and if not, what should we do differently?" That deserves an honest, data-based answer — not a sales pitch. At [Hughey, LLC](/blog/), our process starts with an audit of your current setup. The audit tells us what's working, what isn't, and what the right next investment is.
 
 <hr />
 <div>
 
 **Not sure what your firm actually needs?** We'll audit your current marketing setup and give you a clear, honest answer — no obligation, no pitch.
 
-<a>Get an Honest Marketing Assessment →</a>
+[Get an Honest Marketing Assessment →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Complete Law Firm SEO Guide (2026)</a>
+- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
 
-- <a>The Law Firm SEO Audit: 10 Things to Check First</a>
+- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
 
-- <a>Law Firm Marketing Agency vs. Technical Partner</a>
+- [Law Firm Marketing Agency vs. Technical Partner](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
 
-- <a>How to Choose a Law Firm Website Design Company Without Getting Burned</a>
+- [How to Choose a Law Firm Website Design Company Without Getting Burned](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)

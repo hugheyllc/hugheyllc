@@ -159,7 +159,7 @@ Because last-touch analytics credits the final channel, not the upstream trust c
 			<svg aria-hidden="true"><path></path></svg>
 						</summary>
 									
-Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, <a>FindLaw</a>/<a>Lawyers.com</a>, <a>Avvo</a>, <a>Super Lawyers</a>, and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
+Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, [FindLaw](/blog/)/[Lawyers.com](/blog/), [Avvo](/blog/), [Super Lawyers](/blog/), and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
 								
 					</details>
 						<details >
@@ -199,7 +199,7 @@ does not show a direct conversion.
 
 Because last-touch analytics credits the final channel, not the upstream trust checkpoints. If a consumer touches your directory profile and then contacts you via your website, Google Maps, or a saved number, the directory rarely receives credit in your standard reporting.
 
-Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, <a>FindLaw</a>/<a>Lawyers.com</a>, <a>Avvo</a>, <a>Super Lawyers</a>, and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
+Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, [FindLaw](/blog/)/[Lawyers.com](/blog/), [Avvo](/blog/), [Super Lawyers](/blog/), and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
 
 At least quarterly. Update practice areas, case types, awards, publications, speaking engagements, and bio details. Any time something significant changes on your website bio, update your directories to match.
 

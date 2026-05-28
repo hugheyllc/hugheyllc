@@ -106,7 +106,7 @@ Benchmarks are guides — not ceilings. The best approach is to track quarterly 
 
 For a full process, see:
 
-<a>From PPC to Profit</a> 
+[From PPC to Profit](/blog/) 
 
 ## How Elite Firms Stay Ahead in 2025
 
@@ -146,9 +146,9 @@ https://hugheyllc.com/contact/
 
 ## Related Reading
 
-Call Tracking, CRM &amp; Web Analytics: <a>https://hugheyllc.com/blog/call-tracking-crm-web-analytics-intake/  </a>
+Call Tracking, CRM &amp; Web Analytics: [https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/](/blog/)
 
-From PPC to Profit: <a>https://hugheyllc.com/blog/from-ppc-to-profit/</a>
+From PPC to Profit: [https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/](/blog/)
 		
 					
 ## FAQs

@@ -64,10 +64,10 @@ The biggest opportunities for law firms in 2026 lie in:
 				
 		
 
-- <a>SEO for Law Firms in an AI‑First Search World</a> (expand for deeper tactics).
-- <a>The Intake System Is the Most Important Marketing Channel</a> (dive into response times and AI intake strategies).
-- <a>Legal Marketing KPIs That Actually Predict Growth</a> (for metrics and dashboards).
-- <a>Hennessey Digital’s 2025 Lead Form Response Time Study</a> for benchmark data on law firm response times.
-- <a>ALM’s report on AI‑powered intake</a> for case studies on conversion improvements
-- <a>EverSpark’s 2025 Legal Marketing Trends</a> for trends on video, personalization and ethical marketing.
-- <a>9Sail’s Generative Engine Optimization guide</a> for AI search tactics.
+- [SEO for Law Firms in an AI‑First Search World](/blog/) (expand for deeper tactics).
+- [The Intake System Is the Most Important Marketing Channel](/blog/) (dive into response times and AI intake strategies).
+- [Legal Marketing KPIs That Actually Predict Growth](/blog/) (for metrics and dashboards).
+- [Hennessey Digital’s 2025 Lead Form Response Time Study](/blog/) for benchmark data on law firm response times.
+- [ALM’s report on AI‑powered intake](/blog/) for case studies on conversion improvements
+- [EverSpark’s 2025 Legal Marketing Trends](/blog/) for trends on video, personalization and ethical marketing.
+- [9Sail’s Generative Engine Optimization guide](/blog/) for AI search tactics.

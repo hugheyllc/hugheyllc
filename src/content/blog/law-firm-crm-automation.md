@@ -22,9 +22,9 @@ When a prospect submits a form or CallRail logs a missed call, two things should
 
 **SMS to the prospect** — acknowledging their inquiry and providing next steps: "Hi [Name], this is [Firm Name]. We received your message and one of our attorneys will call you within [X hours]." Text messages have dramatically higher open rates than email for time-sensitive legal inquiries.
 
-**Internal notification** — a Slack message, email, or SMS alert to the responsible team member with the prospect's name, phone number, the form submitted, and the originating marketing source (from <a>CallRail</a> attribution data).
+**Internal notification** — a Slack message, email, or SMS alert to the responsible team member with the prospect's name, phone number, the form submitted, and the originating marketing source (from [CallRail](/blog/) attribution data).
 
-Both automations are configured in <a>Lawmatics</a> or <a>Clio Grow</a> using trigger-based workflows that fire on form submission or lead record creation.
+Both automations are configured in [Lawmatics](/blog/) or [Clio Grow](/blog/) using trigger-based workflows that fire on form submission or lead record creation.
 
 ### Stage 2: Qualification (Days 1–3)
 
@@ -42,26 +42,26 @@ Prospects for non-urgent matters — estate planning, business formation, long-t
 
 - Day 14: Final outreach noting availability with a one-click consultation booking link
 
-According to <a>Clio's Legal Trends Report</a>, following up promptly after initial contact is one of the strongest predictors of client conversion.
+According to [Clio's Legal Trends Report](/blog/), following up promptly after initial contact is one of the strongest predictors of client conversion.
 
 ## Connecting Automation to Attribution
 
-The automation workflow produces its maximum value when connected to the <a>full attribution stack</a>. Every automatically created lead record should carry its originating marketing source — the channel, campaign, and keyword that drove the initial inquiry. When a prospect moves through qualification and signs a retainer, the retained client status is recorded against their originating source. Three months of this data gives you the cost-per-retained-client by channel that most law firms never have. Full framework: <a>tracking law firm marketing ROI from first click to signed retainer</a>.
+The automation workflow produces its maximum value when connected to the [full attribution stack](/blog/). Every automatically created lead record should carry its originating marketing source — the channel, campaign, and keyword that drove the initial inquiry. When a prospect moves through qualification and signs a retainer, the retained client status is recorded against their originating source. Three months of this data gives you the cost-per-retained-client by channel that most law firms never have. Full framework: [tracking law firm marketing ROI from first click to signed retainer](/blog/).
 
 <hr />
 <div>
 
 **Losing leads to slow follow-up?** We build and configure the complete intake automation workflow — immediate response, qualification, nurture, and attribution.
 
-<a>Build My Intake Automation →</a>
+[Build My Intake Automation →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Law Firm Marketing Technology Stack: A Complete Guide</a>
+- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
 
-- <a>Lawmatics vs. Clio Grow: Which Intake CRM Is Right for Your Firm?</a>
+- [Lawmatics vs. Clio Grow: Which Intake CRM Is Right for Your Firm?](/blog/)
 
-- <a>Why Your Law Firm's Website Is Losing Clients Before They Even Call</a>
+- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
 
-- <a>Track Law Firm Marketing ROI From First Click to Signed Retainer</a>
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)

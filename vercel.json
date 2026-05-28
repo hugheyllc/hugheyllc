@@ -4,6 +4,26 @@
   "framework": "astro",
   "redirects": [
     {
+      "source": "/blog/call-tracking-crm-web-analytics-intake",
+      "destination": "/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/call-tracking-crm-web-analytics-intake/",
+      "destination": "/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/from-ppc-to-profit",
+      "destination": "/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/from-ppc-to-profit/",
+      "destination": "/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/",
+      "permanent": true
+    },
+    {
       "source": "/blog/case-study/:slug",
       "destination": "/blog/:slug",
       "permanent": true

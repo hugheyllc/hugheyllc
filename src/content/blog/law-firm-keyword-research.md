@@ -42,7 +42,7 @@ The starting framework: practice area + geography + action modifier.
 
 - [Practice area] lawyer Hillsborough County / Pinellas County
 
-Use <a>Google Keyword Planner</a> to get volume and competition data. For most Tampa practice areas, you'll find 5–15 transactional keywords with enough local intent to convert well.
+Use [Google Keyword Planner](/blog/) to get volume and competition data. For most Tampa practice areas, you'll find 5–15 transactional keywords with enough local intent to convert well.
 
 ## Finding High-Proximity Informational Keywords
 
@@ -56,11 +56,11 @@ Find these by thinking like a distressed prospective client:
 
 - What outcome are they worried about? ("will I lose my business," "how much will I get," "can I keep my house")
 
-<a>AnswerThePublic</a> and Google's "People Also Ask" are excellent sources. Mine them for your primary practice areas and build blog content that answers each question with genuine specificity.
+[AnswerThePublic](/blog/) and Google's "People Also Ask" are excellent sources. Mine them for your primary practice areas and build blog content that answers each question with genuine specificity.
 
 ## Competitor Keyword Gap Analysis
 
-Some of the highest-value keyword opportunities are ones your competitors rank for that you don't. Use <a>Ahrefs</a> or <a>SEMrush</a>: enter a competitor's domain, pull their top organic keywords, filter for page-1 rankings where your site doesn't rank, and identify the ones with genuine transactional or high-proximity informational intent. Running this against 3–4 local competitors surfaces 20–50 opportunities a targeted content investment can capture within 3–6 months.
+Some of the highest-value keyword opportunities are ones your competitors rank for that you don't. Use [Ahrefs](/blog/) or [SEMrush](/blog/): enter a competitor's domain, pull their top organic keywords, filter for page-1 rankings where your site doesn't rank, and identify the ones with genuine transactional or high-proximity informational intent. Running this against 3–4 local competitors surfaces 20–50 opportunities a targeted content investment can capture within 3–6 months.
 
 ## Long-Tail Keywords: Where Law Firms Win Fast
 
@@ -78,22 +78,22 @@ The output of keyword research should be a content map assigning every target ke
 
 - Long-tail informational keywords → specific blog posts targeting each individual query
 
-This map becomes your editorial calendar — ensuring every piece of content targets a keyword with clear intent and a defined conversion path. It's the foundation of the <a>content marketing strategy</a> and the <a>complete law firm SEO framework</a>.
+This map becomes your editorial calendar — ensuring every piece of content targets a keyword with clear intent and a defined conversion path. It's the foundation of the [content marketing strategy](/blog/) and the [complete law firm SEO framework](/blog/).
 
 <hr />
 <div>
 
 **Want keyword research built specifically for your practice areas and Tampa market?** We build keyword maps that connect content investment to intake outcomes — not just traffic.
 
-<a>Get a Keyword Research Engagement →</a>
+[Get a Keyword Research Engagement →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Complete Law Firm SEO Guide (2026)</a>
+- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
 
-- <a>The Law Firm Content Marketing Strategy That Generates Cases</a>
+- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
 
-- <a>How to Build a Law Firm Website That Ranks AND Converts</a>
+- [How to Build a Law Firm Website That Ranks AND Converts](/blog/)
 
-- <a>Local SEO for Law Firms: Own "Attorney Near Me" Searches</a>
+- [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)

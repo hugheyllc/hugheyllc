@@ -63,4 +63,4 @@ In the competitive legal industry, marketing decisions based on intuition alone 
 
  
 
-Data-driven marketing is a continuous cycle: collect information, assess results, and refine strategy. By focusing on the right numbers, your firm can see real, measurable growth in both leads and revenue.  <a>Contact</a> me to schedule a consultation to learn more about tracking and analyzing key growth data.
+Data-driven marketing is a continuous cycle: collect information, assess results, and refine strategy. By focusing on the right numbers, your firm can see real, measurable growth in both leads and revenue.  [Contact](/blog/) me to schedule a consultation to learn more about tracking and analyzing key growth data.

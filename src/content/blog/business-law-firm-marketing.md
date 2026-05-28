@@ -38,26 +38,26 @@ For most business law firms, referred clients have the highest lifetime value an
 
 ## SEO Keyword Strategy for Business Law
 
-Using our <a>keyword research framework</a>, high-priority transactional keywords include: "Tampa business litigation attorney," "Florida commercial contract dispute attorney," "business partnership dispute lawyer Tampa." High-proximity informational keywords: "How to enforce a non-compete agreement in Florida," "Florida business partner breach of fiduciary duty," "Dissolving a business partnership dispute Florida."
+Using our [keyword research framework](/blog/), high-priority transactional keywords include: "Tampa business litigation attorney," "Florida commercial contract dispute attorney," "business partnership dispute lawyer Tampa." High-proximity informational keywords: "How to enforce a non-compete agreement in Florida," "Florida business partner breach of fiduciary duty," "Dissolving a business partnership dispute Florida."
 
 ## Attribution for Long-Cycle Business Law Marketing
 
-The attribution challenge in business law is the long time-to-retain. A client who first finds your firm through organic search in January may not sign a retainer until April — after multiple visits, several branded searches, and a referral conversation in between. This requires a CRM with date-stamped lead source tracking and GA4 configured to track returning visitors. The <a>complete attribution stack</a> we build handles this — preserving the first-touch source while tracking the full journey to retained client.
+The attribution challenge in business law is the long time-to-retain. A client who first finds your firm through organic search in January may not sign a retainer until April — after multiple visits, several branded searches, and a referral conversation in between. This requires a CRM with date-stamped lead source tracking and GA4 configured to track returning visitors. The [complete attribution stack](/blog/) we build handles this — preserving the first-touch source while tracking the full journey to retained client.
 
 <hr />
 <div>
 
 **Running a business law practice and not sure your marketing fits the B2B buyer journey?** We build content and attribution infrastructure for the longer-cycle, relationship-driven decision patterns of business law clients.
 
-<a>Build a B2B Legal Marketing Strategy →</a>
+[Build a B2B Legal Marketing Strategy →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Law Firm Content Marketing Strategy That Generates Cases</a>
+- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
 
-- <a>Keyword Research for Law Firms: Find the Queries That Sign Cases</a>
+- [Keyword Research for Law Firms: Find the Queries That Sign Cases](/blog/)
 
-- <a>Track Law Firm Marketing ROI From First Click to Signed Retainer</a>
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
 
-- <a>The Law Firm Marketing Technology Stack</a>
+- [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)

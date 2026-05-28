@@ -42,9 +42,9 @@ According to LexisNexis’s analysis of the 2025 High Growth Study, top performe
 				
 		
 
-- <a>The Law Firm Marketing Operating System</a> (build your OS like high‑growth firms)
-- <a>Legal Marketing KPIs That Actually Predict Growth</a> (measure what matters)
-- <a>SEO for Law Firms in an AI‑First Search World</a> (prepare for AI search)
-- <a>Hinge’s 2025 High Growth Study</a> for full research on high‑growth law firms
-- <a>LexisNexis article on high‑growth strategies</a>.
-- <a>9Sail’s analysis of AI search trends</a>.
+- [The Law Firm Marketing Operating System](/blog/) (build your OS like high‑growth firms)
+- [Legal Marketing KPIs That Actually Predict Growth](/blog/) (measure what matters)
+- [SEO for Law Firms in an AI‑First Search World](/blog/) (prepare for AI search)
+- [Hinge’s 2025 High Growth Study](/blog/) for full research on high‑growth law firms
+- [LexisNexis article on high‑growth strategies](/blog/).
+- [9Sail’s analysis of AI search trends](/blog/).

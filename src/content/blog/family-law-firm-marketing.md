@@ -22,7 +22,7 @@ Family law clients are among the most emotionally vulnerable of any legal prospe
 
 ## Content That Converts Family Law Prospects
 
-Family law content faces a dual challenge: it must be accurate (YMYL content under Google's quality framework) and empathetic (the reader is in crisis). High-performing content topics for the Tampa market: Florida's divorce process step-by-step, how Florida courts determine timesharing in custody disputes, what to do if you've been served divorce papers, Florida alimony laws and changes, emergency custody orders in Florida, contested vs. uncontested divorce in Florida. The <a>E-E-A-T requirements</a> apply with particular force — attorney authorship and credentials are critical.
+Family law content faces a dual challenge: it must be accurate (YMYL content under Google's quality framework) and empathetic (the reader is in crisis). High-performing content topics for the Tampa market: Florida's divorce process step-by-step, how Florida courts determine timesharing in custody disputes, what to do if you've been served divorce papers, Florida alimony laws and changes, emergency custody orders in Florida, contested vs. uncontested divorce in Florida. The [E-E-A-T requirements](https://hugheyllc.com/blog/eeat-law-firm-seo/) apply with particular force — attorney authorship and credentials are critical.
 
 ## Website Design Considerations for Family Law
 
@@ -34,26 +34,26 @@ Family law content faces a dual challenge: it must be accurate (YMYL content und
 
 ## Google Ads Strategy for Family Law
 
-Structure your <a>Google Ads campaigns</a> with tight ad group themes — divorce, custody, modifications, support — each with dedicated landing pages matching the specific search intent. The conversion rate difference between a well-matched and poorly-matched landing page is larger in family law than most other practice areas because the emotional state of the prospect amplifies friction.
+Structure your [Google Ads campaigns](/blog/) with tight ad group themes — divorce, custody, modifications, support — each with dedicated landing pages matching the specific search intent. The conversion rate difference between a well-matched and poorly-matched landing page is larger in family law than most other practice areas because the emotional state of the prospect amplifies friction.
 
 ## The Intake Experience
 
-In family law, the intake call is both a sales conversation and a human support interaction. Prospects calling are often calling from a place of fear and uncertainty. How your intake team handles the first call has a larger impact on conversion than in most other practice areas. The technical infrastructure supports this: <a>CallRail</a> routing calls correctly, <a>Lawmatics</a> automating immediate post-call follow-up, and the <a>attribution stack</a> connecting each retained client back to its originating marketing channel.
+In family law, the intake call is both a sales conversation and a human support interaction. Prospects calling are often calling from a place of fear and uncertainty. How your intake team handles the first call has a larger impact on conversion than in most other practice areas. The technical infrastructure supports this: [CallRail](/blog/) routing calls correctly, [Lawmatics](/blog/) automating immediate post-call follow-up, and the [attribution stack](/blog/) connecting each retained client back to its originating marketing channel.
 
 <hr />
 <div>
 
 **Building a family law practice in Tampa Bay?** We build the digital infrastructure — from empathetic website design to attributed intake automation — built for the emotional realities of family law clients.
 
-<a>Build My Family Law Marketing System →</a>
+[Build My Family Law Marketing System →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Law Firm Content Marketing Strategy That Generates Cases</a>
+- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
 
-- <a>What Every Law Firm Homepage Needs to Convert Visitors</a>
+- [What Every Law Firm Homepage Needs to Convert Visitors](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
 
-- <a>Why Law Firm Landing Pages Fail — 7 Elements That Convert</a>
+- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](https://hugheyllc.com/blog/law-firm-landing-page-optimization/)
 
-- <a>Florida Bar Advertising Rules: What's Permitted Online</a>
+- [Florida Bar Advertising Rules: What's Permitted Online](https://hugheyllc.com/blog/florida-bar-law-firm-advertising-rules/)

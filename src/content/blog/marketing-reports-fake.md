@@ -50,12 +50,12 @@ To escape vanity reporting, align your KPIs with your law firm marketing OS. Use
 
 ### Suggested Links
 
-- <a>From Click to Client</a> (for mapping marketing spend to revenue).
+- [From Click to Client](/blog/) (for mapping marketing spend to revenue).
 
-- <a>Legal Marketing KPIs That Actually Predict Growth</a> (to define meaningful metrics).
+- [Legal Marketing KPIs That Actually Predict Growth](/blog/) (to define meaningful metrics).
 
-- <a>How to Choose a Legal Marketing Partner</a> (questions to ask agencies).
+- [How to Choose a Legal Marketing Partner](/blog/) (questions to ask agencies).
 
-- <a>ABA’s guidance on marketing metrics and attribution</a>.
+- [ABA’s guidance on marketing metrics and attribution](/blog/).
 
-- <a>Practice Proof’s 2025 benchmarking report</a> for average CTR, CPC and conversion rates.
+- [Practice Proof’s 2025 benchmarking report](/blog/) for average CTR, CPC and conversion rates.

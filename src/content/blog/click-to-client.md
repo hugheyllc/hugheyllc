@@ -43,8 +43,8 @@ Marketing and finance must work together to set budgets and measure success. All
 				
 		
 
-- <a>Legal Marketing KPIs That Actually Predict Growth</a> (metrics for cost and conversion).
-- <a>The Intake System Is the Most Important Marketing Channel</a> (how to speed up follow‑up).
-- <a>Why Most Marketing Reports Are Fiction</a> (how to audit your reports).
-- <a>Practice Proof’s benchmark guide</a> for CTR, CPC and conversion rates.
-- <a>ABA article on aligning marketing and finance</a>.
+- [Legal Marketing KPIs That Actually Predict Growth](/blog/) (metrics for cost and conversion).
+- [The Intake System Is the Most Important Marketing Channel](/blog/) (how to speed up follow‑up).
+- [Why Most Marketing Reports Are Fiction](/blog/) (how to audit your reports).
+- [Practice Proof’s benchmark guide](/blog/) for CTR, CPC and conversion rates.
+- [ABA article on aligning marketing and finance](/blog/).

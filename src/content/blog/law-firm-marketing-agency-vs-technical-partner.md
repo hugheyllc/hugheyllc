@@ -22,9 +22,9 @@ But there are two things a campaign-focused agency typically doesn't build:
 
 - **The technical foundation campaigns run on** — site architecture, Core Web Vitals performance, structured data, conversion tracking, intake CRM integration
 
-- **The attribution infrastructure that connects campaigns to revenue** — the connected stack of <a>CallRail</a>, <a>GA4</a>, <a>Lawmatics</a>, and Google Ads that tells you which campaigns are actually signing cases
+- **The attribution infrastructure that connects campaigns to revenue** — the connected stack of [CallRail](/blog/), [GA4](/blog/), [Lawmatics](/blog/), and Google Ads that tells you which campaigns are actually signing cases
 
-Without the first, campaign results are capped by technical limitations they didn't create and can't fix. Without the second, there's no way to know whether the campaigns are actually working. See our complete breakdown: <a>The Law Firm Marketing Technology Stack</a>.
+Without the first, campaign results are capped by technical limitations they didn't create and can't fix. Without the second, there's no way to know whether the campaigns are actually working. See our complete breakdown: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
 
 ## The Infrastructure Gap Most Law Firms Don't Know They Have
 
@@ -38,7 +38,7 @@ A technical partner approaches law firm marketing from the infrastructure up:
 
 - **Build the attribution stack** — connect CallRail → GA4 → Lawmatics → Google Ads so every lead is attributed to its originating channel
 
-- **Optimize the website** for both search performance and conversion — <a>ranking and converting are the same goal</a>
+- **Optimize the website** for both search performance and conversion — [ranking and converting are the same goal](/blog/)
 
 - **Connect intake to revenue** — so the firm can calculate true cost-per-retained-client by channel
 
@@ -48,22 +48,22 @@ The result: instead of a dashboard showing impressions and keyword rankings, you
 
 ## The Tampa Market Specifically
 
-In Tampa Bay's legal marketing landscape, most available vendors are campaign agencies. Some do this work very well. None of them, to our knowledge, are building the full attribution infrastructure — custom stack development, CallRail → Lawmatics integration, GA4 conversion architecture, revenue attribution reporting — that connects marketing spend to signed retainers. That's the gap <a>Hughey, LLC</a> exists to fill.
+In Tampa Bay's legal marketing landscape, most available vendors are campaign agencies. Some do this work very well. None of them, to our knowledge, are building the full attribution infrastructure — custom stack development, CallRail → Lawmatics integration, GA4 conversion architecture, revenue attribution reporting — that connects marketing spend to signed retainers. That's the gap [Hughey, LLC](/blog/) exists to fill.
 
 <hr />
 <div>
 
 **Not sure which you need — an agency or a technical partner?** We'll audit your current setup and tell you exactly where the gaps are.
 
-<a>Get a Free Marketing Infrastructure Audit →</a>
+[Get a Free Marketing Infrastructure Audit →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Law Firm Marketing Technology Stack: A Complete Guide</a>
+- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
 
-- <a>How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer</a>
+- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](/blog/)
 
-- <a>The Marketing Data Your Law Firm Is Sitting On</a>
+- [The Marketing Data Your Law Firm Is Sitting On](/blog/)
 
-- <a>What to Ask Before Hiring a Law Firm Marketing Company</a>
+- [What to Ask Before Hiring a Law Firm Marketing Company](/blog/)

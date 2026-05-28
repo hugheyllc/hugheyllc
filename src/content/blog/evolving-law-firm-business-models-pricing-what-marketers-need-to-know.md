@@ -14,25 +14,25 @@ The legal market in 2025 is undergoing a fundamental shift. Clients increasingly
 
 ## The Rise of Alternative Fee Arrangements (AFAs)
 
-Alternative fee arrangements—flat fees, subscriptions, success-based pricing, capped fees—are now gaining major traction. Recent analysis from the American Bar Association supports the upward shift toward AFAs: <a>Evolution of alternative Fee Arrangements.</a>
+Alternative fee arrangements—flat fees, subscriptions, success-based pricing, capped fees—are now gaining major traction. Recent analysis from the American Bar Association supports the upward shift toward AFAs: [Evolution of alternative Fee Arrangements.](/blog/)
 
-Clio’s 2025 Legal Trends research also documents increased client demand for predictable pricing: <a>Legal Trends Report 2025</a>
+Clio’s 2025 Legal Trends research also documents increased client demand for predictable pricing: [Legal Trends Report 2025](/blog/)
 
  
 
 Marketing Implications: Pricing as a Differentiator
 
-Pricing is no longer a backend operational detail. It is a core part of your brand and message. Learn more about brand-forward marketing strategies at: <a>Where Pricing and Marketing Strategies Inersect</a>
+Pricing is no longer a backend operational detail. It is a core part of your brand and message. Learn more about brand-forward marketing strategies at: [Where Pricing and Marketing Strategies Inersect](/blog/)
 
 ## Converting the Website &amp; Intake Funnel
 
-Law-firm sites that feature transparent pricing experience higher conversion rates. For examples of optimized landing-page best practices, refer to: <a>Effective Copy Writing Strategies</a>
+Law-firm sites that feature transparent pricing experience higher conversion rates. For examples of optimized landing-page best practices, refer to: [Effective Copy Writing Strategies](/blog/)
 
  
 
 ## Choosing Pricing Models That Work
 
-Flat-fee, subscription, hybrid, and value-based billing models each fit different practice areas. Industry experts highlight the importance of aligning pricing with client expectations: <a>Three Strategies for Successful AFA's</a>
+Flat-fee, subscription, hybrid, and value-based billing models each fit different practice areas. Industry experts highlight the importance of aligning pricing with client expectations: [Three Strategies for Successful AFA's](/blog/)
 
  
 
@@ -119,6 +119,4 @@ Use website updates, intake scripts, service pages, and targeted ads to explain 
 					
 ## Ready to modernize your firm’s pricing and attract higher-quality clients? Schedule a strategy call today and get a customized plan built for your market.
 				
-					<a>
-									Book a discovery call
-					</a>
+					[Book a discovery call](/blog/)

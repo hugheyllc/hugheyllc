@@ -22,34 +22,34 @@ Law firms serving the St. Petersburg and Pinellas County market face a distinct 
 
 ## The GBP Optimization Priority for St. Pete Firms
 
-The local pack for many St. Pete attorney searches is dominated by firms with GBP scores that are frankly mediocre — because the competition hasn't invested in this either. Specific GBP actions for the St. Pete market: set the most specific practice area category available, add St. Petersburg, Clearwater, Largo, Pinellas Park, and relevant Pinellas County cities as service areas, publish Google Posts twice weekly, seed your Q&A section with questions specific to St. Pete geography, and generate reviews consistently — a firm with 30 recent reviews will consistently outrank a firm with 200 older ones. Full GBP optimization framework: <a>Google Business Profile guide for law firms</a>.
+The local pack for many St. Pete attorney searches is dominated by firms with GBP scores that are frankly mediocre — because the competition hasn't invested in this either. Specific GBP actions for the St. Pete market: set the most specific practice area category available, add St. Petersburg, Clearwater, Largo, Pinellas Park, and relevant Pinellas County cities as service areas, publish Google Posts twice weekly, seed your Q&A section with questions specific to St. Pete geography, and generate reviews consistently — a firm with 30 recent reviews will consistently outrank a firm with 200 older ones. Full GBP optimization framework: [Google Business Profile guide for law firms](/blog/).
 
 ## Citation Building for the Pinellas Market
 
-In addition to standard legal directories (<a>Avvo</a>, <a>Martindale</a>, <a>Justia</a>), local citation sources that carry significant geographic authority include: <a>St. Petersburg Area Chamber of Commerce</a> member directory, Pinellas County Bar Association member listing, Greater Clearwater Chamber of Commerce if you serve north Pinellas, and St. Pete-specific business directories and local news site listings.
+In addition to standard legal directories ([Avvo](/blog/), [Martindale](/blog/), [Justia](/blog/)), local citation sources that carry significant geographic authority include: [St. Petersburg Area Chamber of Commerce](/blog/) member directory, Pinellas County Bar Association member listing, Greater Clearwater Chamber of Commerce if you serve north Pinellas, and St. Pete-specific business directories and local news site listings.
 
 ## Content Strategy for Pinellas County Visibility
 
-A dedicated St. Petersburg practice area landing page — not just your Tampa page with "St. Petersburg" added to the title tag — is the key to ranking for St. Pete searches. Effective St. Pete-specific content includes: blog content referencing Pinellas County courts, local ordinances, and jurisdiction-specific legal nuances; client testimonials and case results from Pinellas County clients where ethics rules permit; and local schema markup with your St. Pete address on all location-specific pages. This content architecture — developed as part of a broader <a>content strategy</a> — creates the topical and geographic relevance signals that determine local rankings.
+A dedicated St. Petersburg practice area landing page — not just your Tampa page with "St. Petersburg" added to the title tag — is the key to ranking for St. Pete searches. Effective St. Pete-specific content includes: blog content referencing Pinellas County courts, local ordinances, and jurisdiction-specific legal nuances; client testimonials and case results from Pinellas County clients where ethics rules permit; and local schema markup with your St. Pete address on all location-specific pages. This content architecture — developed as part of a broader [content strategy](/blog/) — creates the topical and geographic relevance signals that determine local rankings.
 
 ## The Clearwater Opportunity
 
-Clearwater — the largest city in Pinellas County — is frequently overlooked in law firm SEO strategies focusing on the St. Pete city core. Clearwater searches have meaningful volume in consumer practice areas, and the local pack competition there is even thinner than in St. Pete proper. Firms serving north Pinellas should explicitly target Clearwater in their GBP service areas and build dedicated Clearwater location page content. See our <a>Clearwater law firm marketing guide</a> for the full breakdown.
+Clearwater — the largest city in Pinellas County — is frequently overlooked in law firm SEO strategies focusing on the St. Pete city core. Clearwater searches have meaningful volume in consumer practice areas, and the local pack competition there is even thinner than in St. Pete proper. Firms serving north Pinellas should explicitly target Clearwater in their GBP service areas and build dedicated Clearwater location page content. See our [Clearwater law firm marketing guide](/blog/) for the full breakdown.
 
 <hr />
 <div>
 
 **Serving clients in St. Petersburg or Pinellas County?** We'll build the local SEO infrastructure to make your firm the dominant digital presence in your market.
 
-<a>Build My Pinellas County SEO Presence →</a>
+[Build My Pinellas County SEO Presence →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>Local SEO for Law Firms: Own "Attorney Near Me" Searches</a>
+- [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
 
-- <a>The Law Firm Google Business Profile Guide</a>
+- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
 
-- <a>Tampa Law Firm Marketing: The 2026 Competitive Landscape</a>
+- [Tampa Law Firm Marketing: The 2026 Competitive Landscape](/blog/)
 
-- <a>Clearwater Law Firm Marketing Guide</a>
+- [Clearwater Law Firm Marketing Guide](/blog/)

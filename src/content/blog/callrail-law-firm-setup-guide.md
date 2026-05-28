@@ -10,11 +10,11 @@ seo_description: "CallRail is the most important tool most law firms have never 
 draft: false
 ---
 
-Of all the tools in a law firm's marketing technology stack, <a>CallRail</a> has the highest ratio of impact to implementation complexity. It's not difficult to set up — but most law firms have it partially configured at best, leaving the most valuable attribution data on the table.
+Of all the tools in a law firm's marketing technology stack, [CallRail](/blog/) has the highest ratio of impact to implementation complexity. It's not difficult to set up — but most law firms have it partially configured at best, leaving the most valuable attribution data on the table.
 
 ## Why Call Tracking Is Non-Negotiable for Law Firms
 
-The majority of law firm leads still arrive by phone. Depending on practice area and demographic, anywhere from 50–80% of first contact is a phone call rather than a form submission. Without call tracking, the largest segment of your lead flow is invisible to your marketing analytics. Your <a>Google Analytics</a> and <a>Google Ads</a> dashboards show form completions but not calls — meaning you're potentially cutting channels that are driving significant phone lead volume you can't currently see.
+The majority of law firm leads still arrive by phone. Depending on practice area and demographic, anywhere from 50–80% of first contact is a phone call rather than a form submission. Without call tracking, the largest segment of your lead flow is invisible to your marketing analytics. Your [Google Analytics](/blog/) and [Google Ads](/blog/) dashboards show form completions but not calls — meaning you're potentially cutting channels that are driving significant phone lead volume you can't currently see.
 
 ## How CallRail Works: Dynamic Number Insertion
 
@@ -28,19 +28,19 @@ Configure separate tracking numbers (outside the pool) for your Google Business 
 
 ## Step 2: Source Tracking Configuration
 
-Configure UTM parameter tracking to capture full campaign data for paid traffic. Connect your <a>Google Ads</a> account directly to CallRail so keyword-level data passes through to call records — the configuration that tells you not just that a call came from Google Ads, but specifically which keyword and campaign drove it.
+Configure UTM parameter tracking to capture full campaign data for paid traffic. Connect your [Google Ads](/blog/) account directly to CallRail so keyword-level data passes through to call records — the configuration that tells you not just that a call came from Google Ads, but specifically which keyword and campaign drove it.
 
 ## Step 3: The GA4 Integration
 
-Connect to your <a>Google Analytics 4</a> property. Configure CallRail to fire GA4 events for: call started (any call), qualified call (calls over 60–90 seconds duration — your conversion threshold), and first-time caller (filters out existing client calls). Once these events are flowing into GA4, mark the qualified call event as a conversion. This brings phone call conversions into your GA4 conversion reports alongside form submissions — a complete view of all leads, not just form fills.
+Connect to your [Google Analytics 4](/blog/) property. Configure CallRail to fire GA4 events for: call started (any call), qualified call (calls over 60–90 seconds duration — your conversion threshold), and first-time caller (filters out existing client calls). Once these events are flowing into GA4, mark the qualified call event as a conversion. This brings phone call conversions into your GA4 conversion reports alongside form submissions — a complete view of all leads, not just form fills.
 
 ## Step 4: The Google Ads Integration
 
-Connect CallRail to Google Ads using the <a>Google Ads conversion import</a> — this sends qualified call data back into Google Ads as conversion signals. Once in place, Google Ads can optimize bidding toward campaigns and keywords that actually generate phone leads. This typically produces measurable improvement in lead quality from Google Ads within 2–4 weeks.
+Connect CallRail to Google Ads using the [Google Ads conversion import](/blog/) — this sends qualified call data back into Google Ads as conversion signals. Once in place, Google Ads can optimize bidding toward campaigns and keywords that actually generate phone leads. This typically produces measurable improvement in lead quality from Google Ads within 2–4 weeks.
 
 ## Step 5: The CRM Integration — Lawmatics or Clio
 
-When CallRail is connected to <a>Lawmatics</a> or <a>Clio Grow</a>, a lead record is created automatically for every qualifying call — populated with the caller's information and crucially, the originating marketing source. Every lead in your CRM carries its marketing attribution without requiring manual entry. Source data becomes reliable enough to calculate true cost-per-retained-client by channel. Full framework: <a>tracking law firm marketing ROI from first click to signed retainer</a>.
+When CallRail is connected to [Lawmatics](/blog/) or [Clio Grow](/blog/), a lead record is created automatically for every qualifying call — populated with the caller's information and crucially, the originating marketing source. Every lead in your CRM carries its marketing attribution without requiring manual entry. Source data becomes reliable enough to calculate true cost-per-retained-client by channel. Full framework: [tracking law firm marketing ROI from first click to signed retainer](/blog/).
 
 ## Common Configuration Mistakes to Avoid
 
@@ -57,15 +57,15 @@ When CallRail is connected to <a>Lawmatics</a> or <a>Clio Grow</a>, a lead recor
 
 **Want your call tracking set up correctly the first time?** We configure CallRail for law firms as part of our full attribution stack implementation.
 
-<a>Set Up My Attribution Stack →</a>
+[Set Up My Attribution Stack →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>The Law Firm Marketing Technology Stack: A Complete Guide</a>
+- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
 
-- <a>The Marketing Data Your Law Firm Is Sitting On</a>
+- [The Marketing Data Your Law Firm Is Sitting On](/blog/)
 
-- <a>Track Law Firm Marketing ROI From First Click to Signed Retainer</a>
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
 
-- <a>Lawmatics vs. Clio Grow: Which Intake CRM Is Right for Your Firm?</a>
+- [Lawmatics vs. Clio Grow: Which Intake CRM Is Right for Your Firm?](/blog/)

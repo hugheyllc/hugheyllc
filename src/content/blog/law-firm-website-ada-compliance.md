@@ -16,13 +16,13 @@ Beyond the legal risk, website accessibility has a direct relationship with SEO 
 
 ## The Legal Landscape
 
-The practical standard most courts and accessibility experts reference is <a>WCAG 2.1 Level AA</a>. Meeting WCAG 2.1 AA is the most defensible position against an accessibility lawsuit, and it's the standard we build to at <a>Hughey, LLC</a>. Consult an ADA attorney about your specific risk profile — this covers technical best practices, not legal advice.
+The practical standard most courts and accessibility experts reference is [WCAG 2.1 Level AA](/blog/). Meeting WCAG 2.1 AA is the most defensible position against an accessibility lawsuit, and it's the standard we build to at [Hughey, LLC](/blog/). Consult an ADA attorney about your specific risk profile — this covers technical best practices, not legal advice.
 
 ## Highest-Risk Issues for Law Firm Websites
 
 - **Missing image alt text** — most commonly cited issue in ADA complaints, easiest to fix. Also directly supports SEO — Google uses alt text as a relevance signal.
 
-- **Low color contrast** — WCAG 2.1 AA requires a contrast ratio of at least 4.5:1 for normal text. Check with <a>WebAIM Contrast Checker</a>.
+- **Low color contrast** — WCAG 2.1 AA requires a contrast ratio of at least 4.5:1 for normal text. Check with [WebAIM Contrast Checker](/blog/).
 
 - **Forms without labels** — contact forms must have properly associated labels for each input field. Screen readers read labels; placeholders are typically not read. This is both an accessibility and a conversion issue.
 
@@ -44,26 +44,26 @@ The practical standard most courts and accessibility experts reference is <a>WCA
 
 ## How to Assess Your Current Compliance Level
 
-- <a>WAVE Web Accessibility Evaluator</a> — browser extension flagging issues directly on pages
+- [WAVE Web Accessibility Evaluator](/blog/) — browser extension flagging issues directly on pages
 
-- <a>Google Lighthouse</a> — built into Chrome DevTools, includes accessibility audit score
+- [Google Lighthouse](/blog/) — built into Chrome DevTools, includes accessibility audit score
 
-- <a>Accessibility Insights</a> — Microsoft's tool for detailed WCAG compliance assessment
+- [Accessibility Insights](/blog/) — Microsoft's tool for detailed WCAG compliance assessment
 
-Automated tools catch roughly 30–40% of accessibility issues. A full WCAG 2.1 AA audit requires manual testing including keyboard-only navigation and screen reader testing. Accessibility remediation is a standard component of every site build at Hughey, LLC. The full technical approach: <a>law firm website design and development guide</a>.
+Automated tools catch roughly 30–40% of accessibility issues. A full WCAG 2.1 AA audit requires manual testing including keyboard-only navigation and screen reader testing. Accessibility remediation is a standard component of every site build at Hughey, LLC. The full technical approach: [law firm website design and development guide](/blog/).
 
 <hr />
 <div>
 
 **Not sure if your law firm website is ADA compliant?** We audit and remediate accessibility issues — reducing your exposure while improving SEO.
 
-<a>Get an Accessibility Audit →</a>
+[Get an Accessibility Audit →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>Law Firm Website Design & Development: The Complete Guide</a>
+- [Law Firm Website Design & Development: The Complete Guide](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
 
-- <a>The Law Firm SEO Audit: 10 Things to Check First</a>
+- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
 
-- <a>Why Smart Law Firms Are Ditching WordPress</a>
+- [Why Smart Law Firms Are Ditching WordPress](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)

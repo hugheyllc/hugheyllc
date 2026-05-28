@@ -164,6 +164,4 @@ Your next client is already watching.
 
 Schedule a strategy session with Hughey LLC to build a compliant, data-driven video marketing plan that increases trust, visibility, and measurable growth.
 		
-					<a>
-									Book a discovery call
-					</a>
+					[Book a discovery call](/blog/)

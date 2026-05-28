@@ -12,7 +12,7 @@ draft: false
 
 Most law firms are drowning in marketing data and starving for marketing insight.
 
-You have <a>Google Analytics</a> showing you traffic. <a>CallRail</a> showing you calls. <a>Lawmatics</a> or <a>Clio</a> showing you leads. <a>Google Ads</a> showing you clicks. And yet — you're still largely deciding where to invest next quarter on gut feel.
+You have [Google Analytics](/blog/) showing you traffic. [CallRail](/blog/) showing you calls. [Lawmatics](/blog/) or [Clio](/blog/) showing you leads. [Google Ads](/blog/) showing you clicks. And yet — you're still largely deciding where to invest next quarter on gut feel.
 
 This isn't a data problem. **It's a connection problem.** The most important question in legal marketing is going completely unanswered: **Which of our channels is actually signing cases?**
 
@@ -40,25 +40,25 @@ Your Google Ads dashboard takes full credit. So does your SEO report. **None of 
 
 </div>
 
-This is the core challenge our <a>law firm marketing technology consulting</a> is built to solve.
+This is the core challenge our [law firm marketing technology consulting](/blog/) is built to solve.
 
 ## The Four Systems That Hold Your Marketing Truth
 
 ### Google Analytics 4 (GA4)
 
-Your source for website behavior. <a>GA4</a> is powerful but complex. Most firms have it installed but are missing <a>conversion events</a> tied to form submissions and phone clicks. Without those, GA4 is just a traffic counter.
+Your source for website behavior. [GA4](/blog/) is powerful but complex. Most firms have it installed but are missing [conversion events](/blog/) tied to form submissions and phone clicks. Without those, GA4 is just a traffic counter.
 
 ### CallRail
 
-<a>CallRail's dynamic number insertion</a> ties inbound calls to specific marketing sources. It can pass source data directly into <a>Lawmatics</a> intake records so every lead carries its originating channel — one of the most impactful integrations we set up for law firm clients.
+[CallRail's dynamic number insertion](/blog/) ties inbound calls to specific marketing sources. It can pass source data directly into [Lawmatics](/blog/) intake records so every lead carries its originating channel — one of the most impactful integrations we set up for law firm clients.
 
 ### Lawmatics or Clio Grow
 
-Your intake CRM is the ground truth. Lead source, conversion rate, and case value are what marketing analytics should ultimately be measured against. <a>Clio's integration ecosystem</a> allows revenue data to flow back to your marketing platforms when properly configured.
+Your intake CRM is the ground truth. Lead source, conversion rate, and case value are what marketing analytics should ultimately be measured against. [Clio's integration ecosystem](/blog/) allows revenue data to flow back to your marketing platforms when properly configured.
 
 ### Google Ads
 
-Shows clicks and cost — but only tells the full performance story when receiving <a>conversion imports</a> from your intake flow. Without this closed loop, Ads optimizes toward the wrong signals.
+Shows clicks and cost — but only tells the full performance story when receiving [conversion imports](/blog/) from your intake flow. Without this closed loop, Ads optimizes toward the wrong signals.
 
 ## What Connected Data Actually Lets You Answer
 
@@ -70,26 +70,26 @@ Shows clicks and cost — but only tells the full performance story when receivi
 
 - What's the average time-to-retain by source — and how does that change our attribution model
 
-According to <a>Clio's Legal Trends Report</a>, firms using technology to streamline intake and communication are significantly more likely to report growth.
+According to [Clio's Legal Trends Report](/blog/), firms using technology to streamline intake and communication are significantly more likely to report growth.
 
 ## The Role of AI in Legal Marketing Intelligence
 
 The next frontier for firms that have mastered data connectivity is using AI to surface insights proactively — not just react to monthly reports. The right platform can alert you when cost-per-lead spikes before you've burned budget, and flag which referral sources close at 3× your average.
 
-This is exactly what we're building for our law firm clients through our <a>marketing technology consulting services</a> — unified dashboards that replace the dashboard-switching treadmill with a single, intelligent view of performance.
+This is exactly what we're building for our law firm clients through our [marketing technology consulting services](/blog/) — unified dashboards that replace the dashboard-switching treadmill with a single, intelligent view of performance.
 
 <hr />
 <div>
 
 **Spending more than $2k/month on digital marketing without clear visibility into what's signing cases?** That's a solvable problem — and it's likely costing more than the fix.
 
-<a>Schedule a Martech Consultation →</a>
+[Schedule a Martech Consultation →](/blog/)
 </div>
 
 ### Related Reading
 
-- <a>Why Your Law Firm's Website Is Losing Clients Before They Even Call</a>
+- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
 
-- <a>Why Smart Law Firms Are Ditching WordPress — And What They're Moving To</a>
+- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
 
-- <a>Our Law Firm Marketing Technology Services</a>
+- [Our Law Firm Marketing Technology Services](/blog/)
