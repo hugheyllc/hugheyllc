@@ -1,7 +1,7 @@
 ---
 title: "How to Calculate Your Law Firm's True Cost Per Retained Client"
 slug: "cost-per-retained-client-law-firm"
-date: 2026-05-28
+date: 2026-05-26
 author: "Joe Hughey"
 excerpt: "Most law firms track cost-per-lead. The metric that actually drives growth is cost-per-retained-client. Here's the framework to calculate it."
 tags: ["law firm marketing", "marketing analytics", "cost per retained client", "marketing ROI"]

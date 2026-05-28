@@ -1,7 +1,7 @@
 ---
 title: "What Law Firms Should Know Before Signing With Scorpion (An Independent Perspective)"
 slug: "scorpion-legal-marketing-review"
-date: 2026-05-28
+date: 2026-05-24
 author: "Joe Hughey"
 excerpt: "Scorpion is a technology platform, not a strategic partner. Here's an independent analysis of what that means for your firm's marketing, data, and long-term flexibility."
 tags: ["scorpion-legal-marketing-review", "law-firm-marketing-agency", "law-firm-marketing-accountability", "legal-marketing-platforms"]

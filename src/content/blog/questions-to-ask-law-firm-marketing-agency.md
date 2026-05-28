@@ -1,7 +1,7 @@
 ---
 title: "10 Questions Every Law Firm Should Ask Before Hiring a Marketing Agency"
 slug: "questions-to-ask-law-firm-marketing-agency"
-date: 2026-05-28
+date: 2026-05-27
 author: "Joe Hughey"
 excerpt: "Most law firms ask the wrong questions before hiring a marketing agency. These 10 questions reveal whether you're getting a real partner or just another vendor."
 tags: ["law firm marketing", "marketing agency", "vetting agencies", "law firm growth"]

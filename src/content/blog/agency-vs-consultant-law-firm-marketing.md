@@ -1,7 +1,7 @@
 ---
 title: "Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract"
 slug: "agency-vs-consultant-law-firm-marketing"
-date: 2026-05-28
+date: 2026-05-23
 author: "Joe Hughey"
 excerpt: "Agencies profit from complexity and spend. An independent consultant's only incentive is your results. Here's what that difference means for your firm's bottom line."
 tags: ["law-firm-marketing-consultant", "agency-vs-consultant", "law-firm-marketing-roi", "law-firm-accountability"]

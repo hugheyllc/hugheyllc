@@ -1,7 +1,7 @@
 ---
 title: "Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For"
 slug: "law-firm-marketing-consultant-tampa-bay"
-date: 2026-05-28
+date: 2026-05-25
 author: "Joe Hughey"
 excerpt: "Tampa Bay's legal market is competitive and unique. Here's what law firms in Tampa, St. Petersburg, Clearwater, and Sarasota should look for in an independent marketing consultant."
 tags: ["law-firm-marketing-consultant-tampa-bay", "tampa-bay-legal-marketing", "law-firm-marketing-florida", "local-seo-law-firms"]
