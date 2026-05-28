@@ -2,6 +2,29 @@
 
 *Last updated: 2026-05-28*
 
+---
+
+## Standing Instructions (Non-Negotiable)
+
+### 1. Trend Research Before Every Post
+Before writing any post, check for recent developments in:
+- **Legal marketing trends** — new platforms, AI search changes, Google algorithm updates, ABA/state bar rule changes, legal tech adoption
+- **Law firm business trends** — firm consolidation, practice area growth/decline, client acquisition shifts, billing model changes
+- **Competitor moves** — new content competitors have published, keywords they're newly targeting, campaigns they're running
+
+Sources to consult: Law360, Above the Law, American Lawyer, ABA Journal, Legal Marketing Association, Clio's Legal Trends Report, Google Search Central blog, Search Engine Journal.
+
+Content must reflect current conditions, not generic evergreen advice. If a trend is driving the post, cite it.
+
+### 2. No Duplicate Content — Ever
+Before writing any post:
+- Scan all existing posts in `src/content/blog/` and `src/content/insights/` for overlapping topics
+- If a post already covers the target keyword or angle, either (a) find a distinct sub-angle, or (b) update the existing post instead of creating a new one
+- Posts that cover the same ground hurt SEO — Google will suppress one or both
+- Maintain a mental map of what's been covered; when in doubt, grep the content directory for the target keyword before writing
+
+---
+
 ## How to Add New Posts
 
 ### File Naming
