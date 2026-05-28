@@ -1,43 +1,281 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
+import Footer from '../components/Footer.astro';
 import { getCollection } from 'astro:content';
 
 const insights = await getCollection('insights');
+
+const topics = [
+  { key: 'marketing-os', label: 'Marketing OS', color: '#4f46e5' },
+  { key: 'analytics',    label: 'Analytics',    color: '#0891b2' },
+  { key: 'intake',       label: 'Intake',       color: '#059669' },
+  { key: 'kpis',         label: 'KPIs',         color: '#d97706' },
+  { key: 'agencies',     label: 'Agencies',     color: '#dc2626' },
+];
 ---
 
 <BaseLayout
   title="Legal Marketing Insights | Hughey LLC"
-  description="Strategic insights on law firm marketing operations, data analysis, intake systems, KPIs, and choosing the right marketing partner."
+  description="Strategic frameworks for law firm marketing — analytics, intake, KPIs, agency management, and the integrated marketing operating system."
   canonical="https://hugheyllc.com/insights"
 >
-  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
-    <PageHero eyebrow="Deep Dives" heading="Marketing Intelligence<br /><em>Insights</em>" subheading="Long-form frameworks and analysis for law firm marketing operations." />
+  <div>
+    <PageHero
+      eyebrow="Deep Dives"
+      heading="Strategic Marketing<br /><em>Insights</em>"
+      subheading="Long-form frameworks for law firm marketing leaders — not tips and tricks, but the systems that actually drive retained client growth."
+      cta={{ label: "Schedule a Strategy Call", href: "/contact/" }}
+    />
 
-    <div style="padding: 80px 0;">
+    <!-- Light section -->
+    <div style="background: var(--page); padding: 80px 0 96px;">
       <div class="w">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(520px, 100%), 1fr)); gap: 40px;">
-          {insights.map((insight) => (
-            <article style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 40px; display: flex; flex-direction: column;">
-              <h2 style="font-size: 24px; font-weight: 700; color: var(--white); margin-bottom: 16px; line-height: 1.3;">
-                {insight.data.title}
-              </h2>
-              <p style="font-size: 14px; color: rgba(255, 255, 255, 0.6); margin-bottom: 24px; flex-grow: 1; line-height: 1.6;">
-                {insight.data.excerpt}
-              </p>
-              <a href={`/insights/${insight.data.slug}`} style="display: inline-flex; align-items: center; gap: 8px; color: var(--gold); text-decoration: none; font-weight: 600; transition: color 0.2s;">
-                Read More →
-              </a>
+
+        <!-- Intro strip -->
+        <div class="intro-strip rx">
+          <p class="intro-text">
+            These insights represent the core frameworks we use with every client. Each one addresses a specific failure point in law firm marketing operations. Read the ones that match where you are right now.
+          </p>
+          <div class="intro-divider"></div>
+        </div>
+
+        <!-- Insights list -->
+        <div class="insights-list">
+          {insights.map((insight, i) => (
+            <article class="insight-row rx">
+              <div class="insight-num">{String(i + 1).padStart(2, '0')}</div>
+              <div class="insight-body">
+                <span class="section-accent"></span>
+                <h2 class="insight-title">
+                  <a href={`/insights/${insight.data.slug}/`}>{insight.data.title}</a>
+                </h2>
+                <p class="insight-excerpt">{insight.data.excerpt}</p>
+                <a href={`/insights/${insight.data.slug}/`} class="insight-cta">
+                  Read the full insight →
+                </a>
+              </div>
+              <div class="insight-accent"></div>
             </article>
           ))}
         </div>
+
+        <!-- CTA band -->
+        <div class="cta-band rx">
+          <div class="cta-band-inner">
+            <p class="cta-band-label">Ready to apply these frameworks?</p>
+            <h3 class="cta-band-heading">Schedule a free strategy call with our team.</h3>
+            <a href="/contact/" class="cta-band-btn">Schedule a Free Strategy Call →</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 
+  <Footer />
+
   <style>
-    a:hover {
-      color: var(--glt) !important;
+    /* Intro strip */
+    .intro-strip {
+      display: grid;
+      grid-template-columns: 1fr 1px;
+      gap: 48px;
+      align-items: center;
+      margin-bottom: 72px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--bdr);
+    }
+
+    .intro-text {
+      font-size: 18px;
+      line-height: 1.75;
+      color: var(--sub);
+      max-width: 720px;
+    }
+
+    .intro-divider {
+      width: 1px;
+      height: 80px;
+      background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    }
+
+    /* Insights list */
+    .insights-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .insight-row {
+      display: grid;
+      grid-template-columns: 80px 1fr 6px;
+      gap: 48px;
+      align-items: start;
+      padding: 56px 0;
+      border-bottom: 1px solid var(--bdr);
+      position: relative;
+      transition: background 0.2s;
+    }
+
+    .insight-row:first-child {
+      border-top: 1px solid var(--bdr);
+    }
+
+    .insight-row:hover {
+      background: rgba(200,151,58,0.02);
+    }
+
+    .insight-num {
+      font-family: var(--bar);
+      font-size: 48px;
+      font-weight: 800;
+      color: rgba(200,151,58,0.18);
+      line-height: 1;
+      padding-top: 8px;
+      letter-spacing: -0.03em;
+      transition: color 0.3s;
+    }
+
+    .insight-row:hover .insight-num {
+      color: rgba(200,151,58,0.45);
+    }
+
+    .insight-body {
+      padding-right: 40px;
+    }
+
+    .insight-title {
+      font-size: clamp(22px, 2.5vw, 30px);
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin-bottom: 14px;
+    }
+
+    .insight-title a {
+      color: var(--ink);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .insight-title a:hover {
+      color: var(--gold);
+    }
+
+    .insight-excerpt {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--sub);
+      margin-bottom: 24px;
+      max-width: 680px;
+    }
+
+    .insight-cta {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(200,151,58,0.35);
+      padding-bottom: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .insight-cta:hover {
+      color: var(--gdim);
+      border-color: var(--gdim);
+    }
+
+    .insight-accent {
+      width: 6px;
+      height: 56px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+      border-radius: 3px;
+      margin-top: 8px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .insight-row:hover .insight-accent {
+      opacity: 1;
+    }
+
+    /* CTA band */
+    .cta-band {
+      margin-top: 80px;
+      background: var(--ink);
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .cta-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 80% 50%, rgba(200,151,58,0.12) 0%, transparent 60%);
+    }
+
+    .cta-band-inner {
+      padding: 56px 64px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta-band-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(200,151,58,0.7);
+      margin-bottom: 12px;
+    }
+
+    .cta-band-heading {
+      font-size: clamp(22px, 3vw, 34px);
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 28px;
+      line-height: 1.2;
+      max-width: 560px;
+    }
+
+    .cta-band-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 24px rgba(200,151,58,0.35);
+    }
+
+    .cta-band-btn:hover {
+      background: var(--glt);
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 900px) {
+      .insight-row {
+        grid-template-columns: 48px 1fr;
+      }
+      .insight-accent { display: none; }
+      .insight-num { font-size: 32px; }
+      .insight-body { padding-right: 0; }
+      .intro-strip { grid-template-columns: 1fr; }
+      .intro-divider { display: none; }
+      .cta-band-inner { padding: 40px 28px; }
     }
   </style>
 </BaseLayout>
