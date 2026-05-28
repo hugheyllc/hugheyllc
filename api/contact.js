@@ -48,20 +48,20 @@ export default async function handler(req, res) {
 
     // Send confirmation to the user
     const confirmUser = resend.emails.send({
-      from: 'Joe Hughey <no-reply@notifications.hugheyllc.com>',
+      from: 'Hughey LLC <no-reply@notifications.hugheyllc.com>',
       to: email,
       replyTo: 'joe@joehughey.com',
-      subject: `Got your message — Hughey LLC`,
+      subject: `We received your message — Hughey LLC`,
       html: `
         <div style="font-family: Georgia, serif; max-width: 600px; color: #09131F;">
           <h2 style="color: #C8973A;">Thanks, ${name}.</h2>
-          <p style="font-size: 16px; line-height: 1.7;">I received your message about ${firmName} and will be in touch shortly.</p>
-          <p style="font-size: 16px; line-height: 1.7;">If you need to reach me directly in the meantime:</p>
+          <p style="font-size: 16px; line-height: 1.7;">We received your message regarding ${firmName} and will be in touch shortly.</p>
+          <p style="font-size: 16px; line-height: 1.7;">In the meantime, feel free to reach us directly:</p>
           <ul style="font-size: 15px; line-height: 1.8;">
             <li>Email: <a href="mailto:joe@joehughey.com">joe@joehughey.com</a></li>
             <li>Phone: <a href="tel:7274833222">727-483-3222</a></li>
           </ul>
-          <p style="font-size: 16px; line-height: 1.7; margin-top: 24px;">— Joe</p>
+          <p style="font-size: 16px; line-height: 1.7; margin-top: 24px;">— The Hughey LLC Team</p>
           <hr style="border: none; border-top: 1px solid #eee; margin: 32px 0;" />
           <p style="font-size: 12px; color: #999;">Hughey LLC · 5412 Dover St NE, St. Petersburg, FL 33703 · hugheyllc.com</p>
         </div>
@@ -79,7 +79,7 @@ export default async function handler(req, res) {
       console.error('Failed to send user confirmation:', userResult.reason);
     }
 
-    return res.status(200).json({ success: true, message: "Message sent. You'll hear from Joe soon." });
+    return res.status(200).json({ success: true, message: "Message received. Our team will be in touch shortly." });
   } catch (err) {
     console.error('Contact form error:', err);
     return res.status(500).json({ success: false, error: 'An error occurred. Please call 727-483-3222.' });
