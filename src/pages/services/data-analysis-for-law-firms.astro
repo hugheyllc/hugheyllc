@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import FaqSection from '../../components/FaqSection.astro';
+import Footer from '../../components/Footer.astro';
 
 const faqs = [
   { q: 'What is marketing data analysis for law firms?', a: 'Marketing data analysis for law firms means connecting data from all your marketing platforms — Google Analytics, Google Ads, your CRM, intake forms, and billing — into a single view that shows which channels and campaigns are actually producing retained clients, and at what cost. Without this analysis, you are allocating budget based on incomplete information.' },
@@ -26,6 +27,14 @@ const schema = [
     ]
   }
 ];
+
+const outcomes = [
+  'Clear visibility into which marketing activities drive retained clients',
+  'Cost-per-retained-client by channel (the metric that actually matters)',
+  'Data-driven budget allocation based on actual results',
+  'Monthly dashboards that track progress toward growth goals',
+  'Confidence that marketing spend is optimized for the outcome you care about',
+];
 ---
 
 <BaseLayout
@@ -34,103 +43,243 @@ const schema = [
   canonical="https://hugheyllc.com/services/data-analysis-for-law-firms"
   schema={schema}
 >
-  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+  <div>
     <PageHero eyebrow="Service" heading="Marketing Data<br /><em>Analysis</em>" subheading="We audit your analytics stack, implement proper conversion tracking, and build dashboards showing cost-per-retained-client by channel." />
 
-    <!-- The Problem -->
-    <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
+    <!-- Light content section -->
+    <div style="background: var(--page); padding: 80px 0 0;">
       <div class="w">
-        <div style="max-width: 900px;">
-          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px;">The Problem</h2>
-          <p style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85); margin-bottom: 20px;">
-            Your marketing data lives in different platforms. Google Analytics shows website traffic. Google Ads shows cost-per-click. Your CRM shows leads. Your accounting shows revenue. No one system shows which marketing activities actually drive retained clients.
-          </p>
-          <p style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85); margin-bottom: 20px;">
-            The result: you're allocating budget based on vanity metrics. You know your cost-per-click is $15, but you have no idea if that click ever becomes a retained client. You might be wasting 50% of your budget on channels that look good in reports but don't actually drive the clients you want.
-          </p>
-        </div>
-      </div>
-    </div>
 
-    <!-- What We Do -->
-    <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
-      <div class="w">
-        <div style="max-width: 900px;">
-          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 48px;">What We Do</h2>
-          
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 40px;">
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Audit Your Stack</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We examine all your marketing platforms, analytics tools, and CRM setup. We identify where data is siloed, where tracking is broken, and where data doesn't connect.
-              </p>
+        <!-- The Problem -->
+        <section class="problem-section rx">
+          <div class="problem-label">
+            <span class="section-accent"></span>
+            <h2 class="section-heading">The Problem</h2>
+          </div>
+          <div class="section-body">
+            <p>Your marketing data lives in different platforms. Google Analytics shows website traffic. Google Ads shows cost-per-click. Your CRM shows leads. Your accounting shows revenue. No one system shows which marketing activities actually drive retained clients.</p>
+            <p>The result: you're allocating budget based on vanity metrics. You know your cost-per-click is $15, but you have no idea if that click ever becomes a retained client. You might be wasting 50% of your budget on channels that look good in reports but don't actually drive the clients you want.</p>
+          </div>
+        </section>
+
+        <!-- What We Do -->
+        <section class="work-section rx">
+          <span class="section-accent"></span>
+          <h2 class="section-heading">What We Do</h2>
+          <div class="work-grid">
+            <div class="work-card rxl d1">
+              <h3>Audit Your Stack</h3>
+              <p>We examine all your marketing platforms, analytics tools, and CRM setup. We identify where data is siloed, where tracking is broken, and where data doesn't connect.</p>
             </div>
-            
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Implement Tracking</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We set up proper conversion tracking from each channel through to client intake. We connect Google Analytics to CRM. We integrate phone tracking. We implement UTM parameters.
-              </p>
+            <div class="work-card rxl d2">
+              <h3>Implement Tracking</h3>
+              <p>We set up proper conversion tracking from each channel through to client intake. We connect Google Analytics to CRM. We integrate phone tracking. We implement UTM parameters.</p>
             </div>
-            
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Build Dashboards</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We create unified dashboards showing: leads by channel, cost-per-lead, lead-to-client conversion, client-to-retained-client retention, cost-per-retained-client.
-              </p>
+            <div class="work-card rxl d3">
+              <h3>Build Dashboards</h3>
+              <p>We create unified dashboards showing: leads by channel, cost-per-lead, lead-to-client conversion, client-to-retained-client retention, cost-per-retained-client.</p>
             </div>
-            
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Train Your Team</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We teach your team how to use the dashboards, how to interpret the data, and how to make budget allocation decisions based on actual results.
-              </p>
+            <div class="work-card rxl d4">
+              <h3>Train Your Team</h3>
+              <p>We teach your team how to use the dashboards, how to interpret the data, and how to make budget allocation decisions based on actual results.</p>
             </div>
           </div>
-        </div>
+        </section>
+
+        <!-- The Outcome -->
+        <section class="outcome-section rx">
+          <span class="section-accent"></span>
+          <h2 class="section-heading">The Outcome</h2>
+          <ul class="outcome-list">
+            {outcomes.map(item => (
+              <li>
+                <span class="outcome-arrow">→</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
       </div>
     </div>
 
-    <!-- Outcome -->
-    <div style="padding: 80px 0;">
+    <!-- FAQ -->
+    <FaqSection items={faqs} heading="Questions About Law Firm Marketing Analytics" />
+
+    <!-- CTA band -->
+    <div style="background: var(--page); padding: 0 0 96px;">
       <div class="w">
-        <div style="max-width: 900px;">
-          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px;">The Outcome</h2>
-          <div style="background: rgba(200, 151, 58, 0.05); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 40px;">
-            <ul style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85); list-style: none; padding: 0;">
-              <li style="margin-bottom: 16px;">✓ Clear visibility into which marketing activities drive retained clients</li>
-              <li style="margin-bottom: 16px;">✓ Cost-per-retained-client by channel (the metric that actually matters)</li>
-              <li style="margin-bottom: 16px;">✓ Data-driven budget allocation based on actual results</li>
-              <li style="margin-bottom: 16px;">✓ Monthly dashboards that track progress toward growth goals</li>
-              <li>✓ Confidence that marketing spend is optimized for the outcome you care about</li>
-            </ul>
+        <div class="cta-band rx">
+          <div class="cta-inner">
+            <p class="cta-eyebrow">Ready to fix your data</p>
+            <h3 class="cta-heading">Schedule a free strategy call to discuss your current analytics situation.</h3>
+            <a href="/contact/" class="cta-btn">Schedule a Call →</a>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- CTA -->
-    <div style="padding: 60px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
-      <div class="w">
-        <div style="text-align: center;">
-          <h3 style="font-size: 28px; font-weight: 800; margin-bottom: 20px;">Ready to Fix Your Data?</h3>
-          <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); margin-bottom: 28px;">
-            Let's schedule a free strategy call to discuss your current analytics situation.
-          </p>
-          <a href="/contact" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
-            Schedule a Call →
-          </a>
         </div>
       </div>
     </div>
   </div>
 
+  <Footer />
+
   <style>
-    a:hover {
-      background: var(--glt) !important;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
+    /* Problem (two-column) */
+    .problem-section {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 64px;
+      padding: 64px 0;
+      border-bottom: 1px solid var(--bdr);
+      align-items: start;
+    }
+
+    .section-heading {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--ink);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin-top: 12px;
+    }
+
+    .section-body p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--sub);
+      margin-bottom: 18px;
+    }
+
+    .section-body p:last-child { margin-bottom: 0; }
+
+    /* What We Do */
+    .work-section {
+      padding: 64px 0;
+      border-bottom: 1px solid var(--bdr);
+    }
+
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+      margin-top: 40px;
+    }
+
+    .work-card {
+      background: var(--white);
+      border: 1px solid var(--bdr);
+      border-radius: 4px;
+      padding: 28px 32px;
+      transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    }
+
+    .work-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.07);
+      transform: translateY(-3px);
+    }
+
+    .work-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .work-card p {
+      font-size: 14px;
+      color: var(--sub);
+      line-height: 1.65;
+    }
+
+    /* Outcome */
+    .outcome-section {
+      padding: 64px 0;
+      border-bottom: 1px solid var(--bdr);
+    }
+
+    .outcome-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .outcome-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 15px;
+      color: var(--sub);
+      line-height: 1.6;
+    }
+
+    .outcome-arrow {
+      color: var(--gold);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* CTA band */
+    .cta-band {
+      background: var(--ink);
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+      margin-top: 80px;
+    }
+
+    .cta-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 80% 50%, rgba(200,151,58,0.12) 0%, transparent 60%);
+    }
+
+    .cta-inner { padding: 56px 64px; position: relative; z-index: 1; }
+
+    .cta-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(200,151,58,0.7);
+      margin-bottom: 12px;
+    }
+
+    .cta-heading {
+      font-size: clamp(20px, 2.5vw, 28px);
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 28px;
+      line-height: 1.3;
+      max-width: 560px;
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 24px rgba(200,151,58,0.35);
+    }
+
+    .cta-btn:hover { background: var(--glt); transform: translateY(-1px); }
+
+    @media (max-width: 900px) {
+      .problem-section { grid-template-columns: 1fr; gap: 24px; }
+      .work-grid { grid-template-columns: 1fr; }
+      .cta-inner { padding: 40px 28px; }
     }
   </style>
-  <FaqSection items={faqs} heading="Questions About Law Firm Marketing Analytics" />
 </BaseLayout>

@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import FaqSection from '../../components/FaqSection.astro';
+import Footer from '../../components/Footer.astro';
 
 const faqs = [
   { q: 'What should a law firm marketing strategy include?', a: 'An effective law firm marketing strategy includes a clear definition of the target client (practice area, geography, case type), a channel mix with budget allocation by channel, a 12-month content and campaign calendar, intake process standards, agency accountability frameworks, and monthly KPI reviews tied to retained client targets. Strategy without accountability is just a document.' },
@@ -26,6 +27,22 @@ const schema = [
     ]
   }
 ];
+
+const problemPoints = [
+  'Money is wasted on channels that don\'t fit your firm',
+  'Your team is stretched thin trying to execute everything',
+  'Growth goals are unrealistic because they\'re not tied to intake capacity',
+  'There\'s no clear direction or progress toward outcomes',
+];
+
+const outcomes = [
+  'Clear, integrated marketing strategy for the next 12 months',
+  'Realistic growth targets aligned with your intake capacity and resources',
+  'Understanding of which channels to prioritize and why',
+  'Monthly milestones so you know progress toward goals',
+  'Confidence that your team knows what to do and why',
+  'Quarterly adjustments so strategy evolves with market and performance data',
+];
 ---
 
 <BaseLayout
@@ -34,102 +51,268 @@ const schema = [
   canonical="https://hugheyllc.com/services/strategic-marketing-for-law-firms"
   schema={schema}
 >
-  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+  <div>
     <PageHero eyebrow="Service" heading="Strategic Marketing<br /><em>for Law Firms</em>" subheading="We develop a clear 12-month plan with realistic timelines, resource allocation, and monthly progress tracking." />
 
-    <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
+    <!-- Light content section -->
+    <div style="background: var(--page); padding: 80px 0 0;">
       <div class="w">
-        <div style="max-width: 900px;">
-          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px;">The Problem</h2>
-          <p style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85); margin-bottom: 20px;">
-            Many law firms are reacting to marketing—trying the latest channel, following their agencies' recommendations, adjusting budget based on short-term metrics. This reactive approach means:
-          </p>
-          <ul style="font-size: 16px; line-height: 2; color: rgba(255, 255, 255, 0.85); margin-bottom: 20px; padding-left: 20px;">
-            <li>Money is wasted on channels that don't fit your firm</li>
-            <li>Your team is stretched thin trying to execute everything</li>
-            <li>Growth goals are unrealistic because they're not tied to intake capacity</li>
-            <li>There's no clear direction or progress toward outcomes</li>
-          </ul>
-          <p style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
-            You need a clear, integrated strategy that goes beyond individual agencies and channels.
-          </p>
-        </div>
-      </div>
-    </div>
 
-    <div style="padding: 80px 0; border-bottom: 1px solid rgba(200, 151, 58, 0.15);">
-      <div class="w">
-        <div style="max-width: 900px;">
-          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 48px;">What We Do</h2>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 40px;">
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Comprehensive Audit</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We analyze your current marketing, competitive landscape, intake capacity, team resources, and business goals. We identify what's working and where opportunities exist.
-              </p>
-            </div>
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Strategic Planning</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We develop an integrated 12-month strategy that identifies priority channels, realistic growth targets aligned with intake capacity, and detailed initiatives for each quarter.
-              </p>
-            </div>
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Implementation Roadmap</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We create month-by-month milestones, resource allocation, budget planning, and vendor coordination plan. You know exactly what happens when.
-              </p>
-            </div>
-            <div>
-              <h3 style="font-size: 20px; font-weight: 700; color: var(--gold); margin-bottom: 12px;">Quarterly Review</h3>
-              <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); line-height: 1.6;">
-                We track progress against the plan. Every quarter we adjust strategy based on results, market changes, and what you've learned about your ideal client.
-              </p>
-            </div>
+        <!-- The Problem -->
+        <section class="problem-section rx">
+          <div class="problem-label">
+            <span class="section-accent"></span>
+            <h2 class="section-heading">The Problem</h2>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div style="padding: 80px 0;">
-      <div class="w">
-        <div style="max-width: 900px;">
-          <h2 style="font-size: 42px; font-weight: 800; margin-bottom: 32px;">The Outcome</h2>
-          <div style="background: rgba(200, 151, 58, 0.05); border: 1px solid rgba(200, 151, 58, 0.15); border-radius: 4px; padding: 40px;">
-            <ul style="font-size: 16px; line-height: 1.8; color: rgba(255, 255, 255, 0.85); list-style: none; padding: 0;">
-              <li style="margin-bottom: 16px;">✓ Clear, integrated marketing strategy for the next 12 months</li>
-              <li style="margin-bottom: 16px;">✓ Realistic growth targets aligned with your intake capacity and resources</li>
-              <li style="margin-bottom: 16px;">✓ Understanding of which channels to prioritize and why</li>
-              <li style="margin-bottom: 16px;">✓ Monthly milestones so you know progress toward goals</li>
-              <li style="margin-bottom: 16px;">✓ Confidence that your team knows what to do and why</li>
-              <li>✓ Quarterly adjustments so strategy evolves with market and performance data</li>
+          <div class="section-body">
+            <p>Many law firms are reacting to marketing—trying the latest channel, following their agencies' recommendations, adjusting budget based on short-term metrics. This reactive approach means:</p>
+            <ul class="problem-list">
+              {problemPoints.map(item => (
+                <li>
+                  <span class="outcome-arrow">→</span>
+                  <span>{item}</span>
+                </li>
+              ))}
             </ul>
+            <p>You need a clear, integrated strategy that goes beyond individual agencies and channels.</p>
           </div>
-        </div>
+        </section>
+
+        <!-- What We Do -->
+        <section class="work-section rx">
+          <span class="section-accent"></span>
+          <h2 class="section-heading">What We Do</h2>
+          <div class="work-grid">
+            <div class="work-card rxl d1">
+              <h3>Comprehensive Audit</h3>
+              <p>We analyze your current marketing, competitive landscape, intake capacity, team resources, and business goals. We identify what's working and where opportunities exist.</p>
+            </div>
+            <div class="work-card rxl d2">
+              <h3>Strategic Planning</h3>
+              <p>We develop an integrated 12-month strategy that identifies priority channels, realistic growth targets aligned with intake capacity, and detailed initiatives for each quarter.</p>
+            </div>
+            <div class="work-card rxl d3">
+              <h3>Implementation Roadmap</h3>
+              <p>We create month-by-month milestones, resource allocation, budget planning, and vendor coordination plan. You know exactly what happens when.</p>
+            </div>
+            <div class="work-card rxl d4">
+              <h3>Quarterly Review</h3>
+              <p>We track progress against the plan. Every quarter we adjust strategy based on results, market changes, and what you've learned about your ideal client.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- The Outcome -->
+        <section class="outcome-section rx">
+          <span class="section-accent"></span>
+          <h2 class="section-heading">The Outcome</h2>
+          <ul class="outcome-list">
+            {outcomes.map(item => (
+              <li>
+                <span class="outcome-arrow">→</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
       </div>
     </div>
 
-    <div style="padding: 60px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+    <!-- FAQ -->
+    <FaqSection items={faqs} heading="Questions About Law Firm Marketing Strategy" />
+
+    <!-- CTA band -->
+    <div style="background: var(--page); padding: 0 0 96px;">
       <div class="w">
-        <div style="text-align: center;">
-          <h3 style="font-size: 28px; font-weight: 800; margin-bottom: 20px;">Let's Build Your Strategy</h3>
-          <p style="font-size: 15px; color: rgba(255, 255, 255, 0.7); margin-bottom: 28px;">
-            Schedule a free strategy call to discuss your firm's growth goals and marketing needs.
-          </p>
-          <a href="/contact" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
-            Schedule a Call →
-          </a>
+        <div class="cta-band rx">
+          <div class="cta-inner">
+            <p class="cta-eyebrow">Let's build your strategy</p>
+            <h3 class="cta-heading">Schedule a free strategy call to discuss your firm's growth goals and marketing needs.</h3>
+            <a href="/contact/" class="cta-btn">Schedule a Call →</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
+  <Footer />
+
   <style>
-    a:hover {
-      background: var(--glt) !important;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
+    /* Problem (two-column) */
+    .problem-section {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 64px;
+      padding: 64px 0;
+      border-bottom: 1px solid var(--bdr);
+      align-items: start;
+    }
+
+    .section-heading {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--ink);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin-top: 12px;
+    }
+
+    .section-body p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--sub);
+      margin-bottom: 18px;
+    }
+
+    .section-body p:last-child { margin-bottom: 0; }
+
+    .problem-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .problem-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 15px;
+      color: var(--sub);
+      line-height: 1.6;
+    }
+
+    /* What We Do */
+    .work-section {
+      padding: 64px 0;
+      border-bottom: 1px solid var(--bdr);
+    }
+
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+      margin-top: 40px;
+    }
+
+    .work-card {
+      background: var(--white);
+      border: 1px solid var(--bdr);
+      border-radius: 4px;
+      padding: 28px 32px;
+      transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    }
+
+    .work-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.07);
+      transform: translateY(-3px);
+    }
+
+    .work-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .work-card p {
+      font-size: 14px;
+      color: var(--sub);
+      line-height: 1.65;
+    }
+
+    /* Outcome */
+    .outcome-section {
+      padding: 64px 0;
+      border-bottom: 1px solid var(--bdr);
+    }
+
+    .outcome-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .outcome-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 15px;
+      color: var(--sub);
+      line-height: 1.6;
+    }
+
+    .outcome-arrow {
+      color: var(--gold);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* CTA band */
+    .cta-band {
+      background: var(--ink);
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+      margin-top: 80px;
+    }
+
+    .cta-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 80% 50%, rgba(200,151,58,0.12) 0%, transparent 60%);
+    }
+
+    .cta-inner { padding: 56px 64px; position: relative; z-index: 1; }
+
+    .cta-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(200,151,58,0.7);
+      margin-bottom: 12px;
+    }
+
+    .cta-heading {
+      font-size: clamp(20px, 2.5vw, 28px);
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 28px;
+      line-height: 1.3;
+      max-width: 560px;
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 24px rgba(200,151,58,0.35);
+    }
+
+    .cta-btn:hover { background: var(--glt); transform: translateY(-1px); }
+
+    @media (max-width: 900px) {
+      .problem-section { grid-template-columns: 1fr; gap: 24px; }
+      .work-grid { grid-template-columns: 1fr; }
+      .cta-inner { padding: 40px 28px; }
     }
   </style>
-  <FaqSection items={faqs} heading="Questions About Law Firm Marketing Strategy" />
 </BaseLayout>
