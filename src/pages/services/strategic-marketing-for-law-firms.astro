@@ -11,7 +11,18 @@ const faqs = [
   { q: 'What is the biggest mistake law firms make with marketing strategy?', a: 'Reacting to vendor pitches instead of leading with strategy. Most law firms add marketing channels opportunistically — a new agency pitches something and they try it. The result is a disconnected mix of tactics with no unified goal and no way to measure what is working. Strategy means deciding in advance which channels you will use, why, and what success looks like.' },
 ];
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Strategic Marketing for Law Firms",
+  "description": "12-month integrated marketing strategy with realistic goals, clear KPIs, and monthly progress tracking.",
+  "provider": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" },
+  "areaServed": { "@type": "Country", "name": "United States" },
+  "url": "https://hugheyllc.com/services/strategic-marketing-for-law-firms/"
+};
+
 const schema = [
+  serviceSchema,
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",

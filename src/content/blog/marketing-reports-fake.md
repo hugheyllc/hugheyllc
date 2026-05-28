@@ -4,7 +4,7 @@ slug: "marketing-reports-fake"
 date: 2026-01-13
 author: "Joe Hughey"
 excerpt: "Many agencies deliver glossy dashboards filled with impressions, clicks and social followers. They look impressive until you ask a simple question: did we retai"
-tags: []
+tags: ["marketing analytics", "marketing ROI", "law firm marketing", "agency management"]
 seo_title: "Why Most Law Firm Marketing Reports Are Fiction"
 seo_description: "Many agencies deliver glossy dashboards filled with impressions, clicks and social followers. They look impressive until you ask a simple question: did we retai"
 draft: false

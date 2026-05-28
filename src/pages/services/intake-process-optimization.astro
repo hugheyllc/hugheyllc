@@ -11,7 +11,18 @@ const faqs = [
   { q: 'How long does it take to see results from intake optimization?', a: 'Most firms see measurable improvement in form-to-consultation conversion rates within 30–60 days of implementing intake changes. The full impact, including the downstream effect on retained client numbers, is typically visible within 90 days.' },
 ];
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Intake Process Optimization for Law Firms",
+  "description": "Redesign your intake process to convert more leads to clients. Faster qualification. Better data. Higher conversion rates.",
+  "provider": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" },
+  "areaServed": { "@type": "Country", "name": "United States" },
+  "url": "https://hugheyllc.com/services/intake-process-optimization/"
+};
+
 const schema = [
+  serviceSchema,
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",

@@ -4,7 +4,7 @@ slug: "benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in
 date: 2025-12-06
 author: "Joe Hughey"
 excerpt: "Introduction Benchmarking is one of the most valuable tools in modern law firm marketing strategy. Without context, even a strong metric can mislead. By compari"
-tags: []
+tags: ["marketing analytics", "law firm marketing", "marketing ROI", "law firm growth"]
 seo_title: "Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025"
 seo_description: "Introduction Benchmarking is one of the most valuable tools in modern law firm marketing strategy. Without context, even a strong metric can mislead. By compari"
 draft: false

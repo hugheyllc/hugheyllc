@@ -4,7 +4,7 @@ slug: "video-and-visual-content-for-legal-seo-2025"
 date: 2025-11-26
 author: "Joe Hughey"
 excerpt: "User behavior in 2025 has changed how potential clients search, retain information and make decisions. Long text-based blogs are still important, but they are n"
-tags: []
+tags: ["SEO for law firms", "content marketing", "law firm SEO", "law firm website"]
 seo_title: "Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025"
 seo_description: "User behavior in 2025 has changed how potential clients search, retain information and make decisions. Long text-based blogs are still important, but they are n"
 draft: false

@@ -4,7 +4,7 @@ slug: "more-leads-wrong-goal-law-firms"
 date: 2026-01-13
 author: "Joe Hughey"
 excerpt: "“More leads” is a seductive goal, but it often leads firms to burn cash on unqualified traffic and unsustainable cases. This blog explains why focusing on lead "
-tags: []
+tags: ["law firm marketing", "intake optimization", "marketing ROI", "law firm growth"]
 seo_title: "Why “More Leads” Is the Wrong Goal for Law Firms"
 seo_description: "“More leads” is a seductive goal, but it often leads firms to burn cash on unqualified traffic and unsustainable cases. This blog explains why focusing on lead "
 draft: false

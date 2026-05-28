@@ -11,7 +11,18 @@ const faqs = [
   { q: 'Do I need to change my existing marketing platforms?', a: 'Usually not. We work with the platforms you already use — Google Analytics 4, Google Ads, most CRMs, and major intake tools. Our job is to connect them correctly and build the reporting layer on top, not replace the tools.' },
 ];
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Marketing Data Analysis for Law Firms",
+  "description": "Unified analytics and dashboards showing which marketing channels actually drive retained clients. Cost-per-retained-client by channel.",
+  "provider": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" },
+  "areaServed": { "@type": "Country", "name": "United States" },
+  "url": "https://hugheyllc.com/services/data-analysis-for-law-firms/"
+};
+
 const schema = [
+  serviceSchema,
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",

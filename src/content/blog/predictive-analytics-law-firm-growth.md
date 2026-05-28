@@ -4,7 +4,7 @@ slug: "predictive-analytics-law-firm-growth"
 date: 2025-12-05
 author: "Joe Hughey"
 excerpt: "Introduction: The New Face of Legal Marketing It’s 2025, and video has become the most powerful storytelling tool in legal marketing. Whether you’re an establis"
-tags: []
+tags: ["content marketing", "law firm marketing", "law firm website", "legal marketing"]
 seo_title: "The Future of Law Firm Video Marketing: Compliance Meets Conversion"
 seo_description: "Introduction: The New Face of Legal Marketing It’s 2025, and video has become the most powerful storytelling tool in legal marketing. Whether you’re an establis"
 draft: false

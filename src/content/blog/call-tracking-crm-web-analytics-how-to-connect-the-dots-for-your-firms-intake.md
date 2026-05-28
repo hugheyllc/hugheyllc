@@ -4,7 +4,7 @@ slug: "call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-in
 date: 2025-10-31
 author: "Joe Hughey"
 excerpt: "The Silent Revenue Leak in Law Firm Marketing Law firms often lose clients not due to lack of leads, but because their data systems don’t communicate. Phone cal"
-tags: []
+tags: ["marketing analytics", "intake optimization", "law firm marketing", "law firm growth"]
 seo_title: "Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake"
 seo_description: "The Silent Revenue Leak in Law Firm Marketing Law firms often lose clients not due to lack of leads, but because their data systems don’t communicate. Phone cal"
 draft: false

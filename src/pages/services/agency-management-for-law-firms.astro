@@ -11,7 +11,18 @@ const faqs = [
   { q: 'How do I know if my marketing agencies are performing?', a: 'The key signal is whether your retained client count is growing in proportion to marketing spend. If your agencies are reporting strong channel metrics (rankings, impressions, clicks) but your caseload is not growing, there is a disconnect between what is being measured and what your business needs. We help you build the reporting that surfaces this gap clearly.' },
 ];
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Agency Management for Law Firms",
+  "description": "Coordinate multiple marketing vendors into an integrated strategy. Unified KPIs. Vendor accountability. Better ROI.",
+  "provider": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" },
+  "areaServed": { "@type": "Country", "name": "United States" },
+  "url": "https://hugheyllc.com/services/agency-management-for-law-firms/"
+};
+
 const schema = [
+  serviceSchema,
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",

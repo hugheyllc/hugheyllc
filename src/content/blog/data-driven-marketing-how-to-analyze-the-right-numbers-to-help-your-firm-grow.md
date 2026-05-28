@@ -4,7 +4,7 @@ slug: "data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-
 date: 2025-01-03
 author: "Joe Hughey"
 excerpt: "In the competitive legal industry, marketing decisions based on intuition alone often fall short. Data-driven marketing, by contrast, involves gathering, analyz"
-tags: []
+tags: ["marketing analytics", "law firm marketing", "law firm growth", "marketing ROI"]
 seo_title: "Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow"
 seo_description: "In the competitive legal industry, marketing decisions based on intuition alone often fall short. Data-driven marketing, by contrast, involves gathering, analyz"
 draft: false

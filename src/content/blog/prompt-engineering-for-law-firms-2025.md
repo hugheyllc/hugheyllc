@@ -4,7 +4,7 @@ slug: "prompt-engineering-for-law-firms-2025"
 date: 2025-12-11
 author: "Joe Hughey"
 excerpt: "A Strategic Framework for Law Firm Leaders Adopting AI Artificial intelligence has moved far beyond novelty status in the legal profession. By 2025, LLM-powered"
-tags: []
+tags: ["law firm growth", "legal marketing", "AEO", "content marketing"]
 seo_title: "How Prompt Engineering Is Transforming Legal Practice in 2025"
 seo_description: "A Strategic Framework for Law Firm Leaders Adopting AI Artificial intelligence has moved far beyond novelty status in the legal profession. By 2025, LLM-powered"
 draft: false

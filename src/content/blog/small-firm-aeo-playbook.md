@@ -4,7 +4,7 @@ slug: "small-firm-aeo-playbook"
 date: 2025-10-10
 author: "Joe Hughey"
 excerpt: "For small and mid-sized law firms, the marketing landscape is rapidly evolving. Advanced marketing technology once reserved for large agencies is now accessible"
-tags: []
+tags: ["AEO", "SEO for law firms", "law firm SEO", "law firm marketing"]
 seo_title: "The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025"
 seo_description: "For small and mid-sized law firms, the marketing landscape is rapidly evolving. Advanced marketing technology once reserved for large agencies is now accessible"
 draft: false

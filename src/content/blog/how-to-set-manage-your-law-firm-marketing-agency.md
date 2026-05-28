@@ -4,7 +4,7 @@ slug: "how-to-set-manage-your-law-firm-marketing-agency"
 date: 2025-12-09
 author: "Joe Hughey"
 excerpt: "Learn how to choose, evaluate, and manage a legal marketing agency to ensure measurable ROI, clear communication, and accountability. Discover a proven framewor"
-tags: []
+tags: ["agency management", "law firm marketing", "marketing ROI", "legal marketing"]
 seo_title: "How to Set &amp; Manage Your Law-Firm Marketing Agency"
 seo_description: "Learn how to choose, evaluate, and manage a legal marketing agency to ensure measurable ROI, clear communication, and accountability. Discover a proven framewor"
 draft: false

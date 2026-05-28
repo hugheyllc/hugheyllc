@@ -4,7 +4,7 @@ slug: "https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-f
 date: 2025-11-13
 author: "Joe Hughey"
 excerpt: "Paid visibility is moving beyond classic keyword ads. In the realm of legal marketing, as AI Overviews and LLM-powered assistants synthesize answers, ad invento"
-tags: []
+tags: ["AEO", "Google Ads", "law firm marketing", "SEO for law firms"]
 seo_title: "AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility"
 seo_description: "Paid visibility is moving beyond classic keyword ads. In the realm of legal marketing, as AI Overviews and LLM-powered assistants synthesize answers, ad invento"
 draft: false

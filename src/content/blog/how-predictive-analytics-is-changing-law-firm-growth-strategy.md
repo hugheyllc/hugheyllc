@@ -4,7 +4,7 @@ slug: "how-predictive-analytics-is-changing-law-firm-growth-strategy"
 date: 2025-12-05
 author: "Joe Hughey"
 excerpt: "Introduction: The Next Frontier in Legal Marketing Data Most law firms look backward when they review their numbers — how many leads came in, which campaigns wo"
-tags: []
+tags: ["marketing analytics", "law firm growth", "law firm marketing", "marketing ROI"]
 seo_title: "How Predictive Analytics Is Changing Law Firm Growth Strategy"
 seo_description: "Introduction: The Next Frontier in Legal Marketing Data Most law firms look backward when they review their numbers — how many leads came in, which campaigns wo"
 draft: false

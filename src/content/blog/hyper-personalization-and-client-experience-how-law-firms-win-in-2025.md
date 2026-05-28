@@ -4,7 +4,7 @@ slug: "hyper-personalization-and-client-experience-how-law-firms-win-in-2025"
 date: 2025-11-25
 author: "Joe Hughey"
 excerpt: "Client expectations have evolved fast. In 2025, potential clients want faster answers, personalized communication, less friction, and more transparency from the"
-tags: []
+tags: ["law firm growth", "intake optimization", "legal marketing", "content marketing"]
 seo_title: "Hyper Personalization and Client Experience: How Law Firms Win in 2025"
 seo_description: "Client expectations have evolved fast. In 2025, potential clients want faster answers, personalized communication, less friction, and more transparency from the"
 draft: false

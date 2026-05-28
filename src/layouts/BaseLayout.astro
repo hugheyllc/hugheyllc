@@ -100,6 +100,8 @@ const localBusinessSchema = {
     <meta name="twitter:title" content={title} />
     {description && <meta name="twitter:description" content={description} />}
     <meta name="twitter:image" content={ogImage ?? defaultOgImage} />
+    <meta name="twitter:site" content="@joehughey" />
+    <meta name="twitter:creator" content="@joehughey" />
 
     <!-- LocalBusiness Schema (every page) -->
     <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
