@@ -62,4 +62,4 @@ At Tampa PI CPCs of $100+, the firms that can calculate their true cost-per-reta
 
 - [Google Ads for Law Firms: Why Most Campaigns Fail](/blog/)
 
-- [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/)

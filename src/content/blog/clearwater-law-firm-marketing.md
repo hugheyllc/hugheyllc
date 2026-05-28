@@ -62,6 +62,6 @@ For firms serving the entire Tampa Bay area, Clearwater SEO investment is additi
 
 - [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
 
-- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [The Law Firm Google Business Profile Guide](/blog/law-firm-google-business-profile/)
 
 - [Tampa Law Firm Marketing: The 2026 Competitive Landscape](/blog/)

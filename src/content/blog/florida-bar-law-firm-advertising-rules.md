@@ -56,8 +56,8 @@ At [Hughey, LLC](/blog/), we build all law firm website content and marketing in
 
 - [Tampa Law Firm Marketing: The 2026 Competitive Landscape](/blog/)
 
-- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [The Law Firm Google Business Profile Guide](/blog/law-firm-google-business-profile/)
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)

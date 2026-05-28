@@ -58,4 +58,4 @@ Quarterly with ROI review.
 
 Hughey LLC helps small law firms build predictable pipelines through website optimization, SEO, PPC, and intake improvements.
 
-[Book a free consult](https://hugheyllc.com/contact/)
+[Book a free consult](/contact/)

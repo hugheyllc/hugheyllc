@@ -24,7 +24,7 @@ But there are two things a campaign-focused agency typically doesn't build:
 
 - **The attribution infrastructure that connects campaigns to revenue** — the connected stack of [CallRail](/blog/), [GA4](/blog/), [Lawmatics](/blog/), and Google Ads that tells you which campaigns are actually signing cases
 
-Without the first, campaign results are capped by technical limitations they didn't create and can't fix. Without the second, there's no way to know whether the campaigns are actually working. See our complete breakdown: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
+Without the first, campaign results are capped by technical limitations they didn't create and can't fix. Without the second, there's no way to know whether the campaigns are actually working. See our complete breakdown: [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/).
 
 ## The Infrastructure Gap Most Law Firms Don't Know They Have
 
@@ -60,7 +60,7 @@ In Tampa Bay's legal marketing landscape, most available vendors are campaign ag
 
 ### Related Reading
 
-- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack: A Complete Guide](/blog/ai-tools-law-firm-marketing/)
 
 - [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](/blog/)
 

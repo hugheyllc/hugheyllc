@@ -32,7 +32,7 @@ A citation is any online mention of your firm's name, address, and phone number 
 
 Priority citation sources for law firms include [Avvo](https://www.avvo.com), [Martindale-Hubbell](https://www.martindale.com), [Lawyers.com](https://www.lawyers.com), [Justia](https://www.justia.com), and [FindLaw](https://www.findlaw.com) — plus general directories like Yelp, Apple Maps, and Bing Places. Your NAP must be letter-perfect and identical across all of them.
 
-Inconsistent citations are one of the most common reasons law firms underperform in local search. A thorough citation audit and cleanup is one of the first things we do in our [law firm SEO engagements](https://hugheyllc.com/services).
+Inconsistent citations are one of the most common reasons law firms underperform in local search. A thorough citation audit and cleanup is one of the first things we do in our [law firm SEO engagements](/services/).
 
 ## Location Pages: Scaling Your Local Footprint
 
@@ -69,19 +69,19 @@ Local SEO results don't show up in standard Google Analytics reports — you nee
 - **Keyword ranking positions for local terms** — tracked by city, not just globally
 - **Citation consistency score** — any new inconsistencies should be caught and corrected monthly
 
-Connecting these local metrics to your intake data — which calls from local search actually became retained clients — is the full-loop reporting that our [law firm marketing technology work](https://hugheyllc.com/blog/law-firm-marketing-data) is built around.
+Connecting these local metrics to your intake data — which calls from local search actually became retained clients — is the full-loop reporting that our [law firm marketing technology work](/blog/law-firm-marketing-data) is built around.
 
 <hr />
 <div>
 
 **Want to know how your firm ranks locally right now?** We'll run a full local SEO audit and show you exactly where the opportunities are.
 
-[Get Your Local SEO Audit →](https://hugheyllc.com/contact)
+[Get Your Local SEO Audit →](/contact/)
 </div>
 
 ### Related Reading
 
-- [The Law Firm Google Business Profile Guide: How to Dominate Local Search](https://hugheyllc.com/blog/law-firm-google-business-profile)
-- [How to Build a Law Firm Website That Ranks and Converts](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion)
-- [Our Law Firm SEO Services](https://hugheyllc.com/services)
+- [The Law Firm Google Business Profile Guide: How to Dominate Local Search](/blog/law-firm-google-business-profile)
+- [How to Build a Law Firm Website That Ranks and Converts](/blog/law-firm-website-seo-and-conversion)
+- [Our Law Firm SEO Services](/services/)
 </ul>

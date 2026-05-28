@@ -60,10 +60,10 @@ The retainer model, by design, creates a services relationship rather than an ou
 
 ### Related Reading
 
-- [Law Firm Marketing Agency vs. Technical Partner](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Law Firm Marketing Agency vs. Technical Partner](/blog/law-firm-marketing-agency-vs-technical-partner/)
 
 - [How to Track Your Law Firm's Marketing ROI](/blog/)
 
 - [The Marketing Data Your Law Firm Is Sitting On](/blog/)
 
-- [The Law Firm Marketing Technology Stack Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack Guide](/blog/ai-tools-law-firm-marketing/)

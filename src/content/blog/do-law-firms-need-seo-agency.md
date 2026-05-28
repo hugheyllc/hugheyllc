@@ -58,10 +58,10 @@ When a managing partner asks "do we need an SEO agency," what they're usually re
 
 ### Related Reading
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)
 
-- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Law Firm SEO Audit: 10 Things to Check First](/blog/law-firm-seo-audit/)
 
-- [Law Firm Marketing Agency vs. Technical Partner](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Law Firm Marketing Agency vs. Technical Partner](/blog/law-firm-marketing-agency-vs-technical-partner/)
 
-- [How to Choose a Law Firm Website Design Company Without Getting Burned](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [How to Choose a Law Firm Website Design Company Without Getting Burned](/blog/how-to-choose-law-firm-website-design-company/)

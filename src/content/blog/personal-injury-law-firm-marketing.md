@@ -38,7 +38,7 @@ Unlike Google Ads where visibility stops when spending stops, organic SEO builds
 
 ## Florida-Specific SEO Considerations
 
-Florida's no-fault insurance system, modified comparative negligence law (2023), and reduced statute of limitations (2 years as of 2023) create content opportunities specific to Florida PI practice. Content that accurately explains Florida's specific PI legal environment — authored by credentialed Florida PI attorneys — earns the [E-E-A-T signals](https://hugheyllc.com/blog/eeat-law-firm-seo/) that matter most. See our [Florida Bar advertising rules guide](/blog/) for the specific parameters on results presentation.
+Florida's no-fault insurance system, modified comparative negligence law (2023), and reduced statute of limitations (2 years as of 2023) create content opportunities specific to Florida PI practice. Content that accurately explains Florida's specific PI legal environment — authored by credentialed Florida PI attorneys — earns the [E-E-A-T signals](/blog/eeat-law-firm-seo/) that matter most. See our [Florida Bar advertising rules guide](/blog/) for the specific parameters on results presentation.
 
 ## Intake Automation: Where PI Firms Lose Cases They Already Won
 
@@ -60,6 +60,6 @@ This intake infrastructure — connected to a properly configured [attribution s
 
 - [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
 
-- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](https://hugheyllc.com/blog/law-firm-landing-page-optimization/)
+- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](/blog/law-firm-landing-page-optimization/)
 
-- [Florida Bar Advertising Rules: What's Permitted Online](https://hugheyllc.com/blog/florida-bar-law-firm-advertising-rules/)
+- [Florida Bar Advertising Rules: What's Permitted Online](/blog/florida-bar-law-firm-advertising-rules/)

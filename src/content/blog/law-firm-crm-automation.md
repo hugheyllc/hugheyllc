@@ -58,10 +58,10 @@ The automation workflow produces its maximum value when connected to the [full a
 
 ### Related Reading
 
-- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack: A Complete Guide](/blog/ai-tools-law-firm-marketing/)
 
 - [Lawmatics vs. Clio Grow: Which Intake CRM Is Right for Your Firm?](/blog/)
 
 - [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
 
-- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)

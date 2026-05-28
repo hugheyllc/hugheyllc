@@ -62,10 +62,10 @@ When CallRail is connected to [Lawmatics](/blog/) or [Clio Grow](/blog/), a lead
 
 ### Related Reading
 
-- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack: A Complete Guide](/blog/ai-tools-law-firm-marketing/)
 
 - [The Marketing Data Your Law Firm Is Sitting On](/blog/)
 
-- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)
 
 - [Lawmatics vs. Clio Grow: Which Intake CRM Is Right for Your Firm?](/blog/)

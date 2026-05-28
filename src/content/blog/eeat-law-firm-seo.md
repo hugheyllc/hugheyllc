@@ -57,15 +57,15 @@ E-E-A-T is a long-term investment in the credentials and authority signals that 
 
 **Want an E-E-A-T audit of your law firm's website?** We'll identify every gap between your current signals and what Google's quality framework looks for — and build a plan to close them.
 
-[Audit My E-E-A-T Signals →](https://hugheyllc.com/blog/eeat-law-firm-seo/)
+[Audit My E-E-A-T Signals →](/blog/eeat-law-firm-seo/)
 </div>
 
 ### Related Reading
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)
 
-- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Law Firm SEO Audit: 10 Things to Check First](/blog/law-firm-seo-audit/)
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
 
 - [Build a Law Firm Website That Ranks AND Converts](/blog/)

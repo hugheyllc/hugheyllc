@@ -38,7 +38,7 @@ Some vendors are strong in all three. Most have a primary strength in one or two
 
 **"How will the site be connected to our intake CRM?"** A website not connected to your intake workflow — [Lawmatics](/blog/), [Clio Grow](/blog/), or similar — is a brochure, not a client acquisition system. If the vendor doesn't discuss this integration proactively, it's not part of their standard build.
 
-**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/), [GA4](/blog/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
+**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/), [GA4](/blog/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/).
 
 **"Show me the practice area page SEO structure you use — specifically the schema markup, heading hierarchy, and internal linking strategy."** A vendor with a developed law firm SEO methodology will have a clear, specific answer.
 
@@ -66,10 +66,10 @@ At [Hughey, LLC](/blog/), we build on [Astro](/blog/) + [Decap CMS](/blog/) + [V
 
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
 
 - [Law Firm Website Ownership: Why Rented Sites Are a Hidden Risk](/blog/)
 
-- [Why Smart Law Firms Are Ditching WordPress](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
+- [Why Smart Law Firms Are Ditching WordPress](/blog/law-firms-ditching-wordpress/)
 
 - [What to Ask Before Hiring a Law Firm Marketing Company](/blog/)

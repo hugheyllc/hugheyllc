@@ -68,10 +68,10 @@ At [Hughey, LLC](/blog/), we welcome every one of these questions — because ou
 
 ### Related Reading
 
-- [Law Firm Marketing Agency vs. Technical Partner](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Law Firm Marketing Agency vs. Technical Partner](/blog/law-firm-marketing-agency-vs-technical-partner/)
 
 - [Do Law Firms Actually Need an SEO Agency?](/blog/)
 
 - [Law Firm Website Ownership: Why Rented Sites Are a Hidden Risk](/blog/)
 
-- [Why Law Firm Marketing Retainers Often Underdeliver](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
+- [Why Law Firm Marketing Retainers Often Underdeliver](/blog/law-firm-marketing-retainer-underdelivery/)

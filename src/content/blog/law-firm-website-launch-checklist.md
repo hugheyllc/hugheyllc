@@ -76,10 +76,10 @@ This checklist is the pre-launch process we run on every [law firm website build
 
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
 
-- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Law Firm SEO Audit: 10 Things to Check First](/blog/law-firm-seo-audit/)
 
-- [Why Smart Law Firms Are Ditching WordPress](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
+- [Why Smart Law Firms Are Ditching WordPress](/blog/law-firms-ditching-wordpress/)
 
 - [Law Firm Schema Markup: The Technical SEO Most Attorneys Are Missing](/blog/)

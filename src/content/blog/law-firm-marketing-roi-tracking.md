@@ -62,19 +62,19 @@ Once you have all four layers connected, you can answer questions like:
 - Our organic SEO generates 60% of our leads but 45% of our retained clients — organic leads convert at a lower rate but have higher average case values.
 - Our referral channel generates 15% of our leads but 35% of our retained clients — by far our highest-value source. We should invest more in referral relationships.
 
-This is the level of clarity that our [law firm marketing technology consulting](https://hugheyllc.com/services) is built to deliver. It's not complicated in principle — it just requires the right systems, connected correctly.
+This is the level of clarity that our [law firm marketing technology consulting](/services/) is built to deliver. It's not complicated in principle — it just requires the right systems, connected correctly.
 
 <hr />
 <div>
 
 **Ready to know exactly what your marketing is returning?** We build the tracking infrastructure that connects your spend to your revenue — not just your traffic.
 
-[Build Your ROI Tracking Stack →](https://hugheyllc.com/contact)
+[Build Your ROI Tracking Stack →](/contact/)
 </div>
 
 ### Related Reading
 
-- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](https://hugheyllc.com/blog/law-firm-marketing-data)
-- [What Your Law Firm's Website Analytics Are Actually Telling You](https://hugheyllc.com/blog/law-firm-website-analytics)
-- [Our Law Firm Marketing Technology Services](https://hugheyllc.com/services)
+- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](/blog/law-firm-marketing-data)
+- [What Your Law Firm's Website Analytics Are Actually Telling You](/blog/law-firm-website-analytics)
+- [Our Law Firm Marketing Technology Services](/services/)
 </ul>

@@ -47,19 +47,19 @@ Your Google Business Profile and your website should reinforce each other. The U
 
 Schema markup on your website — specifically [LegalService](https://schema.org/LegalService) and [LocalBusiness](https://schema.org/LocalBusiness) schema — reinforces the local signals in your GBP and helps Google connect your website authority to your local listing.
 
-Our [law firm SEO and web development services](https://hugheyllc.com/services) include full GBP optimization as part of every engagement — because a well-optimized profile pointing to a poorly built website is only half the equation.
+Our [law firm SEO and web development services](/services/) include full GBP optimization as part of every engagement — because a well-optimized profile pointing to a poorly built website is only half the equation.
 
 <hr />
 <div>
 
 **Want to know where your Google Business Profile stands?** We include a full GBP audit in our complimentary law firm marketing review.
 
-[Request Your Free Marketing Review →](https://hugheyllc.com/contact)
+[Request Your Free Marketing Review →](/contact/)
 </div>
 
 ### Related Reading
 
-- [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion)
-- [Our Law Firm SEO Services](https://hugheyllc.com/services)
+- [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](/blog/local-seo-law-firms)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors](/blog/law-firm-website-seo-and-conversion)
+- [Our Law Firm SEO Services](/services/)
 </ul>

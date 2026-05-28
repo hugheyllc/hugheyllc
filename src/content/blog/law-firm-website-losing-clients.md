@@ -68,7 +68,7 @@ Conversion architecture — a next step for every visitor segment — is the fou
 
 ### Related Reading
 
-- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
+- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](/blog/law-firms-ditching-wordpress/)
 
 - [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](/blog/)
 

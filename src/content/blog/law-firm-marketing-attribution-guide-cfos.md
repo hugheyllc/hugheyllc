@@ -62,10 +62,10 @@ For managing partners currently approving marketing budgets without this data: t
 
 ### Related Reading
 
-- [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/)
 
-- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)
 
 - [The Marketing Data Your Law Firm Is Sitting On](/blog/)
 
-- [Why Law Firm Marketing Retainers Often Underdeliver](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
+- [Why Law Firm Marketing Retainers Often Underdeliver](/blog/law-firm-marketing-retainer-underdelivery/)

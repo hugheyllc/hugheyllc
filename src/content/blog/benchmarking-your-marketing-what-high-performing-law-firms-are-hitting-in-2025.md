@@ -142,13 +142,13 @@ Hughey LLC helps law firms build custom marketing audits and performance dashboa
 
 Schedule your free audit:
 
-https://hugheyllc.com/contact/
+/contact/
 
 ## Related Reading
 
-Call Tracking, CRM &amp; Web Analytics: [https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/](/blog/)
+Call Tracking, CRM &amp; Web Analytics: [/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/](/blog/)
 
-From PPC to Profit: [https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/](/blog/)
+From PPC to Profit: [/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/](/blog/)
 		
 					
 ## FAQs

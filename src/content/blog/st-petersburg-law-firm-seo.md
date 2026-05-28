@@ -48,7 +48,7 @@ Clearwater — the largest city in Pinellas County — is frequently overlooked 
 
 - [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
 
-- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [The Law Firm Google Business Profile Guide](/blog/law-firm-google-business-profile/)
 
 - [Tampa Law Firm Marketing: The 2026 Competitive Landscape](/blog/)
 

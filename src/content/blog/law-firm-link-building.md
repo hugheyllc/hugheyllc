@@ -52,7 +52,7 @@ Directory and membership-based links that every law firm should have as a baseli
 
 **Community organization sponsorships.** Sponsoring a local bar association event, a charitable organization, or a community program typically includes a link on the organization's website — plus community visibility.
 
-**Guest contributions to legal publications.** Contributing an article to a bar association publication, a legal blog, or a local business publication creates a link and establishes the contributing attorney's Authoritativeness — directly supporting both link building and [E-E-A-T](https://hugheyllc.com/blog/eeat-law-firm-seo/) simultaneously.
+**Guest contributions to legal publications.** Contributing an article to a bar association publication, a legal blog, or a local business publication creates a link and establishes the contributing attorney's Authoritativeness — directly supporting both link building and [E-E-A-T](/blog/eeat-law-firm-seo/) simultaneously.
 
 ## Monitoring and Protecting Your Backlink Profile
 
@@ -70,10 +70,10 @@ Link building is a long-term initiative — most strategies take 6–12 months t
 
 ### Related Reading
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)
 
-- [What Is E-E-A-T and Why It Matters for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
+- [What Is E-E-A-T and Why It Matters for Law Firms](/blog/eeat-law-firm-seo/)
 
-- [The Law Firm SEO Audit: 10 Checks Before You Spend More](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Law Firm SEO Audit: 10 Checks Before You Spend More](/blog/law-firm-seo-audit/)
 
 - [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)

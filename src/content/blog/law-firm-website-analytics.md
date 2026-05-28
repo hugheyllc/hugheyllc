@@ -54,7 +54,7 @@ None of the above analysis matters if you haven't properly configured conversion
 
 Setting these up requires either direct code implementation or configuration via [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/). Once in place, you can see not just how many conversions your site generates, but which pages, which traffic sources, and which content types are driving them.
 
-This conversion data is the bridge between your website analytics and your intake CRM — the connection that makes true [marketing ROI tracking](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking) possible.
+This conversion data is the bridge between your website analytics and your intake CRM — the connection that makes true [marketing ROI tracking](/blog/law-firm-marketing-roi-tracking) possible.
 
 ## Building a Monthly Analytics Review Habit
 
@@ -67,19 +67,19 @@ The goal isn't to live in your analytics dashboard — it's to build a monthly r
 - Top 5 landing pages by conversions
 - Practice area page engagement rates
 
-Trends in these six numbers will tell you whether your digital marketing is working — and where to focus next. Our [law firm marketing technology services](https://hugheyllc.com/services) include monthly reporting built around exactly these metrics, connected to your intake and revenue data.
+Trends in these six numbers will tell you whether your digital marketing is working — and where to focus next. Our [law firm marketing technology services](/services/) include monthly reporting built around exactly these metrics, connected to your intake and revenue data.
 
 <hr />
 <div>
 
 **Want analytics that actually drive decisions?** We set up and interpret GA4 for law firms — connecting website data to intake outcomes so you always know what's working.
 
-[Set Up Meaningful Analytics →](https://hugheyllc.com/contact)
+[Set Up Meaningful Analytics →](/contact/)
 </div>
 
 ### Related Reading
 
-- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking)
-- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](https://hugheyllc.com/blog/law-firm-marketing-data)
-- [Our Law Firm Analytics & Marketing Technology Services](https://hugheyllc.com/services)
+- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking)
+- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](/blog/law-firm-marketing-data)
+- [Our Law Firm Analytics & Marketing Technology Services](/services/)
 </ul>

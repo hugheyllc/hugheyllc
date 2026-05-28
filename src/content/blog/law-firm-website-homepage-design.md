@@ -42,7 +42,7 @@ A dedicated practice area section with links to each practice area page serves t
 
 ## Attorney Bios: The Section That Builds Personal Trust
 
-Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/) with credentials detailed at depth supporting [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/).
+Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/) with credentials detailed at depth supporting [E-E-A-T evaluation](/blog/eeat-law-firm-seo/).
 
 ## The Secondary CTA: Capturing Visitors Who Aren't Ready Yet
 
@@ -72,10 +72,10 @@ All of these are standard in every homepage we build at [Hughey, LLC](/blog/). T
 
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
 
 - [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
 
-- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](https://hugheyllc.com/blog/law-firm-landing-page-optimization/)
+- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](/blog/law-firm-landing-page-optimization/)
 
 - [Build a Law Firm Website That Ranks AND Converts](/blog/)

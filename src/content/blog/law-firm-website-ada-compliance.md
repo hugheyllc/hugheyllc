@@ -62,8 +62,8 @@ Automated tools catch roughly 30–40% of accessibility issues. A full WCAG 2.1 
 
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
 
-- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Law Firm SEO Audit: 10 Things to Check First](/blog/law-firm-seo-audit/)
 
-- [Why Smart Law Firms Are Ditching WordPress](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
+- [Why Smart Law Firms Are Ditching WordPress](/blog/law-firms-ditching-wordpress/)

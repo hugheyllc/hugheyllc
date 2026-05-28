@@ -22,7 +22,7 @@ Family law clients are among the most emotionally vulnerable of any legal prospe
 
 ## Content That Converts Family Law Prospects
 
-Family law content faces a dual challenge: it must be accurate (YMYL content under Google's quality framework) and empathetic (the reader is in crisis). High-performing content topics for the Tampa market: Florida's divorce process step-by-step, how Florida courts determine timesharing in custody disputes, what to do if you've been served divorce papers, Florida alimony laws and changes, emergency custody orders in Florida, contested vs. uncontested divorce in Florida. The [E-E-A-T requirements](https://hugheyllc.com/blog/eeat-law-firm-seo/) apply with particular force — attorney authorship and credentials are critical.
+Family law content faces a dual challenge: it must be accurate (YMYL content under Google's quality framework) and empathetic (the reader is in crisis). High-performing content topics for the Tampa market: Florida's divorce process step-by-step, how Florida courts determine timesharing in custody disputes, what to do if you've been served divorce papers, Florida alimony laws and changes, emergency custody orders in Florida, contested vs. uncontested divorce in Florida. The [E-E-A-T requirements](/blog/eeat-law-firm-seo/) apply with particular force — attorney authorship and credentials are critical.
 
 ## Website Design Considerations for Family Law
 
@@ -50,10 +50,10 @@ In family law, the intake call is both a sales conversation and a human support 
 
 ### Related Reading
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
 
-- [What Every Law Firm Homepage Needs to Convert Visitors](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
+- [What Every Law Firm Homepage Needs to Convert Visitors](/blog/law-firm-website-homepage-design/)
 
-- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](https://hugheyllc.com/blog/law-firm-landing-page-optimization/)
+- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](/blog/law-firm-landing-page-optimization/)
 
-- [Florida Bar Advertising Rules: What's Permitted Online](https://hugheyllc.com/blog/florida-bar-law-firm-advertising-rules/)
+- [Florida Bar Advertising Rules: What's Permitted Online](/blog/florida-bar-law-firm-advertising-rules/)

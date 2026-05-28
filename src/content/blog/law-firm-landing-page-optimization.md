@@ -32,7 +32,7 @@ A high-converting landing page has one primary CTA visible without scrolling. Fo
 
 Legal is a high-stakes, high-trust purchase. Prospective clients need reassurance before they'll pick up the phone. The most effective social proof elements for law firm landing pages, in order of impact:
 
-- Star rating + number of reviews with a direct link to your [Google Business Profile](https://hugheyllc.com/blog/law-firm-google-business-profile)
+- Star rating + number of reviews with a direct link to your [Google Business Profile](/blog/law-firm-google-business-profile)
 - 2–3 specific client testimonials (not generic praise — specific outcomes: "They recovered $180,000 for my case after another firm said I had no claim")
 - Bar association memberships and relevant certifications
 - Press mentions or case results (where ethics rules permit)
@@ -61,19 +61,19 @@ The best landing page is the one that performs best for your specific audience �
 
 Most law firms skip this step entirely, leaving conversion improvements on the table indefinitely. A 20% improvement in landing page conversion rate on a $3,000/month Google Ads budget is worth more than any additional ad spend.
 
-Building, optimizing, and connecting landing pages to intake workflows is a core part of our [law firm web development services](https://hugheyllc.com/services). If your current landing pages aren't performing, the fix is usually faster than you'd expect.
+Building, optimizing, and connecting landing pages to intake workflows is a core part of our [law firm web development services](/services/). If your current landing pages aren't performing, the fix is usually faster than you'd expect.
 
 <hr />
 <div>
 
 **Not sure why your landing pages aren't converting?** We'll audit your current pages and tell you exactly what to fix.
 
-[Get a Free Landing Page Audit →](https://hugheyllc.com/contact)
+[Get a Free Landing Page Audit →](/contact/)
 </div>
 
 ### Related Reading
 
-- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](https://hugheyllc.com/blog/law-firm-website-losing-clients)
-- [Google Ads for Law Firms: Why Most Campaigns Fail and What Winning Ones Do Differently](https://hugheyllc.com/blog/google-ads-law-firms)
-- [Our Law Firm Web Development Services](https://hugheyllc.com/services)
+- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/law-firm-website-losing-clients)
+- [Google Ads for Law Firms: Why Most Campaigns Fail and What Winning Ones Do Differently](/blog/google-ads-law-firms)
+- [Our Law Firm Web Development Services](/services/)
 </ul>

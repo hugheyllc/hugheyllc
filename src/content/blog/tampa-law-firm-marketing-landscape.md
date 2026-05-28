@@ -54,8 +54,8 @@ The Tampa law firms pulling ahead in digital marketing share a few common charac
 
 - [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
 
-- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [The Law Firm Google Business Profile Guide](/blog/law-firm-google-business-profile/)
 
 - [St. Petersburg Law Firm SEO: How to Rank in Pinellas County](/blog/)
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)

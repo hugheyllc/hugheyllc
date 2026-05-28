@@ -22,7 +22,7 @@ High-performing law firm Google Ads campaigns use **phrase match** and **exact m
 
 ## Mistake 2: Sending Ad Traffic to the Homepage
 
-We covered this in [our landing page guide](https://hugheyllc.com/blog/law-firm-landing-page-optimization), but it bears repeating: sending paid traffic to a homepage is one of the most common and costly mistakes in law firm Google Ads. The homepage has too many competing elements and no single, focused message that matches the intent of a search ad.
+We covered this in [our landing page guide](/blog/law-firm-landing-page-optimization), but it bears repeating: sending paid traffic to a homepage is one of the most common and costly mistakes in law firm Google Ads. The homepage has too many competing elements and no single, focused message that matches the intent of a search ad.
 
 Every ad group should have a dedicated landing page that matches the specific keyword theme. Ads for "Tampa DUI attorney" go to a DUI-specific page. Ads for "business contract dispute attorney" go to a business litigation page. The closer the match between ad copy, keyword, and landing page, the higher your [Quality Score](https://support.google.com/google-ads/answer/6167118) — which directly reduces your cost per click.
 
@@ -46,25 +46,25 @@ The highest-performing law firm Google Ads campaigns share a few common characte
 - **3–5 ad variants per group** — testing different headlines and descriptions to find what resonates with prospective clients
 - **Ad extensions fully populated** — call extensions, location extensions, sitelink extensions, and lead form extensions all increase click-through rates and Quality Scores
 - **Dayparting and geographic targeting** — running ads only during hours when your intake team is available, and only in the geographic areas you actually serve
-- **Monthly performance reviews against intake data** — not just click and impression metrics, but which campaigns are generating retained clients. This requires the [full attribution stack](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking) connecting Ads to your CRM.
+- **Monthly performance reviews against intake data** — not just click and impression metrics, but which campaigns are generating retained clients. This requires the [full attribution stack](/blog/law-firm-marketing-roi-tracking) connecting Ads to your CRM.
 
 ## How Much Should a Law Firm Spend on Google Ads?
 
 There's no universal answer, but the right question isn't "how much should we spend" — it's "what's our cost per retained client, and is it below the value of a case?" If your average case value is $8,000 and your cost per retained client from Google Ads is $600, you should spend as much as your intake capacity can handle.
 
-Getting to that calculation requires the full tracking stack: [CallRail](https://www.callrail.com) → [GA4](https://analytics.google.com) → Google Ads → [Lawmatics](https://www.lawmatics.com) or Clio, with revenue data connected at the end. That's the infrastructure our [law firm marketing technology consulting](https://hugheyllc.com/services) is designed to build.
+Getting to that calculation requires the full tracking stack: [CallRail](https://www.callrail.com) → [GA4](https://analytics.google.com) → Google Ads → [Lawmatics](https://www.lawmatics.com) or Clio, with revenue data connected at the end. That's the infrastructure our [law firm marketing technology consulting](/services/) is designed to build.
 
 <hr />
 <div>
 
 **Spending on Google Ads but not sure what you're getting for it?** We audit law firm ad accounts and connect campaign performance to actual retained client data.
 
-[Get a Free Ads Audit →](https://hugheyllc.com/contact)
+[Get a Free Ads Audit →](/contact/)
 </div>
 
 ### Related Reading
 
-- [Why Law Firm Landing Pages Fail — And the 7 Elements That Make Them Convert](https://hugheyllc.com/blog/law-firm-landing-page-optimization)
-- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking)
-- [Our Law Firm Paid Advertising Services](https://hugheyllc.com/services)
+- [Why Law Firm Landing Pages Fail — And the 7 Elements That Make Them Convert](/blog/law-firm-landing-page-optimization)
+- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking)
+- [Our Law Firm Paid Advertising Services](/services/)
 </ul>

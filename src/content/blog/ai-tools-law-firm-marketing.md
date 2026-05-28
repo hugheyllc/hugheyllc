@@ -20,7 +20,7 @@ AI writing tools — [Claude](/blog/), [ChatGPT](/blog/), and similar large lang
 
 **What AI content tools do well:** generating initial outlines for blog posts on established legal topics, drafting FAQ sections for attorney review, expanding brief attorney notes into full-length blog posts, writing meta descriptions and title tag variations, generating multiple CTA variations for A/B testing.
 
-**Critical limitations:** AI-generated legal content can be factually wrong — especially on jurisdiction-specific details, recent statutory changes, and procedural nuances. Every piece must be reviewed by a licensed attorney. Purely AI-generated content without attorney authorship undermines [E-E-A-T signals](https://hugheyllc.com/blog/eeat-law-firm-seo/). Florida Bar advertising rules apply to AI-generated content just as to human-written content.
+**Critical limitations:** AI-generated legal content can be factually wrong — especially on jurisdiction-specific details, recent statutory changes, and procedural nuances. Every piece must be reviewed by a licensed attorney. Purely AI-generated content without attorney authorship undermines [E-E-A-T signals](/blog/eeat-law-firm-seo/). Florida Bar advertising rules apply to AI-generated content just as to human-written content.
 
 The right model: AI drafts, attorney edits and approves, attorney byline on publication.
 
@@ -54,10 +54,10 @@ AI is a multiplier for law firms with foundational infrastructure — proper tra
 
 ### Related Reading
 
-- [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/)
 
-- [AI Search and Law Firms: How to Stay Visible as Search Changes](https://hugheyllc.com/blog/ai-search-law-firms/)
+- [AI Search and Law Firms: How to Stay Visible as Search Changes](/blog/ai-search-law-firms/)
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
 
-- [What Is E-E-A-T and Why It Matters for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
+- [What Is E-E-A-T and Why It Matters for Law Firms](/blog/eeat-law-firm-seo/)

@@ -46,7 +46,7 @@ This architecture signals to Google that your site is an authoritative resource 
 
 Every blog post should have at least one conversion element — a CTA that moves the reader toward becoming a lead. The most effective options for law firm content:
 
-- An inline CTA after the most compelling section: "If this situation sounds familiar, our [practice area] attorneys offer free consultations — [schedule yours here](https://hugheyllc.com/contact)."
+- An inline CTA after the most compelling section: "If this situation sounds familiar, our [practice area] attorneys offer free consultations — [schedule yours here](/contact/)."
 - A related resource download (a free guide, a checklist) that captures email in exchange for value
 - A sticky sidebar with a click-to-call button on desktop
 - A closing CTA block linking to the most relevant practice area page
@@ -57,19 +57,19 @@ Posts that rank on page one but have no conversion path are leaving leads on the
 
 The north star metric for law firm content isn't pageviews or time on page — it's assisted conversions. Which posts are part of the journey for visitors who eventually became leads? Which leads became retained clients?
 
-This requires connecting your content analytics in [GA4](https://analytics.google.com) to your intake data in [Lawmatics](https://www.lawmatics.com) or [Clio](https://www.clio.com) — the data integration work we covered in [The Marketing Data Your Law Firm Is Sitting On](https://hugheyllc.com/blog/law-firm-marketing-data). Without that connection, you're optimizing content based on traffic metrics that may have no relationship to your actual business outcomes.
+This requires connecting your content analytics in [GA4](https://analytics.google.com) to your intake data in [Lawmatics](https://www.lawmatics.com) or [Clio](https://www.clio.com) — the data integration work we covered in [The Marketing Data Your Law Firm Is Sitting On](/blog/law-firm-marketing-data). Without that connection, you're optimizing content based on traffic metrics that may have no relationship to your actual business outcomes.
 
 <hr />
 <div>
 
 **Want a content strategy built around cases, not clicks?** We build and execute content programs for law firms that are measured against intake data, not pageviews.
 
-[Let's Talk Content Strategy →](https://hugheyllc.com/contact)
+[Let's Talk Content Strategy →](/contact/)
 </div>
 
 ### Related Reading
 
-- [How to Build a Law Firm Website That Ranks and Converts](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion)
-- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](https://hugheyllc.com/blog/law-firm-marketing-data)
-- [Our Law Firm Content Marketing Services](https://hugheyllc.com/services)
+- [How to Build a Law Firm Website That Ranks and Converts](/blog/law-firm-website-seo-and-conversion)
+- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](/blog/law-firm-marketing-data)
+- [Our Law Firm Content Marketing Services](/services/)
 </ul>

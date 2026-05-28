@@ -24,7 +24,7 @@ For transactional queries ("Tampa personal injury attorney"), AI Overviews are l
 
 ## How to Be the Source AI Systems Cite
 
-The same factors that constitute strong [E-E-A-T](https://hugheyllc.com/blog/eeat-law-firm-seo/) for traditional Google search make your content more likely to be cited in AI-generated answers:
+The same factors that constitute strong [E-E-A-T](/blog/eeat-law-firm-seo/) for traditional Google search make your content more likely to be cited in AI-generated answers:
 
 **Original expertise in the content.** AI systems favor content demonstrating genuine first-hand knowledge — blog posts authored by named attorneys with specific credentials, discussing specific Florida cases and local court procedures. This is the content AI systems find and cite as authoritative.
 
@@ -54,10 +54,10 @@ Technical performance (fast, crawlable sites), local signals (GBP optimization, 
 
 ### Related Reading
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)
 
 - [Law Firm Schema Markup: The Technical SEO Most Attorneys Are Missing](/blog/)
 
-- [What Is E-E-A-T and Why It Matters for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
+- [What Is E-E-A-T and Why It Matters for Law Firms](/blog/eeat-law-firm-seo/)
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)

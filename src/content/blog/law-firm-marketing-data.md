@@ -90,6 +90,6 @@ This is exactly what we're building for our law firm clients through our [market
 
 - [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
 
-- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
+- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](/blog/law-firms-ditching-wordpress/)
 
 - [Our Law Firm Marketing Technology Services](/blog/)

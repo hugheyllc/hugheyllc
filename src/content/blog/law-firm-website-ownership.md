@@ -68,10 +68,10 @@ This is the model every Hughey, LLC project is built on. When an engagement ends
 
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
 
-- [Why Smart Law Firms Are Ditching WordPress](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
+- [Why Smart Law Firms Are Ditching WordPress](/blog/law-firms-ditching-wordpress/)
 
-- [Law Firm Marketing Agency vs. Technical Partner](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Law Firm Marketing Agency vs. Technical Partner](/blog/law-firm-marketing-agency-vs-technical-partner/)
 
-- [Why Law Firm Marketing Retainers Often Underdeliver](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
+- [Why Law Firm Marketing Retainers Often Underdeliver](/blog/law-firm-marketing-retainer-underdelivery/)

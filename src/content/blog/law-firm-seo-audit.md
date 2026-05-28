@@ -76,4 +76,4 @@ At [Hughey, LLC](/blog/), a comprehensive technical and content audit is the sta
 
 - [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](/blog/)
 
-- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](https://hugheyllc.com/blog/law-firms-ditching-wordpress/)
+- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](/blog/law-firms-ditching-wordpress/)

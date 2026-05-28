@@ -74,10 +74,10 @@ Build a custom exploration (GA4 → Explore → Free Form) for monthly review: o
 
 ### Related Reading
 
-- [The Law Firm Marketing Technology Stack: A Complete Guide](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack: A Complete Guide](/blog/ai-tools-law-firm-marketing/)
 
-- [CallRail for Law Firms: The Complete Setup Guide](https://hugheyllc.com/blog/callrail-law-firm-setup-guide/)
+- [CallRail for Law Firms: The Complete Setup Guide](/blog/callrail-law-firm-setup-guide/)
 
-- [What Your Law Firm's Website Analytics Are Actually Telling You](https://hugheyllc.com/blog/law-firm-website-analytics/)
+- [What Your Law Firm's Website Analytics Are Actually Telling You](/blog/law-firm-website-analytics/)
 
-- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)

@@ -90,9 +90,9 @@ This map becomes your editorial calendar — ensuring every piece of content tar
 
 ### Related Reading
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
 
 - [How to Build a Law Firm Website That Ranks AND Converts](/blog/)
 

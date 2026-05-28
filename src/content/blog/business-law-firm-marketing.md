@@ -54,10 +54,10 @@ The attribution challenge in business law is the long time-to-retain. A client w
 
 ### Related Reading
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
 
 - [Keyword Research for Law Firms: Find the Queries That Sign Cases](/blog/)
 
-- [Track Law Firm Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
+- [Track Law Firm Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)
 
-- [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/)

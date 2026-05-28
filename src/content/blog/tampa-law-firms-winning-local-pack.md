@@ -52,7 +52,7 @@ Research consistently shows that the Local Pack captures a disproportionate shar
 
 ### Related Reading
 
-- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [The Law Firm Google Business Profile Guide](/blog/law-firm-google-business-profile/)
 
 - [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
 

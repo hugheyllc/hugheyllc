@@ -32,7 +32,7 @@ Your homepage should implement [LocalBusiness schema](/blog/) (Attorney type) to
 
 ### Person Schema for Attorney Bio Pages
 
-[Person schema](/blog/) on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/). Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
+[Person schema](/blog/) on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's [E-E-A-T evaluation](/blog/eeat-law-firm-seo/). Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
 
 ### Article Schema for Blog Content
 
@@ -60,10 +60,10 @@ Schema markup is one of the technical implementations we include in every law fi
 
 ### Related Reading
 
-- [The Complete Law Firm SEO Guide (2026)](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)
 
-- [The Law Firm SEO Audit: 10 Things to Check First](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [The Law Firm SEO Audit: 10 Things to Check First](/blog/law-firm-seo-audit/)
 
-- [What Is E-E-A-T and Why It Matters for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
+- [What Is E-E-A-T and Why It Matters for Law Firms](/blog/eeat-law-firm-seo/)
 
-- [The Law Firm Google Business Profile Guide](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [The Law Firm Google Business Profile Guide](/blog/law-firm-google-business-profile/)

@@ -14,7 +14,7 @@ There's a tension at the heart of most law firm website projects: the team focus
 
 The firms that consistently win online have figured out that **SEO and conversion aren't competing goals — they're the same goal approached from two directions.** Google wants to send users to pages that satisfy their search intent completely. Your prospective client wants to land on a page that answers their question and makes the next step obvious. Build for that, and you win on both fronts.
 
-Here's the framework we use at [Hughey, LLC](https://hugheyllc.com/services) when building law firm websites from the ground up.
+Here's the framework we use at [Hughey, LLC](/services/) when building law firm websites from the ground up.
 
 ## Start With Search Intent, Not Keywords
 
@@ -59,19 +59,19 @@ Getting a visitor to your site is half the job. Converting them is the other hal
 
 High-converting law firm sites use tiered CTAs matched to visitor intent: a prominent "Schedule a Consultation" for visitors who are ready, a "Download Our Free Guide" for visitors who are researching, and a persistent phone number in the header for visitors who want immediate contact. Each CTA feeds a different part of your intake workflow — ideally connected directly to [Lawmatics](https://www.lawmatics.com) or [Clio Grow](https://www.clio.com/grow/) so no lead falls through the cracks.
 
-This end-to-end architecture — from search ranking through to intake automation — is exactly what our [law firm web development and marketing technology work](https://hugheyllc.com/services) is designed to deliver.
+This end-to-end architecture — from search ranking through to intake automation — is exactly what our [law firm web development and marketing technology work](/services/) is designed to deliver.
 
 <hr />
 <div>
 
 **Want a site built to rank and convert from day one?** Let's talk about what a purpose-built law firm website could do for your practice.
 
-[Start the Conversation →](https://hugheyllc.com/contact)
+[Start the Conversation →](/contact/)
 </div>
 
 ### Related Reading
 
-- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](https://hugheyllc.com/blog/law-firm-website-losing-clients)
-- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](https://hugheyllc.com/blog/law-firms-ditching-wordpress)
-- [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms)
+- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/law-firm-website-losing-clients)
+- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](/blog/law-firms-ditching-wordpress)
+- [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](/blog/local-seo-law-firms)
 </ul>
