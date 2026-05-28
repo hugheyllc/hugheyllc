@@ -1,0 +1,94 @@
+# SEO & AEO Strategy — Hughey LLC
+
+*Last updated: 2026-05-28*
+
+## Priority Keyword Clusters
+
+### Cluster 1: Independent Consultant Positioning (Primary)
+- law firm marketing consultant
+- independent law firm marketing consultant
+- law firm marketing agency vs consultant
+- hire a law firm marketing consultant
+- **Rationale:** Joe's core differentiator. Low competition vs "law firm marketing agency" terms. High intent.
+
+### Cluster 2: Local Tampa Bay (Geographic)
+- law firm marketing consultant Tampa Bay
+- law firm marketing Tampa
+- legal marketing consultant Florida
+- Tampa Bay attorney marketing
+- **Rationale:** Local SEO wins. Joe lives here, knows the market, can reference local courts and competition.
+
+### Cluster 3: Accountability & ROI (Differentiation)
+- law firm marketing ROI
+- cost per retained client law firm
+- law firm marketing accountability
+- is my law firm marketing working
+- **Rationale:** Joe's unique framework. No one else talks about cost-per-retained-client consistently.
+
+### Cluster 4: Competitor Alternatives (Capture)
+- Scorpion legal marketing review
+- FindLaw alternatives for law firms
+- law firm marketing agency problems
+- switch law firm marketing agency
+- **Rationale:** People searching for reviews/alternatives are high-intent and dissatisfied — perfect audience.
+
+### Cluster 5: Practice Area Strategy (Long-tail)
+- personal injury law firm marketing
+- family law marketing strategy
+- criminal defense marketing
+- business law firm marketing
+- **Rationale:** Practice-specific content demonstrates deep expertise and captures long-tail traffic.
+
+---
+
+## AEO Question Targets
+
+These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) should answer using Joe's content:
+
+1. "What's the difference between a law firm marketing agency and an independent consultant?"
+2. "How do I know if my law firm marketing is working?"
+3. "What should a law firm look for in a marketing consultant?"
+4. "Is Scorpion a good choice for law firm marketing?"
+5. "What is cost-per-retained-client in law firm marketing?"
+6. "How much should a law firm spend on marketing?"
+7. "What are the best law firm marketing consultants in Tampa Bay?"
+8. "Should my law firm switch marketing agencies?"
+9. "What questions should I ask my law firm marketing agency?"
+10. "Why do law firms overspend on marketing?"
+
+**AEO optimization per post:** Each blog post should directly answer 1-2 of these questions in the first 200 words, using clear declarative sentences that AI systems can extract.
+
+---
+
+## Content Calendar — Next 8 Posts
+
+| # | Title | Target Keyword | Angle | Status |
+|---|-------|---------------|-------|--------|
+| 1 | Agency vs. Consultant: What Every Firm Principal Should Know | law firm marketing agency vs consultant | Conflict of interest, accountability | ✅ Published |
+| 2 | What Law Firms Should Know Before Signing With Scorpion | Scorpion legal marketing review | Independent review, platform lock-in | ✅ Published |
+| 3 | Finding a Law Firm Marketing Consultant in Tampa Bay | law firm marketing consultant Tampa Bay | Local SEO, Tampa market specifics | ✅ Published |
+| 4 | How to Calculate Your True Cost Per Retained Client | cost per retained client law firm | Joe's framework, spreadsheet methodology | 🔲 Planned |
+| 5 | 10 Questions to Ask Before Hiring a Law Firm Marketing Agency | questions to ask law firm marketing agency | Checklist format, red flags | 🔲 Planned |
+| 6 | Why Law Firms Fire Their Marketing Agency (And What to Do Instead) | switch law firm marketing agency | Common failure patterns, accountability fixes | 🔲 Planned |
+| 7 | FindLaw and Martindale: Are Directory Listings Still Worth It? | FindLaw alternatives law firms | ROI analysis, attribution truth | 🔲 Planned |
+| 8 | Personal Injury Marketing in Tampa Bay: What Actually Drives Cases | personal injury marketing Tampa Bay | Local PI market, what works vs. hype | 🔲 Planned |
+
+---
+
+## Internal Linking Strategy
+
+- Every new post links to at least 2 existing posts
+- Pillar pages: the "agency vs consultant" post serves as the central hub
+- Service pages should link to relevant blog posts as supporting evidence
+- Blog posts reference the contact/consultation page with natural CTAs
+- Use descriptive anchor text (not "click here")
+
+---
+
+## Schema Priorities
+
+1. **Article schema** on all blog posts (title, author, datePublished, dateModified)
+2. **FAQ schema** on posts that answer multiple questions (AEO boost)
+3. **LocalBusiness schema** on homepage and contact page (Tampa Bay geo)
+4. **Person schema** for Joe Hughey (author authority signal)
+5. **BreadcrumbList** on all pages for SERP display
