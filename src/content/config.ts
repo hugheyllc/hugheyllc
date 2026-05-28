@@ -5,7 +5,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     slug: z.string().optional(),
-    date: z.date().or(z.string()),
+    date: z.coerce.date(),
     author: z.string().default('Joe Hughey'),
     excerpt: z.string().optional(),
     tags: z.array(z.string()).default([]),
@@ -22,7 +22,7 @@ const insights = defineCollection({
     title: z.string(),
     slug: z.string().optional(),
     excerpt: z.string().optional(),
-    date: z.date().or(z.string()).optional(),
+    date: z.coerce.date().optional(),
   }),
 });
 

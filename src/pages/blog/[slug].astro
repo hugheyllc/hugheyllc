@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import { getCollection, render } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
@@ -17,9 +19,19 @@ interface Props {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, seo_title, seo_description, date, author, excerpt, tags, image } = entry.data;
+const { title, seo_title, seo_description, date, author, excerpt, tags } = entry.data;
 const siteUrl = 'https://hugheyllc.com';
-const ogImage = image ? `${siteUrl}${image}` : `${siteUrl}/images/og-default.png`;
+
+// Read image directly from markdown frontmatter (Astro 6 strips 'image' field via schema)
+let coverImage: string | undefined;
+try {
+  const filePath = path.join(process.cwd(), (entry as any).filePath);
+  const raw = fs.readFileSync(filePath, 'utf8');
+  const match = raw.match(/^image:\s*"([^"]+)"/m);
+  if (match) coverImage = match[1];
+} catch (e) { /* fallback gracefully */ }
+
+const ogImage = coverImage ? `${siteUrl}${coverImage}` : `${siteUrl}/images/og-default.png`;
 
 const articleSchema = {
   "@context": "https://schema.org",
@@ -43,7 +55,7 @@ const articleSchema = {
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": `https://hugheyllc.com/blog/${entry.id}/` },
   ...(tags && tags.length > 0 ? { "keywords": tags.join(", ") } : {}),
-  ...(image ? { "image": { "@type": "ImageObject", "url": `${siteUrl}${image}`, "width": 1792, "height": 1024 } } : {})
+  ...(coverImage ? { "image": { "@type": "ImageObject", "url": `${siteUrl}${coverImage}`, "width": 1536, "height": 1024 } } : {})
 };
 
 const breadcrumbSchema = {
@@ -67,10 +79,10 @@ const breadcrumbSchema = {
   <article style="background: var(--ink); color: var(--white);">
     <PageHero heading={title} subheading={excerpt} />
 
-    {image && (
+    {coverImage && (
       <div style="padding: 0; max-height: 420px; overflow: hidden; border-bottom: 1px solid rgba(200,151,58,0.12);">
         <img
-          src={image}
+          src={coverImage}
           alt={title}
           style="width: 100%; height: 420px; object-fit: cover; object-position: center; display: block; opacity: 0.85;"
           loading="eager"

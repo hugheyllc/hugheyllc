@@ -8,6 +8,7 @@ tags: ["law firm marketing", "legal marketing", "AEO", "intake optimization"]
 seo_title: "2025 in Review: How Legal Marketing, AI and Intake Actually Changed"
 seo_description: "Purpose: Provide a long‑form retrospective on the year 2025 for law firm marketing. This blog identifies what really changed, what failed quietly and what matte"
 draft: false
+
 image: "/images/blog/2025-review.png"
 ---
 
