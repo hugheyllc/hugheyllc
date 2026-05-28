@@ -17,12 +17,33 @@ function readTime(excerpt: string = '') {
   const words = excerpt.split(/\s+/).length;
   return Math.max(3, Math.ceil(words / 200));
 }
+
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Hughey LLC — Law Firm Marketing Blog",
+  "description": "Insights, strategies, and best practices for law firm marketing.",
+  "url": "https://hugheyllc.com/blog/",
+  "author": { "@type": "Person", "name": "Joe Hughey", "url": "https://hugheyllc.com/about/" },
+  "publisher": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" }
+};
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": posts.slice(0, 10).map((post, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "url": `https://hugheyllc.com/blog/${post.id}/`
+  }))
+};
 ---
 
 <BaseLayout
   title="Law Firm Marketing Blog | Hughey LLC"
   description="Insights, strategies, and best practices for law firm marketing. From SEO to client intake to marketing analytics."
   canonical="https://hugheyllc.com/blog"
+  schema={[blogSchema, itemListSchema]}
 >
   <div>
     <PageHero
@@ -65,6 +86,9 @@ function readTime(excerpt: string = '') {
         <div class="posts-grid">
           {rest.map((post) => (
             <article class="post-card rx card-hover">
+              <div class="post-thumb">
+                <img src={`/images/blog/${post.id}.png`} alt={post.data.title} loading="lazy" width="680" height="383" />
+              </div>
               <div class="post-meta">
                 <time class="post-date">
                   {new Date(post.data.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
@@ -216,6 +240,25 @@ function readTime(excerpt: string = '') {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
       gap: 32px;
+    }
+
+    .post-thumb {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: 2px;
+      margin-bottom: 16px;
+    }
+
+    .post-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+
+    .post-card:hover .post-thumb img {
+      transform: scale(1.03);
     }
 
     .post-card {

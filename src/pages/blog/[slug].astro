@@ -24,12 +24,45 @@ const siteUrl = 'https://hugheyllc.com';
 
 // Read image directly from markdown frontmatter (Astro 6 strips 'image' field via schema)
 let coverImage: string | undefined;
+let raw = '';
 try {
   const filePath = path.join(process.cwd(), (entry as any).filePath);
-  const raw = fs.readFileSync(filePath, 'utf8');
+  raw = fs.readFileSync(filePath, 'utf8');
   const match = raw.match(/^image:\s*"([^"]+)"/m);
   if (match) coverImage = match[1];
 } catch (e) { /* fallback gracefully */ }
+
+// Reading time
+const wordCount = (entry.body || '').split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+// Parse FAQ pairs from markdown body
+const faqPairs: {q: string, a: string}[] = [];
+try {
+  const faqSection = raw.split(/^## FAQs?\s*$/m)[1];
+  if (faqSection) {
+    const lines = faqSection.split('\n');
+    let currentQ = '';
+    for (const line of lines) {
+      const qMatch = line.match(/^\*\*(.+?)\*\*$/);
+      if (qMatch) { currentQ = qMatch[1]; }
+      else if (currentQ && line.trim() && !line.startsWith('#')) {
+        faqPairs.push({ q: currentQ, a: line.trim() });
+        currentQ = '';
+      }
+    }
+  }
+} catch(e) {}
+
+const faqSchema = faqPairs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqPairs.map(p => ({
+    "@type": "Question",
+    "name": p.q,
+    "acceptedAnswer": { "@type": "Answer", "text": p.a }
+  }))
+} : null;
 
 const ogImage = coverImage ? `${siteUrl}${coverImage}` : `${siteUrl}/images/og-default.png`;
 
@@ -44,6 +77,7 @@ const articleSchema = {
     "@type": "Person",
     "name": "Joe Hughey",
     "url": "https://hugheyllc.com/about",
+    "sameAs": ["https://www.linkedin.com/in/joehughey/"],
     "jobTitle": "Law Firm Marketing Consultant",
     "worksFor": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" }
   },
@@ -74,7 +108,7 @@ const breadcrumbSchema = {
   description={seo_description || excerpt}
   canonical={`https://hugheyllc.com/blog/${entry.id}/`}
   ogImage={ogImage}
-  schema={[articleSchema, breadcrumbSchema]}
+  schema={[articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
 >
   <article style="background: var(--ink); color: var(--white);">
     {coverImage ? (
@@ -96,6 +130,7 @@ const breadcrumbSchema = {
           {new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
         </span>
         <span style="font-size: 13px; color: rgba(255,255,255,0.45);">By {author}</span>
+        <span style="font-size: 13px; color: rgba(255,255,255,0.45);">{readingTime} min read</span>
         {tags && tags.length > 0 && (
           <div style="display: flex; gap: 8px; flex-wrap: wrap;">
             {tags.slice(0, 4).map((tag: string) => (

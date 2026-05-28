@@ -106,6 +106,19 @@ const localBusinessSchema = {
     <!-- LocalBusiness Schema (every page) -->
     <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
 
+    <!-- WebSite Schema -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Hughey LLC",
+      "url": "https://hugheyllc.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": { "@type": "EntryPoint", "urlTemplate": "https://hugheyllc.com/search/?q={search_term_string}" },
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+
     <!-- Page-specific Schema -->
     {schema && (Array.isArray(schema) ? schema : [schema]).map((s: any) => (
       <script type="application/ld+json" set:html={JSON.stringify(s)} />
