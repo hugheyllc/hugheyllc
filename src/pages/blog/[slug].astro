@@ -66,6 +66,52 @@ const { title, seo_title, seo_description, date, author, excerpt, tags } = entry
       </div>
     </div>
 
+    <!-- FAQ transform script: converts markdown ## FAQs section into styled accordion -->
+    <script>
+      (function () {
+        const prose = document.querySelector('.prose');
+        if (!prose) return;
+        // Find the ## FAQs heading
+        const headings = prose.querySelectorAll('h2');
+        let faqHeading = null;
+        headings.forEach(h => { if (h.textContent.trim().toLowerCase().startsWith('faq')) faqHeading = h; });
+        if (!faqHeading) return;
+
+        // Collect all sibling p elements after the FAQ heading
+        const pairs = [];
+        let el = faqHeading.nextElementSibling;
+        while (el && el.tagName === 'P') {
+          const strong = el.querySelector('strong');
+          // A question paragraph has only a <strong> (the bold question)
+          if (strong && el.textContent.trim() === strong.textContent.trim()) {
+            const answerEl = el.nextElementSibling;
+            if (answerEl && answerEl.tagName === 'P') {
+              pairs.push({ q: strong.textContent.trim(), a: answerEl.textContent.trim() });
+              el = answerEl.nextElementSibling;
+            } else { el = el.nextElementSibling; }
+          } else { el = el.nextElementSibling; }
+        }
+        if (!pairs.length) return;
+
+        // Build the FAQ section replacing the heading + pairs
+        const section = document.createElement('div');
+        section.className = 'inline-faq';
+        section.innerHTML = '<h2 class="inline-faq-title">Frequently Asked Questions</h2><div class="inline-faq-list">' +
+          pairs.map(p => `<details class="inline-faq-item"><summary class="inline-faq-q">${p.q}</summary><div class="inline-faq-a">${p.a}</div></details>`).join('') +
+          '</div>';
+
+        // Remove original elements
+        faqHeading.replaceWith(section);
+        // Remove the pairs from DOM
+        let rem = section.nextElementSibling;
+        const toRemove = [];
+        for (let i = 0; i < pairs.length * 2; i++) {
+          if (rem && rem.tagName === 'P') { toRemove.push(rem); rem = rem.nextElementSibling; }
+        }
+        toRemove.forEach(n => n.remove());
+      })();
+    </script>
+
     <!-- Back -->
     <div style="padding: 48px 0;">
       <div class="w">
@@ -212,6 +258,59 @@ const { title, seo_title, seo_description, date, author, excerpt, tags } = entry
       .prose {
         font-size: 16px;
       }
+    }
+
+    /* ── INLINE FAQ (matches FaqSection component) ──────── */
+    .inline-faq {
+      margin-top: 56px;
+      padding-top: 0;
+    }
+    .inline-faq-title {
+      font-size: clamp(24px, 3vw, 34px);
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 32px;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+    .inline-faq-list {
+      max-width: 860px;
+    }
+    .inline-faq-item {
+      border-bottom: 1px solid rgba(200, 151, 58, 0.12);
+    }
+    .inline-faq-item:first-of-type {
+      border-top: 1px solid rgba(200, 151, 58, 0.12);
+    }
+    .inline-faq-q {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 0;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--white);
+      cursor: pointer;
+      list-style: none;
+      gap: 16px;
+      line-height: 1.4;
+    }
+    .inline-faq-q::-webkit-details-marker { display: none; }
+    .inline-faq-q::after {
+      content: '+';
+      font-size: 22px;
+      font-weight: 300;
+      color: var(--gold);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+    details[open] .inline-faq-q::after { transform: rotate(45deg); }
+    .inline-faq-a {
+      padding: 0 0 22px;
+      font-size: 15px;
+      line-height: 1.75;
+      color: rgba(255, 255, 255, 0.7);
+      max-width: 780px;
     }
   </style>
 </BaseLayout>
