@@ -36,12 +36,12 @@ Marketing and finance must work together to set budgets and measure success. All
 - **Enhance landing pages.** Match landing page messaging to ad copy. Include trust signals (reviews, testimonials, security badges).
 - **Automate follow‑up.** Implement AI chatbots and call routing to contact leads within five minutes. Use CRM automation to send reminders and nurture leads.
 - **Refine offers.** Test consultation incentives, case evaluations or downloadable guides. Use A/B testing to see which offers convert better.
-		
-			<svg aria-hidden="true"><path></path></svg>			
-					
+
+
+
 ### Suggested Links
-				
-		
+
+
 
 - [Legal Marketing KPIs That Actually Predict Growth](/blog/) (metrics for cost and conversion).
 - [The Intake System Is the Most Important Marketing Channel](/blog/) (how to speed up follow‑up).

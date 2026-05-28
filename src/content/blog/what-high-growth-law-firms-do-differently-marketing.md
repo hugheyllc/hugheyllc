@@ -35,12 +35,12 @@ While many firms struggle with tracking metrics, high‑growth firms are over tw
 ## 6. They Balance Marketing Mix and Outsource Strategically
 
 According to LexisNexis’s analysis of the 2025 High Growth Study, top performers use a marketing mix of about **55% digital** and **45% traditional**. Digital advertising is the top‑rated technique for high‑growth firms. Many high‑growth firms outsource specialised marketing functions to access superior talent at lower cost.
-		
-			<svg aria-hidden="true"><path></path></svg>			
-					
+
+
+
 ### Suggested Links
-				
-		
+
+
 
 - [The Law Firm Marketing Operating System](/blog/) (build your OS like high‑growth firms)
 - [Legal Marketing KPIs That Actually Predict Growth](/blog/) (measure what matters)

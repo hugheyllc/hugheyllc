@@ -22,7 +22,7 @@ Use these numbers to calibrate your firm’s KPI dashboards, evaluate vendors, a
 
 ## 2025 Key Performance Benchmarks
 
-**Cost per Lead (PPC)******
+**Cost per Lead (PPC)**
 
 <li>
 Top performers: $150–$250
@@ -32,7 +32,7 @@ Average firms: $300–$450
 Low performers: $600+
 </li>
 
-**Lead-to-Consult Rate******
+**Lead-to-Consult Rate**
 
 <li>
 Top performers: 55–70%
@@ -42,7 +42,7 @@ Average firms: 35–50%
 Low performers: &lt;30%
 </li>
 
-**Consult-to-Client Rate******
+**Consult-to-Client Rate**
 
 <li>
 Top performers: 65–80%
@@ -52,7 +52,7 @@ Average firms: 40–55%
 Low performers: &lt;40%
 </li>
 
-**Organic Traffic Growth (YoY)******
+**Organic Traffic Growth (YoY)**
 
 <li>
 Top performers: 25%+
@@ -62,7 +62,7 @@ Average firms: 10–20%
 Low performers: &lt;10%
 </li>
 
-**Average Client Value******
+**Average Client Value**
 
 <li>
 Top performers: 15%+ YoY growth
@@ -149,102 +149,28 @@ Schedule your free audit:
 Call Tracking, CRM &amp; Web Analytics: [/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/](/blog/)
 
 From PPC to Profit: [/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/](/blog/)
-		
-					
+
+
 ## FAQs
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-3040" >
-					 How do I know if my PPC cost per lead is competitive in 2025? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**How do I know if my PPC cost per lead is competitive in 2025?**
+
 Most firms fall between $300–$450 per lead; top performers hit $150–$250. Compare CPL to case value and local competition. If CPL exceeds $450 without quality improvement, review your campaigns or vendor.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-3041" >
-					 What’s the most important conversion metric for law firms? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Lead-to-consult and consult-to-client rates show true intake performance.
 
-Top firms maintain:
-
-<li>
-55–70% lead-to-consult
-</li><li>
-65–80% consult-to-client
-
-If these fall, the issue may be intake — not marketing.
-</li>
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-3042" >
-					 How often should law firms evaluate marketing benchmarks? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Quarterly.
-
-Monthly data is too volatile.
-
-High-growth firms rely on rolling 13-week averages.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="4" aria-expanded="false" aria-controls="e-n-accordion-item-3043" >
-					 Why is organic traffic growth so important? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-SEO compounds over time.
-
-Top firms grow 25%+ per year; &lt;10% indicates a problem with content, technical SEO, or competition.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="5" aria-expanded="false" aria-controls="e-n-accordion-item-3044" >
-					  How do benchmarks help with vendor accountability? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Benchmarks provide objective ROI standards.
-
-Instead of impressions or clicks, evaluate:
-
-<li>
-CPL
-</li><li>
-Conversion rates
-</li><li>
-Organic growth
-
-Vendors must justify variances and show plans to hit targets.
-</li>
-								
-					</details>
-		
-Most firms fall between $300–$450 per lead; top performers hit $150–$250. Compare CPL to case value and local competition. If CPL exceeds $450 without quality improvement, review your campaigns or vendor.
+**What’s the most important conversion metric for law firms?**
 
 Lead-to-consult and consult-to-client rates show true intake performance.
 
 Top firms maintain:
 
-<li>
+
 55–70% lead-to-consult
-</li><li>
+
 65–80% consult-to-client
 
 If these fall, the issue may be intake — not marketing.
-</li>
+
+**How often should law firms evaluate marketing benchmarks?**
 
 Quarterly.
 
@@ -252,20 +178,14 @@ Monthly data is too volatile.
 
 High-growth firms rely on rolling 13-week averages.
 
+**Why is organic traffic growth so important?**
+
 SEO compounds over time.
 
 Top firms grow 25%+ per year; &lt;10% indicates a problem with content, technical SEO, or competition.
 
+**How do benchmarks help with vendor accountability?**
+
 Benchmarks provide objective ROI standards.
 
 Instead of impressions or clicks, evaluate:
-
-<li>
-CPL
-</li><li>
-Conversion rates
-</li><li>
-Organic growth
-
-Vendors must justify variances and show plans to hit targets.
-</li>

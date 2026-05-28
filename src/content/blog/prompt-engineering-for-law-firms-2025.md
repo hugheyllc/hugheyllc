@@ -101,79 +101,30 @@ AI agents combine LLM reasoning with autonomous task execution. These systems wi
 ## Prompt Engineering Is Now a Strategic Advantage
 
 By 2025, AI is no longer optional. The firms that thrive will be the ones who understand how to direct it. Prompt engineering is now a core legal skill on par with legal writing, statutory interpretation, and client communication.
-		
-					
+
+
 ## FAQs
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-6840" >
-					 What is prompt engineering and why does it matter in legal practice? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**What is prompt engineering and why does it matter in legal practice?**
+
 Prompt engineering is the discipline of crafting structured, context rich instructions that guide an LLM’s analytical and drafting behavior. Because LLMs rely on pattern prediction rather than true interpretive reasoning, the quality of their outputs is directly tied to the clarity and completeness of the prompt. In legal work, precise prompting reduces the risk of hallucinations, strengthens legal accuracy, improves drafting reliability, and ensures the model performs like a trained legal assistant rather than a generic text generator.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-6841" >
-					 Can AI replace attorneys for legal research or contract drafting? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-No. AI can accelerate early stage tasks such as issue spotting, summarizing case law, reviewing contract language, or generating first pass drafts, but it cannot replace legal reasoning, professional judgment, or jurisdiction specific legal analysis. Attorneys must verify all AI generated work, confirm citations, and determine how the information fits within the client’s legal strategy. AI should be viewed as an efficiency multiplier that augments, not replaces, the attorney’s role.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-6842" >
-					 How can law firms reduce the risk of AI hallucinations? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Hallucinations occur when a model fills gaps with fabricated information. Firms can reduce this risk by supplying actual source material, limiting the model’s authority to infer facts, using clear constraints, specifying jurisdiction, and requiring citations to real authority. Retrieval augmented tools like CoCounsel or Lexis+ AI provide additional safeguards because they ground responses in verified legal databases rather than general training data.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="4" aria-expanded="false" aria-controls="e-n-accordion-item-6843" >
-					  How can dashboards help law firms improve PPC performance? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Hallucinations occur when a model fills gaps with fabricated information. Firms can reduce this risk by supplying actual source material, limiting the model’s authority to infer facts, using clear constraints, specifying jurisdiction, and requiring citations to real authority. Retrieval augmented tools like CoCounsel or Lexis+ AI provide additional safeguards because they ground responses in verified legal databases rather than general training data.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="5" aria-expanded="false" aria-controls="e-n-accordion-item-6844" >
-					 What types of legal tasks see the greatest benefit from prompt engineering? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Prompt engineering offers the greatest measurable ROI in high volume, language heavy tasks such as contract review, clause comparison, summarization of deposition transcripts, early stage legal research, drafting demand letters, generating discovery requests, and preparing internal memoranda. When prompts are structured consistently across the firm, attorneys experience more predictable output quality and significantly reduced drafting timelines.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="6" aria-expanded="false" aria-controls="e-n-accordion-item-6845" >
-					 How should a law firm begin implementing AI and prompt engineering across its workflows? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Firms should begin by creating an internal AI policy, defining approved use cases, implementing data confidentiality safeguards, and training attorneys and staff on structured prompting techniques. Next, firms can test AI supported workflows within a single practice area, build prompt libraries tailored to recurring tasks, and assign oversight responsibility to a designated AI champion or operations leader. The goal is to standardize prompting practices so the firm achieves consistent, defensible, and ethically sound outputs.
-								
-					</details>
-		
-Prompt engineering is the discipline of crafting structured, context rich instructions that guide an LLM’s analytical and drafting behavior. Because LLMs rely on pattern prediction rather than true interpretive reasoning, the quality of their outputs is directly tied to the clarity and completeness of the prompt. In legal work, precise prompting reduces the risk of hallucinations, strengthens legal accuracy, improves drafting reliability, and ensures the model performs like a trained legal assistant rather than a generic text generator.
+
+**Can AI replace attorneys for legal research or contract drafting?**
 
 No. AI can accelerate early stage tasks such as issue spotting, summarizing case law, reviewing contract language, or generating first pass drafts, but it cannot replace legal reasoning, professional judgment, or jurisdiction specific legal analysis. Attorneys must verify all AI generated work, confirm citations, and determine how the information fits within the client’s legal strategy. AI should be viewed as an efficiency multiplier that augments, not replaces, the attorney’s role.
 
-Hallucinations occur when a model fills gaps with fabricated information. Firms can reduce this risk by supplying actual source material, limiting the model’s authority to infer facts, using clear constraints, specifying jurisdiction, and requiring citations to real authority. Retrieval augmented tools like CoCounsel or Lexis+ AI provide additional safeguards because they ground responses in verified legal databases rather than general training data.
+**How can law firms reduce the risk of AI hallucinations?**
 
 Hallucinations occur when a model fills gaps with fabricated information. Firms can reduce this risk by supplying actual source material, limiting the model’s authority to infer facts, using clear constraints, specifying jurisdiction, and requiring citations to real authority. Retrieval augmented tools like CoCounsel or Lexis+ AI provide additional safeguards because they ground responses in verified legal databases rather than general training data.
+
+**How can dashboards help law firms improve PPC performance?**
+
+Hallucinations occur when a model fills gaps with fabricated information. Firms can reduce this risk by supplying actual source material, limiting the model’s authority to infer facts, using clear constraints, specifying jurisdiction, and requiring citations to real authority. Retrieval augmented tools like CoCounsel or Lexis+ AI provide additional safeguards because they ground responses in verified legal databases rather than general training data.
+
+**What types of legal tasks see the greatest benefit from prompt engineering?**
 
 Prompt engineering offers the greatest measurable ROI in high volume, language heavy tasks such as contract review, clause comparison, summarization of deposition transcripts, early stage legal research, drafting demand letters, generating discovery requests, and preparing internal memoranda. When prompts are structured consistently across the firm, attorneys experience more predictable output quality and significantly reduced drafting timelines.
+
+**How should a law firm begin implementing AI and prompt engineering across its workflows?**
 
 Firms should begin by creating an internal AI policy, defining approved use cases, implementing data confidentiality safeguards, and training attorneys and staff on structured prompting techniques. Next, firms can test AI supported workflows within a single practice area, build prompt libraries tailored to recurring tasks, and assign oversight responsibility to a designated AI champion or operations leader. The goal is to standardize prompting practices so the firm achieves consistent, defensible, and ethically sound outputs.

@@ -10,7 +10,7 @@ seo_description: "Many law firms spend thousands on pay-per-click (PPC) advertis
 draft: false
 ---
 
-****Many law firms spend thousands on pay-per-click (PPC) advertising but struggle to connect those investments to actual revenue. This article walks through a practical, data-driven system to map your PPC spend all the way to profit, helping you make smarter marketing decisions.
+Many law firms spend thousands on pay-per-click (PPC) advertising but struggle to connect those investments to actual revenue. This article walks through a practical, data-driven system to map your PPC spend all the way to profit, helping you make smarter marketing decisions.
 
 ## Step 1 — Integrate Marketing and Intake Data
 
@@ -22,7 +22,7 @@ Each phone call or form submission should include the campaign, ad group, and ke
 
 To accurately measure ROI, link signed clients to their marketing source and assign a dollar value to each retained case.
 
-**Formula:******
+**Formula:**
 
 Revenue per Channel = (Signed Clients × Average Case Value) − Marketing Cost
 
@@ -39,71 +39,30 @@ Top-performing firms focus on profitability, not vanity metrics. If a campaign d
 Once your PPC data connects seamlessly to your intake and financial systems, your firm gains true visibility. You’ll know exactly where your marketing money is generating real-world results.
 
  
-		
-					
+
+
 ## Ready to learn how to best use your marketing dollars? Let’s connect.
-				
-					[Book a discovery call](/blog/)
-					
+
+[Book a discovery call](/blog/)
+
 ## FAQs
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-7990" >
-					 How do law firms track which PPC ads lead to actual clients and revenue? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**How do law firms track which PPC ads lead to actual clients and revenue?**
+
 Law firms can track PPC results by integrating Google Ads or Microsoft Ads with their CRM and call-tracking tools. When every call and form submission includes the campaign, ad group, and keyword, the firm can see exactly which ads generate qualified leads, signed clients, and revenue.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-7991" >
-					 What data does a law firm need to calculate true PPC ROI? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-To calculate PPC ROI, a firm needs signed-client counts, average case value, and marketing costs. Connecting these to the source campaign lets you measure cost per lead, cost per retained client, and ROAS.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-7992" >
-					 Why is connecting PPC, CRM, and intake data important for law firm marketing? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Connecting PPC platforms with a CRM and intake system ensures that all leads are tracked consistently. This eliminates blind spots, proves which channels drive real clients, and helps the firm invest only in campaigns that deliver measurable revenue.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="4" aria-expanded="false" aria-controls="e-n-accordion-item-7993" >
-					  How can dashboards help law firms improve PPC performance? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Dashboards like Google Looker Studio help visualize real-time KPIs such as cost per lead, cost per retained client, and ROAS. These visuals make it easier to identify which campaigns deserve more investment and which ones should be optimized.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="5" aria-expanded="false" aria-controls="e-n-accordion-item-7994" >
-					 What’s the best way for a law firm to improve PPC profitability? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-The best way to improve PPC profitability is to optimize campaigns based on signed-client revenue instead of clicks. When firms evaluate ads by profit contribution rather than vanity metrics, they allocate budget more accurately and maximize return on their marketing spend.
-								
-					</details>
-		
-Law firms can track PPC results by integrating Google Ads or Microsoft Ads with their CRM and call-tracking tools. When every call and form submission includes the campaign, ad group, and keyword, the firm can see exactly which ads generate qualified leads, signed clients, and revenue.
+
+**What data does a law firm need to calculate true PPC ROI?**
 
 To calculate PPC ROI, a firm needs signed-client counts, average case value, and marketing costs. Connecting these to the source campaign lets you measure cost per lead, cost per retained client, and ROAS.
 
+**Why is connecting PPC, CRM, and intake data important for law firm marketing?**
+
 Connecting PPC platforms with a CRM and intake system ensures that all leads are tracked consistently. This eliminates blind spots, proves which channels drive real clients, and helps the firm invest only in campaigns that deliver measurable revenue.
 
+**How can dashboards help law firms improve PPC performance?**
+
 Dashboards like Google Looker Studio help visualize real-time KPIs such as cost per lead, cost per retained client, and ROAS. These visuals make it easier to identify which campaigns deserve more investment and which ones should be optimized.
+
+**What’s the best way for a law firm to improve PPC profitability?**
 
 The best way to improve PPC profitability is to optimize campaigns based on signed-client revenue instead of clicks. When firms evaluate ads by profit contribution rather than vanity metrics, they allocate budget more accurately and maximize return on their marketing spend.

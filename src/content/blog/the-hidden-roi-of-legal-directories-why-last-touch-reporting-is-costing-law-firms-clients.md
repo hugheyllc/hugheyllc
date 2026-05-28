@@ -126,73 +126,37 @@ Highlights how often directories assist GBP calls
 - Highlight awards, publications, speaking engagements, and bar admissions with dates.
 - Implement a simple review-request process that occasionally routes happy clients to a directory profile.
 - Schedule quarterly profile reviews to catch outdated information and missed opportunities.
-		
-					
+
+
 ## Hyper Personalization and Client Experience: How Law Firms Win in 2025
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-2520" >
-					 Do legal directories still matter in 2025–2026? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Do legal directories still matter in 2025–2026?**
+
 Yes. Directories are still a core trust signal for legal consumers, and they are now also a data source for AI systems. They influence both human decision-making and machine-generated summaries, even when your analytics
 
 does not show a direct conversion.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-2521" >
-					 Why don’t I see many 'conversions' from directories in my reports? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Why don’t I see many 'conversions' from directories in my reports?**
+
 Because last-touch analytics credits the final channel, not the upstream trust checkpoints. If a consumer touches your directory profile and then contacts you via your website, Google Maps, or a saved number, the directory rarely receives credit in your standard reporting.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-2522" >
-					 Which directories should I prioritize? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Which directories should I prioritize?**
+
 Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, [FindLaw](/blog/)/[Lawyers.com](/blog/), [Avvo](/blog/), [Super Lawyers](/blog/), and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="4" aria-expanded="false" aria-controls="e-n-accordion-item-2523" >
-					 How often should I update my directory profiles? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**How often should I update my directory profiles?**
+
 At least quarterly. Update practice areas, case types, awards, publications, speaking engagements, and bio details. Any time something significant changes on your website bio, update your directories to match.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="5" aria-expanded="false" aria-controls="e-n-accordion-item-2524" >
-					 Is it better to focus on one directory or many? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Is it better to focus on one directory or many?**
+
 You should avoid spreading yourself thin across dozens of low-value listings, but you do want corroboration across several high-quality sources. A strong baseline is: Google Business Profile + 2–3 major legal directories + your state bar profile.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="6" aria-expanded="false" aria-controls="e-n-accordion-item-2525" >
-					 How do reviews on directories affect my overall marketing? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**How do reviews on directories affect my overall marketing?**
+
 Directory reviews influence consumer trust directly and can be surfaced in AI summaries or third-party widgets. They also balance your GBP review profile by showing consistent sentiment and detail across multiple platforms.
-								
-					</details>
-		
+
+
 Yes. Directories are still a core trust signal for legal consumers, and they are now also a data source for AI systems. They influence both human decision-making and machine-generated summaries, even when your analytics
 
 does not show a direct conversion.

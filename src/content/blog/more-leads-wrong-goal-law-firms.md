@@ -29,12 +29,12 @@ draft: false
 ## The Bottom Line
 
 Lead volume alone is a vanity metric. Profitability comes from converting the right leads into the right cases and retaining them. By focusing on quality, your firm can reduce marketing waste, improve client satisfaction and achieve sustainable growth.
-		
-			<svg aria-hidden="true"><path></path></svg>			
-					
+
+
+
 ### Suggested Links
-				
-		
+
+
 
 - [Legal Marketing KPIs That Actually Predict Growth](/blog/) (measure quality)
 - [The Intake System Is the Most Important Marketing Channel](/blog/) (qualify leads quickly)

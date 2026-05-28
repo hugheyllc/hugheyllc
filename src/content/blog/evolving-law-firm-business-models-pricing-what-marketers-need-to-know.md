@@ -51,61 +51,31 @@ Common obstacles include internal resistance, lack of structure, and concerns ab
 **A current, high-quality overview of law-firm pricing trends for 2025:**
 https://www.youtube.com/watch?v=QFAGAJ8xMKM
 Pricing has become a marketing advantage. Transparent, predictable pricing builds trust and positions your firm as a modern, client-focused business.
-		
-					
+
+
 ## Evolving Law‑Firm Business Models &amp; Pricing: What Marketers Need to Know
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-2500" >
-					 What are alternative fee arrangements (AFAs)? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**What are alternative fee arrangements (AFAs)?**
+
 AFAs are non-hourly pricing models such as flat fees, subscriptions, hybrid pricing, or success-based billing that offer clients more predictability and value.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-2501" >
-					 Do AFAs help improve law‑firm conversions? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Do AFAs help improve law‑firm conversions?**
+
 Yes. Clients respond positively to transparent pricing, which reduces friction and increases consultation requests.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-2502" >
-					 Which practice areas are best suited for flat‑fee pricing? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Which practice areas are best suited for flat‑fee pricing?**
+
 Predictable work such as business formations, estate planning, document reviews, and compliance matters are strong candidates.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="4" aria-expanded="false" aria-controls="e-n-accordion-item-2503" >
-					 Will switching from hourly to flat fee reduce revenue? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Will switching from hourly to flat fee reduce revenue?**
+
 Not when properly scoped. Many firms earn higher margins due to clearer expectations and operational efficiency.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="5" aria-expanded="false" aria-controls="e-n-accordion-item-2504" >
-					 How should a firm communicate new pricing models? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**How should a firm communicate new pricing models?**
+
 Use website updates, intake scripts, service pages, and targeted ads to explain how predictable pricing benefits clients.
-								
-					</details>
-		
+
+
 AFAs are non-hourly pricing models such as flat fees, subscriptions, hybrid pricing, or success-based billing that offer clients more predictability and value.
 
 Yes. Clients respond positively to transparent pricing, which reduces friction and increases consultation requests.
@@ -115,8 +85,8 @@ Predictable work such as business formations, estate planning, document reviews,
 Not when properly scoped. Many firms earn higher margins due to clearer expectations and operational efficiency.
 
 Use website updates, intake scripts, service pages, and targeted ads to explain how predictable pricing benefits clients.
-		
-					
+
+
 ## Ready to modernize your firm’s pricing and attract higher-quality clients? Schedule a strategy call today and get a customized plan built for your market.
-				
-					[Book a discovery call](/blog/)
+
+[Book a discovery call](/blog/)

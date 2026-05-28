@@ -26,11 +26,11 @@ Social media algorithms now heavily prioritize short-form video. Platforms like 
 
 Potential content ideas:
 
- 	
+
 - “What to do after a car accident”
- 	
+
 - “Do I need a lawyer for a misdemeanor?”
- 	
+
 - “Can my employer fire me for taking leave?”
 
 Videos that answer one clear question and include a strong call to action are seeing enormous reach and engagement. For tips on execution, check the Short-Form Video Guide from[Social Media Examiner.](/blog/)
@@ -41,13 +41,13 @@ Over 80% of legal searches have local intent. That means optimizing your law fir
 
 Make sure you:
 
- 	
+
 - List services and service areas
- 	
+
 - Post weekly updates
- 	
+
 - Use location-specific keywords
- 	
+
 - Gather reviews consistently
 
 A survey from [BrightLocal](/blog/) found that law firms appearing in Google’s local 3-pack receive 44% of clicks, making this one of the most valuable placements online.
@@ -64,11 +64,11 @@ If you don’t know where your clients are coming from, you can’t scale your s
 
 These tools help you:
 
- 	
+
 - Track calls and form submissions by source
- 	
+
 - Understand the true ROI of each campaign
- 	
+
 - Optimize ad spend with clarity
 
 ## Conclusion

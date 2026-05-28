@@ -54,7 +54,7 @@ Every campaign should support these KPIs.
 
 Related reading:
 
-**[From PPC to Profit](/blog/) — Mapping Spend to Revenue in Your Law Practice******
+**[From PPC to Profit](/blog/) — Mapping Spend to Revenue in Your Law Practice**
 
 ## Step 2 — Require Transparency and Shared Data Access
 
@@ -157,67 +157,26 @@ If your agency’s reports don’t translate to signed clients, it’s time to t
 [From PPC to Profit](/blog/)
 
 [Call Tracking, CRM &amp; Web Analytics](/blog/)
-		
-					
+
+
 ## FAQs
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-7220" >
-					 What should a law firm look for when choosing a marketing agency? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**What should a law firm look for when choosing a marketing agency?**
+
 Choose an agency that provides full data transparency, shared access to platforms, and KPI-based reporting tied to actual signed clients — not vanity metrics.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-7221" >
-					 How can a firm measure whether an agency is producing real ROI? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Connect marketing data to intake data. Track CPL, conversions, retained clients, and budget efficiency through a KPI scorecard.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-7222" >
-					 Why is shared data access important? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Your firm must own GA4, Google Ads, call tracking, and CRM access. This ensures honest reporting and prevents overspending.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="4" aria-expanded="false" aria-controls="e-n-accordion-item-7223" >
-					 How often should a firm review its agency’s performance? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Monthly KPI reviews + quarterly accountability reviews.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="5" aria-expanded="false" aria-controls="e-n-accordion-item-7224" >
-					 When should a firm replace its marketing agency? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-If reporting is vague, data is restricted, or KPIs decline for multiple cycles, it’s time to audit or change agencies.
-								
-					</details>
-		
-Choose an agency that provides full data transparency, shared access to platforms, and KPI-based reporting tied to actual signed clients — not vanity metrics.
+
+**How can a firm measure whether an agency is producing real ROI?**
 
 Connect marketing data to intake data. Track CPL, conversions, retained clients, and budget efficiency through a KPI scorecard.
 
+**Why is shared data access important?**
+
 Your firm must own GA4, Google Ads, call tracking, and CRM access. This ensures honest reporting and prevents overspending.
 
+**How often should a firm review its agency’s performance?**
+
 Monthly KPI reviews + quarterly accountability reviews.
+
+**When should a firm replace its marketing agency?**
 
 If reporting is vague, data is restricted, or KPIs decline for multiple cycles, it’s time to audit or change agencies.

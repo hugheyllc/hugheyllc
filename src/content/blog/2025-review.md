@@ -57,12 +57,12 @@ The biggest opportunities for law firms in 2026 lie in:
 - **Data‑driven intake.** Combine AI chatbots with human follow‑up to meet the five‑minute response window and route high‑value leads directly to attorneys.
 - **Video and immersive content.** Produce educational videos and live Q&amp;A sessions to build authority and trust.
 - **Performance reporting.** Build dashboards that connect marketing spend to revenue outcomes across multiple touchpoints.
-		
-			<svg aria-hidden="true"><path></path></svg>			
-					
+
+
+
 ### Suggested Links
-				
-		
+
+
 
 - [SEO for Law Firms in an AI‑First Search World](/blog/) (expand for deeper tactics).
 - [The Intake System Is the Most Important Marketing Channel](/blog/) (dive into response times and AI intake strategies).

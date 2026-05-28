@@ -64,7 +64,7 @@ Example:
 
 Instead of “Florida Non-Compete Laws Explained,” use:
 
-**“Are non-competes enforceable in Florida? It depends on scope and duration.”******
+**“Are non-competes enforceable in Florida? It depends on scope and duration.”**
 
 Then explain and cite Florida Statute §542.335.
 
@@ -151,64 +151,31 @@ Build internal linking from FAQ → Pillar → Practice → Contact
 </li><li>
 Track AEO KPIs
 </li>
-		
-					
+
+
 ## Ready to Optimize for AEO?
-				
-		
+
+
 Your next clients are asking AI assistants for answers — make sure they find yours.
 
 Schedule an AEO audit with Hughey LLC to evaluate your schema, content, and intake performance.
-		
-					[Book a discovery call](/blog/)
-					
+
+[Book a discovery call](/blog/)
+
 ## FAQs
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-1220" >
-					 What is Answer Engine Optimization (AEO)? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**What is Answer Engine Optimization (AEO)?**
+
 AEO is the process of structuring your content so AI systems can extract, trust, and cite your answers in AI-generated search results.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-1221" >
-					 How is AEO different from SEO? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-SEO focuses on rankings. AEO focuses on being **the answer** AI tools select.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-1222" >
-					 Does AEO replace SEO? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-No. AEO enhances SEO by adding structured data, clear entities, and concise answers.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="4" aria-expanded="false" aria-controls="e-n-accordion-item-1223" >
-					 What schema should law firms use? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Organization, LegalService, Attorney, FAQ, HowTo, and Review schema.
-								
-					</details>
-		
-AEO is the process of structuring your content so AI systems can extract, trust, and cite your answers in AI-generated search results.
+
+**How is AEO different from SEO?**
 
 SEO focuses on rankings. AEO focuses on being **the answer** AI tools select.
 
+**Does AEO replace SEO?**
+
 No. AEO enhances SEO by adding structured data, clear entities, and concise answers.
+
+**What schema should law firms use?**
 
 Organization, LegalService, Attorney, FAQ, HowTo, and Review schema.

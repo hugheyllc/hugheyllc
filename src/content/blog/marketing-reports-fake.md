@@ -46,7 +46,7 @@ Many agencies deliver glossy dashboards filled with impressions, clicks and soci
 
 To escape vanity reporting, align your KPIs with your law firm marketing OS. Use a shared dashboard connecting your CRM, intake system and marketing platforms. Create monthly and quarterly rhythms for reviewing results, and adjust budgets based on revenue outcomes. This approach disqualifies agencies that rely on superficial metrics and positions your firm as a sophisticated buyer.
 
-			<svg aria-hidden="true"><path></path></svg>			
+
 
 ### Suggested Links
 

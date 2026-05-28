@@ -115,53 +115,18 @@ Average cost per consult (especially from paid video campaigns)
 </li>
 
 When video metrics connect to real client outcomes, marketing becomes truly measurable.
-		
-					
+
+
 ## FAQs
-				
-						<details open>
-				<summary data-accordion-index="1" aria-expanded="true" aria-controls="e-n-accordion-item-1590" >
-					 Can law firms use client testimonials in videos? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
+
+**Can law firms use client testimonials in videos?**
+
 Yes — with written consent and proper disclaimers, following state rules.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="2" aria-expanded="false" aria-controls="e-n-accordion-item-1591" >
-					 Do videos improve SEO? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Absolutely. Video increases engagement, time on page, and trust signals — all important for Google’s algorithms.
-								
-					</details>
-						<details >
-				<summary data-accordion-index="3" aria-expanded="false" aria-controls="e-n-accordion-item-1592" >
-					 How often should law firms post videos? 
-			<svg aria-hidden="true"><path></path></svg>
-			<svg aria-hidden="true"><path></path></svg>
-						</summary>
-									
-Start with 2–3 videos per month on YouTube, LinkedIn, and your website. Consistency matters more than volume.
-								
-					</details>
-		
-Yes — with written consent and proper disclaimers, following state rules.
+
+**Do videos improve SEO?**
 
 Absolutely. Video increases engagement, time on page, and trust signals — all important for Google’s algorithms.
 
-Start with 2–3 videos per month on YouTube, LinkedIn, and your website. Consistency matters more than volume.
-		
-					
-## Ready to Build a Compliant Video Strategy That Converts?
-				
-		
-Your next client is already watching.
+**How often should law firms post videos?**
 
-Schedule a strategy session with Hughey LLC to build a compliant, data-driven video marketing plan that increases trust, visibility, and measurable growth.
-		
-					[Book a discovery call](/blog/)
+Start with 2–3 videos per month on YouTube, LinkedIn, and your website. Consistency matters more than volume.
