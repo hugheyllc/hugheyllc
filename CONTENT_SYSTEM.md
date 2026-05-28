@@ -39,8 +39,8 @@ draft: false
 
 | # | Title | Target Keyword | Publish Target |
 |---|-------|---------------|---------------|
-| 1 | How to Calculate Your True Cost Per Retained Client | cost per retained client law firm | Week of Jun 2 |
-| 2 | 10 Questions to Ask Before Hiring a Law Firm Marketing Agency | questions to ask law firm marketing agency | Week of Jun 9 |
+| 1 | ✅ How to Calculate Your True Cost Per Retained Client | cost per retained client law firm | Published 2026-05-28 |
+| 2 | ✅ 10 Questions to Ask Before Hiring a Law Firm Marketing Agency | questions to ask law firm marketing agency | Published 2026-05-28 |
 | 3 | Why Law Firms Fire Their Marketing Agency | switch law firm marketing agency | Week of Jun 16 |
 | 4 | FindLaw and Martindale: Are Directory Listings Still Worth It? | FindLaw alternatives law firms | Week of Jun 23 |
 | 5 | Personal Injury Marketing in Tampa Bay: What Actually Drives Cases | personal injury marketing Tampa Bay | Week of Jun 30 |

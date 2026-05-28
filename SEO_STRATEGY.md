@@ -67,8 +67,8 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 1 | Agency vs. Consultant: What Every Firm Principal Should Know | law firm marketing agency vs consultant | Conflict of interest, accountability | ✅ Published |
 | 2 | What Law Firms Should Know Before Signing With Scorpion | Scorpion legal marketing review | Independent review, platform lock-in | ✅ Published |
 | 3 | Finding a Law Firm Marketing Consultant in Tampa Bay | law firm marketing consultant Tampa Bay | Local SEO, Tampa market specifics | ✅ Published |
-| 4 | How to Calculate Your True Cost Per Retained Client | cost per retained client law firm | Joe's framework, spreadsheet methodology | 🔲 Planned |
-| 5 | 10 Questions to Ask Before Hiring a Law Firm Marketing Agency | questions to ask law firm marketing agency | Checklist format, red flags | 🔲 Planned |
+| 4 | How to Calculate Your True Cost Per Retained Client | cost per retained client law firm | Joe's framework, spreadsheet methodology | ✅ Published |
+| 5 | 10 Questions to Ask Before Hiring a Law Firm Marketing Agency | questions to ask law firm marketing agency | Checklist format, red flags | ✅ Published |
 | 6 | Why Law Firms Fire Their Marketing Agency (And What to Do Instead) | switch law firm marketing agency | Common failure patterns, accountability fixes | 🔲 Planned |
 | 7 | FindLaw and Martindale: Are Directory Listings Still Worth It? | FindLaw alternatives law firms | ROI analysis, attribution truth | 🔲 Planned |
 | 8 | Personal Injury Marketing in Tampa Bay: What Actually Drives Cases | personal injury marketing Tampa Bay | Local PI market, what works vs. hype | 🔲 Planned |
