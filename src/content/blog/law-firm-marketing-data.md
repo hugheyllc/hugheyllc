@@ -1,11 +1,11 @@
 ---
-title: "The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It"
+title: "The Marketing Data Your Law Firm Already Has (And Isn't Using)"
 slug: "law-firm-marketing-data"
 date: 2026-04-30
 author: "Joe Hughey"
 excerpt: "Most law firms have GA4, CallRail, Lawmatics, and Google Ads — but none of them talk to each other. Here's the attribution problem costing you budget, and how t"
 tags: ["callrail", "ga4", "lawmatics", "legal-marketing-roi", "marketing-attribution"]
-seo_title: "The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It"
+seo_title: "The Marketing Data Your Law Firm Already Has (And Isn't Using)"
 seo_description: "Most law firms have GA4, CallRail, Lawmatics, and Google Ads — but none of them talk to each other. Here's the attribution problem costing you budget, and how t"
 draft: false
 ---

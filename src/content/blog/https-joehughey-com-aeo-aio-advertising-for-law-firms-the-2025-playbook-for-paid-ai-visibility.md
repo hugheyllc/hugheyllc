@@ -10,6 +10,8 @@ seo_description: "Paid visibility is moving beyond classic keyword ads. In the r
 draft: false
 ---
 
+*This guide covers paid AI visibility (AIO ads) — not organic AEO.*
+
 Paid visibility is moving beyond classic keyword ads. In the realm of legal marketing, as **AI Overviews** and **LLM-powered assistants** synthesize answers, ad inventory is beginning to appear *inside* these experiences. This post explains how AEO/AIO advertising works, where ads are showing up, and how law-firm marketers can plan budgets, creative, landing pages, and KPIs to win in this new channel.
 <article>
 ## What Is AEO/AIO Advertising?

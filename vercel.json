@@ -127,6 +127,36 @@
       "source": "/index.php/:path*",
       "destination": "/:path*",
       "permanent": true
+    },
+    {
+      "source": "/blog/questions-to-ask-law-firm-marketing-agency",
+      "destination": "/blog/what-to-ask-law-firm-marketing-company/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/questions-to-ask-law-firm-marketing-agency/",
+      "destination": "/blog/what-to-ask-law-firm-marketing-company/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/click-to-client",
+      "destination": "/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/click-to-client/",
+      "destination": "/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi",
+      "destination": "/blog/small-firm-aeo-playbook/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi/",
+      "destination": "/blog/small-firm-aeo-playbook/",
+      "permanent": true
     }
   ],
   "headers": [

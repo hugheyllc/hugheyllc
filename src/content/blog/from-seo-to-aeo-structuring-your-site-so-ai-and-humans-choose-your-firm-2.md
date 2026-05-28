@@ -12,6 +12,8 @@ draft: false
 
 ## Introduction
 
+*This guide covers technical site structure for AEO — not paid ads.*
+
 SEO as we knew it is evolving — and fast. With Google’s AI Overviews and the rise of AI-driven search assistants, the new frontier for law firms is **Answer Engine Optimization (AEO)**. Instead of optimizing only for rankings, your firm must now optimize for **answers** — concise, credible, structured responses that AI systems trust.
 
 This guide explains how to transition from traditional SEO to AEO in 2025, structuring your site so both AI and humans see you as the authoritative choice.

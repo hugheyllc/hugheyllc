@@ -1,6 +1,6 @@
 ---
 title: "The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025"
-slug: "how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi"
+slug: "small-firm-aeo-playbook"
 date: 2025-10-10
 author: "Joe Hughey"
 excerpt: "For small and mid-sized law firms, the marketing landscape is rapidly evolving. Advanced marketing technology once reserved for large agencies is now accessible"
@@ -9,6 +9,8 @@ seo_title: "The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025"
 seo_description: "For small and mid-sized law firms, the marketing landscape is rapidly evolving. Advanced marketing technology once reserved for large agencies is now accessible"
 draft: false
 ---
+
+*This guide is for small firms optimizing organically for Google AI Overviews.*
 
 For small and mid-sized law firms, the marketing landscape is rapidly evolving. Advanced marketing technology once reserved for large agencies is now accessible to boutique and solo practices. Thanks to AI and automation, smaller firms can now streamline their marketing, boost efficiency, and compete with industry giants—without the massive overhead.
 
