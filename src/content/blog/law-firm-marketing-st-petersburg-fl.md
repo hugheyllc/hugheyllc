@@ -59,18 +59,18 @@ I offer a free initial strategy call for St. Petersburg law firms. No pitch, no 
 
 ## FAQs
 
-### How competitive is the law firm marketing market in St. Petersburg?
+**How competitive is the law firm marketing market in St. Petersburg?**
 
 Very. The PI market in particular is dominated by a handful of firms with significant ad budgets. However, practice areas like family law, estate planning, and business litigation have meaningful gaps — firms willing to invest in targeted local content and proper Google Business Profile optimization can gain ground quickly.
 
-### Do I need a local marketing consultant, or can a national agency handle St. Pete?
+**Do I need a local marketing consultant, or can a national agency handle St. Pete?**
 
 National agencies treat Tampa Bay as one market. St. Petersburg has distinct search patterns, its own courthouse, and a different referral ecosystem than Tampa. A consultant who understands the Pinellas County legal market will identify opportunities — and wasted spend — that a national firm misses.
 
-### What should a St. Petersburg law firm spend on marketing?
+**What should a St. Petersburg law firm spend on marketing?**
 
 There's no universal number. What matters is your cost per retained client relative to the lifetime value of that client. A PI firm might justify $500 per retained client; a family law firm might need to stay under $200. I help firms set benchmarks based on actual data, not industry averages.
 
-### How do I know if my current marketing agency is performing well?
+**How do I know if my current marketing agency is performing well?**
 
 Ask them one question: what is my cost per retained client by channel? If they can't answer that clearly — broken down by Google Ads, SEO, LSAs, and referrals — they're reporting on activity, not results. That's where an independent audit adds the most value.

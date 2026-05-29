@@ -55,18 +55,18 @@ If you're a Sarasota law firm — particularly in estate planning, business law,
 
 ## FAQs
 
-### Is the Sarasota legal market less competitive than Tampa?
+**Is the Sarasota legal market less competitive than Tampa?**
 
 Yes, but that's changing. Sarasota has fewer firms running aggressive digital campaigns, which creates opportunity for firms that invest in local SEO and targeted content. However, the growing population is attracting more firms and more marketing spend. The window for gaining ground affordably is narrowing.
 
-### What practice areas are strongest in Sarasota?
+**What practice areas are strongest in Sarasota?**
 
 Estate planning and trust litigation are disproportionately strong due to Sarasota's demographics. Business law and real estate disputes are growing with the local economy. PI is present but less saturated than in Pinellas or Hillsborough counties. Your marketing strategy should reflect the practice area mix that actually drives revenue for your firm.
 
-### How much should a Sarasota law firm spend on marketing?
+**How much should a Sarasota law firm spend on marketing?**
 
 It depends entirely on your practice area and your cost per retained client targets. An estate planning firm with high lifetime client value might justify more spend per lead than a high-volume PI practice. I help firms set benchmarks based on their actual revenue data, not generic industry percentages.
 
-### Do I need Sarasota-specific content, or can I use Tampa Bay-wide content?
+**Do I need Sarasota-specific content, or can I use Tampa Bay-wide content?**
 
 You need both, but Sarasota-specific content is non-negotiable. Potential clients in Sarasota search for "Sarasota estate planning attorney" and "Sarasota business lawyer" — not "Tampa Bay lawyer." Your Google Business Profile, service pages, and blog content should explicitly target Sarasota and Sarasota County.

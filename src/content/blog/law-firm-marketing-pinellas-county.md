@@ -62,18 +62,18 @@ I work with mid-size firms across Pinellas County — typically those spending $
 
 ## FAQs
 
-### How many law firms are competing in Pinellas County?
+**How many law firms are competing in Pinellas County?**
 
 Pinellas County has over 3,000 active Florida Bar members. In competitive practice areas like PI, the top 10-15 firms account for the majority of digital ad spend. But that concentration means there are significant gaps in other practice areas and geographic sub-markets within the county.
 
-### Should I target "Pinellas County" or specific cities in my marketing?
+**Should I target "Pinellas County" or specific cities in my marketing?**
 
 Both. City-level targeting (St. Petersburg, Clearwater, Largo, etc.) captures higher-intent searches with less competition. County-level targeting picks up broader searches and reinforces geographic authority. Your content strategy should include both layers.
 
-### What's a reasonable cost per retained client in Pinellas County?
+**What's a reasonable cost per retained client in Pinellas County?**
 
 It varies dramatically by practice area. PI firms in Pinellas might see $300-$800 per retained client through paid channels. Family law is typically $150-$350. Estate planning can be under $200 with good organic positioning. The key is knowing your number and benchmarking against your client lifetime value.
 
-### Can a small firm compete with the big PI firms in Pinellas County?
+**Can a small firm compete with the big PI firms in Pinellas County?**
 
 Not on their terms. You won't outspend Morgan & Morgan or Winters & Yonker on Google Ads. But you can outperform them in specific sub-markets — geographic niches, practice area niches, or through superior intake conversion. Strategy beats budget when budget isn't an option.
