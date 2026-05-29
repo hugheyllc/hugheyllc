@@ -221,5 +221,15 @@
       ]
     }
   ],
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "crons": [
+    {
+      "path": "/api/twitter-queue",
+      "schedule": "0 13 * * *"
+    },
+    {
+      "path": "/api/twitter-queue",
+      "schedule": "0 19 * * *"
+    }
+  ]
 }
