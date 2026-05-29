@@ -59,45 +59,56 @@ These placements combine backlinks with brand authority. One guest post on any o
 
 ---
 
-## Tier 2: Directory Listings (Quick Wins)
+## Tier 2: Directory Listings (Quick Wins — FREE ONLY)
 
-These are foundational citations. Do all of these in Week 1 — they're free and provide consistent NAP (Name/Address/Phone) signals.
+All listings below are free to create. Do these in Week 1 — they build consistent NAP (Name/Address/Phone) signals that Google uses for local prominence.
 
-### Legal Directories
-
-| Directory | URL | Notes |
-|-----------|-----|-------|
-| Avvo | avvo.com | Create consultant profile |
-| FindLaw | findlaw.com/lawyers | Claim/create listing |
-| Martindale-Hubbell | martindale.com | Profile page |
-| Legal Marketing Association | legalmarketing.org/directory | Member directory |
-| Chambers & Partners | chambers.com | Editorial profile |
-| Best Lawyers | bestlawyers.com | Directory listing |
-| NOLO | nolo.com | Legal directory |
-
-### Marketing/Business Directories
+### Legal / Professional Directories (Free)
 
 | Directory | URL | Notes |
 |-----------|-----|-------|
-| Clutch.co | clutch.co | Legal marketing services category |
-| G2 | g2.com | Professional services consultant listing |
-| GoodFirms | goodfirms.co | Marketing consultant category |
-| Expertise.com | expertise.com | "Best marketing consultants Tampa Bay" |
-| Thumbtack | thumbtack.com | Local services profile |
-| UpCity | upcity.com | Digital marketing consultant |
-| HubSpot Marketplace | ecosystem.hubspot.com | Agency/consultant directory |
+| Avvo | avvo.com | Free consultant/attorney-adjacent profile |
+| LinkedIn Company Page | linkedin.com/company | Free business page |
+| Justia | justia.com | Free legal professional directory |
+| HG.org | hg.org | Free legal professional listing |
+| LawInfo | lawinfo.com | Free basic listing |
+| Lawyers.com | lawyers.com | Free basic profile (Martindale subsidiary) |
 
-### Local Tampa Bay Citations
+### Marketing/Business Directories (Free)
 
 | Directory | URL | Notes |
 |-----------|-----|-------|
-| Google Business Profile | business.google.com | Already critical for local SEO |
-| Yelp Business | biz.yelp.com | Services category |
-| BBB | bbb.org | St. Petersburg, FL listing |
-| Tampa Bay Chamber | tampabay.org | Member listing |
-| St. Pete Chamber | stpetechamber.com | Member directory |
-| Florida Bar Directory | floridabar.org | Consultant/vendor listing |
-| Tampa Bay Business Journal | bizjournals.com/tampabay | Business profile |
+| Clutch.co | clutch.co | Free profile — agencies + consultants |
+| GoodFirms | goodfirms.co | Free marketing consultant listing |
+| Agency Spotter | agencyspotter.com | Free agency/consultant profile |
+| Expertise.com | expertise.com | Free — they find and list you (submit a request) |
+| The Manifest | themanifest.com | Free business listing |
+| DesignRush | designrush.com | Free agency/consultant profile |
+
+### Local Tampa Bay Citations (Free)
+
+| Directory | URL | Notes |
+|-----------|-----|-------|
+| Google Business Profile | business.google.com | Free — highest priority |
+| Yelp Business | biz.yelp.com | Free basic listing |
+| Bing Places | bingplaces.com | Free — mirrors GBP |
+| Apple Maps Connect | mapsconnect.apple.com | Free — growing in importance |
+| Facebook Business | facebook.com/business | Free business page |
+| Foursquare for Business | business.foursquare.com | Free — feeds many data aggregators |
+| Hotfrog | hotfrog.com | Free local business listing |
+| Manta | manta.com | Free small business listing |
+| EZlocal | ezlocal.com | Free local business directory |
+| Brownbook | brownbook.net | Free business directory |
+
+### Data Aggregators (Free — Multiplies Your Citations)
+
+These four companies power hundreds of downstream directories. Submit once, get listed everywhere.
+
+| Aggregator | URL | Notes |
+|-----------|-----|-------|
+| Data Axle (formerly Infogroup) | data-axle.com | Submit free at expressupdate.com |
+| Localeze | neustarlocalbusiness.com | Free submission |
+| Factual / Foursquare | foursquare.com/business | Powers Apple Maps + many others |
 
 ---
 
