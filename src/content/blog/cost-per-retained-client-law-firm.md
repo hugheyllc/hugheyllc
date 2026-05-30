@@ -37,7 +37,7 @@ Calculating cost-per-retained-client is straightforward. The hard part is having
 
 **Basic formula:**
 
-**Cost Per Retained Client = Total Marketing Spend ÷ Total Retained Clients**
+**Cost Per Retained Client = Total Marketing Spend / Total Retained Clients**
 
 That gives you the blended number. Useful, but not actionable enough. To actually make decisions, you need to break it down by channel.
 
@@ -50,7 +50,7 @@ For each marketing channel (Google Ads, SEO, referral marketing, directories, so
 3. **Consultations booked** from those leads
 4. **Clients retained** from those consultations
 
-Then: **Channel spend ÷ Clients retained from that channel = Channel CPRC**
+Then: **Channel spend / Clients retained from that channel = Channel CPRC**
 
 ### A Real Example With Numbers
 
