@@ -1,7 +1,7 @@
 ---
 title: "Law Firm Marketing Consultant in Tampa, FL"
 slug: "law-firm-marketing-consultant-tampa-fl"
-date: 2026-05-29
+date: 2026-02-10
 author: "Joe Hughey"
 excerpt: "Tampa has one of the most competitive law firm marketing markets in Florida. Most firms are overspending and underperforming. Here's what an independent consultant brings that an agency can't."
 tags: ["law firm marketing", "Tampa Bay", "local SEO", "Tampa", "legal marketing consultant"]

@@ -1,7 +1,7 @@
 ---
 title: "Law Firm Marketing Consultant in St. Petersburg, FL"
 slug: "law-firm-marketing-st-petersburg-fl"
-date: 2026-05-28
+date: 2026-02-24
 author: "Joe Hughey"
 excerpt: "St. Petersburg law firms face a unique competitive landscape. Here's how an independent marketing consultant helps you win — measured by cost per retained client, not vanity metrics."
 tags: ["law firm marketing", "Tampa Bay", "local SEO", "St. Petersburg", "legal marketing consultant"]

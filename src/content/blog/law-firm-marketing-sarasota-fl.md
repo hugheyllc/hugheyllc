@@ -1,7 +1,7 @@
 ---
 title: "Law Firm Marketing Consultant for Sarasota Law Firms"
 slug: "law-firm-marketing-sarasota-fl"
-date: 2026-05-26
+date: 2026-03-10
 author: "Joe Hughey"
 excerpt: "Sarasota's legal market is different from Tampa — more affluent clients, more estate planning and business law, and less cutthroat competition. Here's how to market accordingly."
 tags: ["law firm marketing", "Sarasota", "legal marketing consultant", "law firm strategy", "Tampa Bay"]

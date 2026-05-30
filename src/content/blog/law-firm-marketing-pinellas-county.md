@@ -1,7 +1,7 @@
 ---
 title: "Law Firm Marketing in Pinellas County: What Actually Works"
 slug: "law-firm-marketing-pinellas-county"
-date: 2026-05-25
+date: 2026-03-25
 author: "Joe Hughey"
 excerpt: "Pinellas County has one of the densest legal markets in Florida. Here's what actually works for law firm marketing — and what national agencies consistently get wrong."
 tags: ["law firm marketing", "Pinellas County", "local SEO", "Tampa Bay", "legal marketing consultant"]
