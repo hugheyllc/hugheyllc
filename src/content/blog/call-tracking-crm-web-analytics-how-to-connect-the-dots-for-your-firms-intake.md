@@ -8,7 +8,7 @@ tags: ["marketing analytics", "intake optimization", "law firm marketing", "law 
 seo_title: "Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake"
 seo_description: "The Silent Revenue Leak in Law Firm Marketing Law firms often lose clients not due to lack of leads, but because their data systems don’t communicate. Phone cal"
 draft: false
-image: "/images/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake.png"
+image: "/images/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake.jpg"
 ---
 
 <article>

@@ -109,6 +109,7 @@ const breadcrumbSchema = {
   canonical={`https://hugheyllc.com/blog/${entry.id}/`}
   ogImage={ogImage}
   schema={[articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
+  preloadImage={coverImage}
 >
   <article style="background: var(--ink); color: var(--white);">
     {coverImage ? (

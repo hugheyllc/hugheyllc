@@ -8,7 +8,7 @@ tags: ["attorney website","landing page","law firm conversion","PPC law firm"]
 seo_title: "Why Law Firm Landing Pages Fail — And the 7 Elements That Make Them Convert"
 seo_description: "A law firm landing page that doesn't convert is just an expensive page. Here are the 7 specific elements that separate landing pages generating leads from ones"
 draft: false
-image: "/images/blog/law-firm-landing-page-optimization.png"
+image: "/images/blog/law-firm-landing-page-optimization.jpg"
 ---
 
 You're spending money driving traffic to your law firm's website. Whether it's [Google Ads](https://ads.google.com), local SEO, or referral campaigns — every visitor that lands and leaves without converting is a dollar that didn't return.

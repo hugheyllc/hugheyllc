@@ -8,7 +8,7 @@ tags: ["law-firm-marketing-consultant-tampa-bay", "tampa-bay-legal-marketing", "
 seo_title: "Law Firm Marketing Consultant Tampa Bay: What to Look For"
 seo_description: "What Tampa Bay law firms should look for in a marketing consultant. Covers the local legal market, why national agencies miss local nuances, and what independent consulting delivers."
 draft: false
-image: "/images/blog/law-firm-marketing-consultant-tampa-bay.png"
+image: "/images/blog/law-firm-marketing-consultant-tampa-bay.jpg"
 ---
 
 Tampa Bay is one of the most competitive legal markets in Florida. Between Tampa, St. Petersburg, Clearwater, and Sarasota, there are thousands of practicing attorneys competing for the same pool of prospective clients — and most of them are spending money on marketing without a clear picture of what's working.

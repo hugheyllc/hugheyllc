@@ -8,7 +8,7 @@ tags: ["law firm marketing", "Tampa Bay", "local SEO", "St. Petersburg", "legal 
 seo_title: "Law Firm Marketing Consultant in St. Petersburg, FL | Joe Hughey"
 seo_description: "Independent law firm marketing consultant serving St. Petersburg, FL. Data-driven strategy focused on cost per retained client for PI, family law, and business litigation firms."
 draft: false
-image: "/images/blog/law-firm-marketing-st-petersburg-fl.png"
+image: "/images/blog/law-firm-marketing-st-petersburg-fl.jpg"
 ---
 
 A law firm marketing consultant in St. Petersburg, FL helps firms cut through an increasingly competitive legal market by building strategy around the metric that actually matters: cost per retained client. St. Petersburg is not Tampa. The competitive dynamics in Pinellas County's largest city are distinct — a dense concentration of personal injury, family law, and criminal defense firms competing for a population of roughly 260,000, all packed into a peninsula with nowhere to sprawl. That geographic constraint means every marketing dollar has to work harder. An independent consultant — someone who doesn't sell you the execution — brings objectivity your agency can't. I evaluate what's working, what's bleeding money, and what your competitors are doing that you're ignoring.

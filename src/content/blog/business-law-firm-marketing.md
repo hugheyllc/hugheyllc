@@ -8,7 +8,7 @@ tags: ["b2b-law-firm-marketing", "business-law-firm-marketing", "business-litiga
 seo_title: "Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026"
 seo_description: "Business law firm marketing operates on fundamentally different principles than consumer practice marketing. Longer sales cycles, relationship-driven decisions,"
 draft: false
-image: "/images/blog/business-law-firm-marketing.png"
+image: "/images/blog/business-law-firm-marketing.jpg"
 ---
 
 Business law firm marketing is a fundamentally different discipline from consumer legal marketing — and the firms that apply consumer marketing tactics to B2B legal services typically get poor results because the underlying client decision dynamics are different.

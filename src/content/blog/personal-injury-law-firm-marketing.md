@@ -8,7 +8,7 @@ tags: ["florida-pi-marketing", "personal-injury-attorney-tampa", "personal-injur
 seo_title: "Personal Injury Law Firm Marketing: The Complete Digital Strategy for Florida PI Attorneys"
 seo_description: "Personal injury is the most competitive practice area in Florida digital marketing. Here's the complete strategy — from Google Ads to intake automation — built "
 draft: false
-image: "/images/blog/personal-injury-law-firm-marketing.png"
+image: "/images/blog/personal-injury-law-firm-marketing.jpg"
 ---
 
 Personal injury is the most aggressively marketed practice area in Florida — and one of the most lucrative. The combination of high case values, contingency fee structures, and intensely competitive digital advertising creates a market where firms with the right marketing infrastructure compound their lead generation advantages year over year.

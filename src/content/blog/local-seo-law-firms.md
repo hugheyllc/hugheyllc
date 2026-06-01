@@ -8,7 +8,7 @@ tags: ["attorney near me","law firm local search","legal marketing Tampa","local
 seo_title: "Local SEO for Law Firms: How to Own 'Attorney Near Me' Searches in Your City"
 seo_description: "Local SEO is the highest-ROI marketing channel for most law firms — and the most misunderstood. Here's the complete playbook for dominating attorney searches in"
 draft: false
-image: "/images/blog/local-seo-law-firms.png"
+image: "/images/blog/local-seo-law-firms.jpg"
 ---
 
 When someone in your city needs an attorney, they don't flip through the Yellow Pages. They type "personal injury attorney Tampa" or "divorce lawyer near me" into Google — and they call one of the first three results they see.

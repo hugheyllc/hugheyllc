@@ -8,7 +8,7 @@ tags: ["marketing analytics", "law firm marketing", "marketing ROI", "law firm g
 seo_title: "Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025"
 seo_description: "Introduction Benchmarking is one of the most valuable tools in modern law firm marketing strategy. Without context, even a strong metric can mislead. By compari"
 draft: false
-image: "/images/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025.png"
+image: "/images/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025.jpg"
 ---
 
 ## Introduction

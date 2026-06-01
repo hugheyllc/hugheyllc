@@ -8,7 +8,7 @@ tags: ["attorney-seo", "do-i-need-seo", "law-firm-seo-agency", "legal-marketing-
 seo_title: "Do Law Firms Actually Need an SEO Agency? An Honest Answer"
 seo_description: "The honest answer to whether your law firm needs an SEO agency — and if so, what kind. Not a sales pitch. A framework for making the right decision based on you"
 draft: false
-image: "/images/blog/do-law-firms-need-seo-agency.png"
+image: "/images/blog/do-law-firms-need-seo-agency.jpg"
 ---
 
 If you search "do law firms need SEO," every result is written by an SEO agency telling you that yes, you absolutely do, and here's why you should hire them.

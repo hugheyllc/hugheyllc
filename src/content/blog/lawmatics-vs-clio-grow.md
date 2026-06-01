@@ -8,7 +8,7 @@ tags: ["clio-grow-review", "law-firm-crm", "lawmatics-review", "lawmatics-vs-cli
 seo_title: "Lawmatics vs. Clio Grow: Which Legal Intake CRM Is Right for Your Law Firm?"
 seo_description: "Lawmatics and Clio Grow are the two dominant intake CRM options for law firms — and the right choice depends heavily on your firm's size, workflow, and existing"
 draft: false
-image: "/images/blog/lawmatics-vs-clio-grow.png"
+image: "/images/blog/lawmatics-vs-clio-grow.jpg"
 ---
 
 If you're evaluating intake CRM options for your law firm, the conversation will almost inevitably come down to two platforms: [Lawmatics](/blog/) and [Clio Grow](/blog/). Both are purpose-built for legal intake, both have strong adoption in the market, and both integrate with the core platforms in a law firm's marketing stack.

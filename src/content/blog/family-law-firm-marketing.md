@@ -8,7 +8,7 @@ tags: ["divorce-attorney-marketing", "divorce-lawyer-digital-marketing", "family
 seo_title: "Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing"
 seo_description: "Family law marketing requires particular sensitivity — clients are in distress, the stakes are personal, and trust must be established before any inquiry conver"
 draft: false
-image: "/images/blog/family-law-firm-marketing.png"
+image: "/images/blog/family-law-firm-marketing.jpg"
 ---
 
 Family law clients are among the most emotionally vulnerable of any legal prospect. They're dealing with divorce, child custody, domestic violence, or other deeply personal crises — often searching for an attorney late at night, on a mobile phone, in significant distress. The marketing that reaches them, and the website experience that converts them, must account for this emotional context.

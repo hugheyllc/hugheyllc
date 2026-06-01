@@ -8,7 +8,7 @@ tags: ["attorney-advertising-florida", "florida-bar-advertising-rules", "law-fir
 seo_title: "Florida Bar Advertising Rules: What Tampa Law Firms Can (and Cannot) Do Online"
 seo_description: "Florida has some of the most specific attorney advertising rules in the country. Before investing in digital marketing, every Tampa law firm needs to understand"
 draft: false
-image: "/images/blog/florida-bar-law-firm-advertising-rules.png"
+image: "/images/blog/florida-bar-law-firm-advertising-rules.jpg"
 ---
 
 Digital marketing for law firms in Florida operates under a specific regulatory overlay that doesn't apply to other industries. The [Florida Rules of Professional Conduct](/blog/), specifically Rules 4-7.11 through 4-7.23, govern attorney advertising in ways that directly affect websites, Google Ads, social media, and review management.

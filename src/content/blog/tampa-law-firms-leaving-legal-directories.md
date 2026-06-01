@@ -8,7 +8,7 @@ tags: ["avvo-law-firm", "findlaw-alternative", "law-firm-marketing-strategy-tamp
 seo_title: "Why Tampa Law Firms Are Moving Away From Directory-Dependent Marketing"
 seo_description: "For years, paying for premium listings in legal directories was the default marketing investment for Tampa law firms. The economics have shifted dramatically. H"
 draft: false
-image: "/images/blog/tampa-law-firms-leaving-legal-directories.png"
+image: "/images/blog/tampa-law-firms-leaving-legal-directories.jpg"
 ---
 
 For roughly two decades, the law firm marketing playbook in Tampa Bay started with the same items: a directory profile on [FindLaw](/blog/), a premium listing on [Avvo](/blog/), and maybe a presence on [Martindale-Hubbell](/blog/). Pay the monthly fee, get listed, get found. The model worked well enough when legal directories dominated first-page results and law firms had limited alternatives.

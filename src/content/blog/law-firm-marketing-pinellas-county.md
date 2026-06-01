@@ -8,7 +8,7 @@ tags: ["law firm marketing", "Pinellas County", "local SEO", "Tampa Bay", "legal
 seo_title: "Law Firm Marketing in Pinellas County: What Actually Works | Joe Hughey"
 seo_description: "What actually works for law firm marketing in Pinellas County. Independent strategy consulting focused on cost per retained client for St. Pete, Clearwater, and Pinellas firms."
 draft: false
-image: "/images/blog/law-firm-marketing-pinellas-county.png"
+image: "/images/blog/law-firm-marketing-pinellas-county.jpg"
 ---
 
 Law firm marketing in Pinellas County requires a county-specific approach because Pinellas is unlike any other legal market in Florida. It's the most densely populated county in the state — roughly one million people on a peninsula that's 280 square miles. That density creates intense competition among law firms, particularly in personal injury, family law, and criminal defense. What actually works here isn't bigger budgets or flashier websites. It's understanding the local market dynamics, tracking cost per retained client by channel, and building a strategy that accounts for how Pinellas County residents actually search for and choose attorneys.

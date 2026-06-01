@@ -8,7 +8,7 @@ tags: ["Google Ads", "marketing ROI", "law firm marketing", "marketing analytics
 seo_title: "From PPC to Profit: Mapping Spend to Revenue in Your Law Practice"
 seo_description: "Many law firms spend thousands on pay-per-click (PPC) advertising but struggle to connect those investments to actual revenue. This article walks through a prac"
 draft: false
-image: "/images/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice.png"
+image: "/images/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice.jpg"
 ---
 
 Many law firms spend thousands on pay-per-click (PPC) advertising but struggle to connect those investments to actual revenue. This article walks through a practical, data-driven system to map your PPC spend all the way to profit, helping you make smarter marketing decisions.

@@ -8,7 +8,7 @@ tags: ["law-firm-intake", "lead-conversion", "law-firm-marketing"]
 seo_title: "Why Speed-to-Contact Is the #1 Driver of Law Firm Growth"
 seo_description: "Your phone rings. A prospective client is ready to hire. Somewhere in your office, the call goes to voicemail because nobody's available to pick it up."
 draft: false
-image: "/images/blog/law-firm-intake-speed.png"
+image: "/images/blog/law-firm-intake-speed.jpg"
 ---
 
 ## The Metric That Actually Predicts Your Growth

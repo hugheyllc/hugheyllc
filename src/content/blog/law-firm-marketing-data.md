@@ -8,7 +8,7 @@ tags: ["callrail", "ga4", "lawmatics", "legal-marketing-roi", "marketing-attribu
 seo_title: "The Marketing Data Your Law Firm Already Has (And Isn't Using)"
 seo_description: "Most law firms have GA4, CallRail, Lawmatics, and Google Ads — but none of them talk to each other. Here's the attribution problem costing you budget, and how t"
 draft: false
-image: "/images/blog/law-firm-marketing-data.png"
+image: "/images/blog/law-firm-marketing-data.jpg"
 ---
 
 Most law firms are drowning in marketing data and starving for marketing insight.

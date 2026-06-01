@@ -8,7 +8,7 @@ tags: ["marketing analytics", "law firm growth", "law firm marketing", "marketin
 seo_title: "How Predictive Analytics Is Changing Law Firm Growth Strategy"
 seo_description: "Introduction: The Next Frontier in Legal Marketing Data Most law firms look backward when they review their numbers — how many leads came in, which campaigns wo"
 draft: false
-image: "/images/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy.png"
+image: "/images/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy.jpg"
 ---
 
 ## Introduction: The Next Frontier in Legal Marketing Data

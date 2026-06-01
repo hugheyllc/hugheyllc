@@ -8,7 +8,7 @@ tags: ["marketing analytics", "marketing ROI", "law firm marketing", "local SEO"
 seo_title: "The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients"
 seo_description: "Legal directories influence far more clients than traditional analytics can measure. This guide explains why last-touch reporting fails and how to uncover the t"
 draft: false
-image: "/images/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients.png"
+image: "/images/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients.jpg"
 ---
 
 *Legal directories influence far more clients than traditional analytics can measure. This guide explains why last-touch reporting fails and how to uncover the true ROI of legal directories in an AI-driven world.*

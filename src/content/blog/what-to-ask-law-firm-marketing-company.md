@@ -8,7 +8,7 @@ tags: ["attorney-marketing-questions", "hiring-law-firm-marketing", "law-firm-ma
 seo_title: "What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)"
 seo_description: "The questions most law firms never ask their marketing vendors — and should. 15 direct questions that separate marketing companies who will deliver from those w"
 draft: false
-image: "/images/blog/what-to-ask-law-firm-marketing-company.png"
+image: "/images/blog/what-to-ask-law-firm-marketing-company.jpg"
 ---
 
 Most law firms hire marketing vendors the same way they hire any professional service: a few conversations, some reference checks, a proposal review, and a decision based largely on comfort and price. The outcome is often years of mediocre results and unclear accountability.
