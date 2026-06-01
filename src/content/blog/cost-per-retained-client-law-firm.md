@@ -15,7 +15,7 @@ Cost-per-retained-client is the total amount your law firm spends on marketing t
 
 Most law firms never calculate this number. They track cost-per-lead, cost-per-click, or impressions. Those metrics tell you how efficiently your marketing generates attention. They tell you nothing about whether that attention turns into signed retainer agreements. A firm spending $15,000 per month on marketing that retains 10 new clients has a cost-per-retained-client of $1,500. A firm spending $8,000 that retains 3 clients is paying $2,667 per retained client — despite the lower budget. The second firm has the bigger problem, and cost-per-lead would never reveal it.
 
-This is the number I build every engagement around. If you want to understand [how to track your law firm's actual marketing ROI](/blog/law-firm-marketing-roi-tracking/), cost-per-retained-client is where it starts.
+This is the number I build every engagement around. If you want to understand [how to track your law firm's actual marketing ROI](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/), cost-per-retained-client is where it starts.
 
 According to the [American Bar Association's 2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/resources/tech-report/), a majority of law firms still don't track marketing ROI beyond basic lead volume — which explains why so many firms feel like their marketing spend is a black box.
 
@@ -108,3 +108,13 @@ Cost-per-retained-client eliminates the guesswork. It connects every marketing d
 If you're not tracking this number, you're flying blind. And if your marketing agency can't produce it, that tells you something about what they're optimizing for.
 
 [I help law firms build this framework and hold their marketing accountable to it. Let's talk.](/contact)
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)

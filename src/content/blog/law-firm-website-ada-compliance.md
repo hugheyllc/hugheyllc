@@ -17,7 +17,7 @@ Beyond the legal risk, website accessibility has a direct relationship with SEO 
 
 ## The Legal Landscape
 
-The practical standard most courts and accessibility experts reference is [WCAG 2.1 Level AA](/blog/). Meeting WCAG 2.1 AA is the most defensible position against an accessibility lawsuit, and it's the standard we build to at [Hughey, LLC](/blog/). Consult an ADA attorney about your specific risk profile — this covers technical best practices, not legal advice.
+The practical standard most courts and accessibility experts reference is [WCAG 2.1 Level AA](/blog/). Meeting WCAG 2.1 AA is the most defensible position against an accessibility lawsuit, and it's the standard we build to at [Hughey, LLC](https://hugheyllc.com/). Consult an ADA attorney about your specific risk profile — this covers technical best practices, not legal advice.
 
 ## Highest-Risk Issues for Law Firm Websites
 
@@ -61,10 +61,12 @@ Automated tools catch roughly 30–40% of accessibility issues. A full WCAG 2.1 
 [Get an Accessibility Audit →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
-
-- [The Law Firm SEO Audit: 10 Things to Check First](/blog/law-firm-seo-audit/)
-
-- [Why Smart Law Firms Are Ditching WordPress](/blog/law-firms-ditching-wordpress/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)
+- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
+- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)

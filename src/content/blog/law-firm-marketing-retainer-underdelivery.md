@@ -59,12 +59,12 @@ The retainer model, by design, creates a services relationship rather than an ou
 [Get an Independent Marketing Audit →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Law Firm Marketing Agency vs. Technical Partner](/blog/law-firm-marketing-agency-vs-technical-partner/)
-
-- [How to Track Your Law Firm's Marketing ROI](/blog/)
-
-- [The Marketing Data Your Law Firm Is Sitting On](/blog/)
-
-- [The Law Firm Marketing Technology Stack Guide](/blog/ai-tools-law-firm-marketing/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](https://hugheyllc.com/blog/law-firm-marketing-attribution-guide-cfos/)
+- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](https://hugheyllc.com/blog/what-to-ask-law-firm-marketing-company/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)

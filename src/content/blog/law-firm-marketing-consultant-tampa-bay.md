@@ -90,3 +90,13 @@ I'm Joe Hughey — an independent law firm marketing consultant based in Tampa B
 If you're a firm principal in Tampa, St. Petersburg, Clearwater, Sarasota, or anywhere in the Tampa Bay area, I'd welcome a conversation about your marketing. No pitch, no proposal — just an honest assessment.
 
 [Schedule a consultation](/contact).
+
+If you'd like a second opinion from an [law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
+- [Law Firm Marketing Consultant for Sarasota Law Firms](https://hugheyllc.com/blog/law-firm-marketing-sarasota-fl/)
+- [Law Firm Marketing Consultant in St. Petersburg, FL](https://hugheyllc.com/blog/law-firm-marketing-st-petersburg-fl/)

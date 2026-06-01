@@ -60,16 +60,12 @@ The biggest opportunities for law firms in 2026 lie in:
 - **Video and immersive content.** Produce educational videos and live Q&amp;A sessions to build authority and trust.
 - **Performance reporting.** Build dashboards that connect marketing spend to revenue outcomes across multiple touchpoints.
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 
-### Suggested Links
+### Related Reading
 
-
-
-- [SEO for Law Firms in an AI‑First Search World](/blog/) (expand for deeper tactics).
-- [The Intake System Is the Most Important Marketing Channel](/blog/) (dive into response times and AI intake strategies).
-- [Legal Marketing KPIs That Actually Predict Growth](/blog/) (for metrics and dashboards).
-- [Hennessey Digital’s 2025 Lead Form Response Time Study](/blog/) for benchmark data on law firm response times.
-- [ALM’s report on AI‑powered intake](/blog/) for case studies on conversion improvements
-- [EverSpark’s 2025 Legal Marketing Trends](/blog/) for trends on video, personalization and ethical marketing.
-- [9Sail’s Generative Engine Optimization guide](/blog/) for AI search tactics.
+- [Hyper Personalization and Client Experience: How Law Firms Win in 2025](https://hugheyllc.com/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/)
+- [How Prompt Engineering Is Transforming Legal Practice in 2025](https://hugheyllc.com/blog/prompt-engineering-for-law-firms-2025/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)

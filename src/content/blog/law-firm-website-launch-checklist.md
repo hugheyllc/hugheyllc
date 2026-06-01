@@ -75,12 +75,12 @@ This checklist is the pre-launch process we run on every [law firm website build
 [Get a Pre-Launch Site Review →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
-
-- [The Law Firm SEO Audit: 10 Things to Check First](/blog/law-firm-seo-audit/)
-
-- [Why Smart Law Firms Are Ditching WordPress](/blog/law-firms-ditching-wordpress/)
-
-- [Law Firm Schema Markup: The Technical SEO Most Attorneys Are Missing](/blog/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
+- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
+- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)

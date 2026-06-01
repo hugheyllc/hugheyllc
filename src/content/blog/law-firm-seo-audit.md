@@ -61,7 +61,7 @@ This is technically a marketing measurement issue rather than an SEO issue, but 
 
 A thorough SEO audit will typically surface a mix of quick wins (missing meta descriptions, broken redirects) and longer-term structural work (site architecture, backlink building). Prioritize by impact: fix anything that's actively blocking crawling or indexing first, then address on-page optimization, then pursue off-page authority building.
 
-At [Hughey, LLC](/blog/), a comprehensive technical and content audit is the starting point for every law firm SEO engagement. There's no point in building on a broken foundation — and there's no way to know what's broken until you look.
+At [Hughey, LLC](https://hugheyllc.com/), a comprehensive technical and content audit is the starting point for every law firm SEO engagement. There's no point in building on a broken foundation — and there's no way to know what's broken until you look.
 
 <hr />
 <div>
@@ -71,10 +71,12 @@ At [Hughey, LLC](/blog/), a comprehensive technical and content audit is the sta
 [Request Your Free SEO Audit →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors](/blog/)
-
-- [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](/blog/)
-
-- [Why Smart Law Firms Are Ditching WordPress — And What They're Moving To](/blog/law-firms-ditching-wordpress/)
+- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](https://hugheyllc.com/blog/st-petersburg-law-firm-seo/)
+- [Do Law Firms Actually Need an SEO Agency? An Honest Answer](https://hugheyllc.com/blog/do-law-firms-need-seo-agency/)
+- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
+- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)

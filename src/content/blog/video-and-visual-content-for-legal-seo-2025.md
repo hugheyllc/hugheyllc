@@ -118,3 +118,13 @@ They are highly beneficial. YouTube boosts visibility, provides additional ranki
 <h2>Ready to bring visual and interactive content into your firm's SEO strategy?
 Schedule a discovery call.</h2>				
 [Book a discovery call](/blog/)
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
+- [The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025](https://hugheyllc.com/blog/small-firm-aeo-playbook/)

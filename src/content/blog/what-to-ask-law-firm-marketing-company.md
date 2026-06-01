@@ -57,7 +57,7 @@ Here are the 15 questions that do. They're direct, specific, and uncomfortable f
 
 **15. What would success look like for our firm specifically at 6 months and 12 months?** This separates vendors who have genuinely thought about your situation from those presenting a templated pitch.
 
-At [Hughey, LLC](/blog/), we welcome every one of these questions — because our answers are specific, technically grounded, and tied to business outcomes.
+At [Hughey, LLC](https://hugheyllc.com/), we welcome every one of these questions — because our answers are specific, technically grounded, and tied to business outcomes.
 
 <hr />
 <div>
@@ -67,12 +67,12 @@ At [Hughey, LLC](/blog/), we welcome every one of these questions — because ou
 [Start the Conversation →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Law Firm Marketing Agency vs. Technical Partner](/blog/law-firm-marketing-agency-vs-technical-partner/)
-
-- [Do Law Firms Actually Need an SEO Agency?](/blog/)
-
-- [Law Firm Website Ownership: Why Rented Sites Are a Hidden Risk](/blog/)
-
-- [Why Law Firm Marketing Retainers Often Underdeliver](/blog/law-firm-marketing-retainer-underdelivery/)
+- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](https://hugheyllc.com/blog/law-firm-marketing-attribution-guide-cfos/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)

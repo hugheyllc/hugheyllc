@@ -43,7 +43,7 @@ A dedicated practice area section with links to each practice area page serves t
 
 ## Attorney Bios: The Section That Builds Personal Trust
 
-Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/) with credentials detailed at depth supporting [E-E-A-T evaluation](/blog/eeat-law-firm-seo/).
+Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/) with credentials detailed at depth supporting [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/).
 
 ## The Secondary CTA: Capturing Visitors Who Aren't Ready Yet
 
@@ -61,7 +61,7 @@ Not every visitor is ready to call. A secondary CTA — a free guide download, n
 
 - Internal links to each primary practice area page
 
-All of these are standard in every homepage we build at [Hughey, LLC](/blog/). The full framework: [law firm website design and development guide](/blog/).
+All of these are standard in every homepage we build at [Hughey, LLC](https://hugheyllc.com/). The full framework: [law firm website design and development guide](/blog/).
 
 <hr />
 <div>
@@ -71,12 +71,12 @@ All of these are standard in every homepage we build at [Hughey, LLC](/blog/). T
 [Audit My Homepage →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
-
-- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
-
-- [Why Law Firm Landing Pages Fail — 7 Elements That Convert](/blog/law-firm-landing-page-optimization/)
-
-- [Build a Law Firm Website That Ranks AND Converts](/blog/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)

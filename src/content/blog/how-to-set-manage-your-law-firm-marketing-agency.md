@@ -153,31 +153,12 @@ If your agency’s reports don’t translate to signed clients, it’s time to t
 
 [Agency Management for Law Firms](/blog/)
 
-## Related Reading
-
-[From PPC to Profit](/blog/)
-
-[Call Tracking, CRM &amp; Web Analytics](/blog/)
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 
-## FAQs
+### Related Reading
 
-**What should a law firm look for when choosing a marketing agency?**
-
-Choose an agency that provides full data transparency, shared access to platforms, and KPI-based reporting tied to actual signed clients — not vanity metrics.
-
-**How can a firm measure whether an agency is producing real ROI?**
-
-Connect marketing data to intake data. Track CPL, conversions, retained clients, and budget efficiency through a KPI scorecard.
-
-**Why is shared data access important?**
-
-Your firm must own GA4, Google Ads, call tracking, and CRM access. This ensures honest reporting and prevents overspending.
-
-**How often should a firm review its agency’s performance?**
-
-Monthly KPI reviews + quarterly accountability reviews.
-
-**When should a firm replace its marketing agency?**
-
-If reporting is vague, data is restricted, or KPIs decline for multiple cycles, it’s time to audit or change agencies.
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
+- [Why Most Law Firm Marketing Reports Are Fiction](https://hugheyllc.com/blog/marketing-reports-fake/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)

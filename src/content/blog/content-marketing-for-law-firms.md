@@ -86,3 +86,13 @@ Every blog post should link to at least one practice area page. Every practice a
 This isn't complicated. It takes five minutes per post. But it turns your content from a collection of individual pages into a system — one that guides people deeper into your site and gives Google a coherent map of your expertise.
 
 Content marketing works for law firms. But only when it's built for clients first, structured strategically second, and measured against the only metric that matters: cases you actually sign.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [The Law Firm Content Marketing Strategy That Generates Cases, Not Just Traffic](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
+- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)

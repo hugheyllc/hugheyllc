@@ -133,3 +133,13 @@ Here's how I'd approach keyword research for a personal injury firm in Tampa fro
 **Step 5 — Assign to page types.** Commercial terms get dedicated practice area pages. Informational terms get blog posts or FAQ content. Long-tail case-specific queries get worked into existing pages as subheadings or expanded into their own pages if volume justifies it.
 
 The result is a keyword map that ties every piece of content on the site to actual search demand — nothing built on guesswork, everything traceable back to what Tampa clients are actually searching when they need help.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](https://hugheyllc.com/blog/law-firm-keyword-research/)
+- [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
+- [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](https://hugheyllc.com/blog/family-law-firm-marketing/)
+- [The Law Firm SEO Audit: 10 Things to Check Before You Spend Another Dollar on Marketing](https://hugheyllc.com/blog/law-firm-seo-audit/)

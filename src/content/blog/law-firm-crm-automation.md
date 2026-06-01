@@ -57,12 +57,12 @@ The automation workflow produces its maximum value when connected to the [full a
 [Build My Intake Automation →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [The Law Firm Marketing Technology Stack: A Complete Guide](/blog/ai-tools-law-firm-marketing/)
-
-- [Lawmatics vs. Clio Grow: Which Intake CRM Is Right for Your Firm?](/blog/)
-
-- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/)
-
-- [Track Law Firm Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)
+- [Why Speed-to-Contact Is the #1 Driver of Law Firm Growth](https://hugheyllc.com/blog/law-firm-intake-speed/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+- [Lawmatics vs. Clio Grow: Which Legal Intake CRM Is Right for Your Law Firm?](https://hugheyllc.com/blog/lawmatics-vs-clio-grow/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)

@@ -19,7 +19,7 @@ Most law firm marketing agencies treat Tampa Bay as one homogeneous market. That
 
 The competitive landscape here is fierce. Several well-funded PI firms dominate paid search, and national marketing agencies have convinced dozens of local firms that more spend equals more cases. It doesn't. I've seen St. Pete firms spending $15,000 per month on Google Ads with no idea what their actual cost per retained client looks like. That's not marketing — it's hope.
 
-If you're running a firm in St. Petersburg and your marketing agency can't tell you your [cost per retained client](/blog/cost-per-retained-client-law-firm/) broken down by channel, you have a strategy problem, not a budget problem.
+If you're running a firm in St. Petersburg and your marketing agency can't tell you your [cost per retained client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/) broken down by channel, you have a strategy problem, not a budget problem.
 
 ## What an Independent Consultant Does Differently
 
@@ -33,13 +33,13 @@ Here's what that looks like for a St. Petersburg firm:
 
 **Intake optimization.** Your marketing can generate all the leads in the world, but if your intake process loses 40% of them — which is common — you're lighting money on fire. I map the full funnel from click to retained client.
 
-**Local SEO strategy.** St. Petersburg firms need to own their [local search presence](/blog/local-seo-law-firms/). That means a properly optimized Google Business Profile, consistent NAP data, and content that actually targets St. Pete-specific searches — not generic "Florida personal injury" pages.
+**Local SEO strategy.** St. Petersburg firms need to own their [local search presence](https://hugheyllc.com/blog/local-seo-law-firms/). That means a properly optimized Google Business Profile, consistent NAP data, and content that actually targets St. Pete-specific searches — not generic "Florida personal injury" pages.
 
 ## The Pinellas County Advantage
 
 Operating in Pinellas County gives St. Petersburg firms a built-in differentiator if they use it correctly. The Sixth Judicial Circuit covers both Pinellas and Pasco counties, and understanding how cases flow through this system matters for your marketing. Potential clients searching after an accident on I-275, a family matter filed in the St. Petersburg courthouse, or a business dispute in Pinellas — they all have different intent, different urgency, and different expectations.
 
-Your marketing should reflect that. Generic content doesn't cut it. Firms that create location-specific, practice-specific content outperform those running the same playbook they'd use in Orlando or Jacksonville. I've written about this dynamic in the broader [Tampa Bay marketing landscape](/blog/tampa-law-firm-marketing-landscape/) — St. Pete is the market within the market that most agencies miss.
+Your marketing should reflect that. Generic content doesn't cut it. Firms that create location-specific, practice-specific content outperform those running the same playbook they'd use in Orlando or Jacksonville. I've written about this dynamic in the broader [Tampa Bay marketing landscape](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/) — St. Pete is the market within the market that most agencies miss.
 
 ## Who This Is For
 
@@ -49,7 +49,7 @@ I work with firms that are serious about treating marketing as a business functi
 
 If you're competing against firms with bigger budgets — and in St. Petersburg PI, you almost certainly are — the answer isn't to outspend them. It's to outthink them. That starts with knowing your numbers.
 
-For firms focused specifically on [personal injury in the Tampa Bay area](/blog/personal-injury-attorney-marketing-tampa/), the St. Pete sub-market has distinct opportunities that a blanket Tampa strategy misses entirely.
+For firms focused specifically on [personal injury in the Tampa Bay area](https://hugheyllc.com/blog/personal-injury-attorney-marketing-tampa/), the St. Pete sub-market has distinct opportunities that a blanket Tampa strategy misses entirely.
 
 ## Ready to Talk?
 
@@ -74,3 +74,13 @@ There's no universal number. What matters is your cost per retained client relat
 **How do I know if my current marketing agency is performing well?**
 
 Ask them one question: what is my cost per retained client by channel? If they can't answer that clearly — broken down by Google Ads, SEO, LSAs, and referrals — they're reporting on activity, not results. That's where an independent audit adds the most value.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
+- [Law Firm Marketing in Pinellas County: What Actually Works](https://hugheyllc.com/blog/law-firm-marketing-pinellas-county/)
+- [Law Firm Marketing Consultant for Sarasota Law Firms](https://hugheyllc.com/blog/law-firm-marketing-sarasota-fl/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)

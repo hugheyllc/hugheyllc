@@ -182,3 +182,13 @@ No. AEO enhances SEO by adding structured data, clear entities, and concise answ
 **What schema should law firms use?**
 
 Organization, LegalService, Attorney, FAQ, HowTo, and Review schema.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025](https://hugheyllc.com/blog/small-firm-aeo-playbook/)
+- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+- [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](https://hugheyllc.com/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)

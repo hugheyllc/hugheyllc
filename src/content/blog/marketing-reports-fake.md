@@ -47,16 +47,12 @@ Many agencies deliver glossy dashboards filled with impressions, clicks and soci
 
 To escape vanity reporting, align your KPIs with your law firm marketing OS. Use a shared dashboard connecting your CRM, intake system and marketing platforms. Create monthly and quarterly rhythms for reviewing results, and adjust budgets based on revenue outcomes. This approach disqualifies agencies that rely on superficial metrics and positions your firm as a sophisticated buyer.
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 
-### Suggested Links
+### Related Reading
 
-- [From Click to Client](/blog/) (for mapping marketing spend to revenue).
-
-- [Legal Marketing KPIs That Actually Predict Growth](/blog/) (to define meaningful metrics).
-
-- [How to Choose a Legal Marketing Partner](/blog/) (questions to ask agencies).
-
-- [ABA’s guidance on marketing metrics and attribution](/blog/).
-
-- [Practice Proof’s 2025 benchmarking report](/blog/) for average CTR, CPC and conversion rates.
+- [How to Set &amp; Manage Your Law-Firm Marketing Agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
+- [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)

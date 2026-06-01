@@ -58,9 +58,12 @@ Our [law firm SEO and web development services](/services/) include full GBP opt
 [Request Your Free Marketing Review →](/contact/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Local SEO for Law Firms: How to Own "Attorney Near Me" Searches in Your City](/blog/local-seo-law-firms)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors](/blog/law-firm-website-seo-and-conversion)
-- [Our Law Firm SEO Services](/services/)
-</ul>
+- [Local SEO for Law Firms: How to Own 'Attorney Near Me' Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms/)
+- [How Tampa Law Firms Are Winning the Google Local Pack in 2026](https://hugheyllc.com/blog/tampa-law-firms-winning-local-pack/)
+- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
+- [Law Firm Marketing in Pinellas County: What Actually Works](https://hugheyllc.com/blog/law-firm-marketing-pinellas-county/)

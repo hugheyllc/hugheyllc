@@ -51,12 +51,12 @@ Research consistently shows that the Local Pack captures a disproportionate shar
 [Audit My Local Pack Position →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [The Law Firm Google Business Profile Guide](/blog/law-firm-google-business-profile/)
-
-- [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
-
-- [Tampa Law Firm Marketing: The 2026 Competitive Landscape](/blog/)
-
-- [St. Petersburg Law Firm SEO Guide](/blog/)
+- [Local SEO for Law Firms: How to Own 'Attorney Near Me' Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
+- [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)

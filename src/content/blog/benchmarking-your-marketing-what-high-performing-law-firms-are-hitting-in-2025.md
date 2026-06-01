@@ -145,48 +145,12 @@ Schedule your free audit:
 
 /contact/
 
-## Related Reading
-
-Call Tracking, CRM &amp; Web Analytics: [/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/](/blog/)
-
-From PPC to Profit: [/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/](/blog/)
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 
-## FAQs
+### Related Reading
 
-**How do I know if my PPC cost per lead is competitive in 2025?**
-
-Most firms fall between $300–$450 per lead; top performers hit $150–$250. Compare CPL to case value and local competition. If CPL exceeds $450 without quality improvement, review your campaigns or vendor.
-
-**What’s the most important conversion metric for law firms?**
-
-Lead-to-consult and consult-to-client rates show true intake performance.
-
-Top firms maintain:
-
-
-55–70% lead-to-consult
-
-65–80% consult-to-client
-
-If these fall, the issue may be intake — not marketing.
-
-**How often should law firms evaluate marketing benchmarks?**
-
-Quarterly.
-
-Monthly data is too volatile.
-
-High-growth firms rely on rolling 13-week averages.
-
-**Why is organic traffic growth so important?**
-
-SEO compounds over time.
-
-Top firms grow 25%+ per year; &lt;10% indicates a problem with content, technical SEO, or competition.
-
-**How do benchmarks help with vendor accountability?**
-
-Benchmarks provide objective ROI standards.
-
-Instead of impressions or clicks, evaluate:
+- [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
+- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)

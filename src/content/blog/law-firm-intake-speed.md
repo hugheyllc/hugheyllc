@@ -84,3 +84,13 @@ Start here:
 Speed-to-contact is where growth lives for law firms below 30 attorneys. It's not a nice-to-have operational metric. It's your primary growth accelerator because it maximizes the value of every marketing dollar you've already spent acquiring that prospect.
 
 The firms winning in your market aren't necessarily spending more on marketing. They're converting more of what they already have.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](https://hugheyllc.com/blog/law-firm-crm-automation/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
+- [Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know](https://hugheyllc.com/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/)

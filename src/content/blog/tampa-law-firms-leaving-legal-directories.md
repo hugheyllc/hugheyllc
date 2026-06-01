@@ -53,12 +53,12 @@ This is the strategic rebalancing we help law firm clients in Tampa Bay execute 
 [Evaluate My Directory Spend →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Tampa Law Firm Marketing: The 2026 Competitive Landscape](/blog/)
-
-- [Law Firm Website Ownership: Why Rented Sites Are a Hidden Risk](/blog/)
-
-- [How to Track Your Law Firm's Marketing ROI](/blog/)
-
-- [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Law Firm Marketing Consultant for Sarasota Law Firms](https://hugheyllc.com/blog/law-firm-marketing-sarasota-fl/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
+- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)

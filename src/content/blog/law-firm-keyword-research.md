@@ -89,12 +89,12 @@ This map becomes your editorial calendar — ensuring every piece of content tar
 [Get a Keyword Research Engagement →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [The Complete Law Firm SEO Guide (2026)](/blog/law-firm-seo-audit/)
-
-- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
-
-- [How to Build a Law Firm Website That Ranks AND Converts](/blog/)
-
-- [Local SEO for Law Firms: Own "Attorney Near Me" Searches](/blog/)
+- [Keyword Research for Lawyers: How to Find the Terms That Actually Bring in Cases](https://hugheyllc.com/blog/lawyer-keyword-research/)
+- [How Law Firms Build Backlinks Without Paying for Them](https://hugheyllc.com/blog/law-firm-link-building/)
+- [AI Search and Law Firms: How to Stay Visible as Google, ChatGPT, and Perplexity Change How Clients Find Attorneys](https://hugheyllc.com/blog/ai-search-law-firms/)
+- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)

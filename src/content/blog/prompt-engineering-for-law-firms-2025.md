@@ -129,3 +129,13 @@ Prompt engineering offers the greatest measurable ROI in high volume, language h
 **How should a law firm begin implementing AI and prompt engineering across its workflows?**
 
 Firms should begin by creating an internal AI policy, defining approved use cases, implementing data confidentiality safeguards, and training attorneys and staff on structured prompting techniques. Next, firms can test AI supported workflows within a single practice area, build prompt libraries tailored to recurring tasks, and assign oversight responsibility to a designated AI champion or operations leader. The goal is to standardize prompting practices so the firm achieves consistent, defensible, and ethically sound outputs.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Hyper Personalization and Client Experience: How Law Firms Win in 2025](https://hugheyllc.com/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [2025 in Review: How Legal Marketing, AI and Intake Actually Changed](https://hugheyllc.com/blog/2025-review/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)

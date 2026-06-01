@@ -55,12 +55,12 @@ At Tampa PI CPCs of $100+, the firms that can calculate their true cost-per-reta
 [Build My Tampa PI Marketing Infrastructure →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Personal Injury Law Firm Marketing: The Complete Florida Strategy](/blog/)
-
-- [How Tampa Law Firms Win the Google Local Pack](/blog/)
-
-- [Google Ads for Law Firms: Why Most Campaigns Fail](/blog/)
-
-- [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/)
+- [Personal Injury Law Firm Marketing: The Complete Digital Strategy for Florida PI Attorneys](https://hugheyllc.com/blog/personal-injury-law-firm-marketing/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)

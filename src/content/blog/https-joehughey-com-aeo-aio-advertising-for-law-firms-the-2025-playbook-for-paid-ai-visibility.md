@@ -78,3 +78,13 @@ Reallocate as performance data accumulates. Forecasts suggest AI-search ad share
 - Research - [Ad Auctions for LLMs via RAG](/blog/)
 - OpenAI - [Altman on possible ads](/blog/) • hiring reports for ad leadership (e.g., [TOI](/blog/))
 </article>
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025](https://hugheyllc.com/blog/small-firm-aeo-playbook/)
+- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
+- [Google Ads for Law Firms: Why Most Campaigns Fail — And What the Winning Ones Do Differently](https://hugheyllc.com/blog/google-ads-law-firms/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)

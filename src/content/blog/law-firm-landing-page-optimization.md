@@ -33,7 +33,7 @@ A high-converting landing page has one primary CTA visible without scrolling. Fo
 
 Legal is a high-stakes, high-trust purchase. Prospective clients need reassurance before they'll pick up the phone. The most effective social proof elements for law firm landing pages, in order of impact:
 
-- Star rating + number of reviews with a direct link to your [Google Business Profile](/blog/law-firm-google-business-profile)
+- Star rating + number of reviews with a direct link to your [Google Business Profile](https://hugheyllc.com/blog/law-firm-google-business-profile/)
 - 2–3 specific client testimonials (not generic praise — specific outcomes: "They recovered $180,000 for my case after another firm said I had no claim")
 - Bar association memberships and relevant certifications
 - Press mentions or case results (where ethics rules permit)
@@ -72,9 +72,12 @@ Building, optimizing, and connecting landing pages to intake workflows is a core
 [Get a Free Landing Page Audit →](/contact/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/law-firm-website-losing-clients)
-- [Google Ads for Law Firms: Why Most Campaigns Fail and What Winning Ones Do Differently](/blog/google-ads-law-firms)
-- [Our Law Firm Web Development Services](/services/)
-</ul>
+- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)

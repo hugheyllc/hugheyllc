@@ -131,3 +131,13 @@ Absolutely. Video increases engagement, time on page, and trust signals — all 
 **How often should law firms post videos?**
 
 Start with 2–3 videos per month on YouTube, LinkedIn, and your website. Consistency matters more than volume.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+- [Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know](https://hugheyllc.com/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/)
+- [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)

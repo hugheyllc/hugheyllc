@@ -39,7 +39,7 @@ Some vendors are strong in all three. Most have a primary strength in one or two
 
 **"How will the site be connected to our intake CRM?"** A website not connected to your intake workflow — [Lawmatics](/blog/), [Clio Grow](/blog/), or similar — is a brochure, not a client acquisition system. If the vendor doesn't discuss this integration proactively, it's not part of their standard build.
 
-**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/), [GA4](/blog/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/).
+**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/), [GA4](/blog/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
 
 **"Show me the practice area page SEO structure you use — specifically the schema markup, heading hierarchy, and internal linking strategy."** A vendor with a developed law firm SEO methodology will have a clear, specific answer.
 
@@ -55,7 +55,7 @@ Some vendors are strong in all three. Most have a primary strength in one or two
 
 - **Long contracts with auto-renewal** — a vendor confident in their work doesn't need contractual lock-in.
 
-At [Hughey, LLC](/blog/), we build on [Astro](/blog/) + [Decap CMS](/blog/) + [Vercel](/blog/) for performance and ownership, connect every build to your intake CRM and attribution stack, and hand over complete ownership at project close. Our complete approach: [law firm website design and development guide](/blog/).
+At [Hughey, LLC](https://hugheyllc.com/), we build on [Astro](/blog/) + [Decap CMS](/blog/) + [Vercel](/blog/) for performance and ownership, connect every build to your intake CRM and attribution stack, and hand over complete ownership at project close. Our complete approach: [law firm website design and development guide](/blog/).
 
 <hr />
 <div>
@@ -65,12 +65,12 @@ At [Hughey, LLC](/blog/), we build on [Astro](/blog/) + [Decap CMS](/blog/) + [V
 [See How We Build Law Firm Websites →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [Law Firm Website Design & Development: The Complete Guide](/blog/how-to-choose-law-firm-website-design-company/)
-
-- [Law Firm Website Ownership: Why Rented Sites Are a Hidden Risk](/blog/)
-
-- [Why Smart Law Firms Are Ditching WordPress](/blog/law-firms-ditching-wordpress/)
-
-- [What to Ask Before Hiring a Law Firm Marketing Company](/blog/)
+- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
+- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)
+- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)

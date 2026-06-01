@@ -29,7 +29,7 @@ National agencies like Scorpion, Consultwebs, and Omnizant have Tampa-area clien
 
 An independent consultant has one job: help your firm grow. There's no retainer to protect, no markup on ad spend, no platform lock-in. The only measure of success is whether your retained client count goes up at a cost that makes business sense.
 
-This is especially relevant in Tampa's [personal injury marketing](/blog/personal-injury-attorney-marketing-tampa/) market, where PPC costs per click can exceed $100 and agency competition for your budget is intense.
+This is especially relevant in Tampa's [personal injury marketing](https://hugheyllc.com/blog/personal-injury-attorney-marketing-tampa/) market, where PPC costs per click can exceed $100 and agency competition for your budget is intense.
 
 ## What I Do for Tampa Law Firms
 
@@ -75,3 +75,13 @@ We work with firms ranging from 2-attorney practices to regional firms with 50+ 
 Yes — and that's often the best setup. Most of our clients keep their existing agencies. We sit above them as the strategic and accountability layer, measuring results, managing the relationship, and ensuring all vendors are working toward the same retained-client goals.
 
 [Schedule a free strategy call to discuss your firm's marketing situation.](/contact/)
+
+If you'd like a second opinion from an [law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Law Firm Marketing Consultant in St. Petersburg, FL](https://hugheyllc.com/blog/law-firm-marketing-st-petersburg-fl/)
+- [Law Firm Marketing in Pinellas County: What Actually Works](https://hugheyllc.com/blog/law-firm-marketing-pinellas-county/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Law Firm Marketing Consultant for Sarasota Law Firms](https://hugheyllc.com/blog/law-firm-marketing-sarasota-fl/)

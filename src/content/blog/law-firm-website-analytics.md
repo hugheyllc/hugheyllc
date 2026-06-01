@@ -55,7 +55,7 @@ None of the above analysis matters if you haven't properly configured conversion
 
 Setting these up requires either direct code implementation or configuration via [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/). Once in place, you can see not just how many conversions your site generates, but which pages, which traffic sources, and which content types are driving them.
 
-This conversion data is the bridge between your website analytics and your intake CRM — the connection that makes true [marketing ROI tracking](/blog/law-firm-marketing-roi-tracking) possible.
+This conversion data is the bridge between your website analytics and your intake CRM — the connection that makes true [marketing ROI tracking](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/) possible.
 
 ## Building a Monthly Analytics Review Habit
 
@@ -78,9 +78,12 @@ Trends in these six numbers will tell you whether your digital marketing is work
 [Set Up Meaningful Analytics →](/contact/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking)
-- [The Marketing Data Your Law Firm Is Sitting On — And How to Finally Use It](/blog/law-firm-marketing-data)
-- [Our Law Firm Analytics & Marketing Technology Services](/services/)
-</ul>
+- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](https://hugheyllc.com/blog/law-firm-website-losing-clients/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)

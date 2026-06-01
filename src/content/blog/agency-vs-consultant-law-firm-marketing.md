@@ -115,3 +115,13 @@ An independent consultant's job is the opposite: to make your marketing understa
 If you're a managing partner or firm principal in Tampa Bay or anywhere in Florida, I'm happy to have a conversation about whether your current marketing is actually working. No pitch, no proposal — just an honest look at the numbers.
 
 [Get in touch](/contact) to schedule a consultation.
+
+If you'd like a second opinion from an [law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
+- [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)

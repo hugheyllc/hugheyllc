@@ -171,3 +171,13 @@ At least quarterly. Update practice areas, case types, awards, publications, spe
 You should avoid spreading yourself thin across dozens of low-value listings, but you do want corroboration across several high-quality sources. A strong baseline is: Google Business Profile + 2–3 major legal directories + your state bar profile.
 
 Directory reviews influence consumer trust directly and can be surfaced in AI summaries or third-party widgets. They also balance your GBP review profile by showing consistent sentiment and detail across multiple platforms.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
+- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)

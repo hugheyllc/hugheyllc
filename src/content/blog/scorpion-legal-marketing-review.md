@@ -105,3 +105,13 @@ If you're considering Scorpion — or any major marketing platform — do three 
 3. **Define your success metric.** Before spending a dollar, know your current cost per retained client. If Scorpion (or anyone) can't improve that number, the engagement isn't working.
 
 I've helped law firms across Florida evaluate, hire, manage, and sometimes fire their marketing agencies. If you'd like an independent perspective before making a decision, [let's talk](/contact).
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](https://hugheyllc.com/blog/agency-vs-consultant-law-firm-marketing/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Legal Marketing in 2025: Trends Every Law Firm Should Watch](https://hugheyllc.com/blog/legal-marketing-in-2025-5-trends-every-law-firm-should-watch/)
+- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)

@@ -104,3 +104,13 @@ I audited a North Carolina personal injury firm with a 3.2 Quality Score on thei
 Quality Score doesn't move overnight. But it moves faster than most firms expect once you stop guessing and start aligning: keyword → ad → landing page.
 
 I've seen firms move from 5.2 to 7.8 in 90 days. It requires system, not genius. If you're sitting on a 4.5 average, that's $10,000+ annually leaving the table. Fix it now.
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [Google Ads for Law Firms: Why Most Campaigns Fail — And What the Winning Ones Do Differently](https://hugheyllc.com/blog/google-ads-law-firms/)
+- [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
+- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)

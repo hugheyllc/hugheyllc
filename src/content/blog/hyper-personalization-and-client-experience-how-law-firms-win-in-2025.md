@@ -131,3 +131,13 @@ Yes. Clients are more likely to return, refer others, and leave positive reviews
 ## Ready to build a personalized client journey that wins more cases?
 
 [Book a discovery call](/blog/)
+
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
+### Related Reading
+
+- [How Prompt Engineering Is Transforming Legal Practice in 2025](https://hugheyllc.com/blog/prompt-engineering-for-law-firms-2025/)
+- [Why “More Leads” Is the Wrong Goal for Law Firms](https://hugheyllc.com/blog/more-leads-wrong-goal-law-firms/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)

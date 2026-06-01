@@ -53,12 +53,12 @@ The attribution challenge in business law is the long time-to-retain. A client w
 [Build a B2B Legal Marketing Strategy →](/blog/)
 </div>
 
+If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+
+
 ### Related Reading
 
-- [The Law Firm Content Marketing Strategy That Generates Cases](/blog/law-firm-content-marketing-strategy/)
-
-- [Keyword Research for Law Firms: Find the Queries That Sign Cases](/blog/)
-
-- [Track Law Firm Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)
-
-- [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/)
+- [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
+- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
