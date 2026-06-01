@@ -128,7 +128,24 @@ export default async function handler(req, res) {
       `,
     });
 
-    const [userResult, joeResult] = await Promise.allSettled([userEmail, notifyJoe]);
+    // Add to Resend audience + store in DB
+    const audienceId = '5b25f3ea-314c-4fcb-9a5b-fc38f5c4061f';
+    const addToAudience = fetch(`https://api.resend.com/audiences/${audienceId}/contacts`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, first_name: name.split(' ')[0], last_name: name.split(' ').slice(1).join(' ') || '', unsubscribed: false })
+    }).catch(e => console.error('Audience add failed:', e));
+
+    // Store in Supabase
+    const SUPABASE_URL = 'https://joyahdqniiqjmcmqjlue.supabase.co';
+    const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
+    const storeLeadPromise = SUPABASE_KEY ? fetch(`${SUPABASE_URL}/rest/v1/hugheyllc_leads`, {
+      method: 'POST',
+      headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}`, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+      body: JSON.stringify({ name, email, source: 'marketing-audit-checklist' })
+    }).catch(e => console.error('DB store failed:', e)) : Promise.resolve();
+
+    const [userResult, joeResult] = await Promise.allSettled([userEmail, notifyJoe, addToAudience, storeLeadPromise]);
 
     if (userResult.status === 'rejected') {
       console.error('Failed to email user:', userResult.reason);
