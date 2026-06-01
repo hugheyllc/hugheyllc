@@ -69,6 +69,58 @@ At 10am, automatically:
 
 ---
 
+## Platform Compatibility
+
+Kenzsys Firm Content OS works with your existing website — no migration required.
+
+### WordPress Mode (Existing Sites)
+Most law firms are already on WordPress. The content engine integrates directly with your existing WordPress install via its built-in REST API — no plugins, no migration, no disruption.
+
+**How it works:**
+- Content is generated identically (AI-written post + AI-generated image)
+- Image is uploaded to your WordPress Media Library and set as the featured image
+- Post is created and published via the WordPress REST API
+- Social posts fire to Twitter/X and LinkedIn exactly as described above
+- Your existing theme, plugins, and URL structure are untouched
+
+**Requirements:**
+- WordPress 5.6+ (standard since 2020)
+- An Application Password — generated in WordPress → Settings → Users in 30 seconds
+- REST API enabled (on by default)
+
+**SEO in WordPress Mode:**
+Yoast SEO or RankMath handles on-page SEO. We configure the plugin settings, set up schema output, and manage sitemaps within your existing WordPress environment. No code changes to your theme.
+
+**Implementation time:** 1 week (no build required — integration only)
+
+---
+
+### Astro Build Mode (New Sites or Full Migration)
+For firms without a website, with an outdated site, or who want maximum performance. We build a new static site from scratch — faster, more secure, and better Core Web Vitals than WordPress by default.
+
+**When this makes sense:**
+- No existing site
+- Existing site is slow, outdated, or hard to update
+- Firm wants to consolidate their stack
+- Maximum SEO performance is the priority
+
+**Implementation time:** 2–3 weeks
+
+---
+
+| | WordPress Mode | Astro Build Mode |
+|---|---|---|
+| Existing site preserved | ✅ Yes | ❌ New build |
+| Migration required | ❌ No | ✅ Yes |
+| Content engine | ✅ Identical | ✅ Identical |
+| Social automation | ✅ Identical | ✅ Identical |
+| SEO infrastructure | Via Yoast/RankMath | Via code |
+| Performance (PageSpeed) | 70–85 typical | 90–98 typical |
+| Implementation time | ~1 week | 2–3 weeks |
+| Ongoing hosting cost | Their existing host | Vercel ($0–$20/mo) |
+
+---
+
 ## Tech Stack
 
 | Layer | Technology | Purpose |
@@ -153,27 +205,47 @@ If you ever stop working with us, the system continues to run on your own API ke
 
 ## Engagement Options
 
-### Build & Launch
-One-time engagement to build the full system on your domain.
+### WordPress Integration (Existing Sites)
+For firms already on WordPress who want the content engine, social automation, and SEO configuration added on top of their existing site.
 
 **Includes:**
-- Full site build (or migration from existing site)
+- WordPress REST API connection and configuration
 - Content engine setup and 90-day topic queue
 - Social automation (Twitter + LinkedIn)
-- SEO infrastructure (schema, sitemaps, redirects, internal linking)
-- 6 location landing pages
+- Yoast/RankMath SEO configuration (schema, sitemaps, redirects)
+- Internal linking strategy implementation
 - Lead magnet page with email capture
-- Initial content audit and optimization
+- Voice calibration and onboarding
 
-### Managed Operations
-Monthly retainer to operate, monitor, and improve the system.
+**Timeline:** ~1 week
+
+---
+
+### Astro Build (New Sites or Full Migration)
+For firms without a site or who want maximum performance and a clean start.
 
 **Includes:**
-- Daily publishing runs
+- Full site build on Astro + Vercel
+- Content engine setup and 90-day topic queue
+- Social automation (Twitter + LinkedIn)
+- Full SEO infrastructure (schema, sitemaps, 301 redirects from old URLs, internal linking)
+- 6 location landing pages
+- Lead magnet page with email capture
+- Voice calibration and onboarding
+
+**Timeline:** 2–3 weeks
+
+---
+
+### Managed Operations (Both Modes)
+Monthly retainer to operate, monitor, and improve the system after launch.
+
+**Includes:**
+- Daily publishing runs (blog + image + Twitter + LinkedIn)
 - Monthly content queue refresh
 - SEO performance review
 - Social account health monitoring
-- Platform maintenance
+- Platform maintenance and updates
 
 ---
 
@@ -203,14 +275,23 @@ Published at 10am. 1,100 words. 5 internal links. FAQ schema. Custom header imag
 
 ---
 
-## Implementation Timeline
+## Implementation Timelines
 
+### WordPress Mode
+| Timeline | Milestone |
+|----------|----------|
+| Days 1–2 | WordPress API connection, voice calibration, social API setup |
+| Days 3–4 | Content queue built, SEO plugin configured, lead magnet page |
+| Day 5 | First automated post published, social accounts connected, go-live |
+| Day 30 | First monthly performance report |
+
+### Astro Build Mode
 | Week | Milestone |
 |------|-----------|
 | 1 | Domain setup, Vercel project, GitHub repo, brand voice calibration |
 | 2 | Site build, content engine, social API connections |
 | 3 | SEO infrastructure, location pages, lead magnet, launch |
-| Post-launch | Daily automation running, first monthly report at Day 30 |
+| Day 30 | First monthly performance report |
 
 ---
 
