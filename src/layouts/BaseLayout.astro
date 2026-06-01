@@ -8,11 +8,14 @@ interface Props {
   canonical?: string;
   ogImage?: string;
   schema?: any;
+  noindex?: boolean;
 }
 
-const { title, description, canonical, ogImage, schema } = Astro.props;
+const { title, description, canonical: canonicalProp, ogImage, schema, noindex = false } = Astro.props;
 const siteUrl = 'https://hugheyllc.com';
 const defaultOgImage = `${siteUrl}/images/og-default.svg`;
+// Always emit a canonical — fall back to current URL with trailing slash
+const canonical = canonicalProp ?? (siteUrl + Astro.url.pathname.replace(/\/?$/, '/'));
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
@@ -82,7 +85,8 @@ const localBusinessSchema = {
 
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
-    {canonical && <link rel="canonical" href={canonical} />}
+    <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"} />
+    <link rel="canonical" href={canonical} />
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
