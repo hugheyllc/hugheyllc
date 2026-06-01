@@ -12,7 +12,7 @@ Disallow: /private
 Disallow: /draft
 
 # Sitemap reference
-Sitemap: https://hugheyllc.com/sitemap-index.xml
+Sitemap: https://www.hugheyllc.com/sitemap-index.xml
 
 # Crawl delay (optional - removes if slowing down indexing)
 # Crawl-delay: 1

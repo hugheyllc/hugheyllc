@@ -4,6 +4,16 @@
   "framework": "astro",
   "redirects": [
     {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "permanent": false
+    },
+    {
+      "source": "/sitemap.xml/",
+      "destination": "/sitemap-index.xml",
+      "permanent": false
+    },
+    {
       "source": "/blog/call-tracking-crm-web-analytics-intake",
       "destination": "/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/",
       "permanent": true
