@@ -22,10 +22,8 @@ The system is fully autonomous: it publishes content daily, distributes it acros
 - **Publication pipeline:** Post + image are committed directly to the GitHub repository via GitHub Contents API, triggering an automatic Vercel deployment. No manual steps.
 - **Topic queue covers:** Google Ads, SEO, intake optimization, agency management, legal CRM, call tracking, attribution, content marketing, local SEO, practice area marketing, and more
 
-### Weekly Kenzsys Blog
-- **Cadence:** One post published every Monday morning
-- **Topic bank:** 12 law firm marketing intelligence topics specific to the Kenzsys platform
-- **Same pipeline:** GitHub API → automatic deploy
+### Note on Cadence
+This site (hugheyllc.com) publishes one blog post **every day**. A separate product site (kenzsys.com) publishes once per week on Mondays — both run on the same automated infrastructure.
 
 ---
 
@@ -158,8 +156,7 @@ Each page includes:
 
 | Time | Action |
 |------|--------|
-| Daily 10am ET | Generate blog post + image → publish → tweet → LinkedIn post |
-| Weekly Monday 9am ET | Publish Kenzsys platform blog post |
+| Daily 10am ET | Generate blog post + image → publish to hugheyllc.com → tweet → LinkedIn post |
 | Daily (Vercel) | Site health check |
 
 ---
