@@ -157,6 +157,581 @@
       "source": "/blog/how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi/",
       "destination": "/blog/small-firm-aeo-playbook/",
       "permanent": true
+    },
+    {
+      "source": "/2025-review",
+      "destination": "/blog/2025-review/",
+      "permanent": true
+    },
+    {
+      "source": "/2025-review/",
+      "destination": "/blog/2025-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-search-law-firms",
+      "destination": "/blog/ai-search-law-firms/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-search-law-firms/",
+      "destination": "/blog/ai-search-law-firms/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-tools-law-firm-marketing",
+      "destination": "/blog/ai-tools-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-tools-law-firm-marketing/",
+      "destination": "/blog/ai-tools-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025",
+      "destination": "/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/",
+      "destination": "/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/business-law-firm-marketing",
+      "destination": "/blog/business-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/business-law-firm-marketing/",
+      "destination": "/blog/business-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake",
+      "destination": "/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/",
+      "permanent": true
+    },
+    {
+      "source": "/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/",
+      "destination": "/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/",
+      "permanent": true
+    },
+    {
+      "source": "/callrail-law-firm-setup-guide",
+      "destination": "/blog/callrail-law-firm-setup-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/callrail-law-firm-setup-guide/",
+      "destination": "/blog/callrail-law-firm-setup-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/clearwater-law-firm-marketing",
+      "destination": "/blog/clearwater-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/clearwater-law-firm-marketing/",
+      "destination": "/blog/clearwater-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/click-to-client",
+      "destination": "/blog/click-to-client/",
+      "permanent": true
+    },
+    {
+      "source": "/click-to-client/",
+      "destination": "/blog/click-to-client/",
+      "permanent": true
+    },
+    {
+      "source": "/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow",
+      "destination": "/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/",
+      "permanent": true
+    },
+    {
+      "source": "/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/",
+      "destination": "/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/",
+      "permanent": true
+    },
+    {
+      "source": "/do-law-firms-need-seo-agency",
+      "destination": "/blog/do-law-firms-need-seo-agency/",
+      "permanent": true
+    },
+    {
+      "source": "/do-law-firms-need-seo-agency/",
+      "destination": "/blog/do-law-firms-need-seo-agency/",
+      "permanent": true
+    },
+    {
+      "source": "/eeat-law-firm-seo",
+      "destination": "/blog/eeat-law-firm-seo/",
+      "permanent": true
+    },
+    {
+      "source": "/eeat-law-firm-seo/",
+      "destination": "/blog/eeat-law-firm-seo/",
+      "permanent": true
+    },
+    {
+      "source": "/evolving-law-firm-business-models-pricing-what-marketers-need-to-know",
+      "destination": "/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/",
+      "destination": "/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/family-law-firm-marketing",
+      "destination": "/blog/family-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/family-law-firm-marketing/",
+      "destination": "/blog/family-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/florida-bar-law-firm-advertising-rules",
+      "destination": "/blog/florida-bar-law-firm-advertising-rules/",
+      "permanent": true
+    },
+    {
+      "source": "/florida-bar-law-firm-advertising-rules/",
+      "destination": "/blog/florida-bar-law-firm-advertising-rules/",
+      "permanent": true
+    },
+    {
+      "source": "/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice",
+      "destination": "/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/",
+      "destination": "/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2",
+      "destination": "/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/",
+      "permanent": true
+    },
+    {
+      "source": "/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/",
+      "destination": "/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/",
+      "permanent": true
+    },
+    {
+      "source": "/ga4-setup-law-firm-guide",
+      "destination": "/blog/ga4-setup-law-firm-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/ga4-setup-law-firm-guide/",
+      "destination": "/blog/ga4-setup-law-firm-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025",
+      "destination": "/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/",
+      "destination": "/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/how-predictive-analytics-is-changing-law-firm-growth-strategy",
+      "destination": "/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/how-predictive-analytics-is-changing-law-firm-growth-strategy/",
+      "destination": "/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-law-firm-website-design-company",
+      "destination": "/blog/how-to-choose-law-firm-website-design-company/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-law-firm-website-design-company/",
+      "destination": "/blog/how-to-choose-law-firm-website-design-company/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-set-manage-your-law-firm-marketing-agency",
+      "destination": "/blog/how-to-set-manage-your-law-firm-marketing-agency/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-set-manage-your-law-firm-marketing-agency/",
+      "destination": "/blog/how-to-set-manage-your-law-firm-marketing-agency/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi",
+      "destination": "/blog/how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi/",
+      "destination": "/blog/how-to-set-manage-your-law-firm-marketing-agency-a-step-by-step-framework-for-accountability-and-roi/",
+      "permanent": true
+    },
+    {
+      "source": "/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility",
+      "destination": "/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/",
+      "permanent": true
+    },
+    {
+      "source": "/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/",
+      "destination": "/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/",
+      "permanent": true
+    },
+    {
+      "source": "/hyper-personalization-and-client-experience-how-law-firms-win-in-2025",
+      "destination": "/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/",
+      "destination": "/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-crm-automation",
+      "destination": "/blog/law-firm-crm-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-crm-automation/",
+      "destination": "/blog/law-firm-crm-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-keyword-research",
+      "destination": "/blog/law-firm-keyword-research/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-keyword-research/",
+      "destination": "/blog/law-firm-keyword-research/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-link-building",
+      "destination": "/blog/law-firm-link-building/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-link-building/",
+      "destination": "/blog/law-firm-link-building/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-agency-vs-technical-partner",
+      "destination": "/blog/law-firm-marketing-agency-vs-technical-partner/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-agency-vs-technical-partner/",
+      "destination": "/blog/law-firm-marketing-agency-vs-technical-partner/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-attribution-guide-cfos",
+      "destination": "/blog/law-firm-marketing-attribution-guide-cfos/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-attribution-guide-cfos/",
+      "destination": "/blog/law-firm-marketing-attribution-guide-cfos/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-data",
+      "destination": "/blog/law-firm-marketing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-data/",
+      "destination": "/blog/law-firm-marketing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-retainer-underdelivery",
+      "destination": "/blog/law-firm-marketing-retainer-underdelivery/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-marketing-retainer-underdelivery/",
+      "destination": "/blog/law-firm-marketing-retainer-underdelivery/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-schema-markup",
+      "destination": "/blog/law-firm-schema-markup/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-schema-markup/",
+      "destination": "/blog/law-firm-schema-markup/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-seo-audit",
+      "destination": "/blog/law-firm-seo-audit/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-seo-audit/",
+      "destination": "/blog/law-firm-seo-audit/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-ada-compliance",
+      "destination": "/blog/law-firm-website-ada-compliance/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-ada-compliance/",
+      "destination": "/blog/law-firm-website-ada-compliance/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-homepage-design",
+      "destination": "/blog/law-firm-website-homepage-design/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-homepage-design/",
+      "destination": "/blog/law-firm-website-homepage-design/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-launch-checklist",
+      "destination": "/blog/law-firm-website-launch-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-launch-checklist/",
+      "destination": "/blog/law-firm-website-launch-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-losing-clients",
+      "destination": "/blog/law-firm-website-losing-clients/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-losing-clients/",
+      "destination": "/blog/law-firm-website-losing-clients/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-ownership",
+      "destination": "/blog/law-firm-website-ownership/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firm-website-ownership/",
+      "destination": "/blog/law-firm-website-ownership/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firms-ditching-wordpress",
+      "destination": "/blog/law-firms-ditching-wordpress/",
+      "permanent": true
+    },
+    {
+      "source": "/law-firms-ditching-wordpress/",
+      "destination": "/blog/law-firms-ditching-wordpress/",
+      "permanent": true
+    },
+    {
+      "source": "/lawmatics-vs-clio-grow",
+      "destination": "/blog/lawmatics-vs-clio-grow/",
+      "permanent": true
+    },
+    {
+      "source": "/lawmatics-vs-clio-grow/",
+      "destination": "/blog/lawmatics-vs-clio-grow/",
+      "permanent": true
+    },
+    {
+      "source": "/legal-marketing-in-2025-5-trends-every-law-firm-should-watch",
+      "destination": "/blog/legal-marketing-in-2025-5-trends-every-law-firm-should-watch/",
+      "permanent": true
+    },
+    {
+      "source": "/legal-marketing-in-2025-5-trends-every-law-firm-should-watch/",
+      "destination": "/blog/legal-marketing-in-2025-5-trends-every-law-firm-should-watch/",
+      "permanent": true
+    },
+    {
+      "source": "/marketing-reports-fake",
+      "destination": "/blog/marketing-reports-fake/",
+      "permanent": true
+    },
+    {
+      "source": "/marketing-reports-fake/",
+      "destination": "/blog/marketing-reports-fake/",
+      "permanent": true
+    },
+    {
+      "source": "/more-leads-wrong-goal-law-firms",
+      "destination": "/blog/more-leads-wrong-goal-law-firms/",
+      "permanent": true
+    },
+    {
+      "source": "/more-leads-wrong-goal-law-firms/",
+      "destination": "/blog/more-leads-wrong-goal-law-firms/",
+      "permanent": true
+    },
+    {
+      "source": "/personal-injury-attorney-marketing-tampa",
+      "destination": "/blog/personal-injury-attorney-marketing-tampa/",
+      "permanent": true
+    },
+    {
+      "source": "/personal-injury-attorney-marketing-tampa/",
+      "destination": "/blog/personal-injury-attorney-marketing-tampa/",
+      "permanent": true
+    },
+    {
+      "source": "/personal-injury-law-firm-marketing",
+      "destination": "/blog/personal-injury-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/personal-injury-law-firm-marketing/",
+      "destination": "/blog/personal-injury-law-firm-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/predictive-analytics-law-firm-growth",
+      "destination": "/blog/predictive-analytics-law-firm-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/predictive-analytics-law-firm-growth/",
+      "destination": "/blog/predictive-analytics-law-firm-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/prompt-engineering-for-law-firms-2025",
+      "destination": "/blog/prompt-engineering-for-law-firms-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/prompt-engineering-for-law-firms-2025/",
+      "destination": "/blog/prompt-engineering-for-law-firms-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/st-petersburg-law-firm-seo",
+      "destination": "/blog/st-petersburg-law-firm-seo/",
+      "permanent": true
+    },
+    {
+      "source": "/st-petersburg-law-firm-seo/",
+      "destination": "/blog/st-petersburg-law-firm-seo/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firm-marketing-landscape",
+      "destination": "/blog/tampa-law-firm-marketing-landscape/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firm-marketing-landscape/",
+      "destination": "/blog/tampa-law-firm-marketing-landscape/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firms-leaving-legal-directories",
+      "destination": "/blog/tampa-law-firms-leaving-legal-directories/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firms-leaving-legal-directories/",
+      "destination": "/blog/tampa-law-firms-leaving-legal-directories/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firms-winning-local-pack",
+      "destination": "/blog/tampa-law-firms-winning-local-pack/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firms-winning-local-pack/",
+      "destination": "/blog/tampa-law-firms-winning-local-pack/",
+      "permanent": true
+    },
+    {
+      "source": "/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients",
+      "destination": "/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/",
+      "permanent": true
+    },
+    {
+      "source": "/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/",
+      "destination": "/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/",
+      "permanent": true
+    },
+    {
+      "source": "/video-and-visual-content-for-legal-seo-2025",
+      "destination": "/blog/video-and-visual-content-for-legal-seo-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/video-and-visual-content-for-legal-seo-2025/",
+      "destination": "/blog/video-and-visual-content-for-legal-seo-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/what-high-growth-law-firms-do-differently-marketing",
+      "destination": "/blog/what-high-growth-law-firms-do-differently-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/what-high-growth-law-firms-do-differently-marketing/",
+      "destination": "/blog/what-high-growth-law-firms-do-differently-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-ask-law-firm-marketing-company",
+      "destination": "/blog/what-to-ask-law-firm-marketing-company/",
+      "permanent": true
+    },
+    {
+      "source": "/what-to-ask-law-firm-marketing-company/",
+      "destination": "/blog/what-to-ask-law-firm-marketing-company/",
+      "permanent": true
+    },
+    {
+      "source": "/\\?p=:id",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/services/law-firm-marketing",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/services/law-firm-marketing/",
+      "destination": "/services/",
+      "permanent": true
     }
   ],
   "headers": [
