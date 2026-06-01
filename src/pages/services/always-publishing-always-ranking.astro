@@ -1,0 +1,510 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import Footer from '../../components/Footer.astro';
+
+const faqs = [
+  {
+    q: 'Do I have to review every post before it goes live?',
+    a: 'No — but you can if you want to. Most clients set it to fully automatic after seeing the first few posts. We calibrate the system to your voice during onboarding, and the output is consistently on-brand. If a post ever misses the mark, it takes 30 seconds to unpublish.',
+  },
+  {
+    q: 'What if my firm is already on WordPress?',
+    a: 'No migration needed. We connect the system directly to your existing WordPress site via a standard integration. Your theme, your plugins, your URL structure — all untouched. We just add the engine on top.',
+  },
+  {
+    q: 'Will the content actually rank, or is this just filler?',
+    a: 'Every post is written for a real search intent — not to hit a word count. We build proper SEO structure into every piece: schema markup, internal links, optimized titles and meta descriptions, image alt text. Ranking takes time, but the foundation is built right from day one.',
+  },
+  {
+    q: 'How long does it take to set up?',
+    a: 'WordPress integration: about one week. New site build: two to three weeks. After that, the system is self-running.',
+  },
+  {
+    q: 'Do I own the content?',
+    a: 'Yes — completely. Every post, every image, every social post is yours. If you ever stop working with us, the content stays on your site and the system can be handed off. You are never locked in.',
+  },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Always Publishing. Always Ranking.",
+  "description": "Automated content and SEO system for law firms: daily blog publishing, social distribution to LinkedIn and Twitter/X, and SEO infrastructure built in — without your team touching it.",
+  "provider": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" },
+  "areaServed": { "@type": "Country", "name": "United States" },
+  "url": "https://hugheyllc.com/services/always-publishing-always-ranking/"
+};
+
+const schema = [
+  serviceSchema,
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://hugheyllc.com/services" },
+      { "@type": "ListItem", "position": 3, "name": "Always Publishing. Always Ranking.", "item": "https://hugheyllc.com/services/always-publishing-always-ranking" }
+    ]
+  }
+];
+
+const problems = [
+  {
+    title: 'No content cadence',
+    body: 'Law firms know they should be publishing but never do. No time, no writer, no system. Google rewards consistency. Your competitors who post regularly are ranking where you should be.',
+  },
+  {
+    title: 'Social presence is an afterthought',
+    body: 'Firms post occasionally when someone remembers. LinkedIn and Twitter/X reward accounts that show up daily. Sporadic posting gets ignored by the algorithm and by prospects.',
+  },
+  {
+    title: 'SEO infrastructure breaks down over time',
+    body: 'Old URLs break. Canonical tags get misconfigured. Schema markup never gets added. Each issue chips away at rankings you should own.',
+  },
+];
+
+const features = [
+  {
+    title: 'Daily Blog Publishing',
+    body: 'A new post goes live every morning. Relevant to your practice area, written for your market, optimized to rank. 365 posts per year without a single hour of your team\'s time.',
+    icon: 'edit',
+  },
+  {
+    title: 'Daily Social Distribution',
+    body: 'Every post is automatically distributed to LinkedIn and Twitter/X with platform-optimized copy. Consistent presence. Daily touchpoints with potential clients and referral sources.',
+    icon: 'share',
+  },
+  {
+    title: 'SEO Infrastructure Built In',
+    body: 'Every post is properly structured: canonical tags, schema markup, internal linking, XML sitemap, image optimization. Not an afterthought — built into every piece of content from day one.',
+    icon: 'search',
+  },
+  {
+    title: 'Local Market Targeting',
+    body: 'Content targets your city and practice areas specifically. We build dedicated landing pages for every market you serve. The algorithm learns what your firm is about and where.',
+    icon: 'map',
+  },
+  {
+    title: 'Your Voice, Not Generic AI',
+    body: 'We spend time with you upfront calibrating the system to your firm\'s tone, practice areas, and market positioning. Clients and referral sources will recognize your voice.',
+    icon: 'mic',
+  },
+  {
+    title: 'Works With Your Existing Site',
+    body: 'Already on WordPress? No migration required. We connect the system directly to your existing site. If you need a new site, we build that too.',
+    icon: 'plug',
+  },
+];
+
+const idealClients = [
+  'You know you should be publishing but your team doesn\'t have the bandwidth',
+  'Your current site hasn\'t been updated in months and your social presence is inconsistent',
+  'You want to build a content moat that compounds over time — not just run ads',
+];
+---
+
+<BaseLayout
+  title="Always Publishing. Always Ranking. | Hughey LLC"
+  description="An automated content and SEO system for law firms. Daily blog posts. Daily social distribution. Clean technical SEO. Without your team touching it."
+  canonical="https://hugheyllc.com/services/always-publishing-always-ranking/"
+  schema={schema}
+>
+  <div class="apr-page">
+    <PageHero
+      eyebrow="NEW SERVICE"
+      heading="Always Publishing.<br /><em>Always Ranking.</em>"
+      subheading="Most law firms go weeks without publishing a single piece of content. Your competitors are. We fix that — permanently, automatically, without your staff touching it."
+      cta={{ label: "Schedule a Free Call", href: "/contact/" }}
+    />
+
+    <!-- The Problem -->
+    <section class="apr-section dark rx">
+      <div class="w">
+        <span class="section-accent"></span>
+        <h2 class="apr-h2">Your firm is invisible online. <em>Here is why.</em></h2>
+        <div class="problem-grid">
+          {problems.map((p, i) => (
+            <div class={`problem-card rxl d${i + 1}`}>
+              <div class="problem-num">0{i + 1}</div>
+              <h3>{p.title}</h3>
+              <p>{p.body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- What You Get -->
+    <section class="apr-section dark alt rx">
+      <div class="w">
+        <span class="section-accent"></span>
+        <h2 class="apr-h2">A complete content and ranking system — <em>built once, running forever.</em></h2>
+        <div class="feature-list">
+          {features.map((f, i) => (
+            <div class={`feature-row rx d${(i % 3) + 1}`}>
+              <div class="feature-icon">
+                {f.icon === 'edit' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                )}
+                {f.icon === 'share' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                )}
+                {f.icon === 'search' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                )}
+                {f.icon === 'map' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                )}
+                {f.icon === 'mic' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                )}
+                {f.icon === 'plug' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v6"/><path d="M15 2v6"/><path d="M6 8h12v4a6 6 0 0 1-12 0V8z"/><path d="M12 18v4"/></svg>
+                )}
+              </div>
+              <div class="feature-body">
+                <h3>{f.title}</h3>
+                <p>{f.body}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Why It Works -->
+    <section class="apr-section dark rx">
+      <div class="w narrow">
+        <span class="section-accent"></span>
+        <h2 class="apr-h2">Consistency wins. <em>Most firms can't sustain it manually.</em></h2>
+        <div class="why-body">
+          <p>Google favors law firms that publish consistently, maintain clean technical SEO, and build topical authority over time. The firms ranking at the top of your market didn't get there by accident — they have a content machine running.</p>
+          <p>The difference: we can run yours automatically. No editorial calendar to maintain. No writer to manage. No technical SEO audits to commission.</p>
+          <p>The system publishes, distributes, and optimizes every day — whether you're in court, on vacation, or focused on clients.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="apr-section dark alt rx">
+      <div class="w">
+        <span class="section-accent"></span>
+        <h2 class="apr-h2">Built for law firms that are <em>serious about organic growth.</em></h2>
+        <div class="ideal-list">
+          {idealClients.map((c, i) => (
+            <div class={`ideal-item rxl d${i + 1}`}>
+              <div class="ideal-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <p>{c}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <FaqSection items={faqs} heading="Questions About Always Publishing. Always Ranking." />
+
+    <!-- Bottom CTA -->
+    <section class="apr-bottom-cta">
+      <div class="w">
+        <div class="bottom-cta-inner rx">
+          <p class="bottom-cta-eyebrow">Ready when you are</p>
+          <h2 class="bottom-cta-heading">Stop being invisible. <em>Start publishing tomorrow.</em></h2>
+          <p class="bottom-cta-body">Most firms talk about content marketing for years before doing anything about it. This is the version where you actually do it.</p>
+          <a href="/contact/" class="bottom-cta-btn">Schedule a Free Strategy Call →</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <Footer />
+
+  <style>
+    .apr-page {
+      background: var(--ink);
+    }
+
+    .apr-section {
+      padding: 96px 0;
+      background: var(--ink);
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .apr-section.alt {
+      background: #0B1825;
+      border-top: 1px solid rgba(200, 151, 58, 0.1);
+      border-bottom: 1px solid rgba(200, 151, 58, 0.1);
+    }
+
+    .apr-section .w.narrow {
+      max-width: 820px;
+    }
+
+    .apr-h2 {
+      font-family: var(--man);
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 48px;
+      max-width: 880px;
+    }
+
+    .apr-h2 em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    /* ── Problem grid ─────────────────────────────────────── */
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .problem-card {
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      padding: 36px 32px;
+      transition: border-color 0.25s, transform 0.25s, background 0.25s;
+    }
+
+    .problem-card:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+      transform: translateY(-3px);
+    }
+
+    .problem-num {
+      font-family: var(--bar);
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--glt);
+      margin-bottom: 16px;
+      letter-spacing: 0.05em;
+    }
+
+    .problem-card h3 {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    .problem-card p {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.65);
+      line-height: 1.7;
+    }
+
+    /* ── Feature list (icon + text rows) ──────────────────── */
+    .feature-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 36px 56px;
+      margin-top: 16px;
+    }
+
+    .feature-row {
+      display: grid;
+      grid-template-columns: 60px 1fr;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .feature-icon {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(200, 151, 58, 0.08);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 4px;
+      color: var(--glt);
+      flex-shrink: 0;
+    }
+
+    .feature-body h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .feature-body p {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.62);
+      line-height: 1.7;
+    }
+
+    /* ── Why It Works ─────────────────────────────────────── */
+    .why-body p {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.72);
+      line-height: 1.8;
+      margin-bottom: 22px;
+    }
+
+    .why-body p:last-child { margin-bottom: 0; }
+
+    /* ── Who It's For ─────────────────────────────────────── */
+    .ideal-list {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      max-width: 820px;
+    }
+
+    .ideal-item {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 22px 28px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      transition: border-color 0.25s, background 0.25s;
+    }
+
+    .ideal-item:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+    }
+
+    .ideal-check {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(200, 151, 58, 0.12);
+      border-radius: 50%;
+      color: var(--glt);
+      flex-shrink: 0;
+    }
+
+    .ideal-item p {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.82);
+      line-height: 1.55;
+    }
+
+    /* ── Bottom CTA ───────────────────────────────────────── */
+    .apr-bottom-cta {
+      background: var(--ink);
+      padding: 0 0 120px;
+    }
+
+    .bottom-cta-inner {
+      position: relative;
+      background: linear-gradient(135deg, #0B1825 0%, #112440 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 8px;
+      padding: 80px 64px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .bottom-cta-inner::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 30%, rgba(200, 151, 58, 0.14) 0%, transparent 55%),
+                  radial-gradient(circle at 75% 70%, rgba(200, 151, 58, 0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .bottom-cta-inner > * { position: relative; z-index: 1; }
+
+    .bottom-cta-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin-bottom: 18px;
+    }
+
+    .bottom-cta-heading {
+      font-size: clamp(28px, 4.5vw, 48px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 22px;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bottom-cta-heading em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .bottom-cta-body {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.7;
+      max-width: 580px;
+      margin: 0 auto 36px;
+    }
+
+    .bottom-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 18px 36px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200, 151, 58, 0.35);
+    }
+
+    .bottom-cta-btn:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200, 151, 58, 0.45);
+    }
+
+    /* ── Responsive ───────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .apr-section { padding: 72px 0; }
+      .problem-grid { grid-template-columns: 1fr; gap: 20px; }
+      .feature-list { grid-template-columns: 1fr; gap: 28px; }
+      .bottom-cta-inner { padding: 56px 28px; }
+    }
+
+    @media (max-width: 640px) {
+      .ideal-item { padding: 18px 20px; }
+      .ideal-item p { font-size: 15px; }
+    }
+  </style>
+</BaseLayout>

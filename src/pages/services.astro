@@ -41,6 +41,16 @@ const services = [
     solution: 'We develop a clear, integrated 12-month strategy with realistic timelines, budget allocation by channel, and monthly progress tracking tied to retained client goals.',
     outcomes: ['12-month integrated strategy', 'Channel budget allocation', 'Monthly progress reporting'],
   },
+  {
+    number: '05',
+    title: 'Always Publishing.',
+    subtitle: 'Always Ranking.',
+    slug: 'always-publishing-always-ranking',
+    problem: 'Your firm goes weeks without publishing content, your social presence is inconsistent, and your SEO infrastructure quietly degrades over time.',
+    solution: 'We build an automated content and SEO system that publishes daily blog posts, distributes to LinkedIn and Twitter/X, and maintains clean technical SEO — without your team touching it.',
+    outcomes: ['Daily blog publishing', 'Automated social distribution', 'SEO infrastructure built in'],
+    badge: 'NEW',
+  },
 ];
 
 const faqs = [
@@ -59,7 +69,7 @@ const faqs = [
   <div>
     <PageHero
       eyebrow="What We Do"
-      heading="Four Services.<br /><em>One Goal.</em>"
+      heading="Five Services.<br /><em>One Goal.</em>"
       subheading="Every service is designed around a single metric: more retained clients per marketing dollar."
       cta={{ label: "Schedule a Free Strategy Call", href: "/contact/" }}
     />
@@ -75,7 +85,10 @@ const faqs = [
               <div class="svc-num">{service.number}</div>
               <div class="svc-body">
                 <span class="section-accent"></span>
-                <h2 class="svc-title">{service.title} <span class="svc-sub">{service.subtitle}</span></h2>
+                <h2 class="svc-title">
+                  {service.title} <span class="svc-sub">{service.subtitle}</span>
+                  {service.badge && <span class="svc-badge">{service.badge}</span>}
+                </h2>
                 <p class="svc-problem">"{service.problem}"</p>
                 <p class="svc-solution">{service.solution}</p>
                 <div class="svc-outcomes">
@@ -174,6 +187,21 @@ const faqs = [
       font-weight: 400;
       color: var(--gold);
       font-size: 0.85em;
+    }
+
+    .svc-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink);
+      background: var(--gold);
+      padding: 4px 9px;
+      border-radius: 2px;
+      vertical-align: middle;
+      margin-left: 8px;
+      line-height: 1.2;
     }
 
     .svc-problem {

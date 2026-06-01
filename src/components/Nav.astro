@@ -1,4 +1,11 @@
 ---
+const services = [
+  { slug: 'always-publishing-always-ranking', title: 'Always Publishing. Always Ranking.', desc: 'Daily blog posts. Daily social. SEO built in. Automated.', badge: 'NEW' },
+  { slug: 'data-analysis-for-law-firms', title: 'Data Analysis', desc: 'Cost-per-retained-client by channel.' },
+  { slug: 'agency-management-for-law-firms', title: 'Agency Management', desc: 'Hold vendors accountable to outcomes.' },
+  { slug: 'intake-process-optimization', title: 'Intake Optimization', desc: 'Convert more of the leads you already have.' },
+  { slug: 'strategic-marketing-for-law-firms', title: 'Strategic Marketing', desc: '12-month integrated marketing plan.' },
+];
 ---
 
 <nav id="nav">
@@ -12,7 +19,29 @@
 
   <div class="nav-r" id="navLinks">
     <a href="/about">About</a>
-    <a href="/services">Services</a>
+
+    <div class="nav-dd" id="navServicesDd">
+      <a href="/services" class="nav-dd-trigger" aria-haspopup="true" aria-expanded="false">
+        Services
+        <span class="nav-dd-new">NEW</span>
+        <svg class="nav-dd-chev" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+      <div class="nav-dd-menu" role="menu">
+        <div class="nav-dd-inner">
+          {services.map((s, i) => (
+            <a href={`/services/${s.slug}/`} class={`nav-dd-item${i === 0 ? ' featured' : ''}`} role="menuitem">
+              <div class="nav-dd-item-head">
+                <span class="nav-dd-item-title">{s.title}</span>
+                {s.badge && <span class="nav-dd-item-badge">{s.badge}</span>}
+              </div>
+              <span class="nav-dd-item-desc">{s.desc}</span>
+            </a>
+          ))}
+          <a href="/services" class="nav-dd-all" role="menuitem">View all services →</a>
+        </div>
+      </div>
+    </div>
+
     <a href="/insights">Insights</a>
     <a href="/blog">Blog</a>
     <a href="tel:+17274833222" class="nav-phone" aria-label="Call Hughey LLC">727-483-3222</a>
@@ -71,7 +100,7 @@
     gap: 30px;
   }
 
-  .nav-r a {
+  .nav-r > a {
     font-size: 13px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.5);
@@ -80,7 +109,7 @@
     transition: color 0.2s;
   }
 
-  .nav-r a:hover {
+  .nav-r > a:hover {
     color: rgba(255, 255, 255, 0.9);
   }
 
@@ -129,6 +158,166 @@
       display: none;
     }
   }
+
+  /* ── DROPDOWN ─────────────────────────────────────────────── */
+  .nav-dd {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-dd-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
+    cursor: pointer;
+  }
+
+  .nav-dd-trigger:hover { color: rgba(255, 255, 255, 0.9); }
+
+  .nav-dd-chev {
+    transition: transform 0.2s;
+    opacity: 0.7;
+  }
+
+  .nav-dd:hover .nav-dd-chev,
+  .nav-dd.open .nav-dd-chev {
+    transform: rotate(180deg);
+  }
+
+  .nav-dd-new {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--glt);
+    padding: 2px 6px;
+    border-radius: 2px;
+    line-height: 1.2;
+    margin-left: 2px;
+  }
+
+  .nav-dd-menu {
+    position: absolute;
+    top: calc(100% + 14px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-6px);
+    width: 420px;
+    background: rgba(9, 19, 31, 0.98);
+    border: 1px solid rgba(200, 151, 58, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s, transform 0.18s;
+    z-index: 700;
+  }
+
+  /* Hover bridge to avoid menu vanishing when moving cursor */
+  .nav-dd-menu::before {
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: 0;
+    right: 0;
+    height: 14px;
+  }
+
+  .nav-dd:hover .nav-dd-menu,
+  .nav-dd.open .nav-dd-menu,
+  .nav-dd:focus-within .nav-dd-menu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .nav-dd-inner {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .nav-dd-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .nav-dd-item:hover {
+    background: rgba(200, 151, 58, 0.06);
+    border-color: rgba(200, 151, 58, 0.18);
+  }
+
+  .nav-dd-item.featured {
+    background: rgba(200, 151, 58, 0.06);
+    border-color: rgba(200, 151, 58, 0.25);
+  }
+
+  .nav-dd-item.featured:hover {
+    background: rgba(200, 151, 58, 0.1);
+    border-color: var(--gold);
+  }
+
+  .nav-dd-item-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .nav-dd-item-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: -0.01em;
+  }
+
+  .nav-dd-item-badge {
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--glt);
+    padding: 2px 6px;
+    border-radius: 2px;
+    line-height: 1.2;
+  }
+
+  .nav-dd-item-desc {
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.5;
+  }
+
+  .nav-dd-all {
+    margin-top: 6px;
+    padding: 12px 14px;
+    font-size: 12px !important;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold) !important;
+    text-decoration: none;
+    border-top: 1px solid rgba(200, 151, 58, 0.12);
+    transition: color 0.2s;
+  }
+
+  .nav-dd-all:hover { color: var(--glt) !important; }
 
   /* ── HAMBURGER ─────────────────────────────────────────────── */
   .nav-toggle {
@@ -180,11 +369,13 @@
       backdrop-filter: blur(20px);
       flex-direction: column;
       justify-content: center;
-      gap: 32px;
+      gap: 28px;
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.3s;
       z-index: 650;
+      padding: 80px 24px 40px;
+      overflow-y: auto;
     }
 
     .nav-r.open {
@@ -192,7 +383,7 @@
       pointer-events: auto;
     }
 
-    .nav-r a {
+    .nav-r > a {
       font-size: 20px;
       color: rgba(255, 255, 255, 0.7);
     }
@@ -200,6 +391,44 @@
     .nav-btn {
       font-size: 14px !important;
       padding: 12px 28px !important;
+    }
+
+    /* Mobile dropdown: show inline */
+    .nav-dd { flex-direction: column; align-items: center; width: 100%; gap: 16px; }
+
+    .nav-dd-trigger {
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .nav-dd-chev { display: none; }
+
+    .nav-dd-menu {
+      position: static;
+      transform: none !important;
+      width: 100%;
+      max-width: 360px;
+      opacity: 1;
+      pointer-events: auto;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      backdrop-filter: none;
+      margin-top: 4px;
+    }
+
+    .nav-dd-menu::before { display: none; }
+
+    .nav-dd-inner { padding: 0; gap: 8px; }
+
+    .nav-dd-item { padding: 10px 14px; }
+
+    .nav-dd-item-title { font-size: 14px; }
+
+    .nav-dd-all {
+      text-align: center;
+      border-top: 1px solid rgba(200, 151, 58, 0.15);
+      padding-top: 14px;
     }
   }
 </style>
@@ -220,8 +449,8 @@
     document.getElementById('navLinks')?.classList.toggle('open');
   });
 
-  // Close mobile menu when a link is clicked
-  document.querySelectorAll('.nav-r a').forEach((link) => {
+  // Close mobile menu when an item link inside is clicked (not the dropdown trigger itself)
+  document.querySelectorAll('.nav-r a:not(.nav-dd-trigger)').forEach((link) => {
     link.addEventListener('click', () => {
       document.getElementById('navToggle')?.classList.remove('open');
       document.getElementById('navLinks')?.classList.remove('open');
