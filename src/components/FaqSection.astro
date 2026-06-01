@@ -15,12 +15,12 @@ const { items, heading = 'Frequently Asked Questions' } = Astro.props;
 <section class="faq-section rx section-glow">
   <div class="w">
     <h2 class="faq-title">{heading}</h2>
-    <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="faq-list">
       {items.map((item) => (
-        <details class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-          <summary class="faq-q" itemprop="name">{item.q}</summary>
-          <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <div itemprop="text">{item.a}</div>
+        <details class="faq-item">
+          <summary class="faq-q">{item.q}</summary>
+          <div class="faq-a">
+            <div>{item.a}</div>
           </div>
         </details>
       ))}
