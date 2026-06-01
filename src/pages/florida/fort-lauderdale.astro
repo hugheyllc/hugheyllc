@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const city = 'Fort Lauderdale';
+const slug = 'fort-lauderdale';
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `https://hugheyllc.com/florida/${slug}/#business`,
+  "name": "Hughey LLC — Law Firm Marketing Consultant",
+  "description": `Independent law firm marketing consultant serving ${city}, Florida. Strategy, attribution, and agency accountability for law firms.`,
+  "url": `https://hugheyllc.com/florida/${slug}/`,
+  "telephone": "+17274833222",
+  "email": "joe@joehughey.com",
+  "image": "https://hugheyllc.com/hughey-logo.png",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": city },
+    { "@type": "AdministrativeArea", "name": "Broward County, FL" }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Joe Hughey",
+    "url": "https://hugheyllc.com/about/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/joehughey/",
+    "https://www.facebook.com/profile.php?id=61577138003264"
+  ]
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Florida", "item": "https://hugheyllc.com/florida/" },
+    { "@type": "ListItem", "position": 3, "name": city, "item": `https://hugheyllc.com/florida/${slug}/` }
+  ]
+};
+---
+
+<BaseLayout
+  title={`Law Firm Marketing Consultant ${city}, FL | Hughey LLC`}
+  description={`Independent law firm marketing consultant serving ${city}, Florida. Attribution and strategy for Broward County law firms competing in South Florida's second-largest legal market.`}
+  canonical={`https://hugheyllc.com/florida/${slug}/`}
+  schema={[localBusinessSchema, breadcrumbSchema]}
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <PageHero
+      eyebrow={`${city} • Broward County`}
+      heading={`Law Firm Marketing Consultant<br /><em>${city}, FL</em>`}
+      subheading={`Independent strategy and attribution for ${city} law firms. South Florida's second-largest legal market — and a uniquely difficult one to measure cleanly.`}
+    />
+
+    <div style="padding: 72px 0;">
+      <div class="w">
+        <div class="city-grid">
+          <div class="city-body">
+            <p>Fort Lauderdale is the heart of Broward County's legal market — Florida's second-largest behind Miami-Dade, with more than 8,000 active attorneys serving a population that straddles luxury coastal communities, dense urban neighborhoods, and a retiree-heavy western suburb belt that runs from Plantation through Coral Springs. The marketing dynamic here is unlike any other Florida market: Miami's CPCs leak north into Broward, but the buying signals are different enough that running South Florida as one market wastes significant budget.</p>
+
+            <p>For Fort Lauderdale firms, the fundamental problem is that most ad platforms and agency reports treat "South Florida" as a single market. <a href="/">Independent marketing strategy</a> here usually starts with breaking the data apart so Broward, Miami-Dade, and Palm Beach show separate cost-per-retained-client numbers.</p>
+
+            <h2>The Fort Lauderdale Legal Market</h2>
+
+            <p>Personal injury is dominated by big firms with regional reach — Steinger Greene & Feiner, Schlesinger Law Offices, Searcy Denney — all bidding aggressively on Broward-area keywords. CPCs for "Fort Lauderdale car accident lawyer" routinely hit $100–$130, with Local Services Ads costing $250–$400 per qualified lead. Below personal injury, Broward has unusually deep concentrations of maritime and admiralty law (Port Everglades is the third-largest cruise port in the world), marine industry business litigation, and high-net-worth family law tied to Las Olas, Lauderdale-By-The-Sea, and Hillsboro Beach.</p>
+
+            <p>Broward's retiree population — particularly in Plantation, Tamarac, Coral Springs, and the Sunrise area — also makes the county one of Florida's strongest estate planning, probate, and elder-law markets. The marketing math for those practice areas is different: lower lead volume, higher LTV per case, and a referral mix that most agency reporting ignores entirely.</p>
+
+            <h2>Why {city} Law Firms Work With Me</h2>
+
+            <p>Fort Lauderdale firms I work with usually have one of three problems:</p>
+
+            <ul>
+              <li><strong>South Florida geo-bleed</strong> — paid campaigns running across Miami-Dade, Broward, and Palm Beach without separate budget and bidding by county, hiding real performance differences</li>
+              <li><strong>Maritime and admiralty case attribution</strong> — these cases have long sales cycles and unusual lead sources (insurance referrals, marine industry contacts) that standard PPC attribution can't measure</li>
+              <li><strong>Snowbird and seasonal traffic</strong> — Broward intake from October through April includes a meaningful slice of seasonal residents whose case values and conversion rates differ from year-round residents</li>
+              <li><strong>National firm pressure on local keywords</strong> — Morgan & Morgan, Glotzer & Leib, and the Ginsberg firms all advertise heavily into Broward, forcing smaller firms toward long-tail and GBP-focused strategies</li>
+            </ul>
+
+            <h2>What the Engagement Looks Like</h2>
+
+            <p>A Fort Lauderdale engagement typically starts with a 30-day attribution audit: separating Broward from the broader South Florida data in GA4, CallRail, and your CRM. Most firms discover within the first two weeks that Broward's true cost per retained client is meaningfully different from what their agency has been reporting — sometimes better, sometimes much worse, but almost never what the unified South Florida number suggested.</p>
+
+            <p>From there it's strategic work: agency accountability, intake redesign for seasonal and bilingual traffic, GBP and review-velocity work to compete with national PI firms, and a 12-month plan. Engagements are remote with quarterly on-site visits to the Fort Lauderdale area.</p>
+          </div>
+
+          <aside class="city-side">
+            <div class="side-card">
+              <h3>Service Area</h3>
+              <p>Fort Lauderdale • Hollywood • Pompano Beach • Plantation • Coral Springs • Sunrise • Davie • Pembroke Pines • Broward County</p>
+            </div>
+            <div class="side-card">
+              <h3>Common Practice Areas</h3>
+              <p>Personal Injury • Maritime Law • Family Law • Estate Planning • Probate • Real Estate • Business Litigation • Immigration</p>
+            </div>
+            <div class="side-card cta-card">
+              <h3>Talk to Joe</h3>
+              <p>Direct conversation about your firm's numbers. No sales pitch.</p>
+              <a href="/contact/" class="cta-btn">Schedule a Free Call →</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 64px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 760px; margin: 0 auto; text-align: center;">
+          <h2 style="font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 16px;">Ready to See Your Real Numbers?</h2>
+          <p style="font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin-bottom: 32px;">If your Fort Lauderdale firm is spending serious money on marketing and can't tell which channel is producing retained clients, that's the conversation worth having.</p>
+          <a href="/contact/" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 18px 36px; border-radius: 2px; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Free Call →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    em { color: var(--glt); font-style: italic; }
+    .city-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 60px;
+      align-items: start;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .city-body { font-size: 17px; line-height: 1.85; color: rgba(255,255,255,0.82); }
+    .city-body p { margin-bottom: 24px; }
+    .city-body h2 {
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 800;
+      color: var(--white);
+      margin: 48px 0 20px;
+      letter-spacing: -0.02em;
+    }
+    .city-body ul {
+      margin: 0 0 24px;
+      padding-left: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .city-body li { color: rgba(255,255,255,0.78); }
+    .city-body a {
+      color: var(--glt);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .city-body a:hover { color: var(--white); }
+    .city-body strong { color: var(--white); font-weight: 700; }
+    .city-side {
+      position: sticky;
+      top: 140px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .side-card {
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.18);
+      border-radius: 4px;
+      padding: 22px;
+    }
+    .side-card h3 {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--glt);
+      margin-bottom: 10px;
+    }
+    .side-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.72);
+      margin: 0;
+    }
+    .cta-card { background: rgba(200, 151, 58, 0.1); }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 12px 22px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: var(--glt); }
+    @media (max-width: 900px) {
+      .city-grid { grid-template-columns: 1fr; }
+      .city-side { position: static; }
+    }
+  </style>
+</BaseLayout>

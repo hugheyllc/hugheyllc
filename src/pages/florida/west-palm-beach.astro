@@ -1,0 +1,215 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const city = 'West Palm Beach';
+const slug = 'west-palm-beach';
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `https://hugheyllc.com/florida/${slug}/#business`,
+  "name": "Hughey LLC — Law Firm Marketing Consultant",
+  "description": `Independent law firm marketing consultant serving ${city}, Florida. Strategy, attribution, and agency accountability for Palm Beach County law firms.`,
+  "url": `https://hugheyllc.com/florida/${slug}/`,
+  "telephone": "+17274833222",
+  "email": "joe@joehughey.com",
+  "image": "https://hugheyllc.com/hughey-logo.png",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": city },
+    { "@type": "AdministrativeArea", "name": "Palm Beach County, FL" }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Joe Hughey",
+    "url": "https://hugheyllc.com/about/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/joehughey/",
+    "https://www.facebook.com/profile.php?id=61577138003264"
+  ]
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Florida", "item": "https://hugheyllc.com/florida/" },
+    { "@type": "ListItem", "position": 3, "name": city, "item": `https://hugheyllc.com/florida/${slug}/` }
+  ]
+};
+---
+
+<BaseLayout
+  title={`Law Firm Marketing Consultant ${city}, FL | Hughey LLC`}
+  description={`Independent law firm marketing consultant serving ${city}, Florida. Attribution and strategy for Palm Beach County law firms in one of Florida's fastest-growing legal markets.`}
+  canonical={`https://hugheyllc.com/florida/${slug}/`}
+  schema={[localBusinessSchema, breadcrumbSchema]}
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <PageHero
+      eyebrow={`${city} • Palm Beach County`}
+      heading={`Law Firm Marketing Consultant<br /><em>${city}, FL</em>`}
+      subheading={`Independent strategy and attribution for ${city} law firms. Palm Beach County's legal market has reshuffled since 2020 — most firms are still using marketing strategies built for the old client base.`}
+    />
+
+    <div style="padding: 72px 0;">
+      <div class="w">
+        <div class="city-grid">
+          <div class="city-body">
+            <p>West Palm Beach anchors one of the fastest-changing legal markets in Florida. Palm Beach County has added more than 100,000 residents since 2020, much of it from New York, New Jersey, Connecticut, and Illinois — bringing significant wealth, complex out-of-state legal entanglements, and entirely different expectations of what a law firm relationship should look like. The marketing playbooks that worked in Palm Beach County five years ago no longer match the client base that's actually moving here today.</p>
+
+            <p>For law firms in the West Palm Beach market, <a href="/">independent marketing strategy</a> is increasingly about positioning for the new client demographic — affluent transplants needing estate restructuring, business relocation work, family law for late-life remarriages, and high-net-worth civil litigation — without abandoning the firm's existing local relationships.</p>
+
+            <h2>The West Palm Beach Legal Market</h2>
+
+            <p>Palm Beach County has approximately 5,500 active attorneys spread across West Palm Beach, Boca Raton, Delray Beach, Boynton Beach, Jupiter, and Wellington. The market is more spread out than Miami-Dade or Broward, with serious legal concentration in three distinct hubs: downtown West Palm Beach for civil litigation and commercial work, Boca Raton for business and corporate practice, and the Palm Beach island for trust, estate, and white-collar matters tied to ultra-high-net-worth clients.</p>
+
+            <p>Personal injury is competitive but less saturated than Broward or Miami-Dade. CPCs for "West Palm Beach car accident lawyer" run $80–$110, with LSAs typically $200–$350 per qualified lead. Family law, however, has become unusually competitive — the influx of high-net-worth divorces tied to corporate relocations and second marriages has drawn aggressive bidding from regional firms and a few specialist family law firms with national reach.</p>
+
+            <p>The market dynamic most West Palm Beach firms underestimate is the Boca Raton corporate footprint. Major financial services firms, hedge funds, and family offices have established or expanded Palm Beach County operations since 2020, creating demand for business litigation, employment law, tax planning, and SEC-adjacent regulatory work that wasn't there ten years ago.</p>
+
+            <h2>Why {city} Law Firms Work With Me</h2>
+
+            <p>West Palm Beach firms come to me when their marketing reports stop matching what they're seeing in intake. The transplant wave has changed lead quality, lead sources, and signed-fee values in ways that legacy agency reporting doesn't capture. Specific dynamics I look at:</p>
+
+            <ul>
+              <li><strong>Out-of-state transplant attribution</strong> — new Palm Beach residents often search using their previous home market's terminology, and intake teams aren't trained to recognize or qualify these leads properly</li>
+              <li><strong>Geographic spread inside Palm Beach County</strong> — running unified campaigns across West Palm, Boca, Delray, and Jupiter conceals significant performance differences and wastes budget</li>
+              <li><strong>Family law for late-life remarriage</strong> — high-asset divorce, prenup, and postnup work in Palm Beach County has grown faster than any other practice area; most firm marketing hasn't adapted positioning to match</li>
+              <li><strong>Referral attribution from wealth advisors</strong> — financial advisors and family offices drive a meaningful slice of new business; firms that don't track this in their CRM under-invest in advisor relationship development</li>
+            </ul>
+
+            <h2>What the Engagement Looks Like</h2>
+
+            <p>A West Palm Beach engagement starts with a 30-day attribution audit: GA4, CallRail, CRM (Lawmatics, Clio Grow, Centerbase, or PracticePanther), and ad platforms — separated by county geo, lead origin state, and practice area. Most firms find that their best clients are coming from a small number of sources they've barely been investing in.</p>
+
+            <p>From there it's agency accountability, intake redesign for the new transplant demographic, GBP and review-velocity work, and a 12-month plan. Engagements are remote with quarterly on-site visits.</p>
+          </div>
+
+          <aside class="city-side">
+            <div class="side-card">
+              <h3>Service Area</h3>
+              <p>West Palm Beach • Boca Raton • Delray Beach • Boynton Beach • Jupiter • Palm Beach • Wellington • Palm Beach County</p>
+            </div>
+            <div class="side-card">
+              <h3>Common Practice Areas</h3>
+              <p>Family Law • Estate Planning • Business Litigation • Personal Injury • Real Estate • Tax & Trusts • Employment Law • White Collar</p>
+            </div>
+            <div class="side-card cta-card">
+              <h3>Talk to Joe</h3>
+              <p>Direct conversation about your firm's numbers. No sales pitch.</p>
+              <a href="/contact/" class="cta-btn">Schedule a Free Call →</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 64px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 760px; margin: 0 auto; text-align: center;">
+          <h2 style="font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 16px;">Ready to See Your Real Numbers?</h2>
+          <p style="font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin-bottom: 32px;">If your West Palm Beach firm is spending serious money on marketing and can't tell which channel is producing retained clients, that's the conversation worth having.</p>
+          <a href="/contact/" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 18px 36px; border-radius: 2px; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Free Call →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    em { color: var(--glt); font-style: italic; }
+    .city-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 60px;
+      align-items: start;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .city-body { font-size: 17px; line-height: 1.85; color: rgba(255,255,255,0.82); }
+    .city-body p { margin-bottom: 24px; }
+    .city-body h2 {
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 800;
+      color: var(--white);
+      margin: 48px 0 20px;
+      letter-spacing: -0.02em;
+    }
+    .city-body ul {
+      margin: 0 0 24px;
+      padding-left: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .city-body li { color: rgba(255,255,255,0.78); }
+    .city-body a {
+      color: var(--glt);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .city-body a:hover { color: var(--white); }
+    .city-body strong { color: var(--white); font-weight: 700; }
+    .city-side {
+      position: sticky;
+      top: 140px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .side-card {
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.18);
+      border-radius: 4px;
+      padding: 22px;
+    }
+    .side-card h3 {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--glt);
+      margin-bottom: 10px;
+    }
+    .side-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.72);
+      margin: 0;
+    }
+    .cta-card { background: rgba(200, 151, 58, 0.1); }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 12px 22px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: var(--glt); }
+    @media (max-width: 900px) {
+      .city-grid { grid-template-columns: 1fr; }
+      .city-side { position: static; }
+    }
+  </style>
+</BaseLayout>

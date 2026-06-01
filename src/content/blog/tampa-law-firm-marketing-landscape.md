@@ -113,6 +113,24 @@ Once you have infrastructure and visibility, build content around a tight cluste
 [Get a Tampa Market Competitive Audit →](/blog/)
 </div>
 
+## FAQs
+
+**How does a mid-sized Tampa firm compete with Morgan & Morgan and other large advertisers?**
+
+You don't — not on volume keywords like "Tampa personal injury lawyer." You compete on specificity. Own the long-tail searches: specific injury types, neighborhood-level intent ("Brandon car accident attorney"), niche practice subsets, and second-opinion / referral case searches where size doesn't matter. Morgan & Morgan can't afford to optimize for 500 long-tail variations the way a focused 5-attorney firm can.
+
+**What does it actually cost to be competitive in Tampa law firm marketing?**
+
+Real numbers: $4,000–$8,000/month for a competitive solo or small firm running combined SEO + Google Ads + local SEO + content. PI firms generally need $10,000+/month to be visible. Anything under $3,000/month total marketing spend in Tampa is unlikely to produce meaningful results unless you're hyper-focused on a single neighborhood or sub-practice.
+
+**Is the Tampa legal market saturated, or is there still room for new firms?**
+
+Saturated at the top of broad keywords; wide open in specific niches. Estate planning for Hispanic clients, business immigration, construction defect, marine law — these are all underserved in Tampa relative to demand. A new firm picking the right niche and executing on local SEO can be profitable in 12–18 months. A new firm trying to be "another PI option" will likely fail.
+
+**How important are Google reviews in the Tampa market specifically?**
+
+Critically important — more than most local markets. Tampa consumers explicitly compare review counts and recent ratings. A firm with 80+ recent reviews routinely outranks firms with stronger backlink profiles but fewer reviews. Build a systematic review request process into your intake workflow, not an afterthought email two months after the case closes.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

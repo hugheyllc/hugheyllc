@@ -91,6 +91,24 @@ If you're a firm principal in Tampa, St. Petersburg, Clearwater, Sarasota, or an
 
 [Schedule a consultation](/contact).
 
+## FAQs
+
+**What's the difference between a law firm marketing consultant and a marketing agency?**
+
+A consultant provides strategy, evaluation, and accountability without doing the execution work themselves. An agency executes — runs ads, builds sites, writes content — and typically marks up the work. The two roles serve different functions. Most firms benefit from having both: a consultant who represents the firm's interests, and execution partners (in-house or outsourced) doing the actual work. Confusing the two roles is how firms end up paying for advice biased toward selling more services.
+
+**How much does a law firm marketing consultant typically cost in Tampa Bay?**
+
+Independent consultants in Tampa Bay generally run $200–$400/hour for project work, or $2,500–$8,000/month for retainer engagements. The right comparison isn't to an agency's monthly fee — it's to what bad marketing decisions cost when no one's reviewing them. A firm spending $15K/month on marketing without an independent reviewer is usually wasting more on bad campaigns than a consultant would charge to catch them.
+
+**When should a law firm hire a consultant vs. just hiring an agency directly?**
+
+Hire a consultant first if: you're not sure what your current agency is actually delivering, you're planning to switch agencies and want help evaluating proposals, you're moving from referral-based to digital-marketing-driven growth, or you've been burned by previous agency relationships. Hire an agency directly if you already have strong in-house marketing leadership and just need execution capacity.
+
+**Do you only work with Tampa Bay law firms, or do you take clients elsewhere?**
+
+I prioritize Tampa Bay because local market knowledge is part of what I deliver — Hillsborough vs. Pinellas court differences, which neighborhoods produce which case types, local competitor positioning. I work with firms outside Tampa Bay selectively when the engagement is strategy/audit work that doesn't depend on local market intelligence. If you're outside the area, let's have a conversation about whether the fit makes sense.
+
 If you'd like a second opinion from an [law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

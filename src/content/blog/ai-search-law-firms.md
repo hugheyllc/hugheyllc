@@ -121,6 +121,24 @@ The firms that will thrive aren't the ones panicking about AI. They're the ones 
 [Future-Proof My Search Visibility →](/blog/)
 </div>
 
+## FAQs
+
+**Will AI search (ChatGPT, Perplexity, Google AI Overviews) replace traditional Google search for legal queries?**
+
+Not for transactional intent. People searching "personal injury lawyer Tampa" want to hire someone today and will keep using Google's Local Pack and Maps. Where AI search matters is informational intent — "what is no-fault insurance in Florida," "what's the statute of limitations on medical malpractice." Those queries are increasingly answered by AI, often without a click. Your strategy split: transactional content for traditional SEO, expert informational content for AI citation.
+
+**How do I get my law firm cited by ChatGPT or Perplexity?**
+
+Three things matter most. First, comprehensive, accurate content with clear topical depth — AI systems prefer 1,500+ word resources over thin 400-word pages. Second, structured data (FAQ schema, Article schema, lawyer/LegalService schema) so the content is machine-extractable. Third, backlinks from authoritative legal publications and directories — these influence both training data inclusion and trust signals.
+
+**Should I worry about losing traffic to AI Overviews?**
+
+Some traffic, yes — informational queries that previously sent clicks now resolve in the AI summary. But for high-intent legal searches ("hire a lawyer near me"), clicks are largely intact. The firms losing real money to AI Overviews are content publishers monetizing on display ads. Law firms monetize on retained clients, and those still require a click and a phone call. Focus on retained-client metrics, not raw traffic.
+
+**Is FAQ schema actually worth adding to every practice area page?**
+
+Yes. FAQ schema is one of the most reliably extracted patterns by both Google's AI Overviews and ChatGPT/Perplexity. Even when it doesn't show as a rich result in Google SERPs anymore, it still influences which content AI systems quote. It costs an hour to add and pays back across multiple search surfaces — one of the highest-ROI technical SEO tasks in 2026.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

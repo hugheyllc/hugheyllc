@@ -63,6 +63,24 @@ Getting to that calculation requires the full tracking stack: [CallRail](https:/
 [Get a Free Ads Audit →](/contact/)
 </div>
 
+## FAQs
+
+**What's a realistic monthly Google Ads budget for a small law firm just getting started?**
+
+Most small firms see meaningful data after $3,000–$5,000/month for 60–90 days. Anything less and you're starving the algorithm of conversion signal — Smart Bidding needs roughly 30+ conversions per month to optimize well. If your budget is below that, run a single tightly-themed campaign in one practice area rather than spreading thin across multiple services.
+
+**Should I run Google Ads if my law firm SEO is already generating leads?**
+
+Yes, but for different intent. SEO captures research-phase searches; Ads captures the "I need a lawyer right now" intent at the top of the page. The two work together — firms that rank organically AND show in the ad position get disproportionately more clicks than either alone, and your branded search defense alone usually justifies a small Ads spend.
+
+**Why is my cost per click so much higher than other industries?**
+
+Legal is one of Google's most competitive verticals — "personal injury lawyer" CPCs routinely hit $100+ in major metros. The lever is rarely lowering CPC; it's improving Quality Score (better landing pages, tighter ad groups, higher CTR) and lowering cost per retained client through better intake, not cheaper clicks.
+
+**How do I know if my Google Ads agency is actually delivering results?**
+
+Ask them for a report showing cost per retained client by campaign — not clicks, not form fills, retained clients with revenue attributed. If they can't produce that report, the attribution stack isn't built, and you're flying blind regardless of how good the campaigns look in the Google Ads UI.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

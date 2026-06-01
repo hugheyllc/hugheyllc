@@ -1,0 +1,524 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const sections = [
+  {
+    title: 'Ad Attribution & Tracking',
+    items: [
+      'Google Ads conversion tracking installed and firing on retained-client events (not just form submissions)',
+      'UTM parameters on every paid traffic source (Google, Meta, LSAs, directories, email)',
+      'Phone calls attributed to traffic source via dynamic call tracking (CallRail, WhatConverts, or equivalent)',
+      'Call tracking numbers swapped per source — not one number across all channels',
+      'GA4 configured with conversion events tied to qualified intake (not page views)',
+    ],
+  },
+  {
+    title: 'Intake & Lead Capture',
+    items: [
+      'Intake response time under 5 minutes during business hours (documented, not assumed)',
+      'After-hours coverage: live answering service or AI receptionist with handoff to intake the next morning',
+      'Intake script captures source ("How did you hear about us?") on every call',
+      'Web forms tied directly to your CRM — no manual data entry between systems',
+      'Drop-off rate measured at every stage: form → qualified call → consult booked → retained',
+    ],
+  },
+  {
+    title: 'Google Ads Setup',
+    items: [
+      'Search campaigns separated from Display and Performance Max (PMax is hiding spend if mixed)',
+      'Negative keyword list reviewed monthly — at minimum filtering free legal advice, jobs, salary, and competitor names',
+      'Conversion value column shows revenue, not lead count (so Smart Bidding optimizes toward retained cases)',
+      'Local Services Ads (LSAs) running in parallel and tracked separately from standard Search',
+      'Geo-targeting set to "Presence" only — not "Presence or Interest" (which leaks budget nationally)',
+    ],
+  },
+  {
+    title: 'SEO & Google Business Profile',
+    items: [
+      'Practice-area landing pages exist for every service you want to rank for (not all on one services page)',
+      'City + practice-area pages built for each market you actually serve (not just your home city)',
+      'Google Business Profile fully optimized: services, hours, photos, weekly posts, Q&A populated',
+      'Review velocity: at least 3-5 new Google reviews per month, with owner responses on every one',
+      'Schema markup deployed: LegalService, Attorney, FAQPage, and BreadcrumbList at minimum',
+    ],
+  },
+  {
+    title: 'Reporting & CRM Operations',
+    items: [
+      'Cost per retained client calculated monthly by channel (not cost per lead)',
+      'CRM (Lawmatics, Clio Grow, or equivalent) captures source, stage, disposition, and signed-fee value for every matter',
+      'Pipeline report shared monthly with the partner group — not just the marketing team',
+      'Agency reports cross-checked against your own GA4 and CRM data quarterly (not taken at face value)',
+      'A single dashboard combining ad spend, intake volume, signed cases, and revenue — refreshed at least weekly',
+    ],
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://hugheyllc.com/resources/" },
+    { "@type": "ListItem", "position": 3, "name": "Marketing Audit Checklist", "item": "https://hugheyllc.com/resources/marketing-audit-checklist/" }
+  ]
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The 25-Point Law Firm Marketing Audit Checklist",
+  "description": "A 25-point checklist for law firm principals to evaluate whether their marketing operation is actually generating retained clients — or just activity.",
+  "author": {
+    "@type": "Person",
+    "name": "Joe Hughey",
+    "url": "https://hugheyllc.com/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hughey LLC",
+    "url": "https://hugheyllc.com"
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hugheyllc.com/resources/marketing-audit-checklist/" }
+};
+---
+
+<BaseLayout
+  title="Free 25-Point Law Firm Marketing Audit Checklist | Hughey LLC"
+  description="Is your law firm marketing actually working? Download the free 25-point audit checklist covering attribution, intake, Google Ads, SEO, GBP, call tracking, and CRM."
+  canonical="https://hugheyllc.com/resources/marketing-audit-checklist/"
+  schema={[breadcrumbSchema, articleSchema]}
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <PageHero
+      eyebrow="Free Resource"
+      heading="Is Your Law Firm Marketing<br /><em>Actually Working?</em>"
+      subheading="A 25-point audit checklist for law firm principals. Used by partners at firms spending $10k–$100k/month on marketing to find out where the budget is leaking."
+    />
+
+    <!-- Lead capture + preview -->
+    <div style="padding: 64px 0;">
+      <div class="w">
+        <div class="lm-grid">
+
+          <!-- Left: Form + Description -->
+          <div>
+            <p class="lm-intro">If your firm is spending real money on marketing but no one can tell you the cost per retained client by channel, this checklist is for you. It's the same 25-point review I walk through with new consulting clients — the gaps that turn up here are usually where the budget is leaking.</p>
+
+            <ul class="lm-bullets">
+              <li>25 specific items across 5 critical sections</li>
+              <li>Tells you exactly which systems are broken (not just "do better SEO")</li>
+              <li>Free. Delivered to your inbox in under a minute.</li>
+            </ul>
+
+            <form id="checklistForm" class="lm-form" novalidate>
+              <div class="field-group">
+                <label for="cl-name">Name *</label>
+                <input type="text" id="cl-name" name="name" required autocomplete="name" />
+              </div>
+              <div class="field-group">
+                <label for="cl-email">Email *</label>
+                <input type="email" id="cl-email" name="email" required autocomplete="email" />
+              </div>
+              <input type="text" id="cl-honeypot" name="honeypot" style="display:none;" tabindex="-1" autocomplete="off" />
+
+              <div id="cl-status" style="display:none;" role="alert"></div>
+
+              <button type="submit" id="cl-submit">Get the Free Checklist →</button>
+
+              <p class="lm-fine">No spam. No drip sequences. We may send you one occasional update — unsubscribe any time.</p>
+            </form>
+          </div>
+
+          <!-- Right: Preview -->
+          <div class="lm-preview-wrap">
+            <div class="lm-preview">
+              <div class="lm-preview-head">
+                <span class="lm-tag">Preview</span>
+                <h3>The 25-Point Audit</h3>
+              </div>
+
+              <div class="lm-preview-section">
+                <h4>1. Ad Attribution &amp; Tracking</h4>
+                <ol>
+                  {sections[0].items.map(item => <li>{item}</li>)}
+                </ol>
+              </div>
+
+              <div class="lm-preview-locked">
+                <div class="lm-locked-content">
+                  <div class="lm-locked-section">
+                    <h4>2. Intake &amp; Lead Capture</h4>
+                    <ol>
+                      <li>Intake response time under 5 minutes during business hours…</li>
+                      <li>After-hours coverage: live answering service or AI receptionist…</li>
+                      <li>Intake script captures source on every call…</li>
+                    </ol>
+                  </div>
+                  <div class="lm-locked-section">
+                    <h4>3. Google Ads Setup</h4>
+                    <ol>
+                      <li>Search campaigns separated from Display and Performance Max…</li>
+                      <li>Negative keyword list reviewed monthly…</li>
+                    </ol>
+                  </div>
+                  <div class="lm-locked-section">
+                    <h4>4. SEO &amp; Google Business Profile</h4>
+                    <ol><li>Practice-area landing pages exist for every service…</li></ol>
+                  </div>
+                  <div class="lm-locked-section">
+                    <h4>5. Reporting &amp; CRM Operations</h4>
+                    <ol><li>Cost per retained client calculated monthly…</li></ol>
+                  </div>
+                </div>
+                <div class="lm-locked-overlay">
+                  <div class="lm-locked-message">
+                    <p class="lm-locked-title">+ 20 more items</p>
+                    <p class="lm-locked-sub">Enter your email to unlock the full 25-point checklist.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Full checklist (revealed on success) -->
+    <div id="fullChecklist" style="display:none; padding: 60px 0; background: rgba(200, 151, 58, 0.04); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 920px; margin: 0 auto;">
+          <h2 style="font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 12px;">The Full 25-Point Checklist</h2>
+          <p style="font-size: 16px; color: rgba(255,255,255,0.7); line-height: 1.7; margin-bottom: 40px;">A copy is also in your inbox — but you can start here.</p>
+
+          {sections.map((section, idx) => (
+            <div style="margin-bottom: 40px;">
+              <h3 style="color: var(--glt); font-size: 20px; font-weight: 700; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 1px solid rgba(200, 151, 58, 0.2);">{idx + 1}. {section.title}</h3>
+              <ol style="padding-left: 24px; line-height: 1.85;">
+                {section.items.map(item => <li style="margin-bottom: 12px; color: rgba(255,255,255,0.82);">{item}</li>)}
+              </ol>
+            </div>
+          ))}
+
+          <div style="margin-top: 56px; padding: 32px; background: rgba(200, 151, 58, 0.08); border: 1px solid rgba(200, 151, 58, 0.2); border-radius: 4px; text-align: center;">
+            <h3 style="font-size: 22px; font-weight: 800; margin-bottom: 12px;">See gaps you can't fix internally?</h3>
+            <p style="font-size: 15px; color: rgba(255,255,255,0.7); margin-bottom: 24px; line-height: 1.7;">Book a free strategy call. We'll walk through what's broken and what's worth fixing first.</p>
+            <a href="/contact/" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 16px 34px; border-radius: 2px; text-decoration: none; transition: all 0.25s;">
+              Schedule a Free Call →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('checklistForm') as HTMLFormElement;
+    const statusEl = document.getElementById('cl-status') as HTMLDivElement;
+    const submitBtn = document.getElementById('cl-submit') as HTMLButtonElement;
+    const fullList = document.getElementById('fullChecklist') as HTMLDivElement;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
+      statusEl.style.display = 'none';
+
+      const data = {
+        name: (form.querySelector('#cl-name') as HTMLInputElement).value.trim(),
+        email: (form.querySelector('#cl-email') as HTMLInputElement).value.trim(),
+        honeypot: (form.querySelector('#cl-honeypot') as HTMLInputElement).value,
+      };
+
+      try {
+        const res = await fetch('/api/resources/checklist-download', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        const result = await res.json();
+
+        statusEl.style.display = 'block';
+        if (result.success) {
+          statusEl.className = 'status-success';
+          statusEl.textContent = result.message || 'Sent. Check your inbox.';
+          submitBtn.textContent = 'Sent ✓';
+          fullList.style.display = 'block';
+          fullList.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          statusEl.className = 'status-error';
+          statusEl.textContent = result.error || 'Something went wrong. Try again.';
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Get the Free Checklist →';
+        }
+      } catch {
+        statusEl.style.display = 'block';
+        statusEl.className = 'status-error';
+        statusEl.textContent = 'Network error. Email joe@joehughey.com if the issue persists.';
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Get the Free Checklist →';
+      }
+    });
+  </script>
+
+  <style>
+    em { color: var(--glt); font-style: italic; }
+
+    .lm-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: start;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .lm-intro {
+      font-size: 17px;
+      line-height: 1.75;
+      color: rgba(255,255,255,0.78);
+      margin-bottom: 28px;
+    }
+
+    .lm-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .lm-bullets li {
+      position: relative;
+      padding-left: 22px;
+      font-size: 15px;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.65;
+    }
+
+    .lm-bullets li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--glt);
+      font-weight: 700;
+    }
+
+    .lm-form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.2);
+      border-radius: 4px;
+      padding: 28px;
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 12px 16px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.2);
+      border-radius: 2px;
+      color: var(--white);
+      font-size: 14px;
+      font-family: inherit;
+      transition: border-color 0.2s, background 0.2s;
+      box-sizing: border-box;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: var(--gold);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    button[type="submit"] {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 16px 34px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: all 0.25s;
+      box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);
+      margin-top: 4px;
+    }
+
+    button[type="submit"]:hover:not(:disabled) {
+      background: var(--glt);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52);
+    }
+
+    button[type="submit"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .lm-fine {
+      font-size: 12px;
+      color: rgba(255,255,255,0.4);
+      line-height: 1.6;
+      margin: 4px 0 0;
+    }
+
+    .status-success {
+      padding: 12px 16px;
+      background: rgba(200, 151, 58, 0.12);
+      border: 1px solid rgba(200, 151, 58, 0.3);
+      border-radius: 2px;
+      color: var(--gold);
+      font-size: 14px;
+    }
+
+    .status-error {
+      padding: 12px 16px;
+      background: rgba(255, 100, 100, 0.1);
+      border: 1px solid rgba(255, 100, 100, 0.2);
+      border-radius: 2px;
+      color: #ff8080;
+      font-size: 14px;
+    }
+
+    /* Preview card */
+    .lm-preview-wrap {
+      position: sticky;
+      top: 140px;
+    }
+
+    .lm-preview {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.02) 100%);
+      border: 1px solid rgba(200, 151, 58, 0.18);
+      border-radius: 6px;
+      padding: 32px;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+    }
+
+    .lm-preview-head {
+      border-bottom: 1px solid rgba(200, 151, 58, 0.18);
+      padding-bottom: 16px;
+      margin-bottom: 22px;
+    }
+
+    .lm-tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--glt);
+      background: rgba(200, 151, 58, 0.12);
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+
+    .lm-preview-head h3 {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--white);
+      margin: 0;
+    }
+
+    .lm-preview-section h4,
+    .lm-locked-section h4 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--glt);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0 0 12px;
+    }
+
+    .lm-preview-section ol,
+    .lm-locked-section ol {
+      padding-left: 22px;
+      margin: 0 0 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .lm-preview-section li,
+    .lm-locked-section li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.78);
+    }
+
+    .lm-preview-locked {
+      position: relative;
+      margin-top: 8px;
+    }
+
+    .lm-locked-content {
+      filter: blur(4px);
+      opacity: 0.5;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .lm-locked-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, rgba(9, 19, 31, 0.2) 0%, rgba(9, 19, 31, 0.85) 60%, rgba(9, 19, 31, 0.95) 100%);
+      border-radius: 4px;
+    }
+
+    .lm-locked-message {
+      text-align: center;
+    }
+
+    .lm-locked-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--gold);
+      margin: 0 0 6px;
+    }
+
+    .lm-locked-sub {
+      font-size: 14px;
+      color: rgba(255,255,255,0.75);
+      margin: 0;
+      max-width: 240px;
+    }
+
+    @media (max-width: 900px) {
+      .lm-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .lm-preview-wrap { position: static; }
+    }
+  </style>
+</BaseLayout>

@@ -134,6 +134,24 @@ Here's how I'd approach keyword research for a personal injury firm in Tampa fro
 
 The result is a keyword map that ties every piece of content on the site to actual search demand — nothing built on guesswork, everything traceable back to what Tampa clients are actually searching when they need help.
 
+## FAQs
+
+**Do I need paid keyword research tools like SEMrush or Ahrefs, or can I use free tools?**
+
+You can do meaningful keyword research with free tools — Google Keyword Planner (free with a Google Ads account), Google Search Console, AnswerThePublic's free tier, and Google autocomplete. The paid tools (SEMrush, Ahrefs, Moz) accelerate the work — particularly competitive gap analysis — but they don't surface keywords the free tools miss. For solos and small firms, free tools plus 4–6 hours of methodical work cover 80% of what you need.
+
+**How many keywords should a law firm actually target?**
+
+Far fewer than most agencies will quote you. A focused 5-attorney firm typically needs 30–60 well-targeted commercial keywords plus 100–200 informational long-tail terms across the site. Firms that try to rank for 500+ commercial keywords usually rank for none of them well. Concentration of authority on fewer terms beats spreading thin across many.
+
+**Should I target broad keywords like "lawyer near me" or get more specific?**
+
+More specific, almost always. "Lawyer near me" has high volume but terrible intent specificity — half those searches aren't your practice area. "Tampa motorcycle accident attorney" has lower volume but higher conversion rate and lower competition. Build your keyword map around specific practice-area-plus-location combinations and long-tail intent queries; let the broad terms come naturally as authority grows.
+
+**How often should I redo keyword research?**
+
+A full refresh once a year is plenty. What changes more often: monitoring Search Console monthly for new queries you're appearing for (often a goldmine of long-tail opportunities), and watching competitor content quarterly to spot gaps they've closed or new terms they're pursuing. Treat keyword research as ongoing maintenance, not an annual project that gets shelved between updates.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

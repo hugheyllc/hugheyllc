@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const cities = [
+  { name: 'Tampa Bay', href: '/location/', county: 'Hillsborough & Pinellas Counties', blurb: 'Home base. St. Petersburg, Tampa, Clearwater, and the Gulf Coast — one of the most competitive paid-search markets in Florida.' },
+  { name: 'Orlando', href: '/florida/orlando/', county: 'Orange County', blurb: "Florida's third-largest paid-search market. Theme park PI, tourism intake, and bilingual attribution gaps." },
+  { name: 'Miami', href: '/florida/miami/', county: 'Miami-Dade County', blurb: "Florida's largest and most expensive legal market. English/Spanish attribution and international lead filtering define the work." },
+  { name: 'Jacksonville', href: '/florida/jacksonville/', county: 'Duval County', blurb: "North Florida's largest legal market. Military intake, I-95 corridor PI, and St. Johns County transplant growth." },
+  { name: 'Fort Lauderdale', href: '/florida/fort-lauderdale/', county: 'Broward County', blurb: "South Florida's second-largest market. Maritime law, seasonal intake, and South Florida geo-bleed." },
+  { name: 'Naples', href: '/florida/naples/', county: 'Collier County', blurb: 'Small, high-value market. Estate planning, trust administration, and referral-driven business.' },
+  { name: 'West Palm Beach', href: '/florida/west-palm-beach/', county: 'Palm Beach County', blurb: 'Fast-growing transplant market. Family law for late-life remarriage, business relocation work, advisor referrals.' },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Florida", "item": "https://hugheyllc.com/florida/" }
+  ]
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Hughey LLC — Law Firm Marketing Consulting (Florida)",
+  "url": "https://hugheyllc.com/florida/",
+  "areaServed": {
+    "@type": "State",
+    "name": "Florida"
+  }
+};
+---
+
+<BaseLayout
+  title="Law Firm Marketing Consultant — Florida | Hughey LLC"
+  description="Independent law firm marketing consulting across Florida — Tampa Bay, Orlando, Miami, Jacksonville, Fort Lauderdale, Naples, and West Palm Beach. Attribution, strategy, agency accountability."
+  canonical="https://hugheyllc.com/florida/"
+  schema={[breadcrumbSchema, serviceSchema]}
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <PageHero
+      eyebrow="Florida Coverage"
+      heading={`Law Firm Marketing Consultant<br /><em>Across Florida</em>`}
+      subheading="Independent marketing strategy, attribution, and agency accountability for Florida law firms — from the Panhandle to the Keys. Based in St. Petersburg."
+    />
+
+    <div style="padding: 64px 0;">
+      <div class="w">
+        <div style="max-width: 760px; margin: 0 auto 48px;">
+          <p style="font-size: 17px; line-height: 1.8; color: rgba(255,255,255,0.78);">Every Florida legal market has its own marketing dynamic. Tampa's competitive paid-search and Miami's bilingual attribution problems look nothing alike. Naples is a referral-driven boutique market. Jacksonville is rebuilding around population growth. Each city below has its own playbook — and a page that explains how the work changes in that market.</p>
+        </div>
+
+        <div class="city-list">
+          {cities.map(c => (
+            <a href={c.href} class="city-card">
+              <div class="city-card-head">
+                <h3>{c.name}, FL</h3>
+                <span>{c.county}</span>
+              </div>
+              <p>{c.blurb}</p>
+              <span class="city-card-link">View market overview →</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 64px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 760px; margin: 0 auto; text-align: center;">
+          <h2 style="font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 16px;">Not in One of These Cities?</h2>
+          <p style="font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin-bottom: 32px;">I work with law firms across Florida — and nationally on remote engagements. If your market isn't listed, the work is the same: attribution, strategy, and agency accountability.</p>
+          <a href="/contact/" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 18px 36px; border-radius: 2px; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Free Call →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    em { color: var(--glt); font-style: italic; }
+    .city-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 22px;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .city-card {
+      display: block;
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.18);
+      border-radius: 4px;
+      padding: 28px;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.25s, border-color 0.25s, transform 0.25s;
+    }
+    .city-card:hover {
+      background: rgba(200, 151, 58, 0.1);
+      border-color: rgba(200, 151, 58, 0.45);
+      transform: translateY(-2px);
+    }
+    .city-card-head {
+      margin-bottom: 14px;
+    }
+    .city-card-head h3 {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--white);
+      margin: 0 0 4px;
+    }
+    .city-card-head span {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--glt);
+    }
+    .city-card p {
+      font-size: 14px;
+      line-height: 1.65;
+      color: rgba(255,255,255,0.7);
+      margin: 0 0 16px;
+    }
+    .city-card-link {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+  </style>
+</BaseLayout>

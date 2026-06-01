@@ -1,0 +1,217 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const city = 'Orlando';
+const slug = 'orlando';
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `https://hugheyllc.com/florida/${slug}/#business`,
+  "name": "Hughey LLC — Law Firm Marketing Consultant",
+  "description": `Independent law firm marketing consultant serving ${city}, Florida. Strategy, attribution, and agency accountability for law firms.`,
+  "url": `https://hugheyllc.com/florida/${slug}/`,
+  "telephone": "+17274833222",
+  "email": "joe@joehughey.com",
+  "image": "https://hugheyllc.com/hughey-logo.png",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": city },
+    { "@type": "AdministrativeArea", "name": "Orange County, FL" },
+    { "@type": "AdministrativeArea", "name": "Seminole County, FL" },
+    { "@type": "AdministrativeArea", "name": "Osceola County, FL" }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Joe Hughey",
+    "url": "https://hugheyllc.com/about/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/joehughey/",
+    "https://www.facebook.com/profile.php?id=61577138003264"
+  ]
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Florida", "item": "https://hugheyllc.com/florida/" },
+    { "@type": "ListItem", "position": 3, "name": city, "item": `https://hugheyllc.com/florida/${slug}/` }
+  ]
+};
+---
+
+<BaseLayout
+  title={`Law Firm Marketing Consultant ${city}, FL | Hughey LLC`}
+  description={`Independent law firm marketing consultant serving ${city}, Florida. 20+ years helping firms measure cost per retained client and hold agencies accountable.`}
+  canonical={`https://hugheyllc.com/florida/${slug}/`}
+  schema={[localBusinessSchema, breadcrumbSchema]}
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <PageHero
+      eyebrow={`${city} • Orange County`}
+      heading={`Law Firm Marketing Consultant<br /><em>${city}, FL</em>`}
+      subheading={`Independent strategy and attribution for ${city} law firms competing in one of Florida's most expensive paid-search markets. No agency retainer. No platform lock-in.`}
+    />
+
+    <div style="padding: 72px 0;">
+      <div class="w">
+        <div class="city-grid">
+          <div class="city-body">
+            <p>Orlando is the third-largest law firm marketing market in Florida by paid-search spend, trailing only Miami and Tampa. The combination of a fast-growing Central Florida population, year-round tourism traffic, and a high-volume personal injury market — slip-and-falls at theme parks, auto collisions on I-4 and the 408, premises liability at hotels and convention centers — has driven Google Ads costs in Orange County to levels that rival much larger metros.</p>
+
+            <p>That competition makes <a href="/">independent marketing strategy</a> more valuable in Orlando than in most Florida cities. Firms here aren't suffering from a lack of marketing spend. They're suffering from a lack of measurement.</p>
+
+            <h2>The Orlando Legal Market</h2>
+
+            <p>Orange County alone has more than 7,000 active attorneys, with another 4,000+ across Seminole, Osceola, and Lake counties. The market is dominated by personal injury and family law firms competing on a small set of high-intent keywords. CPCs of $90–$150 for terms like "Orlando car accident lawyer" or "Orlando personal injury attorney" are routine. Local Services Ads have only intensified that — most Orlando PI firms are now paying $200–$400 per qualified LSA lead on top of their existing PPC and SEO spend.</p>
+
+            <p>Below that surface, business law, immigration, and estate planning firms compete in a different but equally fragmented landscape — one where directory placement, GBP optimization, and referral attribution matter as much as paid search. Orlando's bilingual market (Spanish, Portuguese, Haitian Creole) further complicates intake — firms that don't track which language pathway a lead used routinely misattribute their best-performing channels.</p>
+
+            <h2>Why {city} Law Firms Work With Me</h2>
+
+            <p>Most Orlando law firms I talk to are spending between $15,000 and $80,000 per month on marketing and can't answer one question: which dollar produces a retained client at the lowest cost. They have agency reports. They have GA4 dashboards. They have CallRail call logs. What they don't have is a unified view that connects ad spend → lead → consult → signed fee agreement.</p>
+
+            <p>That's the gap an independent consultant closes. I sit above the agencies — including national firms like Scorpion, Mockingbird, and Consultwebs that have significant Orlando footprint — and measure whether they're actually producing retained cases, not just activity. Specific Orlando-market dynamics I look at:</p>
+
+            <ul>
+              <li><strong>Theme park and tourism PI claims</strong> — most firms have no way to distinguish out-of-state lead traffic from local Orange County intake, which skews bidding strategy</li>
+              <li><strong>I-4 corridor PPC overlap</strong> — firms running ads in Orlando, Lakeland, and Tampa simultaneously almost always waste spend on overlapping geo-targets</li>
+              <li><strong>Bilingual lead attribution</strong> — Spanish-language ad sets are often the highest-converting channel and the worst-tracked</li>
+              <li><strong>Conference and convention traffic</strong> — out-of-town visitor PI cases require entirely different intake handling than local-market clients</li>
+            </ul>
+
+            <h2>What the Engagement Looks Like</h2>
+
+            <p>The typical Orlando engagement starts with a 30-day analytics audit: I connect your GA4, CallRail, CRM (usually Lawmatics or Clio Grow), and Google Ads to build the cost-per-retained-client picture by channel. Most firms see numbers they've never seen before — and reallocate budget inside the first quarter.</p>
+
+            <p>From there it's ongoing strategy work: agency accountability, intake optimization, and a 12-month plan that scales the channels that are actually working. I'm based in St. Petersburg, but Orlando is a 90-minute drive, and on-site work in Orange County is part of the standard engagement.</p>
+          </div>
+
+          <aside class="city-side">
+            <div class="side-card">
+              <h3>Service Area</h3>
+              <p>Orlando • Winter Park • Lake Mary • Kissimmee • Sanford • Apopka • Orange, Seminole, Osceola, and Lake counties</p>
+            </div>
+            <div class="side-card">
+              <h3>Common Practice Areas</h3>
+              <p>Personal Injury • Family Law • Business Litigation • Immigration • Real Estate • Estate Planning • Criminal Defense</p>
+            </div>
+            <div class="side-card cta-card">
+              <h3>Talk to Joe</h3>
+              <p>Direct conversation about your firm's numbers. No sales pitch.</p>
+              <a href="/contact/" class="cta-btn">Schedule a Free Call →</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 64px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 760px; margin: 0 auto; text-align: center;">
+          <h2 style="font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 16px;">Ready to See Your Real Numbers?</h2>
+          <p style="font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin-bottom: 32px;">If your Orlando firm is spending serious money on marketing and can't tell which channel is producing retained clients, that's the conversation worth having.</p>
+          <a href="/contact/" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 18px 36px; border-radius: 2px; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Free Call →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    em { color: var(--glt); font-style: italic; }
+    .city-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 60px;
+      align-items: start;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .city-body { font-size: 17px; line-height: 1.85; color: rgba(255,255,255,0.82); }
+    .city-body p { margin-bottom: 24px; }
+    .city-body h2 {
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 800;
+      color: var(--white);
+      margin: 48px 0 20px;
+      letter-spacing: -0.02em;
+    }
+    .city-body ul {
+      margin: 0 0 24px;
+      padding-left: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .city-body li { color: rgba(255,255,255,0.78); }
+    .city-body a {
+      color: var(--glt);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .city-body a:hover { color: var(--white); }
+    .city-body strong { color: var(--white); font-weight: 700; }
+    .city-side {
+      position: sticky;
+      top: 140px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .side-card {
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.18);
+      border-radius: 4px;
+      padding: 22px;
+    }
+    .side-card h3 {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--glt);
+      margin-bottom: 10px;
+    }
+    .side-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.72);
+      margin: 0;
+    }
+    .cta-card { background: rgba(200, 151, 58, 0.1); }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 12px 22px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: var(--glt); }
+    @media (max-width: 900px) {
+      .city-grid { grid-template-columns: 1fr; }
+      .city-side { position: static; }
+    }
+  </style>
+</BaseLayout>

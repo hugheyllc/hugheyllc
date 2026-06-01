@@ -120,6 +120,24 @@ The right platform is the one you'll actually use and maintain. That's usually t
 [Get a Platform Recommendation →](/blog/)
 </div>
 
+## FAQs
+
+**Can I migrate from Clio Grow to Lawmatics (or vice versa) once I've already set one up?**
+
+Yes, but it's painful. You're not just moving contacts — you're rebuilding intake pipelines, email templates, automation rules, custom fields, and form integrations. Plan for 60–90 days of dual-system operation and roughly 40–80 hours of configuration work. Most firms only migrate when the current platform is genuinely blocking growth; don't switch over marginal preference issues.
+
+**Does Lawmatics actually integrate with Clio Manage if I want to keep Clio for case management?**
+
+Yes, via API and Zapier. The integration works but it's not as deep as Clio Grow's native sync to Clio Manage. You'll lose some real-time bidirectional updates and need to map fields carefully. Many firms run this hybrid setup (Lawmatics for intake + Clio Manage for case management) successfully, but expect a few weeks of configuration to get the data flowing cleanly.
+
+**Which platform is better for marketing attribution and ROI reporting?**
+
+Lawmatics, clearly. Its built-in lead source tracking, UTM capture, and reporting dashboards are significantly more sophisticated than Clio Grow's. If you're spending $5K+/month on marketing and need to know cost per retained client by source, Lawmatics is the better tool. Clio Grow can do basic source reporting but requires more manual work and won't give you keyword-level attribution.
+
+**Is there a third option I should consider besides these two?**
+
+A few. CosmoLex, MyCase, and PracticePanther all have intake modules. SmartAdvocate is strong specifically for high-volume PI firms. HubSpot or ActiveCampaign with custom legal workflows works for firms that want maximum flexibility. But for most small-to-mid law firms, Lawmatics and Clio Grow are the two purpose-built market leaders, and the comparison really is between them.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

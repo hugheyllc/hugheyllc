@@ -87,6 +87,24 @@ This isn't complicated. It takes five minutes per post. But it turns your conten
 
 Content marketing works for law firms. But only when it's built for clients first, structured strategically second, and measured against the only metric that matters: cases you actually sign.
 
+## FAQs
+
+**How many blog posts should a law firm publish per month?**
+
+Two solid, attorney-written posts per month outperforms eight thin ghostwritten ones — every time. Most firms over-publish low-value content because an agency sold them on volume. A consistent cadence of 2–4 substantive posts (1,200+ words, written by or with real attorney input) is the right baseline. Quality and topical depth drive rankings; pace alone does not.
+
+**Should I let an SEO agency or AI ghostwriter produce my law firm content?**
+
+AI drafts are useful as starting points, but generic AI content without attorney involvement reads like generic AI content — and Google's helpful content updates increasingly demote it. The best workflow: attorney provides a 10-minute voice memo on a topic, the AI or writer drafts from it, attorney reviews and adds specifics. Your voice and case examples are the asset; the writing tool is just leverage.
+
+**How long until law firm content marketing produces signed clients?**
+
+Realistic timeline: 6–9 months to see meaningful organic traffic from new content, 9–12 months to see that traffic convert to consultations consistently, and 12–18 months for content marketing to become a primary lead channel. Firms that quit at month 4 because "it's not working" are quitting right before the curve. Plan a 12-month commitment minimum before evaluating content marketing ROI.
+
+**What types of content actually drive cases, vs. just traffic?**
+
+Three categories convert disproportionately: (1) "How much is my case worth" style settlement-value content, (2) process-focused content like "what to expect in a Florida divorce" or "what happens after a car accident," and (3) detailed case results pages with anonymized specifics. Generic "what is personal injury law" content gets traffic but rarely converts. Write for someone who knows they have a problem — not someone learning about the field.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

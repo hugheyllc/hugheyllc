@@ -109,6 +109,24 @@ If you're not tracking this number, you're flying blind. And if your marketing a
 
 [I help law firms build this framework and hold their marketing accountable to it. Let's talk.](/contact)
 
+## FAQs
+
+**What's the difference between cost per lead and cost per retained client?**
+
+Cost per lead measures the price to generate any inquiry — a form fill, a phone call, a chatbot conversation. Cost per retained client (CPRC) measures only the inquiries that became signed clients. The gap between the two numbers tells you everything about your intake process. If CPL is $80 and CPRC is $2,400, you're converting 1 in 30 leads — that's an intake problem disguised as a marketing problem.
+
+**How do I calculate cost per retained client if I have multiple marketing channels?**
+
+You need closed-loop attribution from source through retention. Tag every lead with its source in your CRM (Lawmatics, Clio Grow, or similar), then divide channel spend by retained clients from that channel each month. CallRail and GA4 handle the lead-source piece; your CRM has to carry that source tag all the way to retention status. If your CRM doesn't track lead source, that's the first thing to fix.
+
+**Is there a benchmark CPRC for personal injury vs. estate planning vs. family law?**
+
+PI firms with $25K+ average case values often run CPRC of $1,500–$4,000 and still profit. Estate planning at $3K average case value usually needs CPRC under $500. Family law sits in between. The right benchmark isn't an industry number — it's your own CPRC trending down over time as you optimize channels and intake.
+
+**Why won't my marketing agency report on cost per retained client?**
+
+Two reasons, usually. First, they don't have the data — they never connected your CRM retention data back to campaign source. Second, the number makes them look bad. Agencies optimize for what they're measured on; if you measure them on retained clients instead of leads, the conversation changes very quickly.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

@@ -106,6 +106,24 @@ If you're considering Scorpion — or any major marketing platform — do three 
 
 I've helped law firms across Florida evaluate, hire, manage, and sometimes fire their marketing agencies. If you'd like an independent perspective before making a decision, [let's talk](/contact).
 
+## FAQs
+
+**Does Scorpion let you keep your website and ad accounts if you leave?**
+
+This is the single most important question to ask before signing. Standard Scorpion contracts historically retain ownership of the website they build for you — meaning if you leave, you start over with a new site. Ad accounts are similar: campaigns built in Scorpion-managed accounts may not transfer. Read the contract carefully and negotiate ownership terms before signing. If they won't budge on website ownership, that should weigh heavily in your decision.
+
+**What's the typical monthly spend with Scorpion for a law firm?**
+
+Most law firm engagements with Scorpion fall in the $5,000–$25,000/month range, with PI firms often pushing significantly higher. That usually includes website, SEO, and managed advertising (with ad spend pass-through on top of the management fee). The minimum to engage meaningfully is generally $5K–$7K/month — Scorpion is not the right fit for solos or small firms with smaller budgets.
+
+**Are there better alternatives to Scorpion for law firm marketing?**
+
+It depends on what you need. For firms wanting a single all-in-one vendor, alternatives include PaperStreet, Justia, FindLaw, and Consultwebs — each with different strengths. For firms wanting more control and flexibility, an independent consultant plus specialist execution partners (SEO firm, ads firm, web designer) often delivers better results at lower cost. The right alternative depends on your firm's size, complexity, and how hands-on your principals want to be.
+
+**Can I do my own due diligence on Scorpion before signing?**
+
+Yes — and you should. Request 3–5 references from law firms in your practice area at your size; specifically ask for firms that have been with them more than 24 months. Search Google for "Scorpion law firm review" and read both positive and negative experiences. Get the contract reviewed by an attorney (you have one — yourself) for term length, exit clauses, and ownership provisions. Take a week before signing, not 24 hours.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

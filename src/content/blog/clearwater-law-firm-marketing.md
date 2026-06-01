@@ -97,6 +97,24 @@ Budget-wise, a small Clearwater firm (solo or 3–4 attorneys) should allocate *
 
 </div>
 
+## FAQs
+
+**Is Clearwater a less competitive market than Tampa for law firm marketing?**
+
+Yes — meaningfully less so. Clearwater has roughly 1/4 the legal-services search volume of Tampa, but it also has 1/4 the competing firms, and CPCs run 20–40% lower. The math typically favors investing in Clearwater-specific SEO and ads vs. trying to compete in Tampa proper, especially for solo practitioners and smaller firms. The downside: lower volume means slower ramp.
+
+**Do I need a Clearwater office to rank for Clearwater searches?**
+
+Not strictly. Service-area businesses (no public office) can rank in Clearwater via Google Business Profile if you configure service areas correctly and have substantive Clearwater-specific website content. That said, firms with a physical Clearwater office — even a small satellite — generally outrank service-area firms in the local pack. If you're committed to Clearwater long-term, a satellite office pays for itself in lead volume.
+
+**How long does it take to rank in the Clearwater local pack?**
+
+For a firm starting from zero (no GBP, no citations, no Clearwater content), expect 6–9 months to reach the top 3 in moderately competitive practice areas. Family law and estate planning can move faster — sometimes 4–6 months. Personal injury is the slowest because it's the most competitive even in smaller markets. Citation consistency and review velocity drive the timeline more than content alone.
+
+**Should a Clearwater firm also target Largo, Dunedin, and Safety Harbor?**
+
+Yes, but only with genuinely localized content for each. The "one location page per city" approach works when each page has real, unique substance — local court info, local landmarks, area-specific case results. If you can't write 800+ unique words per location, focus on Clearwater first and expand later. Templated multi-city pages will hurt you more than they help.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

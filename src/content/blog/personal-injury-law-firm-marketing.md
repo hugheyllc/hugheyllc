@@ -116,6 +116,24 @@ This isn't about high-volume content marketing. It's about **depth in specific a
 
 </div>
 
+## FAQs
+
+**How fast does a PI firm actually need to respond to a new lead?**
+
+Under 5 minutes if you want to compete in Tampa Bay or any major metro. PI prospects typically fill out 3–5 firm forms in the same session — whichever firm calls first usually signs the case. We see retention rates roughly double for firms responding in under 5 minutes vs. firms responding in 30+. SMS automation plus a live intake person on phones makes this realistic.
+
+**What's a healthy marketing spend as a percentage of revenue for a personal injury firm?**
+
+Most established PI firms run 8–15% of gross revenue on marketing. Newer firms or those in expansion mode often push to 20%+ for 12–24 months while building visibility. The number matters less than the ratio of marketing spend to retained case fees — if you're spending 12% of revenue and your CPRC is healthy relative to average case value, you're in good shape regardless of the absolute dollar amount.
+
+**Should a PI firm advertise on billboards and TV, or is digital enough?**
+
+For sub-$5M firms, digital almost always beats traditional on a per-case basis — better targeting, better attribution, lower minimum spend. Once you're at the scale where you need to build brand recognition for referred cases and named-attorney searches, billboards and TV can complement digital. Don't start with billboards; earn your way into them after digital fundamentals are profitable.
+
+**Is co-counsel / case referral fee work a viable marketing strategy for newer PI firms?**
+
+Yes, and it's underrated. Co-counseling with established firms while you build your own brand gives you case experience, settlement data for your future marketing, and revenue without the marketing spend. Most firms transition from heavily-referred to heavily-direct over 3–5 years as their own marketing matures. Treat referrals as a bridge, not a permanent strategy.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 

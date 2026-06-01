@@ -742,6 +742,86 @@
       "source": "/services/law-firm-marketing/",
       "destination": "/services/",
       "permanent": true
+    },
+    {
+      "source": "/marketing-checklist",
+      "destination": "/resources/marketing-audit-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/marketing-checklist/",
+      "destination": "/resources/marketing-audit-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firm-marketing-consultant",
+      "destination": "/location/",
+      "permanent": true
+    },
+    {
+      "source": "/tampa-law-firm-marketing-consultant/",
+      "destination": "/location/",
+      "permanent": true
+    },
+    {
+      "source": "/orlando-law-firm-marketing-consultant",
+      "destination": "/florida/orlando/",
+      "permanent": true
+    },
+    {
+      "source": "/orlando-law-firm-marketing-consultant/",
+      "destination": "/florida/orlando/",
+      "permanent": true
+    },
+    {
+      "source": "/miami-law-firm-marketing-consultant",
+      "destination": "/florida/miami/",
+      "permanent": true
+    },
+    {
+      "source": "/miami-law-firm-marketing-consultant/",
+      "destination": "/florida/miami/",
+      "permanent": true
+    },
+    {
+      "source": "/jacksonville-law-firm-marketing-consultant",
+      "destination": "/florida/jacksonville/",
+      "permanent": true
+    },
+    {
+      "source": "/jacksonville-law-firm-marketing-consultant/",
+      "destination": "/florida/jacksonville/",
+      "permanent": true
+    },
+    {
+      "source": "/fort-lauderdale-law-firm-marketing-consultant",
+      "destination": "/florida/fort-lauderdale/",
+      "permanent": true
+    },
+    {
+      "source": "/fort-lauderdale-law-firm-marketing-consultant/",
+      "destination": "/florida/fort-lauderdale/",
+      "permanent": true
+    },
+    {
+      "source": "/naples-law-firm-marketing-consultant",
+      "destination": "/florida/naples/",
+      "permanent": true
+    },
+    {
+      "source": "/naples-law-firm-marketing-consultant/",
+      "destination": "/florida/naples/",
+      "permanent": true
+    },
+    {
+      "source": "/west-palm-beach-law-firm-marketing-consultant",
+      "destination": "/florida/west-palm-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/west-palm-beach-law-firm-marketing-consultant/",
+      "destination": "/florida/west-palm-beach/",
+      "permanent": true
     }
   ],
   "headers": [

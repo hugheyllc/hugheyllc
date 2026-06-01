@@ -1,0 +1,215 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const city = 'Miami';
+const slug = 'miami';
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `https://hugheyllc.com/florida/${slug}/#business`,
+  "name": "Hughey LLC — Law Firm Marketing Consultant",
+  "description": `Independent law firm marketing consultant serving ${city}, Florida. Strategy, attribution, and agency accountability for law firms.`,
+  "url": `https://hugheyllc.com/florida/${slug}/`,
+  "telephone": "+17274833222",
+  "email": "joe@joehughey.com",
+  "image": "https://hugheyllc.com/hughey-logo.png",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": city,
+    "addressRegion": "FL",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": city },
+    { "@type": "AdministrativeArea", "name": "Miami-Dade County, FL" }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Joe Hughey",
+    "url": "https://hugheyllc.com/about/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/joehughey/",
+    "https://www.facebook.com/profile.php?id=61577138003264"
+  ]
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Florida", "item": "https://hugheyllc.com/florida/" },
+    { "@type": "ListItem", "position": 3, "name": city, "item": `https://hugheyllc.com/florida/${slug}/` }
+  ]
+};
+---
+
+<BaseLayout
+  title={`Law Firm Marketing Consultant ${city}, FL | Hughey LLC`}
+  description={`Independent law firm marketing consultant serving ${city}, Florida — the most competitive legal market in the state. Attribution, strategy, and agency accountability.`}
+  canonical={`https://hugheyllc.com/florida/${slug}/`}
+  schema={[localBusinessSchema, breadcrumbSchema]}
+>
+  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
+    <PageHero
+      eyebrow={`${city} • Miami-Dade County`}
+      heading={`Law Firm Marketing Consultant<br /><em>${city}, FL</em>`}
+      subheading={`Independent strategy and attribution for ${city} law firms competing in the most expensive paid-search market in Florida. No agency retainer. No platform lock-in.`}
+    />
+
+    <div style="padding: 72px 0;">
+      <div class="w">
+        <div class="city-grid">
+          <div class="city-body">
+            <p>Miami is the largest and most competitive law firm marketing market in Florida — by attorney count, by paid-search spend, and by the sheer diversity of practice areas competing for client attention. Miami-Dade has more than 15,000 active attorneys across personal injury, immigration, real estate, business litigation, maritime, international tax, and high-net-worth estate planning. No other Florida market mixes that volume with that complexity.</p>
+
+            <p>For most firms here, the problem isn't getting noticed. It's measuring whether the marketing dollars they're spending — often $50,000 to $250,000 per month — are actually producing retained clients. That's what an <a href="/">independent law firm marketing consultant</a> brings.</p>
+
+            <h2>The Miami Legal Market</h2>
+
+            <p>Google Ads CPCs in Miami-Dade are the highest in Florida and among the highest in the country. "Miami car accident lawyer" routinely clears $150 per click. Personal injury and immigration ad auctions are dominated by a handful of national firms — Morgan & Morgan, Steinger Greene & Feiner, the Ginsberg firms — bidding aggressively across both English- and Spanish-language ad sets. Smaller firms competing on the same keywords without strategic attribution are effectively subsidizing their competitors.</p>
+
+            <p>Miami is also Florida's only true bilingual legal market in volume. Spanish-language search, Spanish-language radio, and Spanish-language community placement all matter. Most agencies treat Spanish-language ads as a translation of the English campaign — which is almost always wrong. The intent, the cultural references, and the channel mix should be different, and firms that don't measure both pathways separately end up cutting their best channel.</p>
+
+            <h2>Why {city} Law Firms Work With Me</h2>
+
+            <p>Miami firms come to me when they've outgrown their agency's reporting. They're spending real money, they have visibility into impressions and clicks, but no one inside the firm can tell them which channel produces a retained case at what cost. That gap shows up most painfully when partners ask why marketing spend doubled but retained case count didn't.</p>
+
+            <p>The Miami-specific dynamics I look at:</p>
+
+            <ul>
+              <li><strong>English vs Spanish attribution</strong> — most firms have no way to separate retained-case performance by language pathway, which usually hides the most profitable channel</li>
+              <li><strong>International and out-of-state lead filtering</strong> — Miami firms get inbound from Latin America, the Northeast, and Caribbean countries that shouldn't be in their cost-per-retained-client math</li>
+              <li><strong>Maritime, immigration, and real estate cross-attribution</strong> — international clients often need multiple practice areas; firms with siloed marketing miss the LTV story</li>
+              <li><strong>Referral attribution from networking</strong> — Miami's legal community is heavily relationship-driven, and most CRMs never capture which event, bar association, or referral source produced the case</li>
+            </ul>
+
+            <h2>What the Engagement Looks Like</h2>
+
+            <p>A Miami engagement typically starts with an attribution audit: I connect your CRM (Lawmatics, Clio Grow, MyCase, or PracticePanther), GA4, CallRail, and ad platforms to surface the cost per retained client by channel and language. Most firms find that 20% of their spend is producing 80% of their retained cases — and the rest can be reallocated or cut entirely.</p>
+
+            <p>From there it's strategic work: agency accountability across the firms managing your SEO, PPC, and content; intake process audit (because Miami's after-hours and bilingual call coverage is usually broken); and a 12-month plan that scales what works. Engagements are remote with quarterly on-site visits to Miami when the work calls for it.</p>
+          </div>
+
+          <aside class="city-side">
+            <div class="side-card">
+              <h3>Service Area</h3>
+              <p>Miami • Coral Gables • Doral • Miami Beach • Hialeah • Aventura • Homestead • Miami-Dade County</p>
+            </div>
+            <div class="side-card">
+              <h3>Common Practice Areas</h3>
+              <p>Personal Injury • Immigration • Business Litigation • Real Estate • Maritime Law • International Tax • Family Law • Estate Planning</p>
+            </div>
+            <div class="side-card cta-card">
+              <h3>Talk to Joe</h3>
+              <p>Direct conversation about your firm's numbers. No sales pitch.</p>
+              <a href="/contact/" class="cta-btn">Schedule a Free Call →</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 64px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
+      <div class="w">
+        <div style="max-width: 760px; margin: 0 auto; text-align: center;">
+          <h2 style="font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 16px;">Ready to See Your Real Numbers?</h2>
+          <p style="font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin-bottom: 32px;">If your Miami firm is spending serious money on marketing and can't tell which channel is producing retained clients, that's the conversation worth having.</p>
+          <a href="/contact/" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 18px 36px; border-radius: 2px; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
+            Schedule a Free Call →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    em { color: var(--glt); font-style: italic; }
+    .city-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 60px;
+      align-items: start;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .city-body { font-size: 17px; line-height: 1.85; color: rgba(255,255,255,0.82); }
+    .city-body p { margin-bottom: 24px; }
+    .city-body h2 {
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 800;
+      color: var(--white);
+      margin: 48px 0 20px;
+      letter-spacing: -0.02em;
+    }
+    .city-body ul {
+      margin: 0 0 24px;
+      padding-left: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .city-body li { color: rgba(255,255,255,0.78); }
+    .city-body a {
+      color: var(--glt);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .city-body a:hover { color: var(--white); }
+    .city-body strong { color: var(--white); font-weight: 700; }
+    .city-side {
+      position: sticky;
+      top: 140px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .side-card {
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.18);
+      border-radius: 4px;
+      padding: 22px;
+    }
+    .side-card h3 {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--glt);
+      margin-bottom: 10px;
+    }
+    .side-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.72);
+      margin: 0;
+    }
+    .cta-card { background: rgba(200, 151, 58, 0.1); }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 12px 22px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: var(--glt); }
+    @media (max-width: 900px) {
+      .city-grid { grid-template-columns: 1fr; }
+      .city-side { position: static; }
+    }
+  </style>
+</BaseLayout>

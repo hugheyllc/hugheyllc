@@ -71,6 +71,24 @@ At [Hughey, LLC](https://hugheyllc.com/), a comprehensive technical and content 
 [Request Your Free SEO Audit →](/blog/)
 </div>
 
+## FAQs
+
+**How often should a law firm run a full SEO audit?**
+
+A comprehensive audit makes sense annually, plus any time you redesign your site, change platforms, or notice an unexplained traffic drop. Between full audits, monitor Google Search Console weekly for indexing issues and Core Web Vitals problems — those surface in real time and don't need a formal audit to address.
+
+**What's the difference between a free SEO audit and a paid one?**
+
+Most "free" audits are automated tool exports — a Semrush scan dressed up as a deliverable. A real audit requires a human to interpret the data, evaluate your competitive landscape, look at intent matches on your top pages, and prioritize fixes based on your specific practice area and market. The free version flags 200 issues; the paid version tells you which 10 actually matter.
+
+**Can I do my own law firm SEO audit, or do I need to hire someone?**
+
+You can absolutely run the technical checks yourself using Google Search Console, PageSpeed Insights, and Screaming Frog (the free version handles up to 500 URLs). Where firms get stuck is content quality evaluation, competitive gap analysis, and prioritization — those require pattern recognition across many sites that's hard to develop in-house unless SEO is your full-time job.
+
+**How long after fixing audit findings should I expect to see ranking improvements?**
+
+Technical fixes (indexing, site speed, redirects) can show impact within 2–4 weeks once Google re-crawls. On-page content optimization typically takes 6–12 weeks to surface in rankings. Backlink-related improvements and authority building usually take 3–6 months minimum. Don't judge audit ROI on a 30-day window — that's not how Google's index works.
+
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
 
