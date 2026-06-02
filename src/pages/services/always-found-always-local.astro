@@ -1,0 +1,558 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import Footer from '../../components/Footer.astro';
+
+const faqs = [
+  {
+    q: 'How is local SEO different from regular SEO for a law firm?',
+    a: 'Regular SEO competes nationally on keywords. Local SEO competes within a specific geography — your city, your metro, your service area. The ranking signals are different: Google Business Profile completeness, proximity to the searcher, citation consistency, review velocity, and location-specific pages. A firm can rank #1 nationally for a topic and still be invisible to the prospect three miles away. We build for the prospect three miles away.',
+  },
+  {
+    q: 'My Google Business Profile already exists. What more is there to do?',
+    a: 'Most firms claim their profile, fill in a phone number and address, and stop there. A fully optimized GBP uses the correct primary and secondary categories, includes service-level detail for every practice area, has 30+ geo-tagged photos, an active Q&A section with seeded questions, weekly posts, and a complete service area definition. Each of those is a ranking signal. Most firms are leaving 80% of the available signal on the table.',
+  },
+  {
+    q: 'What are citations and why do they matter?',
+    a: 'A citation is any place online where your firm\'s Name, Address, and Phone (NAP) appears — directories, legal listings, chambers of commerce, bar association profiles. Google cross-references these to verify your firm is real and consistent. Conflicting NAP data (an old suite number on one directory, a different phone on another) actively suppresses rankings. We clean up the conflicts and build out 50+ authoritative sources to reinforce the signal.',
+  },
+  {
+    q: 'How long until I see ranking improvements?',
+    a: 'Google Business Profile changes can show movement in the 3-pack within 2–6 weeks. Citation cleanup compounds over 60–90 days as Google re-crawls and reconciles the data. Location landing pages typically rank inside 90 days for low-to-mid competition phrases. Highly competitive markets (personal injury in a major metro) take longer. We give you a realistic ranking timeline for your specific market on the initial call.',
+  },
+  {
+    q: 'Do I need location pages if I only have one office?',
+    a: 'Yes — if you serve multiple cities from that one office. A single-office firm in Tampa that takes cases from Brandon, Clearwater, and St. Petersburg should have a dedicated page for each city + practice area combination. That is how Google understands your service area, and how prospects in those cities find you. One office, many landing pages.',
+  },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Always Found. Always Local.",
+  "description": "Done-for-you local SEO domination for law firms: Google Business Profile optimization, citation cleanup, location landing pages, review systems, and local schema — built so your firm is the first result in your market.",
+  "provider": { "@type": "Organization", "name": "Hughey LLC", "url": "https://hugheyllc.com" },
+  "areaServed": { "@type": "Country", "name": "United States" },
+  "url": "https://hugheyllc.com/services/always-found-always-local/"
+};
+
+const schema = [
+  serviceSchema,
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://hugheyllc.com/services" },
+      { "@type": "ListItem", "position": 3, "name": "Always Found. Always Local.", "item": "https://hugheyllc.com/services/always-found-always-local" }
+    ]
+  }
+];
+
+const problems = [
+  {
+    title: 'Page 2 is invisible',
+    body: 'You show up on page 2 while the firm across town that does worse work shows up first. Local search is winner-take-all. The top three results capture the overwhelming majority of clicks and calls — everyone else is essentially invisible.',
+  },
+  {
+    title: 'Your Google Business Profile is half-built',
+    body: 'Claimed, but not optimized. Missing categories, missing services, no photos, no posts, no Q&A. Each empty field is a ranking signal you are handing to the firm down the street that filled theirs in.',
+  },
+  {
+    title: 'Your citations are inconsistent',
+    body: 'Old addresses on legal directories. A disconnected phone number on a chamber listing. A misspelled firm name on a bar association profile. Google reads these conflicts as a reason to trust your competitor instead.',
+  },
+];
+
+const features = [
+  {
+    title: 'Google Business Profile Optimization',
+    body: 'Full rebuild: primary and secondary categories, service-level detail for every practice area, 30+ geo-tagged photos, seeded Q&A, complete service area definition, weekly posts. Every available signal, used.',
+    icon: 'pin',
+  },
+  {
+    title: 'Citation Building & Cleanup',
+    body: 'We audit every existing citation, fix NAP conflicts, suppress duplicates, and build out coverage across 50+ authoritative directories — legal, local, and industry. One consistent identity, everywhere Google looks.',
+    icon: 'check',
+  },
+  {
+    title: 'Location Landing Pages',
+    body: 'A dedicated page for every practice area + city combination you serve. Built with local schema, geo-relevant content, and clean internal linking — so each market you serve has a page Google can actually rank.',
+    icon: 'map',
+  },
+  {
+    title: 'Review Request System',
+    body: 'Email and SMS templates timed to the moment of greatest client satisfaction. Bar-compliant language, clear instructions, and follow-up sequences. Review velocity is a top-three local ranking factor — we systematize it.',
+    icon: 'star',
+  },
+  {
+    title: 'Local Schema Markup',
+    body: 'LocalBusiness and Attorney schema implemented across your site and every location page. Tells Google exactly where you are, what you do, and which markets you serve. Removes ambiguity from the ranking signal.',
+    icon: 'code',
+  },
+  {
+    title: 'Monthly GBP Posts & Reporting',
+    body: 'Four Google Business Profile posts per month to keep your listing active, plus a quarterly local ranking report showing where you sit in the 3-pack across every keyword and city we target.',
+    icon: 'chart',
+  },
+];
+
+const idealClients = [
+  'Your firm serves a defined geographic market and you want to dominate it',
+  'You are not appearing in the Google 3-pack for your core practice areas',
+  'You have a Google Business Profile but have never properly built it out',
+  'You serve multiple cities from one office and have no location pages',
+];
+---
+
+<BaseLayout
+  title="Always Found. Always Local. | Hughey LLC"
+  description="Done-for-you local SEO domination for law firms. Google Business Profile, citations, location pages, and review systems — built so your firm is the first result in your market."
+  canonical="https://hugheyllc.com/services/always-found-always-local/"
+  schema={schema}
+>
+  <div class="afl-page">
+    <PageHero
+      eyebrow="NEW SERVICE"
+      heading="Always Found.<br /><em>Always Local.</em>"
+      subheading="You show up on page 2 while the firm across town that does worse work shows up first. Local search is winner-take-all. We make sure your firm is the result that wins."
+      cta={{ label: "Schedule a Free Call", href: "/contact/" }}
+    />
+
+    <!-- The Problem -->
+    <section class="afl-section dark rx">
+      <div class="w">
+        <span class="section-accent"></span>
+        <h2 class="afl-h2">Your firm is losing local search. <em>Here is why.</em></h2>
+        <div class="problem-grid">
+          {problems.map((p, i) => (
+            <div class={`problem-card rxl d${i + 1}`}>
+              <div class="problem-num">0{i + 1}</div>
+              <h3>{p.title}</h3>
+              <p>{p.body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="afl-section dark rx">
+      <div class="w narrow">
+        <span class="section-accent"></span>
+        <h2 class="afl-h2">Local rankings aren't luck. <em>They're a system.</em></h2>
+        <div class="why-body">
+          <p>Google ranks local results on a small set of signals: Google Business Profile completeness, citation consistency, review velocity, location relevance, and on-page local signals. Each one is a knob you can turn. Most firms haven't touched any of them.</p>
+          <p>The firms that dominate their market didn't get lucky. They — or someone working for them — methodically built every one of those signals. Often years ago. They have been compounding ever since.</p>
+          <p>We do that work for you, in 90 days, then keep it tuned. By the time your competitors notice, you're already in the 3-pack.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You Get -->
+    <section class="afl-section dark alt rx">
+      <div class="w">
+        <span class="section-accent"></span>
+        <h2 class="afl-h2">Everything required to win local — <em>built into one package.</em></h2>
+        <div class="feature-list">
+          {features.map((f, i) => (
+            <div class={`feature-row rx d${(i % 3) + 1}`}>
+              <div class="feature-icon">
+                {f.icon === 'pin' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                )}
+                {f.icon === 'check' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                )}
+                {f.icon === 'map' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+                )}
+                {f.icon === 'star' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                )}
+                {f.icon === 'code' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                )}
+                {f.icon === 'chart' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                )}
+              </div>
+              <div class="feature-body">
+                <h3>{f.title}</h3>
+                <p>{f.body}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section class="afl-section dark alt rx">
+      <div class="w">
+        <span class="section-accent"></span>
+        <h2 class="afl-h2">Built for firms that want to <em>own their market.</em></h2>
+        <div class="ideal-list">
+          {idealClients.map((c, i) => (
+            <div class={`ideal-item rxl d${i + 1}`}>
+              <div class="ideal-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <p>{c}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <FaqSection items={faqs} heading="Questions About Always Found. Always Local." />
+
+    <!-- Engagement Options -->
+    <section class="afl-section" style="background: var(--ink); padding: 96px 0;">
+      <div class="w" style="max-width: 900px; margin: 0 auto;">
+        <p style="font-family: var(--man); font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--glt); text-align: center; margin-bottom: 12px;">How We Work Together</p>
+        <h2 style="font-size: clamp(28px, 4vw, 42px); font-weight: 800; color: var(--white); text-align: center; margin: 0 0 64px; line-height: 1.15;">Engagement Options</h2>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+
+          <!-- Build & Launch -->
+          <div style="border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; padding: 36px; background: rgba(255,255,255,0.03); display: flex; flex-direction: column;">
+            <p style="font-family: var(--man); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--glt); margin: 0 0 12px;">One-Time</p>
+            <h3 style="font-size: 24px; font-weight: 800; color: var(--white); margin: 0 0 8px;">Build &amp; Launch</h3>
+            <p style="font-size: 14px; color: rgba(255,255,255,0.45); margin: 0 0 28px;">Priced based on your firm's market and number of locations. Schedule a call to discuss.</p>
+            <ul style="list-style: none; padding: 0; margin: 0 0 32px; display: flex; flex-direction: column; gap: 10px;">
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Full Google Business Profile optimization</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Citation audit, cleanup &amp; build to 50+ sources</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Location landing pages for every market</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Review request templates &amp; timing playbook</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Local schema markup across your site</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> 90-day kickstart &amp; baseline ranking report</li>
+            </ul>
+            <a href="/contact/" style="display: inline-flex; align-items: center; gap: 8px; background: var(--glt); color: var(--ink); font-family: var(--man); font-weight: 700; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 24px; border-radius: 2px; text-decoration: none; margin-top: auto; align-self: flex-start;">Schedule a Call →</a>
+          </div>
+
+          <!-- Managed Local -->
+          <div style="border: 1px solid rgba(200,151,58,0.35); border-radius: 4px; padding: 36px; background: rgba(200,151,58,0.05); position: relative; display: flex; flex-direction: column;">
+            <div style="position: absolute; top: -12px; left: 32px; background: var(--glt); color: var(--ink); font-family: var(--man); font-weight: 700; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 12px; border-radius: 2px;">Most Popular</div>
+            <p style="font-family: var(--man); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--glt); margin: 0 0 12px;">Monthly Retainer</p>
+            <h3 style="font-size: 24px; font-weight: 800; color: var(--white); margin: 0 0 8px;">Managed Local</h3>
+            <p style="font-size: 14px; color: rgba(255,255,255,0.45); margin: 0 0 28px;">Custom monthly retainer. Cancel anytime with 30 days notice.</p>
+            <ul style="list-style: none; padding: 0; margin: 0 0 32px; display: flex; flex-direction: column; gap: 10px;">
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> 4 Google Business Profile posts per month</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Ongoing citation monitoring &amp; maintenance</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Review monitoring &amp; response coordination</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> GBP Q&amp;A monitoring &amp; updates</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Quarterly local ranking report (3-pack tracking)</li>
+              <li style="font-size: 15px; color: rgba(255,255,255,0.75); display: flex; gap: 10px;"><span style="color: var(--glt); flex-shrink: 0;">✓</span> Algorithm update response &amp; recalibration</li>
+            </ul>
+            <a href="/contact/" style="display: inline-flex; align-items: center; gap: 8px; background: var(--glt); color: var(--ink); font-family: var(--man); font-weight: 700; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 24px; border-radius: 2px; text-decoration: none; margin-top: auto; align-self: flex-start;">Schedule a Call →</a>
+          </div>
+
+        </div>
+
+        <p style="text-align: center; font-size: 13px; color: rgba(255,255,255,0.3); margin-top: 32px;">Build &amp; Launch typically precedes Managed Local. Pricing scales with the number of markets and locations.</p>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="afl-bottom-cta">
+      <div class="w">
+        <div class="bottom-cta-inner rx">
+          <p class="bottom-cta-eyebrow">Claim your territory</p>
+          <h2 class="bottom-cta-heading">Stop losing local. <em>Start ranking where it counts.</em></h2>
+          <p class="bottom-cta-body">The firms ranking in the 3-pack today aren't going to step aside. The only way past them is to build the signals they built — and then keep going.</p>
+          <a href="/contact/" class="bottom-cta-btn">Schedule a Free Strategy Call →</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <Footer />
+
+  <style>
+    .afl-page {
+      background: var(--ink);
+    }
+
+    .afl-section {
+      padding: 96px 0;
+      background: var(--ink);
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .afl-section.alt {
+      background: #0B1825;
+      border-top: 1px solid rgba(200, 151, 58, 0.1);
+      border-bottom: 1px solid rgba(200, 151, 58, 0.1);
+    }
+
+    .afl-section .w.narrow {
+      max-width: 820px;
+    }
+
+    .afl-h2 {
+      font-family: var(--man);
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 48px;
+      max-width: 880px;
+    }
+
+    .afl-h2 em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    /* ── Problem grid ─────────────────────────────────────── */
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .problem-card {
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      padding: 36px 32px;
+      transition: border-color 0.25s, transform 0.25s, background 0.25s;
+    }
+
+    .problem-card:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+      transform: translateY(-3px);
+    }
+
+    .problem-num {
+      font-family: var(--bar);
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--glt);
+      margin-bottom: 16px;
+      letter-spacing: 0.05em;
+    }
+
+    .problem-card h3 {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    .problem-card p {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.65);
+      line-height: 1.7;
+    }
+
+    /* ── Feature list (icon + text rows) ──────────────────── */
+    .feature-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 36px 56px;
+      margin-top: 16px;
+    }
+
+    .feature-row {
+      display: grid;
+      grid-template-columns: 60px 1fr;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .feature-icon {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(200, 151, 58, 0.08);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 4px;
+      color: var(--glt);
+      flex-shrink: 0;
+    }
+
+    .feature-body h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .feature-body p {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.62);
+      line-height: 1.7;
+    }
+
+    /* ── Why It Works ─────────────────────────────────────── */
+    .why-body p {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.72);
+      line-height: 1.8;
+      margin-bottom: 22px;
+    }
+
+    .why-body p:last-child { margin-bottom: 0; }
+
+    /* ── Who It's For ─────────────────────────────────────── */
+    .ideal-list {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      max-width: 820px;
+    }
+
+    .ideal-item {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 22px 28px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      transition: border-color 0.25s, background 0.25s;
+    }
+
+    .ideal-item:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+    }
+
+    .ideal-check {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(200, 151, 58, 0.12);
+      border-radius: 50%;
+      color: var(--glt);
+      flex-shrink: 0;
+    }
+
+    .ideal-item p {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.82);
+      line-height: 1.55;
+    }
+
+    /* ── Bottom CTA ───────────────────────────────────────── */
+    .afl-bottom-cta {
+      background: var(--ink);
+      padding: 0 0 120px;
+    }
+
+    .bottom-cta-inner {
+      position: relative;
+      background: linear-gradient(135deg, #0B1825 0%, #112440 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 8px;
+      padding: 80px 64px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .bottom-cta-inner::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 30%, rgba(200, 151, 58, 0.14) 0%, transparent 55%),
+                  radial-gradient(circle at 75% 70%, rgba(200, 151, 58, 0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .bottom-cta-inner > * { position: relative; z-index: 1; }
+
+    .bottom-cta-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin-bottom: 18px;
+    }
+
+    .bottom-cta-heading {
+      font-size: clamp(28px, 4.5vw, 48px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 22px;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bottom-cta-heading em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .bottom-cta-body {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.7;
+      max-width: 580px;
+      margin: 0 auto 36px;
+    }
+
+    .bottom-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 18px 36px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200, 151, 58, 0.35);
+    }
+
+    .bottom-cta-btn:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200, 151, 58, 0.45);
+    }
+
+    /* ── Responsive ───────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .afl-section { padding: 72px 0; }
+      .problem-grid { grid-template-columns: 1fr; gap: 20px; }
+      .feature-list { grid-template-columns: 1fr; gap: 28px; }
+      .bottom-cta-inner { padding: 56px 28px; }
+    }
+
+    @media (max-width: 640px) {
+      .ideal-item { padding: 18px 20px; }
+      .ideal-item p { font-size: 15px; }
+    }
+  </style>
+</BaseLayout>
