@@ -1,0 +1,268 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Footer from '../../../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Thank You — Always Found Playbook | Hughey LLC"
+  description="Confirming your purchase and sending the playbook to your inbox."
+  canonical="https://hugheyllc.com/resources/playbook-download/"
+  noindex={true}
+>
+  <div class="dl-page">
+    <section class="dl-section">
+      <div class="dl-card" id="dl-card">
+
+        <!-- Loading -->
+        <div id="dl-loading" class="dl-state">
+          <div class="dl-spinner" aria-hidden="true"></div>
+          <p class="dl-eyebrow">Confirming your purchase</p>
+          <h1>Hang tight…</h1>
+          <p class="dl-body">We're verifying the payment with Stripe and queuing up the email.</p>
+        </div>
+
+        <!-- Success -->
+        <div id="dl-success" class="dl-state" hidden>
+          <div class="dl-check" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <p class="dl-eyebrow">Payment confirmed</p>
+          <h1>Check your inbox.</h1>
+          <p class="dl-body">The playbook is on its way to <strong id="dl-email">your email</strong>. It should arrive in the next minute or two.</p>
+          <p class="dl-tip">Don't see it in 5 minutes? Check spam, then email <a href="mailto:joe@joehughey.com">joe@joehughey.com</a> and I'll deliver it directly.</p>
+          <div class="dl-actions">
+            <a href="https://hugheyllc.com/playbook/always-found-f3a9d2c1.html" class="dl-btn-primary">Open the Playbook now →</a>
+            <a href="/" class="dl-btn-ghost">Back to home</a>
+          </div>
+        </div>
+
+        <!-- Already fulfilled -->
+        <div id="dl-already" class="dl-state" hidden>
+          <div class="dl-check" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <p class="dl-eyebrow">Already delivered</p>
+          <h1>This purchase has already been emailed.</h1>
+          <p class="dl-body">Check your inbox (and spam) for the playbook link. Lost it? Email <a href="mailto:joe@joehughey.com">joe@joehughey.com</a> and I'll resend.</p>
+          <div class="dl-actions">
+            <a href="https://hugheyllc.com/playbook/always-found-f3a9d2c1.html" class="dl-btn-primary">Open the Playbook now →</a>
+          </div>
+        </div>
+
+        <!-- Error -->
+        <div id="dl-error" class="dl-state" hidden>
+          <div class="dl-warn" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <p class="dl-eyebrow">Something went sideways</p>
+          <h1 id="dl-error-h">We hit an issue confirming the purchase.</h1>
+          <p class="dl-body" id="dl-error-msg">If money has left your account, you have the playbook — we just couldn't auto-deliver it.</p>
+          <p class="dl-tip">Email <a href="mailto:joe@joehughey.com">joe@joehughey.com</a> with your receipt and I'll send the playbook over directly. Usually within an hour.</p>
+          <div class="dl-actions">
+            <a href="mailto:joe@joehughey.com?subject=Playbook%20delivery%20issue" class="dl-btn-primary">Email Joe →</a>
+            <a href="/resources/always-found-playbook/" class="dl-btn-ghost">Back to the playbook page</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <Footer />
+
+  <script>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const sessionId = params.get('session_id');
+
+      const loading = document.getElementById('dl-loading') as HTMLElement | null;
+      const success = document.getElementById('dl-success') as HTMLElement | null;
+      const already = document.getElementById('dl-already') as HTMLElement | null;
+      const errorState = document.getElementById('dl-error') as HTMLElement | null;
+      const errorMsg = document.getElementById('dl-error-msg') as HTMLElement | null;
+      const errorH = document.getElementById('dl-error-h') as HTMLElement | null;
+      const emailSlot = document.getElementById('dl-email') as HTMLElement | null;
+
+      function show(node: HTMLElement | null) {
+        [loading, success, already, errorState].forEach((n) => { if (n) n.hidden = true; });
+        if (node) node.hidden = false;
+      }
+
+      if (!sessionId) {
+        if (errorH) errorH.textContent = 'No checkout session was found in the URL.';
+        if (errorMsg) errorMsg.textContent = 'If you just bought the playbook and landed here, your link should still arrive by email. Otherwise, email Joe and we will sort it out.';
+        show(errorState);
+        return;
+      }
+
+      fetch(`/api/fulfill-playbook?session_id=${encodeURIComponent(sessionId)}`)
+        .then(async (res) => {
+          const data = await res.json().catch(() => ({}));
+          if (res.ok && data.success) {
+            if (data.alreadyFulfilled) {
+              show(already);
+            } else {
+              if (emailSlot && data.email) emailSlot.textContent = data.email;
+              show(success);
+            }
+          } else {
+            if (errorMsg && data.error) errorMsg.textContent = data.error;
+            show(errorState);
+          }
+        })
+        .catch(() => {
+          if (errorMsg) errorMsg.textContent = 'A network error stopped us from confirming the purchase. Email joe@joehughey.com with your receipt and we will deliver the playbook directly.';
+          show(errorState);
+        });
+    })();
+  </script>
+
+  <style>
+    .dl-page {
+      background: var(--ink);
+      min-height: 100vh;
+    }
+
+    .dl-section {
+      min-height: calc(100vh - 200px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 140px 24px 80px;
+    }
+
+    .dl-card {
+      width: 100%;
+      max-width: 580px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.02) 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 8px;
+      padding: 56px 48px;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+      text-align: center;
+    }
+
+    .dl-state h1 {
+      font-family: var(--man);
+      font-size: clamp(24px, 3.4vw, 32px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin: 0 0 14px;
+    }
+
+    .dl-eyebrow {
+      font-family: var(--man);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin: 0 0 12px;
+    }
+
+    .dl-body {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.65;
+      margin: 0 0 14px;
+    }
+
+    .dl-body strong { color: var(--white); }
+
+    .dl-tip {
+      font-size: 13.5px;
+      color: rgba(255, 255, 255, 0.5);
+      line-height: 1.6;
+      margin: 0 0 22px;
+    }
+
+    .dl-tip a, .dl-body a {
+      color: var(--glt);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .dl-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+      margin-top: 8px;
+    }
+
+    .dl-btn-primary {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 14px 28px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+      box-shadow: 0 4px 24px rgba(200, 151, 58, 0.35);
+    }
+
+    .dl-btn-primary:hover {
+      background: #ecbf6a;
+      transform: translateY(-1px);
+    }
+
+    .dl-btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      color: rgba(255, 255, 255, 0.55);
+      font-family: var(--man);
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .dl-btn-ghost:hover { color: var(--white); }
+
+    /* Status icons */
+    .dl-check, .dl-warn, .dl-spinner {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 22px;
+    }
+
+    .dl-check {
+      background: rgba(200, 151, 58, 0.15);
+      color: var(--glt);
+      border: 1px solid rgba(200, 151, 58, 0.3);
+    }
+
+    .dl-warn {
+      background: rgba(255, 100, 100, 0.1);
+      color: #ff8e8e;
+      border: 1px solid rgba(255, 100, 100, 0.25);
+    }
+
+    .dl-spinner {
+      border: 3px solid rgba(200, 151, 58, 0.2);
+      border-top-color: var(--glt);
+      animation: dlspin 0.9s linear infinite;
+    }
+
+    @keyframes dlspin { to { transform: rotate(360deg); } }
+
+    @media (max-width: 600px) {
+      .dl-card { padding: 40px 28px; }
+    }
+  </style>
+</BaseLayout>

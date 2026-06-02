@@ -1,0 +1,672 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHero from '../../../components/PageHero.astro';
+import FaqSection from '../../../components/FaqSection.astro';
+import Footer from '../../../components/Footer.astro';
+
+const STRIPE_URL = 'https://buy.stripe.com/test_28E14p4ZT9cZ2bc9tU1B600';
+
+const chapters = [
+  { num: '01', title: 'Why Local Search Is Winner-Take-All', body: 'How the Map Pack actually works, the three ranking factors Google has publicly named, and why the firms at the top tend to stay there.' },
+  { num: '02', title: 'Google Business Profile — Your Most Important Local Asset', body: 'Full GBP rebuild: categories, services, descriptions, photos, posts, Q&A. The single highest-leverage activity in local SEO, line by line.' },
+  { num: '03', title: 'Citations — The Foundation Nobody Builds', body: 'NAP consistency, duplicate suppression, and the directory list to actually work through. No fluff, just the sources that move rankings.' },
+  { num: '04', title: 'Location Pages — How Google Knows Where You Serve', body: 'The page template that ranks city + practice area pages — and how to build one per market without producing duplicate content.' },
+  { num: '05', title: 'Reviews — The Ranking Signal You Control', body: 'Timing, scripts, bar-compliant language, and the request system that turns satisfied clients into review velocity.' },
+  { num: '06', title: 'Schema Markup — Speak Google\'s Language', body: 'Copy-paste LegalService, Attorney, FAQPage, and BreadcrumbList schema — and exactly where each one belongs on your site.' },
+  { num: '07', title: 'Monthly Maintenance', body: 'The 30–60 minute monthly system that keeps your local rankings from quietly decaying after launch.' },
+  { num: '08', title: 'Tracking and Reporting', body: 'How to prove it\'s working — the metrics partners actually care about and the dashboard that connects rankings to retained clients.' },
+];
+
+const appendices = [
+  'Appendix A — Complete Citation Source List (50+ legal & local directories)',
+  'Appendix B — Location Page Template (copy/paste markdown)',
+  'Appendix C — Review Request Templates (email + SMS, bar-compliant)',
+  'Appendix D — Schema Markup Snippets (JSON-LD, ready to paste)',
+  'Appendix E — Maintenance Checklists (weekly, monthly, quarterly)',
+  'Appendix F — Glossary',
+];
+
+const outcomes = [
+  'Claim and fully optimize your firm\'s Google Business Profile — every field, every signal Google looks for.',
+  'Audit, clean up, and build out your firm\'s presence across 50+ authoritative citation sources.',
+  'Build one ranking-ready location page per practice area + city combination you serve.',
+  'Run a bar-compliant review request system that produces real review velocity, not one-offs.',
+  'Deploy LegalService, Attorney, FAQPage, and BreadcrumbList schema across your site.',
+  'Maintain everything in 30–60 minutes a month without losing what you built.',
+  'Track real local rankings and show the partner group what the work is producing.',
+];
+
+const faqs = [
+  { q: 'Who is this playbook for?', a: 'Law firms with 5–30 attorneys who want to handle local SEO in-house rather than hire an agency. It is written for the office manager, marketing coordinator, in-house marketing hire, or a solo practitioner doing their own work. No agency fluency required.' },
+  { q: 'How long does it take to work through?', a: 'The initial build-out takes 40–60 hours spread over 4–8 weeks. After that, monthly maintenance runs 30–60 minutes. Citation cleanup tends to be the longest single piece because it depends on existing data quality.' },
+  { q: 'Is this just the same advice I can Google for free?', a: 'No. It is the same end-to-end system we walk consulting clients through — the actual templates, the actual directories, the actual schema. The free advice on Google tells you that GBP matters. This tells you how to build it properly, in order, with everything you need.' },
+  { q: 'What format is the playbook?', a: 'A single, hosted HTML page — clean serif typography, print-ready. Bookmark it for reference. Use your browser\'s Print → Save as PDF if you prefer a local copy.' },
+  { q: 'How do I get it after I buy?', a: 'Stripe sends you to a thank-you page that triggers an email with your download link. The email arrives within a minute or two. If anything goes wrong, email joe@joehughey.com.' },
+  { q: 'Do you offer refunds?', a: 'Email joe@joehughey.com within 14 days if the playbook does not match what was promised here. No questions asked.' },
+];
+
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Always Found. Always Local. — The Law Firm Local SEO Playbook",
+  "description": "The complete, no-fluff local SEO playbook for law firms with 5–30 attorneys. 8 chapters, 6 appendices, copy-paste templates and schema. Built for execution without an agency.",
+  "brand": { "@type": "Brand", "name": "Hughey LLC" },
+  "image": "https://hugheyllc.com/images/og-default.svg",
+  "url": "https://hugheyllc.com/resources/always-found-playbook/",
+  "offers": {
+    "@type": "Offer",
+    "price": "97.00",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://hugheyllc.com/resources/always-found-playbook/"
+  }
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://hugheyllc.com/resources/" },
+    { "@type": "ListItem", "position": 3, "name": "Always Found. Always Local.", "item": "https://hugheyllc.com/resources/always-found-playbook/" }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+};
+---
+
+<BaseLayout
+  title="Always Found. Always Local. — The Law Firm Local SEO Playbook ($97) | Hughey LLC"
+  description="The complete local SEO playbook for law firms with 5–30 attorneys. 8 chapters, 6 appendices, copy-paste templates and schema. Built to execute without an agency. $97 — instant download."
+  canonical="https://hugheyllc.com/resources/always-found-playbook/"
+  schema={[productSchema, breadcrumbSchema, faqSchema]}
+>
+  <div class="pb-page">
+    <PageHero
+      eyebrow="Playbook · $97 · Instant Download"
+      heading="Stop Guessing.<br /><em>Start Ranking.</em>"
+      subheading="The complete local SEO playbook for law firms with 5–30 attorneys. Eight chapters, six appendices, every template you need — built so your firm can execute without hiring an agency."
+      cta={{ label: "Get the Playbook — $97 →", href: STRIPE_URL }}
+    />
+
+    <!-- Above-the-fold reinforcement -->
+    <section class="pb-section dark">
+      <div class="w pb-fold">
+        <div class="pb-fold-text rx">
+          <p class="pb-pre">For firms that want to do this themselves.</p>
+          <h2 class="pb-h2">The same system we walk consulting clients through — written so your team can do it.</h2>
+          <p class="pb-lede">Most "local SEO guides" online tell you Google Business Profile matters and then leave you to figure it out. This playbook is the actual build — categories to choose, photos to take, services to list, citations to claim, location pages to write, schema to paste, reviews to request. In order. With nothing skipped.</p>
+          <ul class="pb-trust">
+            <li><strong>136 pages</strong> · 8 chapters + 6 appendices</li>
+            <li><strong>40–60 hours</strong> initial build · 30–60 min/month after</li>
+            <li><strong>No upsell.</strong> One file, yours forever.</li>
+          </ul>
+          <a href={STRIPE_URL} class="pb-cta">Buy the Playbook — $97 →</a>
+          <p class="pb-fine">Secure checkout via Stripe. Delivered to your inbox in under a minute.</p>
+        </div>
+
+        <div class="pb-fold-card rx">
+          <div class="pb-card-head">
+            <span class="pb-card-tag">Playbook</span>
+            <h3>Always Found.<br /><em>Always Local.</em></h3>
+            <p class="pb-card-sub">The Law Firm Local SEO Playbook · 2026 Edition</p>
+          </div>
+          <div class="pb-card-divider"></div>
+          <ul class="pb-card-list">
+            <li>8 chapters · execution-ready</li>
+            <li>50+ citation source list</li>
+            <li>Location page template</li>
+            <li>Review request scripts (bar-compliant)</li>
+            <li>JSON-LD schema snippets</li>
+            <li>Monthly maintenance checklists</li>
+          </ul>
+          <div class="pb-card-price">
+            <span class="pb-price">$97</span>
+            <span class="pb-price-sub">one-time · instant download</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What's inside -->
+    <section class="pb-section dark alt">
+      <div class="w">
+        <span class="section-accent"></span>
+        <p class="pb-pre">What's inside</p>
+        <h2 class="pb-h2">Eight chapters. <em>Built to be executed in order.</em></h2>
+        <div class="chapter-grid">
+          {chapters.map((c, i) => (
+            <div class={`chapter-card rx d${(i % 3) + 1}`}>
+              <div class="chapter-num">{c.num}</div>
+              <h3>{c.title}</h3>
+              <p>{c.body}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="appendix-block rx">
+          <p class="pb-pre" style="margin-bottom: 14px;">Plus the appendices that do the work</p>
+          <ul class="appendix-list">
+            {appendices.map(a => (
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>{a}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- What you'll be able to do -->
+    <section class="pb-section dark">
+      <div class="w">
+        <span class="section-accent"></span>
+        <p class="pb-pre">What you'll be able to do after</p>
+        <h2 class="pb-h2">Read it once. <em>Execute for months.</em></h2>
+        <div class="outcome-list">
+          {outcomes.map((o, i) => (
+            <div class={`outcome-row rxl d${(i % 3) + 1}`}>
+              <div class="outcome-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <p>{o}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Who it's for -->
+    <section class="pb-section dark alt">
+      <div class="w narrow">
+        <span class="section-accent"></span>
+        <p class="pb-pre">Who it's for</p>
+        <h2 class="pb-h2">Built for law firms that want to do this themselves — <em>without hiring an agency.</em></h2>
+        <div class="who-body">
+          <p>If you have a smart office manager, marketing coordinator, or in-house hire who can follow a process, this playbook gives them the process. We have walked consulting clients through this same system for $10,000+ engagements. The book is the system.</p>
+          <p>If you would rather pay someone else to do the work — that is a fair choice, and you should not buy this. If you want to keep the knowledge inside your firm, build a competitive moat in your local market, and never pay a monthly retainer for something you could maintain in an hour a month — this is for you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buy CTA -->
+    <section class="pb-section dark">
+      <div class="w">
+        <div class="buy-band rx">
+          <p class="buy-pre">Ready to claim your territory</p>
+          <h2 class="buy-h">Get the playbook. <em>Own your market.</em></h2>
+          <p class="buy-body">$97, one-time. Sent to your inbox the moment Stripe confirms the purchase. No subscription. No upsell. No drip sequence trying to sell you something else.</p>
+          <a href={STRIPE_URL} class="buy-btn">Buy the Playbook — $97 →</a>
+          <p class="buy-fine">Secure checkout via Stripe · Questions? joe@joehughey.com</p>
+        </div>
+      </div>
+    </section>
+
+    <FaqSection items={faqs} heading="Questions About the Playbook" />
+  </div>
+
+  <Footer />
+
+  <style>
+    .pb-page { background: var(--ink); }
+
+    .pb-section {
+      padding: 88px 0;
+      background: var(--ink);
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pb-section.alt {
+      background: #0B1825;
+      border-top: 1px solid rgba(200, 151, 58, 0.1);
+      border-bottom: 1px solid rgba(200, 151, 58, 0.1);
+    }
+
+    .pb-section .w.narrow {
+      max-width: 820px;
+    }
+
+    .pb-pre {
+      font-family: var(--man);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin-bottom: 14px;
+    }
+
+    .pb-h2 {
+      font-family: var(--man);
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 36px;
+      max-width: 880px;
+    }
+
+    .pb-h2 em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    /* ── Above-the-fold split ─────────────────────────────── */
+    .pb-fold {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .pb-fold-text .pb-h2 {
+      font-size: clamp(26px, 3.2vw, 36px);
+      margin-bottom: 22px;
+    }
+
+    .pb-lede {
+      font-size: 16.5px;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.75;
+      margin-bottom: 28px;
+    }
+
+    .pb-trust {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .pb-trust li {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.72);
+      position: relative;
+      padding-left: 22px;
+    }
+
+    .pb-trust li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--glt);
+      font-weight: 700;
+    }
+
+    .pb-trust strong { color: var(--white); }
+
+    .pb-cta {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 18px 36px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200, 151, 58, 0.35);
+    }
+
+    .pb-cta:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200, 151, 58, 0.45);
+    }
+
+    .pb-fine {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.4);
+      margin: 14px 0 0;
+    }
+
+    /* Fold card */
+    .pb-fold-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 6px;
+      padding: 40px 36px;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+    }
+
+    .pb-card-head { text-align: center; }
+
+    .pb-card-tag {
+      display: inline-block;
+      font-family: var(--man);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--glt);
+      background: rgba(200, 151, 58, 0.12);
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+    }
+
+    .pb-card-head h3 {
+      font-family: var(--man);
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.1;
+      margin: 0 0 12px;
+    }
+
+    .pb-card-head h3 em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .pb-card-sub {
+      font-size: 12.5px;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 0.04em;
+      margin: 0;
+    }
+
+    .pb-card-divider {
+      height: 1px;
+      background: rgba(200, 151, 58, 0.2);
+      margin: 26px 0;
+    }
+
+    .pb-card-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .pb-card-list li {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.78);
+      position: relative;
+      padding-left: 22px;
+      line-height: 1.5;
+    }
+
+    .pb-card-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--glt);
+      font-weight: 700;
+    }
+
+    .pb-card-price {
+      text-align: center;
+      padding-top: 22px;
+      border-top: 1px solid rgba(200, 151, 58, 0.2);
+    }
+
+    .pb-price {
+      display: block;
+      font-family: var(--man);
+      font-size: 48px;
+      font-weight: 800;
+      color: var(--glt);
+      line-height: 1;
+    }
+
+    .pb-price-sub {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      margin-top: 8px;
+    }
+
+    /* ── Chapters ─────────────────────────────────────────── */
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .chapter-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      padding: 28px 28px 24px;
+      transition: border-color 0.25s, transform 0.25s, background 0.25s;
+    }
+
+    .chapter-card:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+      transform: translateY(-2px);
+    }
+
+    .chapter-num {
+      font-family: var(--bar);
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--glt);
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .chapter-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+      margin: 0 0 12px;
+      line-height: 1.3;
+    }
+
+    .chapter-card p {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.65);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* Appendix block */
+    .appendix-block {
+      margin-top: 56px;
+      padding: 32px 36px;
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.2);
+      border-radius: 4px;
+    }
+
+    .appendix-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px 28px;
+    }
+
+    .appendix-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.78);
+      line-height: 1.55;
+    }
+
+    .appendix-list svg {
+      color: var(--glt);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ── Outcomes ────────────────────────────────────────── */
+    .outcome-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-width: 880px;
+    }
+
+    .outcome-row {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 20px 26px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      transition: border-color 0.25s, background 0.25s;
+    }
+
+    .outcome-row:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+    }
+
+    .outcome-check {
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(200, 151, 58, 0.12);
+      border-radius: 50%;
+      color: var(--glt);
+      flex-shrink: 0;
+    }
+
+    .outcome-row p {
+      font-size: 15.5px;
+      color: rgba(255, 255, 255, 0.82);
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    /* ── Who it's for ────────────────────────────────────── */
+    .who-body p {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.72);
+      line-height: 1.8;
+      margin-bottom: 22px;
+    }
+    .who-body p:last-child { margin-bottom: 0; }
+
+    /* ── Buy band ────────────────────────────────────────── */
+    .buy-band {
+      position: relative;
+      background: linear-gradient(135deg, #0B1825 0%, #112440 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 8px;
+      padding: 72px 56px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .buy-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 30%, rgba(200, 151, 58, 0.14) 0%, transparent 55%),
+                  radial-gradient(circle at 75% 70%, rgba(200, 151, 58, 0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .buy-band > * { position: relative; z-index: 1; }
+
+    .buy-pre {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin-bottom: 16px;
+    }
+
+    .buy-h {
+      font-family: var(--man);
+      font-size: clamp(28px, 4.5vw, 44px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 20px;
+    }
+
+    .buy-h em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .buy-body {
+      font-size: 16.5px;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.7;
+      max-width: 620px;
+      margin: 0 auto 32px;
+    }
+
+    .buy-btn {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 18px 38px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200, 151, 58, 0.35);
+    }
+
+    .buy-btn:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200, 151, 58, 0.45);
+    }
+
+    .buy-fine {
+      font-size: 12.5px;
+      color: rgba(255, 255, 255, 0.4);
+      margin: 22px 0 0;
+    }
+
+    /* ── Responsive ──────────────────────────────────────── */
+    @media (max-width: 1000px) {
+      .pb-fold { grid-template-columns: 1fr; gap: 40px; }
+      .pb-fold-card { max-width: 480px; margin: 0 auto; }
+    }
+
+    @media (max-width: 800px) {
+      .pb-section { padding: 64px 0; }
+      .chapter-grid { grid-template-columns: 1fr; }
+      .appendix-list { grid-template-columns: 1fr; }
+      .buy-band { padding: 56px 28px; }
+      .pb-fold-card { padding: 32px 24px; }
+    }
+  </style>
+</BaseLayout>

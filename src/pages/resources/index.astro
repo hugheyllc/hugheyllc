@@ -1,0 +1,224 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import Footer from '../../components/Footer.astro';
+
+const resources = [
+  {
+    badge: 'Free',
+    badgeKind: 'free',
+    title: 'The 25-Point Law Firm Marketing Audit Checklist',
+    description: 'A 25-point review across attribution, intake, Google Ads, SEO, GBP, and CRM operations — used by partners at firms spending $10k–$100k/month on marketing to find out where the budget is leaking.',
+    price: 'Free',
+    cta: 'Get the Free Checklist →',
+    href: '/resources/marketing-audit-checklist/',
+    bullets: [
+      'Ad attribution & tracking',
+      'Intake & lead capture',
+      'Google Ads, SEO & GBP',
+      'Reporting & CRM operations',
+    ],
+  },
+  {
+    badge: 'Playbook · $97',
+    badgeKind: 'paid',
+    title: 'Always Found. Always Local. — The Law Firm Local SEO Playbook',
+    description: 'The complete local SEO playbook for law firms with 5–30 attorneys. Eight chapters and six appendices, with every template you need to execute without hiring an agency.',
+    price: '$97 one-time',
+    cta: 'Get the Playbook →',
+    href: '/resources/always-found-playbook/',
+    bullets: [
+      'Google Business Profile rebuild',
+      '50+ citation source list',
+      'Location page template + schema',
+      'Bar-compliant review request scripts',
+    ],
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://hugheyllc.com/resources/" }
+  ]
+};
+---
+
+<BaseLayout
+  title="Resources for Law Firm Marketing | Hughey LLC"
+  description="Free and paid resources for law firms — the 25-point marketing audit checklist and the Always Found. Always Local. local SEO playbook."
+  canonical="https://hugheyllc.com/resources/"
+  schema={[breadcrumbSchema]}
+>
+  <div class="rs-page">
+    <PageHero
+      eyebrow="Resources"
+      heading="Tools that <em>do the work.</em>"
+      subheading="Free checklists and paid playbooks for law firms that would rather execute than hire an agency. Built from real client engagements."
+    />
+
+    <section class="rs-section">
+      <div class="w">
+        <div class="rs-grid">
+          {resources.map((r) => (
+            <a href={r.href} class={`rs-card ${r.badgeKind} rx`}>
+              <div class="rs-card-head">
+                <span class={`rs-badge ${r.badgeKind}`}>{r.badge}</span>
+                <span class="rs-price">{r.price}</span>
+              </div>
+              <h2 class="rs-title">{r.title}</h2>
+              <p class="rs-desc">{r.description}</p>
+              <ul class="rs-bullets">
+                {r.bullets.map((b) => (
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    {b}
+                  </li>
+                ))}
+              </ul>
+              <span class="rs-cta">{r.cta}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <Footer />
+
+  <style>
+    .rs-page { background: var(--ink); }
+
+    .rs-section {
+      background: var(--ink);
+      padding: 72px 0 120px;
+    }
+
+    .rs-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .rs-card {
+      display: flex;
+      flex-direction: column;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(200, 151, 58, 0.18);
+      border-radius: 6px;
+      padding: 36px 32px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.25s, transform 0.25s, background 0.25s;
+    }
+
+    .rs-card:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+      transform: translateY(-3px);
+    }
+
+    .rs-card.paid {
+      background: linear-gradient(180deg, rgba(200,151,58,0.05) 0%, rgba(255,255,255,0.02) 100%);
+      border-color: rgba(200, 151, 58, 0.3);
+    }
+
+    .rs-card-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .rs-badge {
+      font-family: var(--man);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 5px 11px;
+      border-radius: 20px;
+    }
+
+    .rs-badge.free {
+      color: rgba(255, 255, 255, 0.85);
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .rs-badge.paid {
+      color: var(--ink);
+      background: var(--glt);
+    }
+
+    .rs-price {
+      font-family: var(--man);
+      font-size: 12px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.55);
+      letter-spacing: 0.04em;
+    }
+
+    .rs-title {
+      font-family: var(--man);
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin: 0 0 14px;
+    }
+
+    .rs-desc {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.68);
+      line-height: 1.7;
+      margin: 0 0 22px;
+    }
+
+    .rs-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 26px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    .rs-bullets li {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13.5px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .rs-bullets svg {
+      color: var(--glt);
+      flex-shrink: 0;
+    }
+
+    .rs-cta {
+      margin-top: auto;
+      display: inline-flex;
+      align-items: center;
+      font-family: var(--man);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--glt);
+      padding-top: 18px;
+      border-top: 1px solid rgba(200, 151, 58, 0.15);
+    }
+
+    @media (max-width: 800px) {
+      .rs-grid { grid-template-columns: 1fr; gap: 20px; }
+      .rs-card { padding: 28px 24px; }
+    }
+  </style>
+</BaseLayout>

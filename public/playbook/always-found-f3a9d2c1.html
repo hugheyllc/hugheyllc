@@ -1,0 +1,2719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Always Found. Always Local. — The Law Firm Local SEO Playbook | Hughey LLC</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --rule: #d8d2c4;
+    --accent: #8a6a1f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #f7f4ed; color: var(--ink); }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #1a1a1a;
+    color: #fff;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  .toolbar-brand { font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+  .toolbar-brand span { color: #c8973a; }
+  .toolbar-actions { display: flex; gap: 12px; }
+  .toolbar button, .toolbar a {
+    background: #c8973a;
+    color: #1a1a1a;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+  }
+  .toolbar button:hover, .toolbar a:hover { background: #d9a94c; }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 80px 72px 96px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  }
+  main h1 {
+    font-size: 36px;
+    line-height: 1.15;
+    margin: 0 0 8px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  main h1:first-child { font-size: 44px; text-align: center; margin-bottom: 0; }
+  main h1:not(:first-child) {
+    margin-top: 72px;
+    padding-top: 32px;
+    border-top: 3px double var(--rule);
+  }
+  main h2 {
+    font-size: 26px;
+    line-height: 1.25;
+    margin: 48px 0 16px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  main h3 {
+    font-size: 21px;
+    line-height: 1.3;
+    margin: 36px 0 12px;
+    font-weight: 700;
+    color: #2a2a2a;
+  }
+  main h4 {
+    font-size: 17px;
+    line-height: 1.35;
+    margin: 28px 0 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+  }
+  main p { margin: 0 0 18px; }
+  main strong { color: #000; }
+  main em { color: #2a2a2a; }
+  main a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  main a:hover { color: #6d521a; }
+  main hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 40px 0;
+  }
+  main ul, main ol { margin: 0 0 20px; padding-left: 28px; }
+  main li { margin-bottom: 8px; }
+  main blockquote {
+    margin: 22px 0;
+    padding: 4px 0 4px 22px;
+    border-left: 3px solid var(--accent);
+    color: #444;
+    font-style: italic;
+  }
+  main code {
+    font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    background: #f3efe5;
+    border: 1px solid #e5dfcd;
+    border-radius: 2px;
+    padding: 1px 6px;
+    font-size: 0.88em;
+    color: #5a4515;
+  }
+  main pre {
+    background: #fbf9f3;
+    border: 1px solid #e5dfcd;
+    border-left: 3px solid var(--accent);
+    border-radius: 2px;
+    padding: 16px 18px;
+    margin: 20px 0;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  main pre code {
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 13px;
+    color: #2a2a2a;
+  }
+  main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 22px 0;
+    font-size: 15px;
+  }
+  main th, main td {
+    border: 1px solid var(--rule);
+    padding: 9px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main th {
+    background: #f3efe5;
+    font-weight: 700;
+  }
+  /* Subtitle styling for the opening lines */
+  main > p:nth-of-type(1) {
+    text-align: center;
+    font-size: 22px;
+    color: #555;
+    margin-top: 4px;
+  }
+
+  /* Print styles */
+  @media print {
+    body { background: #fff; font-size: 11.5pt; }
+    .toolbar, .no-print { display: none !important; }
+    main {
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      box-shadow: none;
+    }
+    main h1 { page-break-before: always; }
+    main h1:first-child { page-break-before: avoid; }
+    main h2, main h3, main h4 { page-break-after: avoid; }
+    main pre, main blockquote, main table { page-break-inside: avoid; }
+    main a { color: #000; text-decoration: none; }
+    main pre { background: #f9f9f9; border-color: #ccc; }
+    @page {
+      margin: 0.7in 0.8in;
+    }
+  }
+
+  @media (max-width: 720px) {
+    main { padding: 48px 28px 64px; }
+    main h1:first-child { font-size: 32px; }
+    main h1:not(:first-child) { font-size: 26px; }
+    main h2 { font-size: 22px; }
+    main h3 { font-size: 18px; }
+    main { font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+  <div class="toolbar no-print">
+    <div class="toolbar-brand">Hughey <span>LLC</span></div>
+    <div class="toolbar-actions">
+      <button type="button" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+  </div>
+  <main>
+<h1>Always Found. Always Local.</h1>
+<h2>The Law Firm Local SEO Playbook</h2>
+<p><strong>By Hughey LLC</strong></p>
+<p><strong>2026 Edition</strong></p>
+<hr />
+<p><em>The complete, no-fluff guide to dominating Google's Map Pack and local search results — built specifically for law firms with 5–30 attorneys.</em></p>
+<p><em>No agency required. Hand this to your smartest staff member and execute.</em></p>
+<hr />
+<p>© 2026 Hughey LLC. All rights reserved.</p>
+<hr />
+<h1>How to Use This Playbook</h1>
+<p>This playbook is built for execution, not education. Every chapter ends with action items. Every process has numbered steps. Every template is ready to copy, paste, and customize.</p>
+<p><strong>Who should use this:</strong></p>
+<ul>
+<li>The office manager or marketing coordinator at a law firm with 5–30 attorneys</li>
+<li>A solo practitioner handling their own marketing</li>
+<li>An in-house marketing hire who needs a proven local SEO system</li>
+</ul>
+<p><strong>How to work through it:</strong></p>
+<ol>
+<li><strong>Read Chapters 1–2 first.</strong> Chapter 1 gives you the &quot;why.&quot; Chapter 2 is your single highest-impact activity — get your Google Business Profile right before touching anything else.</li>
+<li><strong>Then do Chapters 3–6 in order.</strong> Each builds on the last. Citations → Location Pages → Reviews → Schema. Skip ahead and you'll build on a weak foundation.</li>
+<li><strong>Use Chapter 7 as your ongoing maintenance system.</strong> Once you've done the initial build-out, this chapter keeps everything from decaying.</li>
+<li><strong>Reference Chapter 8 to prove ROI.</strong> You'll need this when the partners ask &quot;is this working?&quot;</li>
+<li><strong>The Appendices are your daily tools.</strong> Print the checklists. Bookmark the citation list. Copy the templates.</li>
+</ol>
+<p><strong>Time investment:</strong> The initial build-out takes 40–60 hours spread over 4–8 weeks. After that, maintenance is 30–60 minutes per month.</p>
+<p><strong>What you'll need:</strong></p>
+<ul>
+<li>Access to your firm's Google Business Profile (or the ability to claim it)</li>
+<li>Access to your firm's website CMS (WordPress, Squarespace, or whatever you use)</li>
+<li>A spreadsheet application (Google Sheets works fine)</li>
+<li>2–4 hours per week for the first month</li>
+</ul>
+<p>Let's get to work.</p>
+<hr />
+<h1>Table of Contents</h1>
+<ul>
+<li><a href="#chapter-1-why-local-search-is-winner-take-all">Chapter 1: Why Local Search Is Winner-Take-All</a></li>
+<li><a href="#chapter-2-google-business-profile--your-most-important-local-asset">Chapter 2: Google Business Profile — Your Most Important Local Asset</a></li>
+<li><a href="#chapter-3-citations--the-foundation-nobody-builds">Chapter 3: Citations — The Foundation Nobody Builds</a></li>
+<li><a href="#chapter-4-location-pages--how-google-knows-where-you-serve">Chapter 4: Location Pages — How Google Knows Where You Serve</a></li>
+<li><a href="#chapter-5-reviews--the-ranking-signal-you-control">Chapter 5: Reviews — The Ranking Signal You Control</a></li>
+<li><a href="#chapter-6-schema-markup--speak-googles-language">Chapter 6: Schema Markup — Speak Google's Language</a></li>
+<li><a href="#chapter-7-monthly-maintenance">Chapter 7: Monthly Maintenance</a></li>
+<li><a href="#chapter-8-tracking-and-reporting">Chapter 8: Tracking and Reporting</a></li>
+<li><a href="#appendix-a-complete-citation-source-list">Appendix A: Complete Citation Source List</a></li>
+<li><a href="#appendix-b-location-page-template">Appendix B: Location Page Template</a></li>
+<li><a href="#appendix-c-review-request-templates">Appendix C: Review Request Templates</a></li>
+<li><a href="#appendix-d-schema-markup-snippets">Appendix D: Schema Markup Snippets</a></li>
+<li><a href="#appendix-e-maintenance-checklists">Appendix E: Maintenance Checklists</a></li>
+<li><a href="#appendix-f-glossary">Appendix F: Glossary</a></li>
+</ul>
+<hr />
+<h1>Chapter 1: Why Local Search Is Winner-Take-All</h1>
+<h2>How the Google Map Pack Works</h2>
+<p>When someone searches &quot;personal injury lawyer near me&quot; or &quot;divorce attorney Tampa,&quot; Google shows two types of results:</p>
+<ol>
+<li><strong>The Map Pack</strong> (also called the Local Pack or 3-Pack) — three business listings with a map at the top of the page</li>
+<li><strong>Organic results</strong> — the traditional blue links below</li>
+</ol>
+<p>The Map Pack dominates. Industry research consistently shows that the Map Pack captures the majority of clicks for local-intent searches. The top three positions in the Map Pack receive dramatically more engagement than anything below them. Position four and beyond? Buried behind a &quot;More places&quot; click that most searchers never make.</p>
+<p>For law firms, this is the game. Someone in crisis — arrested, injured, served with divorce papers — searches on their phone, sees three firms in the Map Pack, and calls one. If you're not in those three slots, you functionally don't exist for that search.</p>
+<p>Here's what makes this winner-take-all: there are only three spots, and Google rotates them less than you'd think. The same firms tend to dominate the Map Pack for months or years at a time. Once you earn a top position, it compounds — more clicks lead to more calls, more calls lead to more reviews, more reviews reinforce your ranking.</p>
+<h2>The Three Ranking Factors</h2>
+<p>Google has publicly stated that local search rankings are determined by three factors:</p>
+<h3>1. Relevance</h3>
+<p>How well your business profile matches what the searcher is looking for. If someone searches &quot;criminal defense lawyer&quot; and your Google Business Profile lists &quot;Criminal Defense Attorney&quot; as your primary category, you're relevant. If your profile says &quot;Law Firm&quot; with no specifics, you're not.</p>
+<p>Relevance is driven by:</p>
+<ul>
+<li>Your primary and secondary GBP categories</li>
+<li>Keywords in your business description</li>
+<li>Services listed on your profile</li>
+<li>Content on your website that matches the search query</li>
+</ul>
+<h3>2. Distance</h3>
+<p>How close your business is to the searcher or the location they specified. You can't change where your office is, but you can influence this factor through:</p>
+<ul>
+<li>Having a verified physical address in your GBP</li>
+<li>Creating location-specific pages on your website for each area you serve</li>
+<li>Building citations that consistently list your address</li>
+</ul>
+<p>Distance is the one factor you have the least control over, which is why the other two matter even more.</p>
+<h3>3. Prominence</h3>
+<p>How well-known and trusted your business is. Google measures prominence through:</p>
+<ul>
+<li><strong>Reviews:</strong> Volume, velocity, recency, rating, and response rate</li>
+<li><strong>Citations:</strong> How many reputable directories list your firm with consistent information</li>
+<li><strong>Backlinks:</strong> Links from other websites to yours</li>
+<li><strong>Website authority:</strong> Overall domain strength</li>
+<li><strong>Engagement:</strong> Click-through rates, calls, direction requests from your GBP</li>
+</ul>
+<p>Prominence is where most of your work goes and where most law firms fail. A firm with 200 reviews, 50 accurate citations, and a strong website will outrank a firm 2 miles closer to the searcher almost every time.</p>
+<h2>Why Most Law Firms Are Leaving This Wide Open</h2>
+<p>The legal industry has a massive local SEO gap. Here's why:</p>
+<p><strong>Most firms delegate marketing to someone who doesn't understand local search.</strong> The partner's nephew &quot;does marketing.&quot; The receptionist updates the website. An agency was hired three years ago and nobody checks what they're doing.</p>
+<p><strong>Law firm websites are built for ego, not search.</strong> Beautiful homepage with a skyline photo, partner bios, and &quot;Results-Driven Representation.&quot; Zero location pages. Zero practice-area-plus-city pages. The site looks impressive and ranks for nothing.</p>
+<p><strong>Nobody owns the Google Business Profile.</strong> It was claimed during setup and hasn't been touched since. No posts, no photos, no Q&amp;As, old hours, wrong categories.</p>
+<p><strong>Citations are a mess.</strong> The firm moved offices two years ago. Half the internet still lists the old address. There are three duplicate GBP listings from previous partners. Avvo says one phone number, Justia says another.</p>
+<p><strong>Reviews are an afterthought.</strong> The firm has 23 reviews, most from 2022. The competitor across the street has 180 reviews from the last 12 months. Guess who Google trusts more.</p>
+<p>This is your opportunity. Most of your competitors are not doing this work. The firms that execute the playbook in this guide will dominate — not because the tactics are secret, but because the consistency required eliminates most competition.</p>
+<h2>AI Search and Local Signals</h2>
+<p>Google's AI Overviews, Bing's Copilot, and ChatGPT search are reshaping how people find information. But here's what matters for local search: AI search tools still rely heavily on Google Business Profile data, review signals, and structured local information.</p>
+<p>When an AI generates a response to &quot;best personal injury lawyer in Tampa,&quot; it pulls from:</p>
+<ul>
+<li>Google Business Profile data (categories, descriptions, reviews)</li>
+<li>Structured data on your website (schema markup)</li>
+<li>Citation consistency across the web</li>
+<li>Review volume, recency, and sentiment</li>
+</ul>
+<p>The firms that show up in AI-generated answers are the same firms that have strong local SEO fundamentals. There's no separate &quot;AI SEO&quot; strategy. The playbook you're holding works for traditional search and AI search simultaneously.</p>
+<p>What is changing: AI search tends to surface fewer results, making the winner-take-all dynamic even more extreme. Instead of a 3-pack, AI might recommend one or two firms. The bar is higher, but the reward is greater.</p>
+<hr />
+<p><strong>Chapter 1 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Search Google for your top 3 practice areas + your city (e.g., &quot;personal injury lawyer [city]&quot;). Screenshot the Map Pack results. Note where you rank — or if you appear at all.</li>
+<li><input type="checkbox" disabled="" /> Identify the top 3 competitors who consistently appear in the Map Pack. You'll benchmark against them throughout this playbook.</li>
+<li><input type="checkbox" disabled="" /> Assign one person at your firm to own this playbook. They need 2–4 hours/week for the first month, then 30–60 minutes/month ongoing.</li>
+</ul>
+<hr />
+<h1>Chapter 2: Google Business Profile — Your Most Important Local Asset</h1>
+<p>Your Google Business Profile (GBP) is the single most important asset in local search. It's free, it's directly controlled by you, and it's the primary data source Google uses for Map Pack rankings. If you do nothing else in this playbook, do this chapter.</p>
+<h2>Claim and Verify Your GBP</h2>
+<p>If your firm already has a claimed and verified GBP, skip to the next section. If not, follow these steps:</p>
+<ol>
+<li>Go to <a href="https://business.google.com">business.google.com</a></li>
+<li>Sign in with a Google account your firm controls (use a firm-owned Google Workspace account, not a personal Gmail)</li>
+<li>Search for your firm name. If it appears, click it and select &quot;Claim this business.&quot; If it doesn't appear, click &quot;Add your business to Google.&quot;</li>
+<li>Enter your exact legal business name — no keyword stuffing (e.g., &quot;Smith &amp; Associates&quot; not &quot;Smith &amp; Associates Personal Injury Lawyers Tampa&quot;)</li>
+<li>Select your primary business category (see the next section)</li>
+<li>Enter your physical office address. If you serve clients at their location, you can also set service areas — but you must have a physical address.</li>
+<li>Enter your phone number and website URL</li>
+<li>Choose a verification method. Google typically offers:
+<ul>
+<li><strong>Postcard by mail</strong> (5–14 days) — most common</li>
+<li><strong>Phone verification</strong> — sometimes available for established businesses</li>
+<li><strong>Video verification</strong> — Google may ask you to record a video of your office, signage, and surroundings</li>
+<li><strong>Email verification</strong> — less common, usually for businesses with a verified domain</li>
+</ul>
+</li>
+<li>Complete verification. Do not edit your business name or address until verification is complete — changes can restart the process.</li>
+</ol>
+<p><strong>Important:</strong> If you find an existing listing that someone else claimed (a former partner, an old agency), you can request ownership through Google's &quot;Request Access&quot; flow. This can take 7–14 days.</p>
+<h2>Primary Category Selection</h2>
+<p>Your primary category is the single most important field in your entire GBP. It tells Google what you are. Choose wrong and you'll rank for the wrong searches — or none at all.</p>
+<p><strong>Choose your primary category based on your firm's lead practice area:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Practice Area</th>
+<th>Recommended Primary Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personal Injury</td>
+<td>Personal Injury Attorney</td>
+</tr>
+<tr>
+<td>Criminal Defense</td>
+<td>Criminal Justice Attorney</td>
+</tr>
+<tr>
+<td>Family Law</td>
+<td>Divorce Lawyer <em>or</em> Family Law Attorney</td>
+</tr>
+<tr>
+<td>Estate Planning</td>
+<td>Estate Planning Attorney</td>
+</tr>
+<tr>
+<td>Immigration</td>
+<td>Immigration Attorney</td>
+</tr>
+<tr>
+<td>Real Estate</td>
+<td>Real Estate Attorney</td>
+</tr>
+<tr>
+<td>Business/Corporate</td>
+<td>Corporate Law Attorney <em>or</em> Business Lawyer</td>
+</tr>
+<tr>
+<td>Bankruptcy</td>
+<td>Bankruptcy Attorney</td>
+</tr>
+<tr>
+<td>Employment Law</td>
+<td>Employment Attorney</td>
+</tr>
+<tr>
+<td>DUI/DWI</td>
+<td>DUI Attorney</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rules for primary category:</strong></p>
+<ul>
+<li>Pick the category that matches your highest-revenue practice area</li>
+<li>If your firm is truly general practice, use &quot;Law Firm&quot; — but know that you'll rank worse than specialists</li>
+<li>Only one primary category. Choose wisely.</li>
+</ul>
+<h2>Secondary Categories</h2>
+<p>You can add up to 9 secondary categories. Use them to capture additional practice areas.</p>
+<p><strong>Add secondary categories for every practice area your firm actively handles.</strong> Don't add categories for work you rarely do or don't want.</p>
+<p>Common secondary categories for law firms:</p>
+<ul>
+<li>Lawyer</li>
+<li>Law Firm</li>
+<li>Legal Services</li>
+<li>Personal Injury Attorney</li>
+<li>Criminal Justice Attorney</li>
+<li>Divorce Lawyer</li>
+<li>Family Law Attorney</li>
+<li>Estate Planning Attorney</li>
+<li>Immigration Attorney</li>
+<li>Real Estate Attorney</li>
+<li>Tax Attorney</li>
+<li>Workers' Compensation Attorney</li>
+<li>Medical Malpractice Attorney</li>
+<li>Social Security Attorney</li>
+<li>Bankruptcy Attorney</li>
+<li>Employment Attorney</li>
+<li>Contract Lawyer</li>
+<li>Civil Law Attorney</li>
+<li>Trial Attorney</li>
+<li>Legal Aid Office</li>
+</ul>
+<p><strong>To add secondary categories:</strong></p>
+<ol>
+<li>Log into your GBP at business.google.com</li>
+<li>Click &quot;Edit profile&quot; → &quot;Business category&quot;</li>
+<li>Under your primary category, click &quot;Add another category&quot;</li>
+<li>Search for and add each relevant category</li>
+<li>Save</li>
+</ol>
+<h2>Business Description</h2>
+<p>Your GBP business description can be up to 750 characters. This is prime real estate for relevance signals.</p>
+<p><strong>Formula:</strong></p>
+<blockquote>
+<p>[Firm name] is a [primary practice area] law firm serving [city/region]. Our attorneys handle [practice area 1], [practice area 2], and [practice area 3] cases for [client type] throughout [geographic area]. With [differentiator], we [value proposition]. Call [phone] for a [free/confidential] consultation.</p>
+</blockquote>
+<p><strong>Example (685 characters):</strong></p>
+<blockquote>
+<p>Carter &amp; Simmons is a personal injury law firm serving Tampa and Hillsborough County. Our trial attorneys handle car accidents, truck accidents, slip and fall injuries, and wrongful death cases for individuals and families throughout the Tampa Bay area. With over 40 years of combined courtroom experience, we fight to recover maximum compensation for our clients — and you pay nothing unless we win. Our firm has recovered millions in verdicts and settlements for injury victims across Florida. We are available 24/7 for emergencies. Call (813) 555-0100 for a free, no-obligation case evaluation.</p>
+</blockquote>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>Use your practice area keywords naturally — don't stuff</li>
+<li>Include your city and region</li>
+<li>Mention specific case types</li>
+<li>Include your phone number</li>
+<li>Include a call to action</li>
+<li>No URLs allowed in the description</li>
+<li>No all-caps, no promotional language like &quot;best&quot; or &quot;#1&quot;</li>
+</ul>
+<h2>Services Section</h2>
+<p>The Services section lets you list specific services under each category. This is an underused relevance booster.</p>
+<p><strong>How to set it up:</strong></p>
+<ol>
+<li>In your GBP dashboard, click &quot;Edit profile&quot; → &quot;Services&quot;</li>
+<li>Google may auto-suggest services based on your categories. Accept relevant ones.</li>
+<li>Add custom services for specific case types</li>
+</ol>
+<p><strong>Example services for a personal injury firm:</strong></p>
+<ul>
+<li>Car Accident Claims</li>
+<li>Truck Accident Cases</li>
+<li>Motorcycle Accident Injuries</li>
+<li>Slip and Fall Claims</li>
+<li>Premises Liability</li>
+<li>Wrongful Death Claims</li>
+<li>Medical Malpractice</li>
+<li>Product Liability</li>
+<li>Workers' Compensation</li>
+<li>Free Case Evaluation</li>
+<li>Contingency Fee Representation</li>
+</ul>
+<p>Add a brief description (up to 300 characters) for each service. Use this to include location keywords:</p>
+<blockquote>
+<p>&quot;We represent car accident victims throughout Tampa, Brandon, Riverview, and Hillsborough County. No fees unless we win your case.&quot;</p>
+</blockquote>
+<h2>Photo Strategy</h2>
+<p>Photos directly impact engagement with your GBP listing. Listings with photos receive significantly more direction requests and website clicks than those without.</p>
+<p><strong>Target: 25+ photos minimum. Add 2–3 new photos per month ongoing.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Photo Type</th>
+<th>Count</th>
+<th>What to Shoot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exterior</td>
+<td>3–5</td>
+<td>Building front, signage, entrance, parking lot, street view</td>
+</tr>
+<tr>
+<td>Interior</td>
+<td>5–8</td>
+<td>Reception area, conference rooms, offices, hallways, law library</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>5–10</td>
+<td>Individual headshots, group photos, attorneys at work, team events</td>
+</tr>
+<tr>
+<td>Common areas</td>
+<td>3–5</td>
+<td>Lobby, waiting area, coffee station, building amenities</td>
+</tr>
+<tr>
+<td>At work</td>
+<td>3–5</td>
+<td>Attorneys reviewing documents, in meetings (no client faces), at court</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Photo specifications:</strong></p>
+<ul>
+<li>Format: JPG or PNG</li>
+<li>Size: Between 10KB and 5MB</li>
+<li>Resolution: 720px wide minimum (1200px+ recommended)</li>
+<li>No stock photos — Google can detect them and they hurt trust</li>
+<li>No heavy filters or text overlays</li>
+</ul>
+<p><strong>File naming (helps with image search):</strong>
+Name your files descriptively before uploading:</p>
+<ul>
+<li><code>tampa-personal-injury-lawyer-office-exterior.jpg</code></li>
+<li><code>carter-simmons-law-firm-conference-room.jpg</code></li>
+<li><code>attorney-john-carter-headshot.jpg</code></li>
+</ul>
+<p><strong>Logo and cover photo:</strong></p>
+<ul>
+<li>Upload your firm logo as the logo image</li>
+<li>Choose a professional exterior or interior shot as the cover photo</li>
+<li>Cover photo dimensions: 1080 x 608px</li>
+</ul>
+<h2>Q&amp;A Section</h2>
+<p>The Q&amp;A section on your GBP is public — anyone can ask a question, and anyone can answer. If you don't seed it with your own Q&amp;As, random people (or competitors) will.</p>
+<p><strong>Seed your Q&amp;A with 10 questions and answers. Here are examples for a personal injury firm (adapt to your practice area):</strong></p>
+<p><strong>Q1:</strong> Do I have to pay anything upfront for a personal injury case?
+<strong>A1:</strong> No. We handle all personal injury cases on a contingency fee basis. You pay nothing unless we win your case. There are no upfront costs or out-of-pocket expenses.</p>
+<p><strong>Q2:</strong> How long do I have to file a personal injury lawsuit in [state]?
+<strong>A2:</strong> In [state], the statute of limitations for most personal injury cases is [X] years from the date of injury. However, certain cases have shorter deadlines, so we recommend contacting us as soon as possible to protect your rights.</p>
+<p><strong>Q3:</strong> What should I do immediately after a car accident?
+<strong>A3:</strong> First, seek medical attention — even if you feel fine, some injuries take days to appear. Call the police to file a report. Exchange information with the other driver. Take photos of the scene, damage, and any visible injuries. Then contact a personal injury attorney before speaking with the other driver's insurance company.</p>
+<p><strong>Q4:</strong> How much is my personal injury case worth?
+<strong>A4:</strong> Every case is different. The value depends on the severity of your injuries, medical expenses, lost wages, pain and suffering, and the available insurance coverage. We offer free case evaluations and can give you a realistic assessment after reviewing your situation.</p>
+<p><strong>Q5:</strong> Do I have to go to court for my personal injury case?
+<strong>A5:</strong> Most personal injury cases settle without going to trial. However, our attorneys are experienced trial lawyers who are prepared to take your case to court if the insurance company won't offer a fair settlement.</p>
+<p><strong>Q6:</strong> What types of cases does your firm handle?
+<strong>A6:</strong> We handle car accidents, truck accidents, motorcycle accidents, slip and fall injuries, premises liability, wrongful death, medical malpractice, and product liability cases throughout [city] and [region].</p>
+<p><strong>Q7:</strong> Can I still file a claim if I was partially at fault for the accident?
+<strong>A7:</strong> In [state], you can still recover compensation even if you were partially at fault under the [comparative/contributory] negligence rule. Your compensation may be reduced by your percentage of fault. Contact us for a free evaluation of your specific situation.</p>
+<p><strong>Q8:</strong> How long does a typical personal injury case take?
+<strong>A8:</strong> Straightforward cases often settle within 6–12 months. More complex cases involving severe injuries, multiple parties, or litigation can take 1–3 years. We work to resolve your case as efficiently as possible while maximizing your recovery.</p>
+<p><strong>Q9:</strong> What if the insurance company already contacted me?
+<strong>A9:</strong> Do not give a recorded statement or sign anything from the insurance company before speaking with an attorney. Insurance adjusters are trained to minimize payouts. Contact us first — we'll handle all communication with the insurance company on your behalf.</p>
+<p><strong>Q10:</strong> Where is your office located, and do you offer free parking?
+<strong>A10:</strong> Our office is located at [address] in [city]. We offer free parking for all clients directly in front of our building. We also offer virtual consultations by phone or video for clients who prefer not to travel.</p>
+<p><strong>How to post Q&amp;As:</strong></p>
+<ol>
+<li>Search for your firm on Google (while logged into the Google account that owns your GBP)</li>
+<li>On your listing, find the &quot;Ask a question&quot; button</li>
+<li>Post each question from your business account</li>
+<li>Answer each question from the same account — your answer will show as the &quot;Owner's answer&quot; and be pinned to the top</li>
+</ol>
+<h2>GBP Posts</h2>
+<p>Google Business Profile Posts are short updates that appear on your listing. They signal to Google that your business is active and give searchers more reasons to engage.</p>
+<p><strong>Post types:</strong></p>
+<ul>
+<li><strong>Update:</strong> General news, tips, firm updates</li>
+<li><strong>Offer:</strong> Promotions (e.g., &quot;Free Case Evaluation This Month&quot;)</li>
+<li><strong>Event:</strong> Upcoming events with date/time</li>
+<li><strong>Product:</strong> Highlight specific services</li>
+</ul>
+<p><strong>Posting cadence: 1 post per week minimum.</strong></p>
+<p>Posts expire from prominent display after 6 months, though they remain accessible. Consistency matters more than volume.</p>
+<p><strong>What to write about:</strong></p>
+<ul>
+<li>Case type spotlights: &quot;What to do after a slip and fall in [city]&quot;</li>
+<li>Legal tips: &quot;3 mistakes to avoid after a car accident&quot;</li>
+<li>Firm news: New attorney, office expansion, award</li>
+<li>Community involvement: Sponsorships, charity events</li>
+<li>Seasonal content: &quot;Holiday DUI checkpoints in [county] — know your rights&quot;</li>
+<li>FAQs: Turn common client questions into posts</li>
+</ul>
+<p><strong>Post format:</strong></p>
+<ul>
+<li>150–300 words</li>
+<li>Include a relevant photo (not stock)</li>
+<li>Add a call-to-action button: &quot;Call now,&quot; &quot;Learn more,&quot; or &quot;Book online&quot;</li>
+<li>Include your target keywords naturally</li>
+<li>Link to a relevant page on your website</li>
+</ul>
+<h2>Attributes, Messaging, and Website Link</h2>
+<p><strong>Attributes:</strong> Fill out every applicable attribute in your GBP. These include:</p>
+<ul>
+<li>Accessibility (wheelchair accessible entrance, restroom)</li>
+<li>Service options (online appointments, onsite services)</li>
+<li>Highlights (veteran-led, women-led)</li>
+<li>Languages spoken</li>
+<li>Payment methods accepted</li>
+</ul>
+<p>Check your attributes quarterly — Google adds new ones regularly.</p>
+<p><strong>Messaging:</strong> Enable Google messaging if your firm can respond within a few hours. If you can't commit to fast response times, leave it off — slow responses hurt your profile.</p>
+<p>To enable: GBP dashboard → Messaging → Turn on</p>
+<p><strong>Website link:</strong> Ensure your GBP links to your homepage or a dedicated landing page — not a random internal page. If you have practice-area-specific GBP listings (multi-practitioner firms), link each to the corresponding practice area page.</p>
+<hr />
+<p><strong>Chapter 2 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Claim and verify your GBP (or confirm it's already verified)</li>
+<li><input type="checkbox" disabled="" /> Set the correct primary category for your lead practice area</li>
+<li><input type="checkbox" disabled="" /> Add all relevant secondary categories</li>
+<li><input type="checkbox" disabled="" /> Write and publish your 750-character business description</li>
+<li><input type="checkbox" disabled="" /> Add services with descriptions</li>
+<li><input type="checkbox" disabled="" /> Upload 25+ photos with descriptive file names</li>
+<li><input type="checkbox" disabled="" /> Seed 10 Q&amp;As on your listing</li>
+<li><input type="checkbox" disabled="" /> Publish your first GBP post</li>
+<li><input type="checkbox" disabled="" /> Complete all attributes</li>
+<li><input type="checkbox" disabled="" /> Verify your website link is correct</li>
+</ul>
+<hr />
+<h1>Chapter 3: Citations — The Foundation Nobody Builds</h1>
+<h2>What Citations Are</h2>
+<p>A citation is any online mention of your law firm's name, address, and phone number (NAP). Citations appear on business directories, legal directories, social platforms, data aggregators, and industry-specific websites.</p>
+<p>Citations serve two purposes:</p>
+<ol>
+<li><strong>They validate your business information to Google.</strong> The more places that list your firm with consistent NAP data, the more confident Google is that your business is real, located where you say it is, and trustworthy.</li>
+<li><strong>They provide direct traffic.</strong> Some directories — particularly legal-specific ones like Avvo and FindLaw — drive actual client calls and form submissions.</li>
+</ol>
+<h2>Why NAP Consistency Matters</h2>
+<p>NAP = Name, Address, Phone number.</p>
+<p>Every citation must list your firm's NAP identically. Not approximately. Identically.</p>
+<p><strong>Inconsistencies that hurt you:</strong></p>
+<ul>
+<li>&quot;Smith &amp; Associates LLC&quot; vs. &quot;Smith and Associates&quot; vs. &quot;Smith &amp; Associates, LLC&quot;</li>
+<li>&quot;123 Main Street, Suite 200&quot; vs. &quot;123 Main St #200&quot; vs. &quot;123 Main St., Ste. 200&quot;</li>
+<li>&quot;(813) 555-0100&quot; vs. &quot;813-555-0100&quot; vs. &quot;8135550100&quot;</li>
+<li>Old addresses from previous office locations</li>
+<li>Old phone numbers from previous phone systems</li>
+<li>Different business names from rebranding or partner changes</li>
+</ul>
+<p><strong>Pick one standard format and use it everywhere:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Standard Format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Business name</td>
+<td>Exact legal name as on GBP</td>
+</tr>
+<tr>
+<td>Street address</td>
+<td>Match USPS standard format</td>
+</tr>
+<tr>
+<td>Suite/unit</td>
+<td>&quot;Suite 200&quot; (not &quot;Ste.&quot; or &quot;#&quot;)</td>
+</tr>
+<tr>
+<td>City, State, ZIP</td>
+<td>Full state name or consistent abbreviation</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>(XXX) XXX-XXXX</td>
+</tr>
+<tr>
+<td>Website</td>
+<td><a href="https://www.yourfirm.com">https://www.yourfirm.com</a> (with or without www — pick one)</td>
+</tr>
+</tbody>
+</table>
+<h2>Top 50 Citation Sources for Law Firms</h2>
+<p>These are ranked by impact on local search rankings, split into three tiers.</p>
+<h3>Tier 1 — Critical (Do These First)</h3>
+<p>These are the highest-authority directories. Complete these within your first week.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Source</th>
+<th>URL</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Google Business Profile</td>
+<td>business.google.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bing Places</td>
+<td>bingplaces.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Apple Business Connect</td>
+<td>businessconnect.apple.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Yelp</td>
+<td>biz.yelp.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Facebook Business Page</td>
+<td>business.facebook.com</td>
+<td>Social</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Avvo</td>
+<td>avvo.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>7</td>
+<td>FindLaw</td>
+<td>lawyers.findlaw.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Justia</td>
+<td>justia.com/lawyers</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Martindale-Hubbell / Lawyers.com</td>
+<td>lawyers.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Better Business Bureau</td>
+<td>bbb.org</td>
+<td>General</td>
+</tr>
+</tbody>
+</table>
+<h3>Tier 2 — Important (Complete Within First Month)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Source</th>
+<th>URL</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>LinkedIn Company Page</td>
+<td>linkedin.com</td>
+<td>Social</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Super Lawyers</td>
+<td>superlawyers.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Nolo / Lawyers.com</td>
+<td>nolo.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>14</td>
+<td>HG.org</td>
+<td>hg.org</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Yellow Pages</td>
+<td>yellowpages.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>16</td>
+<td>MapQuest</td>
+<td>mapquest.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Foursquare</td>
+<td>foursquare.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Lawyers.com</td>
+<td>lawyers.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Thumbtack</td>
+<td>thumbtack.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Nextdoor Business</td>
+<td>business.nextdoor.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Chamber of Commerce</td>
+<td>chamberofcommerce.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Local Chamber of Commerce</td>
+<td>(varies by city)</td>
+<td>General</td>
+</tr>
+<tr>
+<td>23</td>
+<td>State Bar Directory</td>
+<td>(varies by state)</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Whitepages</td>
+<td>whitepages.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Superpages</td>
+<td>superpages.com</td>
+<td>General</td>
+</tr>
+</tbody>
+</table>
+<h3>Tier 3 — Supporting (Complete Within First Quarter)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Source</th>
+<th>URL</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>26</td>
+<td>Manta</td>
+<td>manta.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Hotfrog</td>
+<td>hotfrog.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Spoke</td>
+<td>spoke.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Law Guru</td>
+<td>lawguru.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>30</td>
+<td>LegalMatch</td>
+<td>legalmatch.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Best Lawyers</td>
+<td>bestlawyers.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Expertise</td>
+<td>expertise.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Clutch</td>
+<td>clutch.co</td>
+<td>General</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Birdeye</td>
+<td>birdeye.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Brownbook</td>
+<td>brownbook.net</td>
+<td>General</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Cylex</td>
+<td>cylex.us.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>37</td>
+<td>eLocal</td>
+<td>elocal.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>38</td>
+<td>411.com</td>
+<td>411.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>39</td>
+<td>USDirectory</td>
+<td>usdirectory.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Judy's Book</td>
+<td>judysbook.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>41</td>
+<td>ShowMeLocal</td>
+<td>showmelocal.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Tupalo</td>
+<td>tupalo.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>43</td>
+<td>n49</td>
+<td>n49.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>44</td>
+<td>FindLaw Lawyer Directory</td>
+<td>lawyers.findlaw.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>45</td>
+<td>LawInfo</td>
+<td>lawinfo.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Rocket Lawyer Directory</td>
+<td>rocketlawyer.com</td>
+<td>Legal</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Local.com</td>
+<td>local.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>48</td>
+<td>DexKnows</td>
+<td>dexknows.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>49</td>
+<td>City-Data</td>
+<td>city-data.com</td>
+<td>General</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Merchant Circle</td>
+<td>merchantcircle.com</td>
+<td>General</td>
+</tr>
+</tbody>
+</table>
+<h2>How to Audit Current Citations</h2>
+<p>Before building new citations, audit what already exists. Mismatched listings do more harm than no listing at all.</p>
+<p><strong>Manual audit process:</strong></p>
+<ol>
+<li>Search Google for your exact firm name in quotes: <code>&quot;Smith &amp; Associates LLC&quot;</code></li>
+<li>Search for your firm name + city: <code>&quot;Smith &amp; Associates&quot; Tampa</code></li>
+<li>Search for your phone number: <code>&quot;(813) 555-0100&quot;</code></li>
+<li>Search for your old phone number (if applicable): <code>&quot;(813) 555-0199&quot;</code></li>
+<li>Search for your old address (if you moved): <code>&quot;456 Old Street Tampa&quot;</code></li>
+</ol>
+<p>For each result, record in a spreadsheet:</p>
+<ul>
+<li>Directory name</li>
+<li>URL of your listing</li>
+<li>Business name as listed</li>
+<li>Address as listed</li>
+<li>Phone number as listed</li>
+<li>Whether it's correct or needs updating</li>
+<li>Login credentials (if you created an account)</li>
+</ul>
+<p><strong>Free tools that help:</strong></p>
+<ul>
+<li><strong>Moz Local Check</strong> (moz.com/local) — scans major directories for your listing</li>
+<li><strong>BrightLocal Free Citation Audit</strong> — shows where you're listed and flags inconsistencies</li>
+<li><strong>Google search</strong> — the manual approach above catches what tools miss</li>
+</ul>
+<h2>How to Fix Inconsistencies</h2>
+<p>Work through your audit spreadsheet and fix every incorrect listing:</p>
+<ol>
+<li><strong>Log in and edit directly</strong> — if you have an account on the directory</li>
+<li><strong>Claim the listing</strong> — most directories let you claim an unclaimed listing and then edit it</li>
+<li><strong>Contact support</strong> — for directories that don't allow self-service edits, email their support team with your correction request. Include proof of business (utility bill, business license, or GBP screenshot)</li>
+<li><strong>Submit to data aggregators</strong> — four data aggregators feed information to hundreds of smaller directories:
+<ul>
+<li><strong>Data Axle</strong> (dataaxle.com) — submit updates directly</li>
+<li><strong>Neustar Localeze</strong> (neustarlocaleze.biz) — submit updates directly</li>
+<li><strong>Foursquare</strong> (foursquare.com) — claim and update</li>
+<li><strong>Factual (now Foursquare)</strong> — merged with Foursquare</li>
+</ul>
+</li>
+</ol>
+<p>Updating the four aggregators can fix dozens of downstream citations automatically. Start there.</p>
+<h2>Duplicate Suppression</h2>
+<p>Duplicate GBP listings are common for law firms — especially after partner changes, office moves, or rebrands.</p>
+<p><strong>How to find duplicates:</strong></p>
+<ol>
+<li>Search Google Maps for your firm name</li>
+<li>Search for your address — do multiple listings appear?</li>
+<li>Search for variations of your firm name</li>
+<li>Check for individual attorney GBPs that duplicate the firm listing</li>
+</ol>
+<p><strong>How to remove duplicates:</strong></p>
+<ol>
+<li>If you own the duplicate listing: log into GBP → select the duplicate → click &quot;Remove this listing&quot; → &quot;Mark as duplicate&quot; or &quot;Close this business&quot;</li>
+<li>If you don't own it: use the &quot;Suggest an edit&quot; feature on Google Maps → &quot;Close or remove&quot; → &quot;Duplicate of another place&quot;</li>
+<li>For persistent duplicates: use Google Business Profile support (support.google.com/business) and provide documentation</li>
+</ol>
+<p><strong>Important:</strong> Don't remove individual attorney GBPs if they serve a purpose. In multi-attorney firms, individual GBPs for each attorney can be powerful — but they need to be managed, not duplicated.</p>
+<h2>Manual Submission Guide for Top 20</h2>
+<p>Here's how to manually submit to the 20 highest-impact citations:</p>
+<p><strong>1. Google Business Profile</strong> — business.google.com
+Claim or create → verify by postcard/phone/video → complete every field.</p>
+<p><strong>2. Bing Places</strong> — bingplaces.com
+Click &quot;Claim your business&quot; → you can import from your GBP to save time → verify.</p>
+<p><strong>3. Apple Business Connect</strong> — businessconnect.apple.com
+Sign in with Apple ID → search for your business → claim → verify → complete all fields. This powers Apple Maps and Siri.</p>
+<p><strong>4. Yelp</strong> — biz.yelp.com
+Search for your business → claim → verify by phone or email → complete profile, add photos, list services.</p>
+<p><strong>5. Facebook</strong> — business.facebook.com
+Create a Business Page → category: &quot;Lawyer &amp; Law Firm&quot; → complete all info → add photos → publish.</p>
+<p><strong>6. Avvo</strong> — avvo.com
+Each attorney gets a profile (Avvo creates them from bar records). Claim by searching your name → verify by bar number → complete profile, add photo, respond to reviews.</p>
+<p><strong>7. FindLaw</strong> — lawyers.findlaw.com
+Search for your listing → claim → complete profile. Free basic listing; paid options available but not required.</p>
+<p><strong>8. Justia</strong> — justia.com/lawyers
+Create a free lawyer profile → complete all sections → add publications, case results (without client names).</p>
+<p><strong>9. Martindale-Hubbell</strong> — lawyers.com
+Search for your profile → claim → complete. Peer-review rated profiles carry extra authority.</p>
+<p><strong>10. Better Business Bureau</strong> — bbb.org
+Apply for BBB accreditation (paid, typically $400–600/year) or create a free listing. Accreditation builds trust signals.</p>
+<p><strong>11. LinkedIn</strong> — linkedin.com
+Create a Company Page → complete all details → ensure individual attorney profiles link to the company page.</p>
+<p><strong>12. Super Lawyers</strong> — superlawyers.com
+Nominated through peer review or self-nomination process. Complete your profile once selected.</p>
+<p><strong>13. Nolo</strong> — nolo.com
+Free lawyer directory listing → complete profile with practice areas and location.</p>
+<p><strong>14. HG.org</strong> — hg.org
+Free listing for attorneys → submit through their &quot;Add a Listing&quot; form.</p>
+<p><strong>15. Yellow Pages</strong> — yellowpages.com
+Claim your listing through their business portal → verify → complete profile.</p>
+<p><strong>16. MapQuest</strong> — mapquest.com
+Listings are primarily fed by data aggregators. Update your Foursquare listing to ensure accuracy here.</p>
+<p><strong>17. Foursquare</strong> — foursquare.com
+Claim your business → verify → update all information. This feeds data to MapQuest, Bing, and many others.</p>
+<p><strong>18. Thumbtack</strong> — thumbtack.com
+Create a professional profile → set your service area → add credentials.</p>
+<p><strong>19. Nextdoor</strong> — business.nextdoor.com
+Claim your business page → verify address → complete profile. Strong for hyper-local visibility.</p>
+<p><strong>20. Chamber of Commerce</strong> — Join your local chamber and claim your listing on their website. Also claim the national chamberofcommerce.com listing.</p>
+<hr />
+<p><strong>Chapter 3 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Standardize your NAP (write it down — this is your canonical format)</li>
+<li><input type="checkbox" disabled="" /> Audit existing citations using the manual search method</li>
+<li><input type="checkbox" disabled="" /> Fix inconsistencies, starting with Tier 1 sources</li>
+<li><input type="checkbox" disabled="" /> Submit to all four data aggregators</li>
+<li><input type="checkbox" disabled="" /> Suppress any duplicate GBP listings</li>
+<li><input type="checkbox" disabled="" /> Manually submit to all Top 20 citations</li>
+<li><input type="checkbox" disabled="" /> Track everything in a spreadsheet: directory, URL, login, date submitted, status</li>
+</ul>
+<hr />
+<h1>Chapter 4: Location Pages — How Google Knows Where You Serve</h1>
+<h2>Why Location Pages Beat a Single Homepage</h2>
+<p>Your homepage targets one location — where your office is. But you probably serve clients across an entire metro area, county, or region. Without location pages, Google has no reason to show you for searches in those other areas.</p>
+<p>A location page is a dedicated page on your website for a specific [practice area] + [city] combination. When someone searches &quot;car accident lawyer Brandon FL,&quot; Google looks for a page that specifically addresses car accident representation in Brandon. If your competitor has that page and you don't, they win.</p>
+<p>This is not about tricking Google. Location pages provide genuinely useful information to potential clients in those areas — local court details, area-specific information, and clear messaging that &quot;yes, we serve your city.&quot;</p>
+<h2>Page Structure: One Page Per Combination</h2>
+<p>Create one page for each combination of:</p>
+<ul>
+<li><strong>Practice area</strong> (your top 3–5 revenue generators)</li>
+<li><strong>City/neighborhood</strong> (the 5–15 areas where you want clients)</li>
+</ul>
+<p><strong>Example matrix for a personal injury firm in the Tampa Bay area:</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Tampa</th>
+<th>St. Petersburg</th>
+<th>Clearwater</th>
+<th>Brandon</th>
+<th>Riverview</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Car Accidents</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Truck Accidents</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Slip &amp; Fall</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Wrongful Death</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+<p>That's 20 location pages. Each one is a new opportunity to rank for a specific local search.</p>
+<p><strong>Don't go overboard.</strong> Start with your top 3 practice areas × top 5 cities = 15 pages. Expand from there based on search volume and competition.</p>
+<h2>Exact Page Template</h2>
+<p>Use this template for every location page. Customize the content for each city — do not copy-paste the same content with city names swapped.</p>
+<h3>Title Tag Formula</h3>
+<pre><code>[Practice Area] Lawyer in [City], [State] | [Firm Name]
+</code></pre>
+<p>Example: <code>Car Accident Lawyer in Brandon, FL | Carter &amp; Simmons</code></p>
+<p>Character limit: 50–60 characters. If your firm name makes it too long, abbreviate or drop it.</p>
+<h3>H1 Formula</h3>
+<pre><code>[City] [Practice Area] Lawyer
+</code></pre>
+<p>Example: <code>Brandon Car Accident Lawyer</code></p>
+<h3>Meta Description Formula</h3>
+<pre><code>Need a [practice area] lawyer in [city]? [Firm name] has [experience detail]. Free consultation. Call [phone].
+</code></pre>
+<p>Example: <code>Need a car accident lawyer in Brandon? Carter &amp; Simmons has 40+ years of trial experience. Free consultation. Call (813) 555-0100.</code></p>
+<p>Character limit: 150–160 characters.</p>
+<h3>URL Structure</h3>
+<pre><code>/[practice-area]-lawyer-[city]-[state]/
+</code></pre>
+<p>Example: <code>/car-accident-lawyer-brandon-fl/</code></p>
+<h3>Page Sections</h3>
+<p>Each location page should contain these sections in order:</p>
+<p><strong>1. Hero section with H1</strong> (50–100 words)
+Immediately address the reader's situation. Mention the city. Include a call to action.</p>
+<p><strong>2. Why you need a [practice area] attorney in [city]</strong> (150–200 words)
+Discuss local-specific factors: local courts, local traffic patterns (for auto accidents), local hazards, or area-specific legal nuances.</p>
+<p><strong>3. How we help [city] clients</strong> (150–200 words)
+Your firm's approach, experience, and what sets you apart. Specific to this practice area.</p>
+<p><strong>4. Common [practice area] cases in [city]</strong> (150–200 words)
+List specific case types. For car accidents: intersection accidents, highway accidents, rideshare accidents, etc. Reference specific local roads or landmarks naturally.</p>
+<p><strong>5. What compensation can you recover</strong> (150–200 words)
+Types of damages: medical bills, lost wages, pain and suffering, etc. State-specific statute of limitations.</p>
+<p><strong>6. Our process / what to expect</strong> (100–150 words)
+Numbered steps from initial call to resolution.</p>
+<p><strong>7. Serving [city] and surrounding areas</strong> (100 words)
+List the neighborhoods and nearby cities you also serve. This adds geographic relevance.</p>
+<p><strong>8. Call to action</strong> (50 words)
+Phone number, contact form, free consultation offer.</p>
+<p><strong>9. FAQ section</strong> (3–5 questions, 50–100 words each)
+Practice-area and location-specific questions. Use <code>&lt;h3&gt;</code> tags for each question.</p>
+<h3>Word Count Target</h3>
+<p><strong>1,200–1,800 words per page.</strong> Long enough to be comprehensive, short enough that it's not padded.</p>
+<h3>Internal Linking</h3>
+<ul>
+<li>Link each location page to your main practice area page</li>
+<li>Link each location page to your homepage</li>
+<li>Link between related location pages (e.g., &quot;We also serve nearby [other city]&quot;)</li>
+<li>Link to your contact page</li>
+<li>Use descriptive anchor text: &quot;our Tampa personal injury attorneys&quot; not &quot;click here&quot;</li>
+</ul>
+<h2>What NOT to Do</h2>
+<p><strong>Do not create doorway pages.</strong> A doorway page is a thin, duplicate page where you only swap out the city name. Google penalizes this. Each location page must have unique, substantive content specific to that city.</p>
+<p><strong>Signs of a doorway page:</strong></p>
+<ul>
+<li>The only difference between pages is the city name</li>
+<li>Content is under 500 words</li>
+<li>No location-specific information (courts, roads, landmarks)</li>
+<li>The page exists solely for SEO with no value to the reader</li>
+</ul>
+<p><strong>Other mistakes to avoid:</strong></p>
+<ul>
+<li>Don't create pages for cities where you have no real connection or ability to serve</li>
+<li>Don't hide location pages from your site navigation — they should be accessible</li>
+<li>Don't use the same meta description on multiple location pages</li>
+<li>Don't stuff keywords: &quot;Tampa car accident lawyer, Tampa auto accident attorney, Tampa vehicle crash lawyer&quot; — write naturally</li>
+<li>Don't use AI-generated content without significant human editing and local knowledge added</li>
+</ul>
+<h2>How to Get Pages Indexed Fast</h2>
+<p>After publishing new location pages:</p>
+<ol>
+<li>
+<p><strong>Submit each URL in Google Search Console:</strong></p>
+<ul>
+<li>Go to search.google.com/search-console</li>
+<li>Enter the new page URL in the top search bar (&quot;Inspect any URL&quot;)</li>
+<li>Click &quot;Request Indexing&quot;</li>
+</ul>
+</li>
+<li>
+<p><strong>Add internal links immediately:</strong></p>
+<ul>
+<li>Link to the new page from your homepage, practice area pages, or blog posts</li>
+<li>Google discovers new pages by crawling links from existing indexed pages</li>
+</ul>
+</li>
+<li>
+<p><strong>Submit an updated sitemap:</strong></p>
+<ul>
+<li>Update your XML sitemap to include the new pages</li>
+<li>In Search Console, go to Sitemaps → submit your sitemap URL</li>
+</ul>
+</li>
+<li>
+<p><strong>Share on social media:</strong></p>
+<ul>
+<li>Post the page URL on your Facebook business page and LinkedIn</li>
+<li>Social shares can accelerate Google's crawling</li>
+</ul>
+</li>
+</ol>
+<p>Typical indexing time: 2–14 days. If a page isn't indexed after 2 weeks, re-request in Search Console and check for crawl errors.</p>
+<hr />
+<p><strong>Chapter 4 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Build your practice area × city matrix (top 3 practice areas × top 5 cities)</li>
+<li><input type="checkbox" disabled="" /> Write and publish your first 5 location pages using the template above</li>
+<li><input type="checkbox" disabled="" /> Submit each page for indexing in Google Search Console</li>
+<li><input type="checkbox" disabled="" /> Add internal links from existing pages to your new location pages</li>
+<li><input type="checkbox" disabled="" /> Schedule remaining pages at 2–3 per week until complete</li>
+<li><input type="checkbox" disabled="" /> Review each page to ensure unique, location-specific content — no doorway pages</li>
+</ul>
+<hr />
+<h1>Chapter 5: Reviews — The Ranking Signal You Control</h1>
+<h2>Why Reviews Matter for Map Pack</h2>
+<p>Reviews are the most visible trust signal in local search and one of the strongest ranking factors for the Map Pack. They impact rankings in three ways:</p>
+<ol>
+<li><strong>Volume:</strong> More reviews = more data for Google to trust</li>
+<li><strong>Velocity:</strong> Consistent new reviews signal an active business</li>
+<li><strong>Rating:</strong> Higher average ratings improve click-through rates and rankings</li>
+<li><strong>Recency:</strong> Recent reviews matter more than old ones</li>
+<li><strong>Keywords in reviews:</strong> When clients mention practice areas or locations in their reviews, it reinforces your relevance</li>
+</ol>
+<p>A firm with 15 reviews from 2022 will lose to a firm with 100 reviews from the last 12 months — even if both have 5-star averages.</p>
+<p><strong>Review benchmarks by market size:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Market Size</th>
+<th>Competitive Review Count</th>
+<th>Dominant Review Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small city (&lt;100K)</td>
+<td>50+</td>
+<td>100+</td>
+</tr>
+<tr>
+<td>Mid-size metro (100K–500K)</td>
+<td>100+</td>
+<td>200+</td>
+</tr>
+<tr>
+<td>Large metro (500K+)</td>
+<td>200+</td>
+<td>400+</td>
+</tr>
+</tbody>
+</table>
+<h2>Review Request Sequence</h2>
+<p>The key to getting reviews consistently: ask systematically, make it easy, and follow up once.</p>
+<h3>When to Ask</h3>
+<p>Ask within 24–48 hours of a positive resolution or milestone:</p>
+<ul>
+<li>Case settled or won</li>
+<li>Positive outcome at hearing</li>
+<li>Client expressed gratitude</li>
+<li>Successful closing (real estate)</li>
+<li>Estate plan completed</li>
+</ul>
+<p>Never ask during an active, stressful phase of a case. Timing matters.</p>
+<h3>Step 1: Initial Email Request</h3>
+<p><strong>Subject:</strong> Quick favor, [Client First Name]?</p>
+<p><strong>Body:</strong></p>
+<pre><code>Hi [Client First Name],
+
+It was a pleasure working with you on your [case type] matter.
+If you had a positive experience with our firm, would you mind
+leaving us a brief Google review? It takes about 60 seconds
+and helps other people in similar situations find us.
+
+Here's the direct link:
+[Your Google Review Link]
+
+A sentence or two is plenty — no need to write an essay.
+
+Thank you,
+[Attorney Name]
+[Firm Name]
+[Phone Number]
+</code></pre>
+<h3>Step 2: SMS Request (same day or next day)</h3>
+<pre><code>Hi [First Name], this is [Attorney First Name] from [Firm Name].
+Thank you again for trusting us with your [case type]. If you
+have a minute, a Google review would mean a lot to our team:
+[Short Review Link]
+</code></pre>
+<h3>Step 3: Follow-Up (5–7 days later, only if no review posted)</h3>
+<p><strong>Subject:</strong> Following up — [Firm Name]</p>
+<p><strong>Body:</strong></p>
+<pre><code>Hi [Client First Name],
+
+Just a quick follow-up on my earlier note. If you have 60 seconds,
+a Google review would be a huge help for our firm:
+
+[Your Google Review Link]
+
+No worries if you're too busy — we appreciate you either way.
+
+Best,
+[Attorney Name]
+</code></pre>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>Never send more than one follow-up</li>
+<li>Never incentivize reviews (no discounts, gifts, or rewards — this violates Google's policies and FTC guidelines)</li>
+<li>Never ask only satisfied clients and filter out dissatisfied ones (this is &quot;review gating&quot; — see below)</li>
+</ul>
+<h2>How to Get Your Google Review Link</h2>
+<ol>
+<li>Go to Google Maps and search for your firm</li>
+<li>Click on your listing</li>
+<li>Click &quot;Write a review&quot;</li>
+<li>Copy the URL from your browser's address bar</li>
+</ol>
+<p><strong>Shorter method:</strong></p>
+<ol>
+<li>Go to your GBP dashboard at business.google.com</li>
+<li>Click &quot;Ask for reviews&quot; (or &quot;Get more reviews&quot;)</li>
+<li>Copy the short link provided</li>
+</ol>
+<p><strong>Create a vanity redirect:</strong> Set up a simple redirect like <code>yourfirm.com/review</code> that points to your Google review link. This is easier to share verbally and in print.</p>
+<h2>Response Templates</h2>
+<p>Respond to every review — positive and negative. Google has confirmed that responding to reviews improves your local ranking.</p>
+<h3>Positive Review Response Templates</h3>
+<p><strong>Template 1 — Short:</strong></p>
+<pre><code>Thank you for the kind words, [Name]. It was a privilege to
+represent you, and we're glad we could help. We wish you
+all the best.
+</code></pre>
+<p><strong>Template 2 — Practice area mention (adds keyword relevance):</strong></p>
+<pre><code>Thank you, [Name]. [Practice area] cases can be stressful,
+and we're happy we could achieve a positive outcome for you.
+Your recommendation means a lot to our team at [Firm Name].
+</code></pre>
+<p><strong>Template 3 — Location mention:</strong></p>
+<pre><code>[Name], thank you for your generous review. Serving clients
+in [city] and throughout [region] is what drives our team.
+We appreciate your trust in [Firm Name].
+</code></pre>
+<p><strong>Rotate templates.</strong> Don't post the same response to every review.</p>
+<h3>Negative Review Response Templates</h3>
+<p><strong>Template 1 — Professional and brief:</strong></p>
+<pre><code>[Name], we're sorry to hear about your experience. Client
+satisfaction is important to us. Please contact our office
+at [phone] so we can discuss your concerns directly.
+</code></pre>
+<p><strong>Template 2 — Factual correction (use carefully):</strong></p>
+<pre><code>[Name], we take all feedback seriously. We'd like to address
+your concerns privately. Please call us at [phone] or email
+[email] so we can work toward a resolution.
+</code></pre>
+<p><strong>Rules for negative reviews:</strong></p>
+<ul>
+<li>Never argue in public</li>
+<li>Never disclose case details or confirm the person is a client (attorney-client privilege)</li>
+<li>Keep it short — lengthy responses look defensive</li>
+<li>Take the conversation offline</li>
+<li>If a review violates Google's policies (fake, spam, conflict of interest), flag it for removal through your GBP dashboard</li>
+</ul>
+<h2>Review Gating Warning</h2>
+<p><strong>Review gating is asking clients about their experience first, then only sending the review link to satisfied clients.</strong> This is explicitly prohibited by Google and the FTC.</p>
+<p>Examples of review gating:</p>
+<ul>
+<li>Sending a survey first, then only asking 4–5 star respondents to leave a Google review</li>
+<li>Using software that filters negative feedback away from Google</li>
+<li>Having a &quot;How was your experience?&quot; page that redirects happy clients to Google and unhappy clients to an internal form</li>
+</ul>
+<p>If Google detects review gating, they can remove your reviews and penalize your listing. Don't do it.</p>
+<p><strong>What you can do:</strong> Ask all clients for reviews. If someone has a negative experience, you can (and should) try to resolve it directly — but you cannot prevent them from reviewing you.</p>
+<h2>Goal Benchmarks</h2>
+<p>Set review goals based on your market and current position:</p>
+<table>
+<thead>
+<tr>
+<th>Timeframe</th>
+<th>Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Month 1–3</td>
+<td>5 new reviews per month (build the system)</td>
+</tr>
+<tr>
+<td>Month 4–6</td>
+<td>8–10 new reviews per month (refine and scale)</td>
+</tr>
+<tr>
+<td>Month 7–12</td>
+<td>10–15 new reviews per month (consistent cadence)</td>
+</tr>
+<tr>
+<td>Year 2+</td>
+<td>Maintain 10+ new reviews per month</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Track monthly:</strong></p>
+<ul>
+<li>Total review count</li>
+<li>Average rating</li>
+<li>Number of new reviews this month</li>
+<li>Response rate (should be 100%)</li>
+</ul>
+<hr />
+<p><strong>Chapter 5 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Get your Google review link and create a vanity redirect (yourfirm.com/review)</li>
+<li><input type="checkbox" disabled="" /> Set up your email and SMS review request templates</li>
+<li><input type="checkbox" disabled="" /> Identify 10 past clients who had positive outcomes — send review requests this week</li>
+<li><input type="checkbox" disabled="" /> Create response templates for positive and negative reviews</li>
+<li><input type="checkbox" disabled="" /> Set a monthly review goal based on the benchmarks above</li>
+<li><input type="checkbox" disabled="" /> Assign someone to monitor and respond to all reviews within 24–48 hours</li>
+</ul>
+<hr />
+<h1>Chapter 6: Schema Markup — Speak Google's Language</h1>
+<h2>What Schema Markup Is (Plain English)</h2>
+<p>Schema markup is code you add to your website that tells Google exactly what your business is, where it's located, who works there, and what services you offer. Think of it as a structured label for your business — instead of Google guessing from your page content, you're spelling it out in a format Google can read perfectly.</p>
+<p>Schema doesn't change how your website looks to visitors. It's invisible code embedded in your page's HTML. But it can dramatically improve how Google understands and displays your business in search results — including rich snippets with star ratings, FAQ dropdowns, and enhanced business information.</p>
+<h2>Three Schemas Every Law Firm Needs</h2>
+<h3>1. LocalBusiness / LegalService Schema</h3>
+<p>This tells Google your firm's name, address, phone number, hours, and practice areas. It goes on your homepage (and can go on location pages with modified address/area information).</p>
+<h3>2. Attorney / Person Schema</h3>
+<p>This tells Google about individual attorneys — their name, credentials, job title, and association with your firm. It goes on attorney bio pages.</p>
+<h3>3. FAQPage Schema</h3>
+<p>This tells Google that a page contains a list of questions and answers, enabling FAQ rich snippets in search results. It goes on any page with an FAQ section — including location pages.</p>
+<h2>Implementation Methods</h2>
+<p><strong>Method 1: Direct code injection (recommended)</strong>
+Paste JSON-LD code into the <code>&lt;head&gt;</code> section of your pages. Most CMS platforms let you add custom code to the head.</p>
+<p><strong>Method 2: WordPress plugins</strong></p>
+<ul>
+<li>Yoast SEO (free) — has basic schema support</li>
+<li>Rank Math (free) — has robust schema support</li>
+<li>Schema Pro (paid) — dedicated schema plugin</li>
+</ul>
+<p><strong>Method 3: Google Tag Manager</strong>
+Add JSON-LD via a Custom HTML tag fired on specific pages. Good if you don't want to edit page templates.</p>
+<p><strong>JSON-LD is the recommended format.</strong> It's the format Google prefers, it's the easiest to implement, and it doesn't require modifying your visible page content.</p>
+<h2>Copy-Paste JSON-LD Snippets</h2>
+<h3>LegalService Schema (Homepage)</h3>
+<pre><code class="language-json">&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;LegalService&quot;,
+  &quot;name&quot;: &quot;YOUR FIRM NAME&quot;,
+  &quot;description&quot;: &quot;YOUR FIRM DESCRIPTION&quot;,
+  &quot;url&quot;: &quot;https://www.yourfirm.com&quot;,
+  &quot;telephone&quot;: &quot;+1-XXX-XXX-XXXX&quot;,
+  &quot;email&quot;: &quot;info@yourfirm.com&quot;,
+  &quot;address&quot;: {
+    &quot;@type&quot;: &quot;PostalAddress&quot;,
+    &quot;streetAddress&quot;: &quot;123 Main Street, Suite 200&quot;,
+    &quot;addressLocality&quot;: &quot;Tampa&quot;,
+    &quot;addressRegion&quot;: &quot;FL&quot;,
+    &quot;postalCode&quot;: &quot;33602&quot;,
+    &quot;addressCountry&quot;: &quot;US&quot;
+  },
+  &quot;geo&quot;: {
+    &quot;@type&quot;: &quot;GeoCoordinates&quot;,
+    &quot;latitude&quot;: &quot;27.9506&quot;,
+    &quot;longitude&quot;: &quot;-82.4572&quot;
+  },
+  &quot;openingHoursSpecification&quot;: [
+    {
+      &quot;@type&quot;: &quot;OpeningHoursSpecification&quot;,
+      &quot;dayOfWeek&quot;: [&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;],
+      &quot;opens&quot;: &quot;08:30&quot;,
+      &quot;closes&quot;: &quot;17:30&quot;
+    }
+  ],
+  &quot;areaServed&quot;: [
+    {
+      &quot;@type&quot;: &quot;City&quot;,
+      &quot;name&quot;: &quot;Tampa&quot;
+    },
+    {
+      &quot;@type&quot;: &quot;City&quot;,
+      &quot;name&quot;: &quot;St. Petersburg&quot;
+    },
+    {
+      &quot;@type&quot;: &quot;City&quot;,
+      &quot;name&quot;: &quot;Clearwater&quot;
+    }
+  ],
+  &quot;priceRange&quot;: &quot;Free Consultation&quot;,
+  &quot;image&quot;: &quot;https://www.yourfirm.com/images/office-exterior.jpg&quot;,
+  &quot;logo&quot;: &quot;https://www.yourfirm.com/images/logo.png&quot;,
+  &quot;sameAs&quot;: [
+    &quot;https://www.facebook.com/yourfirm&quot;,
+    &quot;https://www.linkedin.com/company/yourfirm&quot;,
+    &quot;https://www.avvo.com/attorneys/yourprofile&quot;
+  ],
+  &quot;hasOfferCatalog&quot;: {
+    &quot;@type&quot;: &quot;OfferCatalog&quot;,
+    &quot;name&quot;: &quot;Legal Services&quot;,
+    &quot;itemListElement&quot;: [
+      {
+        &quot;@type&quot;: &quot;Offer&quot;,
+        &quot;itemOffered&quot;: {
+          &quot;@type&quot;: &quot;Service&quot;,
+          &quot;name&quot;: &quot;Personal Injury Representation&quot;
+        }
+      },
+      {
+        &quot;@type&quot;: &quot;Offer&quot;,
+        &quot;itemOffered&quot;: {
+          &quot;@type&quot;: &quot;Service&quot;,
+          &quot;name&quot;: &quot;Car Accident Claims&quot;
+        }
+      },
+      {
+        &quot;@type&quot;: &quot;Offer&quot;,
+        &quot;itemOffered&quot;: {
+          &quot;@type&quot;: &quot;Service&quot;,
+          &quot;name&quot;: &quot;Wrongful Death Cases&quot;
+        }
+      }
+    ]
+  }
+}
+&lt;/script&gt;
+</code></pre>
+<h3>Attorney / Person Schema (Bio Pages)</h3>
+<pre><code class="language-json">&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Attorney&quot;,
+  &quot;name&quot;: &quot;Jane Smith&quot;,
+  &quot;jobTitle&quot;: &quot;Managing Partner&quot;,
+  &quot;description&quot;: &quot;Jane Smith is a personal injury attorney in Tampa, FL with 20 years of trial experience.&quot;,
+  &quot;url&quot;: &quot;https://www.yourfirm.com/attorneys/jane-smith&quot;,
+  &quot;image&quot;: &quot;https://www.yourfirm.com/images/jane-smith-headshot.jpg&quot;,
+  &quot;telephone&quot;: &quot;+1-XXX-XXX-XXXX&quot;,
+  &quot;email&quot;: &quot;jsmith@yourfirm.com&quot;,
+  &quot;worksFor&quot;: {
+    &quot;@type&quot;: &quot;LegalService&quot;,
+    &quot;name&quot;: &quot;YOUR FIRM NAME&quot;,
+    &quot;url&quot;: &quot;https://www.yourfirm.com&quot;
+  },
+  &quot;address&quot;: {
+    &quot;@type&quot;: &quot;PostalAddress&quot;,
+    &quot;streetAddress&quot;: &quot;123 Main Street, Suite 200&quot;,
+    &quot;addressLocality&quot;: &quot;Tampa&quot;,
+    &quot;addressRegion&quot;: &quot;FL&quot;,
+    &quot;postalCode&quot;: &quot;33602&quot;,
+    &quot;addressCountry&quot;: &quot;US&quot;
+  },
+  &quot;alumniOf&quot;: {
+    &quot;@type&quot;: &quot;CollegeOrUniversity&quot;,
+    &quot;name&quot;: &quot;University of Florida Levin College of Law&quot;
+  },
+  &quot;knowsAbout&quot;: [
+    &quot;Personal Injury Law&quot;,
+    &quot;Car Accident Claims&quot;,
+    &quot;Wrongful Death&quot;,
+    &quot;Premises Liability&quot;
+  ],
+  &quot;sameAs&quot;: [
+    &quot;https://www.linkedin.com/in/janesmith&quot;,
+    &quot;https://www.avvo.com/attorneys/jane-smith&quot;
+  ]
+}
+&lt;/script&gt;
+</code></pre>
+<h3>FAQPage Schema (Location Pages and FAQ Pages)</h3>
+<pre><code class="language-json">&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How much does a personal injury lawyer in Tampa cost?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Most personal injury lawyers in Tampa work on a contingency fee basis, meaning you pay nothing upfront and no fees unless your case is won. The typical contingency fee is 33-40% of the recovery.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How long do I have to file a personal injury claim in Florida?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;In Florida, the statute of limitations for most personal injury cases is two years from the date of injury. However, some cases have different deadlines, so consulting an attorney promptly is recommended.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What should I do after a car accident in Tampa?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;After a car accident in Tampa, seek medical attention immediately, call the police to file a report, exchange information with the other driver, document the scene with photos, and contact a personal injury attorney before speaking with insurance companies.&quot;
+      }
+    }
+  ]
+}
+&lt;/script&gt;
+</code></pre>
+<h2>How to Test Your Schema</h2>
+<ol>
+<li>Go to Google's Rich Results Test: <a href="https://search.google.com/test/rich-results">search.google.com/test/rich-results</a></li>
+<li>Enter your page URL or paste your code</li>
+<li>Click &quot;Test URL&quot; or &quot;Test Code&quot;</li>
+<li>Review the results — Google will flag any errors or warnings</li>
+<li>Fix any issues and re-test</li>
+</ol>
+<p>Also use the Schema Markup Validator at <a href="https://validator.schema.org">validator.schema.org</a> for general schema validation.</p>
+<p><strong>Common errors:</strong></p>
+<ul>
+<li>Missing required fields (name, address for LocalBusiness)</li>
+<li>Invalid URL formats</li>
+<li>Mismatched data (schema says one address, page content says another)</li>
+<li>Incorrect nesting of objects</li>
+</ul>
+<hr />
+<p><strong>Chapter 6 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Add LegalService schema to your homepage</li>
+<li><input type="checkbox" disabled="" /> Add Attorney schema to each attorney bio page</li>
+<li><input type="checkbox" disabled="" /> Add FAQPage schema to every page with an FAQ section</li>
+<li><input type="checkbox" disabled="" /> Test all pages with Google's Rich Results Test</li>
+<li><input type="checkbox" disabled="" /> Fix any errors flagged by the testing tool</li>
+<li><input type="checkbox" disabled="" /> Add schema to new location pages as you publish them</li>
+</ul>
+<hr />
+<h1>Chapter 7: Monthly Maintenance</h1>
+<h2>What Decays Without Maintenance</h2>
+<p>Local SEO is not set-and-forget. Here's what degrades over time:</p>
+<ul>
+<li><strong>GBP posts</strong> expire from prominent display after 6 months</li>
+<li><strong>Photos</strong> get stale — Google favors fresh visual content</li>
+<li><strong>Reviews</strong> stop if you stop asking — and competitors keep building theirs</li>
+<li><strong>Citations</strong> get overwritten by data aggregators with old information</li>
+<li><strong>Location pages</strong> become outdated if local information changes</li>
+<li><strong>Schema</strong> can break during website updates or CMS upgrades</li>
+<li><strong>Google</strong> changes its algorithm, features, and GBP interface regularly</li>
+</ul>
+<h2>Monthly Checklist (30 Minutes)</h2>
+<p>Do this every month without fail:</p>
+<ul>
+<li><input type="checkbox" disabled="" /> <strong>Post 4 GBP updates</strong> (one per week — batch-write them monthly)</li>
+<li><input type="checkbox" disabled="" /> <strong>Upload 2–3 new photos</strong> to your GBP</li>
+<li><input type="checkbox" disabled="" /> <strong>Check and respond to all new reviews</strong> (should be doing this weekly, but review monthly for any missed)</li>
+<li><input type="checkbox" disabled="" /> <strong>Check GBP Q&amp;A</strong> for new questions from the public — answer within 24 hours</li>
+<li><input type="checkbox" disabled="" /> <strong>Review GBP insights</strong> — note trends in searches, views, and actions</li>
+<li><input type="checkbox" disabled="" /> <strong>Send review requests</strong> to all clients with positive outcomes this month</li>
+<li><input type="checkbox" disabled="" /> <strong>Check your GBP listing on Google Maps</strong> — make sure nothing changed (Google sometimes auto-edits listings based on user suggestions)</li>
+<li><input type="checkbox" disabled="" /> <strong>Check for new Google Business Profile features</strong> — Google regularly adds new fields and features</li>
+</ul>
+<h2>Quarterly Checklist</h2>
+<p>Every 3 months, add these tasks:</p>
+<ul>
+<li><input type="checkbox" disabled="" /> <strong>Audit your top 10 citations</strong> — spot-check that NAP is still correct on Yelp, Avvo, Facebook, Bing, Apple, and 5 others</li>
+<li><input type="checkbox" disabled="" /> <strong>Update GBP business description</strong> if anything has changed (new practice areas, new attorneys, new office)</li>
+<li><input type="checkbox" disabled="" /> <strong>Review and update GBP services section</strong> — add new services, remove discontinued ones</li>
+<li><input type="checkbox" disabled="" /> <strong>Check GBP categories</strong> — are there new categories that better match your practice?</li>
+<li><input type="checkbox" disabled="" /> <strong>Review location page content</strong> — update any outdated information (court addresses, statute of limitations changes, new local developments)</li>
+<li><input type="checkbox" disabled="" /> <strong>Test schema markup</strong> on all key pages using the Rich Results Test</li>
+<li><input type="checkbox" disabled="" /> <strong>Review Google Search Console</strong> for crawl errors, indexing issues, or manual actions</li>
+<li><input type="checkbox" disabled="" /> <strong>Check competitor GBP listings</strong> — what are the top 3 competitors doing that you're not?</li>
+<li><input type="checkbox" disabled="" /> <strong>Update GBP attributes</strong> — Google adds new attributes regularly</li>
+<li><input type="checkbox" disabled="" /> <strong>Review photo quality</strong> — remove any low-quality or outdated photos</li>
+</ul>
+<h2>Annual Checklist</h2>
+<p>Once per year, do a comprehensive review:</p>
+<ul>
+<li><input type="checkbox" disabled="" /> <strong>Full citation audit</strong> — re-check all 50 sources from Chapter 3</li>
+<li><input type="checkbox" disabled="" /> <strong>Review and rewrite GBP business description</strong> — refresh with current messaging</li>
+<li><input type="checkbox" disabled="" /> <strong>Audit all location pages</strong> — are they still accurate? Are there new cities to target?</li>
+<li><input type="checkbox" disabled="" /> <strong>Review overall local SEO performance</strong> — compare this year's Map Pack rankings, review count, and website traffic to last year</li>
+<li><input type="checkbox" disabled="" /> <strong>Update schema markup</strong> — check for new schema types or properties relevant to law firms</li>
+<li><input type="checkbox" disabled="" /> <strong>Refresh all photo content</strong> — new headshots, new office photos, new team photos</li>
+<li><input type="checkbox" disabled="" /> <strong>Evaluate practice area strategy</strong> — should primary/secondary GBP categories change based on business goals?</li>
+<li><input type="checkbox" disabled="" /> <strong>Review and update all templates</strong> — review request emails, SMS templates, response templates</li>
+<li><input type="checkbox" disabled="" /> <strong>Check for Google algorithm updates</strong> — what changed this year and how should your strategy adapt?</li>
+<li><input type="checkbox" disabled="" /> <strong>Set goals for next year</strong> — review count target, new location pages, new citation sources</li>
+</ul>
+<hr />
+<p><strong>Chapter 7 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Block 30 minutes on your calendar for the first of every month — &quot;Local SEO Maintenance&quot;</li>
+<li><input type="checkbox" disabled="" /> Block 2 hours at the start of each quarter for the quarterly review</li>
+<li><input type="checkbox" disabled="" /> Block a half-day annually for the comprehensive review</li>
+<li><input type="checkbox" disabled="" /> Create a shared document or spreadsheet to track monthly/quarterly/annual tasks</li>
+</ul>
+<hr />
+<h1>Chapter 8: Tracking and Reporting</h1>
+<h2>Free Tools You Need</h2>
+<h3>Google Business Profile Insights</h3>
+<p>Built into your GBP dashboard at business.google.com. Shows:</p>
+<ul>
+<li>How customers find your listing (search queries)</li>
+<li>Where customers find you (Google Search vs. Maps)</li>
+<li>Customer actions (website visits, direction requests, phone calls)</li>
+<li>Photo views compared to competitors</li>
+<li>Review trends</li>
+</ul>
+<p><strong>Check weekly. Screenshot monthly for records.</strong></p>
+<h3>Google Search Console</h3>
+<p>Free at search.google.com/search-console. Shows:</p>
+<ul>
+<li>Which search queries your website appears for</li>
+<li>Click-through rates for each query</li>
+<li>Your average position for each query</li>
+<li>Which pages get the most organic traffic</li>
+<li>Indexing status and errors</li>
+<li>Core Web Vitals (page speed/experience)</li>
+</ul>
+<p><strong>Check monthly. Focus on local-intent queries and location page performance.</strong></p>
+<h3>Google Analytics 4 (GA4)</h3>
+<p>Free at analytics.google.com. Shows:</p>
+<ul>
+<li>Total website traffic and traffic sources</li>
+<li>Which pages users visit most</li>
+<li>User behavior (time on site, pages per session)</li>
+<li>Conversion tracking (form submissions, phone calls if configured)</li>
+<li>Geographic location of visitors</li>
+</ul>
+<p><strong>Check monthly. Set up conversion events for contact form submissions and click-to-call.</strong></p>
+<h2>What to Track Monthly</h2>
+<p>Create a simple monthly tracking spreadsheet with these metrics:</p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Where to Find It</th>
+<th>Target Direction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GBP views (Search)</td>
+<td>GBP Insights</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>GBP views (Maps)</td>
+<td>GBP Insights</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>GBP website clicks</td>
+<td>GBP Insights</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>GBP direction requests</td>
+<td>GBP Insights</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>GBP phone calls</td>
+<td>GBP Insights</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>Total Google reviews</td>
+<td>Google Maps</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>New reviews this month</td>
+<td>Manual count</td>
+<td>5+</td>
+</tr>
+<tr>
+<td>Average star rating</td>
+<td>Google Maps</td>
+<td>4.5+</td>
+</tr>
+<tr>
+<td>Website organic traffic</td>
+<td>GA4</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>Location page traffic</td>
+<td>GA4</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>Top search queries</td>
+<td>Search Console</td>
+<td>Monitor</td>
+</tr>
+<tr>
+<td>Contact form submissions</td>
+<td>GA4 / CRM</td>
+<td>↑</td>
+</tr>
+<tr>
+<td>Map Pack position (top 3 keywords)</td>
+<td>Manual search</td>
+<td>Top 3</td>
+</tr>
+</tbody>
+</table>
+<h2>Realistic Timelines</h2>
+<p>Local SEO is not overnight. Set expectations correctly:</p>
+<table>
+<thead>
+<tr>
+<th>Milestone</th>
+<th>Typical Timeline</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GBP fully optimized</td>
+<td>Week 1–2</td>
+</tr>
+<tr>
+<td>Top 20 citations submitted</td>
+<td>Week 2–4</td>
+</tr>
+<tr>
+<td>All 50 citations submitted</td>
+<td>Month 2–3</td>
+</tr>
+<tr>
+<td>First location pages indexed</td>
+<td>Month 1–2</td>
+</tr>
+<tr>
+<td>Review velocity established</td>
+<td>Month 2–3</td>
+</tr>
+<tr>
+<td>Noticeable improvement in GBP views</td>
+<td>Month 2–4</td>
+</tr>
+<tr>
+<td>Map Pack movement (up from page 2)</td>
+<td>Month 3–6</td>
+</tr>
+<tr>
+<td>Consistent Map Pack top 3</td>
+<td>Month 6–12</td>
+</tr>
+<tr>
+<td>Dominant local presence</td>
+<td>Month 12–18</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Factors that speed things up:</strong></p>
+<ul>
+<li>Low competition markets</li>
+<li>Existing website with some authority</li>
+<li>High review velocity (10+/month)</li>
+<li>Consistent content publishing</li>
+</ul>
+<p><strong>Factors that slow things down:</strong></p>
+<ul>
+<li>High competition markets (large metro, saturated practice areas)</li>
+<li>Brand new website with no authority</li>
+<li>NAP inconsistencies that take time to fix</li>
+<li>Infrequent content updates</li>
+</ul>
+<h2>Red Flags</h2>
+<p>Watch for these warning signs:</p>
+<p><strong>Sudden ranking drop:</strong></p>
+<ul>
+<li>Check for Google algorithm updates (search &quot;Google algorithm update [month] [year]&quot;)</li>
+<li>Check Google Search Console for manual actions</li>
+<li>Check if a competitor got a surge of reviews or new citations</li>
+<li>Check if your GBP was edited by Google or a user suggestion you didn't catch</li>
+</ul>
+<p><strong>GBP suspended:</strong></p>
+<ul>
+<li>Usually caused by: keyword stuffing in business name, using a virtual office address, or policy violations</li>
+<li>Follow Google's reinstatement process immediately</li>
+<li>Do not create a new listing — fix the existing one</li>
+</ul>
+<p><strong>Review rating dropping:</strong></p>
+<ul>
+<li>Investigate negative reviews for patterns (same complaint = real problem)</li>
+<li>Respond professionally to every negative review</li>
+<li>Increase positive review velocity to dilute the impact</li>
+<li>Never buy fake reviews — Google detects and penalizes this</li>
+</ul>
+<p><strong>Website traffic declining:</strong></p>
+<ul>
+<li>Check Search Console for indexing issues or crawl errors</li>
+<li>Check if your hosting is slow (Core Web Vitals)</li>
+<li>Check for broken pages or redirects</li>
+<li>Verify schema markup hasn't broken during a site update</li>
+</ul>
+<p><strong>Competitors suddenly dominating:</strong></p>
+<ul>
+<li>Audit their GBP: categories, reviews, posts, photos</li>
+<li>Check their citations and location pages</li>
+<li>They may have hired a local SEO agency — you need to match their effort</li>
+</ul>
+<hr />
+<p><strong>Chapter 8 Action Items:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Set up Google Search Console for your website (if not already)</li>
+<li><input type="checkbox" disabled="" /> Set up Google Analytics 4 (if not already)</li>
+<li><input type="checkbox" disabled="" /> Create your monthly tracking spreadsheet using the metrics table above</li>
+<li><input type="checkbox" disabled="" /> Record your baseline numbers this month — this is your starting point</li>
+<li><input type="checkbox" disabled="" /> Set a calendar reminder to update the spreadsheet on the 1st of each month</li>
+</ul>
+<hr />
+<h1>Appendix A: Complete Citation Source List</h1>
+<p>This is the full list from Chapter 3 with direct URLs for reference.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Source</th>
+<th>URL</th>
+<th>Tier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Google Business Profile</td>
+<td>business.google.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bing Places</td>
+<td>bingplaces.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Apple Business Connect</td>
+<td>businessconnect.apple.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Yelp</td>
+<td>biz.yelp.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Facebook</td>
+<td>business.facebook.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Avvo</td>
+<td>avvo.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>FindLaw</td>
+<td>lawyers.findlaw.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Justia</td>
+<td>justia.com/lawyers</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Martindale-Hubbell</td>
+<td>lawyers.com</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>BBB</td>
+<td>bbb.org</td>
+<td>1</td>
+</tr>
+<tr>
+<td>11</td>
+<td>LinkedIn</td>
+<td>linkedin.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Super Lawyers</td>
+<td>superlawyers.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Nolo</td>
+<td>nolo.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>14</td>
+<td>HG.org</td>
+<td>hg.org</td>
+<td>2</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Yellow Pages</td>
+<td>yellowpages.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>16</td>
+<td>MapQuest</td>
+<td>mapquest.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Foursquare</td>
+<td>foursquare.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Lawyers.com</td>
+<td>lawyers.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Thumbtack</td>
+<td>thumbtack.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Nextdoor</td>
+<td>business.nextdoor.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Chamber of Commerce</td>
+<td>chamberofcommerce.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Local Chamber</td>
+<td>(varies by city)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>23</td>
+<td>State Bar Directory</td>
+<td>(varies by state)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Whitepages</td>
+<td>whitepages.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Superpages</td>
+<td>superpages.com</td>
+<td>2</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Manta</td>
+<td>manta.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Hotfrog</td>
+<td>hotfrog.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Spoke</td>
+<td>spoke.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Law Guru</td>
+<td>lawguru.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>30</td>
+<td>LegalMatch</td>
+<td>legalmatch.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Best Lawyers</td>
+<td>bestlawyers.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Expertise</td>
+<td>expertise.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Clutch</td>
+<td>clutch.co</td>
+<td>3</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Birdeye</td>
+<td>birdeye.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Brownbook</td>
+<td>brownbook.net</td>
+<td>3</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Cylex</td>
+<td>cylex.us.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>37</td>
+<td>eLocal</td>
+<td>elocal.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>38</td>
+<td>411.com</td>
+<td>411.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>39</td>
+<td>USDirectory</td>
+<td>usdirectory.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Judy's Book</td>
+<td>judysbook.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>41</td>
+<td>ShowMeLocal</td>
+<td>showmelocal.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Tupalo</td>
+<td>tupalo.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>43</td>
+<td>n49</td>
+<td>n49.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>44</td>
+<td>FindLaw Directory</td>
+<td>lawyers.findlaw.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>45</td>
+<td>LawInfo</td>
+<td>lawinfo.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Rocket Lawyer</td>
+<td>rocketlawyer.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Local.com</td>
+<td>local.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>48</td>
+<td>DexKnows</td>
+<td>dexknows.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>49</td>
+<td>City-Data</td>
+<td>city-data.com</td>
+<td>3</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Merchant Circle</td>
+<td>merchantcircle.com</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Data Aggregators (submit to these to update hundreds of downstream citations):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aggregator</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data Axle</td>
+<td>dataaxle.com</td>
+</tr>
+<tr>
+<td>Neustar Localeze</td>
+<td>neustarlocaleze.biz</td>
+</tr>
+<tr>
+<td>Foursquare</td>
+<td>foursquare.com</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1>Appendix B: Location Page Template</h1>
+<p>Copy this template for each [practice area] + [city] page. Replace all bracketed items.</p>
+<hr />
+<p><strong>File name:</strong> <code>/[practice-area]-lawyer-[city]-[state]/</code></p>
+<p><strong>Title tag:</strong> <code>[Practice Area] Lawyer in [City], [State] | [Firm Name]</code></p>
+<p><strong>Meta description:</strong> <code>Need a [practice area] lawyer in [city]? [Firm Name] has [experience detail]. Free consultation. Call [phone].</code></p>
+<hr />
+<h2>[City] [Practice Area] Lawyer</h2>
+<p>[2–3 sentences introducing your firm's [practice area] practice in [city]. Address the reader directly. Include a call to action.]</p>
+<p><strong>Call [phone number] for a free [practice area] consultation.</strong></p>
+<hr />
+<h3>Why You Need a [Practice Area] Attorney in [City]</h3>
+<p>[150–200 words. Discuss local-specific factors: courts, common scenarios in this area, local regulations, or geographic considerations. Make this genuinely unique to this city.]</p>
+<hr />
+<h3>How We Help [City] Clients</h3>
+<p>[150–200 words. Your approach, experience, and differentiators for this practice area. Results you've achieved (general terms, no fabricated specifics).]</p>
+<hr />
+<h3>Common [Practice Area] Cases in [City]</h3>
+<p>[150–200 words. List specific case types relevant to this practice area. Reference local landmarks, roads, or areas naturally if applicable.]</p>
+<ul>
+<li>[Case type 1]</li>
+<li>[Case type 2]</li>
+<li>[Case type 3]</li>
+<li>[Case type 4]</li>
+<li>[Case type 5]</li>
+</ul>
+<hr />
+<h3>What Compensation Can You Recover?</h3>
+<p>[150–200 words. Types of damages available. State-specific information (statute of limitations, comparative fault rules). Dollar amounts only if referencing general ranges.]</p>
+<hr />
+<h3>Our Process: What to Expect</h3>
+<ol>
+<li><strong>Free consultation</strong> — [1 sentence]</li>
+<li><strong>Investigation</strong> — [1 sentence]</li>
+<li><strong>Demand and negotiation</strong> — [1 sentence]</li>
+<li><strong>Resolution</strong> — [1 sentence]</li>
+</ol>
+<hr />
+<h3>Serving [City] and Surrounding Areas</h3>
+<p>We represent [practice area] clients throughout [city] and the surrounding communities, including:</p>
+<ul>
+<li>[Nearby city/neighborhood 1]</li>
+<li>[Nearby city/neighborhood 2]</li>
+<li>[Nearby city/neighborhood 3]</li>
+<li>[Nearby city/neighborhood 4]</li>
+<li>[Nearby city/neighborhood 5]</li>
+</ul>
+<hr />
+<h3>Contact Our [City] [Practice Area] Lawyers</h3>
+<p>[Call to action. Phone number. Mention free consultation. Link to contact form.]</p>
+<hr />
+<h3>Frequently Asked Questions</h3>
+<p><strong>How much does a [practice area] lawyer in [city] cost?</strong>
+[50–100 word answer]</p>
+<p><strong>How long do I have to file a [practice area] claim in [state]?</strong>
+[50–100 word answer]</p>
+<p><strong>What should I do immediately after [relevant event]?</strong>
+[50–100 word answer]</p>
+<p><strong>Do I have to go to court?</strong>
+[50–100 word answer]</p>
+<hr />
+<p><strong>Target word count: 1,200–1,800 words</strong></p>
+<p><strong>Internal links to include:</strong></p>
+<ul>
+<li>Main [practice area] page</li>
+<li>Homepage</li>
+<li>Contact page</li>
+<li>Related location pages</li>
+<li>Attorney bio pages</li>
+</ul>
+<hr />
+<h1>Appendix C: Review Request Templates</h1>
+<h2>Initial Email</h2>
+<p><strong>Subject:</strong> Quick favor, [Client First Name]?</p>
+<pre><code>Hi [Client First Name],
+
+It was a pleasure working with you on your [case type] matter.
+If you had a positive experience with our firm, would you mind
+leaving us a brief Google review? It takes about 60 seconds
+and helps other people in similar situations find us.
+
+Here's the direct link:
+[Your Google Review Link]
+
+A sentence or two is plenty — no need to write an essay.
+
+Thank you,
+[Attorney Name]
+[Firm Name]
+[Phone Number]
+</code></pre>
+<h2>SMS Request</h2>
+<pre><code>Hi [First Name], this is [Attorney First Name] from [Firm Name].
+Thank you for trusting us with your [case type]. If you have a
+minute, a Google review would mean a lot: [Short Review Link]
+</code></pre>
+<h2>Follow-Up Email (5–7 days later)</h2>
+<p><strong>Subject:</strong> Following up — [Firm Name]</p>
+<pre><code>Hi [Client First Name],
+
+Just a quick follow-up on my earlier note. If you have 60 seconds,
+a Google review would be a huge help for our firm:
+
+[Your Google Review Link]
+
+No worries if you're too busy — we appreciate you either way.
+
+Best,
+[Attorney Name]
+</code></pre>
+<h2>Positive Review Response Templates</h2>
+<p><strong>Template 1:</strong></p>
+<pre><code>Thank you for the kind words, [Name]. It was a privilege to
+represent you, and we're glad we could help. We wish you all the best.
+</code></pre>
+<p><strong>Template 2:</strong></p>
+<pre><code>Thank you, [Name]. [Practice area] cases can be stressful, and
+we're happy we could achieve a positive outcome for you. Your
+recommendation means a lot to our team at [Firm Name].
+</code></pre>
+<p><strong>Template 3:</strong></p>
+<pre><code>[Name], thank you for your generous review. Serving clients in
+[city] and throughout [region] is what drives our team. We
+appreciate your trust in [Firm Name].
+</code></pre>
+<h2>Negative Review Response Templates</h2>
+<p><strong>Template 1:</strong></p>
+<pre><code>[Name], we're sorry to hear about your experience. Client
+satisfaction is important to us. Please contact our office at
+[phone] so we can discuss your concerns directly.
+</code></pre>
+<p><strong>Template 2:</strong></p>
+<pre><code>[Name], we take all feedback seriously. We'd like to address your
+concerns privately. Please call us at [phone] or email [email]
+so we can work toward a resolution.
+</code></pre>
+<hr />
+<h1>Appendix D: Schema Markup Snippets</h1>
+<h2>LegalService Schema (Homepage)</h2>
+<pre><code class="language-json">&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;LegalService&quot;,
+  &quot;name&quot;: &quot;YOUR FIRM NAME&quot;,
+  &quot;description&quot;: &quot;YOUR FIRM DESCRIPTION&quot;,
+  &quot;url&quot;: &quot;https://www.yourfirm.com&quot;,
+  &quot;telephone&quot;: &quot;+1-XXX-XXX-XXXX&quot;,
+  &quot;email&quot;: &quot;info@yourfirm.com&quot;,
+  &quot;address&quot;: {
+    &quot;@type&quot;: &quot;PostalAddress&quot;,
+    &quot;streetAddress&quot;: &quot;YOUR STREET ADDRESS&quot;,
+    &quot;addressLocality&quot;: &quot;YOUR CITY&quot;,
+    &quot;addressRegion&quot;: &quot;YOUR STATE&quot;,
+    &quot;postalCode&quot;: &quot;YOUR ZIP&quot;,
+    &quot;addressCountry&quot;: &quot;US&quot;
+  },
+  &quot;geo&quot;: {
+    &quot;@type&quot;: &quot;GeoCoordinates&quot;,
+    &quot;latitude&quot;: &quot;YOUR LATITUDE&quot;,
+    &quot;longitude&quot;: &quot;YOUR LONGITUDE&quot;
+  },
+  &quot;openingHoursSpecification&quot;: [
+    {
+      &quot;@type&quot;: &quot;OpeningHoursSpecification&quot;,
+      &quot;dayOfWeek&quot;: [&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;],
+      &quot;opens&quot;: &quot;08:30&quot;,
+      &quot;closes&quot;: &quot;17:30&quot;
+    }
+  ],
+  &quot;areaServed&quot;: [
+    {&quot;@type&quot;: &quot;City&quot;, &quot;name&quot;: &quot;CITY 1&quot;},
+    {&quot;@type&quot;: &quot;City&quot;, &quot;name&quot;: &quot;CITY 2&quot;},
+    {&quot;@type&quot;: &quot;City&quot;, &quot;name&quot;: &quot;CITY 3&quot;}
+  ],
+  &quot;priceRange&quot;: &quot;Free Consultation&quot;,
+  &quot;image&quot;: &quot;https://www.yourfirm.com/images/office.jpg&quot;,
+  &quot;logo&quot;: &quot;https://www.yourfirm.com/images/logo.png&quot;,
+  &quot;sameAs&quot;: [
+    &quot;https://www.facebook.com/yourfirm&quot;,
+    &quot;https://www.linkedin.com/company/yourfirm&quot;
+  ]
+}
+&lt;/script&gt;
+</code></pre>
+<h2>Attorney Schema (Bio Pages)</h2>
+<pre><code class="language-json">&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Attorney&quot;,
+  &quot;name&quot;: &quot;ATTORNEY FULL NAME&quot;,
+  &quot;jobTitle&quot;: &quot;TITLE (e.g., Managing Partner)&quot;,
+  &quot;description&quot;: &quot;BRIEF BIO&quot;,
+  &quot;url&quot;: &quot;https://www.yourfirm.com/attorneys/name&quot;,
+  &quot;image&quot;: &quot;https://www.yourfirm.com/images/headshot.jpg&quot;,
+  &quot;telephone&quot;: &quot;+1-XXX-XXX-XXXX&quot;,
+  &quot;worksFor&quot;: {
+    &quot;@type&quot;: &quot;LegalService&quot;,
+    &quot;name&quot;: &quot;YOUR FIRM NAME&quot;,
+    &quot;url&quot;: &quot;https://www.yourfirm.com&quot;
+  },
+  &quot;address&quot;: {
+    &quot;@type&quot;: &quot;PostalAddress&quot;,
+    &quot;streetAddress&quot;: &quot;YOUR STREET ADDRESS&quot;,
+    &quot;addressLocality&quot;: &quot;YOUR CITY&quot;,
+    &quot;addressRegion&quot;: &quot;YOUR STATE&quot;,
+    &quot;postalCode&quot;: &quot;YOUR ZIP&quot;,
+    &quot;addressCountry&quot;: &quot;US&quot;
+  },
+  &quot;alumniOf&quot;: {
+    &quot;@type&quot;: &quot;CollegeOrUniversity&quot;,
+    &quot;name&quot;: &quot;LAW SCHOOL NAME&quot;
+  },
+  &quot;knowsAbout&quot;: [&quot;PRACTICE AREA 1&quot;, &quot;PRACTICE AREA 2&quot;]
+}
+&lt;/script&gt;
+</code></pre>
+<h2>FAQPage Schema</h2>
+<pre><code class="language-json">&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;YOUR QUESTION 1?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;YOUR ANSWER 1.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;YOUR QUESTION 2?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;YOUR ANSWER 2.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;YOUR QUESTION 3?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;YOUR ANSWER 3.&quot;
+      }
+    }
+  ]
+}
+&lt;/script&gt;
+</code></pre>
+<hr />
+<h1>Appendix E: Maintenance Checklists</h1>
+<h2>Monthly Checklist (30 Minutes)</h2>
+<ul>
+<li><input type="checkbox" disabled="" /> Publish 4 GBP posts (1/week, batch-write at start of month)</li>
+<li><input type="checkbox" disabled="" /> Upload 2–3 new photos to GBP</li>
+<li><input type="checkbox" disabled="" /> Respond to all new reviews</li>
+<li><input type="checkbox" disabled="" /> Answer any new GBP Q&amp;A questions</li>
+<li><input type="checkbox" disabled="" /> Review GBP Insights — note trends</li>
+<li><input type="checkbox" disabled="" /> Send review requests to this month's resolved clients</li>
+<li><input type="checkbox" disabled="" /> Verify GBP listing hasn't been auto-edited</li>
+<li><input type="checkbox" disabled="" /> Check for new GBP features to enable</li>
+<li><input type="checkbox" disabled="" /> Update monthly tracking spreadsheet</li>
+</ul>
+<h2>Quarterly Checklist (2 Hours)</h2>
+<ul>
+<li><input type="checkbox" disabled="" /> Spot-check top 10 citations for NAP accuracy</li>
+<li><input type="checkbox" disabled="" /> Update GBP business description if needed</li>
+<li><input type="checkbox" disabled="" /> Review and update GBP services section</li>
+<li><input type="checkbox" disabled="" /> Check for new GBP categories</li>
+<li><input type="checkbox" disabled="" /> Review location page content for accuracy</li>
+<li><input type="checkbox" disabled="" /> Test schema markup on all key pages</li>
+<li><input type="checkbox" disabled="" /> Review Search Console for crawl errors</li>
+<li><input type="checkbox" disabled="" /> Audit top 3 competitor GBP listings</li>
+<li><input type="checkbox" disabled="" /> Update GBP attributes</li>
+<li><input type="checkbox" disabled="" /> Remove outdated or low-quality photos</li>
+</ul>
+<h2>Annual Checklist (Half Day)</h2>
+<ul>
+<li><input type="checkbox" disabled="" /> Full 50-source citation audit</li>
+<li><input type="checkbox" disabled="" /> Rewrite GBP business description</li>
+<li><input type="checkbox" disabled="" /> Audit all location pages — add new cities if needed</li>
+<li><input type="checkbox" disabled="" /> Year-over-year performance review</li>
+<li><input type="checkbox" disabled="" /> Update schema markup for new schema types</li>
+<li><input type="checkbox" disabled="" /> Complete photo refresh (new headshots, office photos)</li>
+<li><input type="checkbox" disabled="" /> Re-evaluate primary/secondary GBP categories</li>
+<li><input type="checkbox" disabled="" /> Update all email/SMS/response templates</li>
+<li><input type="checkbox" disabled="" /> Research algorithm changes from the past year</li>
+<li><input type="checkbox" disabled="" /> Set next year's local SEO goals</li>
+</ul>
+<hr />
+<h1>Appendix F: Glossary</h1>
+<p><strong>Citation:</strong> Any online mention of your business name, address, and phone number (NAP).</p>
+<p><strong>Doorway Page:</strong> A thin, low-quality page created primarily for search engines rather than users. Google penalizes these.</p>
+<p><strong>GBP (Google Business Profile):</strong> Google's free business listing platform, formerly known as Google My Business (GMB).</p>
+<p><strong>JSON-LD:</strong> JavaScript Object Notation for Linked Data — the format Google recommends for adding schema markup to web pages.</p>
+<p><strong>Local Pack / Map Pack / 3-Pack:</strong> The top three local business results shown with a map in Google search results for local-intent queries.</p>
+<p><strong>NAP:</strong> Name, Address, Phone number — the three core pieces of business information that must be consistent across all citations.</p>
+<p><strong>Organic Results:</strong> The traditional &quot;blue link&quot; search results that appear below the Map Pack.</p>
+<p><strong>Prominence:</strong> One of Google's three local ranking factors — how well-known and trusted your business is online.</p>
+<p><strong>Relevance:</strong> One of Google's three local ranking factors — how well your business profile matches the search query.</p>
+<p><strong>Review Gating:</strong> The prohibited practice of screening customer satisfaction before directing them to a review platform, filtering out unhappy customers.</p>
+<p><strong>Review Velocity:</strong> The rate at which new reviews are posted — measured in reviews per month.</p>
+<p><strong>Rich Snippet:</strong> Enhanced search results that display additional information (star ratings, FAQs, business hours) pulled from schema markup.</p>
+<p><strong>Schema Markup:</strong> Structured data code added to web pages that helps search engines understand the content. Uses vocabulary from schema.org.</p>
+<p><strong>Service Area:</strong> The geographic region your business serves, as defined in your Google Business Profile.</p>
+<p><strong>Structured Data:</strong> Information organized in a standardized format that search engines can easily parse. Schema markup is a type of structured data.</p>
+<hr />
+<h1>About Hughey LLC</h1>
+<p>Hughey LLC is a digital marketing consultancy specializing in local search performance for professional service firms. We build systems that generate inbound leads without paid advertising dependency.</p>
+<p>Our focus: law firms, medical practices, and professional service businesses that depend on local client acquisition.</p>
+<p>We don't do everything. We do local search, and we do it exceptionally well.</p>
+<hr />
+<h1>When to Hire Help vs. DIY</h1>
+<p><strong>DIY this playbook if:</strong></p>
+<ul>
+<li>You have a staff member who can dedicate 2–4 hours/week for the first month, then 30–60 minutes/month</li>
+<li>Your firm is in a small to mid-size market with moderate competition</li>
+<li>You're willing to follow the system exactly as written</li>
+<li>You have basic comfort with websites and online tools</li>
+</ul>
+<p><strong>Hire help if:</strong></p>
+<ul>
+<li>Nobody at your firm has the time or inclination to do this consistently</li>
+<li>You're in a highly competitive metro market and need to move fast</li>
+<li>You've tried DIY before and it stalled after month one</li>
+<li>You want someone accountable for results, not just activity</li>
+<li>Your website needs significant technical work (page speed, mobile optimization, CMS migration)</li>
+</ul>
+<p><strong>What to look for in a local SEO provider:</strong></p>
+<ul>
+<li>They specialize in local search (not general &quot;digital marketing&quot;)</li>
+<li>They can show you current client results in Map Pack rankings</li>
+<li>They explain what they're doing in plain English</li>
+<li>They don't promise &quot;guaranteed #1 rankings&quot; (nobody can guarantee this)</li>
+<li>They report monthly with the same metrics from Chapter 8</li>
+<li>They don't own your GBP or citations — you do</li>
+</ul>
+<p><strong>What to avoid:</strong></p>
+<ul>
+<li>Agencies that won't tell you what they're doing</li>
+<li>&quot;SEO&quot; companies that focus only on blog content and ignore GBP, citations, and reviews</li>
+<li>Anyone who offers to buy you reviews</li>
+<li>Contracts longer than 6 months with no performance benchmarks</li>
+<li>Providers who create listings under their own accounts instead of yours</li>
+</ul>
+<hr />
+<h1>Contact</h1>
+<p><strong>Hughey LLC</strong>
+<a href="mailto:joe@joehughey.com">joe@joehughey.com</a>
+joehughey.com</p>
+<hr />
+<p><em>© 2026 Hughey LLC. All rights reserved. This playbook is licensed for use by the purchasing organization only. Do not redistribute.</em></p>
+
+  </main>
+  <script>
+    // Auto-link plain heading IDs so Table of Contents anchors work even if
+    // the source markdown's anchor slugs differ from GitHub conventions.
+    (function () {
+      const hs = document.querySelectorAll('main h1, main h2, main h3, main h4');
+      hs.forEach((h) => {
+        if (h.id) return;
+        const slug = h.textContent
+          .toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .trim()
+          .replace(/\s+/g, '-');
+        h.id = slug;
+      });
+    })();
+  </script>
+</body>
+</html>

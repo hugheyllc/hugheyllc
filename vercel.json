@@ -754,6 +754,16 @@
       "permanent": true
     },
     {
+      "source": "/services/always-found-always-local",
+      "destination": "/resources/always-found-playbook/",
+      "permanent": true
+    },
+    {
+      "source": "/services/always-found-always-local/",
+      "destination": "/resources/always-found-playbook/",
+      "permanent": true
+    },
+    {
       "source": "/tampa-law-firm-marketing-consultant",
       "destination": "/location/",
       "permanent": true
