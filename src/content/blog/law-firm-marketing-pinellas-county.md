@@ -46,7 +46,7 @@ The [cost per retained client framework](https://hugheyllc.com/blog/cost-per-ret
 
 **Intake process audit.** This is where the real money is in Pinellas County. I consistently find that firms are losing 30-50% of qualified leads between first contact and consultation. That's not a marketing problem — it's an operations problem that no amount of ad spend will fix. Fixing intake is the highest-ROI move most Pinellas firms can make.
 
-**Strategic paid search.** Google Ads work in Pinellas County, but only if you're targeting the right keywords, using proper geo-targeting (county or city level, not Tampa DMA), and tracking through to retained clients. Running broad Tampa Bay campaigns and hoping Pinellas leads show up is a waste of money.
+**Strategic paid search.** [Google Ads work in Pinellas County](/blog/google-ads-law-firms/), but only if you're targeting the right keywords, using proper geo-targeting (county or city level, not Tampa DMA), and tracking through to retained clients. Running broad Tampa Bay campaigns and hoping Pinellas leads show up is a waste of money. Layering in [aggressive negative keyword management](https://support.google.com/google-ads/answer/2453972) cuts wasted spend significantly in this market.
 
 **[Local SEO fundamentals](https://hugheyllc.com/blog/local-seo-law-firms/).** Consistent NAP data, relevant citations, review management, and location-specific schema markup. These aren't exciting, but they're the foundation. Firms that skip them and jump straight to content marketing or paid ads are building on sand.
 
@@ -64,7 +64,7 @@ I work with mid-size firms across Pinellas County — typically those spending $
 
 **How many law firms are competing in Pinellas County?**
 
-Pinellas County has over 3,000 active Florida Bar members. In competitive practice areas like PI, the top 10-15 firms account for the majority of digital ad spend. But that concentration means there are significant gaps in other practice areas and geographic sub-markets within the county.
+Pinellas County has over 3,000 active [Florida Bar](https://www.floridabar.org) members. In competitive practice areas like PI, the top 10-15 firms account for the majority of digital ad spend. But that concentration means there are significant gaps in other practice areas and geographic sub-markets within the county.
 
 **Should I target "Pinellas County" or specific cities in my marketing?**
 

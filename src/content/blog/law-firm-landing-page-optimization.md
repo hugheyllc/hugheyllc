@@ -27,7 +27,7 @@ Your headline should echo the exact language of whatever brought the visitor the
 
 The biggest mistake on law firm landing pages is giving visitors too many options. Multiple navigation links, multiple CTAs, multiple phone numbers — every additional choice reduces the likelihood of any action being taken. This is [Hick's Law](https://en.wikipedia.org/wiki/Hick%27s_law) in practice: decision time increases with the number of choices.
 
-A high-converting landing page has one primary CTA visible without scrolling. For law firms, this is almost always a phone number (click-to-call on mobile) and/or a short contact form. Remove the navigation menu entirely — the only place for a visitor to go is toward your CTA.
+A high-converting landing page has one primary CTA visible without scrolling. For law firms, this is almost always a phone number (click-to-call on mobile) and/or a short contact form. Remove the navigation menu entirely — the only place for a visitor to go is toward your CTA. Pair this with [fast intake follow-up](/blog/law-firm-intake-speed/) and the conversion math compounds.
 
 ## Element 3: Social Proof Immediately Below the Fold
 
@@ -60,7 +60,7 @@ Run the page through [Google PageSpeed Insights](https://pagespeed.web.dev). For
 
 The best landing page is the one that performs best for your specific audience — and you can't know what that is without testing. At minimum, test your headline and your CTA button text. Use [Google Optimize](https://marketingplatform.google.com/about/optimize/) or a similar tool to run controlled tests and let data drive your decisions.
 
-Most law firms skip this step entirely, leaving conversion improvements on the table indefinitely. A 20% improvement in landing page conversion rate on a $3,000/month Google Ads budget is worth more than any additional ad spend.
+Most law firms skip this step entirely, leaving conversion improvements on the table indefinitely. A 20% improvement in landing page conversion rate on a $3,000/month [Google Ads budget](/blog/law-firm-marketing-budget/) is worth more than any additional ad spend.
 
 Building, optimizing, and connecting landing pages to intake workflows is a core part of our [law firm web development services](/services/). If your current landing pages aren't performing, the fix is usually faster than you'd expect.
 

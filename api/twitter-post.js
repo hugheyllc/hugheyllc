@@ -1,43 +1,53 @@
 // api/twitter-post.js — Post a tweet on behalf of hugheyllc
-// Called by Kenz (OpenClaw) to publish content to @HugheyLLC Twitter
+// Uses OAuth 1.0a (permanent — does not expire)
+
+import crypto from 'crypto';
+
+function oauthHeader(method, url, consumerKey, consumerSecret, accessToken, accessTokenSecret) {
+  const nonce = crypto.randomBytes(16).toString('hex');
+  const timestamp = Math.floor(Date.now() / 1000).toString();
+  const params = {
+    oauth_consumer_key: consumerKey,
+    oauth_nonce: nonce,
+    oauth_signature_method: 'HMAC-SHA1',
+    oauth_timestamp: timestamp,
+    oauth_token: accessToken,
+    oauth_version: '1.0',
+  };
+  const baseStr = [
+    method.toUpperCase(),
+    encodeURIComponent(url),
+    encodeURIComponent(Object.keys(params).sort().map(k => `${encodeURIComponent(k)}=${encodeURIComponent(params[k])}`).join('&')),
+  ].join('&');
+  const signingKey = `${encodeURIComponent(consumerSecret)}&${encodeURIComponent(accessTokenSecret)}`;
+  const signature = crypto.createHmac('sha1', signingKey).update(baseStr).digest('base64');
+  params.oauth_signature = signature;
+  return 'OAuth ' + Object.keys(params).sort().map(k => `${encodeURIComponent(k)}="${encodeURIComponent(params[k])}"`).join(', ');
+}
 
 export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  // Simple shared secret to prevent unauthorized posts
   const authHeader = req.headers['x-api-key'];
-  if (authHeader !== process.env.KENZ_API_KEY) {
-    return res.status(401).json({ error: 'Unauthorized' });
-  }
+  if (authHeader !== process.env.KENZ_API_KEY) return res.status(401).json({ error: 'Unauthorized' });
 
   const { text } = req.body;
-  if (!text || text.length > 280) {
-    return res.status(400).json({ error: 'Invalid tweet text (must be 1–280 chars)' });
-  }
+  if (!text || text.length > 280) return res.status(400).json({ error: 'Invalid tweet text' });
+
+  const { TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN_V1, TWITTER_ACCESS_TOKEN_SECRET } = process.env;
 
   try {
-    // Use OAuth 2.0 Access Token (user context) to post
-    const response = await fetch('https://api.twitter.com/2/tweets', {
+    const url = 'https://api.twitter.com/2/tweets';
+    const auth = oauthHeader('POST', url, TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN_V1, TWITTER_ACCESS_TOKEN_SECRET);
+    const response = await fetch(url, {
       method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${process.env.TWITTER_ACCESS_TOKEN}`,
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Authorization': auth, 'Content-Type': 'application/json' },
       body: JSON.stringify({ text }),
     });
-
     const data = await response.json();
-
-    if (!response.ok) {
-      console.error('Twitter API error:', data);
-      return res.status(response.status).json({ error: data });
-    }
-
+    if (!response.ok) return res.status(response.status).json({ error: data });
     return res.status(200).json({ success: true, tweet_id: data.data?.id });
   } catch (err) {
-    console.error('Tweet post failed:', err);
     return res.status(500).json({ error: 'Internal server error' });
   }
 }

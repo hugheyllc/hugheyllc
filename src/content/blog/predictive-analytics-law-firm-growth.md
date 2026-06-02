@@ -31,7 +31,7 @@ According to the 2025 HubSpot Marketing Trends report, **91% of businesses use v
 
 Video marketing in the U.S. is governed by state bar rules.
 
-The ABA Model Rule 7.1 states that a lawyer’s communications must not be false or misleading. States like Florida expand this to video, print, and digital content.
+The [ABA Model Rule 7.1](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_1_communications_concerning_a_lawyer_s_services/) states that a lawyer’s communications must not be false or misleading. States like [Florida](https://www.floridabar.org) expand this to video, print, and digital content — see our overview of [Florida Bar law firm advertising rules](/blog/florida-bar-law-firm-advertising-rules/).
 
 ### Common compliance principles:
 
@@ -85,7 +85,7 @@ Production can stay simple — good lighting, clear audio, clean background. AI 
 
 ## SEO and AI Overview (AEO) Benefits of Video
 
-Search engines prioritize video content. Adding videos increases time on page, boosts rankings, and supports AI Overview visibility.
+Search engines prioritize video content. Adding videos increases time on page, boosts rankings, and supports AI Overview visibility — a topic we cover in [AI search and law firms](/blog/ai-search-law-firms/).
 
 To improve SEO:
 
@@ -94,7 +94,7 @@ Add transcripts and captions.
 </li><li>
 Use keyword-rich titles.
 </li><li>
-Add VideoObject schema markup.
+Add [VideoObject schema markup](https://schema.org/VideoObject) — see our [law firm schema markup guide](/blog/law-firm-schema-markup/).
 </li><li>
 Host videos on YouTube and embed them on your site.
 </li>
@@ -115,7 +115,7 @@ Consults to retained clients
 Average cost per consult (especially from paid video campaigns)
 </li>
 
-When video metrics connect to real client outcomes, marketing becomes truly measurable.
+When video metrics connect to real client outcomes, marketing becomes truly measurable — the same principle that drives our [data analysis work for law firms](/services/data-analysis-for-law-firms/).
 
 
 ## FAQs

@@ -23,7 +23,7 @@ But there are two things a campaign-focused agency typically doesn't build:
 
 - **The technical foundation campaigns run on** — site architecture, Core Web Vitals performance, structured data, conversion tracking, intake CRM integration
 
-- **The attribution infrastructure that connects campaigns to revenue** — the connected stack of [CallRail](/blog/), [GA4](/blog/), [Lawmatics](/blog/), and Google Ads that tells you which campaigns are actually signing cases
+- **The attribution infrastructure that connects campaigns to revenue** — the connected stack of [CallRail](/blog/callrail-law-firm-setup-guide/), [GA4](/blog/ga4-setup-law-firm-guide/), [Lawmatics](/blog/lawmatics-vs-clio-grow/), and Google Ads that tells you which campaigns are actually signing cases
 
 Without the first, campaign results are capped by technical limitations they didn't create and can't fix. Without the second, there's no way to know whether the campaigns are actually working. See our complete breakdown: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
 
@@ -43,7 +43,7 @@ A technical partner approaches law firm marketing from the infrastructure up:
 
 - **Build the attribution stack** — connect CallRail → GA4 → Lawmatics → Google Ads so every lead is attributed to its originating channel
 
-- **Optimize the website** for both search performance and conversion — [ranking and converting are the same goal](/blog/)
+- **Optimize the website** for both search performance and conversion — [ranking and converting are the same goal](/services/strategic-marketing-for-law-firms/)
 
 - **Connect intake to revenue** — so the firm can calculate true cost-per-retained-client by channel
 
@@ -95,14 +95,14 @@ If you're reading this and thinking about your own firm, here's how to evaluate 
 
 **Are all your marketing tools connected?** Not just subscribed to, but actually integrated. If your CRM doesn't know which leads came from which ads, or if your analytics doesn't track which leads became clients, you're operating with incomplete information.
 
-These questions don't require hiring someone to answer. But they should change how you think about your next marketing hire.
+These questions don't require hiring someone to answer — our [marketing audit checklist](/resources/marketing-audit-checklist/) walks through each one. But they should change how you think about your next marketing hire, whether you're evaluating an in-house team or [agency oversight](/services/agency-management-for-law-firms/).
 
 <hr />
 <div>
 
 **Not sure which you need — an agency or a technical partner?** We'll audit your current setup and tell you exactly where the gaps are.
 
-[Get a Free Marketing Infrastructure Audit →](/blog/)
+[Get a Free Marketing Infrastructure Audit →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

@@ -41,19 +41,17 @@ Intake should use practice-specific forms, smart routing, and tailored confirmat
 
 - **Personalized Email and SMS Sequences**
 
-Use separate nurture flows for different audiences.
-
-Updated email personalization reference: [The Power of Email Personalization to Reach Humans (Not Just Inboxes)](/blog/)
+Use separate nurture flows for different audiences. Connecting these sequences to your [CRM automation](/blog/law-firm-crm-automation/) ensures every prospect receives the right message based on their stage.
 
 - **Visitor Behavior Tracking**
 
-Tools like GA4, Hotjar, and Clarity help improve the client journey.
+Tools like [GA4](/blog/ga4-setup-law-firm-guide/), Hotjar, and Clarity help improve the client journey.
 
 ## Elevating Client Experience Across the Firm
 
 - **Speed and Responsiveness**
 
-Instant responses and fast follow-ups increase conversions.
+Instant responses and fast follow-ups increase conversions — see our deeper analysis of [speed-to-contact as a growth driver](/blog/law-firm-intake-speed/).
 
 - **Improved Communication and Transparency**
 
@@ -71,7 +69,7 @@ Use welcome emails, next-steps guides, and attorney introduction videos.
 
 **CRM Automations**
 
-Platforms like Lawmatics, HubSpot, and Clio Grow allow segment-based messaging, lead scoring, and workflows.
+Platforms like [Lawmatics](https://www.lawmatics.com), [HubSpot](https://hubspot.com), and [Clio Grow](https://www.clio.com/grow/) allow segment-based messaging, lead scoring, and workflows.
 
 **Chatbots and AI Assistants**
 
@@ -81,7 +79,7 @@ AI tools personalize intake and guide users through questions.
 
 Use quizzes, assessments, tools, and checklists.
 
-**Updated interactive content reference: **[Brafton Interactive Content Marketring](/blog/)
+Interactive content — assessments, calculators, and quizzes — pairs naturally with a [strong content marketing strategy](/blog/law-firm-content-marketing-strategy/) for legal audiences.
 
 ## Measuring the Impact of Personalized Client Experience
 
@@ -130,7 +128,7 @@ Yes. Clients are more likely to return, refer others, and leave positive reviews
 
 ## Ready to build a personalized client journey that wins more cases?
 
-[Book a discovery call](/blog/)
+[Book a discovery call](/contact/)
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 

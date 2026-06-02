@@ -17,7 +17,7 @@ For law firms serving Clearwater and North Pinellas, this creates a real opportu
 
 ## The Clearwater Search Landscape
 
-Clearwater legal searches follow the same patterns as other Florida markets but at lower competition levels. For most Clearwater attorney keyword clusters, the local pack is occupied by 1–2 well-optimized profiles and 1–2 moderately optimized profiles — a much lower bar than Tampa equivalents. A firm with a fully optimized [Google Business Profile](/blog/), consistent local citations, and 30+ recent reviews can realistically hold a top-3 local pack position for most Clearwater attorney searches with 3–6 months of systematic effort.
+Clearwater legal searches follow the same patterns as other Florida markets but at lower competition levels. For most Clearwater attorney keyword clusters, the local pack is occupied by 1–2 well-optimized profiles and 1–2 moderately optimized profiles — a much lower bar than Tampa equivalents. A firm with a fully optimized [Google Business Profile](/blog/law-firm-google-business-profile/), consistent local citations, and 30+ recent reviews can realistically hold a top-3 local pack position for most Clearwater attorney searches with 3–6 months of systematic effort.
 
 This is not theoretical. I've worked with 8–12 attorney practices in the Clearwater area over the past three years, and the pattern holds: firms that commit to dedicated local SEO typically see ranking movement within 90 days and market visibility dominance within 6 months. That timeline compresses significantly in Tampa proper, where you're competing against 40+ optimized firm profiles for the same search intent.
 
@@ -39,9 +39,9 @@ Also consider **GBP post frequency and specificity**. Firms posting once or twic
 
 ## Citation Building for the Clearwater Market
 
-In addition to standard legal directory citations ([Avvo](/blog/), [Martindale](/blog/), [Justia](/blog/)), Clearwater-specific citation sources carry high geographic authority:
+In addition to standard legal directory citations ([Avvo](https://www.avvo.com), [Martindale](https://www.martindale.com), [Justia](https://www.justia.com)), Clearwater-specific citation sources carry high geographic authority:
 
-- [Clearwater Regional Chamber of Commerce](/blog/) member directory
+- [Clearwater Regional Chamber of Commerce](https://www.clearwaterflorida.org) member directory
 
 - Pinellas County Bar Association member listing
 
@@ -57,7 +57,7 @@ Also worth noting: **NAP consistency** (Name, Address, Phone) is more important 
 
 ## Content Strategy for Clearwater Visibility
 
-A dedicated Clearwater location page is the foundation of organic local visibility. This page should not be a thin, templated version of your Tampa page — it should include Clearwater-specific practice area content referencing Pinellas County Circuit Court and local procedures, attorney information specific to Clearwater practice, client testimonials from Clearwater area clients where ethics rules permit, a local map embed with your Clearwater address or service area, and Clearwater-specific schema markup with local address and geographic coordinates. The location pages that earn rankings are the ones offering genuine, substantive local relevance. Full framework: [local SEO for law firms](/blog/).
+A dedicated Clearwater location page is the foundation of organic local visibility. This page should not be a thin, templated version of your Tampa page — it should include Clearwater-specific practice area content referencing Pinellas County Circuit Court and local procedures, attorney information specific to Clearwater practice, client testimonials from Clearwater area clients where ethics rules permit, a local map embed with your Clearwater address or service area, and Clearwater-specific schema markup ([local business structured data](https://developers.google.com/search/docs/appearance/structured-data/local-business)) with local address and geographic coordinates. The location pages that earn rankings are the ones offering genuine, substantive local relevance. Full framework: [local SEO for law firms](/blog/local-seo-law-firms/).
 
 Beyond the main location page, **supporting content clusters specific to North Pinellas legal issues** amplify your authority. If you practice family law, a page on "Pinellas County Child Support Guidelines and Modifications" or "Clearwater Divorce: What to Expect in Pinellas County Circuit Court" signals local expertise. If you handle personal injury cases, a page on common Clearwater intersection accident patterns (Beach Street and Causeway Boulevard, for example) or local medical malpractice provider networks establishes credibility that a generic personal injury page cannot.
 
@@ -65,7 +65,7 @@ I recommend **three supporting content pieces per practice area** for Clearwater
 
 ## The Clearwater Opportunity
 
-For firms serving the entire Tampa Bay area, Clearwater SEO investment is additive — extending your geographic ranking footprint without cannibalizing Tampa or St. Pete presence. The ideal architecture: Tampa hub page, St. Petersburg page, and a Clearwater/North Pinellas page, each with substantive local content, all linked from your homepage's service area section. This geographic topical authority architecture is the approach in our [Tampa Bay competitive landscape guide](/blog/) and [St. Petersburg SEO guide](/blog/).
+For firms serving the entire Tampa Bay area, Clearwater SEO investment is additive — extending your geographic ranking footprint without cannibalizing Tampa or St. Pete presence. The ideal architecture: Tampa hub page, St. Petersburg page, and a Clearwater/North Pinellas page, each with substantive local content, all linked from your homepage's service area section. This geographic topical authority architecture is the approach in our [Tampa Bay competitive landscape guide](/blog/tampa-law-firm-marketing-landscape/) and [St. Petersburg SEO guide](/blog/st-petersburg-law-firm-seo/).
 
 ## Common Mistakes in Clearwater Law Firm Marketing
 
@@ -93,7 +93,7 @@ Budget-wise, a small Clearwater firm (solo or 3–4 attorneys) should allocate *
 
 **Serving clients in Clearwater or North Pinellas?** We'll build the local SEO infrastructure to establish your firm as the dominant digital presence in that market.
 
-[Build My Clearwater Market Presence →](/blog/)
+[Build My Clearwater Market Presence →](/contact/)
 
 </div>
 

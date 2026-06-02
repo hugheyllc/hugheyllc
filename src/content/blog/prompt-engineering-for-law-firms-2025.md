@@ -15,7 +15,7 @@ A Strategic Framework for Law Firm Leaders Adopting AI
 
 Artificial intelligence has moved far beyond novelty status in the legal profession. By 2025, LLM-powered tools are no longer experimental add-ons to legal workflows; they are rapidly becoming core infrastructure. Firms that adopt AI without a disciplined framework often receive inconsistent or unreliable results. Firms that approach AI with structure, governance, and training, in particular training around prompt engineering, realize exponential gains in accuracy, efficiency, and competitive differentiation.
 
-Drawing on the principles outlined in Dr. Mitchell Adams' Legal Prompt Engineering guide, this article offers a high level, practice ready exploration of what prompt engineering truly means for modern legal practice, why it matters, and how law firms can build internal systems around it.
+Drawing on the principles outlined in Dr. Mitchell Adams' Legal Prompt Engineering guide — alongside foundational research from [OpenAI](https://openai.com) and [Anthropic](https://www.anthropic.com) — this article offers a high level, practice ready exploration of what prompt engineering truly means for modern legal practice, why it matters, and how law firms can build internal systems around it.
 
 ## Why AI Has Become Foundational to Legal Workflows
 
@@ -85,15 +85,15 @@ To elevate prompt engineering into a repeatable legal skill, attorneys should re
 
 ## Legal Specific AI Tools and Why They Matter
 
-General purpose LLMs are powerful but lack grounding in verified legal sources. This is why legal specific systems are proliferating.
+General purpose LLMs are powerful but lack grounding in verified legal sources. This is why legal specific systems are proliferating — and why AI is reshaping how clients find counsel, as we cover in [AI search and law firms](/blog/ai-search-law-firms/).
 
 ## Ethical Considerations: AI Must Strengthen, Not Replace, Legal Judgment
 
-Attorneys adopting AI must remain vigilant about competence, confidentiality, accuracy, and oversight.
+Attorneys adopting AI must remain vigilant about competence, confidentiality, accuracy, and oversight. The [American Bar Association](https://www.americanbar.org) has issued guidance on the use of generative AI that every firm should review.
 
 ## Where Prompt Engineering Delivers Immediate, Measurable ROI
 
-The law firm functions most improved by LLMs are those that involve high volume text analysis or first pass drafting.
+The law firm functions most improved by LLMs are those that involve high volume text analysis or first pass drafting — including drafting briefs, blog posts, and other [content marketing assets](/blog/law-firm-content-marketing-strategy/).
 
 ## AI Agents: The Future of Multistep Legal Automation
 

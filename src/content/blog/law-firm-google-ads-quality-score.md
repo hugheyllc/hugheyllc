@@ -17,7 +17,7 @@ I've watched law firms burn through $3,000–$5,000 monthly on ads that never co
 
 ## What Quality Score Actually Measures
 
-Google ranks ads on a 1–10 scale based on three components: expected clickthrough rate (CTR), ad relevance, and landing page experience. These aren't subjective. Google has indexed billions of pages and knows what works.
+Google ranks ads on a 1–10 scale based on three components: expected clickthrough rate (CTR), ad relevance, and landing page experience. These aren't subjective — Google publishes the full breakdown in its [Quality Score documentation](https://support.google.com/google-ads/answer/6167118).
 
 When I audit a firm's account, I pull the Quality Score breakdown from the Keywords tab in Google Ads. I'm looking for patterns—usually I find one of three problems:
 
@@ -47,7 +47,7 @@ Here's what to look for:
 
 **Keywords with Quality Score below 5:** These are costing you money. Don't cut them immediately—diagnose first. Click the small speech bubble next to the quality score. Google tells you which component is failing.
 
-**Wide keyword match with low scores:** Broad and phrase match keywords cast a wide net and often have terrible relevance. "Personal injury" triggers ads for workers' comp, slip-and-fall, auto accidents—all different intent levels. Narrow your keyword structure instead.
+**Wide keyword match with low scores:** Broad and phrase match keywords cast a wide net and often have terrible relevance. "Personal injury" triggers ads for workers' comp, slip-and-fall, auto accidents—all different intent levels. Narrow your keyword structure instead, and aggressively add [negative keywords](/blog/law-firm-negative-keywords/) — Google's [negative keyword guide](https://support.google.com/google-ads/answer/2453972) walks through the implementation.
 
 **Seasonal keyword spikes:** Personal injury searches spike after holidays. Family law spikes after the new year. If your landing pages and ad copy don't match the seasonal intent, your Quality Score tanks during those windows.
 
@@ -85,7 +85,7 @@ Quality Score jumped from 4 to 7 on that keyword group. Same firm, same budget, 
 
 This is where most firms fail. Your ad lands on your homepage or a generic "practice areas" page. Bad move.
 
-Create **dedicated landing pages for each major keyword cluster.** A "DUI defense" ad should land on your DUI defense page, not your homepage. The page should:
+Create **dedicated landing pages for each major keyword cluster** — see our deeper [landing page optimization guide](/blog/law-firm-landing-page-optimization/). A "DUI defense" ad should land on your DUI defense page, not your homepage. The page should:
 
 - Start with a heading that mirrors the ad headline
 - Load in under 2 seconds (test on mobile—that's where the lag lives)
@@ -103,7 +103,7 @@ I audited a North Carolina personal injury firm with a 3.2 Quality Score on thei
 
 Quality Score doesn't move overnight. But it moves faster than most firms expect once you stop guessing and start aligning: keyword → ad → landing page.
 
-I've seen firms move from 5.2 to 7.8 in 90 days. It requires system, not genius. If you're sitting on a 4.5 average, that's $10,000+ annually leaving the table. Fix it now.
+I've seen firms move from 5.2 to 7.8 in 90 days. It requires system, not genius. If you're sitting on a 4.5 average, that's $10,000+ annually leaving the table. Fix it now — or [book a strategy call](/contact/) and we can pressure-test your account together. For broader PPC mapping, see [from PPC to profit](/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/).
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 

@@ -21,7 +21,7 @@ Let me be clear about what I mean. **Predictive analytics is using your historic
 
 In legal marketing, this translates to three core uses: understanding what will happen, when it will happen, and how much it will cost or generate.
 
-A 40-attorney PI firm I consulted with had five years of lead data. They knew they got about 2,000 leads per month from Google Ads and their website, but they had no idea which leads were worth pursuing. Using predictive analytics, we built a model that scored each incoming lead based on 12 variables: source, keyword, time of day submitted, phone vs. form, practice area, and five others. Within 60 days, they could identify the top 20% of leads that converted to retained cases at 3.5x the rate of average leads. That changed how they staffed intake, how they budgeted ad spend, and where they focused PPC keywords.
+A 40-attorney PI firm I consulted with had five years of lead data. They knew they got about 2,000 leads per month from Google Ads and their website, but they had no idea which leads were worth pursuing. Using predictive analytics, we built a model that scored each incoming lead based on 12 variables: source, keyword, time of day submitted, phone vs. form, practice area, and five others. Within 60 days, they could identify the top 20% of leads that converted to retained cases at 3.5x the rate of average leads. That changed how they staffed [intake](/services/intake-process-optimization/), how they budgeted ad spend, and where they focused PPC keywords.
 
 That's not complicated. It's just **decision-making based on patterns instead of assumptions.**
 
@@ -31,7 +31,7 @@ Here's what keeps most managing partners awake: they're spending money on leads 
 
 A solo bankruptcy attorney in Tampa I worked with was spending $4,500 a month on Google Ads and getting about 80 leads. She assumed that was her market and accepted a 5% conversion rate (four clients per month). We pulled her data back 18 months and analyzed which leads actually became paying clients. The pattern was obvious: leads from branded keyword searches converted at 28%. Leads from broad match general terms converted at 1.2%. She was wasting roughly $3,600 every month on bad traffic.
 
-**Predictive modeling lets you forecast which channels and campaigns will produce high-quality leads before you spend the next dollar.** Instead of running a campaign for 30 days and hoping, you run it for 7 days, let the model score incoming leads, and then extrapolate. A 12-attorney family law firm I work with now does this quarterly. They test $2,000 in new SEO content or paid search, monitor lead quality, and the model predicts whether that spend at scale will hit their 25% conversion target. It has cut their wasted ad spend by roughly 40%.
+**Predictive modeling lets you forecast which channels and campaigns will produce high-quality leads before you spend the next dollar.** Instead of running a campaign for 30 days and hoping, you run it for 7 days, let the model score incoming leads, and then extrapolate. A 12-attorney family law firm I work with now does this quarterly. They test $2,000 in new SEO content or paid search, monitor lead quality, and the model predicts whether that spend at scale will hit their 25% conversion target. It has cut their wasted ad spend by roughly 40%. (This is exactly the work I do under [data analysis for law firms](/services/data-analysis-for-law-firms/).)
 
 ## Forecasting Intake and Staffing Before Bottlenecks Happen
 
@@ -41,7 +41,7 @@ One of the most expensive mistakes law firms make is hiring too late or too earl
 
 Here's how it works: you feed the model your historical intake data by practice area, by source, by time of year. If you're a personal injury firm, you know intake usually spikes after advertising during football season. A criminal defense firm knows arraignment volume spikes in January and February. The model predicts not just volume but volatility—how many days will you get 15+ calls versus 5.
 
-A 28-attorney firm in Georgia had chronic staffing problems. They'd hire reactively, two weeks after intake was already overwhelmed. Their lead response time had ballooned to 14 hours on average, and clients were calling competitors. Using their 36 months of intake data, we built a prediction model that forecast intake with about 85% accuracy three months out. They hired two paralegals in October (before their Q4 intake surge), kept utilization at 78%, and cut their average lead response time to 3.2 hours. That change alone bumped their case acceptance rate from 31% to 39%.
+A 28-attorney firm in Georgia had chronic staffing problems. They'd hire reactively, two weeks after intake was already overwhelmed. Their lead response time had ballooned to 14 hours on average, and clients were calling competitors. (See [law firm intake speed](/blog/law-firm-intake-speed/) for how dramatically that single variable drives conversion.) Using their 36 months of intake data, we built a prediction model that forecast intake with about 85% accuracy three months out. They hired two paralegals in October (before their Q4 intake surge), kept utilization at 78%, and cut their average lead response time to 3.2 hours. That change alone bumped their case acceptance rate from 31% to 39%.
 
 ## Predicting Case Value and Revenue 90 Days Out
 

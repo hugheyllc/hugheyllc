@@ -19,13 +19,13 @@ Tampa Bay's PI legal market is dominated at the top by large high-volume firms �
 
 ## Google Ads: The Mandatory Channel for PI
 
-PI search keywords are among the most expensive in [Google Ads](/blog/) — $50–$200 per click in Tampa for competitive terms. Common mistakes that burn PI firm ad budgets:
+PI search keywords are among the most expensive in [Google Ads](/blog/google-ads-law-firms/) — $50–$200 per click in Tampa for competitive terms. Common mistakes that burn PI firm ad budgets:
 
 - Bidding broad match on "personal injury attorney" — triggering ads for people searching attorney salary, law school admission, and non-client queries
 
-- Sending all ad traffic to the homepage — a dedicated [landing page](/blog/) per injury type consistently outperforms the homepage by 3–5× in conversion rate
+- Sending all ad traffic to the homepage — a dedicated [landing page](/blog/law-firm-landing-page-optimization/) per injury type consistently outperforms the homepage by 3–5× in conversion rate
 
-- No conversion tracking connected to intake data — without this, Google Ads optimizes toward clicks rather than qualified leads. Full framework: [Google Ads for Law Firms](/blog/)
+- No conversion tracking connected to intake data — without this, Google Ads optimizes toward clicks rather than qualified leads. Mining your [search terms report](https://support.google.com/google-ads/answer/2472708) regularly is the simplest place to start.
 
 The firms I work with that get predictable PI case flow operate with **injury-specific ad groups and landing pages**. A car accident landing page has different proof points, different client testimonials, and different value propositions than a slip-and-fall landing page. Google's algorithm learns this specificity and allocates budget toward the highest-converting injury types.
 
@@ -37,13 +37,13 @@ Unlike Google Ads where visibility stops when spending stops, organic SEO builds
 
 - **Practice area page for each injury type** — car accidents, motorcycle accidents, slip and fall, trucking accidents, wrongful death — each targeting its specific transactional keyword cluster
 
-- **Local SEO and Google Local Pack** — full optimization framework: [Local SEO for Law Firms](/blog/) and [Google Business Profile Guide](/blog/)
+- **Local SEO and Google Local Pack** — full optimization framework: [Local SEO for Law Firms](/blog/local-seo-law-firms/) and [Google Business Profile Guide](/blog/law-firm-google-business-profile/)
 
-- **Informational content targeting post-accident research** — "what to do after a car accident in Tampa," "Florida no-fault insurance explained." See our [keyword research guide](/blog/) for the intent-mapping process.
+- **Informational content targeting post-accident research** — "what to do after a car accident in Tampa," "Florida no-fault insurance explained." Pair this with a clear [content marketing strategy](/blog/content-marketing-for-law-firms/) for the intent-mapping process.
 
 ## Florida-Specific SEO Considerations
 
-Florida's no-fault insurance system, modified comparative negligence law (2023), and reduced statute of limitations (2 years as of 2023) create content opportunities specific to Florida PI practice. Content that accurately explains Florida's specific PI legal environment — authored by credentialed Florida PI attorneys — earns the [E-E-A-T signals](https://hugheyllc.com/blog/eeat-law-firm-seo/) that matter most. See our [Florida Bar advertising rules guide](/blog/) for the specific parameters on results presentation.
+Florida's no-fault insurance system, modified comparative negligence law (2023), and reduced statute of limitations (2 years as of 2023) create content opportunities specific to Florida PI practice. Content that accurately explains Florida's specific PI legal environment — authored by credentialed Florida PI attorneys — earns the [E-E-A-T signals](https://hugheyllc.com/blog/eeat-law-firm-seo/) that matter most. See our [Florida Bar advertising rules guide](/blog/florida-bar-law-firm-advertising-rules/) for the specific parameters on results presentation.
 
 ## PI Firm Websites: Beyond the Practice Area Page
 
@@ -67,7 +67,7 @@ The core attribution infrastructure:
 
 - **CallRail or similar** tracking every phone number on your site with call recording and lead scoring
 - **Form submissions with immediate follow-up** (ideally within 5 minutes) that tag the intake source
-- **CRM that connects all of this** — not just Salesforce, but systems purpose-built for law firms ([Lawmatics](/blog/), [Clio Grow](/blog/)) that track status from inquiry through signed retainer agreement
+- **CRM that connects all of this** — not just Salesforce, but systems purpose-built for law firms ([Lawmatics](https://www.lawmatics.com), [Clio Grow](https://www.clio.com/grow/)) that track status from inquiry through signed retainer agreement
 - **Monthly reporting** that connects marketing spend to signed cases, not just inquiries
 
 I've seen PI firms discover they're spending 60% of their budget on a channel that produces 15% of their signed cases. That data is gold. Once you see it, you make different decisions.
@@ -88,9 +88,9 @@ Beyond the Google Ads and website basics, here are specific patterns I see in un
 
 ## Intake Automation: Where PI Firms Lose Cases They Already Won
 
-PI prospects are often in an emotionally heightened state and evaluating multiple firms simultaneously. Speed of response is the critical variable. The intake infrastructure for a competitive PI firm: [CallRail](/blog/) on all pages, SMS-based immediate response to form submissions within 5 minutes, automated intake questionnaire for case qualification, and CRM pipeline in [Lawmatics](/blog/) or [Clio Grow](/blog/) tracking every inquiry through to signed contingency agreement.
+PI prospects are often in an emotionally heightened state and evaluating multiple firms simultaneously. Speed of response is the critical variable. The intake infrastructure for a competitive PI firm: [CallRail](https://www.callrail.com) on all pages, SMS-based immediate response to form submissions within 5 minutes, automated intake questionnaire for case qualification, and CRM pipeline in [Lawmatics](https://www.lawmatics.com) or [Clio Grow](https://www.clio.com/grow/) tracking every inquiry through to signed contingency agreement.
 
-This intake infrastructure — connected to a properly configured [attribution stack](/blog/) — separates PI firms that know their cost-per-signed-case from those who pay marketing invoices without certainty about what they're buying.
+This intake infrastructure — connected to a properly configured [attribution stack](/services/data-analysis-for-law-firms/) — separates PI firms that know their cost-per-signed-case from those who pay marketing invoices without certainty about what they're buying.
 
 I worked with a Tampa PI firm that had three attorneys and was spending $18,000 per month on marketing. After six months, they couldn't account for where their cases were coming from. We implemented CallRail, connected it to their intake form, and set up automated SMS responses to all submissions. Within 30 days, they discovered that 40% of their intake was coming from a single local citation directory they'd never optimized. They doubled down on citations and reduced paid advertising by 25%. Same intake volume, lower cost.
 
@@ -112,7 +112,7 @@ This isn't about high-volume content marketing. It's about **depth in specific a
 
 **Competing in Tampa Bay PI and not sure what your marketing is actually returning?** We build the full infrastructure — website, attribution stack, and intake automation — for PI firms that want to know their cost-per-case.
 
-[Build My PI Marketing Infrastructure →](/blog/)
+[Build My PI Marketing Infrastructure →](/contact/)
 
 </div>
 

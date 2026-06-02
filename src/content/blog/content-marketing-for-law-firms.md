@@ -27,11 +27,11 @@ Not all content serves the same purpose. Mixing them up wastes time and kills yo
 
 **Practice area pages** are your foundation. These are not blog posts. A personal injury practice area page needs to explain what you handle, what the process looks like, what clients can expect from you specifically, and why your approach matters. It should be 800–1,500 words, structured with headers, and written to convert someone who already knows they need a lawyer. This is bottom-of-funnel content. Treat it accordingly.
 
-**Blog posts** exist to capture people earlier in the decision process. A post titled "How Long Does a Florida Workers' Comp Claim Take to Settle?" targets someone who's been hurt, filed a claim, and is now trying to understand what comes next. They're not ready to hire yet — they're gathering information. A good blog post answers that question thoroughly and ends with a natural next step, like scheduling a free consultation. One of my clients, a two-partner employment firm in Tampa, added fourteen targeted blog posts over six months and doubled their consultation requests without touching their ad spend.
+**Blog posts** exist to capture people earlier in the decision process. A post titled "How Long Does a Florida Workers' Comp Claim Take to Settle?" targets someone who's been hurt, filed a claim, and is now trying to understand what comes next. They're not ready to hire yet — they're gathering information. A good blog post answers that question thoroughly and ends with a natural next step, like scheduling a free consultation. One of my clients, a two-partner employment firm in Tampa, added fourteen targeted blog posts over six months and doubled their consultation requests without touching their ad spend. (Topic selection should map back to your [keyword research](/blog/lawyer-keyword-research/), not whatever the writer felt like covering this week.)
 
 **FAQs** are underused and undervalued. A well-built FAQ page for a family law practice — covering questions like "Will I lose my house in a divorce?" or "Can my ex take my kids out of state without permission?" — does two things simultaneously. It ranks for long-tail, high-intent search queries, and it pre-qualifies prospects by giving them enough information to understand why they need representation. FAQs also reduce the time your intake staff spends answering the same questions over the phone.
 
-**Case results** (where ethics rules permit) build credibility faster than any other content type. Not generic "$1.2 million verdict" headlines — specific narratives. "Our client, a construction worker injured when scaffolding collapsed, was initially offered $40,000 by the insurance company. We took the case to trial and recovered $875,000." That story converts. It shows process, outcome, and the gap between what the other side offers and what a good lawyer actually gets.
+**Case results** (where ethics rules permit) build credibility faster than any other content type. Not generic "$1.2 million verdict" headlines — specific narratives. "Our client, a construction worker injured when scaffolding collapsed, was initially offered $40,000 by the insurance company. We took the case to trial and recovered $875,000." That story converts. It shows process, outcome, and the gap between what the other side offers and what a good lawyer actually gets. (Just review [Florida Bar advertising rules](/blog/florida-bar-law-firm-advertising-rules/) and the [Florida Bar Rules of Professional Conduct](https://www.floridabar.org/rules/rrtfb/) before publishing any case-result content.)
 
 ---
 
@@ -65,7 +65,7 @@ Schedule writing time like you schedule depositions. Block two hours at the star
 
 Traffic is vanity. Cases are the business. I push every firm I work with to track these metrics instead:
 
-**Organic-to-consultation conversion rate.** How many people who arrived from organic search submitted a form or called? Your analytics platform can show you this if your goals are set up correctly. If they're not set up, fix that before publishing another word.
+**Organic-to-consultation conversion rate.** How many people who arrived from organic search submitted a form or called? Your analytics platform can show you this if your goals are set up correctly. If they're not set up, fix that before publishing another word. (See our [GA4 setup guide for law firms](/blog/ga4-setup-law-firm-guide/) for the configuration most agencies skip.)
 
 **Content-assisted conversions.** Someone might read three blog posts over two weeks before calling. Multi-touch attribution shows you which content pieces are actually participating in the path to hire. A blog post with zero direct conversions might be assisting a dozen others.
 
@@ -83,7 +83,7 @@ Here's the problem: you publish a blog post about Florida slip and fall cases. I
 
 Every blog post should link to at least one practice area page. Every practice area page should link to related blog posts and FAQs. Every FAQ should link to the practice area it supports and to your contact page. Build the web intentionally.
 
-This isn't complicated. It takes five minutes per post. But it turns your content from a collection of individual pages into a system — one that guides people deeper into your site and gives Google a coherent map of your expertise.
+This isn't complicated. It takes five minutes per post. But it turns your content from a collection of individual pages into a system — one that guides people deeper into your site and gives Google a coherent map of your expertise. That's the discipline behind a real [always-publishing-always-ranking](/services/always-publishing-always-ranking/) approach to content.
 
 Content marketing works for law firms. But only when it's built for clients first, structured strategically second, and measured against the only metric that matters: cases you actually sign.
 

@@ -29,28 +29,28 @@ This journey takes weeks or months, not hours. Your digital marketing infrastruc
 
 ## Content Strategy for Business Law: Depth Over Volume
 
-The most effective content strategy for a business law firm is topical depth. A GC evaluating you for a complex commercial dispute is reading your content to assess whether you actually understand the legal nuances of their situation.
+The most effective content strategy for a business law firm is topical depth — see our broader framework on [law firm content marketing strategy](/blog/law-firm-content-marketing-strategy/). A GC evaluating you for a complex commercial dispute is reading your content to assess whether you actually understand the legal nuances of their situation.
 
-Business law content that earns credibility: practice-area-specific scenario posts ("What Happens When Your Business Partner Breaches a Buy-Sell Agreement in Florida"), authoritative guides on complex topics (Florida commercial litigation procedures), and case study content where ethics rules permit.
+Business law content that earns credibility: practice-area-specific scenario posts ("What Happens When Your Business Partner Breaches a Buy-Sell Agreement in Florida"), authoritative guides on complex topics (Florida commercial litigation procedures), and case study content where [Florida Bar advertising rules](/blog/florida-bar-law-firm-advertising-rules/) permit.
 
 ## The Referral Network as a Marketing Channel
 
-For most business law firms, referred clients have the highest lifetime value and conversion rate. Build digital marketing that supports and amplifies referral relationships: a dedicated referral resource page on your website, email content specifically for referral partners, and LinkedIn presence for each attorney — the professional network where business decision-makers research professional services.
+For most business law firms, referred clients have the highest lifetime value and conversion rate. Build digital marketing that supports and amplifies referral relationships: a dedicated referral resource page on your website, email content specifically for referral partners, and [LinkedIn](https://www.linkedin.com) presence for each attorney — the professional network where business decision-makers research professional services.
 
 ## SEO Keyword Strategy for Business Law
 
-Using our [keyword research framework](/blog/), high-priority transactional keywords include: "Tampa business litigation attorney," "Florida commercial contract dispute attorney," "business partnership dispute lawyer Tampa." High-proximity informational keywords: "How to enforce a non-compete agreement in Florida," "Florida business partner breach of fiduciary duty," "Dissolving a business partnership dispute Florida."
+Using our [keyword research framework](/blog/law-firm-keyword-research/), high-priority transactional keywords include: "Tampa business litigation attorney," "Florida commercial contract dispute attorney," "business partnership dispute lawyer Tampa." High-proximity informational keywords: "How to enforce a non-compete agreement in Florida," "Florida business partner breach of fiduciary duty," "Dissolving a business partnership dispute Florida."
 
 ## Attribution for Long-Cycle Business Law Marketing
 
-The attribution challenge in business law is the long time-to-retain. A client who first finds your firm through organic search in January may not sign a retainer until April — after multiple visits, several branded searches, and a referral conversation in between. This requires a CRM with date-stamped lead source tracking and GA4 configured to track returning visitors. The [complete attribution stack](/blog/) we build handles this — preserving the first-touch source while tracking the full journey to retained client.
+The attribution challenge in business law is the long time-to-retain. A client who first finds your firm through organic search in January may not sign a retainer until April — after multiple visits, several branded searches, and a referral conversation in between. This requires a CRM with date-stamped lead source tracking and [GA4](/blog/ga4-setup-law-firm-guide/) configured to track returning visitors. The [complete attribution stack](/blog/law-firm-marketing-roi-tracking/) we build handles this — preserving the first-touch source while tracking the full journey to retained client.
 
 <hr />
 <div>
 
 **Running a business law practice and not sure your marketing fits the B2B buyer journey?** We build content and attribution infrastructure for the longer-cycle, relationship-driven decision patterns of business law clients.
 
-[Build a B2B Legal Marketing Strategy →](/blog/)
+[Build a B2B Legal Marketing Strategy →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

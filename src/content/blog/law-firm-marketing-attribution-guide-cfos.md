@@ -41,15 +41,15 @@ A fully attributed law firm marketing program connects:
 
 ## A Realistic Example
 
-A Tampa personal injury firm spending $8,000/month on Google Ads and $3,000/month on SEO might find: Google Ads generates 4 retained clients at $2,000 cost/client ($18,000 average case value); SEO generates 3 retained clients at $1,000 cost/client ($22,000 average case value); Referrals generate 3 retained clients at $167 cost/client ($28,000 average case value).
+A Tampa personal injury firm — see our [Tampa marketing landscape overview](/blog/law-firm-marketing-consultant-tampa-fl/) — spending $8,000/month on Google Ads and $3,000/month on SEO might find: Google Ads generates 4 retained clients at $2,000 cost/client ($18,000 average case value); SEO generates 3 retained clients at $1,000 cost/client ($22,000 average case value); Referrals generate 3 retained clients at $167 cost/client ($28,000 average case value).
 
 With this data, the allocation decision becomes straightforward: referrals are the highest-ROI channel by a large margin. SEO generates higher-value cases at lower cost than paid search. Without attribution infrastructure, all three get treated as equivalent "marketing" — and budget decisions are driven by whoever has the most compelling agency pitch.
 
 ## What It Takes to Build This
 
-Building full attribution requires connecting four systems: [CallRail](/blog/) for phone call attribution, [Google Analytics 4](/blog/) for web conversion tracking, [Lawmatics](/blog/) or [Clio Grow](/blog/) for lead-to-retained-client tracking, and a monthly reconciliation process connecting retained clients to their originating marketing source.
+Building full attribution requires connecting four systems: [CallRail](/blog/callrail-law-firm-setup-guide/) for phone call attribution, [Google Analytics 4](https://support.google.com/analytics/answer/10089681) for web conversion tracking, [Lawmatics](https://www.lawmatics.com) or [Clio Grow](https://www.clio.com/grow/) for lead-to-retained-client tracking, and a monthly reconciliation process connecting retained clients to their originating marketing source.
 
-This is typically a 2–4 week implementation with cost recovered within the first month through reallocation away from underperforming channels. Full technical breakdown: [law firm marketing technology stack guide](/blog/).
+This is typically a 2–4 week implementation with cost recovered within the first month through reallocation away from underperforming channels. Full technical breakdown: [law firm marketing ROI tracking guide](/blog/law-firm-marketing-roi-tracking/).
 
 For managing partners currently approving marketing budgets without this data: the information you need to make these decisions intelligently exists. It just hasn't been connected yet.
 
@@ -58,7 +58,7 @@ For managing partners currently approving marketing budgets without this data: t
 
 **Approving a marketing budget without knowing what each channel is returning?** We build the attribution infrastructure that gives you the financial clarity to make those decisions with evidence.
 
-[Build My Attribution Infrastructure →](/blog/)
+[Build My Attribution Infrastructure →](/services/data-analysis-for-law-firms/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

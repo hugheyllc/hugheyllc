@@ -15,13 +15,13 @@ Many law firms spend thousands on pay-per-click (PPC) advertising but struggle t
 
 ## Step 1 — Integrate Marketing and Intake Data
 
-Integrating your advertising platforms (Google Ads, Microsoft Ads) with your CRM ([Lawmatics](/blog/), [Clio Grow](/blog/), or [HubSpot Legal](/blog/)) ensures that every lead is properly tracked.
+Integrating your advertising platforms ([Google Ads](/blog/google-ads-law-firms/), Microsoft Ads) with your CRM ([Lawmatics](https://www.lawmatics.com), [Clio Grow](https://www.clio.com/grow/), or HubSpot Legal) ensures that every lead is properly tracked.
 
-Each phone call or form submission should include the campaign, ad group, and keyword that generated it. Call-tracking tools like [CallRail](/blog/) or [WhatConverts](/blog/) can automate this process.
+Each phone call or form submission should include the campaign, ad group, and keyword that generated it. Call-tracking tools like [CallRail](/blog/callrail-law-firm-setup-guide/) or WhatConverts can automate this process.
 
 ## Step 2 — Assign Value to Signed Clients
 
-To accurately measure ROI, link signed clients to their marketing source and assign a dollar value to each retained case.
+To accurately measure ROI, link signed clients to their marketing source and assign a dollar value to each retained case. This is the foundation of [calculating a true cost per retained client](/blog/cost-per-retained-client-law-firm/).
 
 **Formula:**
 
@@ -31,11 +31,11 @@ This turns vague metrics into actionable profitability insights.
 
 ## Step 3 — Visualize Data in Real Time
 
-Dashboards like Google Looker Studio can visualize key metrics—cost per lead, cost per retained client, and return on ad spend (ROAS). These visuals make it easy to see which campaigns deserve more investment.
+Dashboards like Google Looker Studio can visualize key metrics—cost per lead, cost per retained client, and return on ad spend (ROAS). Connecting [GA4](/blog/ga4-setup-law-firm-guide/) to your CRM and ad platforms makes these visuals trustworthy, and our [data analysis service](/services/data-analysis-for-law-firms/) builds exactly this layer for law firms.
 
 ## Step 4 — Optimize Based on Profit, Not Clicks
 
-Top-performing firms focus on profitability, not vanity metrics. If a campaign drives clicks but not clients, it’s wasting budget. By evaluating campaigns based on their profit contribution, your firm ensures every marketing dollar works harder.
+Top-performing firms focus on profitability, not vanity metrics. If a campaign drives clicks but not clients, it’s wasting budget. By evaluating campaigns based on their profit contribution — and pruning weak terms with [negative keywords](/blog/law-firm-negative-keywords/) — your firm ensures every marketing dollar works harder. The [Google Ads conversion tracking documentation](https://support.google.com/google-ads/answer/1722022) provides the technical foundation for this measurement.
 
 Once your PPC data connects seamlessly to your intake and financial systems, your firm gains true visibility. You’ll know exactly where your marketing money is generating real-world results.
 
@@ -44,7 +44,7 @@ Once your PPC data connects seamlessly to your intake and financial systems, you
 
 ## Ready to learn how to best use your marketing dollars? Let’s connect.
 
-[Book a discovery call](/blog/)
+[Book a discovery call](/contact/)
 
 ## FAQs
 

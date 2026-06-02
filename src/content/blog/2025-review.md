@@ -28,12 +28,12 @@ The legal marketing landscape in 2025 was marked by accelerated adoption of arti
 
 - **PPC costs skyrocketed.** Keyword bids for high‑value practice areas (e.g., maritime and truck accidents) reached **$1,000 per click**. Even more typical practice areas showed average cost‑per‑click of $69 for personal injury and $22 for criminal law.
 - **Conversion rates averaged around 7%.** Across legal practice categories, conversion rates hovered between **5% and 8.5%**. This underscores the importance of optimizing landing pages and aligning ad copy to intake processes.
-- **AI bidding changed control.** Google and Meta introduced AI‑driven bidding tools that optimized campaigns in real time. Many firms struggled to see which keywords and ads actually produced retained matters.
+- **AI bidding changed control.** Google and Meta introduced AI‑driven bidding tools that optimized campaigns in real time. Many firms struggled to see which keywords and ads actually produced retained matters. The fix is properly built [marketing ROI tracking](/blog/law-firm-marketing-roi-tracking/) — not more spend.
 
 ## Intake Became the Bottleneck
 
 - **Response time drives conversions.** Studies in 2025 showed that **67%** of legal clients base their hiring decision on how quickly a firm responds. Firms that respond within **five minutes** see a **400% higher conversion rate**. Voicemail or delayed callbacks result in a **74% drop‑off**.
-- **AI‑powered intake systems deliver an edge.** A personal injury firm that deployed AI intake reduced response times to **under 30 seconds** and increased client conversions by **40%**. A family law firm cut after‑hours staffing costs by **60%** and boosted consultations **25%** with AI intake.
+- **AI‑powered intake systems deliver an edge.** A personal injury firm that deployed AI intake reduced response times to **under 30 seconds** and increased client conversions by **40%**. A family law firm cut after‑hours staffing costs by **60%** and boosted consultations **25%** with AI intake. (See our deeper guide on [intake process optimization](/services/intake-process-optimization/).)
 - **Law firms still lag.** Hennessey Digital’s five‑year benchmark found that 26% of firms do not respond to online leads at all and that the median response time remains **13 minutes**. Only **25%** of firms respond within five minutes, highlighting enormous room for improvement.
 
 ## Reporting Became a Credibility Test
@@ -55,7 +55,7 @@ Interactive tools such as quizzes, assessments and AI‑driven chat features bec
 
 The biggest opportunities for law firms in 2026 lie in:
 
-- **AI search and generative engine optimization (GEO).** Implement schema markup, LLMs.txt and structured content that AI can cite. Comprehensive answers to common legal questions will earn citations in AI platforms.
+- **AI search and generative engine optimization (GEO).** Implement [schema markup](/blog/law-firm-schema-markup/), LLMs.txt and structured content that AI can cite. Comprehensive answers to common legal questions will earn citations in [AI search platforms](/blog/ai-search-law-firms/).
 - **Data‑driven intake.** Combine AI chatbots with human follow‑up to meet the five‑minute response window and route high‑value leads directly to attorneys.
 - **Video and immersive content.** Produce educational videos and live Q&amp;A sessions to build authority and trust.
 - **Performance reporting.** Build dashboards that connect marketing spend to revenue outcomes across multiple touchpoints.

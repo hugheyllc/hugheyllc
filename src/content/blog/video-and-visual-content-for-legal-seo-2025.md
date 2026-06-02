@@ -13,7 +13,7 @@ image: "/images/blog/video-and-visual-content-for-legal-seo-2025.jpg"
 
 User behavior in 2025 has changed how potential clients search, retain information and make decisions. Long text-based blogs are still important, but they are no longer enough to win visibility in competitive legal markets. Search engines now prioritize pages that engage users with video, visuals and interactive experiences.
 
-For further insights on 2025 legal marketing trends, visit: [Legal Marketing In 2025: Trends Every Law Firm Should Watch](/blog/)
+For further insights on 2025 legal marketing trends, see our piece on [video content for law firms](/blog/video-content-for-law-firms/).
 
 ## Why Visual Content Matters for Legal Seo in 2025
 
@@ -31,7 +31,7 @@ Potential clients want quick answers. Visual content helps communicate complex t
 
 Short, polished videos covering processes, common questions, case results and practice focus.
 
-Suggested Video: [Video Marketing for Law Firms](/blog/)
+Suggested reading: [Video Marketing for Law Firms](/blog/predictive-analytics-law-firm-growth/)
 
 - **Visual Infographics**
 
@@ -41,19 +41,19 @@ Infographics convert complex legal information into digestible formats.
 
 Examples include settlement estimators, contract checklists, and dispute analysis tools.
 
-Updated interactive content reference: [Types of Interactive Content Marketing and Examples To Inspire](/blog/)
+Updated interactive content reference: [HubSpot on interactive content marketing](https://blog.hubspot.com/marketing/interactive-content-examples)
 
 - **Screen Recorded Tutorials**
 
 Walk-throughs like Sunbiz searches, legal document prep and more.
 
-Updated YouTube discovery resource: [Search and discovery Tips](/blog/)
+Updated YouTube discovery resource: [YouTube Creator Academy — Search and Discovery](https://support.google.com/youtube/answer/141805)
 
 - **Carousel Posts and Visual Summaries**
 
 Ideal for LinkedIn and site sliders. Improve engagement and user flow.
 
-External best practices: [Sprout Social](/blog/)
+External best practices: [Sprout Social on carousel content](https://sproutsocial.com/insights/)
 
 ## How to Implement Visual Seo Into Your Law Firm Website
 
@@ -69,17 +69,17 @@ Use videos, infographics, quotes and images to segment content.
 
 Compress assets, use WebP, lazy load and leverage a CDN.
 
-Reference: [Google Developers Guide](/blog/)
+Reference: [Google's image SEO best practices](https://developers.google.com/search/docs/appearance/google-images)
 
 ### External Resources to Support Visual Seo Strategy
 
-[**Google Visual Best Practices**](/blog/)
+[**Google Search Central — Video Best Practices**](https://developers.google.com/search/docs/appearance/video)
 
-[**YouTube Search and Discovery Guide**](/blog/)
+[**YouTube Search and Discovery Guide**](https://support.google.com/youtube/answer/141805)
 
-[**YouTube Creators Hub**](/blog/)
+[**YouTube Creators Hub**](https://www.youtube.com/creators/)
 
-[**HubSpot Video Marketing Benchmarks**](/blog/)
+[**HubSpot Video Marketing Benchmarks**](https://blog.hubspot.com/marketing/state-of-video-marketing-new-data)
 
 
 ## Video, Visual and Interactive Content: The New Frontier for Legal SEO
@@ -117,7 +117,7 @@ They are highly beneficial. YouTube boosts visibility, provides additional ranki
 
 <h2>Ready to bring visual and interactive content into your firm's SEO strategy?
 Schedule a discovery call.</h2>				
-[Book a discovery call](/blog/)
+[Book a discovery call](/contact/)
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 

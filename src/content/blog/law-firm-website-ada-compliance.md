@@ -17,13 +17,13 @@ Beyond the legal risk, website accessibility has a direct relationship with SEO 
 
 ## The Legal Landscape
 
-The practical standard most courts and accessibility experts reference is [WCAG 2.1 Level AA](/blog/). Meeting WCAG 2.1 AA is the most defensible position against an accessibility lawsuit, and it's the standard we build to at [Hughey, LLC](https://hugheyllc.com/). Consult an ADA attorney about your specific risk profile — this covers technical best practices, not legal advice.
+The practical standard most courts and accessibility experts reference is [WCAG 2.1 Level AA](https://www.w3.org/WAI/standards-guidelines/wcag/). Meeting WCAG 2.1 AA is the most defensible position against an accessibility lawsuit, and it's the standard we build to at [Hughey, LLC](https://hugheyllc.com/). Consult an ADA attorney about your specific risk profile — this covers technical best practices, not legal advice.
 
 ## Highest-Risk Issues for Law Firm Websites
 
 - **Missing image alt text** — most commonly cited issue in ADA complaints, easiest to fix. Also directly supports SEO — Google uses alt text as a relevance signal.
 
-- **Low color contrast** — WCAG 2.1 AA requires a contrast ratio of at least 4.5:1 for normal text. Check with [WebAIM Contrast Checker](/blog/).
+- **Low color contrast** — WCAG 2.1 AA requires a contrast ratio of at least 4.5:1 for normal text. Check with [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). For broader guidance on Title III obligations, see [ADA.gov](https://www.ada.gov).
 
 - **Forms without labels** — contact forms must have properly associated labels for each input field. Screen readers read labels; placeholders are typically not read. This is both an accessibility and a conversion issue.
 
@@ -41,24 +41,24 @@ The practical standard most courts and accessibility experts reference is [WCAG 
 
 - Descriptive link text (no "click here" links) → improves anchor text relevance signals for internal links
 
-- Structured, readable content → more likely to be cited in AI Overview results and featured snippets
+- Structured, readable content → more likely to be cited in [AI Overview results](/blog/ai-search-law-firms/) and featured snippets
 
 ## How to Assess Your Current Compliance Level
 
-- [WAVE Web Accessibility Evaluator](/blog/) — browser extension flagging issues directly on pages
+- [WAVE Web Accessibility Evaluator](https://wave.webaim.org) — browser extension flagging issues directly on pages
 
-- [Google Lighthouse](/blog/) — built into Chrome DevTools, includes accessibility audit score
+- [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) — built into Chrome DevTools, includes accessibility audit score
 
-- [Accessibility Insights](/blog/) — Microsoft's tool for detailed WCAG compliance assessment
+- [Accessibility Insights](https://accessibilityinsights.io) — Microsoft's tool for detailed WCAG compliance assessment
 
-Automated tools catch roughly 30–40% of accessibility issues. A full WCAG 2.1 AA audit requires manual testing including keyboard-only navigation and screen reader testing. Accessibility remediation is a standard component of every site build at Hughey, LLC. The full technical approach: [law firm website design and development guide](/blog/).
+Automated tools catch roughly 30–40% of accessibility issues. A full WCAG 2.1 AA audit requires manual testing including keyboard-only navigation and screen reader testing. Accessibility remediation is a standard component of every site build at Hughey, LLC. The full technical approach: [law firm website design and development guide](/services/).
 
 <hr />
 <div>
 
 **Not sure if your law firm website is ADA compliant?** We audit and remediate accessibility issues — reducing your exposure while improving SEO.
 
-[Get an Accessibility Audit →](/blog/)
+[Get an Accessibility Audit →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

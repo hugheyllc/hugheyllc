@@ -35,11 +35,11 @@ Family law content faces a dual challenge: it must be accurate (YMYL content und
 
 ## Google Ads Strategy for Family Law
 
-Structure your [Google Ads campaigns](/blog/) with tight ad group themes — divorce, custody, modifications, support — each with dedicated landing pages matching the specific search intent. The conversion rate difference between a well-matched and poorly-matched landing page is larger in family law than most other practice areas because the emotional state of the prospect amplifies friction.
+Structure your [Google Ads campaigns](/blog/google-ads-law-firms/) with tight ad group themes — divorce, custody, modifications, support — each with dedicated landing pages matching the specific search intent. (Adding [negative keywords](/blog/law-firm-negative-keywords/) early is the easiest spend-saver.) The conversion rate difference between a well-matched and poorly-matched landing page is larger in family law than most other practice areas because the emotional state of the prospect amplifies friction.
 
 ## The Intake Experience
 
-In family law, the intake call is both a sales conversation and a human support interaction. Prospects calling are often calling from a place of fear and uncertainty. How your intake team handles the first call has a larger impact on conversion than in most other practice areas. The technical infrastructure supports this: [CallRail](/blog/) routing calls correctly, [Lawmatics](/blog/) automating immediate post-call follow-up, and the [attribution stack](/blog/) connecting each retained client back to its originating marketing channel.
+In family law, the intake call is both a sales conversation and a human support interaction. Prospects calling are often calling from a place of fear and uncertainty. How your intake team handles the first call has a larger impact on conversion than in most other practice areas. The technical infrastructure supports this: [CallRail](/blog/callrail-law-firm-setup-guide/) routing calls correctly, [Lawmatics](/blog/lawmatics-vs-clio-grow/) automating immediate post-call follow-up, and the [attribution stack](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/) connecting each retained client back to its originating marketing channel.
 
 ## The Cost and ROI of Family Law Digital Marketing
 
@@ -97,7 +97,7 @@ A family law practice generating $100,000 in monthly revenue needs a predictable
 
 **Building a family law practice in Tampa Bay?** We build the digital infrastructure — from empathetic website design to attributed intake automation — built for the emotional realities of family law clients.
 
-[Build My Family Law Marketing System →](/blog/)
+[Build My Family Law Marketing System →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

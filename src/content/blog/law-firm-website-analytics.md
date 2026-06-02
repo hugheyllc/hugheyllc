@@ -13,7 +13,7 @@ image: "/images/blog/law-firm-website-analytics.jpg"
 
 Most law firm websites are connected to Google Analytics. Most law firm managing partners have never opened it.
 
-That's not entirely their fault. [Google Analytics 4](https://analytics.google.com) is a powerful tool wrapped in a deeply unintuitive interface, filled with metrics that sound important but offer little practical guidance. Sessions, bounce rates, pages per session — these numbers don't have an obvious relationship to your practice's growth.
+That's not entirely their fault. [Google Analytics 4](https://analytics.google.com) is a powerful tool wrapped in a deeply unintuitive interface, filled with metrics that sound important but offer little practical guidance. Sessions, bounce rates, pages per session — these numbers don't have an obvious relationship to your practice's growth. (For step-by-step GA4 configuration, see our [GA4 setup law firm guide](/blog/ga4-setup-law-firm-guide/).)
 
 Here's what actually does — and how to find it.
 
@@ -53,7 +53,7 @@ To get there: Reports → Engagement → Landing Pages → add a conversion even
 
 None of the above analysis matters if you haven't properly configured conversion events. In GA4, a conversion event fires when a visitor takes a meaningful action — submits a contact form, clicks your phone number, books a consultation.
 
-Setting these up requires either direct code implementation or configuration via [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/). Once in place, you can see not just how many conversions your site generates, but which pages, which traffic sources, and which content types are driving them.
+Setting these up requires either direct code implementation or configuration via [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/). Google's own [conversion event documentation](https://support.google.com/analytics/answer/10089681) walks through the supported event types. Once in place, you can see not just how many conversions your site generates, but which pages, which traffic sources, and which content types are driving them.
 
 This conversion data is the bridge between your website analytics and your intake CRM — the connection that makes true [marketing ROI tracking](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/) possible.
 
@@ -68,7 +68,7 @@ The goal isn't to live in your analytics dashboard — it's to build a monthly r
 - Top 5 landing pages by conversions
 - Practice area page engagement rates
 
-Trends in these six numbers will tell you whether your digital marketing is working — and where to focus next. Our [law firm marketing technology services](/services/) include monthly reporting built around exactly these metrics, connected to your intake and revenue data.
+Trends in these six numbers will tell you whether your digital marketing is working — and where to focus next. Our [data analysis services for law firms](/services/data-analysis-for-law-firms/) include monthly reporting built around exactly these metrics, connected to your intake and revenue data.
 
 <hr />
 <div>

@@ -35,7 +35,7 @@ Here's what gets lost:
 
 **Local competitive intelligence.** Do you know which firms in your practice area are outbidding you on Google Ads in Pinellas County specifically? Do you know which competitors are winning the local map pack in Sarasota for your key terms? A national agency running reports from a centralized dashboard doesn't have this granularity.
 
-**Court and jurisdiction awareness.** Legal marketing content that references specific courts, filing procedures, or local legal nuances performs better in search — both traditional and AI-powered. Generic content about "personal injury law" doesn't signal local expertise the way content mentioning the Hillsborough County Circuit Court or Florida's comparative negligence framework does.
+**Court and jurisdiction awareness.** Legal marketing content that references specific courts, filing procedures, or local legal nuances performs better in search — both traditional and AI-powered. Generic content about "personal injury law" doesn't signal local expertise the way content mentioning the Hillsborough County Circuit Court or Florida's comparative negligence framework does. This is the same principle that powers [local SEO for law firms](/blog/local-seo-law-firms/) — specificity to your jurisdiction beats generic legal vocabulary every time.
 
 **Referral network understanding.** In Tampa Bay, a significant portion of legal business comes through professional referrals — other attorneys, financial advisors, medical providers. Marketing strategy should account for and strengthen these referral channels, not just focus on digital advertising.
 
@@ -44,7 +44,7 @@ Here's what gets lost:
 Not all consultants are equal. Here's what separates someone who can actually improve your marketing from someone who's just selling advice:
 
 ### 1. Legal Marketing Specialization
-Marketing a law firm is fundamentally different from marketing a restaurant, a SaaS product, or a medical practice. Bar advertising rules, intake processes, fee structures, client confidentiality — these constraints shape every marketing decision. Your consultant should have years of experience specifically in legal marketing, not a general marketing background with a few law firm clients.
+Marketing a law firm is fundamentally different from marketing a restaurant, a SaaS product, or a medical practice. Bar advertising rules ([Florida Bar Rules of Professional Conduct](https://www.floridabar.org/rules/rrtfb/) chief among them in this market), intake processes, fee structures, client confidentiality — these constraints shape every marketing decision. Your consultant should have years of experience specifically in legal marketing, not a general marketing background with a few law firm clients.
 
 ### 2. Independence from Execution
 This is critical. If your consultant also sells you SEO services, web design, or PPC management, they have a conflict of interest. An independent consultant develops strategy and holds your vendors accountable — but doesn't compete with them for the same budget.
@@ -54,13 +54,13 @@ Ask: "Do you make money from any of the services you'll recommend?" If the answe
 ### 3. Cost-Per-Retained-Client Focus
 Most marketing reports focus on vanity metrics: impressions, clicks, leads. These numbers feel good in monthly reports but don't tell you whether your marketing is producing revenue.
 
-The metric that matters is cost per retained client — the total marketing spend required to produce a client who signs a fee agreement. A good consultant calculates this number and uses it as the primary benchmark for every marketing decision.
+The metric that matters is [cost per retained client](/blog/cost-per-retained-client-law-firm/) — the total marketing spend required to produce a client who signs a fee agreement. A good consultant calculates this number and uses it as the primary benchmark for every marketing decision.
 
 ### 4. Local Market Knowledge
 Your consultant should be able to name your top three competitors in your practice area and geography without looking them up. They should understand which keywords are realistic targets for your firm and which ones require budgets you don't have. They should know the Tampa Bay market because they work in it, not because they Googled it before your meeting.
 
 ### 5. Vendor Accountability
-A consultant's most valuable function is holding your marketing vendors accountable. That means independently reviewing performance data, questioning agency recommendations, and identifying when you're overspending or underperforming.
+A consultant's most valuable function is holding your marketing vendors accountable — what I think of as [agency management](/services/agency-management-for-law-firms/) for law firms. That means independently reviewing performance data, questioning agency recommendations, and identifying when you're overspending or underperforming.
 
 If your current agency reports that everything is going great but your phone isn't ringing with qualified prospects, someone needs to ask hard questions. That's the consultant's job.
 

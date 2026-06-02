@@ -15,7 +15,7 @@ image: "/images/blog/lawyer-keyword-research.jpg"
 
 The rules that apply to most industries break down fast when you're doing keyword research for a law firm. Three factors make legal SEO its own discipline.
 
-**Cost-per-click in legal is brutally high.** "Personal injury attorney" keywords regularly hit $50–$150 per click in paid search. That price signal tells you something critical: these terms convert. Advertisers don't spend that kind of money on curiosity traffic. When a keyword carries a high CPC, treat it as a proxy for commercial intent, even when you're building an organic strategy.
+**Cost-per-click in legal is brutally high.** "Personal injury attorney" keywords regularly hit $50–$150 per click in paid search. That price signal tells you something critical: these terms convert. Advertisers don't spend that kind of money on curiosity traffic. When a keyword carries a high CPC, treat it as a proxy for commercial intent, even when you're building an organic strategy. The same dynamic shows up in Google Ads — if you're running paid campaigns, careful [negative keyword work](/blog/law-firm-negative-keywords/) protects that high-CPC spend from leaking on the wrong searches.
 
 **Local intent dominates.** Someone searching "how does negligence work" might be a law student in Ohio. Someone searching "car accident lawyer Tampa" is almost certainly a potential client within your geography, right now, with a problem to solve. Legal services are fundamentally local, and your keyword strategy has to reflect that geography obsessively.
 
@@ -60,7 +60,7 @@ You should rank first for your own name without much effort. The value here is r
 
 ## Tools That Actually Do the Work
 
-**Google Search Console (GSC)** is your first stop if the site is already live. GSC shows you which queries are already driving impressions and clicks. Look for keywords where you rank positions 6–15 — those are your fastest wins. A page ranking 8th needs refinement, not rebuilding.
+**Google Search Console (GSC)** is your first stop if the site is already live. GSC shows you which queries are already driving impressions and clicks. Look for keywords where you rank positions 6–15 — those are your fastest wins. A page ranking 8th needs refinement, not rebuilding. Google's own [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) is the right reference if you want to validate the on-page changes you make alongside the keyword work.
 
 **Google Keyword Planner** gives you search volume and CPC data directly from Google. It's free with a Google Ads account. Use it to validate demand before you invest in creating content. If a keyword shows fewer than 50 monthly searches locally, it may not be worth a dedicated page — unless the case value is enormous (mass torts, for example).
 
@@ -114,7 +114,7 @@ High-converting long-tail examples for a PI firm:
 
 The query "how much is my car accident settlement worth" tells you the searcher believes they have a case and wants to understand their financial recovery. That's a client. Write a thorough page answering that question, include a strong call to action, and capture that traffic with a contact form or callback option.
 
-Use **"People Also Ask" boxes and Google's autocomplete suggestions** as a free long-tail keyword generator. Search your seed terms and document every related question that surfaces. Those questions become FAQ sections, blog posts, and supplemental content on practice area pages.
+Use **"People Also Ask" boxes and Google's autocomplete suggestions** as a free long-tail keyword generator. Search your seed terms and document every related question that surfaces. Those questions become FAQ sections, blog posts, and supplemental content on practice area pages. This kind of intent-mapped content sits at the heart of any serious [content marketing program for a law firm](/blog/content-marketing-for-law-firms/).
 
 ---
 
@@ -128,7 +128,7 @@ Here's how I'd approach keyword research for a personal injury firm in Tampa fro
 
 **Step 3 — Long-tail expansion.** I'd mine Google autocomplete and PAA boxes for every primary term. "Tampa car accident lawyer" autocomplete surfaces "Tampa car accident lawyer free consultation," "Tampa car accident lawyer reviews," and "best car accident lawyer Tampa FL" — all worth targeting.
 
-**Step 4 — Prioritization matrix.** I'd score every keyword on three factors: monthly search volume, commercial intent (using CPC as a signal), and current ranking position from GSC. Keywords with meaningful volume, high CPC, and a current ranking between 6 and 20 get built or optimized first.
+**Step 4 — Prioritization matrix.** I'd score every keyword on three factors: monthly search volume, commercial intent (using CPC as a signal), and current ranking position from GSC. Keywords with meaningful volume, high CPC, and a current ranking between 6 and 20 get built or optimized first. This is also where [strategic marketing planning](/services/strategic-marketing-for-law-firms/) earns its keep — the matrix tells you where to invest, not just what's possible.
 
 **Step 5 — Assign to page types.** Commercial terms get dedicated practice area pages. Informational terms get blog posts or FAQ content. Long-tail case-specific queries get worked into existing pages as subheadings or expanded into their own pages if volume justifies it.
 

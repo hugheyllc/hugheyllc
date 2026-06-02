@@ -19,7 +19,7 @@ Many law firms invest heavily in marketing — SEO, PPC, social, and video — y
 
 The problem isn’t the work itself; it’s the **lack of visibility** between what your agency reports and what your intake system confirms.
 
-At [**Hughey LLC**](/blog/), we act as a **Fractional CMO** for law firms, bridging that gap. We help you connect data from [Google Ads](/blog/), [CallRail](/blog/) , [Lawmatics](/blog/), and your intake reports so you can see which campaigns generate signed clients — and which waste money.
+At [**Hughey LLC**](/about/), we act as a **Fractional CMO** for law firms, bridging that gap. We help you connect data from [Google Ads](/blog/google-ads-law-firms/), [CallRail](/blog/callrail-law-firm-setup-guide/), [Lawmatics](https://www.lawmatics.com), and your intake reports so you can see which campaigns generate signed clients — and which waste money.
 
 ## The Problem with Typical Law-Firm / Agency Relationships
 
@@ -37,7 +37,7 @@ Agencies controlling access to your analytics
 Little connection between marketing activity and revenue
 </li>
 
-The [**Clio Legal Trends Report**](/blog/) shows that firms tracking marketing + intake conversion outperform peers by more than 30% in revenue per lawyer.
+The [**Clio Legal Trends Report**](https://www.clio.com/resources/legal-trends/) shows that firms tracking marketing + intake conversion outperform peers by more than 30% in revenue per lawyer.
 
 ## Step 1 — Define Goals That Tie Directly to Revenue
 
@@ -55,7 +55,7 @@ Every campaign should support these KPIs.
 
 Related reading:
 
-**[From PPC to Profit](/blog/) — Mapping Spend to Revenue in Your Law Practice**
+**[From PPC to Profit](/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/) — Mapping Spend to Revenue in Your Law Practice**
 
 ## Step 2 — Require Transparency and Shared Data Access
 
@@ -101,7 +101,7 @@ Budget allocation (SEO, PPC, LSAs, referrals)
 Predicted pipeline growth
 </li>
 
-Use dashboards in [Looker Studio](/blog/) or Hughey KPI dashboards.
+Use dashboards in [Looker Studio](https://lookerstudio.google.com/) or Hughey KPI dashboards.
 
 ## Step 5 — Know When to Pivot or Replace Your Agency
 
@@ -151,7 +151,7 @@ When your firm owns the data and reviews KPIs consistently, every dollar becomes
 
 If your agency’s reports don’t translate to signed clients, it’s time to take control.
 
-[Agency Management for Law Firms](/blog/)
+[Agency Management for Law Firms](/services/agency-management-for-law-firms/)
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 

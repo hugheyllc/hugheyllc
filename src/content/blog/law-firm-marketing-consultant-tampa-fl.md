@@ -19,7 +19,7 @@ Hughey LLC is based in St. Petersburg and serves law firms across the Tampa Bay 
 
 Tampa is a market where law firm marketing spend is high and accountability is low. Most mid-sized Tampa law firms spend $10,000–$50,000 per month on marketing — SEO agencies, PPC campaigns, billboard rotations, directory listings, and content programs — without any clear picture of which channels are actually driving retained clients.
 
-The result is predictable: money cycles through vendors, reports show traffic and leads, and the firm principal has no idea whether the $15,000 SEO retainer is producing cases or just producing rankings for terms nobody searches.
+The result is predictable: money cycles through vendors, reports show traffic and leads, and the firm principal has no idea whether the $15,000 SEO retainer is producing cases or just producing rankings for terms nobody searches. We dig deeper into this gap in [why most law firm marketing reports are fiction](/blog/marketing-reports-fake/).
 
 This is the problem [law firm marketing consulting](/services/) solves. Not by replacing your agencies — by measuring whether they're working.
 
@@ -33,7 +33,7 @@ This is especially relevant in Tampa's [personal injury marketing](https://hughe
 
 ## What I Do for Tampa Law Firms
 
-Working with a Tampa law firm typically starts with an analytics audit: connecting Google Analytics, your CRM, call tracking, and intake data to build a picture of cost per retained client by channel. Most firms have never seen this number. It changes how they allocate budget immediately.
+Working with a Tampa law firm typically starts with an analytics audit: connecting [Google Analytics](https://support.google.com/analytics/answer/10089681), your CRM, call tracking, and intake data to build a picture of [cost per retained client](/blog/cost-per-retained-client-law-firm/) by channel. Most firms have never seen this number. It changes how they allocate budget immediately.
 
 From there, the engagement covers:
 

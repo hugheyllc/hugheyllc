@@ -17,7 +17,7 @@ A law firm marketing consultant in St. Petersburg, FL helps firms cut through an
 
 Most law firm marketing agencies treat Tampa Bay as one homogeneous market. That's a mistake. St. Petersburg has its own courthouse, its own referral networks, and its own search behavior patterns. Someone searching "car accident lawyer St. Pete" is not the same person searching "Tampa personal injury attorney." They want a firm that's local — physically present in downtown St. Pete, familiar with the Pinellas County court system, and embedded in the community.
 
-The competitive landscape here is fierce. Several well-funded PI firms dominate paid search, and national marketing agencies have convinced dozens of local firms that more spend equals more cases. It doesn't. I've seen St. Pete firms spending $15,000 per month on Google Ads with no idea what their actual cost per retained client looks like. That's not marketing — it's hope.
+The competitive landscape here is fierce. Several well-funded PI firms dominate paid search, and national marketing agencies have convinced dozens of local firms that more spend equals more cases. It doesn't. I've seen St. Pete firms spending $15,000 per month on [Google Ads](/blog/google-ads-law-firms/) with no idea what their actual cost per retained client looks like. That's not marketing — it's hope.
 
 If you're running a firm in St. Petersburg and your marketing agency can't tell you your [cost per retained client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/) broken down by channel, you have a strategy problem, not a budget problem.
 
@@ -31,13 +31,13 @@ Here's what that looks like for a St. Petersburg firm:
 
 **Agency accountability.** If you're working with a marketing agency, I audit their work. Are they optimizing for impressions or for intake calls that convert? There's a massive difference, and most agencies report on the former because it makes them look good.
 
-**Intake optimization.** Your marketing can generate all the leads in the world, but if your intake process loses 40% of them — which is common — you're lighting money on fire. I map the full funnel from click to retained client.
+**Intake optimization.** Your marketing can generate all the leads in the world, but if your intake process loses 40% of them — which is common — you're lighting money on fire. I map the full funnel from click to retained client through dedicated [intake process optimization](/services/intake-process-optimization/).
 
 **Local SEO strategy.** St. Petersburg firms need to own their [local search presence](https://hugheyllc.com/blog/local-seo-law-firms/). That means a properly optimized Google Business Profile, consistent NAP data, and content that actually targets St. Pete-specific searches — not generic "Florida personal injury" pages.
 
 ## The Pinellas County Advantage
 
-Operating in Pinellas County gives St. Petersburg firms a built-in differentiator if they use it correctly. The Sixth Judicial Circuit covers both Pinellas and Pasco counties, and understanding how cases flow through this system matters for your marketing. Potential clients searching after an accident on I-275, a family matter filed in the St. Petersburg courthouse, or a business dispute in Pinellas — they all have different intent, different urgency, and different expectations.
+Operating in Pinellas County gives St. Petersburg firms a built-in differentiator if they use it correctly. The Sixth Judicial Circuit covers both Pinellas and Pasco counties, and understanding how cases flow through this system matters for your marketing. Compliance with [Florida Bar advertising rules](https://www.floridabar.org/rules/rrtfb/) is non-negotiable for any St. Pete firm running real campaigns. Potential clients searching after an accident on I-275, a family matter filed in the St. Petersburg courthouse, or a business dispute in Pinellas — they all have different intent, different urgency, and different expectations.
 
 Your marketing should reflect that. Generic content doesn't cut it. Firms that create location-specific, practice-specific content outperform those running the same playbook they'd use in Orlando or Jacksonville. I've written about this dynamic in the broader [Tampa Bay marketing landscape](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/) — St. Pete is the market within the market that most agencies miss.
 

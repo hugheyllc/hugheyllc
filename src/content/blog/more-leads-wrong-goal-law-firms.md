@@ -27,7 +27,7 @@ The answers: 12 conversions, average case value $18,000, and they were settling 
 
 That's a **$625 cost per conversion**. And they were only keeping about 7 of those clients through to resolution. Their real cost per billable client was **$7,140**. They were losing money on their own marketing.
 
-**High lead volume creates systemic problems.** Your intake team can't qualify calls properly because they're buried. High-value prospects get a rushed, impersonal experience. Your callback time stretches. Clients feel deprioritized. Then they go to the firm that answered on the second ring. Meanwhile, you're paying for leads you never had a real shot at closing.
+**High lead volume creates systemic problems.** Your intake team can't qualify calls properly because they're buried. High-value prospects get a rushed, impersonal experience. Your callback time stretches. Clients feel deprioritized. Then they go to the firm that answered on the second ring — see [law firm intake speed](/blog/law-firm-intake-speed/) for why that single variable matters more than most partners realize. Meanwhile, you're paying for leads you never had a real shot at closing.
 
 The firms I see thriving aren't the ones generating the most leads. They're the ones **converting a higher percentage of fewer, better-qualified leads into cases they actually want to take.**
 
@@ -55,11 +55,11 @@ This doesn't happen by accident. You need systems.
 
 This isn't limiting yourself. It's **eliminating the waste that comes from trying to be everything to everyone.** When your marketing targets this profile specifically, your lead cost drops, your conversion rate rises, and your team stays sane.
 
-**Refine your messaging and targeting.** Use long-tail keywords that signal intent and case value. "Slip and fall attorney" is broad and cheap but mostly low-value. "Serious injury from commercial property negligence in Hillsborough County" is specific and attracts serious cases. Geotarget ruthlessly. Set negative keywords to exclude tire-kickers and unrelated practice areas.
+**Refine your messaging and targeting.** Use long-tail keywords that signal intent and case value. "Slip and fall attorney" is broad and cheap but mostly low-value. "Serious injury from commercial property negligence in Hillsborough County" is specific and attracts serious cases. Geotarget ruthlessly. Set [negative keywords](https://support.google.com/google-ads/answer/2453972) to exclude tire-kickers and unrelated practice areas — and see our deeper [law firm negative keyword guide](/blog/law-firm-negative-keywords/) for the lists most firms miss.
 
-**Invest in your intake process.** This is your most important marketing channel, and most firms treat it like a back-office expense. Your intake coordinator is your client acquisition specialist. Train them to ask qualifying questions quickly and tactfully. Use intake software with smart questionnaires. Deploy AI chatbots to handle common intake questions and route conversations intelligently. Free your humans for actual judgment calls.
+**Invest in your intake process.** This is your most important marketing channel, and most firms treat it like a back-office expense. Your intake coordinator is your client acquisition specialist. [Intake process optimization](/services/intake-process-optimization/) often produces a bigger ROI lift than any ad-channel change. Train them to ask qualifying questions quickly and tactfully. Use intake software with smart questionnaires. Deploy AI chatbots to handle common intake questions and route conversations intelligently. Free your humans for actual judgment calls.
 
-**Track cost per client acquired, not cost per lead.** This is the metric that matters. If you're spending $50,000 a month and acquiring 12 new clients, your real marketing cost is $4,166 per client. Now ask: What's the average case value of those 12 clients? What percentage will I actually retain and bill? What's my real profit per client after case costs?
+**Track cost per client acquired, not cost per lead.** This is the metric that matters — what I call [cost per retained client](/blog/cost-per-retained-client-law-firm/). If you're spending $50,000 a month and acquiring 12 new clients, your real marketing cost is $4,166 per client. Now ask: What's the average case value of those 12 clients? What percentage will I actually retain and bill? What's my real profit per client after case costs?
 
 These numbers should inform every dollar you spend on marketing.
 

@@ -21,7 +21,7 @@ I've spent the last several years helping Tampa Bay law firms navigate major sea
 
 The critical distinction: being cited in an AI Overview doesn't necessarily mean traffic. A potential client sees your answer, gets their question answered, and moves on without clicking. This is what keeps some firm owners up at night.
 
-But here's what matters more: **trust and visibility**. Your firm's name, phone number, and expertise appear in front of someone actively searching for legal help in your practice area. Even without an immediate click, you're building brand awareness and establishing authority. In competitive practice areas—family law, personal injury, bankruptcy in the Tampa Bay market—that matters.
+But here's what matters more: **trust and visibility**. Your firm's name, phone number, and expertise appear in front of someone actively searching for legal help in your practice area. Even without an immediate click, you're building brand awareness and establishing authority. In competitive practice areas—family law, personal injury, bankruptcy in the [Tampa Bay market](/location/)—that matters.
 
 ## Optimize Content Structure for AI Extraction
 
@@ -50,7 +50,7 @@ Examples your firm should target:
 
 These long-tail, question-based queries have lower search volume but higher intent. A potential client asking "How much does a DUI cost?" is actively considering hiring a lawyer. And these specific queries are exactly what trigger AI Overviews—Google uses them to synthesize answers from multiple sources.
 
-**Create individual blog posts or FAQ pages targeting 8–15 of these high-intent questions** in your primary practice areas. A solo bankruptcy firm with 12 solid posts targeting specific bankruptcy scenarios will outperform a larger firm with 200 generic pages about bankruptcy law.
+**Create individual blog posts or FAQ pages targeting 8–15 of these high-intent questions** in your primary practice areas. A solo bankruptcy firm with 12 solid posts targeting specific bankruptcy scenarios will outperform a larger firm with 200 generic pages about bankruptcy law. (For the underlying topic discovery process, see our [law firm keyword research guide](/blog/lawyer-keyword-research/).)
 
 ## Establish E-E-A-T Signals Google's Systems Recognize
 
@@ -58,7 +58,7 @@ Google's AI systems evaluate **expertise, experience, authoritativeness, and tru
 
 **Author bylines matter**. Every blog post and FAQ should clearly attribute the content to a specific attorney, ideally with credentials: "Written by Sarah Chen, Board-Certified Bankruptcy Attorney, 12 years in practice." This simple addition signals to Google that a licensed professional created the content, not an AI writing tool.
 
-**Link to your bar registration and professional credentials**. A link to your Florida Bar profile or a board certification from the American Bankruptcy Institute reinforces that you're a real, vetted expert. This isn't just good for SEO—it builds trust with human readers too.
+**Link to your bar registration and professional credentials**. A link to your [Florida Bar](https://www.floridabar.org) profile or a board certification from the American Bankruptcy Institute reinforces that you're a real, vetted expert. This isn't just good for SEO—it builds trust with human readers too. Using structured data — see [schema.org/Attorney](https://schema.org/Attorney) — to mark up bios and credentials makes those signals easier for AI systems to read.
 
 **Cite primary legal sources** in your content. Reference specific statutes, Florida court rules, or recent case law. Example: "Under Florida Statute 61.13, custody orders must serve the best interests of the child." This grounds your content in real legal authority and makes it more likely Google will view your page as authoritative.
 
@@ -74,7 +74,7 @@ This matters most for early-stage information queries. A potential client asking
 
 ## Monitor AI Overview Performance and Adapt
 
-AI Overviews are still new, and Google is actively refining how they work. **Track which of your pages appear in AI Overviews** using Google Search Console and manual searches for your target keywords. You won't get a dashboard report (yet), but you can see where your content is being cited.
+AI Overviews are still new, and Google is actively refining how they work. **Track which of your pages appear in AI Overviews** using [Google Search Console](https://search.google.com/search-console/about) and manual searches for your target keywords. You won't get a dashboard report (yet), but you can see where your content is being cited.
 
 When a page consistently appears in AI Overviews, ask yourself: Is it driving clicks? Is it leading to phone calls? If not, consider whether that page needs revision. Maybe the answer you're providing is too complete, and you need to add friction by raising follow-up questions that encourage a click. Maybe you need to emphasize how your firm's specific experience or fees differ from the generic answer Google is providing.
 

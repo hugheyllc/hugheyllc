@@ -29,11 +29,11 @@ When I say "integration," I don't mean a complicated engineering project. I mean
 
 Here's the stack I recommend for most law firms doing $1 million to $10 million in annual revenue:
 
-**CallRail or WhatConverts** handles inbound calls. It assigns unique phone numbers to different traffic sources (paid search, organic search, Facebook, direct mail). Every call gets recorded and tagged with the source that drove it. Cost: $200–$500/month depending on call volume.
+**[CallRail](https://www.callrail.com) or WhatConverts** handles inbound calls. It assigns unique phone numbers to different traffic sources (paid search, organic search, Facebook, direct mail). Every call gets recorded and tagged with the source that drove it. Cost: $200–$500/month depending on call volume. (Our [CallRail setup guide for law firms](/blog/callrail-law-firm-setup-guide/) walks through configuration.)
 
-**Lawmatics or Clio Grow** is your intake hub. It captures leads from your website forms, email, phone, and chat. It tracks lead status, notes from intake calls, and whether that lead ultimately became a retained client. Cost: $300–$1,200/month depending on firm size.
+**[Lawmatics or Clio Grow](/blog/lawmatics-vs-clio-grow/)** is your intake hub. It captures leads from your website forms, email, phone, and chat. It tracks lead status, notes from intake calls, and whether that lead ultimately became a retained client. Cost: $300–$1,200/month depending on firm size.
 
-**Google Analytics 4** tracks everything that happens on your website—page views, form submissions, time on site, which traffic sources visit which pages. Modern GA4 integrates with your CRM and ad platforms. Cost: Free.
+**[Google Analytics 4](https://support.google.com/analytics/answer/10089681)** tracks everything that happens on your website—page views, form submissions, time on site, which traffic sources visit which pages. Modern GA4 integrates with your CRM and ad platforms. Cost: Free. (Our [GA4 setup guide for law firms](/blog/ga4-setup-law-firm-guide/) covers the exact configuration steps.)
 
 **Looker Studio or Power BI** pulls data from all three sources and builds live dashboards so you can see, in real time, which campaigns drive qualified leads and retained clients. Cost: Free to $500/month.
 
@@ -102,7 +102,7 @@ When your CRM, call system, and analytics are connected, your intake staff gets 
 
 When leads who fill out your form see instant follow-up texts and emails triggered by their behavior (not generic nurture sequences), they answer faster and convert at higher rates. The client experience improves because communication becomes relevant instead of generic.
 
-This is why I don't view marketing integration as a "nice to have" for mature firms. It's a **foundation for growth**, no matter what size you are. The firms that figure this out first gain a compounding advantage: better data, better decisions, better clients, better service, higher profits. The firms that don't will keep wondering why their marketing spend doesn't match their results.
+This is why I don't view marketing integration as a "nice to have" for mature firms. It's a **foundation for growth**, no matter what size you are — and the discipline behind our [intake process optimization](/services/intake-process-optimization/) engagements. The firms that figure this out first gain a compounding advantage: better data, better decisions, better clients, better service, higher profits. The firms that don't will keep wondering why their marketing spend doesn't match their results.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 

@@ -21,33 +21,33 @@ The payoff is twofold: better semantic understanding of your pages (supporting r
 
 ### LegalService Schema
 
-[LegalService](/blog/) is the primary schema type for practice area pages. It tells Google explicitly what type of legal service is offered, who provides it, and where it's available. A complete implementation for a Tampa personal injury page includes name, description, URL, telephone, address with geographic coordinates, areaServed listing your cities, and serviceType.
+[LegalService](https://schema.org/LegalService) is the primary schema type for practice area pages. It tells Google explicitly what type of legal service is offered, who provides it, and where it's available. A complete implementation for a Tampa personal injury page includes name, description, URL, telephone, address with geographic coordinates, areaServed listing your cities, and serviceType.
 
 ### LocalBusiness Schema on the Homepage
 
-Your homepage should implement [LocalBusiness schema](/blog/) (Attorney type) to establish your firm's identity and location for Google's local knowledge graph. This schema supports both organic rankings and your [Google Business Profile](/blog/) signals when data is consistent. Critical fields: name, address (matching your GBP exactly), phone, URL, opening hours, and geo coordinates.
+Your homepage should implement [LocalBusiness schema](https://schema.org/Attorney) (Attorney type) to establish your firm's identity and location for Google's local knowledge graph. This schema supports both organic rankings and your [Google Business Profile](/blog/law-firm-google-business-profile/) signals when data is consistent. Critical fields: name, address (matching your GBP exactly), phone, URL, opening hours, and geo coordinates.
 
 ### FAQPage Schema
 
-[FAQPage schema](/blog/) enables rich results where Q&A pairs from your page appear directly in search results, expanding your SERP presence without requiring additional rankings. For law firm practice area pages with FAQ sections, this schema can double your effective SERP real estate. Questions should target the "People Also Ask" queries that appear for your primary keywords.
+[FAQPage schema](https://schema.org/FAQPage) enables rich results where Q&A pairs from your page appear directly in search results, expanding your SERP presence without requiring additional rankings. For law firm practice area pages with FAQ sections, this schema can double your effective SERP real estate. Questions should target the "People Also Ask" queries that appear for your primary keywords.
 
 ### Person Schema for Attorney Bio Pages
 
-[Person schema](/blog/) on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/). Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
+[Person schema](https://schema.org/Person) on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/). Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
 
 ### Article Schema for Blog Content
 
-[Article schema](/blog/) on blog posts establishes the author, publication date, and organization. Combined with attorney author bylines and Person schema on bio pages, this creates a connected web of E-E-A-T signals Google's quality systems can parse explicitly.
+[Article schema](https://schema.org/Article) on blog posts establishes the author, publication date, and organization. Combined with attorney author bylines and Person schema on bio pages, this creates a connected web of E-E-A-T signals Google's quality systems can parse explicitly.
 
 ## How to Implement Schema Markup
 
-The cleanest approach is JSON-LD — a block of schema code added to the page's HTML head section. For sites on [Astro](/blog/) or [Next.js](/blog/), schema can be implemented as a component that accepts page-specific data and renders the correct JSON-LD block consistently across all pages of the same type.
+The cleanest approach is JSON-LD — a block of schema code added to the page's HTML head section. For sites on [Astro](https://astro.build) or [Next.js](https://nextjs.org), schema can be implemented as a component that accepts page-specific data and renders the correct JSON-LD block consistently across all pages of the same type.
 
-After implementation, validate using [Google's Rich Results Test](/blog/) and the [Schema.org Validator](/blog/). Errors prevent Google from using schema for rich results and can negate the ranking benefit.
+After implementation, validate using [Google's Rich Results Test](https://search.google.com/test/rich-results) and the [Schema.org Validator](https://validator.schema.org). Errors prevent Google from using schema for rich results and can negate the ranking benefit.
 
 ## Monitoring in Search Console
 
-Once implemented, monitor in [Google Search Console](/blog/) under Enhancements. Search Console reports whether Google is successfully parsing your schema, any errors needing correction, and which pages have valid rich result eligibility — part of the monthly [SEO audit routine](/blog/).
+Once implemented, monitor in Google Search Console under Enhancements. Search Console reports whether Google is successfully parsing your schema, any errors needing correction, and which pages have valid rich result eligibility — part of the monthly [SEO audit routine](/resources/marketing-audit-checklist/).
 
 ## Why Most Law Firms Skip Schema (And Why They Shouldn't)
 
@@ -92,7 +92,7 @@ When schema is implemented, I regularly see errors that undermine the work:
 
 **Mismatched data across schema types.** Your LocalBusiness schema says your address is "123 Main Street, Tampa, FL 33602." Your LegalService schema says "123 Main St, Tampa, Florida 33602." Google can reconcile minor variations, but inconsistency creates doubt and can prevent rich result eligibility. Use a master data document and enforce consistency across every schema implementation.
 
-**Missing or incorrect coordinates.** If your schema includes geographic data, coordinates must be accurate. Use [Google Maps](/blog/) to find your exact latitude/longitude and verify it points to your actual address. Incorrect geo data can hurt local rankings.
+**Missing or incorrect coordinates.** If your schema includes geographic data, coordinates must be accurate. Use [Google Maps](https://www.google.com/maps) to find your exact latitude/longitude and verify it points to your actual address. Incorrect geo data can hurt local rankings.
 
 **FAQPage schema with generic questions.** If your FAQ section has questions like "What is personal injury law?" instead of "How much is my personal injury case worth in Florida?", the schema isn't supporting your actual keyword targets. Build FAQs from real search data and client questions, then mark them up with schema.
 
@@ -100,13 +100,13 @@ When schema is implemented, I regularly see errors that undermine the work:
 
 **Outdated schema that conflicts with new content.** If you rebuild a practice area page or update attorney bios, make sure the schema is updated too. Stale schema that doesn't match the visible content creates trust issues with Google's crawlers.
 
-Most of these errors are caught by [Google's Rich Results Test](/blog/), which I run on every client implementation before it goes live.
+Most of these errors are caught by [Google's Rich Results Test](https://search.google.com/test/rich-results), which I run on every client implementation before it goes live.
 
 ## Building Schema Into Your Development Workflow
 
 The most sustainable approach is to **embed schema generation into your site's build process**, not treat it as a bolt-on after launch.
 
-If you're building on [Astro](/blog/) or [Next.js](/blog/), create a schema component that accepts a data object (name, address, areaServed, attorneys, etc.) and renders the correct JSON-LD block. For a practice area page, that component might look like:
+If you're building on [Astro](https://astro.build) or [Next.js](https://nextjs.org), create a schema component that accepts a data object (name, address, areaServed, attorneys, etc.) and renders the correct JSON-LD block. For a practice area page, that component might look like:
 
 ```
 <LegalServiceSchema
@@ -138,7 +138,7 @@ Schema markup is one of the technical implementations we include in every law fi
 
 **Missing schema markup on your law firm website?** We implement the complete schema stack as part of every technical SEO engagement.
 
-[Add Schema Markup to My Site →](/blog/)
+[Add Schema Markup to My Site →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
