@@ -3,105 +3,107 @@ title: "The Negative Keyword List Every Law Firm Google Ads Account Needs"
 slug: "law-firm-negative-keywords"
 date: 2026-06-02
 author: "Joe Hughey"
-excerpt: "I've audited over 80 law firm Google Ads accounts in the past three years. The most common waste of budget? Showing ads for searches that will never convert bec"
+excerpt: "Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Negative keywords are the fix — and most accounts don't have nearly enough of them."
 tags: ["google-ads", "law-firm-marketing", "ppc"]
 seo_title: "The Negative Keyword List Every Law Firm Google Ads Account Needs"
-seo_description: "I've audited over 80 law firm Google Ads accounts in the past three years. The most common waste of budget? Showing ads for searches that will never conver"
+seo_description: "Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Here's how to build a negative keyword list that actually cuts waste."
 draft: false
 image: "/images/blog/law-firm-negative-keywords.jpg"
 ---
 
 ## The Negative Keyword List Every Law Firm Google Ads Account Needs
 
-I've audited over 80 law firm Google Ads accounts in the past three years. The most common waste of budget? Showing ads for searches that will never convert because they'll never become clients.
+Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Not because the ads are bad. Not because the targeting is wrong. Because there are no guardrails on what searches *won't* trigger the ads.
 
-Negative keywords aren't sexy. They don't appear in your account performance dashboard as a line item. But they're the difference between a 3.2% conversion rate and a 6.8% conversion rate—and I've seen exactly that spread in firms that took this seriously versus those that didn't.
+Negative keywords solve this. A negative keyword prevents your ad from showing when someone includes that term in their search. It's traffic prevention, not traffic generation — and for law firms running on finite budgets, it's one of the highest-ROI moves you can make.
 
-Here's what you need to know: **a negative keyword prevents your ad from showing when someone searches that term**. It's traffic prevention, not traffic generation. And for law firms, it's critical because your budget is finite and your qualified leads are expensive.
+Here's what to add and why.
 
-## Start With Searches You'll Never Take
+## Searches Outside Your Practice Areas
 
-The first category of negative keywords should be obvious: practice areas you don't handle.
+The first category is straightforward: any practice area you don't handle.
 
-If you're a family law firm in Tampa and you practice divorce, custody, and mediation—but not adoption—you need `-adoption` as a negative keyword. Same for `-bankruptcy` if you're not licensed in that area, or `-DUI defense` if criminal isn't your practice.
+If you're a family law firm focusing on divorce and custody, add negatives for practice areas you don't touch: `-bankruptcy`, `-DUI`, `-personal injury`, `-immigration`. If you do personal injury but not medical malpractice, add `-medical malpractice` and `-med mal` explicitly.
 
-I worked with a personal injury firm in Atlanta that was getting clicked by people searching "personal injury lawyer for medical malpractice." They weren't licensed to handle med mal claims. That search was burning through budget at a 0% conversion rate. Once we added `-medical malpractice` and `-med mal`, their CPC dropped by 18% because the account volume got leaner and the remaining traffic was actually qualified.
+These searches aren't ambiguous — someone who needs a criminal defense attorney and finds a family law firm is not going to hire that firm. Every click is wasted spend at a conversion rate that rounds to zero.
 
-Don't assume your account manager caught this. Ask them explicitly: "What searches are we appearing for that are outside our practice areas?" Then add negatives for every single one.
+The mistake I see consistently: firms assume Google's broad match will figure this out. It doesn't. Broad match expands aggressively. Without explicit negatives, you will show up for practice areas you don't serve.
 
-## Geographic Searches You Can't Serve
+## Geographic Negatives
 
-Law is geography-dependent. If you're licensed to practice in Florida but someone in Arizona is searching for your services, that's wasted spend.
+Law is jurisdiction-specific. If you're licensed in Florida and you're pulling clicks from Georgia searches, that's dead budget.
 
-Many firms underestimate how much national traffic they pull on Google Ads. A criminal defense firm in Nashville told me they were getting 12–15% of their clicks from people outside Tennessee. Some of those out-of-state searches came from people with cases in Nashville (relocating, business matters, etc.)—so you can't negate *all* out-of-state traffic. But you can negate the ones that don't make sense.
+Watch for:
+- Out-of-state city modifiers (e.g., `-Atlanta lawyer` if you serve Tampa)
+- `-virtual consultation` or `-online attorney` if you require in-person representation
+- National modifiers like `-nationwide` when your practice is local
 
-Set up negatives like:
-- `-lawyer near me` (paired with location targeting, this limits you to your service areas)
-- `-[competitor city name]` (e.g., `-Miami lawyer` if you're in Tampa and don't serve Miami)
-- `-virtual consultation` if you require in-person meetings (blocks people searching "online divorce lawyer")
+Check your search terms report filtered by geography. In most accounts I audit, 10–20% of spend is going to searches that don't match the firm's actual service area. That's typically the first thing I cut.
 
-One firm I consulted with was getting searches from people in Canada. They added `-Canada`, `-Ontario`, `-British Columbia` as negatives and reclaimed about 8% of monthly spend that was going nowhere.
+## Bargain-Hunting Traffic
 
-## Bargain-Hunting Searches
+People searching for "cheap," "free," or "affordable" legal services are price-shopping. They're not evaluating your expertise — they're evaluating your rate card against their budget.
 
-People searching for "free," "cheap," or "low cost" legal services aren't your clients—they're price shoppers who will never hire you at your rates.
-
-Add these as negatives:
+Standard negatives to add:
 - `-free`
 - `-cheap`
 - `-affordable`
 - `-low cost`
 - `-budget`
-
-I know what you're thinking: "Aren't we affordable?" Maybe. But someone Googling "cheap divorce lawyer" is making a different buying decision than someone searching "divorce attorney." The first is optimizing for cost; the second is optimizing for expertise. Your ads are designed to appeal to the latter.
-
-A family law firm in Austin was getting 40–50 clicks per month on "affordable divorce." Their conversion rate on that traffic: 0.4%. After adding `-affordable` as a negative, they freed up about $800/month in budget and reallocated it to higher-intent searches like "divorce attorney Austin" (which converted at 4.8%). Their overall cost per lead dropped by 22%.
-
-## Non-Client Searches and Research Queries
-
-People searching for general legal information, law school advice, or how-to articles aren't hiring you. They're doing research.
-
-Common culprits:
-- `-law school`
-- `-how to file`
-- `-DIY` or `-do it yourself`
-- `-legal aid` (people looking for free services)
 - `-pro bono`
+- `-legal aid`
 
-One employment law firm was showing up for "how to file an EEOC complaint." These searchers weren't hiring a lawyer; they were looking for self-help resources. The firm's conversion rate on that traffic was 0.1%. After adding these as negatives, their cost per lead dropped 31% because they stopped paying for people who had no intention to hire.
+This one is counterintuitive if your firm actually offers competitive rates. But the buyer intent is different. Someone searching "affordable divorce lawyer" is making a different decision than someone searching "divorce attorney Tampa." The first is optimizing for price; the second is optimizing for capability. Your Google Ads should target the second group.
 
-## Job Seekers and Industry Professionals
+## Research and Self-Help Queries
 
-If you're getting clicks from people searching "law firm jobs," "legal careers," or "paralegal jobs," they're not looking for legal services—they're looking to work for you.
+A significant portion of legal search volume is people who are not going to hire anyone. They're doing research, looking for DIY guidance, or figuring out if they even have a case.
 
-Add negatives like:
+Add negatives for:
+- `-how to file`
+- `-how to sue`
+- `-self-represent`
+- `-pro se`
+- `-legal forms`
+- `-templates`
+- `-DIY`
+- `-small claims` (if you don't handle small claims)
+
+These searchers have already decided not to hire a lawyer — or haven't decided yet and aren't ready to. Either way, paying for that click is not going to produce a retained client.
+
+## Job Seekers
+
+Your Google Ads are targeting people who need legal services. Job seekers are not that. But without negatives, you'll show up for searches like "law firm jobs near me" or "paralegal positions" — especially if you're using broad or phrase match keywords.
+
+Add:
 - `-jobs`
 - `-careers`
 - `-hiring`
-- `-paralegal jobs`
-- `-legal assistant`
+- `-paralegal`
+- `-legal assistant jobs`
+- `-law clerk`
+- `-summer associate`
 
-A civil litigation firm was shocked to learn they were getting 8–10 clicks per month on "law firm jobs near me." Zero conversions. Ever. Those were job seekers, not clients. That was dead budget.
+This isn't a volume issue — it's a waste issue. Every click from a job seeker is money spent on someone who, by definition, is not your customer.
 
-## The Competitor Trap
+## Competitor Brand Names
 
-This one's subtle. If you're bidding on your own brand name, you might also be bidding on competitor brand names. That's sometimes smart for remarketing, but it tanks conversion rates when you're trying to build general brand awareness.
+If you're running broad or phrase match, you may be showing up when people search your competitors by name. That traffic has intent — it's just not intent to find you.
 
-If someone searches "Smith & Jones law firm" and your ad shows up (because you bid on that keyword), you're not converting them to a new client—you're just annoying them. Add negatives for competitors' brand names:
-- `-[competitor name]`
-- `-[competitor name] reviews`
-- `-[competitor name] attorney`
+Export your search terms report and look for competitor names appearing. Add them as negatives. You're not going to convert someone who is specifically searching for another firm by name.
 
-## How to Build Your Negative List
+The exception: if you're running a deliberate conquest campaign against a specific competitor, that's a different strategy. But that should be a conscious decision, not an accident.
 
-**Start here**: Export your search terms report from Google Ads for the past 60–90 days. Sort by lowest conversion rate. Anything converting below 1% is a candidate for a negative keyword.
+## How to Build and Maintain the List
 
-**Be specific**: Use phrase negatives (`"free consultation"`) and exact negatives (`[bankruptcy]`) strategically. Exact negatives block only exact matches; phrase negatives block that phrase plus variations.
+**Step one:** Export your search terms report for the past 90 days. Sort by lowest conversion rate. Any term converting below 1% that has meaningful volume is a candidate for a negative.
 
-**Review quarterly**: Add 15–20 new negatives per quarter based on actual search data. Don't guess. Look at what's actually happening in your account.
+**Step two:** Add negatives at the campaign level for terms that should never trigger any of your ads, and at the ad group level for terms that are relevant to some campaigns but not others.
 
-A personal injury firm I worked with built a negative keyword list of 340+ terms over 18 months. Their cost per lead dropped from $67 to $41. Same ad spend, better traffic. That's what a locked-down negative list does.
+**Step three:** Use phrase match negatives (`"free consultation"`) to block that phrase and its close variants. Use exact match negatives (`[bankruptcy attorney]`) to block only that specific search.
 
-The firms that treat negative keywords as a set-it-and-forget-it checklist miss the real opportunity. The firms that review their search terms monthly and add negatives based on actual performance—those are the ones seeing their conversion rates climb while their cost per lead falls.
+**Step four:** Review quarterly. Search behavior shifts. New low-intent patterns emerge. A negative keyword list is a living document, not a one-time setup.
 
-Start today. Pull your search terms report. Find the 20 worst performers. Negate them. You'll see the shift in your next billing cycle.
+The accounts that perform best have 200–400+ negative keywords built up over 12–18 months of consistent review. That's not a number you hit on day one — it's the result of a disciplined process of reviewing what's actually happening in the account and removing what doesn't belong.
+
+The math is simple: if you cut 20% of spend going to searches that never convert, and reinvest that budget into searches that do, your cost per retained client drops without increasing total spend. That's the outcome a well-maintained negative keyword list delivers.
