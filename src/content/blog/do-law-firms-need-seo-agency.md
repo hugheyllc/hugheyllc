@@ -27,11 +27,11 @@ The difference isn't the agency. It's the foundation.
 
 ## When You Probably Don't Need an SEO Agency (Yet)
 
-**Your website has significant technical problems.** If your [mobile PageSpeed score](/blog/) is below 60, your site has crawl errors in [Google Search Console](/blog/), or your [Core Web Vitals](/blog/) are failing, content investment will underperform until those issues are fixed. See our [law firm SEO audit guide](/blog/).
+**Your website has significant technical problems.** If your mobile PageSpeed score is below 60, your site has crawl errors in [Google Search Console](https://search.google.com/search-console/about), or your Core Web Vitals are failing, content investment will underperform until those issues are fixed. See our [marketing audit checklist](/resources/marketing-audit-checklist/) for the self-assessment most firms skip.
 
 More specifically: if your site takes 4+ seconds to load on a 4G connection, or if Google Search Console shows "Excluded" URLs because of redirect chains or duplicate content, you're burning money the moment you hire someone to write blog posts. A developer needs to fix these first. This is usually a one-time project ($2,000–$8,000 depending on complexity), not an ongoing retainer.
 
-**You don't have conversion tracking in place.** Without [call tracking](/blog/) and [GA4 conversion events](/blog/) connected to your intake CRM, you'll have no way to measure whether the SEO work is generating cases. Build the [attribution stack](/blog/) first.
+**You don't have conversion tracking in place.** Without [call tracking](/blog/callrail-law-firm-setup-guide/) and [GA4 conversion events](/blog/ga4-setup-law-firm-guide/) connected to your intake CRM, you'll have no way to measure whether the SEO work is generating cases. Build the [attribution stack](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/) first.
 
 I can't overstate this one. I've worked with firms that hired an SEO agency, got rankings, got clicks, and then couldn't tell whether those clicks turned into retainers because no one was tracking the connection between a website visit and an actual case. This creates two problems: (1) you can't tell if the SEO is working, so you don't know whether to keep investing, and (2) the agency can't optimize toward better results because they're flying blind too.
 
@@ -57,7 +57,7 @@ Not all SEO help is the same. For most law firms, the need breaks into three dis
 
 - **Attribution and reporting infrastructure** — connecting marketing platforms to intake data. Technical integration work that most agencies don't do.
 
-Our [complete law firm SEO guide](/blog/) walks through each layer in detail.
+Our guide on [E-E-A-T for law firm SEO](/blog/eeat-law-firm-seo/) walks through the authority layer in detail, and Google's own [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) covers the on-page fundamentals.
 
 Most firms need all three, but in sequence. If you hire an SEO content agency before fixing your site speed or implementing call tracking, you're working with incomplete information and incomplete infrastructure. The work will eventually pay off, but you're leaving money on the table in year one.
 
@@ -94,7 +94,7 @@ Often that investment isn't SEO. Sometimes it's a website redesign. Sometimes it
 
 **Not sure what your firm actually needs?** We'll audit your current marketing setup and give you a clear, honest answer — no obligation, no pitch.
 
-[Get an Honest Marketing Assessment →](/blog/)
+[Get an Honest Marketing Assessment →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

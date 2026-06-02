@@ -11,13 +11,13 @@ draft: false
 image: "/images/blog/florida-bar-law-firm-advertising-rules.jpg"
 ---
 
-Digital marketing for law firms in Florida operates under a specific regulatory overlay that doesn't apply to other industries. The [Florida Rules of Professional Conduct](/blog/), specifically Rules 4-7.11 through 4-7.23, govern attorney advertising in ways that directly affect websites, Google Ads, social media, and review management.
+Digital marketing for law firms in Florida operates under a specific regulatory overlay that doesn't apply to other industries. The [Florida Rules of Professional Conduct](https://www.floridabar.org/rules/rrtfb/), specifically Rules 4-7.11 through 4-7.23, govern attorney advertising in ways that directly affect websites, Google Ads, social media, and review management.
 
 A bar complaint arising from a marketing misstep can be more damaging than any marketing failure — and with Florida's relatively active advertising enforcement posture, the risk is real. This is what Tampa law firms need to know before investing in digital marketing.
 
 ## The Core Principle: Advertising Cannot Be Misleading
 
-[Rule 4-7.13](/blog/) prohibits advertising that contains a material misrepresentation of fact or law, omits information necessary to prevent the advertising from being misleading, creates unjustified expectations, or is likely to cause a reasonable prospective client to form a mistaken belief.
+[Rule 4-7.13](https://www.floridabar.org/rules/rrtfb/) prohibits advertising that contains a material misrepresentation of fact or law, omits information necessary to prevent the advertising from being misleading, creates unjustified expectations, or is likely to cause a reasonable prospective client to form a mistaken belief.
 
 For digital marketing: case results must be accurate; superlatives require substantiation; claiming to "specialize" in a practice area is only permitted if you have Florida Bar certification to support it.
 
@@ -27,7 +27,7 @@ The bar takes this seriously. In recent years, the Florida Bar has issued public
 
 ## Website Content Requirements
 
-Under [Rule 4-7.12](/blog/), law firm websites must identify the managing attorney or firm name, disclose the principal office location (city and state), and if advertising in multiple states but licensed in only some, must disclose the states where attorneys are licensed. Florida also requires that websites not imply attorneys are specialists or experts unless they hold Florida Bar board certification in the relevant specialty area ([Rule 4-7.17](/blog/)).
+Under [Rule 4-7.12](https://www.floridabar.org/rules/rrtfb/), law firm websites must identify the managing attorney or firm name, disclose the principal office location (city and state), and if advertising in multiple states but licensed in only some, must disclose the states where attorneys are licensed. Florida also requires that websites not imply attorneys are specialists or experts unless they hold Florida Bar board certification in the relevant specialty area ([Rule 4-7.17](https://www.floridabar.org/rules/rrtfb/)).
 
 **What this actually means on your site:**
 
@@ -49,9 +49,9 @@ If an attorney doesn't hold the certification, don't use those words. Many Tampa
 
 ## Testimonials, Reviews, and Client Endorsements
 
-[Rule 4-7.14](/blog/) permits testimonials but requires they not create unjustified expectations. A testimonial saying "Attorney Smith got me a huge settlement" creates an expectation of a similar outcome — problematic. A testimonial about communication, responsiveness, and professionalism is generally permissible. Any testimonial about case outcomes should be accompanied by a disclaimer noting past results do not guarantee similar outcomes.
+[Rule 4-7.14](https://www.floridabar.org/rules/rrtfb/) permits testimonials but requires they not create unjustified expectations. A testimonial saying "Attorney Smith got me a huge settlement" creates an expectation of a similar outcome — problematic. A testimonial about communication, responsiveness, and professionalism is generally permissible. Any testimonial about case outcomes should be accompanied by a disclaimer noting past results do not guarantee similar outcomes.
 
-For [Google reviews](/blog/), the Florida Bar's position is that reviews on third-party platforms are the expression of the client, not the attorney — and are therefore not subject to the advertising rules in the same way. However, the bar does caution attorneys not to encourage reviewers to make claims that would be improper if the attorney made them directly.
+For [Google reviews](https://support.google.com/business/answer/3474122), the Florida Bar's position is that reviews on third-party platforms are the expression of the client, not the attorney — and are therefore not subject to the advertising rules in the same way. However, the bar does caution attorneys not to encourage reviewers to make claims that would be improper if the attorney made them directly.
 
 **Testimonials in practice:** If you have a client willing to go on video saying "I got a $200,000 settlement," pair it with a clear, visible disclaimer: "Past results do not guarantee future outcomes" or "Results depend on the specific facts and circumstances of each case." A short testimonial focused on the client experience — "The team was responsive, kept me informed, and handled everything professionally" — requires no disclaimer because it makes no outcome claims.
 
@@ -59,7 +59,7 @@ For [Google reviews](/blog/), the Florida Bar's position is that reviews on thir
 
 ## Google Ads and Paid Search
 
-Paid advertising is considered attorney advertising and subject to the same rules. Specific considerations for [law firm PPC campaigns](/blog/): ad copy must not make claims prohibited in other advertising formats; "No fee unless you win" claims must accurately reflect your fee arrangement; and lead generation services claiming the firm specializes in an area it doesn't must be scrutinized.
+Paid advertising is considered attorney advertising and subject to the same rules. Specific considerations for [law firm PPC campaigns](/blog/google-ads-law-firms/): ad copy must not make claims prohibited in other advertising formats; "No fee unless you win" claims must accurately reflect your fee arrangement; and lead generation services claiming the firm specializes in an area it doesn't must be scrutinized.
 
 **Ad copy compliance:** Your Google Ads headline should not claim "$2.1 Million Average Settlement" unless that's a carefully documented, accurate figure. Many firms overstate results in paid ads because they think the format is casual. It's not. The bar treats paid search ads the same as website content.
 
@@ -69,7 +69,7 @@ Paid advertising is considered attorney advertising and subject to the same rule
 
 ## Response to Negative Reviews: What the Bar Permits
 
-Attorneys wanting to provide context in negative review responses can violate confidentiality obligations under [Rule 4-1.6](/blog/). The safe approach: acknowledge the concern, express willingness to discuss it privately, and invite the reviewer to contact you — without confirming, denying, or providing details about any representation.
+Attorneys wanting to provide context in negative review responses can violate confidentiality obligations under [Rule 4-1.6](https://www.floridabar.org/rules/rrtfb/). The safe approach: acknowledge the concern, express willingness to discuss it privately, and invite the reviewer to contact you — without confirming, denying, or providing details about any representation.
 
 **Example compliant response:**
 
@@ -97,7 +97,7 @@ I've reviewed dozens of Tampa Bay law firm websites and ad campaigns. The same e
 
 ## Where to Get Definitive Guidance
 
-The [Florida Bar's Ethics Counsel](/blog/) provides advisory opinions to Florida attorneys at no charge. For any significant marketing investment, an ethics opinion on the proposed advertising is low-cost insurance against a bar complaint.
+The [Florida Bar's Ethics Counsel](https://www.floridabar.org) provides advisory opinions to Florida attorneys at no charge. For any significant marketing investment, an ethics opinion on the proposed advertising is low-cost insurance against a bar complaint.
 
 If you're investing $5,000 or more in a new campaign — a website redesign, video testimonial production, a six-month paid search campaign — it's worth requesting a formal ethics opinion. You submit the proposed advertising, the bar reviews it against Rules 4-7.11 through 4-7.23, and issues a written opinion. The process typically takes 2–4 weeks and costs nothing. That opinion becomes your documentation that you made a good-faith compliance effort if any question arises later.
 
@@ -122,7 +122,7 @@ One more consideration: if you're working with a marketing agency or freelance c
 
 **Want marketing that's both effective and bar-compliant?** We build Florida law firm marketing with the rules built in — not as an afterthought.
 
-[Let's Talk About Your Marketing →](/blog/)
+[Let's Talk About Your Marketing →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

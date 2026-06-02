@@ -25,19 +25,19 @@ Research consistently shows that the Local Pack captures a disproportionate shar
 
 ## What Top-Ranked Tampa Firms Have in Common
 
-**Review velocity, not just review count.** Firms at the top don't always have the most total reviews — they have the most recent reviews. A firm with 200 reviews and none in the last 90 days will often rank below a firm with 60 reviews and 15 in the last 30 days. Review generation has to be systematic and ongoing. Full framework: [Google Business Profile guide](/blog/).
+**Review velocity, not just review count.** Firms at the top don't always have the most total reviews — they have the most recent reviews. A firm with 200 reviews and none in the last 90 days will often rank below a firm with 60 reviews and 15 in the last 30 days. Review generation has to be systematic and ongoing. Full framework: [Google Business Profile guide](/blog/law-firm-google-business-profile/).
 
-**Complete, active Google Business Profiles.** Full business description with primary keywords and Tampa geographic references, specific practice area categories, all services listed, photos updated within 90 days, and Google Posts published weekly.
+**Complete, active [Google Business Profiles](/blog/law-firm-google-business-profile/).** Full business description with primary keywords and Tampa geographic references, specific practice area categories, all services listed, photos updated within 90 days, and [Google Posts](https://support.google.com/business/answer/3038177) published weekly.
 
-**Citation consistency across directories.** NAP must be letter-perfect across [Avvo](/blog/), [Martindale](/blog/), [Justia](/blog/), Yelp, Apple Maps, and the full directory landscape. Full framework: [local SEO guide](/blog/).
+**Citation consistency across directories.** NAP must be letter-perfect across [Avvo](https://www.avvo.com), [Martindale](https://www.martindale.com), [Justia](https://www.justia.com), Yelp, Apple Maps, and the full directory landscape. Full framework: [local SEO guide](/blog/local-seo-law-firms/).
 
-**Website with strong local signals.** Tampa-specific content, [LocalBusiness and LegalService schema](/blog/), consistent NAP in the footer, Google Maps embed on the contact page.
+**Website with strong local signals.** Tampa-specific content, [LocalBusiness and LegalService schema](https://developers.google.com/search/docs/appearance/structured-data/local-business), consistent NAP in the footer, Google Maps embed on the contact page. See our [law firm schema markup guide](/blog/law-firm-schema-markup/) for implementation details.
 
 ## The Tactics That Move the Needle Fastest in Tampa
 
 - **GBP audit and complete optimization** — thorough review and update of your GBP often produces ranking movement within 4–6 weeks. The single fastest-impact local SEO action available.
 
-- **Review generation system implementation** — connect a review request sequence to your post-matter workflow in [Lawmatics](/blog/) or [Clio Grow](/blog/) so review velocity becomes automatic.
+- **Review generation system implementation** — connect a review request sequence to your post-matter workflow in [Lawmatics](https://www.lawmatics.com) or [Clio Grow](https://www.clio.com/grow/) so review velocity becomes automatic.
 
 - **Citation audit and cleanup** — fix any NAP inconsistencies. The least glamorous task; produces the most sustained ranking impact.
 
@@ -48,7 +48,7 @@ Research consistently shows that the Local Pack captures a disproportionate shar
 
 **Not in the Tampa Local Pack for your primary keywords?** We'll audit your current local SEO position and build the systematic approach to close that gap.
 
-[Audit My Local Pack Position →](/blog/)
+[Audit My Local Pack Position →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

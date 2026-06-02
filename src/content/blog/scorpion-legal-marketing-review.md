@@ -31,7 +31,7 @@ Ask Scorpion this question before you sign: **if I leave, what comes with me?**
 
 In many cases, the answer is: not much. Your website was built on their platform and may not be exportable as standard files you can host elsewhere. Your call tracking numbers are theirs. Your analytics history lives in their dashboard, not in a Google Analytics account you control.
 
-This isn't unique to Scorpion — many agencies operate this way. But Scorpion's technology-first approach makes the lock-in particularly deep. Migrating away from Scorpion often means rebuilding your entire web presence from scratch.
+This isn't unique to Scorpion — many agencies operate this way. But Scorpion's technology-first approach makes the lock-in particularly deep. Migrating away from Scorpion often means rebuilding your entire web presence from scratch. This is one of the issues independent [agency management](/services/agency-management-for-law-firms/) is designed to surface before you sign, not after.
 
 Before signing, get written confirmation that:
 - You own your domain name and have registrar credentials
@@ -46,7 +46,7 @@ Scorpion leans heavily on AI in their marketing. Their platform uses artificial 
 
 Here's the reality: AI is a tool, not a strategy. Every major advertising platform — Google, Meta, Microsoft — already uses AI to optimize ad delivery. Scorpion's AI layer sits on top of these existing systems. The question isn't whether AI is involved. The question is whether the overall strategy is sound.
 
-AI can optimize a bad strategy very efficiently. It can spend your budget faster on the wrong keywords. It can generate more leads from people who will never retain your firm. Without human strategic oversight — someone who understands your practice areas, your market, your intake capacity, and your competitive position — AI optimization is just sophisticated spending.
+AI can optimize a bad strategy very efficiently. It can spend your budget faster on the wrong keywords. It can generate more leads from people who will never retain your firm. Without human strategic oversight — someone who understands your practice areas, your market, your intake capacity, and your competitive position — AI optimization is just sophisticated spending. (For an honest read on what AI actually does and doesn't do in legal marketing, see [AI tools for law firm marketing](/blog/ai-tools-law-firm-marketing/).)
 
 When Scorpion says "AI-powered," ask: **what is the strategy that the AI is executing?** If the answer is vague or generic, the AI is optimizing toward metrics that may not connect to retained clients.
 
@@ -88,9 +88,9 @@ Here's the fundamental issue: **who holds Scorpion accountable?**
 
 Scorpion reports on metrics they define, in dashboards they built, using benchmarks they set. They'll show you impressions, clicks, and leads. They may even show you cost per lead.
 
-But cost per lead is not cost per retained client. A lead who calls your office but never schedules a consultation, or who schedules but doesn't sign — that's not a result. That's an expense.
+But cost per lead is not [cost per retained client](/blog/cost-per-retained-client-law-firm/). A lead who calls your office but never schedules a consultation, or who schedules but doesn't sign — that's not a result. That's an expense.
 
-The metric that matters is how much marketing spend it takes to produce a client who actually signs a fee agreement and generates revenue for your firm. Calculating that number requires connecting marketing data to intake data to revenue data. It's work that most agencies — Scorpion included — don't do because the numbers aren't always flattering.
+The metric that matters is how much marketing spend it takes to produce a client who actually signs a fee agreement and generates revenue for your firm. Calculating that number requires connecting marketing data to intake data to revenue data — exactly the kind of [data analysis for law firms](/services/data-analysis-for-law-firms/) most agencies — Scorpion included — don't do because the numbers aren't always flattering.
 
 This is exactly the gap an independent consultant fills. I don't sell marketing services. I analyze whether the marketing services you're buying are actually working — and I hold the people selling them accountable for real results.
 

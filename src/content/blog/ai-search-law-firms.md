@@ -13,7 +13,7 @@ image: "/images/blog/ai-search-law-firms.jpg"
 
 The first page of Google search results looks different than it did 18 months ago — and the change has significant implications for law firms that have built their marketing around traditional organic rankings.
 
-Google's AI Overviews now appear at the top of results for a growing percentage of legal queries, synthesizing answers from multiple sources before a single organic link is visible. [Perplexity](/blog/) and [ChatGPT](/blog/) with search capabilities are handling a growing volume of legal information queries that used to go directly to Google.
+Google's AI Overviews now appear at the top of results for a growing percentage of legal queries, synthesizing answers from multiple sources before a single organic link is visible. [Perplexity](https://www.perplexity.ai) and [ChatGPT](https://chatgpt.com) with search capabilities are handling a growing volume of legal information queries that used to go directly to Google.
 
 For law firms, this isn't a reason to panic. It is a reason to understand the new landscape and adapt strategy — specifically by building the content and authority signals that AI search systems cite, surface, and recommend.
 
@@ -31,19 +31,19 @@ The same factors that constitute strong [E-E-A-T](https://hugheyllc.com/blog/eea
 
 **Comprehensive, well-structured answers.** AI systems extract answers from web content. Pages that answer questions completely and clearly — with logical structure, specific details, no fluff — are more likely to be the source of an AI-synthesized answer.
 
-**Consistent local signals.** For "attorney near me" queries, AI search systems still heavily weight local signals — your [Google Business Profile](/blog/), local citations, and geographic content signals carry into AI-assisted local results.
+**Consistent local signals.** For "attorney near me" queries, AI search systems still heavily weight local signals — your [Google Business Profile](/blog/law-firm-google-business-profile/), local citations, and geographic content signals carry into AI-assisted local results.
 
 ## Schema Markup as an AI Visibility Signal
 
-The [schema markup](/blog/) you implement for traditional SEO — particularly FAQPage schema — is directly relevant to AI search visibility. Google's AI Overviews draw heavily on structured FAQ content when synthesizing answers. A practice area page with well-written FAQ schema covering questions prospective clients actually ask is more likely to surface in an AI Overview.
+The [schema markup](/blog/law-firm-schema-markup/) you implement for traditional SEO — particularly FAQPage schema ([schema.org/Attorney](https://schema.org/Attorney) and FAQPage types are well documented) — is directly relevant to AI search visibility. Google's AI Overviews draw heavily on structured FAQ content when synthesizing answers. A practice area page with well-written FAQ schema covering questions prospective clients actually ask is more likely to surface in an AI Overview.
 
 ## The ChatGPT and Perplexity Question
 
-Law firms are increasingly appearing in answers from [ChatGPT](/blog/) and [Perplexity](/blog/). The pattern is consistent with E-E-A-T: well-structured content from authoritative sources with strong backlink profiles is more likely to be cited. Ensure your firm is well-represented on authoritative reference sources — [Avvo](/blog/), [Martindale](/blog/), [Justia](/blog/), the [Florida Bar](/blog/) member directory — which AI systems use heavily.
+Law firms are increasingly appearing in answers from [ChatGPT](https://chatgpt.com) and [Perplexity](https://www.perplexity.ai). The pattern is consistent with E-E-A-T: well-structured content from authoritative sources with strong backlink profiles is more likely to be cited. Ensure your firm is well-represented on authoritative reference sources — [Avvo](https://www.avvo.com), [Martindale](https://www.martindale.com), [Justia](https://www.justia.com), the [Florida Bar](https://www.floridabar.org) member directory — which AI systems use heavily.
 
 ## What Doesn't Change
 
-Technical performance (fast, crawlable sites), local signals (GBP optimization, citation consistency, review velocity), and genuine expertise in content remain constant — and arguably become more important. Firms best positioned for the AI search era invested in technical SEO fundamentals and genuine content quality. The [comprehensive law firm SEO approach](/blog/) we build for clients is designed to perform across both traditional and AI-mediated search.
+Technical performance (fast, crawlable sites), local signals (GBP optimization, citation consistency, review velocity), and genuine expertise in content remain constant — and arguably become more important. Firms best positioned for the AI search era invested in technical SEO fundamentals (see [Google's SEO starter guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)) and genuine content quality. The [comprehensive law firm SEO approach](/services/always-publishing-always-ranking/) we build for clients is designed to perform across both traditional and AI-mediated search.
 
 ## The Real Risk: Being Left Out of AI Training Data
 
@@ -89,7 +89,7 @@ For law firms, **local search remains the most defensible advantage** in the AI 
 
 Google's AI Overviews and local pack results still operate somewhat separately. When someone searches "personal injury attorney near me" or "DUI lawyer in Tampa," the local pack (map results) and Google Business Profile are still the dominant features. AI Overviews have less influence on these highly localized, transactional queries.
 
-This means if you've optimized your [Google Business Profile](/blog/) — accurate hours, practice areas clearly listed, consistent service area, regular posts, high review velocity — you're still capturing the highest-intent traffic. AI hasn't displaced this yet.
+This means if you've optimized your [Google Business Profile](/blog/law-firm-google-business-profile/) — accurate hours, practice areas clearly listed, consistent service area, regular posts, high review velocity — you're still capturing the highest-intent traffic. AI hasn't displaced this yet.
 
 But informational queries — the ones that used to bring 30–40% of law firm website traffic — are now more likely to hit AI Overviews instead of organic links. Your DUI attorney in Tampa may still rank #1 for "DUI attorney Tampa" (transactional), but "What happens if I get a DUI in Florida" (informational) now shows an AI Overview first, then links.
 
@@ -118,7 +118,7 @@ The firms that will thrive aren't the ones panicking about AI. They're the ones 
 
 **Want your law firm visible in both traditional and AI search?** We build the content architecture and technical signals that work across all search surfaces.
 
-[Future-Proof My Search Visibility →](/blog/)
+[Future-Proof My Search Visibility →](/contact/)
 </div>
 
 ## FAQs

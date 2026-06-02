@@ -25,7 +25,7 @@ When your agency recommends increasing your Google Ads budget by $5,000 per mont
 
 This isn't cynicism. It's economics. Agencies aren't evil — they're businesses responding to their own incentive structures. The problem is that those incentives don't always align with yours.
 
-An independent consultant has a different incentive structure entirely. My revenue doesn't increase when your ad spend increases. I don't sell execution services. I make recommendations based on what actually drives retained clients to your firm, and I hold your vendors accountable for delivering results.
+An independent consultant has a different incentive structure entirely. My revenue doesn't increase when your ad spend increases. I don't sell execution services. I make recommendations based on what actually drives retained clients to your firm, and I hold your vendors accountable for delivering results — what I think of as [agency management for law firms](/services/agency-management-for-law-firms/).
 
 ## What "Full Service" Actually Means
 
@@ -49,7 +49,7 @@ An independent consultant doesn't touch your ad spend. I'll help you set the rig
 
 This question catches a lot of firm principals off guard. If your agency built your website, who owns it?
 
-Many agency contracts include clauses that give the agency ownership of the website they built, the content they created, or the tracking infrastructure they installed. If you leave the relationship, you may discover that your website, your analytics history, and your call tracking numbers don't come with you.
+Many agency contracts include clauses that give the agency ownership of the website they built, the content they created, or the tracking infrastructure they installed. If you leave the relationship, you may discover that your website, your analytics history (the [GA4 property](https://support.google.com/analytics/answer/10089681) included), and your call tracking numbers don't come with you.
 
 Before signing any contract, confirm in writing:
 
@@ -69,7 +69,7 @@ If your agency runs your SEO, your PPC, and your website — who's checking thei
 
 An independent consultant serves as the accountability layer between your firm and your marketing vendors. I review performance data independently. I set benchmarks based on industry standards and your firm's specific goals. I ask the uncomfortable questions your agency doesn't want to answer.
 
-The metric that matters isn't impressions, clicks, or even leads. It's **cost per retained client** — the total marketing spend required to produce a client who actually signs a fee agreement. Most agencies don't report this number because it requires connecting marketing data to intake data to revenue data. It's hard to calculate and often unflattering.
+The metric that matters isn't impressions, clicks, or even leads. It's **[cost per retained client](/blog/cost-per-retained-client-law-firm/)** — the total marketing spend required to produce a client who actually signs a fee agreement. Most agencies don't report this number because it requires connecting marketing data to intake data to revenue data — real [data analysis for law firms](/services/data-analysis-for-law-firms/) rather than dashboard-watching. It's hard to calculate and often unflattering.
 
 I calculate it because it's the only number that tells you whether your marketing is actually working.
 

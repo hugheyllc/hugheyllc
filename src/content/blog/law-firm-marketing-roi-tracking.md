@@ -63,7 +63,7 @@ Once you have all four layers connected, you can answer questions like:
 - Our organic SEO generates 60% of our leads but 45% of our retained clients — organic leads convert at a lower rate but have higher average case values.
 - Our referral channel generates 15% of our leads but 35% of our retained clients — by far our highest-value source. We should invest more in referral relationships.
 
-This is the level of clarity that our [law firm marketing technology consulting](/services/) is built to deliver. It's not complicated in principle — it just requires the right systems, connected correctly.
+This is the level of clarity that our [law firm marketing technology consulting](/services/data-analysis-for-law-firms/) is built to deliver. It's not complicated in principle — it just requires the right systems, connected correctly. For the underlying math, see our [cost per retained client breakdown](/blog/cost-per-retained-client-law-firm/).
 
 <hr />
 <div>

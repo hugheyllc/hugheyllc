@@ -17,21 +17,21 @@ For law firms, link building is also one of the most misunderstood and most freq
 
 ## Why Paid Links Are Particularly Risky for Law Firms
 
-Paid link schemes — paying for placement in link directories, private blog networks (PBNs), or "sponsored" content on irrelevant sites — violate [Google's spam policies](/blog/) and can result in a manual action (penalty) that suppresses your rankings across the board. For a law firm where organic search is typically a primary lead generation channel, the downside risk is disproportionate to any short-term ranking benefit.
+Paid link schemes — paying for placement in link directories, private blog networks (PBNs), or "sponsored" content on irrelevant sites — violate [Google's spam policies](https://developers.google.com/search/docs/essentials/spam-policies) and can result in a manual action (penalty) that suppresses your rankings across the board. For a law firm where organic search is typically a primary lead generation channel, the downside risk is disproportionate to any short-term ranking benefit.
 
 ## Tier 1: Foundation Links (Every Firm Should Have These)
 
 Directory and membership-based links that every law firm should have as a baseline — obtained by completing profiles on authoritative platforms your firm should be on regardless of SEO:
 
-- [Avvo](/blog/) — complete your profile fully; a complete profile provides more value than a sparse one
+- [Avvo](https://www.avvo.com) — complete your profile fully; a complete profile provides more value than a sparse one
 
-- [Martindale-Hubbell](/blog/) — long-established legal directory with high domain authority
+- [Martindale-Hubbell](https://www.martindale.com) — long-established legal directory with high domain authority
 
-- [Justia](/blog/) — strong domain authority, good for both link value and citation consistency
+- [Justia](https://www.justia.com) — strong domain authority, good for both link value and citation consistency
 
-- [FindLaw](/blog/) — basic listing provides citation and link value even without premium placement
+- [FindLaw](https://www.findlaw.com) — basic listing provides citation and link value even without premium placement
 
-- [Florida Bar](/blog/) member directory — the highest-authority local legal link available to Florida attorneys
+- [Florida Bar](https://www.floridabar.org) member directory — the highest-authority local legal link available to Florida attorneys
 
 - Relevant Florida Bar practice section directories
 
@@ -43,9 +43,9 @@ Directory and membership-based links that every law firm should have as a baseli
 
 **Original data and research.** A survey of Tampa Bay legal consumers, an analysis of Hillsborough County court data, a review of local business litigation filings — original data that other publications want to cite. A single piece of well-distributed original research can generate dozens of high-quality backlinks.
 
-**Comprehensive guides and resources.** Long-form, genuinely useful guides on legal topics attract links from other sites that want to reference them as resources. Our [Complete Law Firm SEO Guide](/blog/) and [Law Firm Website Design Guide](/blog/) are examples of content built specifically to attract links from legal marketing discussions.
+**Comprehensive guides and resources.** Long-form, genuinely useful guides on legal topics attract links from other sites that want to reference them as resources. Our [law firm SEO audit](/blog/law-firm-seo-audit/) and [law firm content marketing strategy](/blog/law-firm-content-marketing-strategy/) are examples of content built specifically to attract links from legal marketing discussions.
 
-**Expert commentary and HARO.** [HARO (Help a Reporter Out)](/blog/) connects journalists with expert sources. Attorneys responding to HARO queries in their area of expertise regularly earn links from publications ranging from local news to national outlets.
+**Expert commentary and HARO.** [HARO (Help a Reporter Out)](https://www.helpareporter.com) connects journalists with expert sources. Attorneys responding to HARO queries in their area of expertise regularly earn links from publications ranging from local news to national outlets.
 
 ## Tier 3: Relationship-Based Links
 
@@ -57,16 +57,16 @@ Directory and membership-based links that every law firm should have as a baseli
 
 ## Monitoring and Protecting Your Backlink Profile
 
-Use [Ahrefs](/blog/) or [SEMrush](/blog/) to monitor your backlink profile monthly. Watch for toxic or spammy links (disavow via [Google's disavow tool](/blog/)), lost links from valuable sources (outreach to restore them), and competitor backlink profiles (identifying link opportunities your firm isn't currently pursuing).
+Use [Ahrefs](https://ahrefs.com) or [SEMrush](https://www.semrush.com) to monitor your backlink profile monthly. Watch for toxic or spammy links (disavow via [Google's disavow tool](https://search.google.com/search-console/disavow-links)), lost links from valuable sources (outreach to restore them), and competitor backlink profiles (identifying link opportunities your firm isn't currently pursuing).
 
-Link building is a long-term initiative — most strategies take 6–12 months to produce measurable ranking impact. But the authority they build is compounding and defensible in a way that content work alone is not. It's a central component of the [complete law firm SEO strategy](/blog/) we build for clients.
+Link building is a long-term initiative — most strategies take 6–12 months to produce measurable ranking impact. But the authority they build is compounding and defensible in a way that content work alone is not. It's a central component of the [complete law firm SEO strategy](/services/always-publishing-always-ranking/) we build for clients.
 
 <hr />
 <div>
 
 **Want a backlink audit and acquisition strategy for your firm?** We'll analyze your current profile, identify the highest-value opportunities, and build the strategy to pursue them.
 
-[Audit My Backlink Profile →](/blog/)
+[Audit My Backlink Profile →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

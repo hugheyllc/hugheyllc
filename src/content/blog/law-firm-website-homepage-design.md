@@ -31,7 +31,7 @@ The above-the-fold section needs to accomplish four things simultaneously:
 
 Immediately below the hero:
 
-- **Google review aggregate** — star rating with review count linking to your [Google Business Profile](/blog/). Third-party validation converts better than self-reported credentials.
+- **Google review aggregate** — star rating with review count linking to your [Google Business Profile](/blog/law-firm-google-business-profile/). Third-party validation converts better than self-reported credentials.
 
 - **2–3 specific client testimonials** — outcome-specific: "They recovered my full ownership stake in 6 months" beats "great attorneys, highly recommend."
 
@@ -43,15 +43,15 @@ A dedicated practice area section with links to each practice area page serves t
 
 ## Attorney Bios: The Section That Builds Personal Trust
 
-Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/) with credentials detailed at depth supporting [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/).
+Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/eeat-law-firm-seo/) with credentials detailed at depth supporting [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/).
 
 ## The Secondary CTA: Capturing Visitors Who Aren't Ready Yet
 
-Not every visitor is ready to call. A secondary CTA — a free guide download, newsletter, or "learn more about our approach" link — keeps warm-but-not-ready visitors connected. Combined with [call tracking](/blog/) and proper [GA4 conversion tracking](/blog/), these become attributable data points in your marketing analytics.
+Not every visitor is ready to call. A secondary CTA — a free guide download, newsletter, or "learn more about our approach" link — keeps warm-but-not-ready visitors connected. Combined with [call tracking](/blog/callrail-law-firm-setup-guide/) and proper [GA4 conversion tracking](https://support.google.com/analytics/answer/10089681), these become attributable data points in your marketing analytics.
 
 ## Technical Requirements
 
-- [LocalBusiness schema](/blog/) in the page head
+- [LocalBusiness schema](https://schema.org/LegalService) in the page head
 
 - Primary keyword in the H1 tag (not your firm name)
 
@@ -61,14 +61,14 @@ Not every visitor is ready to call. A secondary CTA — a free guide download, n
 
 - Internal links to each primary practice area page
 
-All of these are standard in every homepage we build at [Hughey, LLC](https://hugheyllc.com/). The full framework: [law firm website design and development guide](/blog/).
+All of these are standard in every homepage we build at [Hughey, LLC](https://hugheyllc.com/). The full framework: [law firm website design and development guide](/services/).
 
 <hr />
 <div>
 
 **Is your homepage converting visitors or just impressing them?** We'll audit your current homepage and identify exactly what's costing you leads.
 
-[Audit My Homepage →](/blog/)
+[Audit My Homepage →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

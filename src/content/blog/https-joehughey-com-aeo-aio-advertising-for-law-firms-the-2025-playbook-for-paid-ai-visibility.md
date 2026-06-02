@@ -27,13 +27,13 @@ Paid visibility is moving beyond classic keyword ads. In the realm of legal mark
 </blockquote>
 ## Latest Signals: LLMs &amp; Answer Engines Are Adding Ads
 
-- **Google** is showing ads in and around *AI Overviews* / AI Mode; Google Ads documents how these can surface within the experience and how eligibility works.<br />See Google's support note "About ads and AI Overviews."<br />([Google Ads Help](/blog/))
-- **Perplexity** publicly announced experiments with ads (e.g., sponsored follow-up questions positioned next to answers).<br />([Perplexity Blog](/blog/) •<br />[Search Engine Land coverage](/blog/))
-- **Microsoft** has been updating *Copilot* ad formats/triggering in its advertising stack, describing how ads appear within the Copilot environment and how they're labeled and triggered.<br />([Microsoft Advertising blog](/blog/) •<br />[Search Engine Land](/blog/) •<br />[Copilot-native ad formats](/blog/))
-- **Market outlook:** Forecasts estimate U.S. spend on *AI-powered search ads* climbing from just over ~$1B in 2025 to roughly **$26B by 2029**.<br />([Reuters](/blog/) •<br />[TechMonitor](/blog/))
-- **OpenAI / ChatGPT:** industry reporting and interviews indicate the company is actively exploring ad models and hiring leadership to build an ads business as its assistant surfaces expand.<br />([SEJ](/blog/) •<br />[Times of India](/blog/))
+- **Google** is showing ads in and around *AI Overviews* / AI Mode; Google Ads documents how these can surface within the experience and how eligibility works.<br />See Google's support note "About ads and AI Overviews."<br />([Google Ads Help](https://support.google.com/google-ads/))
+- **Perplexity** publicly announced experiments with ads (e.g., sponsored follow-up questions positioned next to answers).<br />([Perplexity Blog](https://www.perplexity.ai/hub/blog) •<br />[Search Engine Land coverage](https://searchengineland.com))
+- **Microsoft** has been updating *Copilot* ad formats/triggering in its advertising stack, describing how ads appear within the Copilot environment and how they're labeled and triggered.<br />([Microsoft Advertising blog](https://about.ads.microsoft.com/en-us/blog) •<br />[Search Engine Land](https://searchengineland.com) •<br />[Copilot-native ad formats](https://about.ads.microsoft.com/en-us/blog))
+- **Market outlook:** Forecasts estimate U.S. spend on *AI-powered search ads* climbing from just over ~$1B in 2025 to roughly **$26B by 2029**.<br />([Reuters](https://www.reuters.com) •<br />[TechMonitor](https://www.techmonitor.ai))
+- **OpenAI / ChatGPT:** industry reporting and interviews indicate the company is actively exploring ad models and hiring leadership to build an ads business as its assistant surfaces expand.<br />([SEJ](https://www.searchenginejournal.com) •<br />[Times of India](https://timesofindia.indiatimes.com))
 
-For the technically curious: researchers have proposed *RAG-based ad auctions* where ads are selected segment-by-segment inside an LLM's output, pointing to a future where auctions run within the answer itself.<br />([Ad Auctions for LLMs via RAG](/blog/))
+For the technically curious: researchers have proposed *RAG-based ad auctions* where ads are selected segment-by-segment inside an LLM's output, pointing to a future where auctions run within the answer itself.<br />([Ad Auctions for LLMs via RAG](https://arxiv.org/abs/2406.09459))
 
 ## Why This Matters to Law Firms
 
@@ -46,9 +46,11 @@ For the technically curious: researchers have proposed *RAG-based ad auctions* w
 - **Define assistant-intent clusters** (by practice &amp; jurisdiction). Use real intake questions and CRM notes as prompts.
 - **Create ad concepts** that mirror user phrasing (40-80 word micro-answers + clear CTA).
 - **Build dedicated landing pages** that start with the same 40-80 word answer, then expand with steps, costs, timelines, and citations. Add FAQPage/QAPage schema.
-- **Compliance/E-E-A-T**: add attorney bios, admissions, and last-reviewed stamps; ensure Florida Bar (or local bar) rules are met.
+- **Compliance/E-E-A-T**: add attorney bios, admissions, and last-reviewed stamps; ensure [Florida Bar advertising rules](/blog/florida-bar-law-firm-advertising-rules/) (or local bar) are met.
 - **Measure assistant-specific KPIs** (see below), then iterate weekly.
 <table><thead><tr><th>Intent Cluster</th><th>Example User Query</th><th>Ad Concept</th><th>Landing Page Focus</th></tr></thead><tbody><tr><td>Demand Letters (FL)</td><td>"I just received a demand letter, what do I do?"</td><td>Short Answer 45-word response + "Talk to a Florida attorney today."</td><td>Deadline checklist, response options, cost ranges, contact CTA</td></tr><tr><td>Business Litigation Costs</td><td>"How much does a lawsuit cost in Florida?"</td><td>Free cost-estimator download ad</td><td>Transparent fee models, timeline chart, estimator form</td></tr><tr><td>Settlement vs Trial</td><td>"Should I settle or go to trial?"</td><td>Pros/cons explainer ad + 15-min consult</td><td>Decision tree, outcomes, timeframe, risk matrix</td></tr></tbody></table>
+For broader paid-search fundamentals, our [Google Ads playbook for law firms](/blog/google-ads-law-firms/) covers the keyword and bidding work that should sit underneath any AEO/AIO test. And if you're a smaller firm wondering whether to bother with paid AI surfaces yet, the [small-firm AEO playbook](/blog/small-firm-aeo-playbook/) is a better starting point.
+
 ## Budgets &amp; Mix: How Much to Test in 2025
 
 Treat assistant/LLM ad inventory as a distinct channel. A pragmatic starting mix for most firms:
@@ -67,16 +69,16 @@ Reallocate as performance data accumulates. Forecasts suggest AI-search ad share
 
 ## 30-60-90 Day Launch Plan
 <table><thead><tr><th>Phase</th><th>Milestones</th><th>Outputs</th></tr></thead><tbody><tr><td>Days 1-30</td><td>Pick 3 assistant-intents; draft ad copy; build 2 landing pages w/ FAQ schema; compliance review.</td><td>Ads + LPs for "Demand Letter (FL)" and "Litigation Costs (FL)".</td></tr><tr><td>Days 31-60</td><td>Launch tests (Google AI Overviews where eligible, Copilot formats, Perplexity if available); set KPI dashboards.</td><td>Assistant impression share, CTR, CPA baselines.</td></tr><tr><td>Days 61-90</td><td>Iterate creatives; add video variant; expand to "Settlement vs Trial (FL)".</td><td>Scaled budget to top-performing placements.</td></tr></tbody></table>
-**Need help understanding how this impacts your firm?** Schedule a dicovery call and we'll sort this out for you.<br />[See Services](/blog/) • [Contact](/blog/)
+**Need help understanding how this impacts your firm?** Schedule a discovery call and we'll sort this out for you.<br />[See Services](/services/strategic-marketing-for-law-firms/) • [Contact](/contact/)
 
 ## References
 
-- Google Ads Help - [About ads and AI Overviews](/blog/)
-- Perplexity - [Why we're experimenting with advertising](/blog/) | Coverage: [Search Engine Land](/blog/)
-- Microsoft Advertising - [Ads in Copilot experiences](/blog/) • [Copilot-native ad formats](/blog/) • [SELand coverage](/blog/)
-- Market Forecasts - [Reuters: AI search ad spend to ~$26B by 2029](/blog/) • [TechMonitor](/blog/)
-- Research - [Ad Auctions for LLMs via RAG](/blog/)
-- OpenAI - [Altman on possible ads](/blog/) • hiring reports for ad leadership (e.g., [TOI](/blog/))
+- Google Ads Help - [About ads and AI Overviews](https://support.google.com/google-ads/answer/14869866)
+- Perplexity - [Why we're experimenting with advertising](https://www.perplexity.ai/hub/blog) | Coverage: [Search Engine Land](https://searchengineland.com)
+- Microsoft Advertising - [Ads in Copilot experiences](https://about.ads.microsoft.com/en-us/blog) • [Copilot-native ad formats](https://about.ads.microsoft.com/en-us/blog) • [SELand coverage](https://searchengineland.com)
+- Market Forecasts - [Reuters: AI search ad spend to ~$26B by 2029](https://www.reuters.com) • [TechMonitor](https://www.techmonitor.ai)
+- Research - [Ad Auctions for LLMs via RAG](https://arxiv.org/abs/2406.09459)
+- OpenAI - [Altman on possible ads](https://openai.com) • hiring reports for ad leadership (e.g., [TOI](https://timesofindia.indiatimes.com))
 </article>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

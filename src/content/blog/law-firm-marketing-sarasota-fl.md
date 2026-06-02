@@ -19,13 +19,13 @@ Sarasota is not Tampa lite. It's a distinct market with a population that's grow
 
 For law firms, this creates opportunity. The marketing landscape in Sarasota is less crowded than Tampa Bay proper. Fewer firms are running sophisticated digital campaigns, and many are still relying on referrals and outdated websites. That's a window — but it's closing as more firms catch on.
 
-The mistake I see most often: Sarasota firms hiring Tampa-based or national agencies that apply the same strategy they'd use anywhere. Sarasota clients are different. They research more thoroughly, they value credentials and reputation over volume advertising, and they're less responsive to aggressive PI-style marketing. Your strategy needs to reflect that.
+The mistake I see most often: Sarasota firms hiring Tampa-based or national agencies that apply the same strategy they'd use anywhere. Sarasota clients are different. They research more thoroughly, they value credentials and reputation over volume advertising, and they're less responsive to aggressive PI-style marketing — meaning [Florida Bar advertising rules](https://www.floridabar.org/rules/rrtfb/) compliance is even more important since reputation is the currency. Your strategy needs to reflect that.
 
 ## What I Do for Sarasota Firms
 
 I'm an independent marketing consultant — I don't sell execution. I don't run your ads or build your website. I evaluate whether the people doing those things are actually driving retained clients at a reasonable cost.
 
-**Practice area positioning.** Sarasota's strength in estate planning and business law means your content and ad strategy should lead with those practice areas if that's your focus. Too many firms here are chasing PI keywords because they see Tampa firms doing it. That's the wrong fight for most Sarasota practices.
+**Practice area positioning.** Sarasota's strength in estate planning and business law means your [content and ad strategy](/services/strategic-marketing-for-law-firms/) should lead with those practice areas if that's your focus. Too many firms here are chasing PI keywords because they see Tampa firms doing it. That's the wrong fight for most Sarasota practices.
 
 **Agency audit and accountability.** If you're working with a marketing agency, I review their reporting, their strategy, and their results. The question isn't whether they're generating impressions — it's whether those impressions are turning into consultations that convert into retained clients. I've written extensively about [how to manage your marketing agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/) and what accountability actually looks like.
 
@@ -65,7 +65,7 @@ Estate planning and trust litigation are disproportionately strong due to Saraso
 
 **How much should a Sarasota law firm spend on marketing?**
 
-It depends entirely on your practice area and your cost per retained client targets. An estate planning firm with high lifetime client value might justify more spend per lead than a high-volume PI practice. I help firms set benchmarks based on their actual revenue data, not generic industry percentages.
+It depends entirely on your practice area and your cost per retained client targets. An estate planning firm with high lifetime client value might justify more spend per lead than a high-volume PI practice. I cover this in more depth in [the law firm marketing budget guide](/blog/law-firm-marketing-budget/). I help firms set benchmarks based on their actual revenue data, not generic industry percentages.
 
 **Do I need Sarasota-specific content, or can I use Tampa Bay-wide content?**
 

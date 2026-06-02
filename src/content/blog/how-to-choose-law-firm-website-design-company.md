@@ -29,17 +29,17 @@ Some vendors are strong in all three. Most have a primary strength in one or two
 
 ## Questions That Reveal Technical Depth
 
-**"What technology stack do you build on, and why?"** A vendor building on [Astro](/blog/) or [Next.js](/blog/) has a different performance ceiling than one building on WordPress with Elementor. The technology choice determines the site's performance ceiling — a primary ranking factor and conversion factor.
+**"What technology stack do you build on, and why?"** A vendor building on [Astro](https://astro.build) or [Next.js](https://nextjs.org) has a different performance ceiling than one building on WordPress with Elementor. The technology choice determines the site's performance ceiling — a primary ranking factor and conversion factor.
 
-**"What PageSpeed scores do your recent law firm builds achieve on mobile?"** Run the sites in their portfolio through [Google PageSpeed Insights](/blog/). Scores consistently in the 85–95 range indicate a performance-first build process. Scores in the 40–65 range are typical of template-based builds with no performance optimization. This single data point tells you more about technical quality than hours of portfolio review. See our breakdown of why this matters in our [law firm SEO audit guide](/blog/).
+**"What PageSpeed scores do your recent law firm builds achieve on mobile?"** Run the sites in their portfolio through [Google PageSpeed Insights](https://pagespeed.web.dev/). Scores consistently in the 85–95 range indicate a performance-first build process. Scores in the 40–65 range are typical of template-based builds with no performance optimization. This single data point tells you more about technical quality than hours of portfolio review. See our breakdown of why this matters in our [law firm SEO audit guide](/blog/law-firm-seo-audit/).
 
-**"Who will own the code and where will it be hosted?"** As covered in our [law firm website ownership guide](/blog/), the answer to this question has major implications for your long-term flexibility. Insist on code you own in a repository you control.
+**"Who will own the code and where will it be hosted?"** As covered in our [law firm website ownership guide](/blog/law-firm-website-ownership/), the answer to this question has major implications for your long-term flexibility. Insist on code you own in a repository you control.
 
 ## Questions That Reveal Marketing Depth
 
-**"How will the site be connected to our intake CRM?"** A website not connected to your intake workflow — [Lawmatics](/blog/), [Clio Grow](/blog/), or similar — is a brochure, not a client acquisition system. If the vendor doesn't discuss this integration proactively, it's not part of their standard build.
+**"How will the site be connected to our intake CRM?"** A website not connected to your intake workflow — [Lawmatics](https://www.lawmatics.com), Clio Grow, or similar — is a brochure, not a client acquisition system. See our comparison: [Lawmatics vs Clio Grow](/blog/lawmatics-vs-clio-grow/). If the vendor doesn't discuss this integration proactively, it's not part of their standard build.
 
-**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/), [GA4](/blog/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
+**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/callrail-law-firm-setup-guide/), [GA4](/blog/ga4-setup-law-firm-guide/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
 
 **"Show me the practice area page SEO structure you use — specifically the schema markup, heading hierarchy, and internal linking strategy."** A vendor with a developed law firm SEO methodology will have a clear, specific answer.
 
@@ -55,14 +55,14 @@ Some vendors are strong in all three. Most have a primary strength in one or two
 
 - **Long contracts with auto-renewal** — a vendor confident in their work doesn't need contractual lock-in.
 
-At [Hughey, LLC](https://hugheyllc.com/), we build on [Astro](/blog/) + [Decap CMS](/blog/) + [Vercel](/blog/) for performance and ownership, connect every build to your intake CRM and attribution stack, and hand over complete ownership at project close. Our complete approach: [law firm website design and development guide](/blog/).
+At [Hughey, LLC](https://hugheyllc.com/), we build on [Astro](https://astro.build) + [Decap CMS](https://decapcms.org) + [Vercel](https://vercel.com) for performance and ownership, connect every build to your intake CRM and attribution stack, and hand over complete ownership at project close. Our complete approach: [law firm website design and development guide](/services/).
 
 <hr />
 <div>
 
 **Evaluating vendors for a law firm website project?** We'll answer every question above directly — and show you exactly what our builds deliver in performance, ownership, and attribution.
 
-[See How We Build Law Firm Websites →](/blog/)
+[See How We Build Law Firm Websites →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

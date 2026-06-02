@@ -43,7 +43,7 @@ High-growth firms are moving now. They're doing three specific things:
 
 **First: They're building citation-worthy content.** This means deep, authoritative, primary-source-backed articles that AI models actually want to reference. Not listicles. Not thin SEO content. Substantive work that answers complex questions with specificity and credibility. A firm in commercial real estate, for example, isn't publishing "10 Tips for Commercial Leases." They're publishing "Florida Subordination Agreements in 2025: How Recent Case Law Changes Your Lease Drafting." LLMs cite that.
 
-**Second: They're implementing schema markup and adopting LLMs.txt.** Schema tells search engines and AI systems what your content is about. LLMs.txt is a new standard—basically a robots.txt file for AI models—that tells language models where your authoritative content lives. It's still emerging, but early adopters are seeing better AI model citation and visibility.
+**Second: They're implementing [schema markup](/blog/law-firm-schema-markup/) and adopting LLMs.txt.** Schema tells search engines and AI systems what your content is about. LLMs.txt is a new standard—basically a robots.txt file for AI models—that tells language models where your authoritative content lives. It's still emerging, but early adopters of [AI search optimization](/blog/ai-search-law-firms/) are seeing better AI model citation and visibility.
 
 **Third: They're building internal AI tools for intake and outreach.** This isn't futuristic. A personal injury firm in Georgia is already using a custom chatbot on their intake form that qualifies cases in real-time, reducing staff time and improving client experience. A transactional firm in New York built an AI-powered email outreach system that personalizes follow-up to prospects based on their website behavior and practice focus. These aren't expensive—$500 to $3,000 per month for most implementations.
 
@@ -57,7 +57,7 @@ High-growth firms commit real budget to video and they treat it like a core mark
 
 Here's what matters: Video doesn't have to be polished. It has to be real. A managing partner doing a 3-minute walk-through of a recent case outcome, recorded on an iPhone and posted to LinkedIn, outperforms a $10,000 professionally produced explainer video that sounds like a corporate training film. People connect with authenticity and expertise, not production value.
 
-Digital advertising—search ads, display, social—is the top-rated marketing technique for high-growth firms according to recent benchmarking data. A firm doing family law in the Midwest spent $8,000 per month on Google and Facebook ads targeting high-intent keywords (divorce, custody, child support). Their cost per qualified consultation dropped from $287 to $94 in four months. They scaled the budget to $15,000 monthly because the math worked.
+Digital advertising—search ads, display, social—is the top-rated marketing technique for high-growth firms according to recent benchmarking data. A firm doing family law in the Midwest spent $8,000 per month on Google and Facebook ads targeting high-intent keywords (divorce, custody, child support). Their cost per qualified consultation dropped from $287 to $94 in four months — tight [negative keyword hygiene](/blog/law-firm-negative-keywords/) was a big part of that. They scaled the budget to $15,000 monthly because the math worked.
 
 The barrier to entry here isn't creative or technical skill—it's discipline. You need someone (internal or external) owning this weekly: refreshing creative, testing audiences, analyzing ROAS, and iterating. Most firms don't have that owner. They dabble. High-growth firms don't dabble.
 
@@ -84,7 +84,7 @@ Average firms? They track traffic or leads. They can't tell you if those leads t
 
 A 50-lawyer firm I worked with had been running $12,000 monthly in digital ads for eighteen months without knowing their return. They had traffic data (good), they had lead volume (okay), but they had no client attribution and no revenue tie-back. When we built a simple dashboard tracking cost per qualified consultation, cost per retained client, and average matter value, everything changed. They realized one campaign was generating leads at $140 per lead but those leads had a 3% conversion rate. Another campaign cost $210 per lead but converted at 31%. They immediately reallocated budget. In six months, their cost per acquired client dropped 38% while lead volume stayed flat.
 
-This doesn't require enterprise-level analytics infrastructure. Start simple: **track cost per qualified consultation, close rate by source, and average client value.** Use spreadsheets if you need to. The point is to see the connection.
+This doesn't require enterprise-level analytics infrastructure. Start simple: **track [cost per retained client](/blog/cost-per-retained-client-law-firm/), close rate by source, and average client value.** Use spreadsheets if you need to. The point is to see the connection — that's exactly what proper [data analysis for law firms](/services/data-analysis-for-law-firms/) makes possible.
 
 ## Your Marketing Mix Should Be Deliberate, Not Default
 

@@ -21,7 +21,7 @@ Before we talk about which metrics to track, let me be blunt: most law firms I m
 
 Here's what I see happen repeatedly: A firm spends $8,000 a month on a Google Ads campaign and gets excited because they're getting 60 leads. But when we dig into the data, 45 of those leads are tire-kickers—people looking for free legal advice or shopping based on price alone. The remaining 15 qualified leads cost the firm $533 each to acquire. Meanwhile, they're getting 8 referrals a month from past clients for basically nothing.
 
-**The real work is learning which numbers actually drive growth and which ones just make you feel busy.**
+**The real work is learning which numbers actually drive growth and which ones just make you feel busy.** This is exactly the kind of work I focus on in [data analysis for law firms](/services/data-analysis-for-law-firms/) — separating signal from noise so partners can make confident decisions.
 
 ## Lead Volume is Vanity; Lead Quality is Real
 
@@ -51,7 +51,7 @@ Now multiply: **Client Acquisition Cost = (Total Marketing Spend) / (Number of N
 
 If you spent $4,000 on Google Ads, got 20 leads, and 8 became clients, your CAC is $500. If you spent $2,000 on Facebook, got 10 leads, and 2 became clients, your CAC is $1,000. Google Ads wins, even though Facebook had a lower CPL.
 
-Most law firms I work with have a CAC between $400 and $1,200, depending on practice area and market. Personal injury can be higher (because competition is fierce and cases take time to close). Wills and trusts can be lower (faster sales cycle, less competition per attorney). If your CAC is consistently above $1,500, you've got a problem. If it's below $400, you're doing something right—or you're underpricing your services.
+Most law firms I work with have a CAC between $400 and $1,200, depending on practice area and market. (For a deeper framework on calculating the version that actually matters, see [cost per retained client](/blog/cost-per-retained-client-law-firm/).) Personal injury can be higher (because competition is fierce and cases take time to close). Wills and trusts can be lower (faster sales cycle, less competition per attorney). If your CAC is consistently above $1,500, you've got a problem. If it's below $400, you're doing something right—or you're underpricing your services.
 
 ## The Math That Changes Everything: LTV and Budget Allocation
 
@@ -71,9 +71,9 @@ This only works if you're actually measuring. Here's what I recommend:
 
 **Use a CRM that talks to your other tools.** Most law firms use practice management software anyway (Clio, MyCase, Rocket Matter). Make sure your intake process captures where each lead came from—which ad, which referral source, which organic search keyword. Then track that lead through to conversion.
 
-**Use call tracking.** If leads are calling you, a service like CallRail or Invoca gives you incredible data: which keyword triggered the call, how long they talked to your intake person, whether they booked a consultation. You can attribute phone leads back to their source.
+**Use call tracking.** If leads are calling you, a service like [CallRail](https://www.callrail.com) or Invoca gives you incredible data: which keyword triggered the call, how long they talked to your intake person, whether they booked a consultation. You can attribute phone leads back to their source. (For the full setup, see our [CallRail for law firms guide](/blog/callrail-law-firm-setup-guide/).)
 
-**Don't rely on client memory.** When someone calls and says "I found you on Google," they usually found you on something (Google, Facebook, your website—it's all fuzzy). Call tracking and UTM parameters eliminate this guesswork.
+**Don't rely on client memory.** When someone calls and says "I found you on Google," they usually found you on something (Google, Facebook, your website—it's all fuzzy). Call tracking and UTM parameters eliminate this guesswork. Google's own [GA4 documentation](https://support.google.com/analytics/answer/10089681) walks through how to set this up properly inside your analytics property.
 
 **Set a monthly reporting rhythm.** I recommend my clients pull a report every month that shows: leads by channel, conversion rate by channel, CAC by channel, and LTV. Looking at this data month to month isn't as useful as looking at 3-month and 12-month trends, but you need the monthly view to spot problems quickly.
 

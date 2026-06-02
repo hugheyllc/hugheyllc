@@ -17,7 +17,7 @@ This is the 20-item checklist we run on every law firm website build before goin
 
 ## Technical SEO (Items 1–7)
 
-**1. 301 Redirect Map Complete and Tested.** Every URL on the existing site must map to its new equivalent with a 301 redirect. Test every redirect using [Screaming Frog](/blog/) before launch.
+**1. 301 Redirect Map Complete and Tested.** Every URL on the existing site must map to its new equivalent with a 301 redirect. Test every redirect using [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) before launch.
 
 **2. XML Sitemap Generated and Validated.** Include all important pages; exclude administrative, thank-you, and login pages. Validate for errors before submission.
 
@@ -25,15 +25,15 @@ This is the 20-item checklist we run on every law firm website build before goin
 
 **4. Canonical Tags on Every Page.** Every page needs a self-referencing canonical tag pointing to its preferred URL to prevent duplicate content issues.
 
-**5. Title Tags and Meta Descriptions Unique on Every Page.** Run through Screaming Frog or [SEMrush](/blog/) to confirm every page has unique title tag (under 60 chars) and meta description (under 155 chars).
+**5. Title Tags and Meta Descriptions Unique on Every Page.** Run through Screaming Frog or [SEMrush](https://www.semrush.com) to confirm every page has unique title tag (under 60 chars) and meta description (under 155 chars).
 
-**6. Schema Markup Validated.** Run all primary page types through [Google's Rich Results Test](/blog/). See our [schema markup guide](/blog/).
+**6. Schema Markup Validated.** Run all primary page types through [Google's Rich Results Test](https://search.google.com/test/rich-results). See our [schema markup guide](/blog/law-firm-schema-markup/).
 
 **7. Internal Linking Audit Complete.** Confirm all internal links point to correct new URLs — not old URLs that would trigger redirects or staging URLs that return 404s.
 
 ## Performance (Items 8–11)
 
-**8. Mobile PageSpeed Score Above 85.** Run through [Google PageSpeed Insights](/blog/). Below 85, identify and resolve primary performance issues before going live.
+**8. Mobile PageSpeed Score Above 85.** Run through [Google PageSpeed Insights](https://pagespeed.web.dev). Below 85, identify and resolve primary performance issues before going live.
 
 **9. Core Web Vitals in Green.** LCP under 2.5s, CLS under 0.1, INP under 200ms in the Lighthouse performance report.
 
@@ -51,9 +51,9 @@ This is the 20-item checklist we run on every law firm website build before goin
 
 ## Tracking (Items 15–17)
 
-**15. GA4 Conversion Events Firing Correctly.** Use GA4's DebugView to confirm form submission events and phone click events are firing correctly. See our [GA4 setup guide](/blog/).
+**15. GA4 Conversion Events Firing Correctly.** Use GA4's DebugView to confirm form submission events and phone click events are firing correctly. See our [GA4 setup guide](/blog/ga4-setup-law-firm-guide/).
 
-**16. CallRail Dynamic Number Insertion Active.** Visit from incognito to confirm the [CallRail](/blog/) tracking number displays correctly. Test calls for correct attribution.
+**16. CallRail Dynamic Number Insertion Active.** Visit from incognito to confirm the [CallRail](/blog/callrail-law-firm-setup-guide/) tracking number displays correctly. Test calls for correct attribution.
 
 **17. Google Ads Conversion Tracking Verified.** Confirm conversion tags are firing and conversions are recording correctly in Google Ads.
 
@@ -65,14 +65,14 @@ This is the 20-item checklist we run on every law firm website build before goin
 
 **20. Ranking Baseline Captured Pre-Launch.** Capture your current rankings for 20–30 most important keywords before DNS cutover. You need this baseline to evaluate whether the new site is performing better or worse post-launch.
 
-This checklist is the pre-launch process we run on every [law firm website build](/blog/) at Hughey, LLC.
+This checklist is the pre-launch process we run on every [law firm website build](/services/always-publishing-always-ranking/) at Hughey, LLC.
 
 <hr />
 <div>
 
 **Planning a new website launch?** We run this checklist on every build — and we're available to run it on yours before you go live.
 
-[Get a Pre-Launch Site Review →](/blog/)
+[Get a Pre-Launch Site Review →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

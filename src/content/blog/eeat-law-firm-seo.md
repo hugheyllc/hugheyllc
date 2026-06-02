@@ -15,7 +15,7 @@ For most industries, E-E-A-T is a helpful SEO framework but not an urgent priori
 
 ## What E-E-A-T Means
 
-E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. It's the framework [Google's quality raters use](/blog/) to evaluate whether pages deserve to rank highly.
+E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. It's the framework [Google's quality raters use](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) to evaluate whether pages deserve to rank highly.
 
 - **Experience** — does the author have first-hand, lived experience with the topic? For legal content: content written or substantively authored by practicing attorneys, not generic content writers.
 
@@ -35,7 +35,7 @@ Legal content is explicitly YMYL (Your Money or Your Life). Google's quality eva
 
 **Thin attorney bio pages.** "John Smith has been practicing law for 15 years" does not adequately signal expertise. A comprehensive bio includes bar admissions with dates, law school education, specific practice areas with case type examples, professional memberships, publications or speaking engagements, and a professional headshot.
 
-**No external authority signals.** Authoritativeness is signaled partly by what others say about you. Links from the [Florida Bar](/blog/) member directory, from [Martindale-Hubbell](/blog/), from relevant bar association sections, and from press coverage carry E-E-A-T authority value beyond their direct SEO link equity.
+**No external authority signals.** Authoritativeness is signaled partly by what others say about you. Links from the [Florida Bar](https://www.floridabar.org) member directory, from [Martindale-Hubbell](https://www.martindale.com), from relevant bar association sections, and from press coverage carry E-E-A-T authority value beyond their direct SEO link equity.
 
 **Missing trust signals.** HTTPS, a visible physical address, a clearly accessible privacy policy, attorney bar numbers visible on the site, and appropriate disclaimers on legal content are all Trustworthiness signals.
 
@@ -43,13 +43,13 @@ Legal content is explicitly YMYL (Your Money or Your Life). Google's quality eva
 
 **Author bylines on all content** — every blog post and practice area page should carry an author byline with a link to the authoring attorney's bio.
 
-**Comprehensive attorney bio pages** — treat bio pages as cornerstone content. Use [Person schema](/blog/) with legal credentials fields populated to make credentials machine-readable to Google.
+**Comprehensive attorney bio pages** — treat bio pages as cornerstone content. Use [Person schema](/blog/law-firm-schema-markup/) with legal credentials fields populated to make credentials machine-readable to Google.
 
-**Build legal directory and bar association citations** — links from [Avvo](/blog/), [Martindale](/blog/), [Justia](/blog/), and bar association member pages signal external recognition of your firm's credentials — Authoritativeness signals in Google's quality framework.
+**Build legal directory and bar association citations** — links from [Avvo](https://www.avvo.com), [Martindale](https://www.martindale.com), [Justia](https://www.justia.com), and bar association member pages signal external recognition of your firm's credentials — Authoritativeness signals in Google's quality framework.
 
 **Earn press mentions and expert commentary placements** — being quoted in a local news outlet on a legal topic, publishing in a bar journal, or contributing to a legal publication creates Authoritativeness signals that no amount of on-site optimization can substitute for.
 
-**Implement trust architecture sitewide** — HTTPS everywhere, physical address in the footer, bar numbers on attorney bios, appropriate disclaimers, and a current privacy policy. These are baseline Trustworthiness requirements verified in any [technical SEO audit](/blog/).
+**Implement trust architecture sitewide** — HTTPS everywhere, physical address in the footer, bar numbers on attorney bios, appropriate disclaimers, and a current privacy policy. These are baseline Trustworthiness requirements verified in any [technical SEO audit](/blog/law-firm-seo-audit/).
 
 ## Why E-E-A-T Takes Time (And Why That's Actually Your Advantage)
 
@@ -107,7 +107,7 @@ If you want to start immediately, here's what I'd check on your site right now:
 
 **Sitewide:**
 - [ ] Google Business Profile claimed and kept current
-- [ ] Listing on [Avvo](/blog/), [Martindale](/blog/), [Justia](/blog/), and your state bar directory
+- [ ] Listing on [Avvo](https://www.avvo.com), [Martindale](https://www.martindale.com), [Justia](https://www.justia.com), and your state bar directory
 - [ ] Any notable press coverage, awards, or client results mentioned anywhere on the site
 
 This isn't a substitute for a full [E-E-A-T audit](https://hugheyllc.com/blog/eeat-law-firm-seo/), but it's a quick baseline. If you're failing more than two or three of these, your E-E-A-T signals are below competitive and worth fixing immediately.
@@ -124,7 +124,7 @@ I've seen two law firms compete for the same keywords:
 
 In 70% of cases, Firm A wins in rankings over a 12-month period. They win because Google's quality raters, if shown the two sites, would consistently rank Firm A higher for E-E-A-T signals. And Google's algorithm is trained on those quality rater judgments.
 
-E-E-A-T is a long-term investment in the credentials and authority signals that Google uses to decide whether your firm's content deserves to rank for high-value legal queries. The firms that build it systematically over 12–24 months end up in a defensible position that's hard for competitors to replicate quickly. That's exactly the kind of compounding investment our [law firm SEO strategy](/blog/) is designed to build.
+E-E-A-T is a long-term investment in the credentials and authority signals that Google uses to decide whether your firm's content deserves to rank for high-value legal queries. The firms that build it systematically over 12–24 months end up in a defensible position that's hard for competitors to replicate quickly. That's exactly the kind of compounding investment our [law firm SEO strategy](/services/always-publishing-always-ranking/) is designed to build.
 
 <hr />
 <div>

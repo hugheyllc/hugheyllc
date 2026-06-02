@@ -31,7 +31,7 @@ AI systems like Google’s AI Overviews, SearchGPT, and Perplexity are reshaping
 
 AI tools then generate summary answers, citing only a handful of trusted sources.
 
-Your law firm’s visibility depends less on keywords and more on **credibility, structure, and corroboration**. Firms with strong entity clarity, schema, and experience signals will dominate these AI-driven results.
+Your law firm’s visibility depends less on keywords and more on **credibility, structure, and corroboration**. Firms with strong entity clarity, [schema markup](/blog/law-firm-schema-markup/), and [E-E-A-T signals](/blog/eeat-law-firm-seo/) will dominate these AI-driven results.
 
 ## The AEO Framework for Law Firms
 
@@ -76,16 +76,16 @@ Then explain and cite Florida Statute §542.335.
 Add schema such as:
 
 <li>
-LegalService
+[LegalService](https://schema.org/LegalService)
 </li><li>
-Attorney
+[Attorney](https://schema.org/Attorney)
 </li><li>
 Organization
 </li><li>
 FAQ
 </li>
 
-Schema helps AI confirm accuracy and authorship.
+[Schema.org vocabulary](https://schema.org) helps AI confirm accuracy and authorship.
 
 ### 4. Optimize for E-E-A-T
 
@@ -103,7 +103,7 @@ Include About and bio links across posts
 
 ### 5. Integrate AEO With Intake
 
-Visibility must connect to revenue. Integrate your CRM, call tracking, and analytics so you can measure AEO’s real impact on consults and retained cases.
+Visibility must connect to revenue. Integrate your [CRM, call tracking, and analytics](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/) so you can measure AEO’s real impact on consults and retained cases.
 
 ## Designing a Site Architecture AI Understands
 
@@ -137,7 +137,7 @@ Retention rate
 Revenue per AEO-qualified consult
 </li>
 
-Combining GA4, CRM, and call tracking gives a complete picture.
+Combining [GA4](/blog/ga4-setup-law-firm-guide/), CRM, and call tracking gives a complete picture — the [full attribution stack](/blog/law-firm-marketing-roi-tracking/) we build for every client.
 
 ## Law Firm AEO Optimization Checklist
 
@@ -163,7 +163,7 @@ Your next clients are asking AI assistants for answers — make sure they find y
 
 Schedule an AEO audit with Hughey LLC to evaluate your schema, content, and intake performance.
 
-[Book a discovery call](/blog/)
+[Book a discovery call](/contact/)
 
 ## FAQs
 

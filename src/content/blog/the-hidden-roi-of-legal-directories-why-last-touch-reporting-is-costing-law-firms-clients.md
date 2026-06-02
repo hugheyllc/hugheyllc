@@ -51,7 +51,7 @@ or form happens somewhere else.
 
 Standard analytics tools credit the last interaction before a contact. If someone views your Martindale
 
-profile, clicks through to your website, and then calls from your Google Business Profile or a saved number,
+profile, clicks through to your website, and then calls from your [Google Business Profile](/blog/law-firm-google-business-profile/) or a saved number,
 
 Martindale gets no credit. The same is true for Avvo and FindLaw. Over time, this creates the impression that
 
@@ -65,7 +65,7 @@ To see the true impact of directories, firms need to move beyond last-touch and 
 
 means tracking how often directory interactions precede site visits, calls, form fills, and consultations—even
 
-when those events are attributed elsewhere in the report. When you connect these dots, directories often
+when those events are attributed elsewhere in the report. This is what serious [data analysis for law firms](/services/data-analysis-for-law-firms/) actually looks like — and Google's own [GA4 attribution documentation](https://support.google.com/analytics/answer/10089681) covers how to configure path-level views inside your property. When you connect these dots, directories often
 
 emerge as some of the highest-ROI investments in your mix.
 
@@ -126,7 +126,7 @@ Highlights how often directories assist GBP calls
 - Ensure your photos are current, professional, and consistent across platforms.
 - Highlight awards, publications, speaking engagements, and bar admissions with dates.
 - Implement a simple review-request process that occasionally routes happy clients to a directory profile.
-- Schedule quarterly profile reviews to catch outdated information and missed opportunities.
+- Schedule quarterly profile reviews to catch outdated information and missed opportunities — the same cadence I recommend for the [marketing audit checklist](/resources/marketing-audit-checklist/).
 
 
 ## Hyper Personalization and Client Experience: How Law Firms Win in 2025
@@ -143,7 +143,7 @@ Because last-touch analytics credits the final channel, not the upstream trust c
 
 **Which directories should I prioritize?**
 
-Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, [FindLaw](/blog/)/[Lawyers.com](/blog/), [Avvo](/blog/), [Super Lawyers](/blog/), and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
+Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, FindLaw/Lawyers.com, Avvo, Super Lawyers, and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
 
 **How often should I update my directory profiles?**
 
@@ -164,7 +164,7 @@ does not show a direct conversion.
 
 Because last-touch analytics credits the final channel, not the upstream trust checkpoints. If a consumer touches your directory profile and then contacts you via your website, Google Maps, or a saved number, the directory rarely receives credit in your standard reporting.
 
-Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, [FindLaw](/blog/)/[Lawyers.com](/blog/), [Avvo](/blog/), [Super Lawyers](/blog/), and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
+Start with the platforms that have both consumer usage and strong data structures: Martindale-Avvo properties, FindLaw/Lawyers.com, Avvo, Super Lawyers, and your state bar directory. Then layer in niche directories that are relevant to your practice areas and geography.
 
 At least quarterly. Update practice areas, case types, awards, publications, speaking engagements, and bio details. Any time something significant changes on your website bio, update your directories to match.
 

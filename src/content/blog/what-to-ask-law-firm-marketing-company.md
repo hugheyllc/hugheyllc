@@ -19,7 +19,7 @@ Here are the 15 questions that do. They're direct, specific, and uncomfortable f
 
 ## Questions About Attribution and Measurement
 
-**1. How will you connect your work to signed retainers, not just traffic and rankings?** The right answer involves [call tracking](/blog/), [GA4 conversion events](/blog/), and CRM source attribution. See our breakdown of [what a complete attribution stack looks like](/blog/).
+**1. How will you connect your work to signed retainers, not just traffic and rankings?** The right answer involves [call tracking](/blog/callrail-law-firm-setup-guide/), [GA4 conversion events](/blog/ga4-setup-law-firm-guide/), and CRM source attribution. See our breakdown of [what a complete attribution stack looks like](/blog/law-firm-marketing-roi-tracking/).
 
 **2. What will our monthly report actually tell us about cases signed?** Ask to see a sample report from a current client. If it shows impressions, clicks, and keyword rankings with no connection to intake data, that's your answer.
 
@@ -27,15 +27,15 @@ Here are the 15 questions that do. They're direct, specific, and uncomfortable f
 
 ## Questions About Technical Capability
 
-**4. Who on your team will work on our website's technical SEO, and what are their qualifications?** Ask specifically about [Core Web Vitals](/blog/) remediation, structured data implementation, and site architecture.
+**4. Who on your team will work on our website's technical SEO, and what are their qualifications?** Ask specifically about [Core Web Vitals](https://web.dev/vitals/) remediation, structured data implementation, and site architecture.
 
-**5. What is our current mobile PageSpeed score, and what would you do to improve it?** Run your site through [Google PageSpeed Insights](/blog/) before the conversation so you know the baseline.
+**5. What is our current mobile PageSpeed score, and what would you do to improve it?** Run your site through [Google PageSpeed Insights](https://pagespeed.web.dev) before the conversation so you know the baseline.
 
 **6. Do you build or modify websites, or do you only do marketing on top of an existing site?** Many marketing agencies don't touch website code.
 
 ## Questions About Ownership and Lock-In
 
-**7. If we stopped working with you, what happens to our website?** The answer reveals more than almost anything else. If the vendor owns the hosting or uses proprietary tools your site is built on, leaving costs you your website. See our full breakdown of [law firm website ownership risk](/blog/).
+**7. If we stopped working with you, what happens to our website?** The answer reveals more than almost anything else. If the vendor owns the hosting or uses proprietary tools your site is built on, leaving costs you your website. See our full breakdown of [law firm website ownership risk](/blog/law-firm-website-ownership/).
 
 **8. Who owns the content you produce on our behalf?** Content you pay to produce should be owned by your firm, full stop. Get this in writing.
 
@@ -53,7 +53,7 @@ Here are the 15 questions that do. They're direct, specific, and uncomfortable f
 
 **13. Which law firms in the Tampa Bay market are you currently working with?** Vendors working with direct competitors create conflicts of interest.
 
-**14. What do you know about the Tampa Bay legal market specifically?** A vendor who treats Tampa like any other market will apply generic strategies. See our [Tampa Bay legal market analysis](/blog/).
+**14. What do you know about the Tampa Bay legal market specifically?** A vendor who treats Tampa like any other market will apply generic strategies. See our [Tampa Bay legal market analysis](/location/).
 
 **15. What would success look like for our firm specifically at 6 months and 12 months?** This separates vendors who have genuinely thought about your situation from those presenting a templated pitch.
 
@@ -64,7 +64,7 @@ At [Hughey, LLC](https://hugheyllc.com/), we welcome every one of these question
 
 **Ready to ask the hard questions?** Let's have that conversation — we'll answer all 15 and show you exactly how we'd approach your firm's situation.
 
-[Start the Conversation →](/blog/)
+[Start the Conversation →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

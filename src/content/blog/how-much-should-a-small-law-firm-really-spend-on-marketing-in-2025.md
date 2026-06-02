@@ -21,7 +21,7 @@ Let me walk you through how to think about this, what the actual benchmarks are,
 
 I worked with a 3-attorney family law firm in Tampa Bay a couple years ago. They had zero marketing budget. Zero. When I asked how they got clients, they said "referrals." That's fine until it isn't. One of their top referring attorneys retired. Another moved practices. Within six months, their intake dropped 40%.
 
-They scrambled, threw $5,000 at Google Ads, got impatient after three weeks, and quit. Then they told me "digital marketing doesn't work for law firms."
+They scrambled, threw $5,000 at [Google Ads](/blog/google-ads-law-firms/), got impatient after three weeks, and quit. Then they told me "digital marketing doesn't work for law firms."
 
 What actually happened: **they needed a baseline marketing budget just to maintain their existing client flow**, and they definitely needed a strategic budget to grow. The real cost of no budget isn't zero—it's the revenue you lose when your referral pipeline shrinks or your website looks like it was built in 2003.
 
@@ -61,11 +61,11 @@ For family law:
 - Intake/CRM/follow-up: 20%
 - Networking/reputation management: 15%
 
-The specific percentages matter less than this principle: **money goes to channels that convert, not to tactics that feel good.** Too many firms dump money into logo design and business cards because it's tangible, then wonder why they don't get calls. Your website and intake process are where most of your marketing budget should actually land.
+The specific percentages matter less than this principle: **money goes to channels that convert, not to tactics that feel good.** Too many firms dump money into logo design and business cards because it's tangible, then wonder why they don't get calls. Your website and [intake process](/services/intake-process-optimization/) are where most of your marketing budget should actually land — see our deeper dive in the [law firm marketing budget guide](/blog/law-firm-marketing-budget/).
 
 ## The Competitive Market Adjustment
 
-Your metro matters. A solo bankruptcy attorney in rural North Carolina can operate on 5% of revenue. A personal injury firm in Tampa Bay or Atlanta competes against heavily funded shops and needs to spend more to win visibility. Same for tech hubs or expensive coastal markets.
+Your metro matters. A solo bankruptcy attorney in rural North Carolina can operate on 5% of revenue. A personal injury firm in [Tampa Bay](/blog/law-firm-marketing-consultant-tampa-fl/) or Atlanta competes against heavily funded shops and needs to spend more to win visibility. Same for tech hubs or expensive coastal markets.
 
 If you're in a market where:
 - Your competitors have $50,000+ monthly ad budgets
@@ -87,7 +87,7 @@ Track:
 - Average client value by source
 - Cost per acquisition
 
-A criminal defense firm might find that Google Local Services Ads costs $150 per lead but converts 40%, yielding $60 per client acquisition. Direct mail might cost $400 per lead but convert 60%, yielding $240 per acquisition. Those numbers completely change your budget allocation.
+A criminal defense firm might find that [Google Local Services Ads](https://support.google.com/localservices/answer/6224841) costs $150 per lead but converts 40%, yielding $60 per client acquisition. Direct mail might cost $400 per lead but convert 60%, yielding $240 per acquisition. Those numbers completely change your budget allocation — see [law firm marketing ROI tracking](/blog/law-firm-marketing-roi-tracking/) for the measurement setup.
 
 If a channel isn't working after three months of real testing (not one month), cut it and redirect the money. If something's working better than you expected, lean into it.
 
@@ -99,7 +99,7 @@ Between $300,000–$700,000, you can justify a part-time marketing coordinator (
 
 Over $700,000, a full-time marketing director makes sense, especially if you're in growth mode. They'll earn their salary just by optimizing your existing conversion funnel.
 
-Most firms should be hybrid: an internal person (even part-time) who knows the firm, plus external agencies for specialized work like SEO or paid ads.
+Most firms should be hybrid: an internal person (even part-time) who knows the firm, plus external agencies for specialized work like SEO or paid ads — managed through a tight [agency oversight process](/services/agency-management-for-law-firms/).
 
 ## The Bottom Line
 

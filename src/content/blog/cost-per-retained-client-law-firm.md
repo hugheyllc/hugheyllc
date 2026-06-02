@@ -96,7 +96,7 @@ Once you have cost-per-retained-client by channel, you can make real decisions. 
 
 - **Kill or fix underperforming channels.** If a channel's CPRC is 3x your average, it needs to justify its existence or lose its budget.
 - **Double down on efficient channels.** If SEO is delivering clients at half the cost of paid ads, invest more in content and technical SEO.
-- **Fix your intake before your marketing.** If leads are strong but retention is weak, the problem isn't marketing — it's what happens when the phone rings.
+- **Fix your intake before your marketing.** If leads are strong but retention is weak, the problem isn't marketing — it's what happens when the phone rings. [Intake process optimization](/services/intake-process-optimization/) is where most CPRC problems actually get solved.
 - **Hold your agency accountable.** Stop accepting reports that celebrate leads. Demand reporting tied to retained clients.
 
 ## Stop Guessing

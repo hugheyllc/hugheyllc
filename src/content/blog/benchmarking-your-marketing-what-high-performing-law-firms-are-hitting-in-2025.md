@@ -75,7 +75,7 @@ Low performers: Declining
 
 ## Why These Benchmarks Matter
 
-These KPIs represent more than vanity metrics — they define how efficiently your firm turns ad spend and visibility into revenue. For example:
+These KPIs represent more than vanity metrics — they define how efficiently your firm turns ad spend and visibility into revenue. The full math behind these conversions is covered in our [cost per retained client breakdown](/blog/cost-per-retained-client-law-firm/). For example:
 
 <li>
 **Cost per Lead (CPL):** reveals PPC sustainability
@@ -89,7 +89,7 @@ These KPIs represent more than vanity metrics — they define how efficiently yo
 **Average Client Value:** shows case quality and referral strength
 </li>
 
-According to Clio’s Legal Trends Report, firms that invest in intake optimization and marketing analytics outperform peers by up to 30% in revenue per lawyer.
+According to [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/), firms that invest in [intake optimization](/services/intake-process-optimization/) and marketing analytics outperform peers by up to 30% in revenue per lawyer.
 
 ## How to Use These Benchmarks Effectively
 
@@ -107,14 +107,14 @@ Benchmarks are guides — not ceilings. The best approach is to track quarterly 
 
 For a full process, see:
 
-[From PPC to Profit](/blog/) 
+[How to track marketing ROI from first click to signed retainer](/blog/law-firm-marketing-roi-tracking/) 
 
 ## How Elite Firms Stay Ahead in 2025
 
 High-growth firms build connected ecosystems that automate data, forecast leads, and track ROI in real time.
 
 <li>
-**Automation tools:** Lawmatics, Zapier
+**Automation tools:** [Lawmatics](https://www.lawmatics.com), [Zapier](https://zapier.com)
 </li><li>
 **Predictive analytics:** GA4 + AI dashboards
 </li><li>
@@ -139,11 +139,11 @@ In 2025, the most successful firms rely on data — not guesswork — to drive e
 
 ## Want to See How Your Firm Measures Up?
 
-Hughey LLC helps law firms build custom marketing audits and performance dashboards that benchmark your data against top firms nationwide.
+Hughey LLC helps law firms build custom [marketing audits](/resources/marketing-audit-checklist/) and performance dashboards that benchmark your data against top firms nationwide.
 
 Schedule your free audit:
 
-/contact/
+[Contact us](/contact/)
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 

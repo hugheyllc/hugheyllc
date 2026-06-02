@@ -11,13 +11,13 @@ draft: false
 image: "/images/blog/lawmatics-vs-clio-grow.jpg"
 ---
 
-If you're evaluating intake CRM options for your law firm, the conversation will almost inevitably come down to two platforms: [Lawmatics](/blog/) and [Clio Grow](/blog/). Both are purpose-built for legal intake, both have strong adoption in the market, and both integrate with the core platforms in a law firm's marketing stack.
+If you're evaluating intake CRM options for your law firm, the conversation will almost inevitably come down to two platforms: [Lawmatics](https://www.lawmatics.com) and Clio Grow. Both are purpose-built for legal intake, both have strong adoption in the market, and both integrate with the core platforms in a law firm's marketing stack.
 
 The right choice between them is not universal. It depends on your firm's size, the complexity of your intake workflows, your existing technology investments, and how you plan to connect your intake CRM to your marketing attribution stack.
 
 ## What They Have in Common
 
-Both platforms offer: pipeline-based intake tracking from first contact through retained client, automated follow-up sequences via email and SMS, form builders with CRM-connected submission handling, document collection and e-signature, calendar and consultation booking integration, reporting on intake conversion rates and lead sources, and integration with [CallRail](/blog/) for call tracking data flow.
+Both platforms offer: pipeline-based intake tracking from first contact through retained client, automated follow-up sequences via email and SMS, form builders with CRM-connected submission handling, document collection and e-signature, calendar and consultation booking integration, reporting on intake conversion rates and lead sources, and integration with [CallRail](https://www.callrail.com) for call tracking data flow.
 
 Either platform, properly configured, will close the most critical gap in most law firm intake workflows: the absence of automated follow-up and the manual, error-prone lead source entry that undermines attribution data.
 
@@ -25,13 +25,13 @@ Either platform, properly configured, will close the most critical gap in most l
 
 **Marketing automation depth.** Lawmatics was built from the ground up as a legal marketing automation platform. Its marketing automation capabilities are more mature: more sophisticated email/SMS drip sequences, more granular lead source tracking, more flexible pipeline customization, and a more powerful built-in email marketing tool.
 
-**Marketing-to-intake connection.** For firms wanting to use their intake CRM as the center of their marketing attribution, Lawmatics has more purpose-built features. Its source tracking is more granular, its UTM parameter capture is native, and its integration with [CallRail](/blog/) and [GA4](/blog/) is more developed for attribution use cases.
+**Marketing-to-intake connection.** For firms wanting to use their intake CRM as the center of their marketing attribution, Lawmatics has more purpose-built features. Its source tracking is more granular, its UTM parameter capture is native, and its integration with CallRail and [GA4](/blog/ga4-setup-law-firm-guide/) is more developed for attribution use cases.
 
 **Standalone intake solution.** If your firm uses a practice management system other than Clio Manage, Lawmatics works well as a standalone intake CRM.
 
 ## Where Clio Grow Wins
 
-**Clio ecosystem integration.** If your firm already uses [Clio Manage](/blog/) for practice management, Clio Grow is the natural pairing. The integration is native and seamless — converting an intake record to a matter happens with one click, no data re-entry.
+**Clio ecosystem integration.** If your firm already uses [Clio Manage](https://www.clio.com/manage/) for practice management, Clio Grow is the natural pairing. The integration is native and seamless — converting an intake record to a matter happens with one click, no data re-entry.
 
 **Unified platform pricing.** Clio's bundled pricing (Grow + Manage together) is typically more cost-effective than purchasing Lawmatics alongside a separate practice management platform.
 
@@ -39,7 +39,7 @@ Either platform, properly configured, will close the most critical gap in most l
 
 ## The Attribution Stack Consideration
 
-From a marketing attribution perspective, both platforms are viable. The critical configuration in either is ensuring that lead source data flows in automatically from [CallRail](/blog/) and your website forms — not manually entered by intake staff. Lawmatics has a slight edge for firms prioritizing sophisticated attribution, specifically because its native UTM parameter capture and GA4 integration are more developed. For the level of attribution described in our [complete martech stack guide](/blog/), Lawmatics is typically the recommended choice if you're not already on Clio Manage.
+From a marketing attribution perspective, both platforms are viable. The critical configuration in either is ensuring that lead source data flows in automatically from CallRail and your website forms — not manually entered by intake staff. Lawmatics has a slight edge for firms prioritizing sophisticated attribution, specifically because its native UTM parameter capture and GA4 integration are more developed. For the level of attribution described in our [complete martech stack guide](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/), Lawmatics is typically the recommended choice if you're not already on Clio Manage.
 
 ## The Recommendation Framework
 
@@ -117,7 +117,7 @@ The right platform is the one you'll actually use and maintain. That's usually t
 
 **Not sure which platform is right for your firm?** We configure both and can give you a recommendation based on your specific workflow and existing stack.
 
-[Get a Platform Recommendation →](/blog/)
+[Get a Platform Recommendation →](/contact/)
 </div>
 
 ## FAQs

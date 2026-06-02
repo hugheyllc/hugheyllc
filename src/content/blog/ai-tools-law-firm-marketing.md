@@ -17,25 +17,25 @@ This is an honest breakdown of AI tools actually producing results for law firm 
 
 ## Content Creation: High Value With Important Caveats
 
-AI writing tools — [Claude](/blog/), [ChatGPT](/blog/), and similar large language models — are genuinely useful for law firm content production when used correctly. The correct use is as a research, drafting, and structure tool — not as a replacement for attorney-authored content.
+AI writing tools — Claude, ChatGPT, and similar large language models — are genuinely useful for law firm content production when used correctly. The correct use is as a research, drafting, and structure tool — not as a replacement for attorney-authored content.
 
 **What AI content tools do well:** generating initial outlines for blog posts on established legal topics, drafting FAQ sections for attorney review, expanding brief attorney notes into full-length blog posts, writing meta descriptions and title tag variations, generating multiple CTA variations for A/B testing.
 
-**Critical limitations:** AI-generated legal content can be factually wrong — especially on jurisdiction-specific details, recent statutory changes, and procedural nuances. Every piece must be reviewed by a licensed attorney. Purely AI-generated content without attorney authorship undermines [E-E-A-T signals](https://hugheyllc.com/blog/eeat-law-firm-seo/). Florida Bar advertising rules apply to AI-generated content just as to human-written content.
+**Critical limitations:** AI-generated legal content can be factually wrong — especially on jurisdiction-specific details, recent statutory changes, and procedural nuances. Every piece must be reviewed by a licensed attorney. Purely AI-generated content without attorney authorship undermines [E-E-A-T signals](/blog/eeat-law-firm-seo/). [Florida Bar advertising rules](/blog/florida-bar-law-firm-advertising-rules/) apply to AI-generated content just as to human-written content.
 
 The right model: AI drafts, attorney edits and approves, attorney byline on publication.
 
 ## Keyword Research and SEO Analysis: Strong Utility
 
-AI-powered SEO tools — specifically [Ahrefs](/blog/)' AI features and [SEMrush](/blog/)'s AI analysis tools — provide genuine value in the research and planning phase. Useful for: keyword clustering to inform content cluster architecture (see [keyword research guide](/blog/)), competitor content gap analysis, and search intent classification at scale.
+AI-powered SEO tools — specifically Ahrefs' AI features and SEMrush's AI analysis tools — provide genuine value in the research and planning phase. Useful for: keyword clustering to inform content cluster architecture (see [keyword research guide](/blog/lawyer-keyword-research/)), competitor content gap analysis, and search intent classification at scale.
 
 ## Google Ads Automation: Effective When Properly Fed
 
-Google Ads' AI bidding — Target CPA, Target ROAS, Maximize Conversions — are genuinely effective at optimizing performance when fed the right conversion signals. The key phrase is "when fed the right conversion signals." Properly configured with [CallRail](/blog/) phone call conversions imported alongside form submissions, Google Ads' AI bidding is a legitimate performance multiplier. See our [Google Ads guide for law firms](/blog/).
+Google Ads' AI bidding — Target CPA, Target ROAS, Maximize Conversions — are genuinely effective at optimizing performance when fed the right conversion signals. The key phrase is "when fed the right conversion signals." Properly configured with [CallRail](/blog/callrail-law-firm-setup-guide/) phone call conversions imported alongside form submissions, Google Ads' AI bidding is a legitimate performance multiplier. See our [Google Ads guide for law firms](/blog/google-ads-law-firms/).
 
 ## Marketing Analytics and Reporting: Emerging Utility
 
-AI-powered marketing analytics — tools that synthesize data from multiple platforms and surface insights in plain language — are becoming genuinely useful. The limiting factor is still the attribution stack foundation. The [connected martech stack](/blog/) is the prerequisite for AI analytics to be useful. AI insights built on siloed data produce confidently wrong conclusions.
+AI-powered marketing analytics — tools that synthesize data from multiple platforms and surface insights in plain language — are becoming genuinely useful. The limiting factor is still the attribution stack foundation. The [connected martech stack](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/) is the prerequisite for AI analytics to be useful. AI insights built on siloed data produce confidently wrong conclusions.
 
 ## Chatbots and Intake AI: Proceed Carefully
 
@@ -54,7 +54,7 @@ I've seen a personal injury firm in the Tampa Bay area spend $8,000 on an "AI-po
 The foundation matters more than the AI layer. Before you implement any AI marketing tool, ask yourself:
 
 - **Is my conversion tracking complete?** Are phone calls, form submissions, and case intakes all tracked consistently in one system?
-- **Do my marketing platforms talk to each other?** Can data flow from [CallRail](/blog/) to Google Ads to your CRM without manual export-import cycles?
+- **Do my marketing platforms talk to each other?** Can data flow from CallRail to Google Ads to your CRM without manual export-import cycles?
 - **Do I have an actual marketing strategy?** Or am I hoping AI will create strategy for me?
 - **Who's responsible for quality control?** Especially for content and chatbots, who's accountable for accuracy?
 
@@ -100,7 +100,7 @@ AI is a multiplier for law firms with foundational infrastructure — proper tra
 
 **Want to integrate AI tools into your law firm marketing without the hype or the risks?** We build AI-assisted content and analytics workflows on top of proper marketing infrastructure.
 
-[Discuss AI Marketing Integration →](/blog/)
+[Discuss AI Marketing Integration →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

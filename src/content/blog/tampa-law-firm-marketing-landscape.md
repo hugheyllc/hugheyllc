@@ -23,17 +23,17 @@ The Tampa Bay metro area — Hillsborough, Pinellas, and Pasco counties combined
 
 **Marketing vendor-backed smaller firms** — firms working with large national marketing agencies that provide templated websites, content packages, and citation management at scale. These firms often have decent organic visibility despite having no differentiated digital presence.
 
-**Directory profiles** — [Avvo](/blog/), [Martindale-Hubbell](/blog/), and [FindLaw](/blog/) profiles often rank on page one for local attorney searches. These are both competition for your prospects' attention and citation opportunities for your own SEO.
+**Directory profiles** — [Avvo](https://www.avvo.com), [Martindale-Hubbell](https://www.martindale.com), and [FindLaw](https://www.findlaw.com) profiles often rank on page one for local attorney searches. These are both competition for your prospects' attention and citation opportunities for your own SEO.
 
 ## Where the Real Opportunity Is
 
-**Technical SEO performance.** The majority of law firm websites in Tampa have mobile PageSpeed scores in the 30–60 range and Core Web Vitals issues that suppress rankings. A firm that invests in [technical SEO remediation](/blog/) and builds on a modern stack is competing with an unfair advantage over the field.
+**Technical SEO performance.** The majority of law firm websites in Tampa have mobile PageSpeed scores in the 30–60 range and Core Web Vitals issues that suppress rankings. A firm that invests in [technical SEO remediation](/blog/eeat-law-firm-seo/) and builds on a modern stack is competing with an unfair advantage over the field.
 
-**Attribution infrastructure.** Almost no law firm in the Tampa market has a fully connected [marketing attribution stack](/blog/). Firms that connect CallRail → GA4 → Lawmatics → revenue data can allocate marketing budgets with precision that competitors operating on gut feel cannot match.
+**Attribution infrastructure.** Almost no law firm in the Tampa market has a fully connected [marketing attribution stack](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/). Firms that connect CallRail → GA4 → Lawmatics → revenue data can allocate marketing budgets with precision that competitors operating on gut feel cannot match. We cover the full discipline in our [data analysis for law firms](/services/data-analysis-for-law-firms/) service.
 
 **Topical authority.** Most Tampa law firm websites have some content but very few have the kind of comprehensive, well-structured topical authority that Google rewards with broad, sustained rankings.
 
-**Local pack optimization.** The Google Local Pack generates disproportionate click-through for attorney searches. [Google Business Profile optimization](/blog/), consistent citation management, and systematic review generation are underinvested by most Tampa firms relative to their impact.
+**Local pack optimization.** The Google Local Pack generates disproportionate click-through for attorney searches. [Google Business Profile optimization](/blog/law-firm-google-business-profile/), consistent citation management ([Google's GBP guidelines](https://support.google.com/business/answer/3038177)), and systematic review generation are underinvested by most Tampa firms relative to their impact.
 
 ## The Vendor Landscape in Tampa
 
@@ -110,7 +110,7 @@ Once you have infrastructure and visibility, build content around a tight cluste
 
 **Want to know exactly where your firm stands in the Tampa market?** We'll run a full competitive audit and show you the clearest path to gaining ground.
 
-[Get a Tampa Market Competitive Audit →](/blog/)
+[Get a Tampa Market Competitive Audit →](/contact/)
 </div>
 
 ## FAQs

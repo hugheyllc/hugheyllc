@@ -15,7 +15,7 @@ image: "/images/blog/law-firm-negative-keywords.jpg"
 
 Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Not because the ads are bad. Not because the targeting is wrong. Because there are no guardrails on what searches *won't* trigger the ads.
 
-Negative keywords solve this. A negative keyword prevents your ad from showing when someone includes that term in their search. It's traffic prevention, not traffic generation — and for law firms running on finite budgets, it's one of the highest-ROI moves you can make.
+[Negative keywords](https://support.google.com/google-ads/answer/2453972) solve this. A negative keyword prevents your ad from showing when someone includes that term in their search. It's traffic prevention, not traffic generation — and for law firms running on finite budgets, it's one of the highest-ROI moves you can make.
 
 Here's what to add and why.
 
@@ -38,7 +38,7 @@ Watch for:
 - `-virtual consultation` or `-online attorney` if you require in-person representation
 - National modifiers like `-nationwide` when your practice is local
 
-Check your search terms report filtered by geography. In most accounts I audit, 10–20% of spend is going to searches that don't match the firm's actual service area. That's typically the first thing I cut.
+Check your [search terms report](https://support.google.com/google-ads/answer/2472708) filtered by geography. In most accounts I audit, 10–20% of spend is going to searches that don't match the firm's actual service area. That's typically the first thing I cut.
 
 ## Bargain-Hunting Traffic
 
@@ -69,7 +69,7 @@ Add negatives for:
 - `-DIY`
 - `-small claims` (if you don't handle small claims)
 
-These searchers have already decided not to hire a lawyer — or haven't decided yet and aren't ready to. Either way, paying for that click is not going to produce a retained client.
+These searchers have already decided not to hire a lawyer — or haven't decided yet and aren't ready to. Either way, paying for that click is not going to produce a [retained client](/blog/cost-per-retained-client-law-firm/).
 
 ## Job Seekers
 
@@ -107,3 +107,5 @@ The exception: if you're running a deliberate conquest campaign against a specif
 The accounts that perform best have 200–400+ negative keywords built up over 12–18 months of consistent review. That's not a number you hit on day one — it's the result of a disciplined process of reviewing what's actually happening in the account and removing what doesn't belong.
 
 The math is simple: if you cut 20% of spend going to searches that never convert, and reinvest that budget into searches that do, your cost per retained client drops without increasing total spend. That's the outcome a well-maintained negative keyword list delivers.
+
+For more on what separates winning law firm Google Ads campaigns from money pits, see [Google Ads for Law Firms: Why Most Campaigns Fail](/blog/google-ads-law-firms/). If you want help auditing the wasted spend in your account, [get in touch](/contact/).

@@ -19,11 +19,11 @@ Here are the 10 things to check before spending another dollar.
 
 ## 1. Mobile PageSpeed Score
 
-Run your site through [Google PageSpeed Insights](/blog/) right now. Under 70 on mobile is a problem. Under 50 is urgent. [Core Web Vitals](/blog/) are a direct Google ranking factor, and a slow site is penalized regardless of how strong the rest of your SEO is.
+Run your site through [Google PageSpeed Insights](https://pagespeed.web.dev) right now. Under 70 on mobile is a problem. Under 50 is urgent. [Core Web Vitals](https://web.dev/vitals/) are a direct Google ranking factor, and a slow site is penalized regardless of how strong the rest of your SEO is.
 
 ## 2. Google Search Console Setup and Health
 
-Is your site verified in [Google Search Console](/blog/)? Are there any crawl errors, coverage issues, or manual actions listed? A manual action (a Google penalty) can suppress your rankings entirely, and many firms don't know they have one. Search Console is free and should be the first stop in any SEO audit.
+Is your site verified in [Google Search Console](https://search.google.com/search-console)? Are there any crawl errors, coverage issues, or manual actions listed? A manual action (a Google penalty) can suppress your rankings entirely, and many firms don't know they have one. Search Console is free and should be the first stop in any SEO audit.
 
 ## 3. XML Sitemap and Robots.txt
 
@@ -35,7 +35,7 @@ If your site serves the same content at multiple URLs (www vs. non-www, HTTP vs.
 
 ## 5. Title Tags and Meta Descriptions
 
-Every page on your site should have a unique, keyword-optimized title tag (under 60 characters) and meta description (under 155 characters). Missing or duplicate title tags are among the most common and easiest-to-fix SEO issues. Use [SEMrush](/blog/) or [Ahrefs](/blog/) to crawl your site and identify pages with missing or duplicate metadata.
+Every page on your site should have a unique, keyword-optimized title tag (under 60 characters) and meta description (under 155 characters). Missing or duplicate title tags are among the most common and easiest-to-fix SEO issues. Use [SEMrush](https://www.semrush.com) or [Ahrefs](https://ahrefs.com) to crawl your site and identify pages with missing or duplicate metadata.
 
 ## 6. Heading Structure
 
@@ -47,15 +47,15 @@ Internal links distribute ranking authority across your site and help Google und
 
 ## 8. Local SEO Signals
 
-For law firms targeting local clients, check: Is your [Google Business Profile](/blog/) fully optimized with correct categories, business hours, and a complete description? Is your NAP (Name, Address, Phone) consistent across your website, GBP, and major directories? Do your practice area pages include location-specific content? We covered the full local SEO checklist in our [local SEO guide for law firms](/blog/).
+For law firms targeting local clients, check: Is your [Google Business Profile](/blog/law-firm-google-business-profile/) fully optimized with correct categories, business hours, and a complete description? Is your NAP (Name, Address, Phone) consistent across your website, GBP, and major directories? Do your practice area pages include location-specific content? We covered the full local SEO checklist in our [local SEO guide for law firms](/blog/local-seo-law-firms/).
 
 ## 9. Backlink Profile Quality
 
-Your backlink profile — the sites linking to you — is a major ranking factor. Use [Ahrefs](/blog/) or [SEMrush](/blog/) to audit your backlinks and look for: toxic or spammy links that could be triggering a penalty, links from irrelevant or low-quality sites that dilute your authority, and broken links that are passing no equity. If you find a significant number of toxic links, they may need to be disavowed via [Google's disavow tool](/blog/).
+Your backlink profile — the sites linking to you — is a major ranking factor. Use [Ahrefs](https://ahrefs.com) or [Moz](https://moz.com) to audit your backlinks and look for: toxic or spammy links that could be triggering a penalty, links from irrelevant or low-quality sites that dilute your authority, and broken links that are passing no equity. If you find a significant number of toxic links, they may need to be disavowed via [Google's disavow tool](https://search.google.com/search-console/disavow-links).
 
 ## 10. Conversion Tracking Completeness
 
-This is technically a marketing measurement issue rather than an SEO issue, but it belongs in any pre-investment audit because it affects every decision downstream. Are form submissions firing conversion events in GA4? Is your phone number tracked via [CallRail](/blog/)? Are those events imported as conversion actions in Google Ads? Without this tracking in place, you can't know whether any marketing investment is working — and you'll keep making decisions based on incomplete data.
+This is technically a marketing measurement issue rather than an SEO issue, but it belongs in any pre-investment audit because it affects every decision downstream. Are form submissions firing conversion events in GA4? Is your phone number tracked via [CallRail](/blog/callrail-law-firm-setup-guide/)? Are those events imported as conversion actions in Google Ads? Without this tracking in place, you can't know whether any marketing investment is working — and you'll keep making decisions based on incomplete data.
 
 ## What to Do With What You Find
 
@@ -68,7 +68,7 @@ At [Hughey, LLC](https://hugheyllc.com/), a comprehensive technical and content 
 
 **Want a professional SEO audit before your next marketing spend?** We'll give you a complete technical and content audit with a prioritized action plan — at no cost.
 
-[Request Your Free SEO Audit →](/blog/)
+[Request Your Free SEO Audit →](/resources/marketing-audit-checklist/)
 </div>
 
 ## FAQs

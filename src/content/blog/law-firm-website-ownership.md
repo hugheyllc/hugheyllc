@@ -27,7 +27,7 @@ A rented website is one where the platform, hosting, or content management syste
 
 ## The Real Cost of Not Owning Your Website
 
-**Negotiating leverage.** If your website lives on a vendor's platform, you're in a dependent relationship. Leaving means losing your site or starting over. That dependency gives the vendor significant pricing power and removes your ability to hold them accountable to performance. The [retainer underdelivery problem](/blog/) is dramatically worse when you can't easily change vendors.
+**Negotiating leverage.** If your website lives on a vendor's platform, you're in a dependent relationship. Leaving means losing your site or starting over. That dependency gives the vendor significant pricing power and removes your ability to hold them accountable to performance. Our [agency management service](/services/agency-management-for-law-firms/) helps firms regain that leverage even when a platform makes switching costly.
 
 **SEO equity.** A website that has been publishing content, earning backlinks, and building rankings for several years has accumulated significant authority. If that authority is attached to a vendor's platform or domain rather than your firm's domain, you don't own it — and you lose it the moment the relationship ends.
 
@@ -37,7 +37,7 @@ A rented website is one where the platform, hosting, or content management syste
 
 - **Your domain** is registered in your name with a registrar account you control
 
-- **Your code** lives in a repository you own — ideally a [GitHub](/blog/) account in your firm's name
+- **Your code** lives in a repository you own — ideally a [GitHub](https://github.com) account in your firm's name
 
 - **Your content** is managed through a CMS that stores files you control — not locked in a proprietary database
 
@@ -45,7 +45,7 @@ A rented website is one where the platform, hosting, or content management syste
 
 - **Your vendor relationship is optional** — if you stop working with your developer or agency, your site continues to exist and function
 
-This is the model every Hughey, LLC project is built on. When an engagement ends, the client walks away with everything: code in their GitHub repository, content in [Decap CMS](/blog/), hosting on [Vercel](/blog/) under their account. Full details: [law firm website design and development guide](/blog/).
+This is the model every [Hughey, LLC](/about/) project is built on. When an engagement ends, the client walks away with everything: code in their GitHub repository, content in [Decap CMS](https://decapcms.org), hosting on [Vercel](https://vercel.com) under their account.
 
 ## How to Assess Your Current Situation
 
@@ -64,7 +64,7 @@ This is the model every Hughey, LLC project is built on. When an engagement ends
 
 **Not sure if you truly own your website?** We'll review your current setup and tell you exactly where you stand — and what it would take to own your digital presence outright.
 
-[Review My Website Ownership →](/blog/)
+[Review My Website Ownership →](/contact/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
