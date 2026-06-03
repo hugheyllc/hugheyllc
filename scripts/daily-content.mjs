@@ -291,15 +291,54 @@ Return only the tweet text — no quotes, no commentary, no hashtags.`;
   return `${cleaned}\n\nhugheyllc.com/blog/${slug}/`;
 }
 
-async function generateLinkedInPost({ title, slug, excerpt }) {
-  const system =
-    'You write LinkedIn posts for Joe Hughey, an independent law firm marketing consultant in Tampa Bay. Posts are 3-5 short paragraphs, conversational but expert, no emojis, no hashtags, no AI-cliche phrases. Each paragraph is 1-3 sentences.';
-  const user = `Write a LinkedIn post (3-5 short paragraphs) about this new blog post. The URL hugheyllc.com/blog/${slug}/ must appear naturally in the post (its own line or end of a paragraph). Title: ${title}. Excerpt: ${excerpt}. Return only the post text — no quotes, no commentary.`;
-  const text = (await callAnthropic({ system, user, maxTokens: 1000 })).trim();
+const LINKEDIN_STRUCTURES = [
+  {
+    name: 'Contrarian Take',
+    spec: `Bold opening that challenges a common belief (1 line). Blank line. 2-3 supporting points, each its own short paragraph (1-2 sentences). Blank line. A nuance or honest caveat (1-2 sentences). Blank line. A direct invitation to push back. 150-300 words.`,
+  },
+  {
+    name: 'Story to Lesson',
+    spec: `A narrative hook in the first 1-2 lines (something a law firm owner has actually seen). Blank line. Set up the conflict in 2-3 short paragraphs. Blank line. Resolution — what changed when they fixed it. Blank line. The takeaway in plain language. Blank line. A specific question to the reader. 200-400 words.`,
+  },
+  {
+    name: 'Numbered Framework',
+    spec: `A short hook (1-2 lines) naming the problem. Blank line. 3-7 numbered items. Each item starts with a number and short label on its own line, then a 1-2 sentence explanation underneath. Blank line between items. End with a single-sentence CTA. 150-250 words.`,
+  },
+  {
+    name: 'Question Post',
+    spec: `1-3 sentence setup that frames the problem in concrete terms. Blank line. A direct, specific question to law firm owners (not generic, not engagement bait). 50-100 words total.`,
+  },
+];
+
+async function generateLinkedInPost({ title, slug, excerpt, structureIndex = 0 }) {
+  const structure = LINKEDIN_STRUCTURES[structureIndex % LINKEDIN_STRUCTURES.length];
+  const system = `You write LinkedIn posts for Joe Hughey, an independent law firm marketing consultant in Tampa Bay with 20+ years of experience. Voice: direct, plain English, no corporate speak, no AI cliches ("dive in", "unlock", "leverage", "game-changer"), no emojis except a single optional pointer like 👇 at the end of a "link in comments" line. Speak to law firm owners and managing partners. Never fabricate client names, firm names, case studies, or specific statistics — say "firms that do this typically see" or "a common pattern" instead.`;
+
+  const user = `Write a LinkedIn post about this blog post using the "${structure.name}" structure.
+
+Structure spec:
+${structure.spec}
+
+Hard formatting rules — these are not optional:
+- One thought per line. Blank line between paragraphs.
+- The first line must be a standalone hook that works without the rest of the post: either a counterintuitive claim ("The best law firm websites have almost no text...") or a direct address ("If your law firm is doing X without Y, you're burning cash."). It must hook before LinkedIn truncates at ~210 characters.
+- NO URL anywhere in the post body. Do not mention hugheyllc.com. End the post with the line: Full breakdown in comments 👇   (or: Link in first comment 👇)
+- Place the CTA at the end, never in the middle.
+- After the CTA line, add a blank line, then 3-5 hashtags on a single line: #LawFirmMarketing #LegalMarketing plus 2-3 broader relevant tags (e.g., #SmallBusiness, #Entrepreneurship, #DigitalMarketing, #SEO, #GoogleAds — pick what fits the topic).
+- No engagement bait ("agree?", "thoughts?", "comment below if..."). A genuine specific question is fine.
+
+Topic context (for your reference only — do not paste these in):
+Title: ${title}
+Excerpt: ${excerpt}
+
+Return only the post text. No quotes around it. No commentary before or after.`;
+
+  const text = (await callAnthropic({ system, user, maxTokens: 1200 })).trim();
   let cleaned = text.replace(/^["']|["']$/g, '');
-  if (!cleaned.includes(`hugheyllc.com/blog/${slug}/`)) {
-    cleaned += `\n\nhugheyllc.com/blog/${slug}/`;
-  }
+  // Strip any URL the model snuck in
+  cleaned = cleaned.replace(/https?:\/\/\S+/g, '').replace(/hugheyllc\.com\/blog\/[\w-]+\/?/g, '');
+  // Collapse runs of 3+ blank lines down to 2
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n').trim();
   return cleaned;
 }
 
@@ -422,6 +461,38 @@ async function postLinkedIn(text) {
   return res.headers['x-restli-id'] || JSON.parse(responseText).id;
 }
 
+async function commentLinkedIn(postUrn, text) {
+  const token = process.env.LINKEDIN_ACCESS_TOKEN;
+  const personUrn = process.env.LINKEDIN_PERSON_URN;
+  if (!token || !personUrn || !postUrn) throw new Error('LinkedIn comment prerequisites missing');
+  const actor = personUrn.startsWith('urn:li:person:') ? personUrn : `urn:li:person:${personUrn}`;
+  const fullPostUrn = postUrn.startsWith('urn:li:') ? postUrn : `urn:li:share:${postUrn}`;
+  const encodedUrn = encodeURIComponent(fullPostUrn);
+  const body = JSON.stringify({
+    actor,
+    object: fullPostUrn,
+    message: { text },
+  });
+  const res = await request(
+    {
+      hostname: 'api.linkedin.com',
+      path: `/v2/socialActions/${encodedUrn}/comments`,
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+        'X-Restli-Protocol-Version': '2.0.0',
+        'Content-Length': Buffer.byteLength(body),
+      },
+    },
+    body,
+  );
+  const responseText = res.body.toString('utf8');
+  if (res.status < 200 || res.status >= 300) {
+    throw new Error(`LinkedIn comment ${res.status}: ${responseText.slice(0, 500)}`);
+  }
+}
+
 // ---------- Telegram ----------
 
 async function notifyTelegram(text) {
@@ -506,9 +577,23 @@ async function main() {
 
   console.log('[5/7] Posting to LinkedIn');
   try {
-    const liText = await generateLinkedInPost({ title: fm.title, slug, excerpt: fm.excerpt });
+    // Rotate post structure by existing post count so back-to-back posts vary
+    const structureIndex = existing.length;
+    const liText = await generateLinkedInPost({
+      title: fm.title,
+      slug,
+      excerpt: fm.excerpt,
+      structureIndex,
+    });
     const liId = await postLinkedIn(liText);
-    console.log(`     posted linkedin id=${liId}`);
+    console.log(`     posted linkedin id=${liId} (structure: ${LINKEDIN_STRUCTURES[structureIndex % LINKEDIN_STRUCTURES.length].name})`);
+    // Post the blog URL as the first comment so it doesn't kill reach.
+    try {
+      await commentLinkedIn(liId, `Full breakdown: hugheyllc.com/blog/${slug}/`);
+      console.log('     posted first-comment URL');
+    } catch (cErr) {
+      console.error(`     linkedin first-comment failed: ${cErr.message}`);
+    }
   } catch (e) {
     console.error(`     linkedin failed: ${e.message}`);
   }
