@@ -1,69 +1,88 @@
 ---
-title: "The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025"
+title: "Why Law Firms Fire Their Marketing Agency (And What to Do Instead)"
 slug: "law-firm-google-business-profile"
-date: 2026-05-06
+date: 2026-06-03
 author: "Joe Hughey"
-excerpt: "Your Google Business Profile is the single highest-ROI local SEO asset your law firm has. Most firms set it up once and forget it. Here's what the top-ranked fi"
-tags: ["attorney local search","Google Business Profile","law firm marketing","local SEO"]
-seo_title: "The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025"
-seo_description: "Your Google Business Profile is the single highest-ROI local SEO asset your law firm has. Most firms set it up once and forget it. Here's what the top-ranked fi"
+excerpt: "Law firms don't fire marketing agencies because the agency did bad work. They fire them because nobody could prove the work was producing retained clients. Here's how the pattern plays out — and what the exit actually requires."
+tags: ["law-firm-marketing", "marketing-agency", "law-firm-marketing-consultant"]
+seo_title: "Why Law Firms Fire Their Marketing Agency (And What to Do Instead)"
+seo_description: "Law firms fire marketing agencies when they can't tie spend to retained clients. Here's the pattern, the red flags, and what you should do before and after the switch."
 draft: false
-image: "/images/blog/law-firm-google-business-profile.jpg"
+image: "/images/blog/why-law-firms-fire-marketing-agency.jpg"
 ---
 
-When someone in your city searches for an attorney, the first thing they see isn't your website. It's the Google Local Pack — three business listings displayed above the organic search results, with ratings, hours, and a direct call button.
+Law firms don't fire marketing agencies because the agency did bad work. They fire them because nobody could prove the work was producing retained clients — and the firm ran out of patience waiting for proof that never came.
 
-Ranking in that Local Pack is often worth more than a first-page organic ranking. The click-through rates are higher, the intent is stronger, and the path to contact is shorter. **And the primary lever that controls your Local Pack ranking is your Google Business Profile.**
+The pattern is predictable. The exit is usually expensive. And the next agency engagement often repeats the same cycle unless something changes between contracts.
 
-Most law firms treat their GBP as a one-time setup task. The firms that consistently dominate local search treat it as an active marketing channel.
+## How the Breakdown Usually Starts
 
-## The Basics Most Firms Get Wrong
+Most agency relationships start with a legitimate problem: the firm needs more clients, doesn't have the internal expertise to run its own marketing, and hires an agency to handle it. The agency promises results. The contract is signed. The campaigns launch.
 
-Before optimizing, make sure your GBP foundation is solid. These are the most common issues we find when auditing law firm profiles:
+For the first few months, things feel like progress. Rankings move. Calls come in. The monthly report shows green arrows. The firm's managing partner feels like something is finally happening.
 
-- **Inconsistent NAP data** — your Name, Address, and Phone number must be identical across your GBP, your website, and every directory listing. Even minor inconsistencies (St. vs Street, Suite vs Ste.) confuse Google's local algorithm. Use [a listing management tool](https://www.semrush.com/listing-management/) to audit consistency across directories.
-- **Wrong primary category** — "Lawyer" is too broad. Choose the most specific category that matches your primary practice area: "Personal Injury Attorney," "Family Law Attorney," "Business Attorney." Add secondary categories for additional practice areas.
-- **Missing service areas** — if you serve clients across multiple counties or cities, add each as a service area. This expands your local ranking footprint significantly.
-- **No business description** — you have 750 characters. Use them. Include your primary practice areas, the cities you serve, and a natural mention of your top keyword phrase in the first 250 characters (what shows before the "more" cutoff).
+Then, somewhere around month four or six, the question surfaces: "Are these actually retained cases?" The agency sends a report. The report shows impressions, clicks, leads, and rankings. Nobody on the report shows the number of clients who signed a fee agreement.
 
-## The Content Actions That Actually Move Rankings
+That gap — between what the agency measures and what the firm actually cares about — is where most relationships start to deteriorate.
 
-[Google Posts](https://support.google.com/business/answer/3038063) are one of the most underutilized features in law firm local SEO. Publishing a Google Post once or twice per week — a blog summary, a legal tip, a firm update — signals to Google that your profile is actively managed. Active profiles rank higher than dormant ones.
+## The Attribution Problem Nobody Solves
 
-Photos matter more than most firms realize. Google's own data shows that [businesses with photos receive significantly more direction requests and website visits](https://support.google.com/business/answer/6335518). For a law firm, this means professional headshots of every attorney, photos of your office exterior and reception area, and team photos that humanize the firm. Update photos quarterly at minimum.
+The specific failure mode in most agency relationships is attribution. The agency tracks what it can measure inside its own platforms: ad clicks in Google Ads, organic sessions in Search Console, form submissions on the website. These are real numbers, but they stop at the moment someone submits a contact form or calls a tracking number.
 
-The Q&A section of your GBP is public and indexed by Google. Seed it yourself: log in, go to your profile, and ask (and answer) the questions your prospective clients most commonly have — "Do you offer free consultations?", "What areas of law do you practice?", "Do you handle cases in [city]?" This content appears directly in search results and reduces friction for prospective clients.
+What happens after that — did the intake team call them back? Did they qualify? Did they sign? What was the case value? — lives in the firm's CRM or intake system, not the agency's dashboards. And in the overwhelming majority of law firm agency relationships, nobody builds the connection between the two.
 
-## Reviews: The Ranking Factor You Can Actually Influence
+The result: the agency reports on leads. The firm wonders about retained clients. They're measuring different things and having the same argument every month under different circumstances.
 
-Review quantity, recency, and quality are among the strongest signals in Google's local ranking algorithm. This isn't a secret — but most firms still don't have a systematic process for generating reviews.
+This is not primarily an agency competence problem. It's an accountability structure problem. The agency is not being held to retained client outcomes because nobody set up the systems to measure them and built that into the contract.
 
-The most effective approach: integrate a review request into your post-matter workflow. When a case closes and a client expresses satisfaction, your intake system — whether [Lawmatics](https://www.lawmatics.com), [Clio](https://www.clio.com), or another CRM — should automatically send a review request email with a direct link to your GBP review form. The timing matters: send within 24–48 hours of case resolution, when satisfaction is highest.
+## What Triggers the Break
 
-Responding to every review — positive and negative — also affects rankings. Google's algorithm rewards engagement. For negative reviews, a professional, empathetic response that avoids confirming or denying the representation (per bar ethics rules) demonstrates good faith to both Google and prospective clients reading the reviews.
+Firms usually reach a breaking point when one or more of these happens:
 
-## GBP and Your Website: Closing the Loop
+**The managing partner does the math.** Someone adds up 12 months of agency fees and compares it to a rough estimate of new clients acquired. The cost-per-retained-client number comes out somewhere between uncomfortable and alarming. The agency has no good answer because they were never tracking it.
 
-Your Google Business Profile and your website should reinforce each other. The URL in your GBP should point to a location-specific landing page, not just your homepage. That landing page should include your address, local phone number, a Google Maps embed, and location-specific content that signals relevance to Google's local algorithm.
+**A competitor appears to be winning.** A firm principal starts noticing that a competitor is outranking them, running more ads, showing up in the Map Pack, or getting mentioned more often by referral sources. The agency's response is unsatisfying. The relationship's credibility collapses.
 
-Schema markup on your website — specifically [LegalService](https://schema.org/LegalService) and [LocalBusiness](https://schema.org/LocalBusiness) schema — reinforces the local signals in your GBP and helps Google connect your website authority to your local listing.
+**The contract renewal arrives.** Agencies often lock firms into 12-month agreements. When the renewal approaches, the firm finally asks the question it should have asked at month one: can you show me how many retained clients this produced? In most cases, they cannot.
 
-Our [law firm SEO and web development services](/services/) include full GBP optimization as part of every engagement — because a well-optimized profile pointing to a poorly built website is only half the equation.
+## What the Exit Actually Costs
 
-<hr />
-<div>
+Firing an agency mid-contract carries real costs. Early termination fees, depending on the contract, can run into thousands of dollars. More importantly, there is a transition cost that firms consistently underestimate: the knowledge the agency accumulated about your firm doesn't transfer cleanly.
 
-**Want to know where your Google Business Profile stands?** We include a full GBP audit in our complimentary law firm marketing review.
+Your campaign history, your keyword performance data, your ad copy test results, your content calendar — most of this either lives in agency-owned accounts or gets exported as a spreadsheet that requires expertise to interpret. Starting fresh with a new agency means rebuilding months of learning.
 
-[Request Your Free Marketing Review →](/contact/)
-</div>
+This is why the decision to exit should come with a clear plan for what replaces the agency — not just a plan for who replaces them.
 
-If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
+## What to Do Before You Fire Them
 
+If you're in a deteriorating agency relationship, the most important thing you can do before sending the termination notice is to get access to every account and every asset the agency manages on your behalf.
 
-### Related Reading
+This means:
+- Admin access to your Google Ads account (not just read access through their MCC)
+- Admin access to your Google Analytics 4 property
+- Admin access to your Google Business Profile
+- Ownership of your website's CMS and hosting
+- All creative assets, copy, and campaign materials produced during the relationship
+- Your keyword lists, negative keyword lists, and audience definitions
 
-- [Local SEO for Law Firms: How to Own 'Attorney Near Me' Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms/)
-- [How Tampa Law Firms Are Winning the Google Local Pack in 2026](https://hugheyllc.com/blog/tampa-law-firms-winning-local-pack/)
-- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
-- [Law Firm Marketing in Pinellas County: What Actually Works](https://hugheyllc.com/blog/law-firm-marketing-pinellas-county/)
+Firms that skip this step often discover after the fact that they don't own what they paid for, and the transition becomes a negotiation rather than a clean break.
+
+## What Has to Change
+
+Firing one agency and hiring another without changing the accountability structure produces the same result. The next agency will also report on clicks and rankings. The new relationship will also deteriorate around month six when nobody can connect spend to retained clients.
+
+What has to change is the measurement layer. Before signing with any new agency — or deciding not to use an agency at all — the firm needs a system that tracks:
+
+1. The source of every lead (campaign, channel, search term)
+2. The outcome of every intake (qualified/unqualified, consulted, signed)
+3. The cost-per-retained-client by channel, updated monthly
+
+Building that system is not technically complicated. It requires the right CRM configuration, proper call tracking, and a defined reporting cadence. Most law firms don't have it because nobody prioritized it. Agencies don't prioritize it because their fees aren't tied to it.
+
+The firms that break the cycle are the ones that build this measurement infrastructure before the next agency relationship starts — not after the next one fails.
+
+---
+
+*If you're evaluating a marketing agency transition or trying to figure out whether your current spend is producing retained clients, [that's exactly what I do](/contact/). The first conversation is free.*
+
+*Related: [How to Calculate Your True Cost Per Retained Client](/blog/cost-per-retained-client-law-firm/) · [10 Questions to Ask Before Hiring a Law Firm Marketing Agency](/blog/what-to-ask-law-firm-marketing-company/)*
