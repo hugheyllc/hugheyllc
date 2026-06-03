@@ -1,5 +1,6 @@
 // api/twitter-queue.js — Posts the next scheduled tweet from the queue
-// Called by Vercel cron: morning (9am ET) and afternoon (2pm ET)
+// Called by Vercel cron: 10am ET and 7pm ET
+// Tracks posted count via Supabase social_posts so we don't repost the same tweet.
 // Uses OAuth 1.0a (permanent — does not expire)
 
 import tweets from '../twitter-content/queue.json' assert { type: 'json' };
@@ -27,17 +28,58 @@ function oauthHeader(method, url, consumerKey, consumerSecret, accessToken, acce
   return 'OAuth ' + Object.keys(params).sort().map(k => `${encodeURIComponent(k)}="${encodeURIComponent(params[k])}"`).join(', ');
 }
 
+async function countPosted(platform) {
+  const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
+  const url = `${SUPABASE_URL}/rest/v1/social_posts?platform=eq.${platform}&select=id`;
+  const res = await fetch(url, {
+    headers: {
+      apikey: SUPABASE_SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+      Prefer: 'count=exact',
+      'Range-Unit': 'items',
+      Range: '0-0',
+    },
+  });
+  if (!res.ok) throw new Error(`Supabase count failed: ${res.status} ${await res.text()}`);
+  const contentRange = res.headers.get('content-range') || '';
+  const total = parseInt(contentRange.split('/')[1], 10);
+  return Number.isFinite(total) ? total : 0;
+}
+
+async function recordPost(platform, content, externalId) {
+  const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/social_posts`, {
+    method: 'POST',
+    headers: {
+      apikey: SUPABASE_SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+      'Content-Type': 'application/json',
+      Prefer: 'return=minimal',
+    },
+    body: JSON.stringify({ platform, content, external_id: externalId, posted_at: new Date().toISOString() }),
+  });
+  if (!res.ok) throw new Error(`Supabase insert failed: ${res.status} ${await res.text()}`);
+}
+
 export default async function handler(req, res) {
   const authHeader = req.headers['authorization'];
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
-  const next = tweets.find(t => !t.posted);
-  if (!next) {
-    return res.status(200).json({ message: 'Queue empty — refill needed' });
+  let index;
+  try {
+    index = await countPosted('twitter');
+  } catch (err) {
+    console.error('Supabase count failed:', err);
+    return res.status(500).json({ error: 'Failed to read post count' });
   }
 
+  if (index >= tweets.length) {
+    return res.status(200).json({ message: 'Queue empty' });
+  }
+
+  const next = tweets[index];
   const { TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN_V1, TWITTER_ACCESS_TOKEN_SECRET } = process.env;
 
   try {
@@ -56,8 +98,11 @@ export default async function handler(req, res) {
       return res.status(response.status).json({ error: data });
     }
 
-    console.log(`Posted tweet id=${data.data?.id}: ${next.text.slice(0, 60)}...`);
-    return res.status(200).json({ success: true, tweet_id: data.data?.id, text: next.text });
+    const tweetId = data.data?.id;
+    await recordPost('twitter', next.text, tweetId);
+
+    console.log(`Posted tweet id=${tweetId} (index ${index}): ${next.text.slice(0, 60)}...`);
+    return res.status(200).json({ success: true, tweet_id: tweetId, index, text: next.text });
   } catch (err) {
     console.error('Queue post failed:', err);
     return res.status(500).json({ error: 'Internal server error' });
