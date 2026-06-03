@@ -1,0 +1,226 @@
+name: Daily Blog Post
+
+on:
+  schedule:
+    # 8:00 AM ET = 12:00 UTC
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  publish-blog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate blog post and image
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: '8570648638'
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+          const path = require('path');
+
+          // ── Helpers ──────────────────────────────────────────────────────────
+          function post(hostname, path, headers, body) {
+            return new Promise((resolve, reject) => {
+              const data = JSON.stringify(body);
+              const req = https.request({ hostname, path, method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data), ...headers }
+              }, res => {
+                let d = '';
+                res.on('data', c => d += c);
+                res.on('end', () => resolve({ status: res.statusCode, body: JSON.parse(d) }));
+              });
+              req.on('error', reject);
+              req.write(data);
+              req.end();
+            });
+          }
+
+          function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+          async function anthropic(prompt) {
+            const r = await post('api.anthropic.com', '/v1/messages',
+              { 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' },
+              { model: 'claude-sonnet-4-5', max_tokens: 8192, messages: [{ role: 'user', content: prompt }] }
+            );
+            if (r.status !== 200) throw new Error('Anthropic error: ' + JSON.stringify(r.body).slice(0, 200));
+            return r.body.content[0].text;
+          }
+
+          // ── Step 0+1: Duplicate check + pick topic ────────────────────────
+          const blogDir = 'src/content/blog';
+          const existingFiles = fs.readdirSync(blogDir).filter(f => f.endsWith('.md'));
+          const existingMeta = existingFiles.map(f => {
+            const content = fs.readFileSync(path.join(blogDir, f), 'utf8');
+            const titleMatch = content.match(/^title:\s*"(.+)"/m);
+            const slugMatch = content.match(/^slug:\s*"?(.+?)"?\s*$/m);
+            const tagsMatch = content.match(/^tags:\s*\[(.+)\]/m);
+            return {
+              file: f,
+              title: titleMatch ? titleMatch[1] : f,
+              slug: slugMatch ? slugMatch[1] : f.replace('.md',''),
+              tags: tagsMatch ? tagsMatch[1] : ''
+            };
+          });
+
+          const seoStrategy = fs.readFileSync('SEO_STRATEGY.md', 'utf8');
+          const blogProcess = fs.readFileSync('BLOG_PROCESS.md', 'utf8');
+
+          const existingList = existingMeta.map(m => `- ${m.slug}: ${m.title}`).join('\n');
+
+          const planPrompt = `You are managing the hugheyllc.com blog. Your job is to pick today's blog post topic.
+
+BLOG_PROCESS.md:
+${blogProcess}
+
+SEO_STRATEGY.md:
+${seoStrategy}
+
+EXISTING POSTS (${existingMeta.length} total — do not duplicate any of these):
+${existingList}
+
+Today's date: ${new Date().toISOString().split('T')[0]}
+
+Instructions:
+1. Check the content calendar in SEO_STRATEGY.md for the next 🔲 Planned post
+2. Verify it is not already covered in the existing posts list above (same angle = same question answered for same audience)
+3. If it's a duplicate angle, pick the next planned post or the next logical topic from the priority keyword clusters
+4. Return ONLY a JSON object with these fields (no markdown, no explanation):
+{
+  "slug": "url-safe-slug",
+  "title": "Full Post Title",
+  "targetKeyword": "primary keyword phrase",
+  "aeoQuestions": ["question 1", "question 2"],
+  "angle": "one sentence describing the specific angle and central tension",
+  "internalLinks": ["slug1", "slug2", "slug3"],
+  "imagePrompt": "2-3 sentence description of the post's specific topic and tension for image generation"
+}`;
+
+          console.log('Picking topic...');
+          const planRaw = await anthropic(planPrompt);
+          const jsonMatch = planRaw.match(/\{[\s\S]+\}/);
+          if (!jsonMatch) throw new Error('No JSON in plan response: ' + planRaw.slice(0,200));
+          const plan = JSON.parse(jsonMatch[0]);
+          console.log('Topic:', plan.title, '|', plan.slug);
+
+          // ── Step 2: Write the post ────────────────────────────────────────
+          const writePrompt = `Write a blog post for hugheyllc.com following these exact specifications.
+
+BLOG_PROCESS.md rules:
+${blogProcess}
+
+POST SPEC:
+- Title: ${plan.title}
+- Slug: ${plan.slug}
+- Target keyword: ${plan.targetKeyword}
+- Angle: ${plan.angle}
+- AEO questions to answer in first 200 words: ${plan.aeoQuestions.join(' | ')}
+- Internal links to include (use these slugs as /blog/[slug]/ paths): ${plan.internalLinks.join(', ')}
+- Today's date: ${new Date().toISOString().split('T')[0]}
+
+EXISTING POSTS FOR INTERNAL LINKING:
+${existingMeta.map(m => `- /blog/${m.slug}/ — ${m.title}`).join('\n')}
+
+RULES (from BLOG_PROCESS.md):
+- Answer the AEO questions in the first 150-200 words with plain declarative sentences
+- Embed 2-4 inline internal links within the body text using descriptive anchor text
+- End with a CTA paragraph linking to /contact/
+- Add a *Related:* footer with 2 post links
+- No fabricated client names, firm names, case studies, or specific statistics
+- Use "a common pattern," "firms that do this typically see," "in accounts I've reviewed" for generalizations
+- 900-1400 words
+- No text in frontmatter image field — leave it as: /images/blog/${plan.slug}.jpg
+
+Return ONLY the complete markdown file including frontmatter. Start with ---`;
+
+          console.log('Writing post...');
+          const postContent = await anthropic(writePrompt);
+
+          // Ensure it starts with ---
+          const cleanPost = postContent.startsWith('---') ? postContent : '---\n' + postContent;
+
+          // Verify required fields exist in frontmatter
+          if (!cleanPost.includes('title:') || !cleanPost.includes('date:') || !cleanPost.includes('author:')) {
+            throw new Error('Post missing required frontmatter fields');
+          }
+
+          const postPath = path.join(blogDir, `${plan.slug}.md`);
+          fs.writeFileSync(postPath, cleanPost);
+          console.log('Post written:', postPath);
+
+          // ── Step 3: Generate image ────────────────────────────────────────
+          const imageStyle = 'Visual style: very dark near-black background, subtle warm gold accent lighting, minimalist sophisticated law firm business context, no text or words anywhere in the image, dramatic professional editorial lighting, widescreen 3:2 composition.';
+          const imagePrompt = `${plan.imagePrompt} ${imageStyle}`;
+
+          console.log('Generating image...');
+          const imgR = await post('api.openai.com', '/v1/images/generations',
+            { 'Authorization': `Bearer ${process.env.OPENAI_API_KEY}` },
+            { model: 'gpt-image-1', prompt: imagePrompt, n: 1, size: '1536x1024' }
+          );
+
+          if (imgR.status !== 200) throw new Error('OpenAI image error: ' + JSON.stringify(imgR.body).slice(0,200));
+          const b64 = imgR.body.data[0].b64_json;
+          const imgPath = `public/images/blog/${plan.slug}.jpg`;
+          fs.writeFileSync(imgPath, Buffer.from(b64, 'base64'));
+          console.log('Image saved:', imgPath);
+
+          // ── Step 4: Update SEO_STRATEGY.md status ────────────────────────
+          let strategy = fs.readFileSync('SEO_STRATEGY.md', 'utf8');
+          // Mark the post as published in the content calendar table
+          strategy = strategy.replace(
+            new RegExp(`(\\|[^|]*${plan.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').slice(0,20)}[^|]*)🔲 Planned`),
+            '$1✅ Published'
+          );
+          fs.writeFileSync('SEO_STRATEGY.md', strategy);
+
+          // ── Output for next steps ─────────────────────────────────────────
+          fs.writeFileSync('/tmp/blog-result.json', JSON.stringify({
+            slug: plan.slug,
+            title: plan.title,
+            postPath,
+            imgPath
+          }));
+
+          console.log(`BLOG_COMPLETE:${plan.slug}:${plan.title}`);
+          EOF
+
+      - name: Commit and push to main
+        run: |
+          RESULT=$(cat /tmp/blog-result.json)
+          SLUG=$(echo "$RESULT" | node -e "const d=require('fs').readFileSync('/dev/stdin','utf8'); console.log(JSON.parse(d).slug)")
+          TITLE=$(echo "$RESULT" | node -e "const d=require('fs').readFileSync('/dev/stdin','utf8'); console.log(JSON.parse(d).title)")
+
+          git config user.name "Kenz [bot]"
+          git config user.email "kenz@hugheyllc.com"
+
+          git add "src/content/blog/${SLUG}.md" "public/images/blog/${SLUG}.jpg" SEO_STRATEGY.md
+          git commit -m "feat: $(date '+%b %-d') blog post — ${TITLE}"
+          git push origin HEAD:main
+
+          echo "SLUG=${SLUG}" >> $GITHUB_ENV
+          echo "TITLE=${TITLE}" >> $GITHUB_ENV
+
+      - name: Notify Joe on Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d "{\"chat_id\":\"8570648638\",\"text\":\"**${TITLE}**\nhugheyllc.com/blog/${SLUG}/\",\"parse_mode\":\"Markdown\"}"
