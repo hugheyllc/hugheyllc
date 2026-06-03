@@ -356,18 +356,20 @@ async function postTweet(text) {
   if (!oauth.consumerKey || !oauth.consumerSecret || !oauth.accessToken || !oauth.accessTokenSecret) {
     throw new Error('Twitter OAuth 1.0a credentials missing');
   }
-  const url = 'https://api.twitter.com/2/tweets';
-  // JSON body — body params NOT included in signature base for application/json POSTs.
-  const auth = oauth1Header({ method: 'POST', url, bodyParams: {}, oauth });
-  const body = JSON.stringify({ text });
+  // Use v1.1 with form-encoded body (v2 requires elevated API access tier)
+  const url = 'https://api.twitter.com/1.1/statuses/update.json';
+  const qs = require('querystring');
+  const bodyParams = { status: text };
+  const auth = oauth1Header({ method: 'POST', url, bodyParams, oauth });
+  const body = qs.stringify(bodyParams);
   const res = await request(
     {
       hostname: 'api.twitter.com',
-      path: '/2/tweets',
+      path: '/1.1/statuses/update.json',
       method: 'POST',
       headers: {
         Authorization: auth,
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded',
         'Content-Length': Buffer.byteLength(body),
       },
     },
