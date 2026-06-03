@@ -4,6 +4,20 @@ Autonomous. No review required. Runs every day.
 
 ---
 
+## Step 0: Duplicate Check
+
+Before writing, scan every existing post in `src/content/blog/` — titles, slugs, excerpts, and tags.
+
+If the planned topic has already been covered at the same angle:
+- Try a meaningfully different angle (different keyword, different buyer stage, different problem framing)
+- If no differentiated angle exists, skip to the next planned post
+
+"Same angle" means: same core question answered, same target reader, same primary keyword. Two posts can cover related ground if they answer different questions or target different keywords.
+
+Log the check mentally — confirm no existing post makes the new one redundant before writing a word.
+
+---
+
 ## Step 1: Pick the Post
 
 Read `SEO_STRATEGY.md`. Find the next unwritten planned post in the content calendar table (Status: 🔲 Planned). Work through them in order.
