@@ -82,6 +82,11 @@ Connecting these local metrics to your intake data — which calls from local se
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
+---
+
+**Want the complete system?** The Always Found Playbook walks through every step in this post — and 7 more — with copy-paste templates, a 50-source citation checklist, and schema snippets. **[$97 → hugheyllc.com/resources/always-found-playbook/](https://hugheyllc.com/resources/always-found-playbook/)**
+
+---
 
 ### Related Reading
 
