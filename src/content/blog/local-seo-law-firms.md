@@ -88,6 +88,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ---
 
+**Want the complete review system?** The Always Reviewed Playbook covers every step — request sequences, response templates, velocity tracking, and monitoring. **[$97 → hugheyllc.com/resources/always-reviewed-playbook/](https://hugheyllc.com/resources/always-reviewed-playbook/)**
+
+---
+
 ### Related Reading
 
 - [How Tampa Law Firms Are Winning the Google Local Pack in 2026](https://hugheyllc.com/blog/tampa-law-firms-winning-local-pack/)

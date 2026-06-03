@@ -1,0 +1,674 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHero from '../../../components/PageHero.astro';
+import FaqSection from '../../../components/FaqSection.astro';
+import Footer from '../../../components/Footer.astro';
+
+const STRIPE_URL = 'https://buy.stripe.com/test_5kQ5kF9g9exj178dKa1B601';
+
+const chapters = [
+  { num: '01', title: 'Why Reviews Are Your Most Powerful Local Ranking Signal', body: 'How Google weights review quantity, rating, recency, velocity, and response rate — and why recency and velocity are the two factors most law firms ignore.' },
+  { num: '02', title: 'Setting Up Your Review Infrastructure', body: 'GBP claim and optimize, direct review link, QR code, platform priorities by practice area, and the notification system so no review slips through.' },
+  { num: '03', title: 'The Review Request System', body: 'Timing, who should ask, the 3-touch sequence (email + SMS + personal follow-up), QR handoff script, batch outreach to past clients, and the language that triggers Google penalties.' },
+  { num: '04', title: 'Review Gating — What It Is and Why It\'s Dangerous', body: 'How firms accidentally violate Google and bar association rules, the compliant alternative, and the ABA and Florida Bar rules that actually apply to client testimonials.' },
+  { num: '05', title: 'Responding to Reviews', body: 'The 24-hour response rule, formulas for positive and negative reviews, what to never say, and the process for flagging fake reviews.' },
+  { num: '06', title: 'Building Review Velocity — The Monthly System', body: 'Realistic monthly review targets by firm size, CRM automation in Clio, Lawmatics, and PracticePanther, the velocity scorecard, and the 90-day sprint to 50 reviews.' },
+  { num: '07', title: 'Leveraging Reviews Beyond Google', body: 'Putting reviews to work on your website, proposals, intake packets, and social — plus the schema markup that surfaces star ratings in organic search results.' },
+  { num: '08', title: 'Monitoring, Protecting, and Recovering', body: 'Free monitoring stack, the monthly review audit checklist, recovery from negative review spikes, competitor fake review attacks, and when to consult an internet defamation attorney.' },
+];
+
+const appendices = [
+  'Appendix A — Direct Review Link Setup (three methods, step by step)',
+  'Appendix B — Complete Request Templates (email, SMS, in-person, phone)',
+  'Appendix C — Positive Review Response Library (10 templates)',
+  'Appendix D — Negative Review Response Library (10 templates)',
+  'Appendix E — Monthly Velocity Tracking Scorecard',
+  'Appendix F — Review Platform Priority Matrix (by practice area)',
+  'Appendix G — Glossary',
+];
+
+const outcomes = [
+  'Run a bar-compliant review request system that gets 25%+ of closed-case clients to leave a Google review.',
+  'Build a 3-touch request sequence — email, SMS, personal follow-up — into your existing case management workflow.',
+  'Respond to every review within 24 hours using the 20 templates included for positive and negative scenarios.',
+  'Set up monitoring across Google, Avvo, Facebook, and Yelp so no review slips by unnoticed.',
+  'Execute the 90-day sprint that takes a thin profile to 40–50 reviews without tripping Google\'s spam filter.',
+  'Stop accidentally review gating — recognize the four common violations and switch to the compliant alternative.',
+  'Defend the profile against fake reviews, negative review spikes, and coordinated competitor attacks.',
+];
+
+const faqs = [
+  { q: 'Who is this playbook for?', a: 'Law firms with 5–30 attorneys who want to run reviews in-house — typically the office manager, marketing coordinator, paralegal, or in-house marketing hire executing the system. Solo practitioners doing their own marketing also fit. No agency experience required.' },
+  { q: 'How is this different from a generic "get more reviews" guide?', a: 'It is the actual system — what to send on day 1, what to send on day 7, who at the firm should send it, what to say when the client picks up the phone, what to write in response to a 1-star review, and how to do all of it without tripping Google\'s policy filter or your state bar\'s advertising rules. The free advice on the internet stops at "ask for reviews." This starts there.' },
+  { q: 'Does it cover non-Google platforms?', a: 'Yes. Avvo, Facebook, Yelp, Justia, Martindale, and BBB — with a practice-area priority matrix so you know which platforms actually matter for personal injury vs. family law vs. estate planning, and which to claim but not actively solicit.' },
+  { q: 'What about negative reviews?', a: 'Two full sections. Ten response templates for the most common negative review scenarios — fee disputes, communication complaints, unhappy outcomes, mistaken identity, suspected fake reviews. Plus the framework for flagging fake reviews through Google and the criteria for when to consult an internet defamation attorney.' },
+  { q: 'Is the request language bar-compliant?', a: 'Yes — written specifically to comply with ABA Model Rule 7.1, Florida Bar Rule 4-7.13, and equivalent rules in other jurisdictions. Includes the seven prohibited phrases that get profiles penalized and the safe alternatives.' },
+  { q: 'How do I get it after I buy?', a: 'Stripe sends you to a thank-you page that triggers an email with your download link. The email arrives within a minute or two. If anything goes wrong, email joe@joehughey.com.' },
+  { q: 'Do you offer refunds?', a: 'Email joe@joehughey.com within 14 days if the playbook does not match what was promised here. No questions asked.' },
+];
+
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Always Reviewed. Always Ranked. — The Law Firm Review System Playbook",
+  "description": "The complete review system playbook for law firms with 5–30 attorneys. 8 chapters, 7 appendices, 20 response templates, request sequences, and the velocity tracking system.",
+  "brand": { "@type": "Brand", "name": "Hughey LLC" },
+  "image": "https://hugheyllc.com/images/og-default.svg",
+  "url": "https://hugheyllc.com/resources/always-reviewed-playbook/",
+  "offers": {
+    "@type": "Offer",
+    "price": "97.00",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://hugheyllc.com/resources/always-reviewed-playbook/"
+  }
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" },
+    { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://hugheyllc.com/resources/" },
+    { "@type": "ListItem", "position": 3, "name": "Always Reviewed. Always Ranked.", "item": "https://hugheyllc.com/resources/always-reviewed-playbook/" }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+};
+---
+
+<BaseLayout
+  title="Always Reviewed. Always Ranked. — The Law Firm Review System Playbook ($97) | Hughey LLC"
+  description="The complete review system playbook for law firms with 5–30 attorneys. 8 chapters, 7 appendices, 20 response templates, the request sequence, and the velocity tracking system. $97 — instant download."
+  canonical="https://hugheyllc.com/resources/always-reviewed-playbook/"
+  schema={[productSchema, breadcrumbSchema, faqSchema]}
+>
+  <div class="pb-page">
+    <PageHero
+      eyebrow="Playbook · $97 · Instant Download"
+      heading="Reviews Are the Ranking Signal<br /><em>You Can Actually Control.</em>"
+      subheading="The complete review system playbook for law firms with 5–30 attorneys. Eight chapters, seven appendices, twenty response templates — built so your team can run reviews end to end without an agency or a software subscription."
+      cta={{ label: "Get the Playbook — $97 →", href: STRIPE_URL }}
+    />
+
+    <!-- Above-the-fold reinforcement -->
+    <section class="pb-section dark">
+      <div class="w pb-fold">
+        <div class="pb-fold-text rx">
+          <p class="pb-pre">For firms that want to run this themselves.</p>
+          <h2 class="pb-h2">The same review system we walk consulting clients through — written so your team can execute it.</h2>
+          <p class="pb-lede">Most law firms know they need more Google reviews. None of them have a system. The result is the same every time — a sporadic request goes out, a few reviews trickle in, the effort stops, and rankings slip. This playbook is the system: the request sequence, the timing rules, the bar-compliant scripts, the response templates, the velocity tracker, and the monitoring stack.</p>
+          <ul class="pb-trust">
+            <li><strong>Bar-compliant.</strong> Built around ABA and Florida Bar rules on client testimonials.</li>
+            <li><strong>20 response templates.</strong> 10 positive, 10 negative — copy, customize, ship.</li>
+            <li><strong>No software required.</strong> Works with the CRM and email tool you already have.</li>
+          </ul>
+          <a href={STRIPE_URL} class="pb-cta">Buy the Playbook — $97 →</a>
+          <p class="pb-fine">Secure checkout via Stripe. Delivered to your inbox in under a minute.</p>
+        </div>
+
+        <div class="pb-fold-card rx">
+          <div class="pb-card-head">
+            <span class="pb-card-tag">Playbook</span>
+            <h3>Always Reviewed.<br /><em>Always Ranked.</em></h3>
+            <p class="pb-card-sub">The Law Firm Review System Playbook · 2026 Edition</p>
+          </div>
+          <div class="pb-card-divider"></div>
+          <ul class="pb-card-list">
+            <li>8 chapters · execution-ready</li>
+            <li>3-touch request sequence</li>
+            <li>10 positive response templates</li>
+            <li>10 negative response templates</li>
+            <li>Monthly velocity scorecard</li>
+            <li>Platform priority matrix by practice area</li>
+          </ul>
+          <div class="pb-card-price">
+            <span class="pb-price">$97</span>
+            <span class="pb-price-sub">one-time · instant download</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What's inside -->
+    <section class="pb-section dark alt">
+      <div class="w">
+        <span class="section-accent"></span>
+        <p class="pb-pre">What's inside</p>
+        <h2 class="pb-h2">Eight chapters. <em>Built to be executed in order.</em></h2>
+        <div class="chapter-grid">
+          {chapters.map((c, i) => (
+            <div class={`chapter-card rx d${(i % 3) + 1}`}>
+              <div class="chapter-num">{c.num}</div>
+              <h3>{c.title}</h3>
+              <p>{c.body}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="appendix-block rx">
+          <p class="pb-pre" style="margin-bottom: 14px;">Plus the appendices that do the work</p>
+          <ul class="appendix-list">
+            {appendices.map(a => (
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>{a}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- What you'll be able to do -->
+    <section class="pb-section dark">
+      <div class="w">
+        <span class="section-accent"></span>
+        <p class="pb-pre">What you'll be able to do after</p>
+        <h2 class="pb-h2">Read it once. <em>Run reviews for years.</em></h2>
+        <div class="outcome-list">
+          {outcomes.map((o, i) => (
+            <div class={`outcome-row rxl d${(i % 3) + 1}`}>
+              <div class="outcome-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <p>{o}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Who it's for -->
+    <section class="pb-section dark alt">
+      <div class="w narrow">
+        <span class="section-accent"></span>
+        <p class="pb-pre">Who it's for</p>
+        <h2 class="pb-h2">Built for law firms tired of paying a monthly fee for <em>a review system they could run themselves.</em></h2>
+        <div class="who-body">
+          <p>If your firm uses one of the popular reputation management platforms, you are paying $60–$200 a month for software that automates a process this playbook teaches you to run with your existing CRM and email tool. The software is convenient. It is rarely the bottleneck. The bottleneck is the system — who asks, when they ask, what they say, and what happens when a negative review shows up.</p>
+          <p>If you would rather pay someone else to do the work — that is a fair choice, and you should not buy this. If you want to keep the system inside your firm, train one capable person to own it, and stop paying for software that does what a thoughtful email template would do — this is for you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buy CTA -->
+    <section class="pb-section dark">
+      <div class="w">
+        <div class="buy-band rx">
+          <p class="buy-pre">Ready to own your review profile</p>
+          <h2 class="buy-h">Get the playbook. <em>Run the system.</em></h2>
+          <p class="buy-body">$97, one-time. Sent to your inbox the moment Stripe confirms the purchase. No subscription. No upsell. No drip sequence trying to sell you something else.</p>
+          <a href={STRIPE_URL} class="buy-btn">Buy the Playbook — $97 →</a>
+          <p class="buy-fine">Secure checkout via Stripe · Questions? joe@joehughey.com</p>
+        </div>
+      </div>
+    </section>
+
+    <FaqSection items={faqs} heading="Questions About the Playbook" />
+  </div>
+
+  <Footer />
+
+  <style>
+    .pb-page { background: var(--ink); }
+
+    .pb-section {
+      padding: 88px 0;
+      background: var(--ink);
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pb-section.alt {
+      background: #0B1825;
+      border-top: 1px solid rgba(200, 151, 58, 0.1);
+      border-bottom: 1px solid rgba(200, 151, 58, 0.1);
+    }
+
+    .pb-section .w.narrow {
+      max-width: 820px;
+    }
+
+    .pb-pre {
+      font-family: var(--man);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin-bottom: 14px;
+    }
+
+    .pb-h2 {
+      font-family: var(--man);
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 36px;
+      max-width: 880px;
+    }
+
+    .pb-h2 em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    /* ── Above-the-fold split ─────────────────────────────── */
+    .pb-fold {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .pb-fold-text .pb-h2 {
+      font-size: clamp(26px, 3.2vw, 36px);
+      margin-bottom: 22px;
+    }
+
+    .pb-lede {
+      font-size: 16.5px;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.75;
+      margin-bottom: 28px;
+    }
+
+    .pb-trust {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .pb-trust li {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.72);
+      position: relative;
+      padding-left: 22px;
+    }
+
+    .pb-trust li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--glt);
+      font-weight: 700;
+    }
+
+    .pb-trust strong { color: var(--white); }
+
+    .pb-cta {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 18px 36px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200, 151, 58, 0.35);
+    }
+
+    .pb-cta:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200, 151, 58, 0.45);
+    }
+
+    .pb-fine {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.4);
+      margin: 14px 0 0;
+    }
+
+    /* Fold card */
+    .pb-fold-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 6px;
+      padding: 40px 36px;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+    }
+
+    .pb-card-head { text-align: center; }
+
+    .pb-card-tag {
+      display: inline-block;
+      font-family: var(--man);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--glt);
+      background: rgba(200, 151, 58, 0.12);
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+    }
+
+    .pb-card-head h3 {
+      font-family: var(--man);
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.1;
+      margin: 0 0 12px;
+    }
+
+    .pb-card-head h3 em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .pb-card-sub {
+      font-size: 12.5px;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 0.04em;
+      margin: 0;
+    }
+
+    .pb-card-divider {
+      height: 1px;
+      background: rgba(200, 151, 58, 0.2);
+      margin: 26px 0;
+    }
+
+    .pb-card-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .pb-card-list li {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.78);
+      position: relative;
+      padding-left: 22px;
+      line-height: 1.5;
+    }
+
+    .pb-card-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--glt);
+      font-weight: 700;
+    }
+
+    .pb-card-price {
+      text-align: center;
+      padding-top: 22px;
+      border-top: 1px solid rgba(200, 151, 58, 0.2);
+    }
+
+    .pb-price {
+      display: block;
+      font-family: var(--man);
+      font-size: 48px;
+      font-weight: 800;
+      color: var(--glt);
+      line-height: 1;
+    }
+
+    .pb-price-sub {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      margin-top: 8px;
+    }
+
+    /* ── Chapters ─────────────────────────────────────────── */
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .chapter-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      padding: 28px 28px 24px;
+      transition: border-color 0.25s, transform 0.25s, background 0.25s;
+    }
+
+    .chapter-card:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+      transform: translateY(-2px);
+    }
+
+    .chapter-num {
+      font-family: var(--bar);
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--glt);
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .chapter-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+      margin: 0 0 12px;
+      line-height: 1.3;
+    }
+
+    .chapter-card p {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.65);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* Appendix block */
+    .appendix-block {
+      margin-top: 56px;
+      padding: 32px 36px;
+      background: rgba(200, 151, 58, 0.05);
+      border: 1px solid rgba(200, 151, 58, 0.2);
+      border-radius: 4px;
+    }
+
+    .appendix-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px 28px;
+    }
+
+    .appendix-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.78);
+      line-height: 1.55;
+    }
+
+    .appendix-list svg {
+      color: var(--glt);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ── Outcomes ────────────────────────────────────────── */
+    .outcome-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-width: 880px;
+    }
+
+    .outcome-row {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 20px 26px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(200, 151, 58, 0.15);
+      border-radius: 4px;
+      transition: border-color 0.25s, background 0.25s;
+    }
+
+    .outcome-row:hover {
+      border-color: var(--gold);
+      background: rgba(200, 151, 58, 0.04);
+    }
+
+    .outcome-check {
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(200, 151, 58, 0.12);
+      border-radius: 50%;
+      color: var(--glt);
+      flex-shrink: 0;
+    }
+
+    .outcome-row p {
+      font-size: 15.5px;
+      color: rgba(255, 255, 255, 0.82);
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    /* ── Who it's for ────────────────────────────────────── */
+    .who-body p {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.72);
+      line-height: 1.8;
+      margin-bottom: 22px;
+    }
+    .who-body p:last-child { margin-bottom: 0; }
+
+    /* ── Buy band ────────────────────────────────────────── */
+    .buy-band {
+      position: relative;
+      background: linear-gradient(135deg, #0B1825 0%, #112440 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 8px;
+      padding: 72px 56px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .buy-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 30%, rgba(200, 151, 58, 0.14) 0%, transparent 55%),
+                  radial-gradient(circle at 75% 70%, rgba(200, 151, 58, 0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .buy-band > * { position: relative; z-index: 1; }
+
+    .buy-pre {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin-bottom: 16px;
+    }
+
+    .buy-h {
+      font-family: var(--man);
+      font-size: clamp(28px, 4.5vw, 44px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 20px;
+    }
+
+    .buy-h em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .buy-body {
+      font-size: 16.5px;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.7;
+      max-width: 620px;
+      margin: 0 auto 32px;
+    }
+
+    .buy-btn {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 18px 38px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200, 151, 58, 0.35);
+    }
+
+    .buy-btn:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200, 151, 58, 0.45);
+    }
+
+    .buy-fine {
+      font-size: 12.5px;
+      color: rgba(255, 255, 255, 0.4);
+      margin: 22px 0 0;
+    }
+
+    /* ── Responsive ──────────────────────────────────────── */
+    @media (max-width: 1000px) {
+      .pb-fold { grid-template-columns: 1fr; gap: 40px; }
+      .pb-fold-card { max-width: 480px; margin: 0 auto; }
+    }
+
+    @media (max-width: 800px) {
+      .pb-section { padding: 64px 0; }
+      .chapter-grid { grid-template-columns: 1fr; }
+      .appendix-list { grid-template-columns: 1fr; }
+      .buy-band { padding: 56px 28px; }
+      .pb-fold-card { padding: 32px 24px; }
+    }
+  </style>
+</BaseLayout>

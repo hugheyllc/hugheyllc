@@ -59,6 +59,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ---
 
+**Want the complete review system?** The Always Reviewed Playbook covers every step — request sequences, response templates, velocity tracking, and monitoring. **[$97 → hugheyllc.com/resources/always-reviewed-playbook/](https://hugheyllc.com/resources/always-reviewed-playbook/)**
+
+---
+
 ### Related Reading
 
 - [Local SEO for Law Firms: How to Own 'Attorney Near Me' Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms/)
