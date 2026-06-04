@@ -30,7 +30,7 @@ function oauthHeader(method, url, consumerKey, consumerSecret, accessToken, acce
 
 async function countPosted(platform) {
   const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
-  const url = `${SUPABASE_URL}/rest/v1/social_posts?platform=eq.${platform}&select=id`;
+  const url = `${SUPABASE_URL}/rest/v1/hugheyllc_social_posts?platform=eq.${platform}&select=id`;
   const res = await fetch(url, {
     headers: {
       apikey: SUPABASE_SERVICE_ROLE_KEY,
@@ -48,7 +48,7 @@ async function countPosted(platform) {
 
 async function recordPost(platform, content, externalId) {
   const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
-  const res = await fetch(`${SUPABASE_URL}/rest/v1/social_posts`, {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/hugheyllc_social_posts`, {
     method: 'POST',
     headers: {
       apikey: SUPABASE_SERVICE_ROLE_KEY,
