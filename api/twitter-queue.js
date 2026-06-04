@@ -3,7 +3,9 @@
 // Tracks posted count via Supabase social_posts so we don't repost the same tweet.
 // Uses OAuth 1.0a (permanent — does not expire)
 
-import tweets from '../twitter-content/queue.json' assert { type: 'json' };
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const tweets = require('../twitter-content/queue.json');
 import crypto from 'crypto';
 
 function oauthHeader(method, url, consumerKey, consumerSecret, accessToken, accessTokenSecret) {

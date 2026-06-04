@@ -2,7 +2,9 @@
 // Called by Vercel cron: 10am ET daily
 // Tracks posted count via Supabase social_posts so we don't repost the same item.
 
-import posts from '../linkedin-content/queue.json' assert { type: 'json' };
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const posts = require('../linkedin-content/queue.json');
 
 async function countPosted(platform) {
   const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
