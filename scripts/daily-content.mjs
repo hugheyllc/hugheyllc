@@ -534,11 +534,18 @@ async function main() {
     console.log(`     no planned posts left — fallback keyword: ${planned.keyword}`);
   }
 
-  // Duplicate check
+  // Duplicate check — hard stop if slug already exists
   const existingTitles = existing.map((p) => p.title.toLowerCase());
   const existingSlugs = new Set(existing.map((p) => p.slug));
+  // Pre-check: if planned slug already in repo, skip entirely and pick next topic
+  const plannedSlug = planned.title
+    ? planned.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+    : '';
+  if (existingSlugs.has(plannedSlug)) {
+    throw new Error(`SLUG_EXISTS: planned topic slug "${plannedSlug}" already published. Cron should pick a different topic next run.`);
+  }
   if (planned.title && existingTitles.some((t) => t === planned.title.toLowerCase())) {
-    console.warn(`     planned title appears to already exist — Claude will choose a differentiated angle`);
+    throw new Error(`TITLE_EXISTS: planned title "${planned.title}" already published.`);
   }
 
   console.log('[2/7] Generating blog post via Anthropic');
@@ -550,8 +557,7 @@ async function main() {
   });
   let slug = fm.slug;
   if (existingSlugs.has(slug)) {
-    slug = `${slug}-${new Date().toISOString().slice(0, 10)}`;
-    console.warn(`     slug collision — using ${slug}`);
+    throw new Error(`SLUG_COLLISION: generated slug "${slug}" already exists in repo. Topic was already published.`);
   }
   const postPath = path.join(BLOG_DIR, `${slug}.md`);
   fs.writeFileSync(postPath, content, 'utf8');
