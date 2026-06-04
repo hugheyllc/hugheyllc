@@ -97,6 +97,29 @@ export default async function handler(req, res) {
     const postId = data.id || response.headers.get('x-restli-id');
     await recordPost('linkedin', next.text, postId);
 
+    // Post comment with URL if comment_url is set
+    if (next.comment_url && postId) {
+      try {
+        const commentUrl = 'https://api.linkedin.com/v2/socialActions/' + encodeURIComponent(postId) + '/comments';
+        const commentBody = {
+          actor: LINKEDIN_PERSON_URN,
+          message: { text: 'https://' + next.comment_url.replace(/^https?:\/\//, '') },
+        };
+        await fetch(commentUrl, {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${LINKEDIN_ACCESS_TOKEN}`,
+            'Content-Type': 'application/json',
+            'X-Restli-Protocol-Version': '2.0.0',
+          },
+          body: JSON.stringify(commentBody),
+        });
+        console.log('Posted first comment with link:', next.comment_url);
+      } catch (commentErr) {
+        console.error('Comment post failed (non-fatal):', commentErr);
+      }
+    }
+
     console.log(`Posted LinkedIn id=${postId} (index ${index}): ${next.text.slice(0, 60)}...`);
     return res.status(200).json({ success: true, post_id: postId, index, text: next.text });
   } catch (err) {
