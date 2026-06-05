@@ -519,6 +519,13 @@ async function main() {
   // Check if a post was already published today (manually pushed before cron ran)
   const today = new Date().toISOString().slice(0, 10);
   const todayPost = existing.find((p) => p.date === today);
+  // Check if social was already posted today to avoid duplicates on re-runs
+  const socialFlagFile = path.join(process.cwd(), `.social-posted-${today}`);
+  const socialAlreadyPosted = fs.existsSync(socialFlagFile);
+  if (todayPost && socialAlreadyPosted) {
+    console.log(`     today's post and social already done: ${todayPost.slug} — nothing to do`);
+    return;
+  }
   if (todayPost) {
     console.log(`     today's post already exists: ${todayPost.slug} — skipping blog/image generation, posting social only`);
     const structureIndex = existing.length;
@@ -550,6 +557,7 @@ async function main() {
     } catch (e) {
       console.error(`     telegram failed: ${e.message}`);
     }
+    fs.writeFileSync(socialFlagFile, today);
     console.log(`\nDone (social-only): ${todayPost.title}`);
     return;
   }

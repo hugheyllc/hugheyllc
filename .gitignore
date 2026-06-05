@@ -32,3 +32,4 @@ dist/
 .vercel/
 .vercel/
 scripts/generate-blog-images.cjs
+.social-posted-*
