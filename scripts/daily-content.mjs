@@ -136,6 +136,7 @@ function collectExistingPosts() {
       title: fm.title || '',
       tags: fm.tags || '',
       excerpt: fm.excerpt || '',
+      date: fm.date ? String(fm.date).slice(0, 10) : '',
     };
   });
 }
