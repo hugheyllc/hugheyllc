@@ -525,6 +525,44 @@ async function main() {
   const existing = collectExistingPosts();
   console.log(`     found ${existing.length} existing posts`);
 
+  // Check if a post was already published today (manually pushed before cron ran)
+  const today = new Date().toISOString().slice(0, 10);
+  const todayPost = existing.find((p) => p.date === today);
+  if (todayPost) {
+    console.log(`     today's post already exists: ${todayPost.slug} — skipping blog/image generation, posting social only`);
+    const structureIndex = existing.length;
+    console.log('[4/7] Posting to Twitter (today post already exists)');
+    try {
+      const tweet = await generateTweet({ title: todayPost.title, slug: todayPost.slug, excerpt: todayPost.excerpt });
+      const tweetId = await postTweet(tweet);
+      console.log(`     posted tweet id=${tweetId}`);
+    } catch (e) {
+      console.error(`     twitter failed: ${e.message}`);
+    }
+    console.log('[5/7] Posting to LinkedIn (today post already exists)');
+    try {
+      const liText = await generateLinkedInPost({ title: todayPost.title, slug: todayPost.slug, excerpt: todayPost.excerpt, structureIndex });
+      const liId = await postLinkedIn(liText);
+      console.log(`     posted linkedin id=${liId}`);
+      try {
+        await commentLinkedIn(liId, `Full breakdown: hugheyllc.com/blog/${todayPost.slug}/`);
+        console.log('     posted first-comment URL');
+      } catch (cErr) {
+        console.error(`     linkedin first-comment failed: ${cErr.message}`);
+      }
+    } catch (e) {
+      console.error(`     linkedin failed: ${e.message}`);
+    }
+    console.log('[6/7] Notifying Joe on Telegram');
+    try {
+      await notifyTelegram(`**${todayPost.title}**\nhugheyllc.com/blog/${todayPost.slug}/`);
+    } catch (e) {
+      console.error(`     telegram failed: ${e.message}`);
+    }
+    console.log(`\nDone (social-only): ${todayPost.title}`);
+    return;
+  }
+
   let strategy = readStrategy();
   let planned = findNextPlannedPost(strategy);
   if (planned) {
