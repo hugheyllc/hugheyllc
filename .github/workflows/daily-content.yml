@@ -1,9 +1,9 @@
 name: Daily Content — Blog + Social
 
 on:
-  schedule:
-    # 8:00 AM ET = 12:00 UTC
-    - cron: '0 12 * * *'
+  # PAUSED: fixing social posting system — re-enable when confirmed working
+  # schedule:
+  #   - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
