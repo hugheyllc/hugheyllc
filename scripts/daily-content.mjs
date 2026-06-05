@@ -397,7 +397,7 @@ async function postTweet(text) {
   }
   // Use v1.1 with form-encoded body (v2 requires elevated API access tier)
   const url = 'https://api.twitter.com/1.1/statuses/update.json';
-  const qs = require('querystring');
+  const qs = await import('node:querystring').then(m => m.default);
   const bodyParams = { status: text };
   const auth = oauth1Header({ method: 'POST', url, bodyParams, oauth });
   const body = qs.stringify(bodyParams);
