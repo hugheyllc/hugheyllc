@@ -387,19 +387,27 @@ function oauth1Header({ method, url, bodyParams = {}, oauth }) {
 }
 
 async function postTweet(text) {
-  // Use X API v2 with OAuth2 Bearer token (works on free tier)
-  const token = process.env.TWITTER_ACCESS_TOKEN ||
-    process.env.TWITTER_ACCESS_TOKEN_V2 ||
-    process.env.TWITTER_BEARER_TOKEN;
-  if (!token) throw new Error('Twitter access token missing (TWITTER_ACCESS_TOKEN)');
+  // Use X API v2 with OAuth1.0a user context (required for posting)
+  const oauth = {
+    consumerKey: process.env.TWITTER_CONSUMER_KEY,
+    consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
+    accessToken: process.env.TWITTER_ACCESS_TOKEN_V1,
+    accessTokenSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
+  };
+  if (!oauth.consumerKey || !oauth.consumerSecret || !oauth.accessToken || !oauth.accessTokenSecret) {
+    throw new Error('Twitter OAuth 1.0a credentials missing');
+  }
+  const url = 'https://api.twitter.com/2/tweets';
   const body = JSON.stringify({ text });
+  // OAuth1.0a signature for JSON body (no body params in signature for JSON)
+  const auth = oauth1Header({ method: 'POST', url, bodyParams: {}, oauth });
   const res = await request(
     {
       hostname: 'api.twitter.com',
       path: '/2/tweets',
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${token}`,
+        Authorization: auth,
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(body),
       },
