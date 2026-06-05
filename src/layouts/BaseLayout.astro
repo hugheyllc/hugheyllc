@@ -135,6 +135,14 @@ const localBusinessSchema = {
     {schema && (Array.isArray(schema) ? schema : [schema]).map((s: any) => (
       <script type="application/ld+json" set:html={JSON.stringify(s)} />
     ))}
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGGMB2PJN2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EGGMB2PJN2');
+    </script>
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
