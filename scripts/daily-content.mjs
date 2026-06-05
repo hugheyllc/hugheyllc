@@ -386,29 +386,20 @@ function oauth1Header({ method, url, bodyParams = {}, oauth }) {
 }
 
 async function postTweet(text) {
-  const oauth = {
-    consumerKey: process.env.TWITTER_CONSUMER_KEY,
-    consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
-    accessToken: process.env.TWITTER_ACCESS_TOKEN_V1,
-    accessTokenSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
-  };
-  if (!oauth.consumerKey || !oauth.consumerSecret || !oauth.accessToken || !oauth.accessTokenSecret) {
-    throw new Error('Twitter OAuth 1.0a credentials missing');
-  }
-  // Use v1.1 with form-encoded body (v2 requires elevated API access tier)
-  const url = 'https://api.twitter.com/1.1/statuses/update.json';
-  const qs = await import('node:querystring').then(m => m.default);
-  const bodyParams = { status: text };
-  const auth = oauth1Header({ method: 'POST', url, bodyParams, oauth });
-  const body = qs.stringify(bodyParams);
+  // Use X API v2 with OAuth2 Bearer token (works on free tier)
+  const token = process.env.TWITTER_ACCESS_TOKEN ||
+    process.env.TWITTER_ACCESS_TOKEN_V2 ||
+    process.env.TWITTER_BEARER_TOKEN;
+  if (!token) throw new Error('Twitter access token missing (TWITTER_ACCESS_TOKEN)');
+  const body = JSON.stringify({ text });
   const res = await request(
     {
       hostname: 'api.twitter.com',
-      path: '/1.1/statuses/update.json',
+      path: '/2/tweets',
       method: 'POST',
       headers: {
-        Authorization: auth,
-        'Content-Type': 'application/x-www-form-urlencoded',
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(body),
       },
     },
