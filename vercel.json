@@ -4,11 +4,6 @@
   "framework": "astro",
   "redirects": [
     {
-      "source": "https://www.hugheyllc.com/:path*",
-      "destination": "https://hugheyllc.com/:path*",
-      "permanent": true
-    },
-    {
       "source": "/sitemap.xml",
       "destination": "/sitemap-index.xml",
       "permanent": false
