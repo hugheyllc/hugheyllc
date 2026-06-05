@@ -71,7 +71,7 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 5 | 10 Questions to Ask Before Hiring a Law Firm Marketing Agency | questions to ask law firm marketing agency | Checklist format, red flags | ✅ Published |
 | 6 | Why Law Firms Fire Their Marketing Agency (And What to Do Instead) | switch law firm marketing agency | Common failure patterns, accountability fixes | ✅ Published |
 | 7 | FindLaw and Martindale: Are Directory Listings Still Worth It? | FindLaw alternatives law firms | ROI analysis, attribution truth | ✅ Published |
-| 8 | Personal Injury Marketing in Tampa Bay: What Actually Drives Cases | personal injury marketing Tampa Bay | Local PI market, what works vs. hype | 🔲 Planned |
+| 8 | Personal Injury Marketing in Tampa Bay: What Actually Drives Cases | personal injury marketing Tampa Bay | Local PI market, what works vs. hype | ✅ Published |
 
 ---
 
