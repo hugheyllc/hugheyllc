@@ -94,7 +94,11 @@ const professionalServiceSchema = {
   title="Law Firm Marketing Consultant Florida | Hughey LLC"
   description="Independent law firm marketing consultant in Tampa, FL. Track spend to retained clients. Agency management, intake optimization, and attribution. Free call."
   canonical="https://hugheyllc.com"
-  schema={[faqSchema, professionalServiceSchema]}
+  schema={[faqSchema, professionalServiceSchema, {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hugheyllc.com" }]
+  }]}
 >
   <Hero />
   {/* <TrustBar /> — hidden: stats unverified */}
