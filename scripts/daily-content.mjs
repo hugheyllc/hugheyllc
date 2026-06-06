@@ -552,7 +552,7 @@ async function main() {
       const liId = await postLinkedIn(liText);
       console.log(`     posted linkedin id=${liId}`);
       try {
-        await commentLinkedIn(liId, `Full breakdown: hugheyllc.com/blog/${todayPost.slug}/`);
+        await commentLinkedIn(liId, `Full breakdown: https://hugheyllc.com/blog/${todayPost.slug}/`);
         console.log('     posted first-comment URL');
       } catch (cErr) {
         console.error(`     linkedin first-comment failed: ${cErr.message}`);
@@ -641,7 +641,7 @@ async function main() {
     console.log(`     posted linkedin id=${liId} (structure: ${LINKEDIN_STRUCTURES[structureIndex % LINKEDIN_STRUCTURES.length].name})`);
     // Post the blog URL as the first comment so it doesn't kill reach.
     try {
-      await commentLinkedIn(liId, `Full breakdown: hugheyllc.com/blog/${slug}/`);
+      await commentLinkedIn(liId, `Full breakdown: https://hugheyllc.com/blog/${slug}/`);
       console.log('     posted first-comment URL');
     } catch (cErr) {
       console.error(`     linkedin first-comment failed: ${cErr.message}`);
