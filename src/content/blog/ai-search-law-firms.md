@@ -8,7 +8,7 @@ tags: ["ai-search-law-firms", "chatgpt-law-firm-visibility", "geo-law-firm", "la
 seo_title: "AI Search and Law Firms: How to Stay Visible as Google, ChatGPT, and Perplexity Change How Clients Find Attorneys"
 seo_description: "AI-powered search is changing how prospective legal clients find attorneys. Google's AI Overviews, ChatGPT search, and Perplexity are reshaping the first page. "
 draft: false
-image: "/images/blog/ai-search-law-firms.jpg"
+image: "/images/blog/ai-search-law-firms.webp"
 ---
 
 The first page of Google search results looks different than it did 18 months ago — and the change has significant implications for law firms that have built their marketing around traditional organic rankings.

@@ -8,7 +8,7 @@ tags: ["law firm marketing", "marketing agency", "consultant", "accountability",
 seo_title: "Independent Consultant vs. Marketing Agency for Law Firms: Accountability Matters"
 seo_description: "How to choose between an independent law firm marketing consultant and an agency. What accountability looks like in each model."
 draft: false
-image: "/images/blog/independent-consultant-vs-agency-accountability.jpg"
+image: "/images/blog/independent-consultant-vs-agency-accountability.webp"
 ---
 
 The question isn't really "agency or consultant?"—it's "Who owns the outcome?" That distinction changes everything about how your marketing actually works.

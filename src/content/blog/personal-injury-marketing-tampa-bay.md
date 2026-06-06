@@ -8,7 +8,7 @@ tags: ["personal injury marketing", "Tampa Bay legal marketing", "PI law firm gr
 seo_title: "Personal Injury Marketing in Tampa Bay: What Actually Drives Cases"
 seo_description: "Real personal injury marketing in Tampa Bay. What converts prospects into cases. Tactics that work versus industry hype."
 draft: false
-image: "/images/blog/personal-injury-marketing-tampa-bay.jpg"
+image: "/images/blog/personal-injury-marketing-tampa-bay.webp"
 ---
 
 Personal injury marketing in Tampa Bay works fundamentally differently than it does in smaller markets or lower-population areas. The supply of PI firms is high, client acquisition costs are elevated, and the noise level makes it harder for any single firm to break through with generic tactics alone.

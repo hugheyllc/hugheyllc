@@ -8,7 +8,7 @@ tags: ["scorpion-legal-marketing-review", "law-firm-marketing-agency", "law-firm
 seo_title: "Scorpion Legal Marketing Review: What Law Firms Should Know Before Signing"
 seo_description: "An independent review of Scorpion's legal marketing platform. Covers data ownership, platform lock-in, AI claims, and what to ask before signing a contract."
 draft: false
-image: "/images/blog/scorpion-legal-marketing-review.jpg"
+image: "/images/blog/scorpion-legal-marketing-review.webp"
 ---
 
 Scorpion is one of the largest legal marketing companies in the country. They serve thousands of law firms, invest heavily in technology, and market themselves as an AI-powered platform that can transform your firm's growth.

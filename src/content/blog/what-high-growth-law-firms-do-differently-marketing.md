@@ -8,7 +8,7 @@ tags: ["law firm marketing", "law firm growth", "marketing ROI", "legal marketin
 seo_title: "What High‑Growth Law Firms Do Differently With Marketing"
 seo_description: "High‑growth law firms—those achieving 20% compound annual growth—operate differently. They grow 5.2 times faster than average firms and achieve a median growth "
 draft: false
-image: "/images/blog/what-high-growth-law-firms-do-differently-marketing.jpg"
+image: "/images/blog/what-high-growth-law-firms-do-differently-marketing.webp"
 ---
 
 I've spent the last fifteen years watching law firms grow—and watching them stall. The difference isn't talent, client base, or even economic conditions. It's how they approach marketing. High-growth law firms—those hitting **20% compound annual growth** or better—operate from a fundamentally different playbook. They grow **5.2 times faster** than average firms and hit a median growth rate of **41.7%**. That's not luck. That's system.

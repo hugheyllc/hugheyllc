@@ -8,7 +8,7 @@ tags: ["google-ads", "law-firm-marketing", "ppc"]
 seo_title: "Google Ads Quality Score for Law Firms: Why It Matters and How to Improve It"
 seo_description: "Google's Quality Score isn't just a number that affects your ad rank—it's the single most reliable indicator of whether your PPC budget is being wasted or "
 draft: false
-image: "/images/blog/law-firm-google-ads-quality-score.jpg"
+image: "/images/blog/law-firm-google-ads-quality-score.webp"
 ---
 
 Google's Quality Score isn't just a number that affects your ad rank—it's the single most reliable indicator of whether your PPC budget is being wasted or working for you.

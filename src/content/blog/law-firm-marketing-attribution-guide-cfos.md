@@ -8,7 +8,7 @@ tags: ["law-firm-marketing-attribution", "law-firm-marketing-budget", "legal-mar
 seo_title: "Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs"
 seo_description: "Marketing attribution is fundamentally a financial question — which investments are generating returns and which aren't. This guide is written for the people wh"
 draft: false
-image: "/images/blog/law-firm-marketing-attribution-guide-cfos.jpg"
+image: "/images/blog/law-firm-marketing-attribution-guide-cfos.webp"
 ---
 
 Marketing attribution — understanding which marketing channels are generating which results — is fundamentally a financial question. Which investments are delivering returns? Which are consuming budget without producing proportional value? How should the marketing budget be allocated next year?

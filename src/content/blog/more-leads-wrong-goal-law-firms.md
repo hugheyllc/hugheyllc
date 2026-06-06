@@ -8,7 +8,7 @@ tags: ["law firm marketing", "intake optimization", "marketing ROI", "law firm g
 seo_title: "Why “More Leads” Is the Wrong Goal for Law Firms"
 seo_description: "“More leads” is a seductive goal, but it often leads firms to burn cash on unqualified traffic and unsustainable cases. This blog explains why focusing on lead "
 draft: false
-image: "/images/blog/more-leads-wrong-goal-law-firms.jpg"
+image: "/images/blog/more-leads-wrong-goal-law-firms.webp"
 ---
 
 I work with law firms that are drowning in leads. They're spending $40,000 a month on Google Ads, their phones ring constantly, and their intake coordinator is burned out. They think the problem is they need a bigger team. The real problem is they're chasing the wrong metric.

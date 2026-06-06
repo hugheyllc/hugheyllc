@@ -8,7 +8,7 @@ tags: ["law-firm-seo", "keyword-research", "law-firm-marketing"]
 seo_title: "Keyword Research for Lawyers: A Step-by-Step Guide"
 seo_description: "How law firms should do keyword research — practice area targeting, local modifiers, intent mapping, and tools. From an independent law firm marketing consultant."
 draft: false
-image: "/images/blog/lawyer-keyword-research.jpg"
+image: "/images/blog/lawyer-keyword-research.webp"
 ---
 
 ## Why Legal Keyword Research Is Different

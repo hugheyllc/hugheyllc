@@ -8,7 +8,7 @@ tags: ["attorney-marketing-agency", "law-firm-marketing-results", "law-firm-mark
 seo_title: "Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead"
 seo_description: "Law firm marketing retainers sound like a smart investment. In practice, many firms pay for years without clear evidence of ROI. Here's why it happens — and the"
 draft: false
-image: "/images/blog/law-firm-marketing-retainer-underdelivery.jpg"
+image: "/images/blog/law-firm-marketing-retainer-underdelivery.webp"
 ---
 
 Law firm marketing retainers are one of the most common — and most quietly frustrating — business expenses at mid-size law firms. The model makes intuitive sense: pay a monthly fee, get ongoing SEO work, content production, and campaign management. Over time, rankings improve, traffic grows, cases follow.

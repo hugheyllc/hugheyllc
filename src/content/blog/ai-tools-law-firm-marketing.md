@@ -8,7 +8,7 @@ tags: ["ai-law-firm", "ai-tools-law-firm-marketing", "chatgpt-law-firm-marketing
 seo_title: "AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)"
 seo_description: "The AI tools landscape for law firm marketing is full of hype and genuinely useful capabilities in roughly equal measure. Here's an honest breakdown of what act"
 draft: false
-image: "/images/blog/ai-tools-law-firm-marketing.jpg"
+image: "/images/blog/ai-tools-law-firm-marketing.webp"
 ---
 
 Every marketing vendor in the legal space is now claiming to offer "AI-powered" solutions. The claims range from genuinely useful to mostly rebranded existing functionality with "AI" added to the sales deck. For a managing partner trying to make intelligent marketing technology decisions, the noise is significant.

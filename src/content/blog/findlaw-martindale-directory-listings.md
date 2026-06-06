@@ -8,7 +8,7 @@ tags: ["FindLaw alternatives", "legal directories", "law firm marketing ROI", "a
 seo_title: "FindLaw Alternatives for Law Firms: Are Directory Listings Still Worth It?"
 seo_description: "An ROI and attribution analysis of FindLaw, Martindale, and Avvo. What directories actually drive retained clients — and the FindLaw alternatives law firms use."
 draft: false
-image: "/images/blog/findlaw-martindale-directory-listings.jpg"
+image: "/images/blog/findlaw-martindale-directory-listings.webp"
 ---
 
 ## Are FindLaw and Martindale Directory Listings Still Worth It?

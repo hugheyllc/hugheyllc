@@ -8,7 +8,7 @@ tags: ["marketing analytics", "marketing ROI", "law firm marketing", "agency man
 seo_title: "Why Most Law Firm Marketing Reports Are Fiction"
 seo_description: "Many agencies deliver glossy dashboards filled with impressions, clicks and social followers. They look impressive until you ask a simple question: did we retai"
 draft: false
-image: "/images/blog/marketing-reports-fake.jpg"
+image: "/images/blog/marketing-reports-fake.webp"
 ---
 
 Many agencies deliver glossy dashboards filled with impressions, clicks and social followers. They look impressive until you ask a simple question: did we retain more profitable cases? This blog explains why most marketing reports tell a flattering story rather than the truth and how to spot the difference.

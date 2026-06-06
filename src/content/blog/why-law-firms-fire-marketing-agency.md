@@ -8,7 +8,7 @@ tags: ["law firm marketing", "marketing agency", "agency accountability", "marke
 seo_title: "Why Law Firms Fire Their Marketing Agency (And What to Do Instead)"
 seo_description: "Discover why law firms switch marketing agencies and how to fix accountability, ROI tracking, and reporting before ending a relationship."
 draft: false
-image: "/images/blog/why-law-firms-fire-marketing-agency.jpg"
+image: "/images/blog/why-law-firms-fire-marketing-agency.webp"
 ---
 
 ## Why Law Firms Fire Their Marketing Agency—The Real Reasons

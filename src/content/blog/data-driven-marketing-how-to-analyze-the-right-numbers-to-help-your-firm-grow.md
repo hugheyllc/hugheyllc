@@ -8,7 +8,7 @@ tags: ["marketing analytics", "law firm marketing", "law firm growth", "marketin
 seo_title: "Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow"
 seo_description: "In the competitive legal industry, marketing decisions based on intuition alone often fall short. Data-driven marketing, by contrast, involves gathering, analyz"
 draft: false
-image: "/images/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow.jpg"
+image: "/images/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow.webp"
 ---
 
 I've worked with hundreds of law firms over the past decade, and I can tell you with certainty: the firms that grow are not the ones making marketing decisions based on gut feeling. They're the ones **measuring what matters, acting on real data, and ruthlessly cutting what doesn't work**. The difference between a firm that's stuck at $2 million in annual revenue and one that scales to $5 million or beyond often comes down to whether they understand their own numbers.

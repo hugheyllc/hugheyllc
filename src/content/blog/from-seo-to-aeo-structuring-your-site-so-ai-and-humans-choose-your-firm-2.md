@@ -8,7 +8,7 @@ tags: ["AEO", "AIO for lawyers", "AIO for law firms", "AEO for lawyers", "SEO fo
 seo_title: "AIO and AEO for Lawyers: How to Get Your Law Firm Found by AI Search"
 seo_description: "AIO and AEO for law firms explained — how to structure your site so AI tools like ChatGPT, Perplexity, and Google AI Overviews recommend your firm when prospects search."
 draft: false
-image: "/images/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2.jpg"
+image: "/images/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2.webp"
 ---
 
 ## Introduction

@@ -8,7 +8,7 @@ tags: ["attorney-website-launch", "law-firm-website-checklist", "law-firm-websit
 seo_title: "The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live"
 seo_description: "A law firm website launch without the right pre-flight checks can cost you rankings you've spent years building. Here's the 20-item checklist we run on every si"
 draft: false
-image: "/images/blog/law-firm-website-launch-checklist.jpg"
+image: "/images/blog/law-firm-website-launch-checklist.webp"
 ---
 
 A law firm website launch is one of the highest-stakes technical events in your marketing calendar. Done correctly, it improves rankings, performance, and conversion simultaneously. Done without the right preparation, it can trigger ranking drops that take 6–12 months to recover from — erasing years of accumulated SEO equity in a single DNS cutover.

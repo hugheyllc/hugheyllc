@@ -8,7 +8,7 @@ tags: ["law firm marketing", "marketing analytics", "cost per retained client", 
 seo_title: "Cost Per Retained Client: The Only Law Firm Marketing Metric That Matters"
 seo_description: "Most law firms track cost-per-lead. The firms that grow track cost-per-retained-client. Here's how to calculate it and why it changes everything."
 draft: false
-image: "/images/blog/cost-per-retained-client-law-firm.jpg"
+image: "/images/blog/cost-per-retained-client-law-firm.webp"
 ---
 
 Cost-per-retained-client is the total amount your law firm spends on marketing to sign one paying client. It is calculated by dividing your total marketing spend by the number of clients who actually retained your firm — not the number of leads, not the number of consultations, not the number of form fills. It is the only marketing metric that directly connects your budget to revenue.

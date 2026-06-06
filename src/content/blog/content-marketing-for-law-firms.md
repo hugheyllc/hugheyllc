@@ -8,7 +8,7 @@ tags: ["content-marketing", "law-firm-marketing", "law-firm-seo"]
 seo_title: "Content Marketing for Law Firms: Strategy That Drives Cases"
 seo_description: "How law firms should approach content marketing to attract and retain clients — not just traffic. Practical strategy from a law firm marketing consultant."
 draft: false
-image: "/images/blog/content-marketing-for-law-firms.jpg"
+image: "/images/blog/content-marketing-for-law-firms.webp"
 ---
 
 ## Why Most Law Firm Content Fails Before Anyone Reads It

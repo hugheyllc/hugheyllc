@@ -8,7 +8,7 @@ tags: ["florida-law-firm-local-seo", "pinellas-county-attorney-seo", "st-pete-le
 seo_title: "St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market"
 seo_description: "St. Petersburg and Pinellas County have a distinct local search environment from Tampa — different population density, different competitive dynamics, different"
 draft: false
-image: "/images/blog/st-petersburg-law-firm-seo.jpg"
+image: "/images/blog/st-petersburg-law-firm-seo.webp"
 ---
 
 Law firms serving the St. Petersburg and Pinellas County market face a distinct local search environment from their counterparts across the bay in Tampa. The population base is different, the competitive landscape is somewhat less saturated, and the local search signals that move the needle are weighted differently. Applying a Tampa-centric SEO strategy in St. Pete — which most national agencies do because they lack genuine local knowledge — leaves significant opportunity on the table.

@@ -8,7 +8,7 @@ tags: ["attorney-backlinks", "law-firm-link-building", "law-firm-seo-authority",
 seo_title: "How Law Firms Build Backlinks Without Paying for Them"
 seo_description: "Backlinks remain one of Google's strongest ranking signals — but paid link schemes are a liability for law firms. Here's the legitimate link building playbook t"
 draft: false
-image: "/images/blog/law-firm-link-building.jpg"
+image: "/images/blog/law-firm-link-building.webp"
 ---
 
 Backlinks — links from other websites to yours — remain one of the most powerful ranking signals in Google's algorithm. A law firm website with strong, relevant backlinks will consistently outrank a technically identical site without them.

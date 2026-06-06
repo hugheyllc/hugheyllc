@@ -8,7 +8,7 @@ tags: ["law-firm-marketing", "marketing-budget", "marketing-roi"]
 seo_title: "How to Set a Law Firm Marketing Budget That Makes Sense"
 seo_description: "Most law firms set their marketing budget by either copying what they spent last year or picking a percentage of revenue they heard from a consultant. Both"
 draft: false
-image: "/images/blog/law-firm-marketing-budget.jpg"
+image: "/images/blog/law-firm-marketing-budget.webp"
 ---
 
 ## How to Set a Law Firm Marketing Budget That Makes Sense

@@ -8,7 +8,7 @@ tags: ["google-ads", "law-firm-marketing", "ppc"]
 seo_title: "The Negative Keyword List Every Law Firm Google Ads Account Needs"
 seo_description: "Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Here's how to build a negative keyword list that actually cuts waste."
 draft: false
-image: "/images/blog/law-firm-negative-keywords.jpg"
+image: "/images/blog/law-firm-negative-keywords.webp"
 ---
 
 ## The Negative Keyword List Every Law Firm Google Ads Account Needs

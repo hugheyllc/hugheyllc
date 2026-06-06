@@ -8,7 +8,7 @@ tags: ["attorney advertising","Google Ads","legal marketing","PPC law firm"]
 seo_title: "Google Ads for Law Firms: Why Most Campaigns Fail (And How to Fix Yours)"
 seo_description: "Google Ads for law firms done right — keyword strategy, match types, negative keywords, landing pages, and budget allocation that actually generates retained clients, not just clicks."
 draft: false
-image: "/images/blog/google-ads-law-firms.jpg"
+image: "/images/blog/google-ads-law-firms.webp"
 ---
 
 Legal is one of the most expensive categories in Google Ads. Keywords like "personal injury attorney" and "DUI lawyer" can cost $50–$200 per click in competitive markets. At those prices, a poorly configured campaign doesn't just underperform — it bleeds money at a pace that can do real damage to a marketing budget.

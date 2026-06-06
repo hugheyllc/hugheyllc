@@ -8,7 +8,7 @@ tags: ["attorney-marketing", "law-firm-marketing-agency", "law-firm-martech", "l
 seo_title: "Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI"
 seo_description: "Most law firms hire a marketing agency and wonder why results plateau. The reason: there's a fundamental difference between a vendor who runs campaigns and a pa"
 draft: false
-image: "/images/blog/law-firm-marketing-agency-vs-technical-partner.jpg"
+image: "/images/blog/law-firm-marketing-agency-vs-technical-partner.webp"
 ---
 
 When a law firm decides to invest in digital marketing, the first question they typically ask is: *which agency should we hire?*

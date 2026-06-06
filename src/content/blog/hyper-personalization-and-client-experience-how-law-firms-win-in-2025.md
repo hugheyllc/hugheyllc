@@ -8,7 +8,7 @@ tags: ["law firm growth", "intake optimization", "legal marketing", "content mar
 seo_title: "Hyper Personalization and Client Experience: How Law Firms Win in 2025"
 seo_description: "Client expectations have evolved fast. In 2025, potential clients want faster answers, personalized communication, less friction, and more transparency from the"
 draft: false
-image: "/images/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025.jpg"
+image: "/images/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025.webp"
 ---
 
 Client expectations have evolved fast. In 2025, potential clients want faster answers, personalized communication, less friction, and more transparency from the law firms they choose. Traditional one-size-fits-all marketing and generic intake processes no longer meet these expectations.

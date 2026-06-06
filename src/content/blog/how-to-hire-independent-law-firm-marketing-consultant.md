@@ -8,7 +8,7 @@ tags: ["Law Firm Marketing", "Marketing Consultant", "Agency Alternative", "Law 
 seo_title: "How to Hire an Independent Law Firm Marketing Consultant"
 seo_description: "Learn how to hire an independent law firm marketing consultant. Compare to agencies, evaluate expertise, and set measurable expectations for your practice."
 draft: false
-image: "/images/blog/how-to-hire-independent-law-firm-marketing-consultant.jpg"
+image: "/images/blog/how-to-hire-independent-law-firm-marketing-consultant.webp"
 ---
 
 ## What Is an Independent Law Firm Marketing Consultant?

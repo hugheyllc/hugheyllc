@@ -8,7 +8,7 @@ tags: ["law-firm-marketing", "email-marketing", "lead-nurture"]
 seo_title: "Email Marketing for Law Firms: Nurture Leads Before They're Ready to Hire"
 seo_description: "Most law firms treat email like a fire alarm. They blast it out when they need a case, then wonder why their open rates are abysmal. The firms actually win"
 draft: false
-image: "/images/blog/law-firm-email-marketing.jpg"
+image: "/images/blog/law-firm-email-marketing.webp"
 ---
 
 ## Email Marketing for Law Firms: Nurture Leads Before They're Ready to Hire

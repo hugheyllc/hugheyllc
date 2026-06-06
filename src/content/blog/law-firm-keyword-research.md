@@ -8,7 +8,7 @@ tags: ["attorney-seo-keywords", "law-firm-keyword-research", "law-firm-search-te
 seo_title: "Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases"
 seo_description: "Most law firm keyword research starts with search volume and ends there. The queries that sign cases aren't always the most searched — they're the most intentio"
 draft: false
-image: "/images/blog/law-firm-keyword-research.jpg"
+image: "/images/blog/law-firm-keyword-research.webp"
 ---
 
 Search volume is a seductive metric. A keyword with 10,000 monthly searches looks like an enormous opportunity — and law firm SEO campaigns built around high-volume keywords can generate impressive traffic numbers that feel like progress.

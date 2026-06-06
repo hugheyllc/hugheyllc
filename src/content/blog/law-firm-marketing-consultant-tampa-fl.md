@@ -8,7 +8,7 @@ tags: ["law firm marketing", "Tampa Bay", "local SEO", "Tampa", "legal marketing
 seo_title: "Law Firm Marketing Consultant Tampa FL | Hughey LLC"
 seo_description: "Independent law firm marketing consultant serving Tampa, FL. 20+ years helping law firms measure cost per retained client and hold agencies accountable."
 draft: false
-image: "/images/blog/law-firm-marketing-consultant-tampa-fl.jpg"
+image: "/images/blog/law-firm-marketing-consultant-tampa-fl.webp"
 ---
 
 An independent law firm marketing consultant in Tampa, FL helps law firms build the strategy and analytics layer that connects every marketing dollar to retained clients — not just leads, not impressions, and not agency activity reports. Tampa is one of the most competitive legal markets in Florida. Firms in personal injury, family law, criminal defense, and business litigation are all competing for the same clients, often using the same national agencies running the same playbooks. An independent consultant operates above that layer: measuring what actually works, holding vendors accountable, and building the systems your firm keeps regardless of which agency you use.

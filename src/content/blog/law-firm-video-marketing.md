@@ -8,7 +8,7 @@ tags: ["law-firm-marketing", "video-marketing", "content-marketing"]
 seo_title: "Video Marketing for Law Firms: What Actually Works in 2026"
 seo_description: "Your competitors are still treating video like a nice-to-have. That's your opening."
 draft: false
-image: "/images/blog/law-firm-video-marketing.jpg"
+image: "/images/blog/law-firm-video-marketing.webp"
 ---
 
 ## Video Marketing for Law Firms: What Actually Works in 2026

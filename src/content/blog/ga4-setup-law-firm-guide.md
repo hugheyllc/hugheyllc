@@ -8,7 +8,7 @@ tags: ["ga4-law-firm", "ga4-setup-attorney", "google-analytics-law-firm", "law-f
 seo_title: "How to Set Up GA4 for a Law Firm: The Configuration Guide Agencies Skip"
 seo_description: "Most law firm GA4 installations are essentially traffic counters — missing the conversion events, custom dimensions, and integrations that make analytics useful"
 draft: false
-image: "/images/blog/ga4-setup-law-firm-guide.jpg"
+image: "/images/blog/ga4-setup-law-firm-guide.webp"
 ---
 
 There's a version of Google Analytics 4 that's useful for a law firm — and a version installed on most law firm websites. The version installed on most law firm websites is a tracking code that records pageviews and sessions. Usable — but barely. It tells you almost nothing about what's actually driving leads and cases.

@@ -8,7 +8,7 @@ tags: ["law firm growth", "legal marketing", "law firm marketing"]
 seo_title: "Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know"
 seo_description: "The legal market in 2025 is undergoing a fundamental shift. Clients increasingly demand predictability, value, and transparency in how legal services are priced"
 draft: false
-image: "/images/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know.jpg"
+image: "/images/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know.webp"
 ---
 
 The legal market in 2025 is undergoing a fundamental shift. Clients increasingly demand predictability, value, and transparency in how legal services are priced. The long-standing dominance of the billable-hour model is under pressure. Firms that adapt and communicate that change effectively will win competitive advantage.

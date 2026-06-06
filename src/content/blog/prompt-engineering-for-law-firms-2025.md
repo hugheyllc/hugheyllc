@@ -8,7 +8,7 @@ tags: ["law firm growth", "legal marketing", "AEO", "content marketing"]
 seo_title: "How Prompt Engineering Is Transforming Legal Practice in 2025"
 seo_description: "A Strategic Framework for Law Firm Leaders Adopting AI Artificial intelligence has moved far beyond novelty status in the legal profession. By 2025, LLM-powered"
 draft: false
-image: "/images/blog/prompt-engineering-for-law-firms-2025.jpg"
+image: "/images/blog/prompt-engineering-for-law-firms-2025.webp"
 ---
 
 A Strategic Framework for Law Firm Leaders Adopting AI

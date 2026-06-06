@@ -8,7 +8,7 @@ tags: ["accessible-law-firm-website", "attorney-website-accessibility", "law-fir
 seo_title: "Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously"
 seo_description: "ADA website accessibility lawsuits against law firms are increasing. The irony: an inaccessible attorney website creates legal exposure for the very professiona"
 draft: false
-image: "/images/blog/law-firm-website-ada-compliance.jpg"
+image: "/images/blog/law-firm-website-ada-compliance.webp"
 ---
 
 There is a particular irony in a law firm website being sued for ADA accessibility violations. And yet it's happening with increasing frequency — the volume of federal ADA Title III website accessibility lawsuits has grown significantly year over year, and professional services firms, including law firms, are among the targets.

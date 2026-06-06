@@ -8,7 +8,7 @@ tags: ["law firm marketing", "Sarasota", "legal marketing consultant", "law firm
 seo_title: "Law Firm Marketing Consultant for Sarasota Law Firms | Joe Hughey"
 seo_description: "Independent law firm marketing consultant for Sarasota, FL. Strategy focused on cost per retained client for estate planning, business law, and personal injury firms."
 draft: false
-image: "/images/blog/law-firm-marketing-sarasota-fl.jpg"
+image: "/images/blog/law-firm-marketing-sarasota-fl.webp"
 ---
 
 A law firm marketing consultant for Sarasota helps firms capitalize on a legal market that's fundamentally different from Tampa or St. Petersburg. Sarasota County's demographics skew older and wealthier, which shifts the practice area mix — estate planning, trust litigation, business law, and real estate disputes are proportionally larger here than in Pinellas or Hillsborough counties. That changes everything about how you should market. The firms winning in Sarasota aren't necessarily spending the most. They're the ones who understand their cost per retained client and build strategy around the actual lifetime value of the clients they're attracting.

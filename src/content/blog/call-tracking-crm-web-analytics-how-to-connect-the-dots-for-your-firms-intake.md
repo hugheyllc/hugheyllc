@@ -8,7 +8,7 @@ tags: ["marketing analytics", "intake optimization", "law firm marketing", "law 
 seo_title: "Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake"
 seo_description: "The Silent Revenue Leak in Law Firm Marketing Law firms often lose clients not due to lack of leads, but because their data systems don’t communicate. Phone cal"
 draft: false
-image: "/images/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake.jpg"
+image: "/images/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake.webp"
 ---
 
 I work with law firms every week that are spending $8,000 to $15,000 monthly on digital marketing but can't answer a basic question: which channels are actually bringing in paying clients? They see leads come in, they see cases get signed, but the path between those two events is a mystery. The real problem isn't the marketing spend. It's that their **call tracking, CRM, and analytics platforms don't talk to each other**. Phone calls vanish into one system, form submissions sit in another, intake data lives in a third, and nobody knows which marketing dollar actually produced which retained client. That gap costs firms money every single day.

@@ -8,7 +8,7 @@ tags: ["call-tracking-attorney", "callrail-law-firm", "callrail-lawmatics-integr
 seo_title: "CallRail for Law Firms: The Complete Setup and Integration Guide"
 seo_description: "CallRail is the most important tool most law firms have never properly configured. Here's the complete setup guide — from number pools to CRM integration — writ"
 draft: false
-image: "/images/blog/callrail-law-firm-setup-guide.jpg"
+image: "/images/blog/callrail-law-firm-setup-guide.webp"
 ---
 
 Of all the tools in a law firm's marketing technology stack, [CallRail](https://www.callrail.com) has the highest ratio of impact to implementation complexity. It's not difficult to set up — but most law firms have it partially configured at best, leaving the most valuable attribution data on the table.

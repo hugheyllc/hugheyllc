@@ -8,7 +8,7 @@ tags: ["attorney-website-developer", "choose-law-firm-web-designer", "law-firm-w
 seo_title: "How to Choose a Law Firm Website Design Company (Without Getting Burned)"
 seo_description: "Choosing a law firm website design company is one of the highest-stakes marketing decisions your firm makes. Most firms get it wrong. Here's the evaluation fram"
 draft: false
-image: "/images/blog/how-to-choose-law-firm-website-design-company.jpg"
+image: "/images/blog/how-to-choose-law-firm-website-design-company.webp"
 ---
 
 Your law firm's website is probably your single most important marketing asset. It's the first impression for prospective clients who found you through search, the destination for every paid advertising campaign, and the hub of your intake workflow. Getting it built correctly is one of the highest-leverage decisions in your marketing program.

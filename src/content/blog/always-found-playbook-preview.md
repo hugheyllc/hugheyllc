@@ -8,7 +8,7 @@ tags: ["local-seo", "google-business-profile", "law-firm-marketing", "playbook"]
 seo_title: "What's Inside the Always Found Playbook (And Whether You Need It)"
 seo_description: "Preview of the Always Found Always Local playbook for law firms — GBP, citations, location pages, reviews, schema. Three chapters opened up so you can decide."
 draft: false
-image: "/images/blog/always-found-playbook-preview.jpg"
+image: "/images/blog/always-found-playbook-preview.webp"
 ---
 
 The Always Found Always Local playbook is an operational guide that walks a law firm through every step of dominating local search — Google Business Profile, citations, location pages, reviews, schema markup, and ongoing maintenance. It's the same system I'd run on a $3,000-a-month retainer, written out in plain English so an office manager or in-house coordinator can execute it without an agency. It costs $97. This post previews three of the eight chapters so you can decide whether it's worth it before you click buy.

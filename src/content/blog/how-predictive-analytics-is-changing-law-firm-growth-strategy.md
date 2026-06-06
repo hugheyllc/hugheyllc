@@ -8,7 +8,7 @@ tags: ["marketing analytics", "law firm growth", "law firm marketing", "marketin
 seo_title: "How Predictive Analytics Is Changing Law Firm Growth Strategy"
 seo_description: "Introduction: The Next Frontier in Legal Marketing Data Most law firms look backward when they review their numbers — how many leads came in, which campaigns wo"
 draft: false
-image: "/images/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy.jpg"
+image: "/images/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy.webp"
 ---
 
 I work with law firms across the country—solo practitioners to 50-attorney shops—and I hear the same complaint every quarter: "We spent $X on marketing, but we don't know if we're spending it right." Most firms are still running on gut feel and last year's numbers. They review what happened, pat themselves on the back or curse the wasted budget, and move on. **Predictive analytics changes that entirely.** Instead of asking "What happened?" you're asking "What will happen?" and acting before problems show up.

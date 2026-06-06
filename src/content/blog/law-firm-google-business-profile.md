@@ -8,7 +8,7 @@ tags: ["law-firm-marketing", "marketing-agency", "law-firm-marketing-consultant"
 seo_title: "Why Law Firms Fire Their Marketing Agency (And What to Do Instead)"
 seo_description: "Law firms fire marketing agencies when they can't tie spend to retained clients. Here's the pattern, the red flags, and what you should do before and after the switch."
 draft: false
-image: "/images/blog/law-firm-google-business-profile.jpg"
+image: "/images/blog/law-firm-google-business-profile.webp"
 ---
 
 Law firms don't fire marketing agencies because the agency did bad work. They fire them because nobody could prove the work was producing [retained clients](/blog/cost-per-retained-client-law-firm/) — and the firm ran out of patience waiting for proof that never came.
