@@ -66,9 +66,30 @@ const localBusinessSchema = {
     "SEO for law firms",
     "Google Ads for lawyers"
   ],
+  "openingHours": ["Mo-Fr 09:00-17:00"],
   "sameAs": [
     "https://www.linkedin.com/in/joehughey/",
     "https://www.facebook.com/profile.php?id=61577138003264"
+  ]
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://hugheyllc.com/#org",
+  "name": "Hughey LLC",
+  "url": "https://hugheyllc.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://hugheyllc.com/images/logo.png",
+    "width": 512,
+    "height": 512
+  },
+  "founder": { "@type": "Person", "name": "Joe Hughey" },
+  "sameAs": [
+    "https://www.linkedin.com/in/joehughey/",
+    "https://www.facebook.com/profile.php?id=61577138003264",
+    "https://x.com/HugheyJoe90718"
   ]
 };
 ---
@@ -117,6 +138,8 @@ const localBusinessSchema = {
 
     <!-- LocalBusiness Schema (every page) -->
     <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+    <!-- Organization Schema -->
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 
     <!-- WebSite Schema -->
     <script type="application/ld+json" set:html={JSON.stringify({
