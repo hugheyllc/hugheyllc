@@ -29,7 +29,7 @@ import Footer from '../../../components/Footer.astro';
           <p class="dl-eyebrow">Payment confirmed</p>
           <h1>Check your inbox.</h1>
           <p class="dl-body">The playbook is on its way to <strong id="dl-email">your email</strong>. It should arrive in the next minute or two.</p>
-          <p class="dl-tip">Don't see it in 5 minutes? Check spam, then email <a href="mailto:joe@joehughey.com">joe@joehughey.com</a> and I'll deliver it directly.</p>
+          <p class="dl-tip">Don't see it in 5 minutes? Check spam, then email <a href="mailto:joe@hugheyllc.com">joe@hugheyllc.com</a> and I'll deliver it directly.</p>
           <div class="dl-actions">
             <a href="https://hugheyllc.com/playbook/always-found-f3a9d2c1.html" class="dl-btn-primary">Open the Playbook now →</a>
             <a href="/" class="dl-btn-ghost">Back to home</a>
@@ -43,7 +43,7 @@ import Footer from '../../../components/Footer.astro';
           </div>
           <p class="dl-eyebrow">Already delivered</p>
           <h1>This purchase has already been emailed.</h1>
-          <p class="dl-body">Check your inbox (and spam) for the playbook link. Lost it? Email <a href="mailto:joe@joehughey.com">joe@joehughey.com</a> and I'll resend.</p>
+          <p class="dl-body">Check your inbox (and spam) for the playbook link. Lost it? Email <a href="mailto:joe@hugheyllc.com">joe@hugheyllc.com</a> and I'll resend.</p>
           <div class="dl-actions">
             <a href="https://hugheyllc.com/playbook/always-found-f3a9d2c1.html" class="dl-btn-primary">Open the Playbook now →</a>
           </div>
@@ -57,9 +57,9 @@ import Footer from '../../../components/Footer.astro';
           <p class="dl-eyebrow">Something went sideways</p>
           <h1 id="dl-error-h">We hit an issue confirming the purchase.</h1>
           <p class="dl-body" id="dl-error-msg">If money has left your account, you have the playbook — we just couldn't auto-deliver it.</p>
-          <p class="dl-tip">Email <a href="mailto:joe@joehughey.com">joe@joehughey.com</a> with your receipt and I'll send the playbook over directly. Usually within an hour.</p>
+          <p class="dl-tip">Email <a href="mailto:joe@hugheyllc.com">joe@hugheyllc.com</a> with your receipt and I'll send the playbook over directly. Usually within an hour.</p>
           <div class="dl-actions">
-            <a href="mailto:joe@joehughey.com?subject=Playbook%20delivery%20issue" class="dl-btn-primary">Email Joe →</a>
+            <a href="mailto:joe@hugheyllc.com?subject=Playbook%20delivery%20issue" class="dl-btn-primary">Email Joe →</a>
             <a href="/resources/always-found-playbook/" class="dl-btn-ghost">Back to the playbook page</a>
           </div>
         </div>
@@ -111,7 +111,7 @@ import Footer from '../../../components/Footer.astro';
           }
         })
         .catch(() => {
-          if (errorMsg) errorMsg.textContent = 'A network error stopped us from confirming the purchase. Email joe@joehughey.com with your receipt and we will deliver the playbook directly.';
+          if (errorMsg) errorMsg.textContent = 'A network error stopped us from confirming the purchase. Email joe@hugheyllc.com with your receipt and we will deliver the playbook directly.';
           show(errorState);
         });
     })();
