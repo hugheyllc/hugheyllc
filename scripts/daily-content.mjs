@@ -580,10 +580,27 @@ async function main() {
     console.log(`     no planned posts left — fallback keyword: ${planned.keyword}`);
   }
 
-  // Duplicate check — hard stop if slug already exists
+  // Duplicate check — exact slug, exact title, AND semantic overlap
   const existingTitles = existing.map((p) => p.title.toLowerCase());
   const existingSlugs = new Set(existing.map((p) => p.slug));
-  // Pre-check: if planned slug already in repo, skip entirely and pick next topic
+
+  // Stop-words to ignore in semantic comparison
+  const STOP = new Set(['the','a','an','and','or','of','for','in','on','to','with','how','why','what','is','are','do','does','your','law','firm','law firm','firms','legal']);
+
+  function significantWords(title) {
+    return title.toLowerCase()
+      .replace(/[^a-z0-9\s]/g, '')
+      .split(/\s+/)
+      .filter((w) => w.length > 3 && !STOP.has(w));
+  }
+
+  function semanticallySimilar(a, b, threshold = 3) {
+    const wa = new Set(significantWords(a));
+    const wb = significantWords(b);
+    const overlap = wb.filter((w) => wa.has(w)).length;
+    return overlap >= threshold;
+  }
+
   const plannedSlug = planned.title
     ? planned.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
     : '';
@@ -592,6 +609,13 @@ async function main() {
   }
   if (planned.title && existingTitles.some((t) => t === planned.title.toLowerCase())) {
     throw new Error(`TITLE_EXISTS: planned title "${planned.title}" already published.`);
+  }
+  // Semantic overlap: if planned title shares 3+ significant words with any existing post, skip
+  if (planned.title) {
+    const semanticMatch = existing.find((p) => semanticallySimilar(planned.title, p.title));
+    if (semanticMatch) {
+      throw new Error(`SEMANTIC_DUPLICATE: "${planned.title}" is too similar to existing post "${semanticMatch.title}". Cron should pick a different topic.`);
+    }
   }
 
   console.log('[2/7] Generating blog post via Anthropic');
@@ -670,6 +694,10 @@ async function main() {
   } else {
     console.log('     no planned row to update (fallback topic)');
   }
+
+  // Write result for the CI workflow to read (slug, title for branch name + Telegram)
+  const { writeFileSync } = await import('node:fs');
+  writeFileSync('/tmp/blog-result.json', JSON.stringify({ slug, title: fm.title }));
 
   console.log(`\nDone: ${fm.title}`);
   console.log(`     /blog/${slug}/`);
