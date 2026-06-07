@@ -1,10 +1,13 @@
 name: Generate Draft Blog Post
 
+# DISABLED: superseded by daily-content.yml which runs at 8am ET daily
+# This workflow referenced a .github/content-calendar.json that no longer exists
 on:
-  schedule:
-    # Monday at 9:00 AM UTC
-    - cron: '0 9 * * 1'
   workflow_dispatch:
+    inputs:
+      disabled:
+        description: 'This workflow is disabled — use Daily Content instead'
+        required: false
 
 jobs:
   generate-content:
