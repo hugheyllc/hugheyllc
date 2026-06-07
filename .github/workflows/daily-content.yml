@@ -57,7 +57,6 @@ jobs:
           git push origin "$DRAFT_BRANCH" --force
 
           # Notify Joe via Telegram with topic + URL for approval
-          MSG="✏️ *Blog draft ready for review*%0A%0A*Topic:* ${TITLE}%0A*URL:* hugheyllc.com/blog/${SLUG}/%0A%0AReply to Kenz with \"publish\" to post it, or \"skip\" to discard."
           curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             -H "Content-Type: application/json" \
-            -d "{\"chat_id\":\"8570648638\",\"text\":\"${MSG}\",\"parse_mode\":\"Markdown\"}"
+            -d "{\"chat_id\":\"8570648638\",\"text\":\"\u270f\ufe0f *Blog draft ready*\\n\\n*${TITLE}*\\nhugheyllc.com/blog/${SLUG}/\\n\\nReply \\"publish\\" to go live, or \\"skip\\" to discard.\",\"parse_mode\":\"Markdown\"}"
