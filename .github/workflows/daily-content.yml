@@ -38,10 +38,26 @@ jobs:
           TELEGRAM_CHAT_ID: '8570648638'
         run: node scripts/daily-content.mjs
         
-      - name: Commit and push
+      - name: Commit to draft branch + notify Joe for approval
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
+          RESULT=$(cat /tmp/blog-result.json 2>/dev/null || echo '{}')
+          SLUG=$(echo "$RESULT" | node -e "process.stdout.write(JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).slug||'unknown')")
+          TITLE=$(echo "$RESULT" | node -e "process.stdout.write(JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).title||'unknown')")
+
           git config user.name "Kenz [hugheyllc]"
           git config user.email "kenz@hugheyllc.com"
+
+          # Push to draft branch, not main
+          DRAFT_BRANCH="blog-draft/${SLUG}"
+          git checkout -b "$DRAFT_BRANCH"
           git add src/content/blog/ public/images/blog/ SEO_STRATEGY.md || true
-          git diff --staged --quiet || git commit -m "feat: $(date '+%b %-d') daily blog post"
-          git push origin main
+          git diff --staged --quiet || git commit -m "draft: ${TITLE}"
+          git push origin "$DRAFT_BRANCH" --force
+
+          # Notify Joe via Telegram with topic + URL for approval
+          MSG="✏️ *Blog draft ready for review*%0A%0A*Topic:* ${TITLE}%0A*URL:* hugheyllc.com/blog/${SLUG}/%0A%0AReply to Kenz with \"publish\" to post it, or \"skip\" to discard."
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d "{\"chat_id\":\"8570648638\",\"text\":\"${MSG}\",\"parse_mode\":\"Markdown\"}"

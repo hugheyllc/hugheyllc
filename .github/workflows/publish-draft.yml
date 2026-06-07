@@ -1,0 +1,39 @@
+name: Publish Blog Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Blog post slug to publish (e.g. law-firm-seo-guide)'
+        required: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout draft branch
+        uses: actions/checkout@v4
+        with:
+          ref: blog-draft/${{ github.event.inputs.slug }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Merge to main and push
+        run: |
+          git config user.name "Kenz [hugheyllc]"
+          git config user.email "kenz@hugheyllc.com"
+          git fetch origin main
+          git checkout main
+          git merge --no-ff "blog-draft/${{ github.event.inputs.slug }}" -m "feat: publish blog post — ${{ github.event.inputs.slug }}"
+          git push origin main
+
+      - name: Notify Joe
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d "{\"chat_id\":\"8570648638\",\"text\":\"✅ Published: hugheyllc.com/blog/${{ github.event.inputs.slug }}/\",\"parse_mode\":\"Markdown\"}"
