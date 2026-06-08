@@ -1,0 +1,45 @@
+name: Post to LinkedIn
+
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: 'Post text'
+        required: true
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to LinkedIn
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+          POST_TEXT: ${{ github.event.inputs.text }}
+        run: |
+          node -e "
+          const https = require('https');
+          const token = process.env.LINKEDIN_ACCESS_TOKEN;
+          const personUrn = process.env.LINKEDIN_PERSON_URN;
+          const text = process.env.POST_TEXT;
+          const author = personUrn.startsWith('urn:li:person:') ? personUrn : 'urn:li:person:' + personUrn;
+          const body = JSON.stringify({
+            author,
+            lifecycleState: 'PUBLISHED',
+            specificContent: {
+              'com.linkedin.ugc.ShareContent': {
+                shareCommentary: { text },
+                shareMediaCategory: 'NONE'
+              }
+            },
+            visibility: { 'com.linkedin.ugc.MemberNetworkVisibility': 'PUBLIC' }
+          });
+          const req = https.request({
+            hostname: 'api.linkedin.com', path: '/v2/ugcPosts', method: 'POST',
+            headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json', 'X-Restli-Protocol-Version': '2.0.0', 'Content-Length': Buffer.byteLength(body) }
+          }, res => {
+            let d = ''; res.on('data', c => d += c);
+            res.on('end', () => { console.log('Status:', res.statusCode); console.log(d.slice(0, 300)); });
+          });
+          req.write(body); req.end();
+          "
