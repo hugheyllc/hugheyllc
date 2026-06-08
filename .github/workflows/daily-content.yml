@@ -23,40 +23,158 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run daily content script
+      - name: Generate blog post + image
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
-          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
-          TWITTER_ACCESS_TOKEN_V1: ${{ secrets.TWITTER_ACCESS_TOKEN_V1 }}
-          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
-          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: '8570648638'
+          # Social credentials passed but posting happens AFTER deploy verification
+          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_REFRESH_TOKEN: ${{ secrets.TWITTER_REFRESH_TOKEN }}
+          TWITTER_CLIENT_ID: ${{ secrets.TWITTER_CLIENT_ID }}
+          TWITTER_CLIENT_SECRET: ${{ secrets.TWITTER_CLIENT_SECRET }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+          SOCIAL_POST_MODE: 'skip'  # Social posting happens after deploy verification below
         run: node scripts/daily-content.mjs
-        
-      - name: Commit to draft branch + notify Joe for approval
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+
+      - name: Commit and push to main
         run: |
           RESULT=$(cat /tmp/blog-result.json 2>/dev/null || echo '{}')
-          SLUG=$(echo "$RESULT" | node -e "process.stdout.write(JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).slug||'unknown')")
-          TITLE=$(echo "$RESULT" | node -e "process.stdout.write(JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).title||'unknown')")
+          SLUG=$(echo "$RESULT" | node -e "process.stdout.write(JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).slug||'')")
+          TITLE=$(echo "$RESULT" | node -e "process.stdout.write(JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).title||'')")
+
+          if [ -z "$SLUG" ]; then
+            echo "No slug found — skipping commit"
+            exit 1
+          fi
 
           git config user.name "Kenz [hugheyllc]"
           git config user.email "kenz@hugheyllc.com"
 
-          # Push to draft branch, not main
-          DRAFT_BRANCH="blog-draft/${SLUG}"
-          git checkout -b "$DRAFT_BRANCH"
-          git add src/content/blog/ public/images/blog/ SEO_STRATEGY.md || true
-          git diff --staged --quiet || git commit -m "draft: ${TITLE}"
-          git push origin "$DRAFT_BRANCH" --force
+          git add "src/content/blog/${SLUG}.md" "public/images/blog/${SLUG}.jpg" SEO_STRATEGY.md || true
+          git diff --staged --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "feat: $(date '+%b %-d') blog — ${TITLE}"
+          git push origin HEAD:main
 
-          # Notify Joe via Telegram with topic + URL for approval
-          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            -H "Content-Type: application/json" \
-            -d "{\"chat_id\":\"8570648638\",\"text\":\"\u270f\ufe0f *Blog draft ready*\\n\\n*${TITLE}*\\nhugheyllc.com/blog/${SLUG}/\\n\\nReply \\"publish\\" to go live, or \\"skip\\" to discard.\",\"parse_mode\":\"Markdown\"}"
+          echo "SLUG=${SLUG}" >> $GITHUB_ENV
+          echo "TITLE=${TITLE}" >> $GITHUB_ENV
+
+      - name: Wait for Vercel to deploy + verify URL is live
+        run: |
+          URL="https://hugheyllc.com/blog/${SLUG}/"
+          echo "Waiting for: $URL"
+          for i in $(seq 1 20); do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
+            echo "Attempt $i: HTTP $STATUS"
+            if [ "$STATUS" = "200" ]; then
+              echo "URL is live!"
+              exit 0
+            fi
+            sleep 30
+          done
+          echo "URL did not go live after 10 minutes"
+          exit 1
+
+      - name: Post to social media
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TWITTER_CLIENT_ID: ${{ secrets.TWITTER_CLIENT_ID }}
+          TWITTER_CLIENT_SECRET: ${{ secrets.TWITTER_CLIENT_SECRET }}
+          TWITTER_REFRESH_TOKEN: ${{ secrets.TWITTER_REFRESH_TOKEN }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          POST_SLUG: ${{ env.SLUG }}
+          POST_TITLE: ${{ env.TITLE }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+
+          const slug = process.env.POST_SLUG;
+          const title = process.env.POST_TITLE;
+          const url = `https://hugheyllc.com/blog/${slug}/`;
+          const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY;
+          const TELEGRAM_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+
+          function post(hostname, path, headers, body) {
+            return new Promise((resolve, reject) => {
+              const data = typeof body === 'string' ? body : JSON.stringify(body);
+              const req = https.request({ hostname, path, method: 'POST',
+                headers: { 'Content-Length': Buffer.byteLength(data), ...headers }
+              }, res => {
+                let d = ''; res.on('data', c => d += c);
+                res.on('end', () => resolve({ status: res.statusCode, body: d }));
+              });
+              req.on('error', reject);
+              req.write(data);
+              req.end();
+            });
+          }
+
+          async function generateCopy(platform) {
+            const prompt = platform === 'twitter'
+              ? `Write a punchy tweet (max 240 chars) for this blog post. Include the URL and 2-3 hashtags. Return ONLY the tweet text.\nTitle: "${title}"\nURL: ${url}`
+              : `Write a LinkedIn post (150-200 words, professional, 3-5 hashtags at end) for this blog post. Include the URL. Return ONLY the post text.\nTitle: "${title}"\nURL: ${url}`;
+            const body = JSON.stringify({ model: 'claude-haiku-4-5', max_tokens: 400, messages: [{ role: 'user', content: prompt }] });
+            const r = await post('api.anthropic.com', '/v1/messages', { 'x-api-key': ANTHROPIC_KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' }, body);
+            return JSON.parse(r.body).content?.[0]?.text || '';
+          }
+
+          async function postTwitter(text) {
+            // Refresh OAuth 2.0 token
+            const clientId = process.env.TWITTER_CLIENT_ID;
+            const clientSecret = process.env.TWITTER_CLIENT_SECRET;
+            const refreshToken = process.env.TWITTER_REFRESH_TOKEN;
+            if (!clientId || !refreshToken) throw new Error('Twitter credentials missing');
+            const auth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
+            const tokenBody = `grant_type=refresh_token&refresh_token=${encodeURIComponent(refreshToken)}&client_id=${encodeURIComponent(clientId)}`;
+            const tokenRes = await post('api.twitter.com', '/2/oauth2/token', { 'Authorization': `Basic ${auth}`, 'Content-Type': 'application/x-www-form-urlencoded' }, tokenBody);
+            const { access_token, refresh_token: newRefresh } = JSON.parse(tokenRes.body);
+            if (!access_token) throw new Error('Twitter token refresh failed: ' + tokenRes.body);
+            // Save new refresh token back to GitHub env (best effort)
+            if (newRefresh) fs.appendFileSync(process.env.GITHUB_ENV || '/dev/null', `TWITTER_NEW_REFRESH=${newRefresh}\n`);
+            const tweetBody = JSON.stringify({ text });
+            const r = await post('api.twitter.com', '/2/tweets', { 'Authorization': `Bearer ${access_token}`, 'Content-Type': 'application/json' }, tweetBody);
+            const result = JSON.parse(r.body);
+            if (result.data?.id) return `https://twitter.com/i/web/status/${result.data.id}`;
+            throw new Error('Tweet failed: ' + r.body);
+          }
+
+          async function postLinkedIn(text) {
+            const token = process.env.LINKEDIN_ACCESS_TOKEN;
+            const personUrn = process.env.LINKEDIN_PERSON_URN;
+            if (!token) throw new Error('LinkedIn token missing');
+            const author = personUrn?.startsWith('urn:li:person:') ? personUrn : `urn:li:person:${personUrn}`;
+            const body = JSON.stringify({ author, lifecycleState: 'PUBLISHED', specificContent: { 'com.linkedin.ugc.ShareContent': { shareCommentary: { text }, shareMediaCategory: 'NONE' } }, visibility: { 'com.linkedin.ugc.MemberNetworkVisibility': 'PUBLIC' } });
+            const r = await post('api.linkedin.com', '/v2/ugcPosts', { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json', 'X-Restli-Protocol-Version': '2.0.0' }, body);
+            if (r.status !== 201) throw new Error(`LinkedIn failed ${r.status}: ${r.body}`);
+            return 'posted';
+          }
+
+          async function notify(text) {
+            const token = process.env.TELEGRAM_BOT_TOKEN;
+            if (!token) return;
+            await post('api.telegram.org', `/bot${token}/sendMessage`, { 'Content-Type': 'application/json' }, JSON.stringify({ chat_id: '8570648638', text, parse_mode: 'Markdown' }));
+          }
+
+          (async () => {
+            console.log('Generating social copy for:', title);
+            const [tweetText, liText] = await Promise.all([generateCopy('twitter'), generateCopy('linkedin')]);
+
+            let twitterUrl = '', liStatus = '';
+            try { twitterUrl = await postTwitter(tweetText); console.log('Twitter:', twitterUrl); }
+            catch (e) { console.error('Twitter failed:', e.message); }
+
+            try { liStatus = await postLinkedIn(liText); console.log('LinkedIn:', liStatus); }
+            catch (e) { console.error('LinkedIn failed:', e.message); }
+
+            const summary = `✅ *${title}*\n${url}\n\n${twitterUrl ? '🐦 Twitter posted' : '❌ Twitter failed'}\n${liStatus ? '💼 LinkedIn posted' : '❌ LinkedIn failed'}`;
+            await notify(summary);
+            console.log('Done');
+          })().catch(e => { console.error(e); process.exit(1); });
+          EOF

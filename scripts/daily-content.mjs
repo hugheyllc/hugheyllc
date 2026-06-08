@@ -641,7 +641,11 @@ async function main() {
   fs.writeFileSync(imagePath, imageBuf);
   console.log(`     wrote ${imagePath} (${imageBuf.length} bytes)`);
 
-  // Steps 4–6: social. Failures here are non-fatal.
+  // Steps 4–6: social. Skip if SOCIAL_POST_MODE=skip (posting happens after deploy verification).
+  if (process.env.SOCIAL_POST_MODE === 'skip') {
+    console.log('[4-5/7] Social posting skipped (SOCIAL_POST_MODE=skip) — will post after deploy');
+  } else {
+  // BEGIN SOCIAL
   console.log('[4/7] Posting to Twitter');
   try {
     const tweet = await generateTweet({ title: fm.title, slug, excerpt: fm.excerpt });
@@ -673,6 +677,7 @@ async function main() {
   } catch (e) {
     console.error(`     linkedin failed: ${e.message}`);
   }
+  } // END SOCIAL (closes SOCIAL_POST_MODE=skip check)
 
   console.log('[6/7] Notifying Joe on Telegram');
   try {
