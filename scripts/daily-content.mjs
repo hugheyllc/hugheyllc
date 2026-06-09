@@ -163,6 +163,21 @@ function readStrategy() {
   return fs.readFileSync(STRATEGY_FILE, 'utf8');
 }
 
+function getPlannedPosts(strategy) {
+  // Returns ALL remaining planned posts (not just the first one)
+  const lines = strategy.split('\n');
+  const results = [];
+  for (const line of lines) {
+    if (!line.startsWith('|') || !line.includes('\uD83D\uDD32')) continue;
+    const cells = line.split('|').map((c) => c.trim());
+    if (cells.length < 6) continue;
+    const [, num, title, keyword, angle, status] = cells;
+    if (!status.includes('\uD83D\uDD32')) continue;
+    results.push({ rowLine: line, num, title, keyword, angle });
+  }
+  return results;
+}
+
 function findNextPlannedPost(strategy) {
   // Match rows like: | 6 | Title | keyword | angle | 🔲 Planned |
   const lines = strategy.split('\n');
@@ -618,41 +633,59 @@ async function main() {
     console.log(`     no planned posts left — fallback keyword: ${planned.keyword}`);
   }
 
-  // Duplicate check — exact slug, exact title, AND semantic overlap
+  // Duplicate check — exact slug, exact title, keyword, AND semantic overlap
+  // Auto-skips duplicates and tries next planned post rather than crashing.
   const existingTitles = existing.map((p) => p.title.toLowerCase());
   const existingSlugs = new Set(existing.map((p) => p.slug));
+  const existingKeywords = new Set(existing.map((p) => (p.keyword || '').toLowerCase()).filter(Boolean));
 
-  // Stop-words to ignore in semantic comparison
-  const STOP = new Set(['the','a','an','and','or','of','for','in','on','to','with','how','why','what','is','are','do','does','your','law','firm','law firm','firms','legal']);
+  const STOP = new Set(['the','a','an','and','or','of','for','in','on','to','with','how','why','what','is','are','do','does','your','law','firm','firms','legal']);
 
-  function significantWords(title) {
-    return title.toLowerCase()
-      .replace(/[^a-z0-9\s]/g, '')
-      .split(/\s+/)
-      .filter((w) => w.length > 3 && !STOP.has(w));
+  function significantWords(str) {
+    return (str || '').toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter((w) => w.length > 3 && !STOP.has(w));
   }
 
   function semanticallySimilar(a, b, threshold = 3) {
     const wa = new Set(significantWords(a));
     const wb = significantWords(b);
-    const overlap = wb.filter((w) => wa.has(w)).length;
-    return overlap >= threshold;
+    return wb.filter((w) => wa.has(w)).length >= threshold;
   }
 
-  const plannedSlug = planned.title
-    ? planned.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
-    : '';
-  if (existingSlugs.has(plannedSlug)) {
-    throw new Error(`SLUG_EXISTS: planned topic slug "${plannedSlug}" already published. Cron should pick a different topic next run.`);
+  function isDuplicate(candidate) {
+    const slug = candidate.title
+      ? candidate.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+      : '';
+    if (existingSlugs.has(slug)) return `slug "${slug}" already exists`;
+    if (candidate.title && existingTitles.some((t) => t === candidate.title.toLowerCase())) return `title already published`;
+    if (candidate.keyword && existingKeywords.has(candidate.keyword.toLowerCase())) return `keyword "${candidate.keyword}" already covered`;
+    if (candidate.title) {
+      const match = existing.find((p) => semanticallySimilar(candidate.title, p.title));
+      if (match) return `too similar to "${match.title}"`;
+    }
+    return null;
   }
-  if (planned.title && existingTitles.some((t) => t === planned.title.toLowerCase())) {
-    throw new Error(`TITLE_EXISTS: planned title "${planned.title}" already published.`);
-  }
-  // Semantic overlap: if planned title shares 3+ significant words with any existing post, skip
-  if (planned.title) {
-    const semanticMatch = existing.find((p) => semanticallySimilar(planned.title, p.title));
-    if (semanticMatch) {
-      throw new Error(`SEMANTIC_DUPLICATE: "${planned.title}" is too similar to existing post "${semanticMatch.title}". Cron should pick a different topic.`);
+
+  // Try planned post; if duplicate, walk through remaining planned posts until a valid one is found
+  let dupReason = isDuplicate(planned);
+  if (dupReason) {
+    console.warn(`     skipping "${planned.title}" — ${dupReason}`);
+    // Mark it skipped in strategy and try the next planned posts
+    const allPlanned = getPlannedPosts(strategy); // returns array of remaining planned rows
+    let found = false;
+    for (const candidate of allPlanned) {
+      const reason = isDuplicate(candidate);
+      if (reason) {
+        console.warn(`     skipping "${candidate.title}" — ${reason}`);
+        continue;
+      }
+      planned = candidate;
+      found = true;
+      console.log(`     using next unique planned post: ${planned.title}`);
+      break;
+    }
+    if (!found) {
+      planned = pickFallbackTopic(strategy, existing);
+      console.log(`     all planned posts are duplicates — fallback keyword: ${planned.keyword}`);
     }
   }
 

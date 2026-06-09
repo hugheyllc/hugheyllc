@@ -75,7 +75,7 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 9 | What Law Firms Get Wrong About Google Ads (And How to Fix It) | law firm Google Ads mistakes | Common waste patterns, bid strategy, intent mismatch | ⛔ Skipped (duplicate content — google-ads-law-firms.md already covers this) |
 | 10 | How to Build a Law Firm Marketing Budget That Ties to Retained Clients | law firm marketing budget | Bottom-up budgeting from cost-per-retained-client target | ⛔ Skipped (law-firm-marketing-budget.md already exists) |
 | 11 | The Law Firm Intake Audit: A Step-by-Step Guide | law firm intake process audit | Practical audit framework, leak points, conversion fixes | ✅ Published |
-| 12 | Why Your Law Firm's CRM Isn't Working (And What to Do About It) | law firm CRM problems | Integration gaps, pipeline visibility, adoption failures | 🔲 Planned |
+| 12 | Why Your Law Firm's CRM Isn't Working (And What to Do About It) | law firm CRM problems | Integration gaps, pipeline visibility, adoption failures | ✅ Published |
 | 13 | Local SEO for Law Firms: What Still Works in 2026 | local SEO law firms 2026 | GBP, citations, review velocity, AI search presence | 🔲 Planned |
 | 14 | How Family Law Firms Can Compete With High-Volume PI Advertisers | family law digital marketing | Budget efficiency, niche targeting, emotional intent keywords | 🔲 Planned |
 | 15 | The Real ROI of Content Marketing for Law Firms | law firm content marketing ROI | Long-game attribution, organic compound returns vs. PPC | 🔲 Planned |
