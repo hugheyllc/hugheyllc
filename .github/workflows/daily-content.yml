@@ -1,8 +1,8 @@
 name: Daily Content — Blog + Social
 
+# DISABLED — duplicate of daily-blog.yml. CONTRACT.md sets enabled: false for this job.
 on:
-  schedule:
-    - cron: '0 12 * * *'  # 8:00 AM ET daily
+  workflow_dispatch:  # manual only
   workflow_dispatch:
 
 jobs:
