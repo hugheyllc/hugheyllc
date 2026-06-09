@@ -8,6 +8,7 @@ import https from 'node:https';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
+import { execSync } from 'node:child_process';
 
 // Load .env.local from repo root (VPS cron doesn't inherit shell env)
 const envPath = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../.env.local');
@@ -715,6 +716,18 @@ async function main() {
     console.error(`     linkedin failed: ${e.message}`);
   }
   } // END SOCIAL (closes SOCIAL_POST_MODE=skip check)
+
+  // Commit and push the new post + image to main so Vercel deploys it
+  console.log('[6a/7] Committing and pushing to main');
+  try {
+    const repoRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+    execSync(`git -C "${repoRoot}" add src/content/blog/${slug}.md src/public/images/blog/${slug}.jpg 2>/dev/null || git -C "${repoRoot}" add src/content/blog/${slug}.md`, { stdio: 'pipe' });
+    execSync(`git -C "${repoRoot}" commit -m "feat: blog — ${fm.title}"`, { stdio: 'pipe' });
+    execSync(`git -C "${repoRoot}" push origin main`, { stdio: 'pipe' });
+    console.log('     pushed to main');
+  } catch (e) {
+    console.error(`     git push failed: ${e.message}`);
+  }
 
   console.log('[6/7] Notifying Joe on Telegram');
   try {
