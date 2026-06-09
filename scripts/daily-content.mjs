@@ -417,50 +417,27 @@ function oauth1Header({ method, url, bodyParams = {}, oauth }) {
   return `OAuth ${headerStr}`;
 }
 
-async function refreshTwitterToken() {
-  const clientId = process.env.TWITTER_CLIENT_ID;
-  const clientSecret = process.env.TWITTER_CLIENT_SECRET;
-  const refreshToken = process.env.TWITTER_REFRESH_TOKEN;
-  if (!clientId || !clientSecret || !refreshToken) throw new Error('Twitter OAuth2 credentials missing');
-  const creds = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
-  const body = `grant_type=refresh_token&refresh_token=${encodeURIComponent(refreshToken)}`;
-  const res = await request(
-    {
-      hostname: 'api.twitter.com',
-      path: '/2/oauth2/token',
-      method: 'POST',
-      headers: {
-        Authorization: `Basic ${creds}`,
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Content-Length': Buffer.byteLength(body),
-      },
-    },
-    body,
-  );
-  const json = JSON.parse(res.body.toString('utf8'));
-  if (!json.access_token) throw new Error(`Twitter token refresh failed: ${JSON.stringify(json)}`);
-  // Persist updated refresh token back to .env.local
-  if (json.refresh_token && json.refresh_token !== refreshToken) {
-    const envFile = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../.env.local');
-    const current = fs.readFileSync(envFile, 'utf8');
-    fs.writeFileSync(envFile, current.replace(/^TWITTER_REFRESH_TOKEN=.*/m, `TWITTER_REFRESH_TOKEN=${json.refresh_token}`));
-    process.env.TWITTER_REFRESH_TOKEN = json.refresh_token;
-  }
-  return json.access_token;
-}
-
 async function postTweet(text) {
-  // Use X API v2 with OAuth 2.0 user context (refresh token flow)
-  const accessToken = await refreshTwitterToken();
+  // Use X API v2 with OAuth 1.0a user context
+  const oauth = {
+    consumerKey: process.env.TWITTER_CONSUMER_KEY,
+    consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
+    accessToken: process.env.TWITTER_ACCESS_TOKEN_V1,
+    accessTokenSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
+  };
+  if (!oauth.consumerKey || !oauth.consumerSecret || !oauth.accessToken || !oauth.accessTokenSecret) {
+    throw new Error('Twitter OAuth 1.0a credentials missing');
+  }
   const url = 'https://api.twitter.com/2/tweets';
   const body = JSON.stringify({ text });
+  const auth = oauth1Header({ method: 'POST', url, bodyParams: {}, oauth });
   const res = await request(
     {
       hostname: 'api.twitter.com',
       path: '/2/tweets',
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${accessToken}`,
+        Authorization: auth,
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(body),
       },
