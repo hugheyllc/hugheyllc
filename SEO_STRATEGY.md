@@ -73,7 +73,7 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 7 | FindLaw and Martindale: Are Directory Listings Still Worth It? | FindLaw alternatives law firms | ROI analysis, attribution truth | ✅ Published |
 | 8 | Personal Injury Marketing in Tampa Bay: What Actually Drives Cases | personal injury marketing Tampa Bay | Local PI market, what works vs. hype | ✅ Published |
 | 9 | What Law Firms Get Wrong About Google Ads (And How to Fix It) | law firm Google Ads mistakes | Common waste patterns, bid strategy, intent mismatch | ⛔ Skipped (duplicate content — google-ads-law-firms.md already covers this) |
-| 10 | How to Build a Law Firm Marketing Budget That Ties to Retained Clients | law firm marketing budget | Bottom-up budgeting from cost-per-retained-client target | 🔲 Planned |
+| 10 | How to Build a Law Firm Marketing Budget That Ties to Retained Clients | law firm marketing budget | Bottom-up budgeting from cost-per-retained-client target | ⛔ Skipped (law-firm-marketing-budget.md already exists) |
 | 11 | The Law Firm Intake Audit: A Step-by-Step Guide | law firm intake process audit | Practical audit framework, leak points, conversion fixes | ✅ Published |
 | 12 | Why Your Law Firm's CRM Isn't Working (And What to Do About It) | law firm CRM problems | Integration gaps, pipeline visibility, adoption failures | 🔲 Planned |
 | 13 | Local SEO for Law Firms: What Still Works in 2026 | local SEO law firms 2026 | GBP, citations, review velocity, AI search presence | 🔲 Planned |
