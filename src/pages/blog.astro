@@ -87,7 +87,7 @@ const itemListSchema = {
           {rest.map((post) => (
             <article class="post-card rx card-hover">
               <div class="post-thumb">
-                <img src={`/images/blog/${post.id}.jpg`} alt={post.data.title} loading="lazy" decoding="async" width="680" height="383" />
+                <img src={post.data.image ?? `/images/blog/${post.id}.jpg`} alt={post.data.title} loading="lazy" decoding="async" width="680" height="383" />
               </div>
               <div class="post-meta">
                 <time class="post-date">

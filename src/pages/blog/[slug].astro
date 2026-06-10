@@ -22,15 +22,17 @@ const { Content } = await render(entry);
 const { title, seo_title, seo_description, date, author, excerpt, tags } = entry.data;
 const siteUrl = 'https://hugheyllc.com';
 
-// Read image directly from markdown frontmatter (Astro 6 strips 'image' field via schema)
-let coverImage: string | undefined;
+// Use frontmatter image field, fall back to regex parse if needed
+let coverImage: string | undefined = entry.data.image;
 let raw = '';
-try {
-  const filePath = path.join(process.cwd(), (entry as any).filePath);
-  raw = fs.readFileSync(filePath, 'utf8');
-  const match = raw.match(/^image:\s*"([^"]+)"/m);
-  if (match) coverImage = match[1];
-} catch (e) { /* fallback gracefully */ }
+if (!coverImage) {
+  try {
+    const filePath = path.join(process.cwd(), (entry as any).filePath);
+    raw = fs.readFileSync(filePath, 'utf8');
+    const match = raw.match(/^image:\s*"([^"]+)"/m);
+    if (match) coverImage = match[1];
+  } catch (e) { /* fallback gracefully */ }
+}
 
 // Reading time
 const wordCount = (entry.body || '').split(/\s+/).filter(Boolean).length;
