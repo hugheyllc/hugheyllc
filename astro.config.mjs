@@ -1,4 +1,4 @@
-import { defineConfig, passthroughImageService } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
@@ -29,6 +29,7 @@ export default defineConfig({
     assets: 'assets',
   },
   image: {
-    service: passthroughImageService(),
+    // Sharp-based image optimization (default)
+    // No passthrough — Astro will optimize <Image> components
   },
 });
