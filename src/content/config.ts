@@ -9,6 +9,7 @@ const blog = defineCollection({
     author: z.string().default('Joe Hughey'),
     excerpt: z.string().optional(),
     tags: z.array(z.string()).default([]),
+    keywords: z.array(z.string()).optional(),
     seo_title: z.string().optional(),
     seo_description: z.string().optional(),
     draft: z.boolean().default(false),

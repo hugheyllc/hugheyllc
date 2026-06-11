@@ -283,13 +283,20 @@ Required frontmatter fields:
 - image: "/images/blog/SLUG.jpg" (use the same slug you put above)
 
 Body requirements:
-- First 150-200 words directly answer 1-2 AEO questions in plain declarative sentences
-- Hit target keyword in H1, first paragraph, and 2-3 times in body
-- 2-4 inline internal links to existing posts above, with descriptive anchor text. Use markdown links like [anchor](/blog/slug-here/). Embed them in body sentences, not as a list.
-- 900-1400 words
-- Final paragraph CTA links to /contact/
+- First 150-200 words directly answer 1-2 AEO questions in plain declarative sentences (no preamble — lead with the answer)
+- Hit target keyword in H1, first paragraph, at least one H2, and naturally 3-5 times total in body
+- Use keyword variations and semantically related terms throughout (LSI keywords)
+- H2 subheadings should be specific and descriptive — use question-style H2s where natural ("How do family law firms...", "What should a law firm...")
+- 2-4 inline internal links to existing posts above with descriptive anchor text (e.g. [how to evaluate your law firm marketing agency](/blog/slug/)). Embed in body sentences, not as a list.
+- 1-2 external links to authoritative sources (Google, ABA, state bar, Pew Research, academic/gov sources only — no competitors). Use [anchor text](https://full-url) in body.
+- Include a ## Frequently Asked Questions section near the end with 3-5 Q&A pairs. Each Q should be an H3 (###). Answers 2-4 sentences each. Questions should match what someone would actually type or speak to a search engine about this topic.
+- 1100-1500 words total
+- Final paragraph before FAQ: CTA linking to /contact/
 - End with a "### Related Reading" section containing exactly 2 markdown links to existing posts (full URLs https://hugheyllc.com/blog/slug/)
-- No fabricated names, firms, case studies, or specific numeric statistics`;
+- No fabricated names, firms, case studies, or specific numeric statistics
+
+Frontmatter also requires:
+- keywords: a YAML array of 5-8 keyword strings (primary keyword first, then long-tail variations)`;
 
   const text = await callAnthropic({ system, user, maxTokens: 8192 });
   // Strip leading fences if model wrapped in ```markdown

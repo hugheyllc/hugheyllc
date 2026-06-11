@@ -41,12 +41,12 @@ const readingTime = Math.max(1, Math.round(wordCount / 200));
 // Parse FAQ pairs from markdown body
 const faqPairs: {q: string, a: string}[] = [];
 try {
-  const faqSection = raw.split(/^## FAQs?\s*$/m)[1];
+  const faqSection = raw.split(/^##\s+(FAQs?|Frequently Asked Questions)\s*$/im)[1];
   if (faqSection) {
     const lines = faqSection.split('\n');
     let currentQ = '';
     for (const line of lines) {
-      const qMatch = line.match(/^\*\*(.+?)\*\*$/);
+      const qMatch = line.match(/^\*\*(.+?)\*\*$/) || line.match(/^###\s+(.+)$/) || line.match(/^\*\*(.+?)\*\*/);
       if (qMatch) { currentQ = qMatch[1]; }
       else if (currentQ && line.trim() && !line.startsWith('#')) {
         faqPairs.push({ q: currentQ, a: line.trim() });
@@ -90,7 +90,7 @@ const articleSchema = {
     "logo": { "@type": "ImageObject", "url": "https://hugheyllc.com/images/logo-icon.png" }
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": `https://hugheyllc.com/blog/${entry.id}/` },
-  ...(tags && tags.length > 0 ? { "keywords": tags.join(", ") } : {}),
+  ...((entry.data.keywords?.length ?? tags?.length ?? 0) > 0 ? { "keywords": (entry.data.keywords ?? tags).join(", ") } : {}),
   ...(coverImage ? { "image": { "@type": "ImageObject", "url": `${siteUrl}${coverImage}`, "width": 1536, "height": 1024 } } : {})
 };
 
@@ -171,22 +171,34 @@ const breadcrumbSchema = {
         const prose = document.querySelector('.prose');
         if (!prose) return;
         // Find the ## FAQs heading
-        const headings = prose.querySelectorAll('h2');
+        // Find FAQ heading (h2 or h2 with 'faq'/'frequently asked')
+        const allHeadings = prose.querySelectorAll('h2, h3');
         let faqHeading = null;
-        headings.forEach(h => { if (h.textContent.trim().toLowerCase().startsWith('faq')) faqHeading = h; });
+        allHeadings.forEach(h => {
+          const t = h.textContent.trim().toLowerCase();
+          if ((h.tagName === 'H2') && (t.startsWith('faq') || t.includes('frequently asked'))) faqHeading = h;
+        });
         if (!faqHeading) return;
 
-        // Collect all sibling p elements after the FAQ heading
+        // Collect Q&A pairs — supports both **bold** paragraphs and H3 headings
         const pairs = [];
         let el = faqHeading.nextElementSibling;
-        while (el && el.tagName === 'P') {
-          const strong = el.querySelector('strong');
-          // A question paragraph has only a <strong> (the bold question)
-          if (strong && el.textContent.trim() === strong.textContent.trim()) {
+        while (el && el.tagName !== 'H2') {
+          if (el.tagName === 'H3') {
+            const q = el.textContent.trim();
             const answerEl = el.nextElementSibling;
             if (answerEl && answerEl.tagName === 'P') {
-              pairs.push({ q: strong.textContent.trim(), a: answerEl.textContent.trim() });
+              pairs.push({ q, a: answerEl.innerHTML.trim() });
               el = answerEl.nextElementSibling;
+            } else { el = el.nextElementSibling; }
+          } else if (el.tagName === 'P') {
+            const strong = el.querySelector('strong');
+            if (strong && el.textContent.trim() === strong.textContent.trim()) {
+              const answerEl = el.nextElementSibling;
+              if (answerEl && answerEl.tagName === 'P') {
+                pairs.push({ q: strong.textContent.trim(), a: answerEl.innerHTML.trim() });
+                el = answerEl.nextElementSibling;
+              } else { el = el.nextElementSibling; }
             } else { el = el.nextElementSibling; }
           } else { el = el.nextElementSibling; }
         }
