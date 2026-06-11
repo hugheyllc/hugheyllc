@@ -128,3 +128,20 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
 - [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
 - [The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025](https://hugheyllc.com/blog/small-firm-aeo-playbook/)
+
+## Frequently Asked Questions
+
+### How does video content improve SEO for law firms?
+Video content increases user engagement metrics like time on page and reduces bounce rates, which are key ranking factors for search engines. Videos also create opportunities for rich snippets and featured content in search results, improving visibility for legal services.
+
+### What types of visual content work best for law firm websites?
+Infographics explaining legal processes, client testimonial videos, and interactive tools like legal calculators or case evaluators perform exceptionally well. These formats help potential clients understand complex legal concepts while keeping them engaged on your site longer.
+
+### Should law firms invest in interactive content for SEO?
+Yes, interactive content like legal assessment quizzes, document checklists, and case timeline tools significantly boost user engagement and generate valuable lead information. Search engines reward these engagement signals with higher rankings, making interactive content a smart SEO investment.
+
+### How do I measure the SEO impact of visual and video content?
+Track metrics like average session duration, pages per session, bounce rate, and click-through rates from search results. Use tools like Google Analytics and Search Console to monitor how visual content affects your organic traffic and keyword rankings.
+
+### What's the biggest mistake law firms make with visual content SEO?
+Failing to optimize video titles, descriptions, and alt text for images is the most common error. Many firms create great visual content but miss basic SEO fundamentals like keyword optimization and proper schema markup for videos.

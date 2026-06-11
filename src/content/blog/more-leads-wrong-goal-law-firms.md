@@ -9,6 +9,7 @@ seo_title: "Why “More Leads” Is the Wrong Goal for Law Firms"
 seo_description: "“More leads” is a seductive goal, but it often leads firms to burn cash on unqualified traffic and unsustainable cases. This blog explains why focusing on lead "
 draft: false
 image: "/images/blog/more-leads-wrong-goal-law-firms.webp"
+keywords: ["law firm marketing ROI", "legal lead conversion", "law firm intake optimization", "attorney marketing metrics", "legal marketing strategy", "law firm profitability", "quality leads for lawyers", "legal client acquisition"]
 ---
 
 I work with law firms that are drowning in leads. They're spending $40,000 a month on Google Ads, their phones ring constantly, and their intake coordinator is burned out. They think the problem is they need a bigger team. The real problem is they're chasing the wrong metric.
@@ -115,3 +116,20 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
 - [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
 - [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+
+## Frequently Asked Questions
+
+### What's more important than lead quantity for law firms?
+Lead quality and conversion rates are far more important than raw lead volume. A firm that converts 20% of 50 high-quality leads will be more profitable than one that converts 5% of 200 poor-quality leads.
+
+### How can law firms improve their marketing ROI?
+Focus on optimizing your intake process, tracking conversion rates from lead to client, and measuring revenue per lead rather than just lead volume. Quality intake coordination and follow-up systems typically yield better ROI than increasing ad spend.
+
+### What metrics should law firms track instead of lead count?
+Track cost per client acquired, lifetime client value, conversion rate from lead to consultation, and consultation to retainer ratios. These revenue-focused metrics provide a clearer picture of marketing effectiveness than lead volume alone.
+
+### Why do some law firms with fewer leads make more money?
+Firms with fewer but higher-quality leads typically have better targeting, more effective intake processes, and focus on cases that align with their expertise. This results in higher conversion rates and more profitable client relationships.
+
+### How can law firms optimize their intake process?
+Implement structured intake protocols, train staff on lead qualification, respond to inquiries quickly, and track where leads drop off in your process. Many firms lose potential clients due to poor follow-up rather than lack of leads.

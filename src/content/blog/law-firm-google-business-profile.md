@@ -9,9 +9,12 @@ seo_title: "Why Law Firms Fire Their Marketing Agency (And What to Do Instead)"
 seo_description: "Law firms fire marketing agencies when they can't tie spend to retained clients. Here's the pattern, the red flags, and what you should do before and after the switch."
 draft: false
 image: "/images/blog/law-firm-google-business-profile.webp"
+keywords: ["law firm marketing agency", "legal marketing consultant", "law firm marketing problems", "marketing agency for lawyers", "legal marketing ROI", "attorney marketing services", "law firm marketing strategy", "legal marketing metrics"]
 ---
 
 Law firms don't fire marketing agencies because the agency did bad work. They fire them because nobody could prove the work was producing [retained clients](/blog/cost-per-retained-client-law-firm/) — and the firm ran out of patience waiting for proof that never came.
+
+According to the American Bar Association's Model Rules of Professional Conduct, lawyers must ensure all marketing and advertising materials comply with [Rule 7.3 regarding solicitation](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_3_solicitation_of_clients/) and related ethical guidelines. Many marketing agencies lack the specialized knowledge required to navigate these complex legal advertising regulations across different jurisdictions.
 
 The pattern is predictable. The exit is usually expensive. And the next agency engagement often repeats the same cycle unless something changes between contracts.
 
@@ -86,3 +89,25 @@ The firms that break the cycle are the ones that build this measurement infrastr
 *If you're evaluating a marketing agency transition or trying to figure out whether your current spend is producing retained clients, [that's exactly what I do](/contact/). The first conversation is free.*
 
 *Related: [10 Questions to Ask Before Hiring a Law Firm Marketing Agency](/blog/what-to-ask-law-firm-marketing-company/) · [Agency vs. Consultant: What Every Firm Principal Should Know](/blog/agency-vs-consultant-law-firm-marketing/)*
+
+## Frequently Asked Questions
+
+### Why do law firms typically fire their marketing agencies?
+
+Law firms usually fire marketing agencies not because of poor work quality, but because they can't demonstrate that the marketing efforts are generating retained clients. The lack of measurable ROI and clear attribution between marketing spend and client acquisition leads to frustration and contract termination.
+
+### How can law firms avoid repeating failed agency relationships?
+
+Law firms should establish clear performance metrics focused on retained clients rather than just leads or traffic before signing with any agency. They should also ensure the agency has experience with legal marketing compliance and understands the longer sales cycles typical in legal services.
+
+### What metrics should law firms track when working with marketing agencies?
+
+The most important metric is cost per retained client, not just cost per lead or website traffic. Law firms should also track client lifetime value, case conversion rates, and attribution from marketing channels to actual signed retainers.
+
+### How long should law firms wait to see results from marketing agencies?
+
+Legal marketing typically requires 6-12 months to show meaningful results due to longer decision-making cycles in legal services. However, agencies should provide monthly reporting on leading indicators like qualified consultations and pipeline development.
+
+### What questions should law firms ask potential marketing agencies?
+
+Law firms should ask about the agency's experience with legal marketing compliance, their approach to measuring retained clients versus leads, case studies from similar practice areas, and their understanding of legal advertising rules in your jurisdiction.

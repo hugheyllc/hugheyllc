@@ -143,3 +143,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
 - [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
 - [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](https://hugheyllc.com/blog/family-law-firm-marketing/)
+
+## Frequently Asked Questions
+
+### How much should a personal injury law firm spend on marketing in Florida?
+
+Most successful PI firms in Florida allocate 15-25% of their gross revenue to marketing, with digital marketing comprising 60-70% of that budget. The high case values in personal injury justify this significant investment, as acquiring one major case can generate $100,000+ in fees.
+
+### What digital marketing strategies work best for personal injury attorneys in Tampa?
+
+The most effective strategies include Google Ads for high-intent keywords, local SEO optimization for "near me" searches, and content marketing that addresses common injury questions. Social media advertising and retargeting campaigns also help maintain visibility throughout the longer PI client decision process.
+
+### How competitive is personal injury marketing in Florida?
+
+Florida's PI market is extremely competitive, with cost-per-click rates often exceeding $200-300 for premium keywords like "car accident lawyer Tampa." Large firms dominate the top advertising positions, making it essential for smaller firms to focus on niche specializations and local SEO strategies.
+
+### How long does it take to see results from PI law firm marketing?
+
+SEO and content marketing typically show meaningful results in 6-12 months, while Google Ads can generate leads immediately but require ongoing optimization. Building a sustainable lead generation system that reduces dependence on paid advertising usually takes 12-18 months of consistent effort.
+
+### What makes personal injury marketing different from other legal practice areas?
+
+PI marketing operates on higher budgets due to contingency fee structures and case values, faces more aggressive competition, and targets clients in crisis situations who need immediate help. The marketing must balance urgency with trust-building, as clients are often dealing with traumatic experiences.

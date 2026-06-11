@@ -9,6 +9,7 @@ seo_title: "Keyword Research for Law Firms: How to Find the Queries That Actuall
 seo_description: "Most law firm keyword research starts with search volume and ends there. The queries that sign cases aren't always the most searched — they're the most intentio"
 draft: false
 image: "/images/blog/law-firm-keyword-research.webp"
+keywords: ["keyword research for law firms", "legal SEO keywords", "law firm keyword strategy", "attorney keyword research", "legal search terms", "law firm SEO"]
 ---
 
 Search volume is a seductive metric. A keyword with 10,000 monthly searches looks like an enormous opportunity — and law firm SEO campaigns built around high-volume keywords can generate impressive traffic numbers that feel like progress.
@@ -98,3 +99,20 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [How Law Firms Build Backlinks Without Paying for Them](https://hugheyllc.com/blog/law-firm-link-building/)
 - [AI Search and Law Firms: How to Stay Visible as Google, ChatGPT, and Perplexity Change How Clients Find Attorneys](https://hugheyllc.com/blog/ai-search-law-firms/)
 - [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
+
+## Frequently Asked Questions
+
+### How do I find the right keywords for my law firm's website?
+Focus on keywords that combine your practice area with location and intent-driven terms like "attorney," "lawyer," or "law firm." Use tools like Google Keyword Planner and analyze what potential clients actually search for when they need legal help, not just high-volume informational terms.
+
+### What's the difference between high-volume and high-converting legal keywords?
+High-volume keywords like "personal injury law" attract general information seekers, while high-converting keywords like "car accident lawyer near me" target people actively seeking legal representation. The latter typically have lower search volume but much higher potential to generate actual clients.
+
+### Should law firms target broad or specific keywords?
+Law firms should prioritize specific, long-tail keywords that include location and practice area details. Terms like "divorce attorney in [city]" or "[practice area] lawyer near me" convert better than broad terms like "lawyer" or "attorney."
+
+### How do I know if a keyword will actually bring in clients?
+Look for keywords with commercial intent that include action words like "hire," "find," "best," or "near me." Also analyze the search results to see if they're dominated by actual law firm websites rather than informational content or legal directories.
+
+### What keyword research tools work best for law firms?
+Google Keyword Planner, SEMrush, and Ahrefs are excellent starting points. Additionally, analyze your Google My Business insights and existing website analytics to see what terms already bring you qualified traffic and potential clients.

@@ -114,3 +114,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](https://hugheyllc.com/blog/law-firm-google-business-profile/)
 - [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
 - [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
+
+## Frequently Asked Questions
+
+### What is a good Google Ads Quality Score for law firms?
+
+A Quality Score of 7-10 is considered excellent for law firms, while 4-6 is average, and anything below 4 indicates serious issues that need immediate attention. Law firms with Quality Scores above 7 typically pay significantly less per click and achieve better ad positions than their competitors.
+
+### How does Quality Score affect my law firm's advertising costs?
+
+Quality Score directly impacts your cost-per-click (CPC) and ad position in Google Ads auctions. Law firms with higher Quality Scores can pay 50% less for the same ad position compared to competitors with lower scores, making your advertising budget more efficient and profitable.
+
+### How long does it take to improve Google Ads Quality Score for a law firm?
+
+Quality Score improvements typically become visible within 2-4 weeks of implementing changes to your keywords, ad copy, and landing pages. However, significant improvements for law firms often require 1-3 months of consistent optimization and testing to achieve substantial results.
+
+### What are the main factors that hurt Quality Score for law firm ads?
+
+The most common issues include irrelevant keywords, generic ad copy that doesn't match search intent, slow-loading landing pages, and poor mobile optimization. Law firms also struggle with overly broad keyword targeting and landing pages that don't specifically address the legal services mentioned in their ads.
+
+### Can I check my law firm's Quality Score in Google Ads?
+
+Yes, you can view Quality Score by adding it as a column in your Google Ads keywords tab. Google provides both current Quality Score and historical data, along with component ratings for expected click-through rate, ad relevance, and landing page experience.

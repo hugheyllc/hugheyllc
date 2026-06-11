@@ -77,3 +77,20 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](https://hugheyllc.com/blog/what-to-ask-law-firm-marketing-company/)
 - [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
 - [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
+
+## Frequently Asked Questions
+
+### How do I create content that generates leads for my law firm?
+Focus on creating content that addresses specific client problems and pain points rather than just general legal information. Your content should guide readers toward taking action, such as scheduling a consultation or downloading a resource that captures their contact information.
+
+### What types of content work best for law firm marketing?
+Case studies, client success stories, and problem-solving guides tend to perform well because they demonstrate your expertise while showing potential clients how you've helped others in similar situations. Educational content that answers common client questions can also drive qualified traffic.
+
+### How often should my law firm publish new content?
+Consistency matters more than frequency. Most successful law firms publish 1-2 high-quality blog posts per week, but it's better to publish one excellent post monthly than four mediocre posts weekly. Focus on creating valuable content that serves your ideal clients.
+
+### How do I measure if my law firm's content marketing is working?
+Track conversion metrics like consultation requests, phone calls, and form submissions rather than just traffic numbers. Monitor which content pieces generate the most qualified leads and double down on those topics and formats.
+
+### Should my law firm focus on SEO or social media for content marketing?
+SEO should typically be your primary focus since people actively search for legal help when they need it. Social media can supplement your strategy, but search-optimized content on your website is more likely to capture clients at the right moment in their decision-making process.

@@ -9,6 +9,7 @@ seo_title: "The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Cos
 seo_description: "Legal directories influence far more clients than traditional analytics can measure. This guide explains why last-touch reporting fails and how to uncover the t"
 draft: false
 image: "/images/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients.webp"
+keywords: ["legal directory ROI", "law firm marketing analytics", "legal marketing attribution", "lawyer directory marketing", "law firm client acquisition", "legal SEO directories", "marketing ROI measurement"]
 ---
 
 *Legal directories influence far more clients than traditional analytics can measure. This guide explains why last-touch reporting fails and how to uncover the true ROI of legal directories in an AI-driven world.*
@@ -186,3 +187,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
 - [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
 - [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+
+## Frequently Asked Questions
+
+### How do you measure ROI from legal directories?
+
+Legal directory ROI requires multi-touch attribution tracking rather than last-click analytics. You need to track how directories influence the customer journey through brand searches, referral validation, and AI-powered research before clients make contact.
+
+### Why don't Google Analytics show legal directory conversions?
+
+Google Analytics uses last-touch attribution, which only credits the final touchpoint before conversion. Legal directories often influence clients early in their research process, making their impact invisible in standard reporting even though they drive significant business.
+
+### Which legal directories provide the best ROI for law firms?
+
+The best ROI varies by practice area and location, but directories like Martindale-Hubbell, Avvo, and FindLaw typically perform well because they influence AI summaries and client validation processes. Local bar directories and niche practice-specific directories often provide strong returns for targeted practices.
+
+### How long does it take to see ROI from legal directory investments?
+
+Most law firms see initial directory benefits within 3-6 months as listings get indexed and start influencing search results. Full ROI typically materializes over 6-12 months as the directories build authority and begin influencing the broader client acquisition funnel.
+
+### Do legal directories still matter with AI search tools?
+
+Legal directories are actually more important with AI search tools because AI systems pull information from authoritative legal sources to generate responses. A strong directory presence helps ensure AI tools present accurate, favorable information about your firm to potential clients.

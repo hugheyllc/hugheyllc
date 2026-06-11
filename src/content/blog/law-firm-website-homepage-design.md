@@ -80,3 +80,20 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
 - [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
 - [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)
+
+## Frequently Asked Questions
+
+### What are the most important elements for a law firm homepage?
+The most critical elements include a clear value proposition above the fold, prominent contact information, and a straightforward explanation of your services. Your homepage should immediately answer whether you can solve the visitor's legal problem and provide clear next steps.
+
+### How can law firms improve their website conversion rates?
+Focus on user experience over aesthetics by placing essential information above the fold, using clear calls-to-action, and ensuring your messaging addresses specific legal problems. Make it easy for potential clients to contact you with multiple contact options prominently displayed.
+
+### What should be included above the fold on a law firm website?
+Above the fold should contain your firm's main value proposition, practice areas, contact information, and a clear call-to-action. This is the only section you're guaranteed visitors will see, so it must immediately communicate your ability to help with their legal needs.
+
+### How often should law firms update their website homepage?
+Law firm homepages should be reviewed and updated at least annually to ensure messaging remains current and conversion-focused. Regular updates help maintain search rankings and ensure your homepage continues to effectively convert visitors into clients.
+
+### What mistakes do law firms make on their homepages?
+The biggest mistake is prioritizing appearance over functionality, creating homepages that look impressive but fail to clearly communicate how the firm can help. Many firms also bury important contact information and don't provide clear next steps for potential clients.

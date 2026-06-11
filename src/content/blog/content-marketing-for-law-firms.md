@@ -114,3 +114,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
 - [The Law Firm Content Marketing Strategy That Generates Cases, Not Just Traffic](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
 - [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
+
+## Frequently Asked Questions
+
+### How often should law firms publish content to attract clients?
+
+Most successful law firms publish 2-4 high-quality pieces per month rather than daily low-value posts. Consistency matters more than frequency, and each piece should address real client concerns rather than just targeting search volume.
+
+### What types of content work best for law firm client acquisition?
+
+Case studies, detailed guides addressing common legal questions, and content that explains complex legal processes in plain language perform best. The key is creating content that helps potential clients understand their situation and next steps.
+
+### How long does it take for law firm content marketing to generate leads?
+
+Quality content marketing typically takes 3-6 months to show meaningful results in search rankings and lead generation. However, well-crafted content addressing urgent legal needs can attract clients immediately through social sharing and referrals.
+
+### Should law firms write their own content or hire professionals?
+
+While attorneys understand the legal expertise, professional content creators who specialize in legal marketing often produce better results. They understand both SEO requirements and how to communicate legal concepts to non-lawyers effectively.
+
+### How do you measure the success of law firm content marketing?
+
+Track qualified leads generated, consultation requests, phone calls, and client retention rates rather than just website traffic or search rankings. The goal is attracting clients who are the right fit for your practice.

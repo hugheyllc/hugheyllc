@@ -76,3 +76,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
 - [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)
 - [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
+
+## Frequently Asked Questions
+
+### Why is my law firm website not generating leads?
+
+Most law firm websites focus on appearance rather than conversion optimization. Common issues include slow loading speeds, poor mobile experience, unclear calls-to-action, and lack of trust signals that potential clients need to feel confident contacting your firm.
+
+### How fast should my law firm website load?
+
+Your law firm website should load in under 3 seconds, especially on mobile devices. Studies show that 53% of mobile users abandon sites that take longer than 3 seconds to load, which means you're losing potential clients before they even see your content.
+
+### What makes a law firm website convert visitors into clients?
+
+High-converting law firm websites have fast loading speeds, mobile-optimized design, clear contact information, prominent phone numbers, client testimonials, and compelling calls-to-action. The key is making it as easy as possible for stressed potential clients to contact you immediately.
+
+### Should my law firm website prioritize design or functionality?
+
+While professional design matters for credibility, functionality and user experience are more important for conversion. A beautiful website that loads slowly or is difficult to navigate will lose more clients than a simpler site that makes contacting your firm effortless.
+
+### How can I tell if my law firm website is losing potential clients?
+
+Check your website analytics for high bounce rates, low time on page, and poor mobile performance metrics. If you're getting website traffic but few phone calls or contact form submissions, your site likely has conversion issues that need addressing.

@@ -9,9 +9,12 @@ seo_title: "How to Get More Google Reviews for Your Law Firm (Without Violating 
 seo_description: "Your law firm is probably leaving reviews on the table. Not because you don't deserve them, but because you've built no system to ask for them—and you're t"
 draft: false
 image: "/images/blog/law-firm-review-strategy.jpg"
+keywords: ["law firm Google reviews", "lawyer ethics rules reviews", "legal marketing review strategy", "attorney reputation management", "how to get client reviews", "law firm review system", "lawyer review compliance", "legal ethics online reviews"]
 ---
 
 ## How to Get More Google Reviews for Your Law Firm (Without Violating Ethics Rules)
+
+The American Bar Association's Model Rules of Professional Conduct specifically address lawyer advertising and solicitation standards that apply to review requests. According to the [ABA's guidance on legal marketing](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/), any review solicitation must avoid creating unjustified expectations about results and cannot involve prohibited compensation arrangements.
 
 Your law firm is probably leaving reviews on the table. Not because you don't deserve them, but because you've built no system to ask for them—and you're terrified of crossing an ethics line.
 
@@ -88,3 +91,20 @@ Pick your best 10 clients from the past month who ended their matters on good te
 By month's end, you'll have real data on your specific market and client base. You'll also have 2–4 new reviews (probably more). Do that every month, and you've solved the review drought.
 
 Your competitors aren't doing this because it feels like sales work. It is. And law firms aren't great at sales. But the firms that are—the ones consistently winning new clients and seeing higher close rates on initial consultations—they've built this into their operations. They don't ask why reviews matter. They ask how many they're getting.
+
+## Frequently Asked Questions
+
+### Can lawyers ask clients for Google reviews without violating ethics rules?
+Yes, lawyers can ethically request reviews from clients as long as they don't offer compensation, incentives, or discounts in exchange. The key is making genuine requests after successfully completing client matters.
+
+### What's the biggest mistake law firms make when trying to get more reviews?
+The biggest mistake is offering something of value in exchange for reviews, which violates both legal ethics rules and Google's policies. Many firms also fail to systematically ask satisfied clients, missing numerous review opportunities.
+
+### How soon after a case should I ask a client for a review?
+Wait until after the matter is completely resolved and the client has expressed satisfaction with the outcome. Typically, this means waiting 1-2 weeks after case closure to ensure the client has had time to process the results.
+
+### What should I say when asking a client for a Google review?
+Keep it simple and genuine: explain that reviews help other potential clients find your firm and ask if they'd be willing to share their experience. Never script specific language or ask them to mention particular aspects of your service.
+
+### Are there any types of law practice areas that shouldn't ask for reviews?
+Highly sensitive practice areas like criminal defense, family law, or personal injury may require extra discretion due to client confidentiality concerns. However, satisfied clients in these areas can still ethically leave reviews if they choose to do so.

@@ -9,6 +9,7 @@ seo_title: "How to Set a Law Firm Marketing Budget That Makes Sense"
 seo_description: "Most law firms set their marketing budget by either copying what they spent last year or picking a percentage of revenue they heard from a consultant. Both"
 draft: false
 image: "/images/blog/law-firm-marketing-budget.webp"
+keywords: ["law firm marketing budget", "legal marketing budget", "attorney marketing spend", "law firm marketing ROI", "legal practice marketing costs", "marketing budget for lawyers", "law firm advertising budget"]
 ---
 
 ## How to Set a Law Firm Marketing Budget That Makes Sense
@@ -109,3 +110,25 @@ Your law firm's marketing budget isn't a line item. It's an investment you can m
 If you can't answer "What's our cost per acquisition?" you don't have a budget yet. You have an expense.
 
 If you'd like a second set of eyes on your numbers, the [marketing audit checklist](/resources/marketing-audit-checklist/) is a good place to start — or [get in touch](/contact/) and we'll walk through it together.
+
+## Frequently Asked Questions
+
+### What percentage of revenue should law firms spend on marketing?
+
+Most successful law firms allocate between 2-10% of gross revenue to marketing, with newer firms often investing closer to 10-15% to establish market presence. However, the percentage should be based on your growth goals and client acquisition costs rather than arbitrary industry benchmarks.
+
+### How do you calculate ROI for law firm marketing?
+
+Calculate marketing ROI by dividing the net revenue generated from marketing efforts by the total marketing spend, then multiply by 100. For example, if you spend $10,000 on marketing and generate $50,000 in new client revenue, your ROI is 400%.
+
+### What should be included in a law firm marketing budget?
+
+A comprehensive legal marketing budget should include website maintenance, SEO, content creation, paid advertising, networking events, professional photography, marketing tools and software, and staff time allocated to marketing activities. Don't forget to factor in both direct costs and opportunity costs.
+
+### How often should law firms review their marketing budget?
+
+Law firms should review their marketing budget quarterly to assess performance and make adjustments, with a comprehensive annual review for strategic planning. Monthly monitoring of key metrics helps identify trends and optimization opportunities early.
+
+### What's the biggest mistake law firms make with marketing budgets?
+
+The biggest mistake is setting budgets based on what competitors spend or arbitrary percentages rather than tracking actual client acquisition costs and lifetime value. Many firms also fail to properly track and measure results, making it impossible to optimize their marketing investments.

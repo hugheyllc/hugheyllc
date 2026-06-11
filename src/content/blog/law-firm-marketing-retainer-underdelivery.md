@@ -68,3 +68,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](https://hugheyllc.com/blog/law-firm-marketing-attribution-guide-cfos/)
 - [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](https://hugheyllc.com/blog/what-to-ask-law-firm-marketing-company/)
 - [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+
+## Frequently Asked Questions
+
+### What is a law firm marketing retainer?
+
+A law firm marketing retainer is a monthly fee arrangement where law firms pay marketing agencies or consultants for ongoing services like SEO, content creation, and campaign management. This model promises consistent marketing efforts in exchange for predictable monthly payments.
+
+### Why do law firm marketing retainers often fail to deliver results?
+
+Many retainers underdeliver because they lack clear performance metrics, accountability measures, and strategic focus. Agencies often provide busy work rather than results-driven activities, making it difficult for firms to see tangible ROI from their marketing investment.
+
+### How can law firms measure marketing ROI effectively?
+
+Law firms should track specific metrics like qualified leads generated, conversion rates, case values attributed to marketing efforts, and cost per acquisition. Regular reporting should connect marketing activities directly to business outcomes rather than just vanity metrics like website traffic.
+
+### What should law firms look for in a marketing agency?
+
+Look for agencies that offer transparent reporting, clear performance guarantees, and proven track records with similar-sized law firms. The best partners focus on measurable business outcomes and provide regular strategic consultations rather than just task execution.
+
+### What are alternatives to traditional marketing retainers?
+
+Consider performance-based pricing models, project-based engagements, or hybrid approaches that combine base fees with performance bonuses. Some firms also benefit from marketing consulting that helps build internal capabilities rather than outsourcing everything.

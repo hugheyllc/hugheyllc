@@ -125,3 +125,25 @@ If you'd like a second opinion from an [law firm marketing consultant](https://h
 - [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
 - [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
 - [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
+
+## Frequently Asked Questions
+
+### What's the main difference between a law firm marketing agency and an independent consultant?
+
+The key difference lies in their incentive structures. Marketing agencies typically profit when your firm spends more on marketing campaigns and services, while independent consultants are generally paid for results and strategic guidance. This fundamental difference affects how they approach your marketing strategy and budget allocation.
+
+### How do I determine if my law firm needs an agency or a consultant?
+
+Consider your firm's size, internal marketing capabilities, and specific needs. If you lack internal marketing staff and need full-service execution, an agency might be appropriate. If you have some marketing capabilities but need strategic guidance and accountability, an independent consultant often provides better value and alignment with your goals.
+
+### What questions should I ask before hiring a law firm marketing consultant or agency?
+
+Ask about their fee structure, how they measure success, what specific results they've achieved for similar firms, and how they handle accountability. Request case studies, references from current clients, and clarification on whether they profit from your ad spend or media purchases.
+
+### How can I ensure accountability from my law firm's marketing partner?
+
+Establish clear KPIs and reporting schedules upfront, require regular performance reviews, and choose partners whose compensation aligns with your results rather than your spending. Independent consultants typically offer more direct accountability since their reputation depends on your success rather than your budget size.
+
+### What ROI should I expect from law firm marketing investments?
+
+ROI varies significantly based on practice area, market, and strategy, but most firms should expect to see measurable results within 3-6 months. Focus on metrics like qualified lead generation, client acquisition cost, and lifetime client value rather than vanity metrics like website traffic or social media followers.

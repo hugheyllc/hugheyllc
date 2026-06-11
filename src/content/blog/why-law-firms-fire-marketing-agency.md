@@ -9,9 +9,12 @@ seo_title: "Why Law Firms Fire Their Marketing Agency (And What to Do Instead)"
 seo_description: "Discover why law firms switch marketing agencies and how to fix accountability, ROI tracking, and reporting before ending a relationship."
 draft: false
 image: "/images/blog/why-law-firms-fire-marketing-agency.webp"
+keywords: ["law firm marketing agency", "fire marketing agency", "legal marketing problems", "marketing agency accountability", "law firm marketing ROI", "switching marketing agencies", "legal marketing consultant", "marketing agency performance"]
 ---
 
 ## Why Law Firms Fire Their Marketing Agency—The Real Reasons
+
+According to the [American Bar Association's guidelines on lawyer advertising](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_3_solicitation_of_clients/), legal marketing must comply with strict ethical requirements that many general marketing agencies fail to understand, making specialized legal marketing expertise essential for law firms.
 
 Law firms switch marketing agencies when expectations don't match execution, results become invisible, or communication breaks down. The decision to fire a marketing agency rarely happens overnight; it's usually the result of months of misalignment between what was promised and what's being delivered. The most common triggers are unclear attribution of results, inability to explain what the agency is actually doing each month, and a lack of accountability when performance doesn't move the needle.
 
@@ -107,3 +110,17 @@ If you've been thinking about making a change or want to audit your current agen
 
 - https://hugheyllc.com/blog/agency-vs-consultant-law-firm-marketing/
 - https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/
+
+## Frequently Asked Questions
+
+### How do I know when it's time to fire my law firm's marketing agency?
+Key warning signs include lack of transparent reporting, inability to explain their monthly activities, declining or stagnant results over 6+ months, and poor communication. If your agency can't clearly attribute leads or cases to their efforts, it's time to reassess the relationship.
+
+### What should I expect from a good legal marketing agency?
+A quality legal marketing agency should provide detailed monthly reports showing specific metrics, regular communication about strategy and results, and clear attribution of leads to marketing efforts. They should also understand legal industry compliance requirements and demonstrate measurable ROI within a reasonable timeframe.
+
+### How long should I give a new marketing agency to show results?
+Most legal marketing strategies require 3-6 months to show meaningful results, depending on practice area and market competition. However, you should see preliminary data and clear reporting within the first 30-60 days, even if leads haven't fully materialized yet.
+
+### What questions should I ask before hiring a legal marketing agency?
+Ask about their reporting methods, how they track ROI, their experience with your practice area, compliance knowledge, and communication frequency. Request case studies from similar law firms and clarify what specific services are included in your monthly retainer.

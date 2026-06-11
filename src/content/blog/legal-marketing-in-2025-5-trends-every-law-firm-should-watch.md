@@ -87,3 +87,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
 - [What Law Firms Should Know Before Signing With Scorpion (An Independent Perspective)](https://hugheyllc.com/blog/scorpion-legal-marketing-review/)
 - [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
+
+## Frequently Asked Questions
+
+### What are the biggest legal marketing trends for 2025?
+
+The top trends include AI-powered client intake and lead qualification, hyper-local SEO optimization, short-form video content, marketing automation, and personalized client experiences. These trends focus on precision targeting and automation rather than broad-reach marketing approaches.
+
+### How can AI improve law firm client intake processes?
+
+AI can automatically qualify leads, schedule consultations, and provide instant responses to potential clients 24/7. This technology helps law firms capture more qualified leads while reducing the time attorneys spend on initial client screening.
+
+### Why is local SEO important for law firms in 2025?
+
+Local SEO is crucial because most legal services are location-specific, and potential clients typically search for lawyers "near me." Strong local SEO helps law firms appear in Google's local pack and attract clients in their geographic service area.
+
+### Should law firms invest in short-form video content?
+
+Yes, short-form video content on platforms like TikTok, Instagram Reels, and YouTube Shorts can help law firms reach younger demographics and explain complex legal concepts in digestible formats. This content builds trust and showcases attorney expertise.
+
+### How much should a law firm budget for digital marketing in 2025?
+
+Most successful law firms allocate 7-12% of their gross revenue to marketing, with 60-80% of that budget dedicated to digital channels. The exact amount depends on practice area, competition level, and growth goals.

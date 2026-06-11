@@ -9,6 +9,7 @@ seo_title: "The Negative Keyword List Every Law Firm Google Ads Account Needs"
 seo_description: "Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Here's how to build a negative keyword list that actually cuts waste."
 draft: false
 image: "/images/blog/law-firm-negative-keywords.webp"
+keywords: ["negative keywords for law firms", "law firm google ads", "legal ppc negative keywords", "law firm advertising optimization", "google ads for lawyers", "legal marketing ppc", "attorney google ads strategy", "law firm ad spend optimization"]
 ---
 
 ## The Negative Keyword List Every Law Firm Google Ads Account Needs
@@ -109,3 +110,20 @@ The accounts that perform best have 200–400+ negative keywords built up over 1
 The math is simple: if you cut 20% of spend going to searches that never convert, and reinvest that budget into searches that do, your cost per retained client drops without increasing total spend. That's the outcome a well-maintained negative keyword list delivers.
 
 For more on what separates winning law firm Google Ads campaigns from money pits, see [Google Ads for Law Firms: Why Most Campaigns Fail](/blog/google-ads-law-firms/). If you want help auditing the wasted spend in your account, [get in touch](/contact/).
+
+## Frequently Asked Questions
+
+### What are negative keywords in Google Ads for law firms?
+Negative keywords are terms that prevent your law firm's ads from showing when someone includes those words in their search. They act as filters to block irrelevant traffic that won't convert into clients, helping you avoid wasting ad spend on searches like "free legal advice" or "law school admissions."
+
+### How do negative keywords save money for law firm Google Ads?
+Negative keywords prevent your ads from showing for searches that won't lead to paying clients, reducing wasted clicks and lowering your cost per acquisition. By blocking terms like "jobs," "salary," or "free," you ensure your budget only goes toward people actually seeking legal services.
+
+### Should law firms use broad match negative keywords?
+Yes, law firms should primarily use broad match negative keywords to cast a wider net in blocking irrelevant searches. For example, adding "free" as a broad match negative will block variations like "free lawyer," "lawyer for free," and "free legal help" without having to add each variation individually.
+
+### What negative keywords should personal injury law firms add?
+Personal injury law firms should add negatives like "jobs," "salary," "school," "course," "free," "pro bono," "paralegal," and "law student." These terms attract job seekers, students, and people looking for free services rather than potential clients who can pay for legal representation.
+
+### How often should law firms update their negative keyword lists?
+Law firms should review and update their negative keyword lists monthly by analyzing search term reports in Google Ads. Look for irrelevant queries that triggered your ads and add new negative keywords to continuously refine your targeting and improve campaign performance.

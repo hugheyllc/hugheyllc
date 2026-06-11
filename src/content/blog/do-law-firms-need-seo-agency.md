@@ -106,3 +106,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Local SEO for Law Firms: How to Own 'Attorney Near Me' Searches in Your City](https://hugheyllc.com/blog/local-seo-law-firms/)
 - [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
 - [The Law Firm SEO Audit: 10 Things to Check Before You Spend Another Dollar on Marketing](https://hugheyllc.com/blog/law-firm-seo-audit/)
+
+## Frequently Asked Questions
+
+### Do small law firms really need SEO?
+
+Small law firms can benefit significantly from SEO, but it's not always necessary depending on their practice area and local market saturation. Firms with strong referral networks or niche practices may see better ROI from other marketing channels initially.
+
+### How much should a law firm budget for SEO services?
+
+Most law firms should expect to invest $3,000-$10,000+ monthly for professional SEO services, depending on market competition and firm size. The investment typically pays off within 6-12 months for firms in competitive practice areas.
+
+### Can law firms do SEO themselves instead of hiring an agency?
+
+Law firms can handle basic SEO tasks in-house, but effective legal SEO requires specialized knowledge of Google's algorithms, legal advertising compliance, and significant time investment. Most successful firms either hire agencies or dedicated in-house SEO specialists.
+
+### How long does it take to see results from law firm SEO?
+
+SEO typically takes 4-6 months to show meaningful results, with full impact often seen after 12-18 months. Law firms should view SEO as a long-term investment rather than a quick marketing fix.
+
+### What's the difference between SEO agencies that specialize in legal marketing?
+
+Legal-focused SEO agencies understand attorney advertising rules, legal client behavior, and compliance requirements that general SEO agencies often miss. They also have experience with legal-specific content strategies and local market dynamics.

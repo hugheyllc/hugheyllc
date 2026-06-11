@@ -139,3 +139,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
 - [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
 - [Why Tampa Law Firms Are Moving Away From Directory-Dependent Marketing](https://hugheyllc.com/blog/tampa-law-firms-leaving-legal-directories/)
+
+## Frequently Asked Questions
+
+### What are the main Florida Bar rules that govern attorney advertising?
+
+The Florida Rules of Professional Conduct, specifically Rules 4-7.11 through 4-7.23, govern all attorney advertising and marketing activities in Florida. These rules cover everything from website content and Google Ads to social media posts and client testimonials.
+
+### Can Tampa law firms use client testimonials on their websites?
+
+Yes, but client testimonials must comply with specific Florida Bar requirements including proper disclaimers and cannot contain misleading statements about results. The testimonials must also be verifiable and cannot imply guaranteed outcomes.
+
+### Are there restrictions on Google Ads for Florida attorneys?
+
+Florida attorneys must ensure their Google Ads comply with state advertising rules, including accurate representations of services, proper disclaimers, and truthful statements about experience and results. All online advertising is subject to the same rules as traditional advertising methods.
+
+### What happens if a law firm violates Florida Bar advertising rules?
+
+Violations can result in bar complaints, disciplinary action, fines, and potential suspension of law licenses. The consequences can be more severe and long-lasting than typical marketing failures, making compliance essential.
+
+### Do Florida Bar advertising rules apply to social media marketing?
+
+Yes, all social media content from law firms is considered advertising under Florida Bar rules and must comply with the same standards as websites and traditional advertising. This includes LinkedIn posts, Facebook content, and Twitter updates.

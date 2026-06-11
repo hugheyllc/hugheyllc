@@ -9,9 +9,12 @@ seo_title: "Video Marketing for Law Firms: What Actually Works in 2026"
 seo_description: "Your competitors are still treating video like a nice-to-have. That's your opening."
 draft: false
 image: "/images/blog/law-firm-video-marketing.webp"
+keywords: ["video marketing for law firms", "legal video marketing", "law firm content marketing", "attorney video strategy", "lawyer marketing videos", "legal marketing 2026", "law firm digital marketing", "attorney client acquisition"]
 ---
 
 ## Video Marketing for Law Firms: What Actually Works in 2026
+
+According to the American Bar Association's recent guidance on digital marketing ethics, lawyers must ensure all video content complies with [professional responsibility rules regarding advertising and solicitation](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/). The ABA emphasizes that the same ethical standards applying to traditional advertising extend to social media and video marketing platforms.
 
 Your competitors are still treating video like a nice-to-have. That's your opening.
 
@@ -105,3 +108,20 @@ Firms that follow this cycle film 6–12 videos per year. That's a real content 
 Video works for law firms in 2026 because decision-making happens earlier in the process—and video answers questions faster than text. But only if the video solves a specific problem, lands where prospects are looking, and exists as part of a system.
 
 If you're going to do this, do it deliberately. Three focused videos will outperform fifty unfocused ones every time.
+
+## Frequently Asked Questions
+
+### How much should law firms spend on video marketing?
+Most successful law firms allocate 15-25% of their marketing budget to video content, but start small with simple client testimonials and educational videos. Focus on consistent production over expensive one-off videos to maximize ROI.
+
+### What types of videos work best for attracting legal clients?
+Client testimonials, FAQ videos addressing common legal questions, and "day in the life" content showing your firm's expertise perform best for client acquisition. Educational content that answers specific legal questions also helps establish authority and trust.
+
+### Do law firms need professional video equipment to be effective?
+High-quality smartphones and basic lighting equipment are sufficient for most law firm video content. Authenticity and valuable content matter more than Hollywood production values when building trust with potential clients.
+
+### How often should law firms post video content?
+Consistency beats frequency—aim for 1-2 quality videos per month rather than sporadic posting. Regular posting helps build audience engagement and improves search engine visibility over time.
+
+### What compliance issues should lawyers consider with video marketing?
+All video content must comply with state bar advertising rules, including proper disclaimers and avoiding guarantees about case outcomes. Review your jurisdiction's attorney advertising guidelines and consider having marketing materials reviewed by ethics counsel.

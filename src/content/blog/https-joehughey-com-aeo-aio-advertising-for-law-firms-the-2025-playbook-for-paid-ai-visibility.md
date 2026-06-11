@@ -90,3 +90,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
 - [Google Ads for Law Firms: Why Most Campaigns Fail — And What the Winning Ones Do Differently](https://hugheyllc.com/blog/google-ads-law-firms/)
 - [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+
+## Frequently Asked Questions
+
+### What is AEO advertising for law firms?
+
+AEO (AI Engine Optimization) advertising refers to paid promotional placements within AI-generated search results and AI Overview responses. Unlike traditional search ads, these appear directly within the AI-synthesized answers that users see when asking questions about legal services.
+
+### How much should law firms budget for AI Overview advertising?
+
+Law firms should start with 10-15% of their existing Google Ads budget allocated to AIO advertising campaigns. This allows for testing and optimization while maintaining current performance from traditional search ads.
+
+### Are AIO ads more expensive than traditional Google Ads for lawyers?
+
+AIO ad costs vary significantly by practice area and competition, but early adopters often see lower cost-per-click rates due to reduced competition. However, conversion tracking and attribution can be more complex than traditional search advertising.
+
+### What types of legal cases work best for AI Overview advertising?
+
+Personal injury, family law, and criminal defense tend to perform well in AIO advertising because users frequently ask conversational questions about these topics. Practice areas with complex, research-heavy queries see the most AI Overview ad opportunities.
+
+### How do I track ROI from AI Overview advertising campaigns?
+
+Use Google Ads' AI Overview reporting features combined with UTM tracking on landing pages to measure click-through rates, conversion rates, and cost per acquisition. Set up separate conversion goals specifically for AIO traffic to compare performance against traditional search ads.

@@ -88,3 +88,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)
 - [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
 - [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+
+## Frequently Asked Questions
+
+### Why are law firms moving away from WordPress?
+
+Law firms are migrating from WordPress due to performance limitations that hurt SEO rankings, security vulnerabilities that risk client data, and lack of true ownership over their website's core functionality. Modern alternatives offer better speed, security, and long-term control.
+
+### What is a headless CMS and how does it benefit law firms?
+
+A headless CMS separates content management from website presentation, allowing for faster loading times and better security. For law firms, this means improved Google rankings, better user experience, and reduced risk of security breaches that could compromise client confidentiality.
+
+### Is migrating from WordPress expensive for law firms?
+
+While there are upfront costs, migrating to modern solutions like Astro with headless CMS often reduces long-term expenses by eliminating plugin fees, reducing maintenance needs, and improving SEO performance. Most firms see ROI through better search rankings and reduced security risks.
+
+### What should law firms look for in WordPress alternatives?
+
+Law firms should prioritize fast loading speeds for SEO, robust security features for client protection, compliance capabilities for legal industry requirements, and ownership of their website code. Solutions like Astro combined with headless CMS meet these criteria effectively.
+
+### How long does it take to migrate a law firm website from WordPress?
+
+Migration typically takes 4-8 weeks depending on website complexity and content volume. The process includes content migration, design optimization, SEO preservation, and thorough testing to ensure no disruption to search rankings or user experience.

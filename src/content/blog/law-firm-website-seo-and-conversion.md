@@ -79,3 +79,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
 - [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
 - [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
+
+## Frequently Asked Questions
+
+### How long does it take for a new law firm website to rank on Google?
+
+Most new law firm websites start seeing initial ranking improvements within 3-6 months, but achieving strong rankings for competitive legal keywords typically takes 6-12 months of consistent SEO effort. The timeline depends on your local market competition, content quality, and technical optimization.
+
+### What's more important for a law firm website - SEO or conversion optimization?
+
+Both SEO and conversion optimization are equally important and work together synergistically. A website that ranks well but doesn't convert visitors wastes traffic, while a high-converting site with no traffic wastes potential. The most successful law firms integrate both strategies from the beginning rather than treating them as competing priorities.
+
+### How much should a law firm spend on website development and SEO?
+
+Law firms typically invest $5,000-$25,000 for professional website development and $2,000-$8,000 monthly for ongoing SEO services, depending on practice size and market competition. The investment should be viewed as client acquisition cost - a well-optimized website that generates even one additional client per month often pays for itself.
+
+### What makes a law firm website convert visitors into clients?
+
+High-converting law firm websites combine clear value propositions, prominent contact information, client testimonials, and compelling calls-to-action with fast loading speeds and mobile optimization. Trust signals like attorney credentials, case results, and professional photography are also crucial for converting legal prospects.
+
+### Do law firms need separate pages for each practice area?
+
+Yes, dedicated practice area pages are essential for both SEO and conversion purposes. Each practice area should have its own optimized page with specific content addressing that legal issue, as this helps rank for relevant searches and provides prospects with targeted information that builds confidence in your expertise.

@@ -9,6 +9,7 @@ seo_title: "What to Ask Before Hiring a Law Firm Marketing Company (15 Questions
 seo_description: "The questions most law firms never ask their marketing vendors — and should. 15 direct questions that separate marketing companies who will deliver from those w"
 draft: false
 image: "/images/blog/what-to-ask-law-firm-marketing-company.webp"
+keywords: ["law firm marketing company", "hiring legal marketing agency", "attorney marketing questions", "law firm marketing consultant", "legal marketing vendor selection", "law firm marketing ROI", "legal marketing services evaluation"]
 ---
 
 Most law firms hire marketing vendors the same way they hire any professional service: a few conversations, some reference checks, a proposal review, and a decision based largely on comfort and price. The outcome is often years of mediocre results and unclear accountability.
@@ -76,3 +77,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
 - [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](https://hugheyllc.com/blog/law-firm-marketing-attribution-guide-cfos/)
 - [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
+
+## Frequently Asked Questions
+
+### How much should a law firm spend on marketing?
+
+Most successful law firms allocate 2-10% of their gross revenue to marketing, with newer firms often investing more heavily to establish market presence. The exact percentage depends on your practice area, competition level, and growth goals.
+
+### What questions should I ask a legal marketing company before hiring them?
+
+Focus on questions about their experience with your practice area, specific results they've achieved, their reporting methods, and how they measure ROI. Ask for case studies and references from similar-sized firms in comparable markets.
+
+### How long does it take to see results from law firm marketing?
+
+Digital marketing efforts like SEO typically take 3-6 months to show meaningful results, while PPC can generate leads within weeks. Brand awareness and reputation building campaigns may take 6-12 months to demonstrate significant impact on client acquisition.
+
+### What's the difference between a legal marketing agency and a general marketing company?
+
+Legal marketing agencies understand attorney ethics rules, compliance requirements, and the unique challenges of marketing professional services. They typically have experience with legal-specific platforms, directories, and referral networks that general agencies lack.
+
+### How do I measure the ROI of my law firm's marketing efforts?
+
+Track client acquisition costs, lifetime client value, case conversion rates, and revenue attribution to specific marketing channels. Implement proper tracking systems and require detailed reporting from your marketing vendor to ensure accountability.

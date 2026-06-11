@@ -116,3 +116,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
 - [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
 - [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+
+## Frequently Asked Questions
+
+### What percentage of revenue should a small law firm spend on marketing?
+
+Most successful small law firms allocate between 5-15% of gross revenue to marketing, with newer firms often investing closer to 10-15% to establish market presence. The exact percentage depends on your practice area, local competition, and growth goals.
+
+### How do I know if my law firm's marketing budget is working?
+
+Track key metrics like cost per lead, conversion rates from leads to clients, and overall return on investment (ROI). A healthy marketing budget should generate at least 3-5 times its cost in new client revenue within 6-12 months.
+
+### Should newer law firms spend more on marketing than established firms?
+
+Yes, newer firms typically need to invest a higher percentage of revenue (10-15%) to build brand recognition and establish market presence. Established firms with strong referral networks may maintain growth with 5-10% marketing spend.
+
+### What marketing activities give small law firms the best ROI?
+
+Local SEO, Google Ads for high-intent keywords, and referral relationship building typically provide the strongest returns for small firms. Content marketing and social media can be effective but require consistent, long-term investment to see results.
+
+### How often should I review and adjust my law firm's marketing budget?
+
+Review your marketing budget quarterly to assess performance and make tactical adjustments, but evaluate major budget changes annually during your business planning process. Market conditions and firm growth may require more frequent strategic reviews.

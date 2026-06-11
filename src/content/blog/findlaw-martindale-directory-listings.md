@@ -9,9 +9,12 @@ seo_title: "FindLaw Alternatives for Law Firms: Are Directory Listings Still Wor
 seo_description: "An ROI and attribution analysis of FindLaw, Martindale, and Avvo. What directories actually drive retained clients — and the FindLaw alternatives law firms use."
 draft: false
 image: "/images/blog/findlaw-martindale-directory-listings.webp"
+keywords: ["FindLaw alternatives", "legal directory ROI", "Martindale Hubbell worth it", "law firm marketing directories", "legal marketing attribution", "lawyer directory listings", "FindLaw vs Martindale", "legal citation building"]
 ---
 
 ## Are FindLaw and Martindale Directory Listings Still Worth It?
+
+According to the [American Bar Association's 2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), lawyers are increasingly shifting marketing budgets away from traditional directories toward digital strategies that offer better measurement and attribution capabilities.
 
 Short answer: for most small and mid-sized firms in 2026, premium FindLaw and Martindale listings are no longer a clear ROI win — but free and basic profiles still matter for citations and AI visibility. The honest reading of the data is that paid directory packages mostly produce branded traffic and low-intent inquiries, while a meaningful share of "directory" credit shown in vendor dashboards is conversion that would have happened anyway. The FindLaw alternatives law firms are moving toward are owned channels — a strong site, [Google Business Profile](/blog/law-firm-google-business-profile/), local content, and properly tracked paid search — because those compound instead of resetting the moment a renewal lapses.
 
@@ -96,3 +99,25 @@ If you'd like a second set of eyes on your current directory contracts, attribut
 
 - [Why Tampa Law Firms Are Moving Away From Directory-Dependent Marketing](/blog/tampa-law-firms-leaving-legal-directories/)
 - [The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients](/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/)
+
+## Frequently Asked Questions
+
+### Are FindLaw premium listings worth the cost in 2024?
+
+For most small to mid-sized law firms, premium FindLaw packages no longer deliver clear ROI compared to other digital marketing investments. The traffic generated is often branded searches or low-intent inquiries that don't convert to quality cases.
+
+### Should I cancel my Martindale-Hubbell subscription?
+
+While premium Martindale subscriptions may not justify their cost, maintaining a basic free profile is still valuable for citation purposes and potential AI search visibility. Consider downgrading rather than completely removing your presence.
+
+### What are the best alternatives to FindLaw and Martindale?
+
+Focus on Google Business Profile optimization, local SEO, content marketing, and practice area-specific directories that serve your target clients. These typically offer better ROI than traditional legal directories.
+
+### How can I measure the real ROI of legal directory listings?
+
+Look beyond vendor-provided dashboards and use proper attribution tracking through Google Analytics and call tracking. Evaluate the quality of leads, not just quantity, and consider whether inquiries would have found you through other channels anyway.
+
+### Do legal directories help with SEO rankings?
+
+Basic directory listings can provide valuable citations that support local SEO efforts. However, the direct SEO benefit of premium directory features has diminished significantly as Google's algorithm has evolved.

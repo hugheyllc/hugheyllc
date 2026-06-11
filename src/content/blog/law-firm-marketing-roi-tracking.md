@@ -82,3 +82,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients](https://hugheyllc.com/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/)
 - [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
 - [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
+
+## Frequently Asked Questions
+
+### How do I calculate marketing ROI for my law firm?
+
+Marketing ROI is calculated by dividing the revenue generated from marketing efforts by the total marketing spend, then multiplying by 100 for a percentage. For law firms, this means tracking which marketing channels bring in clients and the lifetime value of those clients, not just initial consultations.
+
+### What's the difference between website traffic and actual marketing ROI?
+
+Website traffic measures visitors to your site, while marketing ROI measures actual revenue generated from your marketing investments. High traffic doesn't necessarily mean high ROI if those visitors aren't converting into paying clients.
+
+### How long should I track marketing ROI for law firm cases?
+
+You should track ROI throughout the entire client lifecycle, from initial contact through case completion and payment. Legal cases can take months or years to resolve, so short-term tracking will give you incomplete and misleading ROI data.
+
+### What tools do I need to track law firm marketing attribution?
+
+You'll need a combination of CRM software, call tracking systems, Google Analytics with goal conversion setup, and ideally marketing attribution software that can connect multiple touchpoints to final client outcomes. The key is integrating these tools to create a complete picture.
+
+### Why is first-click attribution important for law firms?
+
+First-click attribution helps you understand which marketing channels are actually introducing new potential clients to your firm, rather than just the last touchpoint before they contact you. This prevents you from over-investing in bottom-funnel tactics while neglecting the channels that generate initial awareness.

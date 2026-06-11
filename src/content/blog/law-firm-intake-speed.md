@@ -94,3 +94,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
 - [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
 - [Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know](https://hugheyllc.com/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/)
+
+## Frequently Asked Questions
+
+### What is speed-to-contact in legal marketing?
+
+Speed-to-contact refers to how quickly a law firm responds to initial inquiries from potential clients, whether through phone calls, web forms, or other channels. Research shows that firms responding within 15 minutes have significantly higher conversion rates than those with slower response times.
+
+### How much does response time really impact law firm conversions?
+
+Studies indicate that law firms responding to leads within 15 minutes convert prospects at rates 391% higher than firms averaging 24-hour response times. Even a delay from 5 minutes to 30 minutes can reduce your odds of qualifying a lead by over 20%.
+
+### What's the best way to improve our firm's speed-to-contact?
+
+Implement systems like call forwarding to mobile devices, designate intake specialists during business hours, and use automated responses for after-hours inquiries that promise callback times. Consider live chat or intake software that can capture lead information immediately when you can't answer directly.
+
+### Should law firms respond to leads outside business hours?
+
+Yes, potential clients don't only have legal emergencies during 9-5 hours, and many people research attorneys in the evenings or weekends. Having an after-hours system or service that can at minimum capture information and set expectations for follow-up is crucial for competitive conversion rates.
+
+### How do we measure and track our firm's speed-to-contact performance?
+
+Use your CRM or intake software to timestamp when leads come in versus when first contact is made. Track conversion rates by response time intervals (0-15 minutes, 15-60 minutes, 1-4 hours, etc.) to identify patterns and set benchmarks for improvement.

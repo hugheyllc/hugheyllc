@@ -8,9 +8,12 @@ tags: ["law-firm-marketing", "referral-tracking", "marketing-analytics", "intake
 seo_title: "Law Firm Referral Tracking: Why One Intake Question Isn't Enough"
 seo_description: "Most law firms rely on 'how did you hear about us?' to track referrals. That data is wrong. Here's a better system for tracking referral sources that actually retain."
 draft: false
+keywords: ["law firm referral tracking", "legal marketing analytics", "attorney client intake", "law firm marketing attribution", "legal client acquisition", "referral source tracking", "law firm lead tracking"]
 ---
 
 If your intake form has a "how did you hear about us?" field, you're doing referral tracking. You're just not doing it well.
+
+According to the [American Bar Association's 2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), most law firms still rely on basic intake methods despite the availability of sophisticated client relationship management systems that can provide comprehensive attribution tracking.
 
 That question has two problems. First, people don't remember. A prospective client might have seen your Google ad three weeks ago, read a review on Avvo last Tuesday, and then called because a colleague mentioned your name — and they'll answer "a friend" every time. Second, even when they remember, they simplify. They give you one answer. Marketing doesn't work in single touchpoints.
 
@@ -75,3 +78,17 @@ The firms that systematically track and nurture referral relationships end up wi
 ---
 
 *Tracking where your best clients actually come from is foundational to any marketing strategy. If you're not sure whether your current system is giving you accurate data, the attribution guide in the resources section is a good starting point.*
+
+## Frequently Asked Questions
+
+### How can law firms accurately track referral sources?
+Law firms should implement multi-touch attribution systems that track all client interactions across different channels before conversion. This includes combining intake forms with digital tracking, referral partner systems, and follow-up conversations to capture the complete client journey.
+
+### What's wrong with asking "how did you hear about us" on intake forms?
+This single question fails to capture the complexity of modern marketing journeys where clients typically interact with multiple touchpoints before hiring an attorney. Clients often forget earlier interactions or simplify their response to just the most recent contact point.
+
+### What should law firms track instead of just the final referral source?
+Firms should track all touchpoints including digital interactions, referral partner communications, review sites visited, content consumed, and multiple conversations. This creates a complete picture of what actually drives client acquisition.
+
+### How does poor referral tracking hurt law firm marketing ROI?
+Without accurate attribution data, firms can't identify which marketing channels and referral sources actually generate clients. This leads to misallocated budgets, reduced investment in effective channels, and continued spending on ineffective marketing tactics.

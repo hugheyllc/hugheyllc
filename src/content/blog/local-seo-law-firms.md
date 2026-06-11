@@ -98,3 +98,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](https://hugheyllc.com/blog/law-firm-google-business-profile/)
 - [Do Law Firms Actually Need an SEO Agency? An Honest Answer](https://hugheyllc.com/blog/do-law-firms-need-seo-agency/)
 - [The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients](https://hugheyllc.com/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/)
+
+## Frequently Asked Questions
+
+### How do I rank for "attorney near me" searches?
+
+To rank for "attorney near me" searches, you need to optimize your Google Business Profile, ensure consistent NAP (Name, Address, Phone) information across all directories, and create location-specific content on your website. Building local citations and earning positive client reviews are also crucial for improving your local search visibility.
+
+### What is the difference between regular SEO and local SEO for law firms?
+
+Regular SEO focuses on ranking for broad keywords nationally, while local SEO targets location-specific searches like "personal injury lawyer Tampa" or "divorce attorney near me." Local SEO emphasizes your Google Business Profile, local citations, and geographic relevance to help you appear in the local pack results and location-based searches.
+
+### How long does it take to see results from local SEO for attorneys?
+
+Most law firms begin seeing improvements in local search rankings within 3-6 months of implementing a consistent local SEO strategy. However, achieving top positions for competitive legal keywords can take 6-12 months or longer, depending on your local market competition and the quality of your optimization efforts.
+
+### Do Google reviews really impact my law firm's local SEO rankings?
+
+Yes, Google reviews significantly impact local SEO rankings for law firms. Reviews serve as a key ranking factor for local search results, and they also influence potential clients' decision-making when choosing an attorney. Aim to consistently earn positive reviews and respond professionally to all feedback to improve both your rankings and conversion rates.
+
+### What is Google's local pack and why is it important for lawyers?
+
+Google's local pack is the map section that appears at the top of search results for location-based queries, typically showing three local businesses. For attorneys, appearing in the local pack for searches like "lawyer near me" is crucial because these results receive significantly more clicks than traditional organic listings below the map.

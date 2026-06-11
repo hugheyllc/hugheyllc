@@ -56,3 +56,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
 - [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
 - [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
+
+## Frequently Asked Questions
+
+### What metrics should law firms track instead of vanity metrics?
+
+Law firms should focus on metrics that directly correlate to revenue, such as qualified lead conversion rates, cost per retained client, and lifetime client value. These metrics provide a clearer picture of marketing ROI than impressions or social media followers.
+
+### How can law firms tell if their marketing agency is providing accurate reporting?
+
+Look for reports that connect marketing activities directly to case intake and revenue generation. If your agency can't explain how their efforts translate to actual clients retained, they may be focusing on vanity metrics rather than meaningful business outcomes.
+
+### Why do marketing agencies focus on vanity metrics for law firms?
+
+Vanity metrics like website traffic and social media engagement are easier to improve and look impressive in reports. However, these metrics don't necessarily translate to more profitable cases or higher revenue for law firms.
+
+### What questions should law firms ask when reviewing marketing reports?
+
+Ask your agency to show the direct connection between marketing spend and client acquisition costs. Key questions include: How many qualified leads did we generate? What was our conversion rate to retained clients? What's our return on marketing investment?
+
+### How often should law firms review their marketing performance data?
+
+Law firms should review meaningful marketing metrics monthly, with deeper quarterly analyses to assess ROI and strategy effectiveness. This frequency allows for timely adjustments while providing enough data to identify genuine trends versus temporary fluctuations.

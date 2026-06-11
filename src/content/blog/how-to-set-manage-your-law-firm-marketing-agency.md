@@ -162,3 +162,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
 - [Why Most Law Firm Marketing Reports Are Fiction](https://hugheyllc.com/blog/marketing-reports-fake/)
 - [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+
+## Frequently Asked Questions
+
+### How do I choose the right marketing agency for my law firm?
+
+Look for agencies with proven experience in legal marketing, transparent reporting systems, and a track record of measurable ROI for law firms. Request case studies and references from similar practice areas before making your decision.
+
+### What metrics should I track to measure my legal marketing agency's performance?
+
+Focus on key performance indicators like cost per lead, conversion rates, client acquisition cost, and return on marketing investment (ROMI). Your agency should provide monthly reports showing how marketing efforts directly translate to new clients and revenue.
+
+### How often should I review my marketing agency's performance?
+
+Conduct formal performance reviews monthly with detailed reporting, and schedule quarterly strategic reviews to assess overall campaign effectiveness and ROI. Weekly check-ins for ongoing campaign updates help maintain accountability and address issues quickly.
+
+### What red flags indicate my law firm's marketing agency isn't performing well?
+
+Warning signs include lack of transparent reporting, declining lead quality, missed deadlines, poor communication, and inability to tie marketing activities to actual client acquisitions. If your agency can't clearly explain how their work generates revenue, it's time to reassess.
+
+### How much control should I maintain over my law firm's marketing campaigns?
+
+Maintain strategic oversight while allowing your agency operational flexibility to execute campaigns. You should approve major strategy changes, budget allocations, and messaging, but avoid micromanaging day-to-day tactical decisions that fall within agreed-upon parameters.

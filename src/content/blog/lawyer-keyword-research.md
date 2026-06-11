@@ -161,3 +161,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
 - [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](https://hugheyllc.com/blog/family-law-firm-marketing/)
 - [The Law Firm SEO Audit: 10 Things to Check Before You Spend Another Dollar on Marketing](https://hugheyllc.com/blog/law-firm-seo-audit/)
+
+## Frequently Asked Questions
+
+### What makes keyword research different for law firms compared to other industries?
+
+Legal keyword research is unique due to extremely high cost-per-click rates, with some personal injury terms reaching $50-$150 per click. This signals strong conversion potential but requires careful strategy to avoid wasting budget on low-converting traffic.
+
+### How do I find keywords that actually bring in new clients for my law firm?
+
+Focus on high-intent keywords that show commercial purpose, such as "hire [practice area] lawyer" or "[location] [practice area] attorney." Look for terms with high CPC in paid search as these typically indicate strong conversion potential.
+
+### Should small law firms compete for expensive keywords like "personal injury lawyer"?
+
+Small firms should generally avoid competing directly on the most expensive broad keywords. Instead, target long-tail variations, geographic modifiers, and specific practice area combinations that have lower competition but higher intent.
+
+### What's the best way to research legal keywords without spending a fortune?
+
+Use tools like Google Keyword Planner, SEMrush, or Ahrefs to analyze competitor keywords and search volumes. Focus on local variations of your practice areas and study what successful firms in your market are ranking for.
+
+### How important are location-based keywords for law firm SEO?
+
+Location-based keywords are critical for law firms since most legal services are location-dependent. Target city, county, and regional variations of your practice area terms to capture local search traffic with high conversion intent.

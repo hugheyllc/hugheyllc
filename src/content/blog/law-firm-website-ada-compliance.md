@@ -70,3 +70,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)
 - [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
 - [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)
+
+## Frequently Asked Questions
+
+### What are the ADA compliance requirements for law firm websites?
+
+Law firm websites must follow Web Content Accessibility Guidelines (WCAG) 2.1 AA standards to be considered ADA compliant. This includes providing alt text for images, ensuring proper color contrast, making content keyboard navigable, and providing captions for videos.
+
+### Can law firms be sued for having non-accessible websites?
+
+Yes, law firms can face federal ADA Title III lawsuits for website accessibility violations. The number of these lawsuits has increased significantly in recent years, with professional services firms including law practices being targeted.
+
+### How does website accessibility improve SEO for law firms?
+
+Many accessibility improvements directly benefit SEO, such as alt text for images, proper heading structure, and clean HTML code. These technical optimizations help search engines better understand and index your content, potentially improving search rankings.
+
+### What is WCAG and why is it important for attorney websites?
+
+WCAG (Web Content Accessibility Guidelines) provides the technical standards for making websites accessible to people with disabilities. Following WCAG 2.1 AA guidelines helps law firms reduce legal risk while improving user experience for all visitors.
+
+### How much does it cost to make a law firm website ADA compliant?
+
+The cost varies depending on your website's current state and complexity, but investing in accessibility is typically much less expensive than defending against an ADA lawsuit. Many accessibility improvements can be implemented through routine website maintenance and updates.

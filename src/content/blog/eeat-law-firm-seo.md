@@ -143,3 +143,20 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
 - [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](https://hugheyllc.com/blog/st-petersburg-law-firm-seo/)
 - [Law Firm Schema Markup: The Technical SEO Move Most Attorneys Are Missing](https://hugheyllc.com/blog/law-firm-schema-markup/)
+
+## Frequently Asked Questions
+
+### What does E-E-A-T stand for in SEO?
+E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. It's Google's framework for evaluating content quality, especially for websites in sensitive industries like legal services.
+
+### Why is E-E-A-T more important for law firms than other businesses?
+Legal content falls into Google's "Your Money or Your Life" (YMYL) category, which receives the strictest quality evaluation standards. Poor E-E-A-T can significantly hurt a law firm's search rankings and visibility.
+
+### How can law firms improve their E-E-A-T scores?
+Law firms can improve E-E-A-T by having licensed attorneys author content, showcasing credentials and case results, earning quality backlinks from legal publications, and maintaining accurate, up-to-date legal information. Client testimonials and professional associations also boost trustworthiness signals.
+
+### What happens if a law firm has poor E-E-A-T?
+Law firms with poor E-E-A-T may see their content rank lower in search results or fail to rank entirely for competitive legal keywords. Google may also reduce the overall domain authority, affecting all pages on the website.
+
+### Can non-lawyers write content for law firm websites?
+While non-lawyers can assist with content creation, having licensed attorneys review, edit, and publish legal content is crucial for E-E-A-T. Google's algorithms look for clear authorship credentials and professional qualifications in legal content.

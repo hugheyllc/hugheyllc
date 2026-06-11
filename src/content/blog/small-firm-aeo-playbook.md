@@ -89,3 +89,25 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 - [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](https://hugheyllc.com/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)
 - [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
 - [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
+
+## Frequently Asked Questions
+
+### What are Google AI Overviews and how do they affect law firms?
+
+Google AI Overviews (AEO) are AI-generated answer boxes that appear at the top of search results, synthesizing information from multiple sources into a single response. For law firms, this means potential clients may get answers to their legal questions without clicking through to your website, reducing traditional organic traffic.
+
+### How can small law firms optimize for Google's AI Overviews?
+
+Small law firms should focus on creating comprehensive, well-structured content that directly answers common legal questions in their practice areas. Use clear headings, bullet points, and FAQ formats that AI can easily parse and include in overview responses.
+
+### Will AI Overviews completely replace traditional SEO for lawyers?
+
+No, AI Overviews complement rather than replace traditional SEO strategies. While they change how some searches are displayed, many legal queries still show traditional search results, and being featured in AI Overviews often requires strong foundational SEO.
+
+### What types of legal content work best for AI Overview optimization?
+
+Content that works well includes step-by-step legal processes, clear explanations of legal concepts, FAQ sections, and comprehensive guides that answer related questions in one place. Local legal information and jurisdiction-specific advice are particularly valuable.
+
+### Should law firms be concerned about losing website traffic to AI Overviews?
+
+While AI Overviews may reduce some click-through traffic, they also provide opportunities for increased visibility and brand recognition. Firms that adapt their content strategy can still attract qualified leads by being featured as authoritative sources in these AI-generated responses.
