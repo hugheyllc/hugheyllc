@@ -297,6 +297,16 @@ Body requirements:
   if (cleaned.startsWith('```')) {
     cleaned = cleaned.replace(/^```[a-z]*\n/, '').replace(/\n```\s*$/, '');
   }
+  // If model returned frontmatter fields without the opening --- fence, add it
+  if (!cleaned.startsWith('---') && /^(title|slug|date|author):/.test(cleaned)) {
+    cleaned = '---\n' + cleaned;
+    // Ensure the frontmatter block is closed if not already
+    const secondDash = cleaned.indexOf('\n---\n', 4);
+    if (secondDash === -1) {
+      // Find first blank line after frontmatter fields and insert closing ---
+      cleaned = cleaned.replace(/^(---\n(?:[^\n]+\n)+)\n/, '$1---\n\n');
+    }
+  }
   if (!cleaned.startsWith('---')) {
     throw new Error(`Generated post does not start with frontmatter: ${cleaned.slice(0, 200)}`);
   }
@@ -687,7 +697,16 @@ async function main() {
   const imageBuf = await generateImage(imagePrompt);
   const imagePath = path.join(IMAGE_DIR, `${slug}.jpg`);
   fs.writeFileSync(imagePath, imageBuf);
-  console.log(`     wrote ${imagePath} (${imageBuf.length} bytes)`);
+  // Compress with Sharp (mozjpeg) to keep file size under ~100KB
+  try {
+    const { default: sharp } = await import('sharp');
+    await sharp(imagePath).jpeg({ quality: 82, progressive: true, mozjpeg: true }).toFile(imagePath + '.opt');
+    const before = imageBuf.length;
+    const after = fs.statSync(imagePath + '.opt').size;
+    if (after < before) { fs.renameSync(imagePath + '.opt', imagePath); }
+    else { fs.unlinkSync(imagePath + '.opt'); }
+    console.log(`     wrote ${imagePath} (${Math.round(before/1024)}KB -> ${Math.round(Math.min(before,after)/1024)}KB compressed)`);
+  } catch { console.log(`     wrote ${imagePath} (${imageBuf.length} bytes, compression skipped)`); }
 
   // Steps 4–6: social. Skip if SOCIAL_POST_MODE=skip (posting happens after deploy verification).
   if (process.env.SOCIAL_POST_MODE === 'skip') {
