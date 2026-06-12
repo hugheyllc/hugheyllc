@@ -757,7 +757,7 @@ async function main() {
   console.log('[6a/7] Committing and pushing to main');
   try {
     const repoRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-    execSync(`git -C "${repoRoot}" add src/content/blog/${slug}.md src/public/images/blog/${slug}.jpg 2>/dev/null || git -C "${repoRoot}" add src/content/blog/${slug}.md`, { stdio: 'pipe' });
+    execSync(`git -C "${repoRoot}" add src/content/blog/${slug}.md public/images/blog/${slug}.jpg`, { stdio: 'pipe' });
     execSync(`git -C "${repoRoot}" commit -m "feat: blog — ${fm.title}"`, { stdio: 'pipe' });
     execSync(`git -C "${repoRoot}" push origin main`, { stdio: 'pipe' });
     console.log('     pushed to main');
