@@ -14,7 +14,7 @@ image: "/images/blog/law-firm-marketing-agency-vs-consultant-independence.jpg"
 
 The choice between a law firm marketing agency and an independent consultant comes down to one thing: who actually owns the outcome?
 
-Agencies are built to manage multiple clients simultaneously. That model creates inherent conflicts. Your firm's campaign sits alongside five others on the same account manager's desk. Budgets get pooled. Strategies get templated. When something underperforms, the response is predictable: spend more, run more tests, expand the scope. The agency's revenue grows regardless of whether your case intake does.
+Agencies are built to manage multiple clients simultaneously. That model creates inherent conflicts. Your firm's campaign sits alongside five others on the same account manager's desk. Budgets get pooled. Strategies get templated. When something underperforms, the response is predictable: spend more, run more tests, expand the scope. The agency's revenue grows regardless of whether your case intake does. The [ABA's Law Practice Division](https://www.americanbar.org/groups/law_practice/) offers resources on law firm business management — and accountability structures are consistently among the top concerns raised by firm administrators evaluating outside marketing relationships.
 
 An independent consultant has one client focus at a time (or a small handful). Their reputation and paycheck depend entirely on your results. That's not a character advantage—it's a structural difference. There's nowhere to hide. No "we're still gathering data" excuse after six months. No blame-shifting to your website, your intake process, or external market conditions.
 
