@@ -639,7 +639,7 @@ async function main() {
     return (str || '').toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter((w) => w.length > 3 && !STOP.has(w));
   }
 
-  function semanticallySimilar(a, b, threshold = 3) {
+  function semanticallySimilar(a, b, threshold = 2) {
     const wa = new Set(significantWords(a));
     const wb = significantWords(b);
     return wb.filter((w) => wa.has(w)).length >= threshold;
