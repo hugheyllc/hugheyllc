@@ -918,18 +918,5 @@
     }
   ],
   "outputDirectory": "dist",
-  "crons": [
-    {
-      "path": "/api/twitter-queue",
-      "schedule": "0 14 * * *"
-    },
-    {
-      "path": "/api/linkedin-queue",
-      "schedule": "0 14 * * *"
-    },
-    {
-      "path": "/api/twitter-queue",
-      "schedule": "0 23 * * *"
-    }
-  ]
+  "crons": []
 }
