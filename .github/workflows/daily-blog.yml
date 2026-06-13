@@ -1,9 +1,7 @@
 name: Daily Blog Post
 
+# DISABLED 2026-06-13 by Joe Hughey — schedule removed
 on:
-  schedule:
-    # 8:00 AM ET = 12:00 UTC
-    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
