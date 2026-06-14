@@ -35,7 +35,11 @@ Every post must:
 - **Open with an AEO answer** — the first 150–200 words directly answer 1–2 of the AEO target questions from `SEO_STRATEGY.md`, in plain declarative sentences an AI system can extract
 - **Hit the target keyword** — use it naturally in the H1, first paragraph, and 2–3 times in the body
 - **Inline internal links** — 2–4 links to existing posts, embedded within the body text (not just a footer list). Use descriptive anchor text.
-- **End with a CTA** — link to `/contact/` in the final paragraph or a closing note
+- **End with a contextual CTA** — one sentence in the final paragraph, natural voice:
+  - Local SEO / GBP / citations / map pack topics → [Always Found Playbook](/resources/always-found-playbook/) ($97)
+  - Reviews / reputation / social proof topics → [Always Reviewed Playbook](/resources/always-reviewed-playbook/) ($97)
+  - Marketing audit / attribution / agency evaluation topics → [Free 25-point checklist](/resources/marketing-audit-checklist/)
+  - All other topics → [/contact/](/contact/)
 - **Related posts** — 2 links at the very bottom in the `*Related:*` format
 - **No fabricated content** — no made-up client names, firm names, case studies, or specific statistics. Use "a common pattern," "firms that do this typically see," or "in accounts I've reviewed" language only.
 - **Length:** 900–1,400 words

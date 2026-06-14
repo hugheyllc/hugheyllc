@@ -70,7 +70,7 @@ This is the level of clarity that our [law firm marketing technology consulting]
 
 **Ready to know exactly what your marketing is returning?** We build the tracking infrastructure that connects your spend to your revenue — not just your traffic.
 
-[Build Your ROI Tracking Stack →](/contact/)
+Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it's the same review I walk consulting clients through, and it'll show you exactly where your attribution is broken. If you want hands-on help, [let's talk](/contact/).
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.

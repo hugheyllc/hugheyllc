@@ -291,7 +291,12 @@ Body requirements:
 - 1-2 external links to authoritative sources (Google, ABA, state bar, Pew Research, academic/gov sources only — no competitors). Use [anchor text](https://full-url) in body.
 - Include a ## Frequently Asked Questions section near the end with 3-5 Q&A pairs. Each Q should be an H3 (###). Answers 2-4 sentences each. Questions should match what someone would actually type or speak to a search engine about this topic.
 - 1100-1500 words total
-- Final paragraph before FAQ: CTA linking to /contact/
+- CTA paragraph before FAQ: Choose the most relevant CTA based on topic:
+  - If the post covers local SEO, GBP, citations, location pages, or map pack: link to the Always Found Playbook — "If you want the complete local SEO system with every template and checklist, [the Always Found Playbook walks through all eight steps for $97](/resources/always-found-playbook/)."
+  - If the post covers reviews, reputation, or social proof: link to the Always Reviewed Playbook — "If you want the full review system with request scripts, response templates, and velocity tracking, [the Always Reviewed Playbook has everything for $97](/resources/always-reviewed-playbook/)."
+  - If the post covers marketing audits, attribution, or evaluating agencies: link to the free checklist — "Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it's the same review I walk consulting clients through."
+  - For all other topics: link to /contact/ — "If you want help building this for your firm, [let's talk](/contact/)."
+  - Keep CTAs natural and in Joe's voice — one sentence, not a sales pitch. Weave it into the closing paragraph.
 - End with a "### Related Reading" section containing exactly 2 markdown links to existing posts (full URLs https://hugheyllc.com/blog/slug/)
 - No fabricated names, firms, case studies, or specific numeric statistics
 

@@ -108,7 +108,7 @@ Order every leak by estimated monthly revenue impact. Fix the top three first, r
 
 Re-run the audit every six months. Intake processes drift. New people join, tools change, follow-up sequences quietly stop firing. A firm that audits intake twice a year compounds an advantage over competitors who never look at it at all — and intake gains tend to be more durable than marketing channel gains, because they do not erode when the next algorithm update lands.
 
-If you want a second set of eyes on the audit, or you'd rather have someone run it for you and hand back a prioritized punch list, that is one of the things I do — [get in touch](/contact/) and we can walk through where the biggest leaks in your current process likely are.
+If you want to start with a broader diagnostic, [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) covers intake alongside attribution, Google Ads, SEO, and CRM — it's the same review I walk consulting clients through. If you'd rather have someone run it and hand back a prioritized punch list, [get in touch](/contact/).
 
 *Related:*
 - [Why Speed-to-Contact Is the #1 Driver of Law Firm Growth](/blog/law-firm-intake-speed/)
