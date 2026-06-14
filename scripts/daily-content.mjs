@@ -633,7 +633,7 @@ async function main() {
   const existingSlugs = new Set(existing.map((p) => p.slug));
   const existingKeywords = new Set(existing.map((p) => (p.keyword || '').toLowerCase()).filter(Boolean));
 
-  const STOP = new Set(['the','a','an','and','or','of','for','in','on','to','with','how','why','what','is','are','do','does','your','law','firm','firms','legal']);
+  const STOP = new Set(['the','a','an','and','or','of','for','in','on','to','with','how','why','what','is','are','do','does','your','law','firm','firms','legal','marketing','consultant','agency','strategy','attorney','lawyers','lawyer','guide','complete','actually','works','every','should','know','before','right','best','when','choose','about']);
 
   function significantWords(str) {
     return (str || '').toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter((w) => w.length > 3 && !STOP.has(w));
@@ -642,7 +642,11 @@ async function main() {
   function semanticallySimilar(a, b, threshold = 2) {
     const wa = new Set(significantWords(a));
     const wb = significantWords(b);
-    return wb.filter((w) => wa.has(w)).length >= threshold;
+    const overlap = wb.filter((w) => wa.has(w)).length;
+    // Require overlap to be at least 50% of the shorter title's significant words
+    const minWords = Math.min(wa.size, wb.length);
+    if (minWords === 0) return false;
+    return overlap >= threshold && (overlap / minWords) >= 0.5;
   }
 
   function isDuplicate(candidate) {

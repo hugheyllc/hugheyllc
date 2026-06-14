@@ -1,6 +1,6 @@
 # SEO & AEO Strategy — Hughey LLC
 
-*Last updated: 2026-05-28*
+*Last updated: 2026-06-13*
 
 ## Priority Keyword Clusters
 
@@ -76,10 +76,18 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 10 | How to Build a Law Firm Marketing Budget That Ties to Retained Clients | law firm marketing budget | Bottom-up budgeting from cost-per-retained-client target | ⛔ Skipped (law-firm-marketing-budget.md already exists) |
 | 11 | The Law Firm Intake Audit: A Step-by-Step Guide | law firm intake process audit | Practical audit framework, leak points, conversion fixes | ✅ Published |
 | 12 | Why Your Law Firm's CRM Isn't Working (And What to Do About It) | law firm CRM problems | Integration gaps, pipeline visibility, adoption failures | ✅ Published |
-| 13 | Local SEO for Law Firms: What Still Works in 2026 | local SEO law firms 2026 | GBP, citations, review velocity, AI search presence | 🔲 Planned |
+| 13 | Local SEO for Law Firms: What Still Works in 2026 | local SEO law firms 2026 | GBP, citations, review velocity, AI search presence | ✅ Published |
 | 14 | How Family Law Firms Can Compete With High-Volume PI Advertisers | family law digital marketing | Budget efficiency, niche targeting, emotional intent keywords | ✅ Published |
 | 15 | The Real ROI of Content Marketing for Law Firms | law firm content marketing ROI | Long-game attribution, organic compound returns vs. PPC | ⛔ Skip — topic covered by existing posts |
 | 16 | How to Choose the Right Practice Area to Grow (And Market It First) | law firm practice area growth strategy | Resource allocation, market size, competitive gap analysis | 🔲 Planned |
+| 17 | Criminal Defense Marketing: What Works When Every Lead Is Urgent | criminal defense marketing strategy | Speed-to-contact, after-hours capture, emotional urgency vs. PI marketing differences | 🔲 Planned |
+| 18 | The 30-Minute Marketing Audit: What to Pull From Your Agency's Dashboard Right Now | law firm marketing audit checklist | Hands-on diagnostic for existing agency relationships — GA4, call tracking, CPC trends, intake conversion. Not pre-hire; post-hire accountability check. | 🔲 Planned |
+| 19 | What Happens When a Law Firm Brings Marketing In-House (And When It Backfires) | law firm in-house marketing | Build vs. buy, hidden costs of internal hires, hybrid model with consultant oversight | 🔲 Planned |
+| 20 | How Law Firms Waste Money on Social Media (And the One Platform That Actually Works) | law firm social media marketing | Organic social ROI reality check, LinkedIn vs. Instagram vs. Facebook for attorneys | 🔲 Planned |
+| 21 | Multi-Location Law Firms: How to Market Each Office Without Cannibalizing Yourself | multi-location law firm marketing | GBP per location, localized content, internal competition pitfalls | ✅ Published |
+| 22 | Reputation Management for Law Firms: Beyond Asking for Google Reviews | law firm reputation management | Review velocity, negative review response, third-party profile audit | 🔲 Planned |
+| 23 | How Immigration Law Firms Can Build a Marketing Engine That Scales | immigration law firm marketing | Multilingual content, community trust, referral networks, low-CPC keywords | 🔲 Planned |
+| 24 | What Law Firms Should Know About Marketing Contracts Before They Sign | law firm marketing contract red flags | Ownership clauses, termination terms, IP traps, performance guarantees | 🔲 Planned |
 
 ---
 
