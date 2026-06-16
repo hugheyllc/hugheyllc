@@ -10,7 +10,7 @@ seo_description: "Criminal defense marketing requires speed, 24/7 availability, 
 draft: false
 image: "/images/blog/criminal-defense-marketing-strategy.jpg"
 keywords: ["criminal defense marketing strategy", "criminal defense lead generation", "criminal defense intake", "DUI marketing strategy", "urgent legal leads", "criminal defense attorney marketing", "law firm speed-to-contact"]
-```
+---
 
 # Criminal Defense Marketing: What Works When Every Lead Is Urgent
 
