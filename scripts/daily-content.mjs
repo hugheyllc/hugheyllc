@@ -309,6 +309,8 @@ Frontmatter also requires:
   if (cleaned.startsWith('```')) {
     cleaned = cleaned.replace(/^```[a-z]*\n/, '').replace(/\n```\s*$/, '');
   }
+  // Fix: model sometimes uses ``` instead of --- to close frontmatter
+  cleaned = cleaned.replace(/^(---\n[\s\S]*?)\n```(\s*\n)/, '$1\n---$2');
   // If model returned frontmatter fields without the opening --- fence, add it
   if (!cleaned.startsWith('---') && /^(title|slug|date|author):/.test(cleaned)) {
     cleaned = '---\n' + cleaned;
@@ -551,7 +553,7 @@ async function notifyTelegram(text) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chatId) throw new Error('Telegram credentials missing');
-  const body = JSON.stringify({ chat_id: chatId, text, parse_mode: 'Markdown' });
+  const body = JSON.stringify({ chat_id: chatId, text, parse_mode: 'HTML' });
   const res = await request(
     {
       hostname: 'api.telegram.org',
@@ -614,7 +616,7 @@ async function main() {
     }
     console.log('[6/7] Notifying Joe on Telegram');
     try {
-      await notifyTelegram(`**${todayPost.title}**\nhugheyllc.com/blog/${todayPost.slug}/`);
+      await notifyTelegram(`<b>${todayPost.title}</b>\nhugheyllc.com/blog/${todayPost.slug}/`);
     } catch (e) {
       console.error(`     telegram failed: ${e.message}`);
     }
@@ -762,10 +764,21 @@ async function main() {
   }
   } // END SOCIAL (closes SOCIAL_POST_MODE=skip check)
 
-  // Commit and push the new post + image to main so Vercel deploys it
-  console.log('[6a/7] Committing and pushing to main');
+  // Validate build before pushing (catch frontmatter/YAML errors)
+  console.log('[6a/7] Validating build before push');
+  const repoRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
   try {
-    const repoRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+    execSync(`npm run build`, { cwd: repoRoot, stdio: 'pipe', timeout: 120_000 });
+    console.log('     build OK');
+  } catch (e) {
+    console.error(`     BUILD FAILED — not pushing. Error: ${e.stderr?.toString().slice(-500)}`);
+    try { await notifyTelegram(`❌ Blog build failed for: ${fm.title}\n${e.stderr?.toString().slice(-200)}`); } catch (_) {}
+    throw new Error('Build validation failed');
+  }
+
+  // Commit and push the new post + image to main so Vercel deploys it
+  console.log('[6b/7] Committing and pushing to main');
+  try {
     execSync(`git -C "${repoRoot}" add src/content/blog/${slug}.md public/images/blog/${slug}.jpg`, { stdio: 'pipe' });
     execSync(`git -C "${repoRoot}" commit -m "feat: blog — ${fm.title}"`, { stdio: 'pipe' });
     execSync(`git -C "${repoRoot}" push origin main`, { stdio: 'pipe' });
@@ -776,7 +789,7 @@ async function main() {
 
   console.log('[6/7] Notifying Joe on Telegram');
   try {
-    await notifyTelegram(`**${fm.title}**\nhugheyllc.com/blog/${slug}/`);
+    await notifyTelegram(`<b>${fm.title}</b>\nhugheyllc.com/blog/${slug}/`);
     console.log('     telegram sent');
   } catch (e) {
     console.error(`     telegram failed: ${e.message}`);
