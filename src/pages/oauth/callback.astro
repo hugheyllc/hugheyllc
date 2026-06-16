@@ -1,0 +1,57 @@
+---
+// OAuth callback — displays the authorization code for manual copy
+---
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>OAuth Callback | Hughey LLC</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 480px; margin: 80px auto; padding: 0 20px; text-align: center; color: #1a1a1a; }
+    .code-box { background: #f4f4f5; border: 2px solid #e4e4e7; border-radius: 8px; padding: 20px; margin: 24px 0; word-break: break-all; font-family: monospace; font-size: 14px; cursor: pointer; }
+    .code-box:hover { border-color: #3b82f6; }
+    .success { color: #16a34a; }
+    .error { color: #dc2626; }
+    button { background: #3b82f6; color: white; border: none; padding: 10px 24px; border-radius: 6px; font-size: 16px; cursor: pointer; }
+    button:hover { background: #2563eb; }
+    .copied { background: #16a34a; }
+    small { color: #71717a; }
+  </style>
+</head>
+<body>
+  <h2 id="heading">Processing...</h2>
+  <div id="content"></div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    const error = params.get('error');
+    const heading = document.getElementById('heading');
+    const content = document.getElementById('content');
+
+    if (code) {
+      heading.innerHTML = '✅ <span class="success">Authorization Successful</span>';
+      content.innerHTML = `
+        <p>Copy this code and send it to Micky:</p>
+        <div class="code-box" id="codeBox" onclick="copyCode()">${code}</div>
+        <button id="copyBtn" onclick="copyCode()">Copy Code</button>
+        <br><br><small>You can close this tab after copying.</small>
+      `;
+    } else if (error) {
+      heading.innerHTML = '❌ <span class="error">Authorization Failed</span>';
+      content.innerHTML = `<p>${error}: ${params.get('error_description') || 'Unknown error'}</p>`;
+    } else {
+      heading.innerHTML = '❌ <span class="error">No Code Received</span>';
+      content.innerHTML = '<p>No authorization code was returned. Please try again.</p>';
+    }
+
+    function copyCode() {
+      navigator.clipboard.writeText(code).then(() => {
+        const btn = document.getElementById('copyBtn');
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+      });
+    }
+  </script>
+</body>
+</html>
