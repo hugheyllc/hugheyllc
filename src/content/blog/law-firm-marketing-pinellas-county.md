@@ -6,7 +6,7 @@ author: "Joe Hughey"
 excerpt: "Pinellas County has one of the densest legal markets in Florida. Here's what actually works for law firm marketing — and what national agencies consistently get wrong."
 tags: ["law firm marketing", "Pinellas County", "local SEO", "Tampa Bay", "legal marketing consultant"]
 seo_title: "Law Firm Marketing in Pinellas County: What Actually Works | Joe Hughey"
-seo_description: "What actually works for law firm marketing in Pinellas County. Independent strategy consulting focused on cost per retained client for St. Pete, Clearwater, and Pinellas firms."
+seo_description: "What works for law firm marketing in Pinellas County. Independent strategy consulting focused on cost per retained client for St. Pete, Clearwater, and Pinellas firms."
 draft: false
 image: "/images/blog/law-firm-marketing-pinellas-county.webp"
 keywords: ["law firm marketing Pinellas County", "legal marketing Tampa Bay", "Pinellas County attorney marketing", "law firm SEO Florida", "legal marketing consultant", "Tampa Bay lawyer advertising", "Pinellas County legal services marketing"]

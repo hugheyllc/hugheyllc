@@ -6,7 +6,7 @@ author: "Joe Hughey"
 excerpt: "Introduction SEO as we knew it is evolving - and fast. With Google's AI Overviews and the rise of AI-driven search assistants, the new frontier for law firms is"
 tags: ["AEO", "AIO for lawyers", "AIO for law firms", "AEO for lawyers", "SEO for law firms", "law firm SEO", "AI search", "law firm website"]
 seo_title: "AIO and AEO for Lawyers: How to Get Your Law Firm Found by AI Search"
-seo_description: "AIO and AEO for law firms explained — how to structure your site so AI tools like ChatGPT, Perplexity, and Google AI Overviews recommend your firm when prospects search."
+seo_description: "AEO for law firms explained — how to structure your site so AI tools like ChatGPT, Perplexity, and Google AI Overviews recommend your firm when prospects search."
 draft: false
 image: "/images/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2.webp"
 keywords: ["AEO for law firms", "Answer Engine Optimization lawyers", "AI search optimization legal", "law firm AEO strategy", "SEO to AEO transition", "AI Overviews law firms", "legal marketing AEO", "law firm website optimization"]

@@ -3,10 +3,10 @@ title: "How Much Should a Small Law Firm Really Spend on Marketing in 2025?"
 slug: "how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025"
 date: 2024-12-16
 author: "Joe Hughey"
-excerpt: ""
+excerpt: "Most law firm owners spend either nothing or everything on marketing. Here's how to set a real marketing budget tied to business goals — with actual benchmarks by firm size and practice area."
 tags: ["law firm marketing", "marketing ROI", "law firm growth", "legal marketing"]
-seo_title: "How Much Should a Small Law Firm Really Spend on Marketing in 2025?"
-seo_description: ""
+seo_title: "How Much Should a Small Law Firm Spend on Marketing in 2025?"
+seo_description: "Practical law firm marketing budget benchmarks for 2025. Learn what small firms should spend by size, practice area, and growth stage — and how to track ROI."
 draft: false
 image: "/images/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025.webp"
 ---

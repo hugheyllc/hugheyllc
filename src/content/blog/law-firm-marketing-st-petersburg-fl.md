@@ -6,7 +6,7 @@ author: "Joe Hughey"
 excerpt: "St. Petersburg law firms face a unique competitive landscape. Here's how an independent marketing consultant helps you win — measured by cost per retained client, not vanity metrics."
 tags: ["law firm marketing", "Tampa Bay", "local SEO", "St. Petersburg", "legal marketing consultant"]
 seo_title: "Law Firm Marketing Consultant in St. Petersburg, FL | Joe Hughey"
-seo_description: "Independent law firm marketing consultant serving St. Petersburg, FL. Data-driven strategy focused on cost per retained client for PI, family law, and business litigation firms."
+seo_description: "Independent law firm marketing consultant in St. Petersburg, FL. Data-driven strategy focused on cost per retained client for PI, family law, and business litigation firms."
 draft: false
 image: "/images/blog/law-firm-marketing-st-petersburg-fl.webp"
 keywords: ["law firm marketing consultant St. Petersburg", "legal marketing St. Petersburg FL", "Tampa Bay law firm marketing", "St. Petersburg legal SEO", "Pinellas County law firm consultant", "Florida legal marketing services"]

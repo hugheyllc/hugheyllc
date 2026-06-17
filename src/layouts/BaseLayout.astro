@@ -14,7 +14,7 @@ interface Props {
 
 const { title, description, canonical: canonicalProp, ogImage, schema, noindex = false, preloadImage } = Astro.props;
 const siteUrl = 'https://hugheyllc.com';
-const defaultOgImage = `${siteUrl}/images/og-default.svg`;
+const defaultOgImage = `${siteUrl}/images/og-default.png`;
 // Always emit a canonical — fall back to current URL with trailing slash
 const canonical = canonicalProp ?? (siteUrl + Astro.url.pathname.replace(/\/?$/, '/'));
 
@@ -126,6 +126,7 @@ const organizationSchema = {
     {description && <meta name="description" content={description} />}
     <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"} />
     <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
     {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
 
     <!-- Open Graph -->
