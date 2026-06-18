@@ -15,7 +15,7 @@ If your intake form has a "how did you hear about us?" field, you're doing refer
 
 According to the [American Bar Association's 2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), most law firms still rely on basic intake methods despite the availability of sophisticated client relationship management systems that can provide comprehensive attribution tracking.
 
-That question has two problems. First, people don't remember. A prospective client might have seen your Google ad three weeks ago, read a review on Avvo last Tuesday, and then called because a colleague mentioned your name — and they'll answer "a friend" every time. Second, even when they remember, they simplify. They give you one answer. Marketing doesn't work in single touchpoints.
+That question has two problems. First, people don't remember. Research from [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) consistently shows that clients interact with multiple touchpoints before hiring an attorney—often without consciously tracking their own journey. A prospective client might have seen your Google ad three weeks ago, read a review on Avvo last Tuesday, and then called because a colleague mentioned your name — and they'll answer "a friend" every time. Second, even when they remember, they simplify. They give you one answer. Marketing doesn't work in single touchpoints.
 
 ## What "Referred By" Actually Captures
 
@@ -37,11 +37,11 @@ Adding more options to a dropdown doesn't solve the underlying problem. The fix 
 
 For attorney referrals: track by individual attorney name in your CRM, not just firm name. When you see that one family law attorney at a mid-size firm has sent you six estate cases in eight months, that's a relationship worth protecting. You won't see it if it's all tagged "attorney referral."
 
-For client referrals: link the referring client's record to the new matter. Most practice management systems support this. If yours doesn't, a simple field in intake that captures the referring client's matter number does the job. Over time you'll be able to see which client segments — PI clients, estate clients, business clients — generate the most referrals.
+For client referrals: link the referring client's record to the new matter. Most [law firm CRM systems](/blog/law-firm-crm-automation/) support this natively. If yours doesn't, a simple field in intake that captures the referring client's matter number does the job. Over time you'll be able to see which client segments — PI clients, estate clients, business clients — generate the most referrals.
 
 For professional referrals: treat these like attorney referrals. Name and organization matter. A CPA at a regional accounting firm who sends you four business disputes a year is a different asset than a one-time send from a financial advisor.
 
-For directories: don't rely on the intake question at all. Use UTM parameters in your listing URLs where directories allow it. For phone calls, use a unique tracking number per directory. The intake question is a backup, not the source of truth.
+For directories: don't rely on the intake question at all. Use [UTM parameters in your listing URLs](/blog/ga4-setup-law-firm-guide/) where directories allow it. For phone calls, use a unique [call tracking number](/blog/callrail-law-firm-setup-guide/) per directory. The intake question is a backup, not the source of truth.
 
 ## The Retention Rate Gap
 
@@ -51,7 +51,7 @@ Not all referred cases are equal. In the accounts I've reviewed, attorney referr
 
 If you're only tracking volume by source, you're missing this. A referral source that sends you 10 prospects who retain 3 is worse than a source that sends 5 who retain 4 — but it looks better on a volume report.
 
-Build a simple view: referral source → leads → retained clients → retention rate → average case value. That's the hierarchy. Volume without retention rate is noise.
+Build a simple view: referral source → leads → retained clients → retention rate → average case value. That's the hierarchy. Volume without retention rate is noise. Your [law firm's marketing ROI tracking](/blog/law-firm-marketing-roi-tracking/) depends on having this data clean.
 
 ## The Relationship Maintenance Problem
 
@@ -59,7 +59,7 @@ The other failure mode: firms that know their referral sources but don't act on 
 
 Knowing that a particular family law attorney sends you cases and doing nothing with that information is a missed opportunity. A quarterly check-in, a lunch twice a year, a handwritten note when a case closes well — these are low-cost, high-return activities. Most firms don't do them systematically because the data that would prompt them isn't visible anywhere.
 
-The referral tracking system should surface these cues automatically. When a referral source goes 90 days without sending a case and they've historically sent one per month, that's a signal worth investigating. When a new source sends three cases in 60 days, that's a relationship worth accelerating.
+The referral tracking system should surface these cues automatically. When a referral source goes 90 days without sending a case and they've historically sent one per month, that's a signal worth investigating. When a new source sends three cases in 60 days, that's a relationship worth accelerating. This is also where your [intake process audit](/blog/law-firm-intake-process-audit/) becomes relevant—you need consistent intake data to know which sources are actually converting.
 
 ## What Good Looks Like
 

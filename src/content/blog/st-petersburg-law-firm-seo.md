@@ -118,10 +118,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [Law Firm Marketing in Pinellas County: What Actually Works](https://hugheyllc.com/blog/law-firm-marketing-pinellas-county/)
-- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
+- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](/blog/clearwater-law-firm-marketing/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Law Firm Marketing in Pinellas County: What Actually Works](/blog/law-firm-marketing-pinellas-county/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](/blog/tampa-law-firm-marketing-landscape/)
 
 ## Frequently Asked Questions
 

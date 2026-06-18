@@ -13,7 +13,7 @@ image: "/images/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-
 
 # Practical budgeting rules for firm owners in 2025.
 
-Most law firm owners I talk to spend either nothing on marketing or everything on marketing, and neither strategy works. The firms that build predictable pipelines—the ones that aren't panicked about next quarter's revenue—operate from a **real marketing budget tied to business goals**. That budget changes by firm size, practice area, local competition, and growth stage. But the logic behind it stays the same: you're investing in visibility and conversion, and you need to know what you're willing to spend to acquire a client who's actually profitable.
+Most law firm owners I talk to spend either nothing on marketing or everything on marketing, and neither strategy works. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that the majority of law firms lack clear visibility into which marketing channels actually produce retained clients—which is why budgeting defaults to guesswork. The firms that build predictable pipelines—the ones that aren't panicked about next quarter's revenue—operate from a **real marketing budget tied to business goals**. That budget changes by firm size, practice area, local competition, and growth stage. But the logic behind it stays the same: you're investing in visibility and conversion, and you need to know what you're willing to spend to acquire a client who's actually profitable.
 
 Let me walk you through how to think about this, what the actual benchmarks are, and how to avoid the two traps I see constantly: underfunding marketing and then wondering why your referral network dries up, or overfunding it without tracking what's actually working.
 
@@ -112,10 +112,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
-- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+- [What High‑Growth Law Firms Do Differently With Marketing](/blog/what-high-growth-law-firms-do-differently-marketing/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
 
 ## Frequently Asked Questions
 

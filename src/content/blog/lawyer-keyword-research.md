@@ -13,7 +13,7 @@ image: "/images/blog/lawyer-keyword-research.webp"
 
 ## Why Legal Keyword Research Is Different
 
-The rules that apply to most industries break down fast when you're doing keyword research for a law firm. Three factors make legal SEO its own discipline.
+The rules that apply to most industries break down fast when you're doing keyword research for a law firm. Three factors make legal SEO its own discipline. [Clio's Legal Trends data](https://www.clio.com/resources/legal-trends/) consistently shows that online search is the primary way clients find attorneys—making keyword targeting one of the highest-leverage decisions a firm makes.
 
 **Cost-per-click in legal is brutally high.** "Personal injury attorney" keywords regularly hit $50–$150 per click in paid search. That price signal tells you something critical: these terms convert. Advertisers don't spend that kind of money on curiosity traffic. When a keyword carries a high CPC, treat it as a proxy for commercial intent, even when you're building an organic strategy. The same dynamic shows up in Google Ads — if you're running paid campaigns, careful [negative keyword work](/blog/law-firm-negative-keywords/) protects that high-CPC spend from leaking on the wrong searches.
 
@@ -157,10 +157,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](https://hugheyllc.com/blog/law-firm-keyword-research/)
-- [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
-- [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](https://hugheyllc.com/blog/family-law-firm-marketing/)
-- [The Law Firm SEO Audit: 10 Things to Check Before You Spend Another Dollar on Marketing](https://hugheyllc.com/blog/law-firm-seo-audit/)
+- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](/blog/law-firm-keyword-research/)
+- [Content Marketing for Law Firms: What Actually Drives Retained Clients](/blog/content-marketing-for-law-firms/)
+- [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](/blog/family-law-firm-marketing/)
+- [The Law Firm SEO Audit: 10 Things to Check Before You Spend Another Dollar on Marketing](/blog/law-firm-seo-audit/)
 
 ## Frequently Asked Questions
 

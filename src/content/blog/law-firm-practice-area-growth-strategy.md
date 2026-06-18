@@ -24,9 +24,9 @@ Before you commit resources to any practice area, you need to know the addressab
 
 A common pattern I see in accounts I've reviewed: firms estimate markets by asking "how many divorce cases happen in my county per year?" and multiplying by their desired close rate. That's backward. You need to know how many cases *are currently being marketed for* in that space, how much volume is flowing through paid channels, and how much of that volume your firm can realistically capture given your location, brand stage, and service model.
 
-Start with your local court data. If you're in Florida, county civil court filings are public. Divorce filings, personal injury claims, probate cases—they're all on the record. Pull the last three years of data. Look for trend direction: is volume growing, shrinking, or flat? A growing market is easier to enter than a declining one because you can grow without stealing share directly from competitors.
+Start with your local court data. If you're in Florida, county civil court filings are publicly searchable through [MyFlorida Court Access](https://myeclerk.myorangeclerk.com/) and similar county portals. Divorce filings, personal injury claims, probate cases—they're all on the record. Pull the last three years of data. Look for trend direction: is volume growing, shrinking, or flat? A growing market is easier to enter than a declining one because you can grow without stealing share directly from competitors.
 
-Next, look at competitor spend. Use Google Ads Library (for attorneys doing paid search in your state), review the competitors appearing in local search results, and check which firms are bidding on your target keywords. If five firms are spending aggressively on family law keywords in your market and the market is flat or declining, that's a crowded, competitive space. If two firms are present and market volume is growing, that's a gap.
+Next, look at competitor spend. Use [Google's Ads Transparency Center](https://adstransparency.google.com/) (for attorneys doing paid search in your state), review the competitors appearing in local search results, and check which firms are bidding on your target keywords. If five firms are spending aggressively on family law keywords in your market and the market is flat or declining, that's a crowded, competitive space. If two firms are present and market volume is growing, that's a gap.
 
 Finally, survey actual demand. Talk to referral sources—other attorneys, financial advisors, therapists, accountants who refer clients. Ask them how many prospective clients they see each month in that practice area, where those clients go, and whether they see room for another firm. That conversation will tell you more than any keyword volume report.
 
@@ -110,5 +110,5 @@ If you want help building this assessment for your firm or validating your curre
 
 *Related:*
 
-- [*The Law Firm Content Marketing Strategy That Generates Cases, Not Just Traffic*](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
-- [*How to Calculate Your Law Firm's True Cost Per Retained Client*](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
+- [*The Law Firm Content Marketing Strategy That Generates Cases, Not Just Traffic*](/blog/law-firm-content-marketing-strategy/)
+- [*How to Calculate Your Law Firm's True Cost Per Retained Client*](/blog/cost-per-retained-client-law-firm/)

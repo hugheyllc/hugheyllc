@@ -13,7 +13,7 @@ image: "/images/blog/agency-vs-consultant-law-firm-marketing.webp"
 
 The difference between a law firm marketing agency and an independent marketing consultant isn't just a matter of size. It's a difference in incentive structure — and that difference affects every dollar your firm spends on marketing.
 
-An agency profits when you spend more. A consultant profits when you get better results. That single distinction should inform every conversation you have about your firm's marketing.
+An agency profits when you spend more. A consultant profits when you get better results. That single distinction should inform every conversation you have about your firm's marketing. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) consistently documents that law firms have low confidence in their ability to track marketing ROI—a gap that the right advisor structure directly addresses.
 
 I've spent over 20 years in legal marketing, working on both sides of this equation. Here's what I wish every managing partner understood before signing their next marketing contract.
 
@@ -121,10 +121,10 @@ If you'd like a second opinion from an [law firm marketing consultant](https://h
 
 ### Related Reading
 
-- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
-- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](/blog/ai-tools-law-firm-marketing/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](/blog/business-law-firm-marketing/)
 
 ## Frequently Asked Questions
 

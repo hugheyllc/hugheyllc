@@ -124,10 +124,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
-- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
-- [The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025](https://hugheyllc.com/blog/small-firm-aeo-playbook/)
+- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](/blog/law-firm-website-seo-and-conversion/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](/blog/predictive-analytics-law-firm-growth/)
+- [The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025](/blog/small-firm-aeo-playbook/)
 
 ## Frequently Asked Questions
 

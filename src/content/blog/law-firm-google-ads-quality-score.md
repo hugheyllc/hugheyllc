@@ -110,10 +110,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Google Ads for Law Firms: Why Most Campaigns Fail — And What the Winning Ones Do Differently](https://hugheyllc.com/blog/google-ads-law-firms/)
-- [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](https://hugheyllc.com/blog/law-firm-google-business-profile/)
-- [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
-- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
+- [Google Ads for Law Firms: Why Most Campaigns Fail — And What the Winning Ones Do Differently](/blog/google-ads-law-firms/)
+- [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](/blog/law-firm-google-business-profile/)
+- [Content Marketing for Law Firms: What Actually Drives Retained Clients](/blog/content-marketing-for-law-firms/)
+- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
 
 ## Frequently Asked Questions
 

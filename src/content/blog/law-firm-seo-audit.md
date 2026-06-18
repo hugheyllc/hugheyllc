@@ -100,10 +100,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](https://hugheyllc.com/blog/st-petersburg-law-firm-seo/)
-- [Do Law Firms Actually Need an SEO Agency? An Honest Answer](https://hugheyllc.com/blog/do-law-firms-need-seo-agency/)
-- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
-- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
+- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](/blog/st-petersburg-law-firm-seo/)
+- [Do Law Firms Actually Need an SEO Agency? An Honest Answer](/blog/do-law-firms-need-seo-agency/)
+- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
+- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](/blog/video-and-visual-content-for-legal-seo-2025/)
 
 ## Frequently Asked Questions
 

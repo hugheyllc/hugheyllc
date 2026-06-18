@@ -22,7 +22,7 @@ The short version: if your firm already has a top-3 Map Pack position for your m
 
 Most local SEO work is repetitive. Claim the profile, fix the categories, audit citations, build location pages, set up the review flow, drop in schema. The hard part isn't knowing what to do — it's having the patience to actually do it in the right order without skipping the steps that feel boring.
 
-Agencies charge $3,000–$10,000 a month largely because the firm doesn't want to do the work themselves, not because the work is technically complex. I've spent more than two decades inside law firm marketing engagements, and the firms that win local search are the ones where one person owned the playbook and ran it end-to-end. The deliverable that consistently moved the needle wasn't strategy — it was a checklist somebody actually finished.
+Agencies charge $3,000–$10,000 a month largely because the firm doesn't want to do the work themselves, not because the work is technically complex. [BrightLocal's annual survey](https://www.brightlocal.com/research/local-seo-industry-survey/) consistently finds that most local SEO improvements come from executing fundamentals—profile optimization, citation consistency, and review velocity—rather than advanced tactics. I've spent more than two decades inside law firm marketing engagements, and the firms that win local search are the ones where one person owned the playbook and ran it end-to-end. The deliverable that consistently moved the needle wasn't strategy — it was a checklist somebody actually finished.
 
 So I wrote the checklist down. All of it.
 

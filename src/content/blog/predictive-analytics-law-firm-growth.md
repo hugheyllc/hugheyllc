@@ -138,10 +138,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
-- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
-- [Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know](https://hugheyllc.com/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/)
-- [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+- [Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know](/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/)
+- [What High‑Growth Law Firms Do Differently With Marketing](/blog/what-high-growth-law-firms-do-differently-marketing/)
 
 ## Frequently Asked Questions
 

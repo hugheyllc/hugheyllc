@@ -14,7 +14,7 @@ keywords: ["business law firm marketing", "b2b legal marketing", "commercial law
 
 Business law firm marketing is a fundamentally different discipline from consumer legal marketing — and the firms that apply consumer marketing tactics to B2B legal services typically get poor results because the underlying client decision dynamics are different.
 
-A business owner or general counsel evaluating a litigation firm is not in the same cognitive state as someone who just got into a car accident. They're making a considered decision about a long-term professional relationship, often involving significant legal fees. The sales cycle is longer, research is more thorough, and the decision is driven more by demonstrated expertise and professional credibility than by urgency and availability.
+A business owner or general counsel evaluating a litigation firm is not in the same cognitive state as someone who just got into a car accident. They're making a considered decision about a long-term professional relationship, often involving significant legal fees. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that business clients have significantly longer evaluation cycles and higher expectations for attorney responsiveness than individual clients. The sales cycle is longer, research is more thorough, and the decision is driven more by demonstrated expertise and professional credibility than by urgency and availability.
 
 ## The Business Law Client Decision Journey
 
@@ -59,10 +59,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
-- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
+- [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](/blog/ai-tools-law-firm-marketing/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](/blog/tampa-law-firm-marketing-landscape/)
+- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](/blog/clearwater-law-firm-marketing/)
 
 ## Frequently Asked Questions
 

@@ -14,11 +14,11 @@ keywords: ["negative keywords for law firms", "law firm google ads", "legal ppc 
 
 ## The Negative Keyword List Every Law Firm Google Ads Account Needs
 
-Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Not because the ads are bad. Not because the targeting is wrong. Because there are no guardrails on what searches *won't* trigger the ads.
+Most law firm Google Ads accounts are bleeding budget on searches that will never convert. Not because the ads are bad. Not because the targeting is wrong. Because there are no guardrails on what searches *won't* trigger the ads. A well-structured [law firm Google Ads quality score](/blog/law-firm-google-ads-quality-score/) depends in part on showing ads only to relevant searchers—and negative keywords are how you enforce that relevance.
 
 [Negative keywords](https://support.google.com/google-ads/answer/2453972) solve this. A negative keyword prevents your ad from showing when someone includes that term in their search. It's traffic prevention, not traffic generation — and for law firms running on finite budgets, it's one of the highest-ROI moves you can make.
 
-Here's what to add and why.
+Here's what to add and why. The [law firm landing page optimization](/blog/law-firm-landing-page-optimization/) work you do downstream also depends on this—better-qualified traffic converts at higher rates, which makes every other marketing investment more efficient.
 
 ## Searches Outside Your Practice Areas
 

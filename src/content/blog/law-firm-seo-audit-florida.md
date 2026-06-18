@@ -26,9 +26,9 @@ Let's start with structure. A legitimate **SEO audit for law firms** isn't a sin
 This is the part most vendors skim because it requires actual technical knowledge. A real technical audit checks:
 
 - **Crawlability and indexation** — Are all your important pages being indexed? Are pages being accidentally blocked by robots.txt or noindex tags? This happens more than you'd think, especially after site redesigns.
-- **Page speed and Core Web Vitals** — Google uses these as ranking signals. A site that loads in four seconds on mobile is costing you calls. Florida has heavy mobile search traffic, particularly in personal injury and family law.
+- **Page speed and Core Web Vitals** — Google uses these as ranking signals, as documented in [Google's Search Central documentation](https://developers.google.com/search/docs/appearance/core-web-vitals). A site that loads in four seconds on mobile is costing you calls. Florida has heavy mobile search traffic, particularly in personal injury and family law.
 - **Duplicate content and canonical issues** — Practice area pages that say nearly the same thing across multiple URLs will cannibalize each other.
-- **Structured data (schema markup)** — Law firms should have LocalBusiness, Attorney, and LegalService schema in place. Most don't.
+- **Structured data (schema markup)** — Law firms should have LocalBusiness, Attorney, and LegalService schema in place. [Schema.org's legal service markup standards](https://schema.org/LegalService) define exactly how to structure this data. Most firms don't.
 
 If your vendor's audit doesn't include a crawl report and a discussion of indexation errors, you're not getting a technical audit.
 
@@ -79,7 +79,7 @@ After looking at a lot of law firm websites, certain patterns show up repeatedly
 
 **Trusting vendor audits as objective assessments.** An agency that sells you an audit and then sells you the fix has a conflict of interest. That's not an audit — it's a proposal with extra steps. If you want an independent read on what to expect from a vendor relationship, the [10 questions to ask before hiring a law firm marketing agency](/blog/10-questions-to-ask-before-hiring-a-law-firm-marketing-agency/) is a useful starting point.
 
-**Not tracking cost per retained client.** SEO spend without a clear view of what a retained client actually costs you is an open checkbook. Before you evaluate whether your SEO is working, you need to know what "working" means in dollars. [Calculating your true cost per retained client](/blog/how-to-calculate-your-true-cost-per-retained-client/) gives you the framework to do that.
+**Not tracking cost per retained client.** SEO spend without a clear view of what a retained client actually costs you is an open checkbook. [Clio's annual Legal Trends Report](https://www.clio.com/resources/legal-trends/) documents how few law firms track meaningful marketing ROI—making it easy for vendors to obscure underperformance. Before you evaluate whether your SEO is working, you need to know what "working" means in dollars. [Calculating your true cost per retained client](/blog/how-to-calculate-your-true-cost-per-retained-client/) gives you the framework to do that.
 
 ---
 

@@ -18,7 +18,7 @@ According to [Google's official guidance on local search ranking factors](https:
 
 Law firms optimize for Google Business Profile and AI search results by maintaining weekly posting schedules on their GBP, implementing comprehensive schema markup that explicitly declares practice areas and jurisdiction, earning reviews that mention specific legal services and outcomes, and creating content that directly answers the questions AI systems pull from when recommending attorneys. The technical foundation matters, but the consistency of fresh signals—new reviews, new posts, new citations, new content—increasingly determines who appears in both the traditional local pack and AI-generated attorney recommendations.
 
-The local SEO landscape has fundamentally shifted since 2024. What worked two years ago—basic citation building, sporadic GBP updates, and hoping your homepage ranked—won't move the needle today.
+The local SEO landscape has fundamentally shifted since 2024. What worked two years ago—basic citation building, sporadic GBP updates, and hoping your homepage ranked—won't move the needle today. [BrightLocal's Local Consumer Review Survey](https://www.brightlocal.com/research/local-consumer-review-survey/) finds that 98% of consumers used the internet to find local businesses in the past year, with legal services among the fastest-growing local search categories.
 
 ## The Google Business Profile Algorithm Changed (Again)
 

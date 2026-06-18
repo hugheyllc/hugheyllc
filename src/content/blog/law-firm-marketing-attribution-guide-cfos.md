@@ -67,10 +67,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
-- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
-- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](https://hugheyllc.com/blog/what-to-ask-law-firm-marketing-company/)
+- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](/blog/law-firm-marketing-retainer-underdelivery/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](/blog/what-to-ask-law-firm-marketing-company/)
 
 ## Frequently Asked Questions
 

@@ -34,7 +34,7 @@ A high-converting landing page has one primary CTA visible without scrolling. Fo
 
 Legal is a high-stakes, high-trust purchase. Prospective clients need reassurance before they'll pick up the phone. The most effective social proof elements for law firm landing pages, in order of impact:
 
-- Star rating + number of reviews with a direct link to your [Google Business Profile](https://hugheyllc.com/blog/law-firm-google-business-profile/)
+- Star rating + number of reviews with a direct link to your [Google Business Profile](/blog/law-firm-google-business-profile/)
 - 2–3 specific client testimonials (not generic praise — specific outcomes: "They recovered $180,000 for my case after another firm said I had no claim")
 - Bar association memberships and relevant certifications
 - Press mentions or case results (where ethics rules permit)
@@ -78,10 +78,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
-- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
-- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
+- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](/blog/law-firm-website-homepage-design/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](/blog/law-firm-website-seo-and-conversion/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](/blog/law-firm-website-ada-compliance/)
 
 ## Frequently Asked Questions
 

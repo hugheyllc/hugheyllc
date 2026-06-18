@@ -136,10 +136,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Hyper Personalization and Client Experience: How Law Firms Win in 2025](https://hugheyllc.com/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/)
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
-- [2025 in Review: How Legal Marketing, AI and Intake Actually Changed](https://hugheyllc.com/blog/2025-review/)
-- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
+- [Hyper Personalization and Client Experience: How Law Firms Win in 2025](/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [2025 in Review: How Legal Marketing, AI and Intake Actually Changed](/blog/2025-review/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](/blog/predictive-analytics-law-firm-growth/)
 
 ## Frequently Asked Questions
 

@@ -12,7 +12,7 @@ image: "/images/blog/law-firm-marketing-consultant-tampa-bay.webp"
 keywords: ["law firm marketing consultant Tampa Bay", "Tampa Bay legal marketing", "law firm marketing Florida", "legal marketing consultant Tampa", "Tampa Bay attorney marketing", "law firm SEO Tampa", "legal advertising Tampa Bay", "Florida law firm consultant"]
 ---
 
-Tampa Bay is one of the most competitive legal markets in Florida. Between Tampa, St. Petersburg, Clearwater, and Sarasota, there are thousands of practicing attorneys competing for the same pool of prospective clients — and most of them are spending money on marketing without a clear picture of what's working.
+Tampa Bay is one of the most competitive legal markets in Florida. Between Tampa, St. Petersburg, Clearwater, and Sarasota, there are thousands of practicing attorneys competing for the same pool of prospective clients — and most of them are spending money on marketing without a clear picture of what's working. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) finds that the majority of law firms nationwide cannot accurately connect marketing spend to client acquisition—a problem that's amplified in dense markets like Tampa Bay.
 
 If you're a managing partner or firm principal looking for a law firm marketing consultant in the Tampa Bay area, here's what to look for and what to avoid.
 
@@ -115,10 +115,10 @@ If you'd like a second opinion from an [law firm marketing consultant](https://h
 
 ### Related Reading
 
-- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
-- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
-- [Law Firm Marketing Consultant for Sarasota Law Firms](https://hugheyllc.com/blog/law-firm-marketing-sarasota-fl/)
-- [Law Firm Marketing Consultant in St. Petersburg, FL](https://hugheyllc.com/blog/law-firm-marketing-st-petersburg-fl/)
+- [Law Firm Marketing Consultant in Tampa, FL](/blog/law-firm-marketing-consultant-tampa-fl/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](/blog/tampa-law-firm-marketing-landscape/)
+- [Law Firm Marketing Consultant for Sarasota Law Firms](/blog/law-firm-marketing-sarasota-fl/)
+- [Law Firm Marketing Consultant in St. Petersburg, FL](/blog/law-firm-marketing-st-petersburg-fl/)
 
 ## Frequently Asked Questions
 

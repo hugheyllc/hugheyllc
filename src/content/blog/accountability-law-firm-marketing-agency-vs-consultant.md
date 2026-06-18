@@ -14,9 +14,9 @@ keywords: ["law firm marketing agency accountability", "marketing agency results
 
 ## The Promise Nobody Can Keep
 
-According to the Federal Trade Commission's guidelines on advertising substantiation, businesses must have reasonable evidence to support any claims about results or performance before making them to consumers. This regulatory framework applies to marketing agencies making promises about outcomes they cannot realistically control or measure.
+According to the [Federal Trade Commission's guidelines on advertising substantiation](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking), businesses must have reasonable evidence to support any claims about results or performance before making them to consumers. This regulatory framework applies to marketing agencies making promises about outcomes they cannot realistically control or measure.
 
-Here's what happens in most law firm marketing agency pitches: they show you three case studies with impressive metrics, describe a comprehensive strategy, and sign you to a 12-month retainer. Then, six months in, you're asking why your intake is flat, and the agency points to "market conditions" or "timing" or "the algorithm."
+Here's what happens in most law firm marketing agency pitches: they show you three case studies with impressive metrics, describe a comprehensive strategy, and sign you to a 12-month retainer. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) consistently shows that law firms struggle to connect marketing spend to actual case intake—and this accountability gap is a primary reason. Then, six months in, you're asking why your intake is flat, and the agency points to "market conditions" or "timing" or "the algorithm."
 
 The truth is simpler than you think: **no marketing agency can guarantee results because results depend on variables they don't control**. What they *can* control is effort, transparency, and alignment with your actual business goals. That distinction—between what's controllable and what isn't—is the foundation of real accountability in law firm marketing.
 
@@ -90,8 +90,8 @@ If you're unsure whether your current setup is truly accountable or you're about
 
 ### Related Reading
 
-- [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](https://hugheyllc.com/blog/how-to-hire-independent-law-firm-marketing-consultant/)
-- [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](https://hugheyllc.com/blog/why-law-firms-fire-marketing-agency/)
+- [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](/blog/how-to-hire-independent-law-firm-marketing-consultant/)
+- [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](/blog/why-law-firms-fire-marketing-agency/)
 
 ## Frequently Asked Questions
 

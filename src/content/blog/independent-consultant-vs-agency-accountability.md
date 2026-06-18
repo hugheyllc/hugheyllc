@@ -16,7 +16,7 @@ The question isn't really "agency or consultant?"—it's "Who owns the outcome?"
 
 According to the [American Bar Association's guidelines on legal marketing](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/), attorneys must ensure their marketing efforts comply with professional conduct rules, making it crucial to work with specialists who understand both marketing effectiveness and legal ethics requirements.
 
-A law firm marketing agency is a business selling you a service. An independent consultant is a specialist held directly accountable for the results you're paying for. The difference shows up in decisions, timelines, and who really loses sleep when a campaign doesn't convert.
+A law firm marketing agency is a business selling you a service. An independent consultant is a specialist held directly accountable for the results you're paying for. Understanding [why law firms fire their marketing agency](/blog/why-law-firms-fire-marketing-agency/) often comes down to exactly this accountability gap. The difference shows up in decisions, timelines, and who really loses sleep when a campaign doesn't convert.
 
 Most firms I've worked with don't ask this question until something breaks. They've signed a retainer, the leads stall, and suddenly they're wondering why nobody inside the agency seems to own the problem. By then, they're locked into a contract and facing a renegotiation no one wins.
 
@@ -26,7 +26,7 @@ This post walks through the accountability structures in both models—and how t
 
 A marketing agency is built to serve multiple clients simultaneously. That's its economic model. Account managers juggle three to five firms. The SEO person touches a dozen accounts. The content writer handles fifteen.
 
-This structure creates real benefits. You get access to specialists. The agency has invested in tools, infrastructure, and process. They've done this hundreds of times. When something breaks, there's usually someone on staff who knows how to fix it.
+This structure creates real benefits. You get access to specialists. The agency has invested in tools, infrastructure, and process. You can [evaluate what that process should look like](/blog/how-to-set-manage-your-law-firm-marketing-agency/) before signing anything. They've done this hundreds of times. When something breaks, there's usually someone on staff who knows how to fix it.
 
 But there's a built-in tension: nobody inside that agency loses money if your firm doesn't grow. The agency gets paid on retainer regardless. If your leads drop, they can blame search algorithm changes, market conditions, or a competitor's aggressive bidding—and they're often right about those things. But right or wrong, they still got paid.
 
@@ -34,11 +34,11 @@ Firms that use agencies typically see slower feedback loops. A campaign underper
 
 The accountability issue gets worse with retainers. An agency retainer is predictable revenue. It doesn't scale with your results. Whether you sign three new clients or thirty, the agency checks the same deposit box. Most retainers also include "managed services"—a catch-all that can mean anything. Your account manager gets reassigned mid-year? The agency is still getting paid. Your strategist doesn't follow up on your feedback? Still getting paid.
 
-None of this makes an agency evil or dishonest. It just means the economic incentives are different. The agency wins by keeping you as a client. Retaining you matters more than growing you. That shapes every decision, whether anyone admits it or not.
+None of this makes an agency evil or dishonest. It just means the economic incentives are different. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) documents how law firms consistently struggle to connect marketing spend to actual client acquisition—structural misalignment like this is a key driver. The agency wins by keeping you as a client. Retaining you matters more than growing you. That shapes every decision, whether anyone admits it or not.
 
 ## The Independent Consultant Model: Direct Ownership, Limited Bandwidth, Higher Stakes
 
-An independent consultant typically works with three to six firms at a time. Sometimes fewer. That's by design.
+An independent consultant typically works with three to six firms at a time. Sometimes fewer. That's by design. Many firms find this structure works well alongside [a fractional content or SEO strategy](/blog/law-firm-content-marketing-strategy/).
 
 When you hire someone independent, you're hiring their reputation. They don't have a brand bigger than themselves to hide behind. If your firm's marketing underperforms, they own that. Not abstractly—it's their income, their track record, their name on the line.
 
@@ -54,7 +54,7 @@ This is actually a feature, not a bug. Firms that do this typically see better r
 
 The real question isn't the structure—it's whether your marketing partner can name the specific metric they're accountable for.
 
-A good [law firm marketing agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/) will tell you "We're accountable for cost per lead and lead quality." A good independent consultant will tell you "We're accountable for getting you retained clients under your target cost and keeping your CAC below X."
+A good [law firm marketing agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/) will tell you "We're accountable for cost per lead and lead quality." A good independent consultant will tell you "We're accountable for getting you retained clients under your target cost and keeping your CAC below X."
 
 The vague version you should run from: "We're accountable for driving traffic and generating leads." That's too far upstream from what actually matters—money in the door.
 
@@ -78,7 +78,7 @@ Similarly, ask an agency: "Can we tie part of your fee to performance metrics?" 
 
 You should also ask: "How many clients do you work with?" Fewer is usually better for attention. "Who's actually doing the work?" Make sure it's not an account manager—it's the person with real expertise. "What's outside your wheelhouse?" Anyone honest will have an answer.
 
-The best way to [hire an independent law firm marketing consultant](https://hugheyllc.com/blog/how-to-hire-independent-law-firm-marketing-consultant/) is to ask hard questions about how they're measured and what they do when targets slip. The same questions work for an agency. The difference is usually in the answers.
+The best way to [hire an independent law firm marketing consultant](/blog/how-to-hire-independent-law-firm-marketing-consultant/) is to ask hard questions about how they're measured and what they do when targets slip. The same questions work for an agency. The difference is usually in the answers.
 
 ## The Real Risk in Either Model: Misaligned Goals
 
@@ -88,12 +88,12 @@ If you want someone to run a piece of your marketing stack and report monthly, a
 
 Start with your goal, not the structure. Then pick the partner whose incentives actually align with it.
 
-If you're unsure whether your current setup is working, or you want a second opinion on your strategy, [let's talk about where you stand](https://hugheyllc.com/contact/). I can usually spot misaligned partnerships pretty quickly and offer clarity on what would actually move the needle.
+If you're unsure whether your current setup is working, or you want a second opinion on your strategy, [let's talk about where you stand](/contact/). I can usually spot misaligned partnerships pretty quickly and offer clarity on what would actually move the needle.
 
 ### Related Reading
 
-- [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](https://hugheyllc.com/blog/how-to-hire-independent-law-firm-marketing-consultant/)
-- [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](https://hugheyllc.com/blog/why-law-firms-fire-marketing-agency/)
+- [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](/blog/how-to-hire-independent-law-firm-marketing-consultant/)
+- [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](/blog/why-law-firms-fire-marketing-agency/)
 
 ## Frequently Asked Questions
 

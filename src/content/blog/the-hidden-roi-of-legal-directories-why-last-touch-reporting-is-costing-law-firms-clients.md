@@ -16,9 +16,9 @@ keywords: ["legal directory ROI", "law firm marketing analytics", "legal marketi
 
 ## Introduction
 
-Legal directories like Martindale, Avvo, FindLaw, Lawyers.com, and Super Lawyers quietly do an enormous amount
+Legal directories like Martindale, Avvo, FindLaw, Lawyers.com, and Super Lawyers quietly do an enormous amount of work in your marketing ecosystem. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that clients typically research attorneys across multiple touchpoints before making contact—and directories are often one of those unseen stops.
 
-of work in your marketing ecosystem. They influence how AI systems summarize you, how consumers validate your
+ They influence how AI systems summarize you, how consumers validate your
 
 credibility, and how referrals feel about picking up the phone. Yet when most firms open their analytics,
 
@@ -183,10 +183,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
-- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
-- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [How to Calculate Your Law Firm's True Cost Per Retained Client](/blog/cost-per-retained-client-law-firm/)
+- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
 
 ## Frequently Asked Questions
 

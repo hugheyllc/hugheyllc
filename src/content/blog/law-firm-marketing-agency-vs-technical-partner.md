@@ -16,7 +16,7 @@ When a law firm decides to invest in digital marketing, the first question they 
 
 According to the American Bar Association's 2023 Legal Technology Survey Report, law firms that invest in integrated marketing technology see 40% higher client acquisition rates than those using disconnected tools. The [ABA's annual survey](https://www.americanbar.org/groups/law_practice/publications/techreport/) consistently shows that technology integration is the top differentiator in legal marketing success.
 
-It's the wrong question — not because agencies are bad, but because "agency" describes only one model of how a marketing partner can work with your firm. And for the specific gaps that hold most law firms back from marketing performance, the agency model has structural limitations that no amount of talent or budget can overcome.
+It's the wrong question — not because agencies are bad, but because "agency" describes only one model of how a marketing partner can work with your firm. [Clio's Legal Trends data](https://www.clio.com/resources/legal-trends/) consistently shows that law firms struggle to connect marketing investment to client acquisition—a problem that often traces back to choosing the wrong partner model. And for the specific gaps that hold most law firms back from marketing performance, the agency model has structural limitations that no amount of talent or budget can overcome.
 
 ## What a Law Firm Marketing Agency Actually Does
 
@@ -28,7 +28,7 @@ But there are two things a campaign-focused agency typically doesn't build:
 
 - **The attribution infrastructure that connects campaigns to revenue** — the connected stack of [CallRail](/blog/callrail-law-firm-setup-guide/), [GA4](/blog/ga4-setup-law-firm-guide/), [Lawmatics](/blog/lawmatics-vs-clio-grow/), and Google Ads that tells you which campaigns are actually signing cases
 
-Without the first, campaign results are capped by technical limitations they didn't create and can't fix. Without the second, there's no way to know whether the campaigns are actually working. See our complete breakdown: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
+Without the first, campaign results are capped by technical limitations they didn't create and can't fix. Without the second, there's no way to know whether the campaigns are actually working. See our complete breakdown: [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/).
 
 ## The Infrastructure Gap Most Law Firms Don't Know They Have
 
@@ -113,10 +113,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
-- [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](https://hugheyllc.com/blog/agency-vs-consultant-law-firm-marketing/)
-- [How to Set &amp; Manage Your Law-Firm Marketing Agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/)
-- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](https://hugheyllc.com/blog/law-firm-marketing-attribution-guide-cfos/)
+- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](/blog/law-firm-marketing-retainer-underdelivery/)
+- [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](/blog/agency-vs-consultant-law-firm-marketing/)
+- [How to Set &amp; Manage Your Law-Firm Marketing Agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/)
+- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](/blog/law-firm-marketing-attribution-guide-cfos/)
 
 ## Frequently Asked Questions
 

@@ -126,10 +126,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](https://hugheyllc.com/blog/st-petersburg-law-firm-seo/)
-- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
-- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
-- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](/blog/st-petersburg-law-firm-seo/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](/blog/tampa-law-firm-marketing-landscape/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](/blog/business-law-firm-marketing/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](/blog/law-firm-marketing-agency-vs-technical-partner/)
 
 ## Frequently Asked Questions
 

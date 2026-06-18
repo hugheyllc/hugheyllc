@@ -18,7 +18,7 @@ According to the American Bar Association's 2023 Legal Technology Survey, 76% of
 
 An independent law firm marketing consultant is a self-employed professional who works directly with your firm on strategy, execution, and measurement—without the overhead, bureaucracy, or account manager layers of a traditional agency. Unlike full-service agencies that assign junior staff to your account and charge retainers based on headcount, an independent consultant typically works on focused engagements (retainer, project, or hybrid models) and maintains a smaller client roster so each firm gets meaningful attention.
 
-The core difference: accountability is personal. You work with the same person who's analyzing your data, making your recommendations, and owning the results. There's no "my supervisor will review that" or "let me loop in the strategy team." That directness is both the strength and the selection challenge—you need to vet individual competence, not just brand reputation.
+The core difference: accountability is personal. You work with the same person who's analyzing your data, making your recommendations, and owning the results. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) consistently documents that law firms struggle to connect marketing spend to client acquisition—exactly the gap a dedicated consultant is positioned to close. There's no "my supervisor will review that" or "let me loop in the strategy team." That directness is both the strength and the selection challenge—you need to vet individual competence, not just brand reputation.
 
 An independent law firm marketing consultant operates as a strategic extension of your team. They audit your current marketing stack, identify gaps (weak SEO, underperforming ads, missing attribution), and execute fixes without being bound by the vendor relationships or inflexible processes that agencies often inherit. This flexibility lets them recommend the simplest, most cost-effective solution—even if it means a smaller monthly spend.
 
@@ -106,8 +106,8 @@ If you're ready to explore whether a consultant approach is right for your firm,
 
 ### Related Reading
 
-- https://hugheyllc.com/blog/agency-vs-consultant-law-firm-marketing/
-- https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/
+- [Law Firm Marketing Agency vs. Independent Consultant](/blog/agency-vs-consultant-law-firm-marketing/)
+- [Law Firm Marketing Agency vs. Technical Partner](/blog/law-firm-marketing-agency-vs-technical-partner/)
 
 ## Frequently Asked Questions
 

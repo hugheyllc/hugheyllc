@@ -64,10 +64,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
-- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](https://hugheyllc.com/blog/law-firm-marketing-attribution-guide-cfos/)
-- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](https://hugheyllc.com/blog/what-to-ask-law-firm-marketing-company/)
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](/blog/law-firm-marketing-attribution-guide-cfos/)
+- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](/blog/what-to-ask-law-firm-marketing-company/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
 
 ## Frequently Asked Questions
 

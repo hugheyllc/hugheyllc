@@ -14,7 +14,7 @@ keywords: ["law firm marketing budget", "legal marketing budget", "attorney mark
 
 ## How to Set a Law Firm Marketing Budget That Makes Sense
 
-Most law firms set their marketing budget by either copying what they spent last year or picking a percentage of revenue they heard from a consultant. Both approaches are wrong. I've watched firms spend $40,000 on a website redesign that moved the needle zero, while another firm made five figures in new revenue from a $3,000 attribution fix.
+Most law firms set their marketing budget by either copying what they spent last year or picking a percentage of revenue they heard from a consultant. Both approaches are wrong. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that most law firms cannot accurately measure marketing ROI—which is exactly why budget-setting defaults to guesswork. I've watched firms spend $40,000 on a website redesign that moved the needle zero, while another firm made five figures in new revenue from a $3,000 attribution fix.
 
 Your budget should tie directly to your [client acquisition cost](/blog/cost-per-retained-client-law-firm/) and your revenue per client. Without that math, you're guessing.
 

@@ -95,10 +95,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Keyword Research for Lawyers: How to Find the Terms That Actually Bring in Cases](https://hugheyllc.com/blog/lawyer-keyword-research/)
-- [How Law Firms Build Backlinks Without Paying for Them](https://hugheyllc.com/blog/law-firm-link-building/)
-- [AI Search and Law Firms: How to Stay Visible as Google, ChatGPT, and Perplexity Change How Clients Find Attorneys](https://hugheyllc.com/blog/ai-search-law-firms/)
-- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
+- [Keyword Research for Lawyers: How to Find the Terms That Actually Bring in Cases](/blog/lawyer-keyword-research/)
+- [How Law Firms Build Backlinks Without Paying for Them](/blog/law-firm-link-building/)
+- [AI Search and Law Firms: How to Stay Visible as Google, ChatGPT, and Perplexity Change How Clients Find Attorneys](/blog/ai-search-law-firms/)
+- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](/blog/clearwater-law-firm-marketing/)
 
 ## Frequently Asked Questions
 

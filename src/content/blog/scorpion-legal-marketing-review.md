@@ -12,7 +12,7 @@ image: "/images/blog/scorpion-legal-marketing-review.webp"
 keywords: ["Scorpion legal marketing review", "law firm marketing agency", "Scorpion marketing pros and cons", "legal marketing consultant", "law firm digital marketing", "Scorpion vs other legal marketing", "attorney marketing services", "legal marketing accountability"]
 ---
 
-Scorpion is one of the largest legal marketing companies in the country. They serve thousands of law firms, invest heavily in technology, and market themselves as an AI-powered platform that can transform your firm's growth.
+Scorpion is one of the largest legal marketing companies in the country. They serve thousands of law firms, invest heavily in technology, and market themselves as an AI-powered platform that can transform your firm's growth. [Clio's Legal Trends data](https://www.clio.com/resources/legal-trends/) shows that most law firms struggle to measure whether large marketing investments produce retained clients—which is exactly the accountability question every Scorpion prospect should be asking.
 
 According to the [American Bar Association's guidance on legal marketing](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_3_solicitation_of_clients/), attorneys must ensure their marketing practices comply with professional conduct rules and avoid misleading claims about results or capabilities.
 
@@ -132,10 +132,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](https://hugheyllc.com/blog/agency-vs-consultant-law-firm-marketing/)
-- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
-- [Legal Marketing in 2025: Trends Every Law Firm Should Watch](https://hugheyllc.com/blog/legal-marketing-in-2025-5-trends-every-law-firm-should-watch/)
-- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
+- [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](/blog/agency-vs-consultant-law-firm-marketing/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [Legal Marketing in 2025: Trends Every Law Firm Should Watch](/blog/legal-marketing-in-2025-5-trends-every-law-firm-should-watch/)
+- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](/blog/law-firm-marketing-retainer-underdelivery/)
 
 ## Frequently Asked Questions
 

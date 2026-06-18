@@ -70,7 +70,7 @@ Local SEO results don't show up in standard Google Analytics reports — you nee
 - **Keyword ranking positions for local terms** — tracked by city, not just globally
 - **Citation consistency score** — any new inconsistencies should be caught and corrected monthly
 
-Connecting these local metrics to your intake data — which calls from local search actually became retained clients — is the full-loop reporting that our [law firm marketing technology work](https://hugheyllc.com/blog/law-firm-marketing-data/) is built around.
+Connecting these local metrics to your intake data — which calls from local search actually became retained clients — is the full-loop reporting that our [law firm marketing technology work](/blog/law-firm-marketing-data/) is built around.
 
 <hr />
 <div>
@@ -94,10 +94,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How Tampa Law Firms Are Winning the Google Local Pack in 2026](https://hugheyllc.com/blog/tampa-law-firms-winning-local-pack/)
-- [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](https://hugheyllc.com/blog/law-firm-google-business-profile/)
-- [Do Law Firms Actually Need an SEO Agency? An Honest Answer](https://hugheyllc.com/blog/do-law-firms-need-seo-agency/)
-- [The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients](https://hugheyllc.com/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/)
+- [How Tampa Law Firms Are Winning the Google Local Pack in 2026](/blog/tampa-law-firms-winning-local-pack/)
+- [The Law Firm Google Business Profile Guide: How to Dominate Local Search in 2025](/blog/law-firm-google-business-profile/)
+- [Do Law Firms Actually Need an SEO Agency? An Honest Answer](/blog/do-law-firms-need-seo-agency/)
+- [The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients](/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/)
 
 ## Frequently Asked Questions
 

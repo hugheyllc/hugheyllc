@@ -15,11 +15,11 @@ keywords: ["legal marketing 2025", "law firm AI marketing", "legal intake optimi
 
 **Purpose:** Provide a long‑form retrospective on the year 2025 for law firm marketing. This blog identifies what really changed, what failed quietly and what matters going into 2026. It builds trust by citing verifiable facts and linking to complementary content on joehughey.com.
 
-According to the American Bar Association's 2025 Legal Technology Survey, over 78% of law firms now use some form of AI in their marketing or intake processes, representing a 45% increase from the previous year. This rapid adoption reflects the legal profession's growing comfort with technology-assisted client acquisition strategies.
+According to the [American Bar Association's 2025 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), over 78% of law firms now use some form of AI in their marketing or intake processes, representing a 45% increase from the previous year. This rapid adoption reflects the legal profession's growing comfort with technology-assisted client acquisition strategies.
 
 ## Introduction
 
-The legal marketing landscape in 2025 was marked by accelerated adoption of artificial intelligence (AI), rising client expectations and a massive increase in competition. Many agencies published trend lists, but few looked at whether those trends translated into improved intake, higher quality cases or profitable growth. This review separates hype from reality and explains what actually moved the needle for law firms.
+The legal marketing landscape in 2025 was marked by accelerated adoption of artificial intelligence (AI), rising client expectations and a massive increase in competition. [Clio's 2025 Legal Trends Report](https://www.clio.com/resources/legal-trends/) identified client communication speed and marketing attribution as the top pain points firms aimed to solve through technology. Many agencies published trend lists, but few looked at whether those trends translated into improved intake, higher quality cases or profitable growth. This review separates hype from reality and explains what actually moved the needle for law firms.
 
 ## AI Did Not Replace Marketing – It Rewired It
 
@@ -68,10 +68,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Hyper Personalization and Client Experience: How Law Firms Win in 2025](https://hugheyllc.com/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/)
-- [How Prompt Engineering Is Transforming Legal Practice in 2025](https://hugheyllc.com/blog/prompt-engineering-for-law-firms-2025/)
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
-- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
+- [Hyper Personalization and Client Experience: How Law Firms Win in 2025](/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/)
+- [How Prompt Engineering Is Transforming Legal Practice in 2025](/blog/prompt-engineering-for-law-firms-2025/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
 
 ## Frequently Asked Questions
 

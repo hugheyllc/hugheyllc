@@ -24,7 +24,7 @@ High-performing law firm Google Ads campaigns use **phrase match** and **exact m
 
 ## Mistake 2: Sending Ad Traffic to the Homepage
 
-We covered this in [our landing page guide](https://hugheyllc.com/blog/law-firm-landing-page-optimization/), but it bears repeating: sending paid traffic to a homepage is one of the most common and costly mistakes in law firm Google Ads. The homepage has too many competing elements and no single, focused message that matches the intent of a search ad.
+We covered this in [our landing page guide](/blog/law-firm-landing-page-optimization/), but it bears repeating: sending paid traffic to a homepage is one of the most common and costly mistakes in law firm Google Ads. The homepage has too many competing elements and no single, focused message that matches the intent of a search ad.
 
 Every ad group should have a dedicated landing page that matches the specific keyword theme. Ads for "Tampa DUI attorney" go to a DUI-specific page. Ads for "business contract dispute attorney" go to a business litigation page. The closer the match between ad copy, keyword, and landing page, the higher your [Quality Score](https://support.google.com/google-ads/answer/6167118) — which directly reduces your cost per click.
 
@@ -48,7 +48,7 @@ The highest-performing law firm Google Ads campaigns share a few common characte
 - **3–5 ad variants per group** — testing different headlines and descriptions to find what resonates with prospective clients
 - **Ad extensions fully populated** — call extensions, location extensions, sitelink extensions, and lead form extensions all increase click-through rates and Quality Scores
 - **Dayparting and geographic targeting** — running ads only during hours when your intake team is available, and only in the geographic areas you actually serve
-- **Monthly performance reviews against intake data** — not just click and impression metrics, but which campaigns are generating retained clients. This requires the [full attribution stack](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/) connecting Ads to your CRM.
+- **Monthly performance reviews against intake data** — not just click and impression metrics, but which campaigns are generating retained clients. This requires the [full attribution stack](/blog/law-firm-marketing-roi-tracking/) connecting Ads to your CRM.
 
 ## How Much Should a Law Firm Spend on Google Ads?
 
@@ -87,10 +87,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Google Ads Quality Score for Law Firms: Why It Matters and How to Improve It](https://hugheyllc.com/blog/law-firm-google-ads-quality-score/)
-- [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](https://hugheyllc.com/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)
-- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](https://hugheyllc.com/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
-- [How Tampa Law Firms Are Winning the Google Local Pack in 2026](https://hugheyllc.com/blog/tampa-law-firms-winning-local-pack/)
+- [Google Ads Quality Score for Law Firms: Why It Matters and How to Improve It](/blog/law-firm-google-ads-quality-score/)
+- [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)
+- [From PPC to Profit: Mapping Spend to Revenue in Your Law Practice](/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice/)
+- [How Tampa Law Firms Are Winning the Google Local Pack in 2026](/blog/tampa-law-firms-winning-local-pack/)
 
 ## Frequently Asked Questions
 

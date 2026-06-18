@@ -26,7 +26,7 @@ For transactional queries ("Tampa personal injury attorney"), AI Overviews are l
 
 ## How to Be the Source AI Systems Cite
 
-The same factors that constitute strong [E-E-A-T](https://hugheyllc.com/blog/eeat-law-firm-seo/) for traditional Google search make your content more likely to be cited in AI-generated answers:
+The same factors that constitute strong [E-E-A-T](/blog/eeat-law-firm-seo/) for traditional Google search make your content more likely to be cited in AI-generated answers:
 
 **Original expertise in the content.** AI systems favor content demonstrating genuine first-hand knowledge — blog posts authored by named attorneys with specific credentials, discussing specific Florida cases and local court procedures. This is the content AI systems find and cite as authoritative.
 
@@ -145,10 +145,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](https://hugheyllc.com/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)
-- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](https://hugheyllc.com/blog/law-firm-keyword-research/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
+- [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)
+- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](/blog/law-firm-keyword-research/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms](/blog/eeat-law-firm-seo/)
 
 ## Frequently Asked Questions
 

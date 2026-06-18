@@ -24,7 +24,7 @@ I've tracked conversion data across 40+ firms over the past three years. The one
 
 Here's what most marketing tactics can't do: **stay in front of someone for six months without burning budget.**
 
-A Google Ad disappears the moment someone stops searching. A Facebook ad depends on algorithm shifts. But email—if you own the list—sits in their inbox until they're ready to move.
+A [Google Ad](/blog/google-ads-law-firms/) disappears the moment someone stops searching. A Facebook ad depends on algorithm shifts. But email—if you own the list—sits in their inbox until they're ready to move.
 
 I worked with a family law firm in Atlanta that had 340 email subscribers from past consultations and website visitors. They weren't running paid ads. Over 18 months, 23 of those subscribers became clients—an average case value of $4,200. That's $96,600 in revenue from a list that cost almost nothing to maintain. Compare that to their PPC spend, which was running $8,000/month to generate comparable leads.
 
@@ -74,7 +74,7 @@ Lawyer prospects assume you're trying to sell them. A subject line that **sounds
 
 ## The Technical Side You Need to Handle
 
-You don't need a complex CRM. Most firms I work with use one of three tools:
+You don't need a complex [CRM](/blog/law-firm-crm-automation/). Most firms I work with use one of three tools:
 
 - **Mailchimp** (free up to 500 contacts; workflow automation included)
 - **ConvertKit** (designed for creators, but works for lead nurturing; $25/month)
@@ -87,9 +87,11 @@ Tag every email subscriber with at least three data points:
 2. Their practice area of interest (family law, business, criminal)
 3. Whether they're a past client or prospect
 
+This segmentation mirrors the same logic behind [law firm content marketing strategy](/blog/law-firm-content-marketing-strategy/)—the right message to the right audience at the right stage.
+
 Then build conditional workflows: "If prospect hasn't opened an email in 30 days, send a win-back sequence. If they open more than 50% of emails, escalate them to a personal call from a partner."
 
-A business law firm I work with segments their 920 subscribers into just six groups. Their conversion rates jumped 34% year-over-year because they stopped sending divorce case updates to business owners.
+A business law firm I work with segments their 920 subscribers into just six groups. For reference, [the FTC's CAN-SPAM Act](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) governs commercial email practices and applies to law firm outreach—compliance is straightforward but worth reviewing. Their conversion rates jumped 34% year-over-year because they stopped sending divorce case updates to business owners.
 
 ## Your First 30 Days
 
@@ -99,7 +101,7 @@ Send them. Track opens and clicks over 60 days.
 
 Then, before you scale, write three more emails. Build to a 12-email sequence over six months. Let it run. By month four, you'll know if nurture email works for your firm and your audience.
 
-Most firms don't do this because it feels slow. But email is the only leverage you have after someone leaves your office. Use it.
+Most firms don't do this because it feels slow. But email is the only leverage you have after someone leaves your office. Use it. And when a prospect finally responds, your [intake process](/blog/law-firm-intake-speed/) needs to be fast enough to capitalize.
 
 ## Frequently Asked Questions
 

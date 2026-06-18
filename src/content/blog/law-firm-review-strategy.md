@@ -24,11 +24,11 @@ Here's the direct path forward.
 
 ## Why Your Review Count Matters (More Than You Think)
 
-Google doesn't reveal the exact ranking weight it gives to review quantity and recency, but the pattern is unmistakable across verticals. A law firm with 8 reviews and a 4.8 rating consistently outranks a competitor with 2 reviews at 4.9 in the same market.
+Google doesn't reveal the exact ranking weight it gives to review quantity and recency, but [Google's own guidance on Business Profiles](https://support.google.com/business/answer/2912346) confirms that prominence and engagement signals influence local rankings—and the pattern is unmistakable across verticals. A law firm with 8 reviews and a 4.8 rating consistently outranks a competitor with 2 reviews at 4.9 in the same market.
 
-More important: the first interaction most potential clients have with your firm is that Google Business Profile. They see your phone number, your hours, your address, and your reviews—all before they click to your website. If that profile looks dormant (last review was 18 months ago), they've already made a judgment.
+More important: the first interaction most potential clients have with your firm is that [Google Business Profile](/blog/law-firm-google-business-profile/). They see your phone number, your hours, your address, and your reviews—all before they click to your website. If that profile looks dormant (last review was 18 months ago), they've already made a judgment.
 
-In my experience, personal injury and family law firms see the biggest ROI from review generation. Those are high-consideration purchases. People are actively comparing three firms. One extra review per month—compounded over a year—shifts the decision matrix noticeably.
+In my experience, [personal injury](/blog/personal-injury-law-firm-marketing/) and family law firms see the biggest ROI from review generation. Those are high-consideration purchases. People are actively comparing three firms. One extra review per month—compounded over a year—shifts the decision matrix noticeably.
 
 ## The System That Actually Works
 
@@ -64,7 +64,7 @@ One firm I worked with in Orlando (DUI defense) added a QR code to their invoice
 
 A family law firm in Tampa went from 12 Google reviews (4.6 stars) in January to 31 reviews (4.7 stars) by September using this system. They added it to their paralegal's checklist. Two calls per week. That's 96 calls annually. Conservative conversion: 10–12 reviews per month.
 
-Their call volume from Google "people search" increased 23% year-over-year. They tracked this by adding a specific phone number to their GMB listing and monitoring the call logs. More calls. Better attribution. The only change was review volume.
+Their call volume from Google "people search" increased 23% year-over-year. They tracked this by adding a specific phone number to their GMB listing and monitoring the call logs through their [call tracking setup](/blog/callrail-law-firm-setup-guide/). More calls. Better attribution. The only change was review volume.
 
 ## The Compliance Checkpoints
 
@@ -76,7 +76,7 @@ Here's what you absolutely cannot do:
 - **Ask specifically for high ratings.** You can ask for a review. You cannot ask for a 5-star review.
 - **Compensate referral sources for leaving reviews.** Your referring attorney or vendor may not receive payment for a review they leave.
 
-Your state bar website has an ethics opinion on this. Find it. Read it. The language is usually clear. Your marketing doesn't trump your license.
+Your state bar website has an ethics opinion on this—the [Florida Bar's advertising rules](/blog/florida-bar-law-firm-advertising-rules/) are among the most detailed in the country if your state's guidance is thin. Find it. Read it. The language is usually clear. Your marketing doesn't trump your license.
 
 ## One More Tactical Layer
 
@@ -90,7 +90,7 @@ Pick your best 10 clients from the past month who ended their matters on good te
 
 By month's end, you'll have real data on your specific market and client base. You'll also have 2–4 new reviews (probably more). Do that every month, and you've solved the review drought.
 
-Your competitors aren't doing this because it feels like sales work. It is. And law firms aren't great at sales. But the firms that are—the ones consistently winning new clients and seeing higher close rates on initial consultations—they've built this into their operations. They don't ask why reviews matter. They ask how many they're getting.
+Your competitors aren't doing this because it feels like sales work. It is. And law firms aren't great at sales. But the firms that are—the ones consistently winning new clients and [seeing higher close rates on initial consultations](/blog/law-firm-intake-speed/)—they've built this into their operations. They don't ask why reviews matter. They ask how many they're getting.
 
 If you want the full system — request sequences, response templates, velocity tracking, and a platform priority matrix — [the Always Reviewed Playbook has everything for $97](/resources/always-reviewed-playbook/). It's built so your team can run it without outside help.
 

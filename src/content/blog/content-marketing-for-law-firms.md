@@ -15,7 +15,7 @@ image: "/images/blog/content-marketing-for-law-firms.webp"
 
 The fundamental problem is simple: most law firms write for Google, not for the person sitting at a kitchen table at 11pm wondering if they have a case. They stuff keywords into paragraphs, hit publish, and wait for rankings that never come — or rankings that come but don't convert. I've reviewed hundreds of law firm websites. The content is almost always technically present and strategically useless.
 
-**Writing for search engines instead of scared, confused people** is the original sin of law firm content marketing. When someone searches "what happens if I get a DUI in Florida," they want a plain answer, not a keyword-dense paragraph that reads like a legal brief. Google has gotten smart enough to reward content that actually serves the reader. Your clients were always smart enough to click away from content that doesn't.
+**Writing for search engines instead of scared, confused people** is the original sin of law firm content marketing. [Google's Search Quality Rater Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf) explicitly reward content that demonstrates Experience, Expertise, Authoritativeness, and Trustworthiness—all qualities that human-first writing produces naturally. When someone searches "what happens if I get a DUI in Florida," they want a plain answer, not a keyword-dense paragraph that reads like a legal brief. Google has gotten smart enough to reward content that actually serves the reader. Your clients were always smart enough to click away from content that doesn't.
 
 Fix the premise first: every piece of content you publish should answer a real question a real client asked you — or would ask you — in a consultation.
 
@@ -110,10 +110,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [The Law Firm Content Marketing Strategy That Generates Cases, Not Just Traffic](https://hugheyllc.com/blog/law-firm-content-marketing-strategy/)
-- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [The Law Firm Content Marketing Strategy That Generates Cases, Not Just Traffic](/blog/law-firm-content-marketing-strategy/)
+- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](/blog/video-and-visual-content-for-legal-seo-2025/)
 
 ## Frequently Asked Questions
 

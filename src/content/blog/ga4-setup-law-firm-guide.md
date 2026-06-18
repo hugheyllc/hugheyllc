@@ -54,7 +54,7 @@ I worked with a family law firm in the Tampa area that was treating all form sub
 
 ## Step 3: Connect CallRail
 
-As detailed in our [CallRail setup guide](https://hugheyllc.com/blog/callrail-law-firm-setup-guide/), configure CallRail to push call events into GA4 as conversion events. Once in place, phone calls appear in your GA4 conversion reports alongside form submissions — a complete view of all leads, not just digital forms.
+As detailed in our [CallRail setup guide](/blog/callrail-law-firm-setup-guide/), configure CallRail to push call events into GA4 as conversion events. Once in place, phone calls appear in your GA4 conversion reports alongside form submissions — a complete view of all leads, not just digital forms.
 
 This integration is essential for law firms because **phone calls are still a primary conversion channel**. Many firms still receive 40–60% of their leads via phone. If those calls don't appear in GA4, your attribution is incomplete and your marketing decisions are based on partial data.
 
@@ -148,10 +148,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [CallRail for Law Firms: The Complete Setup and Integration Guide](https://hugheyllc.com/blog/callrail-law-firm-setup-guide/)
-- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
-- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
-- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
+- [CallRail for Law Firms: The Complete Setup and Integration Guide](/blog/callrail-law-firm-setup-guide/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](/blog/business-law-firm-marketing/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](/blog/law-firm-website-ada-compliance/)
 
 ## Frequently Asked Questions
 

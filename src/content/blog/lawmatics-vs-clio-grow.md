@@ -144,10 +144,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](https://hugheyllc.com/blog/law-firm-crm-automation/)
-- [2025 in Review: How Legal Marketing, AI and Intake Actually Changed](https://hugheyllc.com/blog/2025-review/)
-- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
-- [What Law Firms Should Know Before Signing With Scorpion (An Independent Perspective)](https://hugheyllc.com/blog/scorpion-legal-marketing-review/)
+- [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](/blog/law-firm-crm-automation/)
+- [2025 in Review: How Legal Marketing, AI and Intake Actually Changed](/blog/2025-review/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
+- [What Law Firms Should Know Before Signing With Scorpion (An Independent Perspective)](/blog/scorpion-legal-marketing-review/)
 
 ## Frequently Asked Questions
 

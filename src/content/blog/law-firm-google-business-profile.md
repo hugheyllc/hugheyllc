@@ -16,7 +16,7 @@ Law firms don't fire marketing agencies because the agency did bad work. They fi
 
 According to the American Bar Association's Model Rules of Professional Conduct, lawyers must ensure all marketing and advertising materials comply with [Rule 7.3 regarding solicitation](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_3_solicitation_of_clients/) and related ethical guidelines. Many marketing agencies lack the specialized knowledge required to navigate these complex legal advertising regulations across different jurisdictions.
 
-The pattern is predictable. The exit is usually expensive. And the next agency engagement often repeats the same cycle unless something changes between contracts.
+The pattern is predictable. The exit is usually expensive. And the next agency engagement often repeats the same cycle unless something changes between contracts. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) documents how most law firms cannot accurately measure what marketing channels produce their clients—making it nearly impossible to hold agencies accountable.
 
 ## How the Breakdown Usually Starts
 

@@ -11,7 +11,7 @@ draft: false
 image: "/images/blog/marketing-reports-fake.webp"
 ---
 
-Many agencies deliver glossy dashboards filled with impressions, clicks and social followers. They look impressive until you ask a simple question: did we retain more profitable cases? This blog explains why most marketing reports tell a flattering story rather than the truth and how to spot the difference.
+Many agencies deliver glossy dashboards filled with impressions, clicks and social followers. They look impressive until you ask a simple question: did we retain more profitable cases? [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) documents that the vast majority of law firms struggle to tie marketing spend to client acquisition—making it easy for agencies to hide behind vanity metrics. This blog explains why most marketing reports tell a flattering story rather than the truth and how to spot the difference.
 
 ## The Problem with Vanity Metrics
 
@@ -52,10 +52,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How to Set &amp; Manage Your Law-Firm Marketing Agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/)
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
-- [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
+- [How to Set &amp; Manage Your Law-Firm Marketing Agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
+- [How to Calculate Your Law Firm's True Cost Per Retained Client](/blog/cost-per-retained-client-law-firm/)
 
 ## Frequently Asked Questions
 

@@ -93,10 +93,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
-- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](https://hugheyllc.com/blog/law-firm-marketing-roi-tracking/)
-- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
-- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](https://hugheyllc.com/blog/law-firm-marketing-attribution-guide-cfos/)
+- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](/blog/law-firm-marketing-retainer-underdelivery/)
+- [How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer](/blog/law-firm-marketing-roi-tracking/)
+- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
+- [Law Firm Marketing Attribution: A Guide for Managing Partners and Firm CFOs](/blog/law-firm-marketing-attribution-guide-cfos/)
 
 ## Frequently Asked Questions
 

@@ -18,7 +18,7 @@ image: "/images/blog/30-minute-marketing-audit-agency-dashboard.jpg"
 
 You don't need to fire your agency to audit your law firm's marketing performance. You need to know what numbers matter, where to find them, and what they actually mean.
 
-A **law firm marketing audit checklist** doesn't have to be complicated. Most firms I work with inherit agency relationships where reporting is either too vague or too buried in data to act on. This post gives you the dashboard walkthrough—the one your agency probably skips in their monthly recap—so you can see what's actually working in 30 minutes, no MBA required.
+A **law firm marketing audit checklist** doesn't have to be complicated. Most firms I work with inherit agency relationships where reporting is either too vague or too buried in data to act on. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) finds the majority of law firms can't accurately identify which marketing channels drive their best clients—a gap that starts with opaque agency reporting. This post gives you the dashboard walkthrough—the one your agency probably skips in their monthly recap—so you can see what's actually working in 30 minutes, no MBA required.
 
 This is a post-hire accountability check, not a pre-hire evaluation. You already have an agency. You want to know if the spend is landing, the leads are real, and the conversions justify the cost.
 
@@ -37,7 +37,7 @@ The agencies that do this best pull from four sources simultaneously:
 3. **CPC and ad spend trends** — cost per click, budget burn, seasonal patterns
 4. **Intake conversion** — from first contact to signed retainer
 
-If your agency hasn't shown you a report that threads these together, they're either not measuring what matters or they're hoping you won't ask for it.
+If your agency hasn't shown you a report that threads these together, they're either not measuring what matters or they're hoping you won't ask for it. [Google's GA4 documentation](https://support.google.com/analytics/answer/10089681) is the baseline for understanding what accurate traffic attribution should look like.
 
 ---
 
@@ -185,5 +185,5 @@ Start with [the free 25-point marketing audit checklist](/resources/marketing-au
 
 ### Related Reading
 
-- [Accountability in Law Firm Marketing: Why Your Agency Can't Guarantee Results (And What You Should Demand Instead)](https://hugheyllc.com/blog/accountability-law-firm-marketing-agency-vs-consultant/)
-- [How to Set & Manage Your Law-Firm Marketing Agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/)
+- [Accountability in Law Firm Marketing: Why Your Agency Can't Guarantee Results (And What You Should Demand Instead)](/blog/accountability-law-firm-marketing-agency-vs-consultant/)
+- [How to Set & Manage Your Law-Firm Marketing Agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/)

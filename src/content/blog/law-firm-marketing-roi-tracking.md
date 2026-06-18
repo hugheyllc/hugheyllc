@@ -78,10 +78,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How to Set &amp; Manage Your Law-Firm Marketing Agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/)
-- [The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients](https://hugheyllc.com/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/)
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [How to Calculate Your Law Firm's True Cost Per Retained Client](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/)
+- [How to Set &amp; Manage Your Law-Firm Marketing Agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/)
+- [The Hidden ROI of Legal Directories: Why Last-Touch Reporting Is Costing Law Firms Clients](/blog/the-hidden-roi-of-legal-directories-why-last-touch-reporting-is-costing-law-firms-clients/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [How to Calculate Your Law Firm's True Cost Per Retained Client](/blog/cost-per-retained-client-law-firm/)
 
 ## Frequently Asked Questions
 

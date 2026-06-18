@@ -34,7 +34,7 @@ Here's what that model means for your firm:
 
 **Incentive misalignment.** Agencies bill hours or monthly retainers. Revenue increases with scope expansion, not with your case intake. If you ask "should we keep spending on this channel?" the answer is often "let's run a test" (which costs more) rather than "let's cut it and redirect."
 
-**Long-term lock-in.** Agency contracts typically run 12 months. Your firm's data, content strategy, and relationship live inside their systems. Transition to a new vendor takes months and often feels painful by design.
+**Long-term lock-in.** Agency contracts typically run 12 months. Your firm's data, content strategy, and relationship live inside their systems. Transition to a new vendor takes months and often feels painful by design. The [FTC's guidelines on advertising transparency](https://www.ftc.gov/business-guidance/resources/advertising-and-marketing) also underscore the importance of firms maintaining independent visibility into how their marketing dollars are working.
 
 None of this makes agencies inherently bad. Many do solid work. But the structural incentives don't reward efficiency or restraint. They reward activity.
 
@@ -44,7 +44,7 @@ An independent consultant operates at a different scale and with different incen
 
 When you hire an independent marketer, you're often their primary focus during the engagement. Not their only client, but their primary one. They carry your firm's growth metrics with them through their day. They own the recommendation to spend less as readily as the recommendation to spend more.
 
-**Strategic ownership.** An independent consultant stakes their reputation on a smaller number of engagements. Bad results hurt them directly. They can't distribute reputation across fifty clients. That creates pressure to say no to things that won't work, to challenge assumptions, and to measure against outcomes—not activity.
+**Strategic ownership.** An independent consultant stakes their reputation on a smaller number of engagements. Bad results hurt them directly. They can't distribute reputation across fifty clients. That creates pressure to say no to things that won't work, to challenge assumptions, and to measure against outcomes—not activity. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) consistently shows that law firms have trouble connecting marketing spend to actual case acquisition, which is exactly what an accountable partner should solve.
 
 **Operational flexibility.** No approval layers. You talk to the person making decisions. If you need to kill a channel, reallocate budget, or test a new approach, the decision happens in one conversation.
 
@@ -90,7 +90,7 @@ Neither option is universally better. Context matters.
 - You value accountability over activity and want to avoid scope creep
 - You plan to build internal marketing capability over time and want guidance, not outsourced execution
 
-An independent consultant also works well as a second opinion if you're already working with an agency. Many firms in accounts I've reviewed benefit from [a quarterly audit by an outside marketer](/blog/law-firm-seo-audit/) who has no stake in current spending levels.
+An independent consultant also works well as a second opinion if you're already working with an agency. Many firms in accounts I've reviewed benefit from [a quarterly SEO and strategy audit](/blog/law-firm-seo-audit/) by an outside marketer who has no stake in current spending levels, combined with a hard look at their [marketing ROI tracking](/blog/law-firm-marketing-roi-tracking/) to make sure the data is clean.
 
 ## Questions to Ask Both Models
 
@@ -148,5 +148,5 @@ Pick the model that aligns with what your firm actually needs right now. And if 
 
 ### Related Reading
 
-- https://hugheyllc.com/blog/how-to-hire-independent-law-firm-marketing-consultant/
-- https://hugheyllc.com/blog/why-law-firms-fire-marketing-agency/
+- [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](/blog/how-to-hire-independent-law-firm-marketing-consultant/)
+- [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](/blog/why-law-firms-fire-marketing-agency/)

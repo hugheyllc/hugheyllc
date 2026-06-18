@@ -18,7 +18,7 @@ According to the [American Bar Association's guidelines on lawyer advertising](h
 
 Law firms switch marketing agencies when expectations don't match execution, results become invisible, or communication breaks down. The decision to fire a marketing agency rarely happens overnight; it's usually the result of months of misalignment between what was promised and what's being delivered. The most common triggers are unclear attribution of results, inability to explain what the agency is actually doing each month, and a lack of accountability when performance doesn't move the needle.
 
-When firms reach the decision to switch law firm marketing agencies, they've typically already spent time and money wondering whether the investment is working. The agency may be producing deliverables—blog posts, ads, email campaigns—but the firm can't connect those activities to client intake or revenue. This transparency gap is the single largest reason firms terminate relationships.
+When firms reach the decision to switch law firm marketing agencies, they've typically already spent time and money wondering whether the investment is working. The agency may be producing deliverables—blog posts, ads, email campaigns—but the firm can't connect those activities to client intake or revenue. This transparency gap is the single largest reason firms terminate relationships. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that law firms are increasingly demanding measurable outcomes from marketing spend—and agencies that can't demonstrate clear attribution are the first to get cut.
 
 ## The Core Problems That Lead to Firing an Agency
 
@@ -108,8 +108,8 @@ If you've been thinking about making a change or want to audit your current agen
 
 ### Related Reading
 
-- https://hugheyllc.com/blog/agency-vs-consultant-law-firm-marketing/
-- https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/
+- [Law Firm Marketing Agency vs. Independent Consultant](/blog/agency-vs-consultant-law-firm-marketing/)
+- [How to Set & Manage Your Law Firm Marketing Agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/)
 
 ## Frequently Asked Questions
 

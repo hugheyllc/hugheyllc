@@ -17,7 +17,7 @@ Hughey LLC is based in St. Petersburg and serves law firms across the Tampa Bay 
 
 ## The Tampa Law Firm Marketing Landscape
 
-Tampa is a market where law firm marketing spend is high and accountability is low. Most mid-sized Tampa law firms spend $10,000–$50,000 per month on marketing — SEO agencies, PPC campaigns, billboard rotations, directory listings, and content programs — without any clear picture of which channels are actually driving retained clients.
+Tampa is a market where law firm marketing spend is high and accountability is low. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) documents that most law firms nationwide cannot tie marketing spend to client acquisition—and that problem is amplified in high-spend, high-competition markets like Tampa. Most mid-sized Tampa law firms spend $10,000–$50,000 per month on marketing — SEO agencies, PPC campaigns, billboard rotations, directory listings, and content programs — without any clear picture of which channels are actually driving retained clients.
 
 The result is predictable: money cycles through vendors, reports show traffic and leads, and the firm principal has no idea whether the $15,000 SEO retainer is producing cases or just producing rankings for terms nobody searches. We dig deeper into this gap in [why most law firm marketing reports are fiction](/blog/marketing-reports-fake/).
 
@@ -29,7 +29,7 @@ National agencies like Scorpion, Consultwebs, and Omnizant have Tampa-area clien
 
 An independent consultant has one job: help your firm grow. There's no retainer to protect, no markup on ad spend, no platform lock-in. The only measure of success is whether your retained client count goes up at a cost that makes business sense.
 
-This is especially relevant in Tampa's [personal injury marketing](https://hugheyllc.com/blog/personal-injury-attorney-marketing-tampa/) market, where PPC costs per click can exceed $100 and agency competition for your budget is intense.
+This is especially relevant in Tampa's [personal injury marketing](/blog/personal-injury-attorney-marketing-tampa/) market, where PPC costs per click can exceed $100 and agency competition for your budget is intense.
 
 ## What I Do for Tampa Law Firms
 
@@ -81,10 +81,10 @@ If you'd like a second opinion from an [law firm marketing consultant](https://h
 
 ### Related Reading
 
-- [Law Firm Marketing Consultant in St. Petersburg, FL](https://hugheyllc.com/blog/law-firm-marketing-st-petersburg-fl/)
-- [Law Firm Marketing in Pinellas County: What Actually Works](https://hugheyllc.com/blog/law-firm-marketing-pinellas-county/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [Law Firm Marketing Consultant for Sarasota Law Firms](https://hugheyllc.com/blog/law-firm-marketing-sarasota-fl/)
+- [Law Firm Marketing Consultant in St. Petersburg, FL](/blog/law-firm-marketing-st-petersburg-fl/)
+- [Law Firm Marketing in Pinellas County: What Actually Works](/blog/law-firm-marketing-pinellas-county/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Law Firm Marketing Consultant for Sarasota Law Firms](/blog/law-firm-marketing-sarasota-fl/)
 
 ## Frequently Asked Questions
 

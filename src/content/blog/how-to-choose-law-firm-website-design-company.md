@@ -40,7 +40,7 @@ Some vendors are strong in all three. Most have a primary strength in one or two
 
 **"How will the site be connected to our intake CRM?"** A website not connected to your intake workflow — [Lawmatics](https://www.lawmatics.com), Clio Grow, or similar — is a brochure, not a client acquisition system. See our comparison: [Lawmatics vs Clio Grow](/blog/lawmatics-vs-clio-grow/). If the vendor doesn't discuss this integration proactively, it's not part of their standard build.
 
-**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/callrail-law-firm-setup-guide/), [GA4](/blog/ga4-setup-law-firm-guide/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](https://hugheyllc.com/blog/ai-tools-law-firm-marketing/).
+**"How will we track which marketing channels are driving leads from the new site?"** The attribution stack — [CallRail](/blog/callrail-law-firm-setup-guide/), [GA4](/blog/ga4-setup-law-firm-guide/) conversion events, Google Ads conversion import — should be part of the build scope, not an afterthought. Full framework: [The Law Firm Marketing Technology Stack](/blog/ai-tools-law-firm-marketing/).
 
 **"Show me the practice area page SEO structure you use — specifically the schema markup, heading hierarchy, and internal linking strategy."** A vendor with a developed law firm SEO methodology will have a clear, specific answer.
 
@@ -71,10 +71,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
-- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
-- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)
-- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)
+- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](/blog/law-firm-website-homepage-design/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](/blog/law-firm-website-ada-compliance/)
+- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](/blog/law-firm-website-launch-checklist/)
+- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](/blog/law-firm-website-ownership/)
 
 ## Frequently Asked Questions
 

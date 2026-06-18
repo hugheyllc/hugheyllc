@@ -20,7 +20,7 @@ Sarasota is not Tampa lite. It's a distinct market with a population that's grow
 
 For law firms, this creates opportunity. The marketing landscape in Sarasota is less crowded than Tampa Bay proper. Fewer firms are running sophisticated digital campaigns, and many are still relying on referrals and outdated websites. That's a window — but it's closing as more firms catch on.
 
-The mistake I see most often: Sarasota firms hiring Tampa-based or national agencies that apply the same strategy they'd use anywhere. Sarasota clients are different. They research more thoroughly, they value credentials and reputation over volume advertising, and they're less responsive to aggressive PI-style marketing — meaning [Florida Bar advertising rules](https://www.floridabar.org/rules/rrtfb/) compliance is even more important since reputation is the currency. Your strategy needs to reflect that.
+The mistake I see most often: Sarasota firms hiring Tampa-based or national agencies that apply the same strategy they'd use anywhere. Sarasota clients are different. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that client expectations for responsiveness and communication vary significantly by market—and Sarasota's demographic profile makes those expectations higher than average. They research more thoroughly, they value credentials and reputation over volume advertising, and they're less responsive to aggressive PI-style marketing — meaning [Florida Bar advertising rules](https://www.floridabar.org/rules/rrtfb/) compliance is even more important since reputation is the currency. Your strategy needs to reflect that.
 
 ## What I Do for Sarasota Firms
 
@@ -28,11 +28,11 @@ I'm an independent marketing consultant — I don't sell execution. I don't run 
 
 **Practice area positioning.** Sarasota's strength in estate planning and business law means your [content and ad strategy](/services/strategic-marketing-for-law-firms/) should lead with those practice areas if that's your focus. Too many firms here are chasing PI keywords because they see Tampa firms doing it. That's the wrong fight for most Sarasota practices.
 
-**Agency audit and accountability.** If you're working with a marketing agency, I review their reporting, their strategy, and their results. The question isn't whether they're generating impressions — it's whether those impressions are turning into consultations that convert into retained clients. I've written extensively about [how to manage your marketing agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/) and what accountability actually looks like.
+**Agency audit and accountability.** If you're working with a marketing agency, I review their reporting, their strategy, and their results. The question isn't whether they're generating impressions — it's whether those impressions are turning into consultations that convert into retained clients. I've written extensively about [how to manage your marketing agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/) and what accountability actually looks like.
 
-**Cost per retained client framework.** This is the metric that matters. Not leads, not clicks, not impressions. How much does it cost you to get a signed retainer from each marketing channel? I help firms build the tracking infrastructure to answer that question and then optimize against it. Here's [the full breakdown of the CPRC framework](https://hugheyllc.com/blog/cost-per-retained-client-law-firm/).
+**Cost per retained client framework.** This is the metric that matters. Not leads, not clicks, not impressions. How much does it cost you to get a signed retainer from each marketing channel? I help firms build the tracking infrastructure to answer that question and then optimize against it. Here's [the full breakdown of the CPRC framework](/blog/cost-per-retained-client-law-firm/).
 
-**Local SEO and content strategy.** Sarasota firms need content that speaks to Sarasota. That means location-specific service pages, a fully optimized Google Business Profile, and blog content that addresses the questions Sarasota residents are actually asking. Generic "Florida law firm" content doesn't move the needle here. The fundamentals of [local SEO for law firms](https://hugheyllc.com/blog/local-seo-law-firms/) apply, but the execution has to be localized.
+**Local SEO and content strategy.** Sarasota firms need content that speaks to Sarasota. That means location-specific service pages, a fully optimized Google Business Profile, and blog content that addresses the questions Sarasota residents are actually asking. Generic "Florida law firm" content doesn't move the needle here. The fundamentals of [local SEO for law firms](/blog/local-seo-law-firms/) apply, but the execution has to be localized.
 
 ## Why Not Just Hire an Agency?
 
@@ -46,7 +46,7 @@ The Sarasota market rewards precision over volume. An affluent, research-oriente
 
 Sarasota sits at the southern edge of the Tampa Bay media market, which creates both opportunity and confusion. Some Sarasota firms try to compete in Tampa searches; some Tampa agencies treat Sarasota as an afterthought. Neither approach works.
 
-The smart play is to dominate Sarasota-specific searches while selectively competing in broader Tampa Bay terms where it makes sense for your practice area. Understanding the [Tampa Bay marketing landscape](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/) helps you see where Sarasota fits — and where trying to compete with Tampa firms is a waste of money.
+The smart play is to dominate Sarasota-specific searches while selectively competing in broader Tampa Bay terms where it makes sense for your practice area. Understanding the [Tampa Bay marketing landscape](/blog/tampa-law-firm-marketing-landscape/) helps you see where Sarasota fits — and where trying to compete with Tampa firms is a waste of money.
 
 ## Who Should Reach Out
 
@@ -77,10 +77,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
-- [Law Firm Marketing Consultant in St. Petersburg, FL](https://hugheyllc.com/blog/law-firm-marketing-st-petersburg-fl/)
-- [Law Firm Marketing in Pinellas County: What Actually Works](https://hugheyllc.com/blog/law-firm-marketing-pinellas-county/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Law Firm Marketing Consultant in Tampa, FL](/blog/law-firm-marketing-consultant-tampa-fl/)
+- [Law Firm Marketing Consultant in St. Petersburg, FL](/blog/law-firm-marketing-st-petersburg-fl/)
+- [Law Firm Marketing in Pinellas County: What Actually Works](/blog/law-firm-marketing-pinellas-county/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
 
 ## Frequently Asked Questions
 

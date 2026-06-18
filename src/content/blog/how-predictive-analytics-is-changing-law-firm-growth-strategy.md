@@ -16,7 +16,7 @@ I work with law firms across the country—solo practitioners to 50-attorney sho
 
 According to the [American Bar Association's Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), firms using data analytics report 23% higher revenue growth compared to those relying solely on traditional marketing approaches.
 
-In 2025, competitive law firms aren't just measuring past campaigns—they're forecasting client intake, predicting which leads will actually close, and knowing six months out whether they'll have a staffing crunch. That's not magic. It's math applied to the data you already have.
+In 2025, competitive law firms aren't just measuring past campaigns—they're forecasting client intake, predicting which leads will actually close, and knowing six months out whether they'll have a staffing crunch. That's not magic. It's math applied to the data you already have. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) finds that the most profitable firms share a common trait: they use data to make decisions rather than relying on intuition.
 
 ## What Predictive Analytics Actually Does for Law Firms
 
@@ -77,10 +77,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](https://hugheyllc.com/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
-- [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow](/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [What High‑Growth Law Firms Do Differently With Marketing](/blog/what-high-growth-law-firms-do-differently-marketing/)
 
 ## Frequently Asked Questions
 

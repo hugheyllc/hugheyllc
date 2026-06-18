@@ -43,7 +43,7 @@ Unlike Google Ads where visibility stops when spending stops, organic SEO builds
 
 ## Florida-Specific SEO Considerations
 
-Florida's no-fault insurance system, modified comparative negligence law (2023), and reduced statute of limitations (2 years as of 2023) create content opportunities specific to Florida PI practice. Content that accurately explains Florida's specific PI legal environment — authored by credentialed Florida PI attorneys — earns the [E-E-A-T signals](https://hugheyllc.com/blog/eeat-law-firm-seo/) that matter most. See our [Florida Bar advertising rules guide](/blog/florida-bar-law-firm-advertising-rules/) for the specific parameters on results presentation.
+Florida's no-fault insurance system, modified comparative negligence law (2023), and reduced statute of limitations (2 years as of 2023) create content opportunities specific to Florida PI practice. Content that accurately explains Florida's specific PI legal environment — authored by credentialed Florida PI attorneys — earns the [E-E-A-T signals](/blog/eeat-law-firm-seo/) that matter most. See our [Florida Bar advertising rules guide](/blog/florida-bar-law-firm-advertising-rules/) for the specific parameters on results presentation.
 
 ## PI Firm Websites: Beyond the Practice Area Page
 
@@ -139,10 +139,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Personal Injury Attorney Marketing in Tampa: The Local Playbook for a Competitive Market](https://hugheyllc.com/blog/personal-injury-attorney-marketing-tampa/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
-- [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](https://hugheyllc.com/blog/family-law-firm-marketing/)
+- [Personal Injury Attorney Marketing in Tampa: The Local Playbook for a Competitive Market](/blog/personal-injury-attorney-marketing-tampa/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](/blog/tampa-law-firm-marketing-landscape/)
+- [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](/blog/family-law-firm-marketing/)
 
 ## Frequently Asked Questions
 

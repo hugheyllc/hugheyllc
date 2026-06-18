@@ -34,7 +34,7 @@ Your homepage should implement [LocalBusiness schema](https://schema.org/Attorne
 
 ### Person Schema for Attorney Bio Pages
 
-[Person schema](https://schema.org/Person) on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/). Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
+[Person schema](https://schema.org/Person) on attorney bio pages establishes each attorney's credentials in machine-readable format, directly supporting Google's [E-E-A-T evaluation](/blog/eeat-law-firm-seo/). Key fields: name, job title, alumniOf, memberOf (bar associations), knowsAbout (practice areas), and hasCredential (bar admissions). Most law firm websites never implement this.
 
 ### Article Schema for Blog Content
 
@@ -152,10 +152,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
-- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](https://hugheyllc.com/blog/law-firm-marketing-agency-vs-technical-partner/)
-- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](https://hugheyllc.com/blog/st-petersburg-law-firm-seo/)
-- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
+- [What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms](/blog/eeat-law-firm-seo/)
+- [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](/blog/law-firm-marketing-agency-vs-technical-partner/)
+- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](/blog/st-petersburg-law-firm-seo/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](/blog/business-law-firm-marketing/)
 
 ## Frequently Asked Questions
 

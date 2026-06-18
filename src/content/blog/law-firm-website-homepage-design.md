@@ -11,7 +11,7 @@ draft: false
 image: "/images/blog/law-firm-website-homepage-design.webp"
 ---
 
-Your homepage will be the first page most new visitors see — and for a significant percentage, it's the only page they'll evaluate before deciding whether to call, search elsewhere, or leave.
+Your homepage will be the first page most new visitors see — and for a significant percentage, it's the only page they'll evaluate before deciding whether to call, search elsewhere, or leave. [Google's research on mobile user behavior](https://think.storage.googleapis.com/docs/mobile-app-marketing-insights.pdf) shows that users make judgment calls about a site's credibility within seconds of landing, making first impressions critical.
 
 Despite this, the typical law firm homepage is built primarily to look impressive. What's missing is a deliberate answer to the question every visitor arrives with: *can this firm solve my specific problem, and what do I do next?*
 
@@ -43,7 +43,7 @@ A dedicated practice area section with links to each practice area page serves t
 
 ## Attorney Bios: The Section That Builds Personal Trust
 
-Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/eeat-law-firm-seo/) with credentials detailed at depth supporting [E-E-A-T evaluation](https://hugheyllc.com/blog/eeat-law-firm-seo/).
+Prospective legal clients hire a person, not a company. Introducing attorneys with professional photos, names, and 1–2 lines about their practice focus humanizes the firm in a way no design can substitute for. Link to full [attorney bio pages](/blog/eeat-law-firm-seo/) with credentials detailed at depth supporting [E-E-A-T evaluation](/blog/eeat-law-firm-seo/).
 
 ## The Secondary CTA: Capturing Visitors Who Aren't Ready Yet
 
@@ -76,10 +76,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
-- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](https://hugheyllc.com/blog/law-firm-website-ada-compliance/)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
-- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](/blog/how-to-choose-law-firm-website-design-company/)
+- [Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously](/blog/law-firm-website-ada-compliance/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](/blog/law-firm-website-seo-and-conversion/)
+- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](/blog/law-firm-website-launch-checklist/)
 
 ## Frequently Asked Questions
 

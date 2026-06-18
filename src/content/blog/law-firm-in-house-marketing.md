@@ -26,7 +26,7 @@ But that math is incomplete.
 
 A full-time in-house marketing hire comes with:
 
-- **Salary and benefits**: $65K-$100K+ for someone with actual law firm experience, plus 25-30% in payroll tax, health insurance, retirement matching
+- **Salary and benefits**: $65K-$100K+ for someone with actual law firm experience, plus 25-30% in payroll tax, health insurance, retirement matching. The [Bureau of Labor Statistics](https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm) pegs median compensation for marketing managers well above $130K nationally when total comp is factored in
 - **Software and tools**: The agency was paying for platforms (CallRail, Clio, GA4 setup, CMS). You'll still need those. Budget another $2,000-$5,000 monthly
 - **Training and ramp time**: A new hire needs 90-180 days to understand your practice areas, messaging, client acquisition funnel, and competitive position. During that time, you're paying salary for someone who's not yet productive
 - **Recruiting costs**: If the first hire doesn't work out, you're back in the market six months later. Factor in $5,000-$15,000 in recruiter fees or wasted time
@@ -38,13 +38,15 @@ In-house marketing typically costs $90,000-$140,000 all-in during the first year
 
 Here's what firms rarely anticipate: marketing is not one skill. It's a cluster of overlapping disciplines.
 
-A capable in-house marketing hire might be strong in content, but weak in PPC. They might understand local SEO, but have no experience with Google Ads account structure or quality score optimization. They might be excellent at writing landing page copy, but have never set up conversion tracking in GA4. They might know how to manage a website, but have no background in [law firm CRM automation](/blog/law-firm-crm-automation/) or intake workflow design.
+A capable in-house marketing hire might be strong in content, but weak in PPC. They might understand local SEO, but have no experience with [Google Ads account structure](/blog/google-ads-law-firms/) or quality score optimization. They might be excellent at writing landing page copy, but have never set up conversion tracking in GA4. They might know how to manage a website, but have no background in [law firm CRM automation](/blog/law-firm-crm-automation/) or intake workflow design.
 
 Agencies aggregate that specialization. When you hire one person, you're betting they can operate across all of it—or that they're coachable enough to learn. Often, they're not. And you won't know until you're six months in and realizing your Google Ads campaigns are bleeding money because quality score management isn't in their wheelhouse.
 
 A common pattern: firms hire a marketing generalist, realize the PPC performance is poor, then end up contracting with a specialist agency for Google Ads anyway. Now you're paying salary *and* agency fees—the worst of both worlds.
 
 ## The Hybrid Model That Actually Works
+
+According to the [Society for Human Resource Management](https://www.shrm.org/topics-tools/topics/talent-acquisition), the average cost-per-hire in professional services is over $4,000, with time-to-productivity stretching 3-6 months for specialized roles. That math matters when you're weighing in-house against agency alternatives.
 
 The firms that make in-house marketing work tend to do one of two things:
 
@@ -137,5 +139,5 @@ In-house means you hire a full-time employee and own all strategy and execution.
 
 ### Related Reading
 
-- [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](https://hugheyllc.com/blog/how-to-hire-independent-law-firm-marketing-consultant/)
-- [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](https://hugheyllc.com/blog/agency-vs-consultant-law-firm-marketing/)
+- [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](/blog/how-to-hire-independent-law-firm-marketing-consultant/)
+- [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](/blog/agency-vs-consultant-law-firm-marketing/)

@@ -90,10 +90,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](https://hugheyllc.com/blog/law-firm-crm-automation/)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
-- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
-- [Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know](https://hugheyllc.com/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/)
+- [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](/blog/law-firm-crm-automation/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](/blog/law-firm-website-seo-and-conversion/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](/blog/predictive-analytics-law-firm-growth/)
+- [Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know](/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know/)
 
 ## Frequently Asked Questions
 

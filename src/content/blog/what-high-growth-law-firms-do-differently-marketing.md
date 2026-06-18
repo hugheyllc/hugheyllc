@@ -12,7 +12,7 @@ image: "/images/blog/what-high-growth-law-firms-do-differently-marketing.webp"
 keywords: ["law firm marketing", "high growth law firms", "law firm growth strategies", "legal marketing ROI", "law firm business development", "attorney marketing tactics", "legal practice growth", "law firm marketing playbook"]
 ---
 
-I've spent the last fifteen years watching law firms grow—and watching them stall. The difference isn't talent, client base, or even economic conditions. It's how they approach marketing. High-growth law firms—those hitting **20% compound annual growth** or better—operate from a fundamentally different playbook. They grow **5.2 times faster** than average firms and hit a median growth rate of **41.7%**. That's not luck. That's system.
+I've spent the last fifteen years watching law firms grow—and watching them stall. The difference isn't talent, client base, or even economic conditions. It's how they approach marketing. High-growth law firms—those hitting **20% compound annual growth** or better—operate from a fundamentally different playbook. They grow **5.2 times faster** than average firms and hit a median growth rate of **41.7%**. That's not luck. That's system. [Clio's Legal Trends research](https://www.clio.com/resources/legal-trends/) corroborates this pattern: the highest-performing firms share measurable traits around intake speed, marketing attribution, and client experience.
 
 According to the [American Bar Association's 2023 Legal Technology Survey Report](https://www.americanbar.org/groups/law_practice/publications/techreport/), law firms that invest systematically in marketing technology and processes show significantly higher client acquisition rates than those relying primarily on traditional referral methods.
 
@@ -110,10 +110,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
-- [How Predictive Analytics Is Changing Law Firm Growth Strategy](https://hugheyllc.com/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
-- [How to Set &amp; Manage Your Law-Firm Marketing Agency](https://hugheyllc.com/blog/how-to-set-manage-your-law-firm-marketing-agency/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [How Predictive Analytics Is Changing Law Firm Growth Strategy](/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy/)
+- [How to Set &amp; Manage Your Law-Firm Marketing Agency](/blog/how-to-set-manage-your-law-firm-marketing-agency/)
 
 ## Frequently Asked Questions
 

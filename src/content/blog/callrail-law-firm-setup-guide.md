@@ -117,10 +117,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How to Set Up GA4 for a Law Firm: The Configuration Guide Agencies Skip](https://hugheyllc.com/blog/ga4-setup-law-firm-guide/)
-- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
-- [What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms](https://hugheyllc.com/blog/eeat-law-firm-seo/)
-- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](https://hugheyllc.com/blog/law-firm-keyword-research/)
+- [How to Set Up GA4 for a Law Firm: The Configuration Guide Agencies Skip](/blog/ga4-setup-law-firm-guide/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
+- [What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms](/blog/eeat-law-firm-seo/)
+- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](/blog/law-firm-keyword-research/)
 
 ## Frequently Asked Questions
 

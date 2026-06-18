@@ -14,7 +14,7 @@ keywords: ["law firm marketing ROI", "legal lead conversion", "law firm intake o
 
 I work with law firms that are drowning in leads. They're spending $40,000 a month on Google Ads, their phones ring constantly, and their intake coordinator is burned out. They think the problem is they need a bigger team. The real problem is they're chasing the wrong metric.
 
-**"More leads" is a vanity goal.** It feels productive. Your marketing is "working." But vanity metrics don't pay your bills. I've watched firms with 200 qualified leads a month make less profit than firms with 40. The difference is rarely about lead volume. It's about **conversion efficiency, case quality, and whether your intake system can actually handle what you're generating.**
+**"More leads" is a vanity goal.** It feels productive. Your marketing is "working." But vanity metrics don't pay your bills. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that law firms consistently over-index on lead volume while under-measuring conversion efficiency and client lifetime value. I've watched firms with 200 qualified leads a month make less profit than firms with 40. The difference is rarely about lead volume. It's about **conversion efficiency, case quality, and whether your intake system can actually handle what you're generating.**
 
 This matters now because the cost to generate a legal lead has climbed significantly. Personal injury leads run $700–$1,500 each depending on your market and case type. Family law leads are $200–$400. Contract disputes and employment matters can cost even more. If your conversion rate is poor or your case values are low, you're hemorrhaging money on every campaign you run.
 
@@ -112,10 +112,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](https://hugheyllc.com/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
-- [What High‑Growth Law Firms Do Differently With Marketing](https://hugheyllc.com/blog/what-high-growth-law-firms-do-differently-marketing/)
-- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/)
+- [What High‑Growth Law Firms Do Differently With Marketing](/blog/what-high-growth-law-firms-do-differently-marketing/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
 
 ## Frequently Asked Questions
 

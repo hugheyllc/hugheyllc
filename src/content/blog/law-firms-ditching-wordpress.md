@@ -84,10 +84,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](https://hugheyllc.com/blog/law-firm-website-losing-clients/)
-- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)
-- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](https://hugheyllc.com/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
-- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
+- [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/law-firm-website-losing-clients/)
+- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](/blog/law-firm-website-ownership/)
+- [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](/blog/how-to-choose-law-firm-website-design-company/)
 
 ## Frequently Asked Questions
 

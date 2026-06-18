@@ -14,7 +14,7 @@ keywords: ["family law firm marketing", "divorce attorney marketing", "family la
 
 Family law clients are among the most emotionally vulnerable of any legal prospect. They're dealing with divorce, child custody, domestic violence, or other deeply personal crises — often searching for an attorney late at night, on a mobile phone, in significant distress. The marketing that reaches them, and the website experience that converts them, must account for this emotional context.
 
-According to the American Bar Association's 2023 Legal Technology Survey, 85% of consumers now use online search to find legal services, with family law being one of the most commonly searched practice areas. This shift toward digital research makes it essential for family law firms to have a strong online presence that reaches clients during their moment of need.
+According to the American Bar Association's [2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), 85% of consumers now use online search to find legal services, with family law being one of the most commonly searched practice areas. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) reinforces this—family law clients are among the most likely to research multiple attorneys online before making first contact. This shift toward digital research makes it essential for family law firms to have a strong online presence that reaches clients during their moment of need.
 
 ## Understanding the Family Law Prospect's Search Behavior
 
@@ -26,7 +26,7 @@ According to the American Bar Association's 2023 Legal Technology Survey, 85% of
 
 ## Content That Converts Family Law Prospects
 
-Family law content faces a dual challenge: it must be accurate (YMYL content under Google's quality framework) and empathetic (the reader is in crisis). High-performing content topics for the Tampa market: Florida's divorce process step-by-step, how Florida courts determine timesharing in custody disputes, what to do if you've been served divorce papers, Florida alimony laws and changes, emergency custody orders in Florida, contested vs. uncontested divorce in Florida. The [E-E-A-T requirements](https://hugheyllc.com/blog/eeat-law-firm-seo/) apply with particular force — attorney authorship and credentials are critical.
+Family law content faces a dual challenge: it must be accurate (YMYL content under Google's quality framework) and empathetic (the reader is in crisis). High-performing content topics for the Tampa market: Florida's divorce process step-by-step, how Florida courts determine timesharing in custody disputes, what to do if you've been served divorce papers, Florida alimony laws and changes, emergency custody orders in Florida, contested vs. uncontested divorce in Florida. The [E-E-A-T requirements](/blog/eeat-law-firm-seo/) apply with particular force — attorney authorship and credentials are critical.
 
 ## Website Design Considerations for Family Law
 
@@ -108,10 +108,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
-- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](https://hugheyllc.com/blog/law-firm-marketing-retainer-underdelivery/)
-- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](https://hugheyllc.com/blog/what-to-ask-law-firm-marketing-company/)
-- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](/blog/business-law-firm-marketing/)
+- [Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead](/blog/law-firm-marketing-retainer-underdelivery/)
+- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](/blog/what-to-ask-law-firm-marketing-company/)
+- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](/blog/clearwater-law-firm-marketing/)
 
 ## Frequently Asked Questions
 

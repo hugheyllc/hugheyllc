@@ -63,10 +63,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Why Speed-to-Contact Is the #1 Driver of Law Firm Growth](https://hugheyllc.com/blog/law-firm-intake-speed/)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
-- [Lawmatics vs. Clio Grow: Which Legal Intake CRM Is Right for Your Law Firm?](https://hugheyllc.com/blog/lawmatics-vs-clio-grow/)
-- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
+- [Why Speed-to-Contact Is the #1 Driver of Law Firm Growth](/blog/law-firm-intake-speed/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](/blog/law-firm-website-seo-and-conversion/)
+- [Lawmatics vs. Clio Grow: Which Legal Intake CRM Is Right for Your Law Firm?](/blog/lawmatics-vs-clio-grow/)
+- [Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
 
 ## Frequently Asked Questions
 

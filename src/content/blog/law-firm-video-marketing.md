@@ -18,6 +18,8 @@ According to the American Bar Association's recent guidance on digital marketing
 
 Your competitors are still treating video like a nice-to-have. That's your opening.
 
+Wyzowl's annual [State of Video Marketing report](https://www.wyzowl.com/video-marketing-statistics/) consistently shows that 87% of marketers say video provides positive ROI—but legal services remains one of the least-adopted verticals.
+
 Over more than two decades advising law firms, the firms winning new business through video aren't the ones with Hollywood production budgets. They're the ones who figured out which videos actually move prospects through the decision funnel—and then built a repeatable system around them.
 
 Here's what I've seen work. Here's what's wasting your money.
@@ -56,17 +58,17 @@ A medical malpractice firm I worked with published four of these. The second one
 
 Producing the right video means nothing if it lands in the wrong place.
 
-**Google Local Services Ads (LSA) and Google Search:** Your specific problem videos should be embedded on your service pages and linked from your Google Business Profile video section. I've measured this directly: law firms with one video on their GBP get 20–30% more clicks to their website than those without.
+**Google Local Services Ads (LSA) and Google Search:** Your specific problem videos should be embedded on your service pages and linked from your Google Business Profile video section. I've measured this directly: law firms with one video on their GBP get 20–30% more clicks to their website than those without. A well-optimized [Google Business Profile](/blog/law-firm-google-business-profile/) amplifies the impact significantly.
 
 But here's the catch: Google's video player is inconsistent. Test a YouTube embed versus a self-hosted video. I've seen 15% variance in engagement depending on the platform.
 
-**LinkedIn (for referral source videos):** If you're targeting other attorneys and professional referrals, your expert positioning video belongs on LinkedIn. Post it natively—don't just link to YouTube. Native video on LinkedIn gets 23x more engagement than linked video, according to their own data. I've watched B2B-focused practices (law firms that work with other law firms or serve business clientele) use this to build credibility with their ecosystem.
+**LinkedIn (for referral source videos):** If you're targeting other attorneys and professional referrals, your expert positioning video belongs on LinkedIn. Post it natively—don't just link to YouTube. Native video on LinkedIn gets 23x more engagement than linked video, according to [LinkedIn's own marketing research](https://business.linkedin.com/marketing-solutions/blog/linkedin-b2b-marketing/2017/linkedin-video-for-b2b). I've watched B2B-focused practices (law firms that work with other law firms or serve business clientele) use this to build credibility with their ecosystem.
 
-**Your website homepage and practice pages:** This is non-negotiable. A specific problem video on your practice page increases average time on page by 2–3 minutes and reduces bounce rate by 12–18%. That's directly measurable in Google Analytics.
+**Your website homepage and practice pages:** This is non-negotiable. A specific problem video on your practice page increases average time on page by 2–3 minutes and reduces bounce rate by 12–18%. That's directly measurable once you have [GA4 set up correctly for your law firm](/blog/ga4-setup-law-firm-guide/).
 
 **Facebook and Instagram:** If your target client is 45+, video works here. If they're 35 and under, Reels and short-form video matter more—but most law firms aren't disciplined enough to maintain it. Be honest about who your actual client is before you commit to monthly content production.
 
-**Email nurture sequences:** This is where most firms miss entirely. A specific problem video embedded in a follow-up email to a prospect who didn't convert gets clicked 3–4x more often than a text-only email. I've seen firms send a video email with the subject "One thing we see wrong with most [practice area] strategies" and get 28% click-through rate on the video.
+**Email nurture sequences:** This is where most firms miss entirely. A specific problem video embedded in a follow-up email to a prospect who didn't convert gets clicked 3–4x more often than a text-only email. This pairs naturally with a [law firm email nurture strategy](/blog/law-firm-email-marketing/). I've seen firms send a video email with the subject "One thing we see wrong with most [practice area] strategies" and get 28% click-through rate on the video.
 
 ## The Production Reality
 
@@ -107,7 +109,7 @@ Firms that follow this cycle film 6–12 videos per year. That's a real content 
 
 Video works for law firms in 2026 because decision-making happens earlier in the process—and video answers questions faster than text. But only if the video solves a specific problem, lands where prospects are looking, and exists as part of a system.
 
-If you're going to do this, do it deliberately. Three focused videos will outperform fifty unfocused ones every time.
+If you're going to do this, do it deliberately. Three focused videos will outperform fifty unfocused ones every time. Video also strengthens your overall [content marketing strategy](/blog/content-marketing-for-law-firms/)—it gives you assets that can be repurposed across search, email, and social.
 
 ## Frequently Asked Questions
 

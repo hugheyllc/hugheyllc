@@ -14,7 +14,7 @@ keywords: ["family law marketing", "family law digital marketing", "legal market
 
 Family law firms operate in a different economic universe than personal injury practices, yet they're often competing for attention in the same paid search and local SEO channels. The difference: a PI firm might spend $50,000 a month on Google Ads across five practice areas. A family law firm with a $5,000 monthly marketing budget can't match that volume—but it doesn't need to.
 
-According to the [American Bar Association's 2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), 76% of law firms now view digital marketing as essential to their growth strategy, with family law practices showing the highest year-over-year increase in online advertising investment.
+According to the [American Bar Association's 2023 Legal Technology Survey](https://www.americanbar.org/groups/law_practice/publications/techreport/), 76% of law firms now view digital marketing as essential to their growth strategy, with family law practices showing the highest year-over-year increase in online advertising investment. [WordStream's legal industry PPC benchmarks](https://www.wordstream.com/blog/ws/2016/02/29/industry-average-google-adwords-cpc) confirm that legal remains among the highest-cost verticals in paid search, making budget efficiency critical for family law practices.
 
 Family law digital marketing succeeds through precision, not saturation. The intent behind a divorce or custody search is fundamentally different from a "car accident attorney near me" query. It's more specific, more emotionally charged, and more likely to convert into a retained client when you reach the right person at the right moment.
 
@@ -102,8 +102,8 @@ Ready to audit your family law firm's marketing strategy? [Let's talk about wher
 
 ### Related Reading
 
-- [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](https://hugheyllc.com/blog/family-law-firm-marketing/)
-- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](https://hugheyllc.com/blog/law-firm-keyword-research/)
+- [Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing](/blog/family-law-firm-marketing/)
+- [Keyword Research for Law Firms: How to Find the Queries That Actually Sign Cases](/blog/law-firm-keyword-research/)
 
 ## Frequently Asked Questions
 

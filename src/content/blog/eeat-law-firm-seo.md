@@ -110,7 +110,7 @@ If you want to start immediately, here's what I'd check on your site right now:
 - [ ] Listing on [Avvo](https://www.avvo.com), [Martindale](https://www.martindale.com), [Justia](https://www.justia.com), and your state bar directory
 - [ ] Any notable press coverage, awards, or client results mentioned anywhere on the site
 
-This isn't a substitute for a full [E-E-A-T audit](https://hugheyllc.com/blog/eeat-law-firm-seo/), but it's a quick baseline. If you're failing more than two or three of these, your E-E-A-T signals are below competitive and worth fixing immediately.
+This isn't a substitute for a full [E-E-A-T audit](/blog/eeat-law-firm-seo/), but it's a quick baseline. If you're failing more than two or three of these, your E-E-A-T signals are below competitive and worth fixing immediately.
 
 ## How E-E-A-T Compounds With Your Overall SEO Strategy
 
@@ -131,7 +131,7 @@ E-E-A-T is a long-term investment in the credentials and authority signals that 
 
 **Want an E-E-A-T audit of your law firm's website?** We'll identify every gap between your current signals and what Google's quality framework looks for — and build a plan to close them.
 
-[Audit My E-E-A-T Signals →](https://hugheyllc.com/blog/eeat-law-firm-seo/)
+[Audit My E-E-A-T Signals →](/blog/eeat-law-firm-seo/)
 </div>
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
@@ -139,10 +139,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How Law Firms Build Backlinks Without Paying for Them](https://hugheyllc.com/blog/law-firm-link-building/)
-- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](https://hugheyllc.com/blog/business-law-firm-marketing/)
-- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](https://hugheyllc.com/blog/st-petersburg-law-firm-seo/)
-- [Law Firm Schema Markup: The Technical SEO Move Most Attorneys Are Missing](https://hugheyllc.com/blog/law-firm-schema-markup/)
+- [How Law Firms Build Backlinks Without Paying for Them](/blog/law-firm-link-building/)
+- [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](/blog/business-law-firm-marketing/)
+- [St. Petersburg Law Firm SEO: How to Rank in Pinellas County's Legal Market](/blog/st-petersburg-law-firm-seo/)
+- [Law Firm Schema Markup: The Technical SEO Move Most Attorneys Are Missing](/blog/law-firm-schema-markup/)
 
 ## Frequently Asked Questions
 

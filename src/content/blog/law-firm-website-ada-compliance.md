@@ -66,10 +66,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](https://hugheyllc.com/blog/how-to-choose-law-firm-website-design-company/)
-- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](https://hugheyllc.com/blog/law-firm-website-launch-checklist/)
-- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](https://hugheyllc.com/blog/law-firm-website-homepage-design/)
-- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](https://hugheyllc.com/blog/law-firm-website-ownership/)
+- [How to Choose a Law Firm Website Design Company (Without Getting Burned)](/blog/how-to-choose-law-firm-website-design-company/)
+- [The Law Firm Website Launch Checklist: 20 Things to Do Before Going Live](/blog/law-firm-website-launch-checklist/)
+- [What Every Law Firm Website Homepage Needs to Convert Visitors in 2026](/blog/law-firm-website-homepage-design/)
+- [Law Firm Website Ownership: Why 'Rented' Sites Are a Hidden Business Risk](/blog/law-firm-website-ownership/)
 
 ## Frequently Asked Questions
 

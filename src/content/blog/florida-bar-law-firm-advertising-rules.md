@@ -135,10 +135,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [Personal Injury Law Firm Marketing: The Complete Digital Strategy for Florida PI Attorneys](https://hugheyllc.com/blog/personal-injury-law-firm-marketing/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](https://hugheyllc.com/blog/tampa-law-firm-marketing-landscape/)
-- [Why Tampa Law Firms Are Moving Away From Directory-Dependent Marketing](https://hugheyllc.com/blog/tampa-law-firms-leaving-legal-directories/)
+- [Personal Injury Law Firm Marketing: The Complete Digital Strategy for Florida PI Attorneys](/blog/personal-injury-law-firm-marketing/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [Tampa Law Firm Marketing in 2026: The Local Competitive Landscape and How to Win It](/blog/tampa-law-firm-marketing-landscape/)
+- [Why Tampa Law Firms Are Moving Away From Directory-Dependent Marketing](/blog/tampa-law-firms-leaving-legal-directories/)
 
 ## Frequently Asked Questions
 

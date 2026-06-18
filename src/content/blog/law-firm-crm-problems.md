@@ -15,7 +15,7 @@ Your law firm bought a CRM. You trained everyone. Three months later, half your 
 
 According to the American Bar Association's 2023 Legal Technology Survey Report, only 35% of law firms report being "very satisfied" with their current CRM implementation, highlighting the widespread [integration and adoption challenges](https://www.americanbar.org/groups/law_practice/publications/techreport/) that plague the legal industry's technology initiatives.
 
-This is not a software problem. It's an integration problem.
+This is not a software problem. It's an integration problem. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) consistently shows that the majority of law firms struggle with client intake efficiency—a gap that well-implemented CRM workflows directly address.
 
 Law firm CRM problems almost never stem from the tool itself—they come from three structural failures: disconnected data sources, unclear ownership of follow-up workflows, and adoption friction that nobody anticipated. A CRM sitting in isolation, disconnected from your call tracking, web forms, and email, becomes expensive data entry software. Your team stops using it. Pipeline visibility disappears. Cases slip out the door.
 
@@ -88,8 +88,8 @@ If you're unsure whether your CRM setup is costing you cases, I can walk you thr
 
 ### Related Reading
 
-- [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](https://hugheyllc.com/blog/law-firm-crm-automation/)
-- [Call Tracking, CRM & Web Analytics: How to Connect the Dots for Your Firm's Intake](https://hugheyllc.com/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
+- [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](/blog/law-firm-crm-automation/)
+- [Call Tracking, CRM & Web Analytics: How to Connect the Dots for Your Firm's Intake](/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake/)
 
 ## Frequently Asked Questions
 

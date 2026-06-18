@@ -83,10 +83,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](https://hugheyllc.com/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
-- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-bay/)
-- [What Law Firms Should Know Before Signing With Scorpion (An Independent Perspective)](https://hugheyllc.com/blog/scorpion-legal-marketing-review/)
-- [Law Firm Marketing Consultant in Tampa, FL](https://hugheyllc.com/blog/law-firm-marketing-consultant-tampa-fl/)
+- [How Much Should a Small Law Firm Really Spend on Marketing in 2025?](/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025/)
+- [Finding a Law Firm Marketing Consultant in Tampa Bay: What to Look For](/blog/law-firm-marketing-consultant-tampa-bay/)
+- [What Law Firms Should Know Before Signing With Scorpion (An Independent Perspective)](/blog/scorpion-legal-marketing-review/)
+- [Law Firm Marketing Consultant in Tampa, FL](/blog/law-firm-marketing-consultant-tampa-fl/)
 
 ## Frequently Asked Questions
 

@@ -58,7 +58,7 @@ Posts that rank on page one but have no conversion path are leaving leads on the
 
 The north star metric for law firm content isn't pageviews or time on page — it's assisted conversions. Which posts are part of the journey for visitors who eventually became leads? Which leads became retained clients?
 
-This requires connecting your content analytics in [GA4](https://analytics.google.com) to your intake data in [Lawmatics](https://www.lawmatics.com) or [Clio](https://www.clio.com) — the data integration work we covered in [The Marketing Data Your Law Firm Is Sitting On](https://hugheyllc.com/blog/law-firm-marketing-data/). Without that connection, you're optimizing content based on traffic metrics that may have no relationship to your actual business outcomes.
+This requires connecting your content analytics in [GA4](https://analytics.google.com) to your intake data in [Lawmatics](https://www.lawmatics.com) or [Clio](https://www.clio.com) — the data integration work we covered in [The Marketing Data Your Law Firm Is Sitting On](/blog/law-firm-marketing-data/). Without that connection, you're optimizing content based on traffic metrics that may have no relationship to your actual business outcomes.
 
 <hr />
 <div>
@@ -73,10 +73,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](https://hugheyllc.com/blog/predictive-analytics-law-firm-growth/)
-- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](https://hugheyllc.com/blog/what-to-ask-law-firm-marketing-company/)
-- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](https://hugheyllc.com/blog/clearwater-law-firm-marketing/)
-- [Content Marketing for Law Firms: What Actually Drives Retained Clients](https://hugheyllc.com/blog/content-marketing-for-law-firms/)
+- [The Future of Law Firm Video Marketing: Compliance Meets Conversion](/blog/predictive-analytics-law-firm-growth/)
+- [What to Ask Before Hiring a Law Firm Marketing Company (15 Questions That Reveal Everything)](/blog/what-to-ask-law-firm-marketing-company/)
+- [Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County](/blog/clearwater-law-firm-marketing/)
+- [Content Marketing for Law Firms: What Actually Drives Retained Clients](/blog/content-marketing-for-law-firms/)
 
 ## Frequently Asked Questions
 

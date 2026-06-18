@@ -22,7 +22,7 @@ This guide explains how to transition from traditional SEO to AEO in 2025, struc
 
 ## Why Law Firms Must Think Beyond SEO
 
-AI systems like Google's AI Overviews, SearchGPT, and Perplexity are reshaping how people discover legal information. Clients now ask conversational questions such as:
+AI systems like Google's AI Overviews, SearchGPT, and Perplexity are reshaping how people discover legal information. [Google's Search Quality Rater Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf) make clear that E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) now underpins both traditional rankings and AI-cited answers. Clients now ask conversational questions such as:
 
 <li>
 "Can a non-compete be enforced in Florida?"
@@ -86,7 +86,7 @@ Organization
 FAQ
 </li>
 
-[Schema.org vocabulary](https://schema.org) helps AI confirm accuracy and authorship.
+[Schema.org vocabulary](https://schema.org/LegalService) helps AI confirm accuracy and authorship. The [ABA's guidance on online attorney profiles](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/) establishes the baseline for what attorney information must be accurate and verifiable.
 
 ### 4. Optimize for E-E-A-T
 
@@ -189,10 +189,10 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ### Related Reading
 
-- [The Small-Firm Playbook for Google's AI Overviews (AEO) in 2025](https://hugheyllc.com/blog/small-firm-aeo-playbook/)
-- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](https://hugheyllc.com/blog/video-and-visual-content-for-legal-seo-2025/)
-- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](https://hugheyllc.com/blog/law-firm-website-seo-and-conversion/)
-- [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](https://hugheyllc.com/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)
+- [The Small-Firm Playbook for Google's AI Overviews (AEO) in 2025](/blog/small-firm-aeo-playbook/)
+- [Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025](/blog/video-and-visual-content-for-legal-seo-2025/)
+- [How to Build a Law Firm Website That Ranks on Google AND Converts Visitors Into Clients](/blog/law-firm-website-seo-and-conversion/)
+- [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)
 
 ## Frequently Asked Questions
 
