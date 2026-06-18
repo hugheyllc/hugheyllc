@@ -180,13 +180,27 @@ const organizationSchema = {
     {schema && (Array.isArray(schema) ? schema : [schema]).map((s: any) => (
       <script type="application/ld+json" set:html={JSON.stringify(s)} />
     ))}
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGGMB2PJN2"></script>
+    <!-- Google Analytics — deferred until user interaction or 4s to improve FCP/LCP -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EGGMB2PJN2');
+      (function() {
+        var gaLoaded = false;
+        function loadGA() {
+          if (gaLoaded) return;
+          gaLoaded = true;
+          var s = document.createElement('script');
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-EGGMB2PJN2';
+          s.async = true;
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function(){window.dataLayer.push(arguments);};
+          window.gtag('js', new Date());
+          window.gtag('config', 'G-EGGMB2PJN2');
+        }
+        ['click','scroll','keydown','touchstart'].forEach(function(e){
+          document.addEventListener(e, loadGA, {once:true, passive:true});
+        });
+        setTimeout(loadGA, 4000);
+      })();
     </script>
   </head>
   <body>
