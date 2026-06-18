@@ -287,8 +287,8 @@ Body requirements:
 - Hit target keyword in H1, first paragraph, at least one H2, and naturally 3-5 times total in body
 - Use keyword variations and semantically related terms throughout (LSI keywords)
 - H2 subheadings should be specific and descriptive — use question-style H2s where natural ("How do family law firms...", "What should a law firm...")
-- 2-4 inline internal links to existing posts above with descriptive anchor text (e.g. [how to evaluate your law firm marketing agency](/blog/slug/)). Embed in body sentences, not as a list.
-- 1-2 external links to authoritative sources (Google, ABA, state bar, Pew Research, academic/gov sources only — no competitors). Use [anchor text](https://full-url) in body.
+- MANDATORY: 3-5 inline internal links to existing posts listed above. Use relative paths with descriptive anchor text (e.g. [how to evaluate your law firm marketing agency](/blog/slug/)). Spread throughout the body — not bunched in one section. Do NOT use full URLs (https://hugheyllc.com/blog/...) for internal links — use relative paths (/blog/slug/).
+- MANDATORY: 2-3 external links to authoritative third-party sources (Google Support pages, ABA.org, state bar associations, Pew Research, government sites, legal journals). These must be real, verifiable URLs to domains other than hugheyllc.com. Use [anchor text](https://full-url) format. Embed naturally in body sentences.
 - Include a ## Frequently Asked Questions section near the end with 3-5 Q&A pairs. Each Q should be an H3 (###). Answers 2-4 sentences each. Questions should match what someone would actually type or speak to a search engine about this topic.
 - 1100-1500 words total
 - CTA paragraph before FAQ: Choose the most relevant CTA based on topic:
@@ -297,7 +297,7 @@ Body requirements:
   - If the post covers marketing audits, attribution, or evaluating agencies: link to the free checklist — "Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it's the same review I walk consulting clients through."
   - For all other topics: link to /contact/ — "If you want help building this for your firm, [let's talk](/contact/)."
   - Keep CTAs natural and in Joe's voice — one sentence, not a sales pitch. Weave it into the closing paragraph.
-- End with a "### Related Reading" section containing exactly 2 markdown links to existing posts (full URLs https://hugheyllc.com/blog/slug/)
+- End with a "### Related Reading" section containing exactly 2 markdown links to existing posts (relative URLs /blog/slug/)
 - No fabricated names, firms, case studies, or specific numeric statistics
 
 Frontmatter also requires:
@@ -328,6 +328,17 @@ Frontmatter also requires:
   if (!fm.title || !fm.slug) {
     throw new Error('Generated post missing title or slug in frontmatter');
   }
+
+  // Validate linking requirements
+  const body = cleaned.split('---').slice(2).join('---');
+  const internalLinks = (body.match(/\]\(\//g) || []).length;
+  const externalLinks = (body.match(/\]\(https?:\/\/(?!hugheyllc\.com)/g) || []).length;
+  const faqCount = (body.match(/^###\s+/gm) || []).length;
+  console.log(`     links: ${internalLinks} internal, ${externalLinks} external, ${faqCount} FAQ items`);
+  if (internalLinks < 3) console.warn(`     ⚠️ Only ${internalLinks} internal links (target: 3-5)`);
+  if (externalLinks < 1) console.warn(`     ⚠️ Only ${externalLinks} external links (target: 2-3)`);
+  if (faqCount < 3) console.warn(`     ⚠️ Only ${faqCount} FAQ items (target: 3-5)`);
+
   return { content: cleaned, fm };
 }
 
