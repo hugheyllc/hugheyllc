@@ -92,7 +92,7 @@ By month's end, you'll have real data on your specific market and client base. Y
 
 Your competitors aren't doing this because it feels like sales work. It is. And law firms aren't great at sales. But the firms that are—the ones consistently winning new clients and [seeing higher close rates on initial consultations](/blog/law-firm-intake-speed/)—they've built this into their operations. They don't ask why reviews matter. They ask how many they're getting.
 
-If you want the full system — request sequences, response templates, velocity tracking, and a platform priority matrix — [the Always Reviewed Playbook has everything for $97](/resources/always-reviewed-playbook/). It's built so your team can run it without outside help.
+If you want the review system that builds real velocity without chasing clients, [the Always Reviewed Playbook is the complete build — $97](/resources/always-reviewed-playbook/).
 
 ## Frequently Asked Questions
 

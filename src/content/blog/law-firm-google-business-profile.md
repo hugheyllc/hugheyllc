@@ -86,7 +86,7 @@ The firms that break the cycle are the ones that build this measurement infrastr
 
 ---
 
-*If you want the full GBP rebuild process with every field, every signal, and every template, [the Always Found Playbook covers it step by step for $97](/resources/always-found-playbook/). If you'd rather have someone evaluate your current setup, [that's exactly what I do](/contact/).*
+If you want to build the local SEO system that consistently puts firms in the Map Pack, [the Always Found Playbook is the step-by-step build — $97 and yours to keep](/resources/always-found-playbook/).
 
 *Related: [10 Questions to Ask Before Hiring a Law Firm Marketing Agency](/blog/what-to-ask-law-firm-marketing-company/) · [Agency vs. Consultant: What Every Firm Principal Should Know](/blog/agency-vs-consultant-law-firm-marketing/)*
 

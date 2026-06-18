@@ -55,11 +55,9 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ---
 
-**Want the complete system?** The Always Found Playbook walks through every step in this post — and 7 more — with copy-paste templates, a 50-source citation checklist, and schema snippets. **[$97 → hugheyllc.com/resources/always-found-playbook/](https://hugheyllc.com/resources/always-found-playbook/)**
+Both systems — local SEO and reviews — work together. [The Playbook Bundle gives you both for $147 (saves $47)](/resources/playbook-bundle/).
 
 ---
-
-**Want the complete review system?** The Always Reviewed Playbook covers every step — request sequences, response templates, velocity tracking, and monitoring. **[$97 → hugheyllc.com/resources/always-reviewed-playbook/](https://hugheyllc.com/resources/always-reviewed-playbook/)**
 
 ---
 

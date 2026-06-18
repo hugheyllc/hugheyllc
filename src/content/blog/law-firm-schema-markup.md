@@ -146,7 +146,7 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ---
 
-**Want the complete system?** The Always Found Playbook walks through every step in this post — and 7 more — with copy-paste templates, a 50-source citation checklist, and schema snippets. **[$97 → hugheyllc.com/resources/always-found-playbook/](https://hugheyllc.com/resources/always-found-playbook/)**
+If you want to build the local SEO system that consistently puts firms in the Map Pack, [the Always Found Playbook is the step-by-step build — $97 and yours to keep](/resources/always-found-playbook/).
 
 ---
 

@@ -1,0 +1,446 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHero from '../../../components/PageHero.astro';
+import Footer from '../../../components/Footer.astro';
+
+const STRIPE_URL = 'https://buy.stripe.com/eVq5kF0Jz9xBc58gMPd7q01';
+
+// Chapter 1 content (from the actual playbook)
+const chapter1 = {
+  title: 'Why Reviews Are Your Most Powerful Local Ranking Signal',
+  description: 'How Google weights review quantity, rating, recency, velocity, and response rate — and why recency and velocity are the two factors most law firms ignore.',
+  topics: [
+    'The five review signals Google uses and how they interact with each other',
+    'Why velocity (consistent new reviews) matters more than total count over time',
+    'How response rate affects your profile\'s authority in Google\'s algorithm',
+    'The difference between review signals for Local Pack rankings versus organic rankings',
+    'What the firms consistently in the top three are doing differently with reviews',
+  ]
+};
+
+const remainingChapters = [
+  { num: '02', title: 'Setting Up Your Review Infrastructure' },
+  { num: '03', title: 'The Review Request System' },
+  { num: '04', title: 'Review Gating — What It Is and Why It\'s Dangerous' },
+  { num: '05', title: 'Responding to Reviews' },
+  { num: '06', title: 'Building Review Velocity — The Monthly System' },
+  { num: '07', title: 'Leveraging Reviews Beyond Google' },
+  { num: '08', title: 'Monitoring, Protecting, and Recovering' },
+];
+---
+
+<BaseLayout
+  title="Free Chapter 1 — Always Reviewed. Always Ranked. | Hughey LLC"
+  description="Get Chapter 1 of the Always Reviewed Playbook free — how Google weights review signals and why velocity matters more than most firms realize. Enter your email to download."
+  canonical="https://hugheyllc.com/resources/always-reviewed-sample/"
+>
+  <div class="sp-page">
+    <PageHero
+      eyebrow="Free Sample · Chapter 1 of 8"
+      heading="Get Chapter 1 Free.<br /><em>Understand the Signal Before You Chase It.</em>"
+      subheading="Chapter 1 of the Always Reviewed Playbook explains how Google actually weights review signals before you build a request system. Enter your email and it goes straight to your inbox."
+    />
+
+    <section class="sp-section dark">
+      <div class="w sp-grid">
+
+        <!-- Left: Form -->
+        <div class="sp-form-col rx">
+          <div class="sp-form-card">
+            <p class="sp-form-label">Get Chapter 1 — Free</p>
+            <h2 class="sp-form-heading">Why Reviews Are Your Most Powerful <em>Local Ranking Signal</em></h2>
+            <p class="sp-form-sub">Enter your email and we'll send Chapter 1 to your inbox immediately.</p>
+
+            <!-- Form: swap action/method for your email provider (ConvertKit, Mailchimp, etc.) -->
+            <form
+              class="sp-form"
+              action="/api/sample-chapter"
+              method="POST"
+              data-playbook="always-reviewed"
+            >
+              <input type="hidden" name="playbook" value="always-reviewed" />
+              <input type="hidden" name="chapter" value="1" />
+
+              <div class="sp-field">
+                <label for="sr-first-name">First name</label>
+                <input type="text" id="sr-first-name" name="first_name" placeholder="Jane" required />
+              </div>
+
+              <div class="sp-field">
+                <label for="sr-email">Work email</label>
+                <input type="email" id="sr-email" name="email" placeholder="jane@yourfirm.com" required />
+              </div>
+
+              <button type="submit" class="sp-submit">
+                Send Me Chapter 1 →
+              </button>
+
+              <p class="sp-form-fine">No spam. Unsubscribe any time. We may follow up with a short email series about review strategy for law firms.</p>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right: What's in Chapter 1 -->
+        <div class="sp-content-col">
+          <p class="sp-pre">What you'll read in Chapter 1</p>
+          <h3 class="sp-content-heading">{chapter1.title}</h3>
+          <p class="sp-content-desc">{chapter1.description}</p>
+
+          <ul class="sp-topic-list">
+            {chapter1.topics.map(t => (
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>{t}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div class="sp-context">
+            <p>Most firms jump straight to "how do we ask for more reviews" without understanding what Google is actually measuring. This chapter changes that. When you know which signals matter and why, the system in Chapters 2–8 makes more sense — and you build it right the first time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What's in the full playbook -->
+    <section class="sp-section dark alt">
+      <div class="w">
+        <span class="section-accent"></span>
+        <p class="sp-pre">The full playbook</p>
+        <h2 class="sp-h2">Chapter 1 is free. <em>The other seven are $97.</em></h2>
+        <p class="sp-lede">After Chapter 1, the playbook walks through the complete review system — infrastructure, request sequences, compliance, response templates, velocity tracking, cross-platform strategy, and reputation defense. Built for execution, not reading.</p>
+
+        <div class="sp-chapter-list">
+          {remainingChapters.map(c => (
+            <div class="sp-chapter-row rx">
+              <span class="sp-chapter-num">{c.num}</span>
+              <span class="sp-chapter-title">{c.title}</span>
+            </div>
+          ))}
+        </div>
+
+        <div class="sp-upsell rx">
+          <p class="sp-upsell-body">Plus seven appendices: direct review link setup, complete request templates, 10 positive response templates, 10 negative response templates, monthly velocity scorecard, platform priority matrix by practice area, and a full glossary.</p>
+          <a href={STRIPE_URL} class="sp-buy-btn">Get the Full Playbook — $97 →</a>
+          <p class="sp-upsell-fine">Secure checkout via Stripe · Instant delivery · 14-day refund policy</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <Footer />
+
+  <style>
+    .sp-page { background: var(--ink); }
+
+    .sp-section {
+      padding: 88px 0;
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    .sp-section.alt {
+      background: #0B1825;
+      border-top: 1px solid rgba(200, 151, 58, 0.1);
+      border-bottom: 1px solid rgba(200, 151, 58, 0.1);
+    }
+
+    .sp-pre {
+      font-family: var(--man);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin-bottom: 14px;
+    }
+
+    .sp-h2 {
+      font-family: var(--man);
+      font-size: clamp(26px, 4vw, 40px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+    }
+
+    .sp-h2 em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .sp-lede {
+      font-size: 16.5px;
+      color: rgba(255, 255, 255, 0.72);
+      line-height: 1.75;
+      max-width: 720px;
+      margin-bottom: 40px;
+    }
+
+    .sp-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 64px;
+      align-items: start;
+    }
+
+    .sp-form-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+      border: 1px solid rgba(200, 151, 58, 0.25);
+      border-radius: 6px;
+      padding: 40px 36px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.35);
+    }
+
+    .sp-form-label {
+      font-family: var(--man);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--glt);
+      margin: 0 0 12px;
+    }
+
+    .sp-form-heading {
+      font-family: var(--man);
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.25;
+      margin: 0 0 14px;
+    }
+
+    .sp-form-heading em {
+      color: var(--glt);
+      font-style: italic;
+      font-family: var(--bas);
+      font-weight: 400;
+    }
+
+    .sp-form-sub {
+      font-size: 14.5px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.6;
+      margin: 0 0 28px;
+    }
+
+    .sp-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .sp-field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .sp-field label {
+      font-size: 13px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.03em;
+    }
+
+    .sp-field input {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(200, 151, 58, 0.2);
+      border-radius: 3px;
+      padding: 13px 16px;
+      font-size: 15px;
+      color: var(--white);
+      font-family: var(--man);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .sp-field input::placeholder {
+      color: rgba(255,255,255,0.3);
+    }
+
+    .sp-field input:focus {
+      border-color: var(--glt);
+    }
+
+    .sp-submit {
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 17px 28px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200, 151, 58, 0.35);
+    }
+
+    .sp-submit:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200, 151, 58, 0.45);
+    }
+
+    .sp-form-fine {
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+      line-height: 1.6;
+      margin: 4px 0 0;
+    }
+
+    .sp-content-heading {
+      font-family: var(--man);
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--white);
+      margin: 0 0 12px;
+      line-height: 1.3;
+    }
+
+    .sp-content-desc {
+      font-size: 15.5px;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.7;
+      margin: 0 0 28px;
+    }
+
+    .sp-topic-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .sp-topic-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 14.5px;
+      color: rgba(255,255,255,0.78);
+      line-height: 1.6;
+    }
+
+    .sp-topic-list svg {
+      color: var(--glt);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .sp-context {
+      padding: 22px 26px;
+      background: rgba(200, 151, 58, 0.05);
+      border-left: 3px solid rgba(200, 151, 58, 0.4);
+      border-radius: 0 3px 3px 0;
+    }
+
+    .sp-context p {
+      font-size: 14.5px;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    .sp-chapter-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 680px;
+      margin-bottom: 48px;
+    }
+
+    .sp-chapter-row {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 16px;
+      align-items: center;
+      padding: 16px 20px;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(200,151,58,0.12);
+      border-radius: 3px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .sp-chapter-row:hover {
+      border-color: rgba(200,151,58,0.3);
+      background: rgba(200,151,58,0.03);
+    }
+
+    .sp-chapter-num {
+      font-family: var(--man);
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--glt);
+      letter-spacing: 0.08em;
+    }
+
+    .sp-chapter-title {
+      font-size: 15px;
+      color: rgba(255,255,255,0.78);
+      font-weight: 600;
+    }
+
+    .sp-upsell {
+      background: linear-gradient(135deg, #0B1825 0%, #112440 100%);
+      border: 1px solid rgba(200,151,58,0.25);
+      border-radius: 6px;
+      padding: 44px 48px;
+      max-width: 680px;
+      text-align: center;
+    }
+
+    .sp-upsell-body {
+      font-size: 16px;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.7;
+      margin: 0 0 28px;
+    }
+
+    .sp-buy-btn {
+      display: inline-flex;
+      align-items: center;
+      background: var(--glt);
+      color: var(--ink);
+      font-family: var(--man);
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 17px 36px;
+      border-radius: 2px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 6px 28px rgba(200,151,58,0.35);
+    }
+
+    .sp-buy-btn:hover {
+      background: #ecbf6a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 36px rgba(200,151,58,0.45);
+    }
+
+    .sp-upsell-fine {
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+      margin: 16px 0 0;
+    }
+
+    @media (max-width: 900px) {
+      .sp-grid { grid-template-columns: 1fr; gap: 48px; }
+      .sp-upsell { padding: 36px 28px; }
+    }
+
+    @media (max-width: 600px) {
+      .sp-section { padding: 64px 0; }
+    }
+  </style>
+</BaseLayout>

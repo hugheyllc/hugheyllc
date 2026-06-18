@@ -96,7 +96,7 @@ For firms trying to evaluate whether their current approach is working, the most
 
 If your firm isn't dominating local search results in your market, you're leaving cases on the table every single week. The firms that built proper local SEO systems in 2024-2025 are now seeing the compounding returns—higher visibility, more qualified leads, better conversion rates.
 
-If you want to build this yourself, [the Always Found Playbook](/resources/always-found-playbook/) is the complete local SEO system — eight chapters, every template, every checklist, built so your team can execute without hiring an agency. If you'd rather have someone run it for you, [let's talk](/contact/).
+If you want to build the local SEO system that consistently puts firms in the Map Pack, [the Always Found Playbook is the step-by-step build — $97 and yours to keep](/resources/always-found-playbook/).
 
 *Related:* [Local SEO for Law Firms: How to Own 'Attorney Near Me' Searches in Your City](/blog/local-seo-law-firms/) | [How Tampa Law Firms Are Winning the Google Local Pack in 2026](/blog/tampa-law-firms-winning-local-pack/)
 

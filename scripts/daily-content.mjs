@@ -292,9 +292,10 @@ Body requirements:
 - Include a ## Frequently Asked Questions section near the end with 3-5 Q&A pairs. Each Q should be an H3 (###). Answers 2-4 sentences each. Questions should match what someone would actually type or speak to a search engine about this topic.
 - 1100-1500 words total
 - CTA paragraph before FAQ: Choose the most relevant CTA based on topic:
-  - If the post covers local SEO, GBP, citations, location pages, or map pack: link to the Always Found Playbook — "If you want the complete local SEO system with every template and checklist, [the Always Found Playbook walks through all eight steps for $97](/resources/always-found-playbook/)."
-  - If the post covers reviews, reputation, or social proof: link to the Always Reviewed Playbook — "If you want the full review system with request scripts, response templates, and velocity tracking, [the Always Reviewed Playbook has everything for $97](/resources/always-reviewed-playbook/)."
-  - If the post covers marketing audits, attribution, or evaluating agencies: link to the free checklist — "Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it's the same review I walk consulting clients through."
+  - If the post covers BOTH local SEO and reviews: link to the bundle — "Both systems — local SEO and reviews — work together. [The Playbook Bundle gives you both for $147 (saves $47)](/resources/playbook-bundle/)."
+  - If the post covers local SEO, GBP, citations, location pages, or map pack (but not reviews): link to the Always Found Playbook — "If you want to build the local SEO system that consistently puts firms in the Map Pack, [the Always Found Playbook is the step-by-step build — $97 and yours to keep](/resources/always-found-playbook/)."
+  - If the post covers reviews, reputation, or social proof (but not local SEO): link to the Always Reviewed Playbook — "If you want the review system that builds real velocity without chasing clients, [the Always Reviewed Playbook is the complete build — $97](/resources/always-reviewed-playbook/)."
+  - If the post covers marketing audits, attribution, or evaluating agencies: link to the free checklist — "Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it's the same diagnostic I walk consulting clients through."
   - For all other topics: link to /contact/ — "If you want help building this for your firm, [let's talk](/contact/)."
   - Keep CTAs natural and in Joe's voice — one sentence, not a sales pitch. Weave it into the closing paragraph.
 - End with a "### Related Reading" section containing exactly 2 markdown links to existing posts (relative URLs /blog/slug/)

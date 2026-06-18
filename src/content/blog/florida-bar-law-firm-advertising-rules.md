@@ -129,7 +129,7 @@ If you'd like a second opinion from an [independent law firm marketing consultan
 
 ---
 
-**Want the complete review system?** The Always Reviewed Playbook covers every step - request sequences, response templates, velocity tracking, and monitoring. **[$97 → hugheyllc.com/resources/always-reviewed-playbook/](https://hugheyllc.com/resources/always-reviewed-playbook/)**
+If you want the review system that builds real velocity without chasing clients, [the Always Reviewed Playbook is the complete build — $97](/resources/always-reviewed-playbook/).
 
 ---
 
