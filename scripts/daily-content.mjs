@@ -562,6 +562,9 @@ async function commentLinkedIn(postUrn, text) {
 // ---------- Telegram ----------
 
 async function notifyTelegram(text) {
+  // Disabled: notification now handled by Micky (ops-director) via cron job
+  console.log('[telegram] Skipped — notification handled by ops-director agent');
+  return;
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chatId) throw new Error('Telegram credentials missing');
