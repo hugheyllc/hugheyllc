@@ -26,7 +26,7 @@ Most law firms track their total Google review count like it's the only metric t
 
 Review **velocity**—how recently and how consistently new reviews appear—signals to both Google and potential clients that the firm is active and clients are current. A firm with 47 reviews, the most recent from three months ago, sends a weaker signal than a firm with 23 reviews spread evenly across the past four weeks.
 
-Google's algorithm weights recency. Fresh reviews push your firm higher in the local pack and appear more prominently on your Google Business Profile. Potential clients also notice: a review from last week carries more weight psychologically than one from last year.
+Google's algorithm weights recency. Fresh reviews push your firm higher in the local pack and appear more prominently on your [Google Business Profile](https://support.google.com/business/answer/7091). Potential clients also notice: a review from last week carries more weight psychologically than one from last year.
 
 Firms that do this typically see velocity by building review requests into their **client experience at natural friction points**—not all at once, but consistently. This means:
 
@@ -109,11 +109,11 @@ There's no magic number, but velocity matters more than count. A firm with 15 re
 
 ### Can I offer an incentive for reviews?
 
-The ABA Model Rules and most state bars prohibit paying for reviews directly. However, you can legally offer a general discount or bonus to all clients without conditioning it on a review. Check your state bar's specific guidance—ethics rules vary.
+The [ABA Model Rules](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/) and most state bars prohibit paying for reviews directly. However, you can legally offer a general discount or bonus to all clients without conditioning it on a review. Check your state bar's specific guidance—ethics rules vary.
 
 ### What should I do if a review contains false information?
 
-Report it to Google through your Business Profile. Google's guidelines prohibit reviews that contain false statements about the firm (as opposed to subjective opinions about service quality). If the review remains and it's factually wrong, respond professionally offering to clarify offline.
+Report it to Google through your Business Profile. [Google's review policies](https://support.google.com/business/answer/3474122) prohibit reviews that contain false statements about the firm (as opposed to subjective opinions about service quality). If the review remains and it's factually wrong, respond professionally offering to clarify offline.
 
 ### How long does it take to see results from reputation management?
 

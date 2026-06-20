@@ -83,9 +83,9 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 17 | Criminal Defense Marketing: What Works When Every Lead Is Urgent | criminal defense marketing strategy | Speed-to-contact, after-hours capture, emotional urgency vs. PI marketing differences | ✅ Published |
 | 18 | The 30-Minute Marketing Audit: What to Pull From Your Agency's Dashboard Right Now | law firm marketing audit checklist | Hands-on diagnostic for existing agency relationships — GA4, call tracking, CPC trends, intake conversion. Not pre-hire; post-hire accountability check. | 🔲 Planned |
 | 19 | What Happens When a Law Firm Brings Marketing In-House (And When It Backfires) | law firm in-house marketing | Build vs. buy, hidden costs of internal hires, hybrid model with consultant oversight | 🔲 Planned |
-| 20 | How Law Firms Waste Money on Social Media (And the One Platform That Actually Works) | law firm social media marketing | Organic social ROI reality check, LinkedIn vs. Instagram vs. Facebook for attorneys | 🔲 Planned |
+| 20 | How Law Firms Waste Money on Social Media (And the One Platform That Actually Works) | law firm social media marketing | Organic social ROI reality check, LinkedIn vs. Instagram vs. Facebook for attorneys | ✅ Published |
 | 21 | Multi-Location Law Firms: How to Market Each Office Without Cannibalizing Yourself | multi-location law firm marketing | GBP per location, localized content, internal competition pitfalls | ✅ Published |
-| 22 | Reputation Management for Law Firms: Beyond Asking for Google Reviews | law firm reputation management | Review velocity, negative review response, third-party profile audit | 🔲 Planned |
+| 22 | Reputation Management for Law Firms: Beyond Asking for Google Reviews | law firm reputation management | Review velocity, negative review response, third-party profile audit | ✅ Published |
 | 23 | How Immigration Law Firms Can Build a Marketing Engine That Scales | immigration law firm marketing | Multilingual content, community trust, referral networks, low-CPC keywords | 🔲 Planned |
 | 24 | What Law Firms Should Know About Marketing Contracts Before They Sign | law firm marketing contract red flags | Ownership clauses, termination terms, IP traps, performance guarantees | 🔲 Planned |
 
