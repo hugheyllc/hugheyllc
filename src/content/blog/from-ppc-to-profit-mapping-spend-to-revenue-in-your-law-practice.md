@@ -3,10 +3,10 @@ title: "From PPC to Profit: Mapping Spend to Revenue in Your Law Practice"
 slug: "from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice"
 date: 2025-12-09
 author: "Joe Hughey"
-excerpt: "Many law firms spend thousands on pay-per-click (PPC) advertising but struggle to connect those investments to actual revenue. This article walks through a prac"
+excerpt: "Many law firms spend thousands on PPC without connecting spend to retained clients. This guide shows how to map Google Ads investment to actual revenue and firm growth."
 tags: ["Google Ads", "marketing ROI", "law firm marketing", "marketing analytics"]
 seo_title: "From PPC to Profit: Mapping Spend to Revenue in Your Law Practice"
-seo_description: "Many law firms spend thousands on pay-per-click (PPC) advertising but struggle to connect those investments to actual revenue. This article walks through a prac"
+seo_description: "Law firms spend thousands on PPC without connecting spend to retained clients. Learn how to map Google Ads investment to actual revenue and profitable firm growth."
 draft: false
 image: "/images/blog/from-ppc-to-profit-mapping-spend-to-revenue-in-your-law-practice.webp"
 keywords: ["PPC to profit law firms", "law firm marketing ROI", "Google Ads for lawyers", "legal marketing analytics", "law practice PPC tracking", "attorney advertising ROI"]

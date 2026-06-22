@@ -3,10 +3,10 @@ title: "Benchmarking Your Marketing — What High-Performing Law Firms Are Hitti
 slug: "benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025"
 date: 2025-12-06
 author: "Joe Hughey"
-excerpt: "Introduction Benchmarking is one of the most valuable tools in modern law firm marketing strategy. Without context, even a strong metric can mislead. By compari"
+excerpt: "Law firm marketing benchmarks for 2025: what high-performing firms spend per retained client, PPC conversion rates, SEO metrics, and intake benchmarks to target."
 tags: ["marketing analytics", "law firm marketing", "marketing ROI", "law firm growth"]
 seo_title: "Benchmarking Your Marketing — What High-Performing Law Firms Are Hitting in 2025"
-seo_description: "Introduction Benchmarking is one of the most valuable tools in modern law firm marketing strategy. Without context, even a strong metric can mislead. By compari"
+seo_description: "Law firm marketing benchmarks for 2025: what high-performing firms spend per retained client, PPC conversion rates, SEO metrics, and intake benchmarks to target."
 draft: false
 image: "/images/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025.webp"
 keywords: ["law firm marketing benchmarks", "legal marketing ROI", "law firm PPC benchmarks", "law firm SEO performance", "legal industry marketing metrics", "law firm marketing analytics", "legal marketing strategy 2025"]

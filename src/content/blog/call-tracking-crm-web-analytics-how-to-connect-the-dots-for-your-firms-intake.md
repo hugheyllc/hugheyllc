@@ -3,10 +3,10 @@ title: "Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your
 slug: "call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake"
 date: 2025-10-31
 author: "Joe Hughey"
-excerpt: "The Silent Revenue Leak in Law Firm Marketing Law firms often lose clients not due to lack of leads, but because their data systems don’t communicate. Phone cal"
+excerpt: "Learn how to connect call tracking, CRM, and web analytics to close the intake data gap — and stop losing retained clients to disconnected marketing systems."
 tags: ["marketing analytics", "intake optimization", "law firm marketing", "law firm growth"]
 seo_title: "Call Tracking, CRM &amp; Web Analytics: How to Connect the Dots for Your Firm’s Intake"
-seo_description: "The Silent Revenue Leak in Law Firm Marketing Law firms often lose clients not due to lack of leads, but because their data systems don’t communicate. Phone cal"
+seo_description: "Learn how to connect call tracking, CRM, and web analytics to close the intake data gap — and stop losing retained clients to disconnected marketing systems."
 draft: false
 image: "/images/blog/call-tracking-crm-web-analytics-how-to-connect-the-dots-for-your-firms-intake.webp"
 keywords: ["law firm intake optimization", "legal marketing analytics", "call tracking for lawyers", "law firm CRM integration", "legal client acquisition tracking", "attorney marketing ROI", "law firm lead attribution"]

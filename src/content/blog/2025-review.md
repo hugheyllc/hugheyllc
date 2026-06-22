@@ -3,10 +3,10 @@ title: "2025 in Review: How Legal Marketing, AI and Intake Actually Changed"
 slug: "2025-review"
 date: 2026-01-13
 author: "Joe Hughey"
-excerpt: "Purpose: Provide a long‑form retrospective on the year 2025 for law firm marketing. This blog identifies what really changed, what failed quietly and what matte"
+excerpt: "What actually changed in law firm marketing in 2025: AI search adoption, intake technology, paid media transparency, and what law firms need to carry into 2026."
 tags: ["law firm marketing", "legal marketing", "AEO", "intake optimization"]
 seo_title: "2025 in Review: How Legal Marketing, AI and Intake Actually Changed"
-seo_description: "Purpose: Provide a long‑form retrospective on the year 2025 for law firm marketing. This blog identifies what really changed, what failed quietly and what matte"
+seo_description: "What actually changed in law firm marketing in 2025: AI search adoption, intake technology, paid media transparency, and what firms need to carry into 2026."
 draft: false
 
 image: "/images/blog/2025-review.webp"

@@ -3,10 +3,10 @@ title: "AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What D
 slug: "ai-tools-law-firm-marketing"
 date: 2025-04-28
 author: "Joe Hughey"
-excerpt: "The AI tools landscape for law firm marketing is full of hype and genuinely useful capabilities in roughly equal measure. Here's an honest breakdown of what act"
+excerpt: "The AI tools landscape for law firm marketing: an honest breakdown of what actually works in 2026, what is overhyped, and which tools are worth the investment."
 tags: ["ai-law-firm", "ai-tools-law-firm-marketing", "chatgpt-law-firm-marketing", "legal-marketing-ai-2026"]
 seo_title: "AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)"
-seo_description: "The AI tools landscape for law firm marketing is full of hype and genuinely useful capabilities in roughly equal measure. Here's an honest breakdown of what act"
+seo_description: "The AI tools landscape for law firm marketing: an honest breakdown of what actually works in 2026, what is overhyped, and which tools are worth the investment."
 draft: false
 image: "/images/blog/ai-tools-law-firm-marketing.webp"
 keywords: ["AI tools for law firm marketing", "legal marketing AI 2026", "ChatGPT law firm marketing", "AI powered legal marketing", "law firm marketing automation", "artificial intelligence legal marketing", "AI marketing tools lawyers", "legal AI marketing solutions"]

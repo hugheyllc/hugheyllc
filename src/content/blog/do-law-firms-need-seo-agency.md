@@ -3,10 +3,10 @@ title: "Do Law Firms Actually Need an SEO Agency? An Honest Answer"
 slug: "do-law-firms-need-seo-agency"
 date: 2025-07-09
 author: "Joe Hughey"
-excerpt: "The honest answer to whether your law firm needs an SEO agency — and if so, what kind. Not a sales pitch. A framework for making the right decision based on you"
+excerpt: "The honest answer to whether your law firm needs an SEO agency — and if so, what kind. A framework for making the right decision based on your firm's size and goals."
 tags: ["attorney-seo", "do-i-need-seo", "law-firm-seo-agency", "legal-marketing-decision"]
 seo_title: "Do Law Firms Actually Need an SEO Agency? An Honest Answer"
-seo_description: "The honest answer to whether your law firm needs an SEO agency — and if so, what kind. Not a sales pitch. A framework for making the right decision based on you"
+seo_description: "The honest answer to whether your law firm needs an SEO agency — and if so, what kind. A framework for making the right decision based on your firm's size and goals."
 draft: false
 image: "/images/blog/do-law-firms-need-seo-agency.webp"
 ---

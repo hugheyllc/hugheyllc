@@ -3,10 +3,10 @@ title: "Family Law Firm Marketing: How to Generate Divorce and Family Cases From
 slug: "family-law-firm-marketing"
 date: 2025-04-07
 author: "Joe Hughey"
-excerpt: "Family law marketing requires particular sensitivity — clients are in distress, the stakes are personal, and trust must be established before any inquiry conver"
+excerpt: "Family law marketing requires particular sensitivity — clients are in distress, the stakes are personal, and trust must be established before any inquiry converts to a consultation."
 tags: ["divorce-attorney-marketing", "divorce-lawyer-digital-marketing", "family-law-firm-marketing", "family-law-seo"]
 seo_title: "Family Law Firm Marketing: How to Generate Divorce and Family Cases From Digital Marketing"
-seo_description: "Family law marketing requires particular sensitivity — clients are in distress, the stakes are personal, and trust must be established before any inquiry conver"
+seo_description: "Family law marketing requires particular sensitivity — clients are in distress, the stakes are personal, and trust must be established before any inquiry converts."
 draft: false
 image: "/images/blog/family-law-firm-marketing.webp"
 keywords: ["family law firm marketing", "divorce attorney marketing", "family law SEO", "divorce lawyer digital marketing", "family law lead generation", "divorce attorney websites", "family law PPC advertising", "divorce case marketing"]

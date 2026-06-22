@@ -3,10 +3,10 @@ title: "Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Fir
 slug: "data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow"
 date: 2025-01-03
 author: "Joe Hughey"
-excerpt: "In the competitive legal industry, marketing decisions based on intuition alone often fall short. Data-driven marketing, by contrast, involves gathering, analyz"
+excerpt: "Stop guessing which marketing channels are working. This guide walks law firms through the key metrics, tools, and frameworks to measure marketing performance accurately."
 tags: ["marketing analytics", "law firm marketing", "law firm growth", "marketing ROI"]
 seo_title: "Data-Driven Marketing: How to Analyze the Right Numbers to Help Your Firm Grow"
-seo_description: "In the competitive legal industry, marketing decisions based on intuition alone often fall short. Data-driven marketing, by contrast, involves gathering, analyz"
+seo_description: "Stop guessing which marketing channels work. A practical guide for law firms on the metrics, tools, and frameworks to measure marketing performance accurately."
 draft: false
 image: "/images/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow.webp"
 keywords: ["data-driven marketing for law firms", "law firm marketing analytics", "legal marketing ROI", "law firm growth metrics", "marketing data analysis legal", "law firm revenue growth", "legal practice marketing measurement", "attorney marketing analytics"]

@@ -3,10 +3,10 @@ title: "CallRail for Law Firms: The Complete Setup and Integration Guide"
 slug: "callrail-law-firm-setup-guide"
 date: 2025-09-17
 author: "Joe Hughey"
-excerpt: "CallRail is the most important tool most law firms have never properly configured. Here's the complete setup guide — from number pools to CRM integration — writ"
+excerpt: "CallRail is the most important tool most law firms have never properly configured. Complete setup guide — number pools, dynamic insertion, CRM integration, and key reports."
 tags: ["call-tracking-attorney", "callrail-law-firm", "callrail-lawmatics-integration", "law-firm-call-tracking-setup"]
 seo_title: "CallRail for Law Firms: The Complete Setup and Integration Guide"
-seo_description: "CallRail is the most important tool most law firms have never properly configured. Here's the complete setup guide — from number pools to CRM integration — writ"
+seo_description: "CallRail for law firms: complete setup guide covering number pools, dynamic insertion, CRM integration, and the reports that connect calls to retained clients."
 draft: false
 image: "/images/blog/callrail-law-firm-setup-guide.webp"
 keywords: ["CallRail for law firms", "law firm call tracking", "CallRail setup guide", "legal call tracking software", "CallRail Lawmatics integration", "attorney phone tracking", "law firm marketing attribution"]

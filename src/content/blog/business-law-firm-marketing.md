@@ -3,10 +3,10 @@ title: "Business Law Firm Marketing: How B2B Legal Services Are Won Online in 20
 slug: "business-law-firm-marketing"
 date: 2025-03-31
 author: "Joe Hughey"
-excerpt: "Business law firm marketing operates on fundamentally different principles than consumer practice marketing. Longer sales cycles, relationship-driven decisions,"
+excerpt: "Business law firm marketing operates on different principles than consumer practice. Longer sales cycles, relationship-driven decisions, and referral networks require a different strategy."
 tags: ["b2b-law-firm-marketing", "business-law-firm-marketing", "business-litigation-attorney-marketing", "commercial-law-firm-seo"]
 seo_title: "Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026"
-seo_description: "Business law firm marketing operates on fundamentally different principles than consumer practice marketing. Longer sales cycles, relationship-driven decisions,"
+seo_description: "Business law firm marketing requires longer sales cycles, referral-based decisions, and B2B positioning — different from consumer practice marketing in every dimension."
 draft: false
 image: "/images/blog/business-law-firm-marketing.webp"
 keywords: ["business law firm marketing", "b2b legal marketing", "commercial law firm seo", "business litigation attorney marketing", "law firm b2b marketing", "corporate legal services marketing", "business attorney marketing strategies", "commercial law firm marketing"]

@@ -3,10 +3,10 @@ title: "AI Search and Law Firms: How to Stay Visible as Google, ChatGPT, and Per
 slug: "ai-search-law-firms"
 date: 2025-02-19
 author: "Joe Hughey"
-excerpt: "AI-powered search is changing how prospective legal clients find attorneys. Google's AI Overviews, ChatGPT search, and Perplexity are reshaping the first page. "
+excerpt: "AI-powered search is changing how prospective legal clients find attorneys. Google's AI Overviews, ChatGPT search, and Perplexity are reshaping the first page."
 tags: ["ai-search-law-firms", "chatgpt-law-firm-visibility", "geo-law-firm", "law-firm-ai-overview-seo"]
 seo_title: "AI Search and Law Firms: How to Stay Visible as Google, ChatGPT, and Perplexity Change How Clients Find Attorneys"
-seo_description: "AI-powered search is changing how prospective legal clients find attorneys. Google's AI Overviews, ChatGPT search, and Perplexity are reshaping the first page. "
+seo_description: "AI-powered search is changing how prospective legal clients find attorneys. Google's AI Overviews, ChatGPT search, and Perplexity are reshaping the first page."
 draft: false
 image: "/images/blog/ai-search-law-firms.webp"
 keywords: ["AI search law firms", "Google AI overviews legal SEO", "ChatGPT law firm visibility", "law firm SEO 2024", "AI search optimization attorneys", "legal marketing AI search", "law firm Google visibility", "attorney AI search strategy"]

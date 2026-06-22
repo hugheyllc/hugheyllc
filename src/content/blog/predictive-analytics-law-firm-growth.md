@@ -3,10 +3,10 @@ title: "The Future of Law Firm Video Marketing: Compliance Meets Conversion"
 slug: "predictive-analytics-law-firm-growth"
 date: 2025-12-05
 author: "Joe Hughey"
-excerpt: "Introduction: The New Face of Legal Marketing It’s 2025, and video has become the most powerful storytelling tool in legal marketing. Whether you’re an establis"
+excerpt: "Law firm video marketing in 2025: how to produce compliant, conversion-focused video content across YouTube, LinkedIn, and social channels — with Florida Bar compliance built in."
 tags: ["content marketing", "law firm marketing", "law firm website", "legal marketing"]
 seo_title: "The Future of Law Firm Video Marketing: Compliance Meets Conversion"
-seo_description: "Introduction: The New Face of Legal Marketing It’s 2025, and video has become the most powerful storytelling tool in legal marketing. Whether you’re an establis"
+seo_description: "Law firm video marketing: how to produce compliant, conversion-focused video content across YouTube, LinkedIn, and social — with Florida Bar compliance built in."
 draft: false
 image: "/images/blog/predictive-analytics-law-firm-growth.webp"
 keywords: ["law firm video marketing", "legal video marketing compliance", "attorney video content strategy", "law firm marketing", "legal advertising ethics", "lawyer video production", "legal marketing conversion", "attorney client acquisition"]

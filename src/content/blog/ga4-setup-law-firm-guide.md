@@ -3,10 +3,10 @@ title: "How to Set Up GA4 for a Law Firm: The Configuration Guide Agencies Skip"
 slug: "ga4-setup-law-firm-guide"
 date: 2025-09-24
 author: "Joe Hughey"
-excerpt: "Most law firm GA4 installations are essentially traffic counters — missing the conversion events, custom dimensions, and integrations that make analytics useful"
+excerpt: "Most law firm GA4 installations miss critical conversion events and integrations. This complete setup guide builds an analytics stack that tracks what actually matters."
 tags: ["ga4-law-firm", "ga4-setup-attorney", "google-analytics-law-firm", "law-firm-analytics-configuration"]
 seo_title: "How to Set Up GA4 for a Law Firm: The Configuration Guide Agencies Skip"
-seo_description: "Most law firm GA4 installations are essentially traffic counters — missing the conversion events, custom dimensions, and integrations that make analytics useful"
+seo_description: "Most law firm GA4 installations miss critical conversion events and integrations. A complete setup guide for an analytics stack that tracks what actually matters."
 draft: false
 image: "/images/blog/ga4-setup-law-firm-guide.webp"
 keywords: ["GA4 setup for law firms", "Google Analytics 4 legal marketing", "law firm analytics configuration", "GA4 attorney website setup", "legal practice Google Analytics", "law firm conversion tracking", "GA4 implementation lawyers", "attorney website analytics setup"]

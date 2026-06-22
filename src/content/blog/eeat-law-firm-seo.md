@@ -3,10 +3,10 @@ title: "What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firm
 slug: "eeat-law-firm-seo"
 date: 2025-09-26
 author: "Joe Hughey"
-excerpt: "Google's E-E-A-T framework — Experience, Expertise, Authoritativeness, Trustworthiness — applies more strictly to law firm content than almost any other industr"
+excerpt: "Google's E-E-A-T framework applies more strictly to law firm content than almost any other industry. Here's how to demonstrate experience, expertise, authority, and trust."
 tags: ["attorney-content-quality", "e-e-a-t-law-firm", "law-firm-seo-authority", "ymyl-law-firm"]
 seo_title: "What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms"
-seo_description: "Google's E-E-A-T framework — Experience, Expertise, Authoritativeness, Trustworthiness — applies more strictly to law firm content than almost any other industr"
+seo_description: "Google's E-E-A-T framework applies more strictly to law firm content than almost any other industry. How to demonstrate experience, expertise, authority, and trust."
 draft: false
 image: "/images/blog/eeat-law-firm-seo.webp"
 ---

@@ -3,10 +3,10 @@ title: "Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to 
 slug: "evolving-law-firm-business-models-pricing-what-marketers-need-to-know"
 date: 2025-11-26
 author: "Joe Hughey"
-excerpt: "The legal market in 2025 is undergoing a fundamental shift. Clients increasingly demand predictability, value, and transparency in how legal services are priced"
+excerpt: "The legal market is shifting. Clients demand predictability and transparency in pricing. Here's what law firm marketers need to know about alternative fee structures and how to market them."
 tags: ["law firm growth", "legal marketing", "law firm marketing"]
 seo_title: "Evolving Law-Firm Business Models &amp; Pricing: What Marketers Need to Know"
-seo_description: "The legal market in 2025 is undergoing a fundamental shift. Clients increasingly demand predictability, value, and transparency in how legal services are priced"
+seo_description: "The legal market is shifting. Clients demand transparent pricing. Here's what law firm marketers need to know about alternative fee structures and how to market them."
 draft: false
 image: "/images/blog/evolving-law-firm-business-models-pricing-what-marketers-need-to-know.webp"
 keywords: ["alternative fee arrangements", "law firm pricing models", "legal marketing strategies", "billable hour alternatives", "law firm business models", "legal services pricing", "law firm competitive advantage"]

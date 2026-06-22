@@ -86,7 +86,7 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 20 | How Law Firms Waste Money on Social Media (And the One Platform That Actually Works) | law firm social media marketing | Organic social ROI reality check, LinkedIn vs. Instagram vs. Facebook for attorneys | ✅ Published |
 | 21 | Multi-Location Law Firms: How to Market Each Office Without Cannibalizing Yourself | multi-location law firm marketing | GBP per location, localized content, internal competition pitfalls | ✅ Published |
 | 22 | Reputation Management for Law Firms: Beyond Asking for Google Reviews | law firm reputation management | Review velocity, negative review response, third-party profile audit | ✅ Published |
-| 23 | How Immigration Law Firms Can Build a Marketing Engine That Scales | immigration law firm marketing | Multilingual content, community trust, referral networks, low-CPC keywords | 🔲 Planned |
+| 23 | How Immigration Law Firms Can Build a Marketing Engine That Scales | immigration law firm marketing | Multilingual content, community trust, referral networks, low-CPC keywords | ✅ Published |
 | 24 | What Law Firms Should Know About Marketing Contracts Before They Sign | law firm marketing contract red flags | Ownership clauses, termination terms, IP traps, performance guarantees | 🔲 Planned |
 
 ---

@@ -3,10 +3,10 @@ title: "Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas
 slug: "clearwater-law-firm-marketing"
 date: 2025-05-19
 author: "Joe Hughey"
-excerpt: "Clearwater is Pinellas County's largest city and one of the most underserved legal marketing markets in Tampa Bay. Here's the specific local SEO and marketing p"
+excerpt: "Clearwater law firm marketing guide: local SEO, Google Business Profile, and legal advertising strategy for Pinellas County's most underserved legal market."
 tags: ["clearwater-attorney-seo", "clearwater-law-firm-marketing", "clearwater-legal-marketing", "north-pinellas-law-firm"]
 seo_title: "Clearwater Law Firm Marketing: How to Rank and Convert in North Pinellas County"
-seo_description: "Clearwater is Pinellas County's largest city and one of the most underserved legal marketing markets in Tampa Bay. Here's the specific local SEO and marketing p"
+seo_description: "Clearwater law firm marketing guide: local SEO, Google Business Profile, and legal advertising strategy for Pinellas County's most underserved legal market."
 draft: false
 image: "/images/blog/clearwater-law-firm-marketing.webp"
 keywords: ["Clearwater law firm marketing", "North Pinellas attorney SEO", "Clearwater legal marketing", "Pinellas County law firm SEO", "Clearwater attorney marketing", "legal marketing Tampa Bay", "law firm digital marketing Florida"]

@@ -6,7 +6,7 @@ author: "Joe Hughey"
 excerpt: "Legal keywords are among the most expensive in Google Ads. Most law firm campaigns waste a significant portion of that spend. Here's what separates the campaign"
 tags: ["attorney advertising","Google Ads","legal marketing","PPC law firm"]
 seo_title: "Google Ads for Law Firms: Why Most Campaigns Fail (And How to Fix Yours)"
-seo_description: "Google Ads for law firms done right — keyword strategy, match types, negative keywords, and budget allocation that actually generates retained clients, not just clicks."
+seo_description: "Google Ads for law firms: keyword strategy, match types, negative keywords, and budget allocation that generates retained clients — not just clicks and phone calls."
 draft: false
 image: "/images/blog/google-ads-law-firms.webp"
 keywords: ["Google Ads for law firms", "legal PPC campaigns", "attorney Google advertising", "law firm PPC strategy", "legal marketing Google Ads", "lawyer pay-per-click advertising", "attorney advertising campaigns", "law firm digital marketing"]

@@ -6,7 +6,7 @@ author: "Joe Hughey"
 excerpt: "Florida has some of the most specific attorney advertising rules in the country. Before investing in digital marketing, every Tampa law firm needs to understand"
 tags: ["attorney-advertising-florida", "florida-bar-advertising-rules", "law-firm-marketing-compliance", "tampa-attorney-marketing-rules"]
 seo_title: "Florida Bar Advertising Rules for Law Firms: What You Can (and Cannot) Do Online"
-seo_description: "Florida Bar advertising rules for law firms — what's allowed online, required disclaimers, social media rules, and how to stay compliant with attorney advertising rules."
+seo_description: "Florida Bar advertising rules for law firms — what is allowed online, required disclaimers, social media rules, and how to stay compliant with attorney advertising."
 draft: false
 image: "/images/blog/florida-bar-law-firm-advertising-rules.webp"
 ---

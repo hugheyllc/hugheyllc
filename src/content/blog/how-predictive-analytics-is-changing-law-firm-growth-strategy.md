@@ -3,10 +3,10 @@ title: "How Predictive Analytics Is Changing Law Firm Growth Strategy"
 slug: "how-predictive-analytics-is-changing-law-firm-growth-strategy"
 date: 2025-12-05
 author: "Joe Hughey"
-excerpt: "Introduction: The Next Frontier in Legal Marketing Data Most law firms look backward when they review their numbers — how many leads came in, which campaigns wo"
+excerpt: "Predictive analytics helps law firms stop reviewing what happened and start forecasting what will. Here's how forward-looking data is reshaping law firm growth strategy."
 tags: ["marketing analytics", "law firm growth", "law firm marketing", "marketing ROI"]
 seo_title: "How Predictive Analytics Is Changing Law Firm Growth Strategy"
-seo_description: "Introduction: The Next Frontier in Legal Marketing Data Most law firms look backward when they review their numbers — how many leads came in, which campaigns wo"
+seo_description: "Predictive analytics helps law firms stop reviewing what happened and start forecasting what will. How forward-looking data is reshaping law firm growth strategy."
 draft: false
 image: "/images/blog/how-predictive-analytics-is-changing-law-firm-growth-strategy.webp"
 keywords: ["predictive analytics for law firms", "law firm marketing ROI", "legal marketing analytics", "law firm growth strategy", "marketing data analysis", "law firm business intelligence", "legal industry predictive modeling", "attorney marketing metrics"]
