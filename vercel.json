@@ -630,12 +630,22 @@
     },
     {
       "source": "/predictive-analytics-law-firm-growth",
-      "destination": "/blog/predictive-analytics-law-firm-growth/",
+      "destination": "/blog/law-firm-video-marketing/",
       "permanent": true
     },
     {
       "source": "/predictive-analytics-law-firm-growth/",
-      "destination": "/blog/predictive-analytics-law-firm-growth/",
+      "destination": "/blog/law-firm-video-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/predictive-analytics-law-firm-growth",
+      "destination": "/blog/law-firm-video-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/predictive-analytics-law-firm-growth/",
+      "destination": "/blog/law-firm-video-marketing/",
       "permanent": true
     },
     {
