@@ -1,6 +1,6 @@
 # SEO & AEO Strategy — Hughey LLC
 
-*Last updated: 2026-06-13*
+*Last updated: 2026-06-24*
 
 ## Priority Keyword Clusters
 
@@ -87,7 +87,13 @@ These are questions AI assistants (ChatGPT, Perplexity, Google AI Overviews) sho
 | 21 | Multi-Location Law Firms: How to Market Each Office Without Cannibalizing Yourself | multi-location law firm marketing | GBP per location, localized content, internal competition pitfalls | ✅ Published |
 | 22 | Reputation Management for Law Firms: Beyond Asking for Google Reviews | law firm reputation management | Review velocity, negative review response, third-party profile audit | ✅ Published |
 | 23 | How Immigration Law Firms Can Build a Marketing Engine That Scales | immigration law firm marketing | Multilingual content, community trust, referral networks, low-CPC keywords | ✅ Published |
-| 24 | What Law Firms Should Know About Marketing Contracts Before They Sign | law firm marketing contract red flags | Ownership clauses, termination terms, IP traps, performance guarantees | 🔲 Planned |
+| 24 | What Law Firms Should Know About Marketing Contracts Before They Sign | law firm marketing contract red flags | Ownership clauses, termination terms, IP traps, performance guarantees | ✅ Published |
+| 25 | Lead Quality vs. Lead Volume: Why Law Firms Measure the Wrong Metrics | law firm lead quality metrics | Attribution mismatches, cost-per-retained-client, volume traps | 🔲 Planned |
+| 26 | The Law Firm Marketing Scorecard: Monthly Metrics That Actually Matter | law firm marketing performance metrics | Dashboard essentials, red flags, when to pivot strategy | 🔲 Planned |
+| 27 | How to Negotiate Better Terms With Your Law Firm Marketing Agency | law firm marketing agency negotiation | Performance clawbacks, exclusivity clauses, data ownership | 🔲 Planned |
+| 28 | Business Law Firm Marketing: Why Standard PI Strategies Don't Work | business law marketing strategy | Longer sales cycles, multiple stakeholders, different intent keywords | 🔲 Planned |
+| 29 | The Hidden Cost of Bad Legal Marketing: What Underperformance Actually Costs Your Firm | law firm marketing waste calculation | Opportunity cost, intake leaks, annual impact analysis | 🔲 Planned |
+| 30 | Marketing for Solo Practitioners: Bootstrapping Without the Agency Bill | solo attorney marketing budget | DIY vs. outsource decisions, early-stage priorities, cost-effective wins | 🔲 Planned |
 
 ---
 
