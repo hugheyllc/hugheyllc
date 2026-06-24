@@ -10,7 +10,6 @@ seo_description: "Compare law firm marketing agency vs. consultant models. Under
 draft: false
 image: "/images/blog/law-firm-marketing-agency-vs-consultant-accountability-2026.jpg"
 keywords: ["law firm marketing agency vs consultant", "marketing accountability law firms", "independent marketing consultant lawyer", "agency vs consultant accountability", "law firm marketing contracts", "who is responsible marketing results", "law firm consultant vs agency model"]
-```
 ---
 
 # Law Firm Marketing Agency vs. Consultant: The Accountability Difference That Matters
