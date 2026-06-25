@@ -741,8 +741,9 @@ async function main() {
     console.log(`     wrote ${imagePath} (${Math.round(before/1024)}KB -> ${Math.round(Math.min(before,after)/1024)}KB compressed)`);
   } catch { console.log(`     wrote ${imagePath} (${imageBuf.length} bytes, compression skipped)`); }
 
-  // Steps 4–6: social. Skip if SOCIAL_POST_MODE=skip (posting happens after deploy verification).
-  if (process.env.SOCIAL_POST_MODE === 'skip') {
+  // Steps 4–6: social. DISABLED by default — Joe must approve before posting.
+  // Set SOCIAL_POST_MODE=post to enable automatic posting.
+  if (process.env.SOCIAL_POST_MODE !== 'post') {
     console.log('[4-5/7] Social posting skipped (SOCIAL_POST_MODE=skip) — will post after deploy');
   } else {
   // BEGIN SOCIAL
