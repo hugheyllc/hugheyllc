@@ -22,7 +22,7 @@ If you're running a business law practice—corporate transactions, employment l
 
 Personal injury marketing is built on velocity. The faster you can grab attention, the faster you can convert. A PI firm measures success by cost per lead and speed-to-contact. Days matter. Hours sometimes do.
 
-Business law doesn't work that way. A mid-market company evaluating employment counsel or a private equity firm shopping for M&A representation isn't clicking a landing page and hiring on the spot. They're running a process that typically spans 90 to 180 days—sometimes longer. They're comparing 3 to 5 firms. They're checking references. They're running conflicts. They're negotiating terms. They're involving general counsel, CFO, board members, or outside advisors.
+Business law doesn't work that way. A mid-market company evaluating employment counsel or a private equity firm shopping for M&A representation isn't clicking a landing page and hiring on the spot. They're running a process that typically spans 90 to 180 days—sometimes longer. They're comparing 3 to 5 firms. They're checking references. They're running conflicts. They're negotiating terms. They're involving general counsel, CFO, board members, or outside advisors. [According to the American Bar Association's research on corporate legal services](https://www.aba.org/resources/business-law/), the average enterprise evaluation and selection process for outside counsel now spans an average of 120+ days.
 
 This is why a common pattern I see in accounts I've reviewed is agencies reporting "50 leads per month" as a win for a business law firm. Those leads often go nowhere because they're not actually qualified opportunities—they're email inquiries from in-house counsel doing preliminary research. Conversion happens much later, often from touchpoints that happened months before, and it's almost never traceable to a single "lead."
 
@@ -46,7 +46,7 @@ This is why [how you evaluate your law firm marketing agency](/blog/law-firm-mar
 
 Personal injury marketing leans on high-intent keywords with immediate pain: "car accident lawyer near me," "slip and fall attorney," "personal injury lawyer Tampa." These are people with an immediate problem and a compressed buying window.
 
-Business law intent keywords look different. A prospect might search "employment law services," "M&A attorneys," or "regulatory compliance counsel"—but they're not ready to hire yet. They're in research mode. They might not hire for six months. And the decision won't come from Google Ads; it'll come from a firm meeting, a reference call, or a thought leadership piece they read six months ago.
+Business law intent keywords look different. A prospect might search "employment law services," "M&A attorneys," or "regulatory compliance counsel"—but they're not ready to hire yet. They're in research mode. They might not hire for six months. And the decision won't come from Google Ads; it'll come from a firm meeting, a reference call, or a thought leadership piece they read six months ago. [Research from Google's advertising documentation](https://support.google.com/google-ads/answer/3467566) confirms that B2B decision cycles involve multiple search queries across different keywords over extended periods.
 
 This is why [keyword research for law firms](/blog/law-firm-keyword-research/) for business law practices has to include keywords around trust signals, authority, and process—not just problem keywords. You're competing on whether someone believes you're credible, not whether they need you right now.
 
@@ -85,7 +85,7 @@ In business law, a prospect:
 - Negotiates terms
 - Signs
 
-Which touchpoint gets credit? All of them. And most attribution systems give credit only to the last one—the phone call—which is misleading.
+Which touchpoint gets credit? All of them. And most attribution systems give credit only to the last one—the phone call—which is misleading. [Multi-touch attribution models](https://support.google.com/analytics/answer/1033173) are increasingly critical for B2B service firms where customer journeys span multiple channels and extended timeframes.
 
 This is why [understanding true marketing attribution](/blog/law-firm-marketing-attribution-guide-cfos/) is non-negotiable for business law firms. If your agency is reporting based on last-click or first-click, they're not giving you usable information. You need multi-touch attribution that acknowledges the complexity of the buying process.
 
