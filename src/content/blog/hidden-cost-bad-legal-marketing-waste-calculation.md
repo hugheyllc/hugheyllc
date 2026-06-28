@@ -28,7 +28,7 @@ Marketing waste in law firms follows a pattern. It usually starts with an agency
 
 What's actually happening: 8 of those 50 leads never reach a human. 12 reach someone by voicemail or email 18 hours later. 15 are low-intent or wrong practice area. 12 convert to consultations. 8 of those consultations result in engagement. The agency is paid on lead volume. Your firm is losing 60% of its potential intake to process failure, not marketing failure.
 
-This is where the hidden cost lives. You're measuring marketing in isolation from intake. [When you benchmark your marketing against what high-performing firms actually achieve](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/), you'll see this gap immediately. The top quartile of firms aren't necessarily getting more leads—they're converting more of them, faster. Speed-to-contact, intake qualification, and follow-up automation are doing more for their law firm marketing ROI than any change in ad spend.
+This is where the hidden cost lives. You're measuring marketing in isolation from intake. [When you benchmark your marketing against what high-performing firms actually achieve](/blog/benchmarking-your-marketing-what-high-performing-law-firms-are-hitting-in-2025/), you'll see this gap immediately. The top quartile of firms aren't necessarily getting more leads—they're converting more of them, faster. Speed-to-contact, intake qualification, and follow-up automation are doing more for their law firm marketing ROI than any change in ad spend. This is especially true when you understand [how Google Analytics tracks conversion attribution across multiple touchpoints](https://support.google.com/analytics/answer/1009244), which shows you exactly where prospects are dropping off in your funnel.
 
 ## The Three-Layer Cost of Marketing Underperformance
 
@@ -42,7 +42,7 @@ This is the cost nobody measures. A firm with a perfect lead generation system b
 
 ### Layer 3: Revenue Opportunity Cost
 
-This is the silent killer. If a firm's true market opportunity is 25 cases a month but they're only capturing 8, the gap isn't always a marketing problem—but they'll blame marketing anyway and keep increasing ad spend. The real cost is the 17 cases they could have taken but didn't, because they never had visibility into the full opportunity. A firm at 8 cases monthly with a $8,000 marketing spend might justify it as "affordable customer acquisition." A firm that could hit 15 cases with the same intake process would recognize that the real constraint is intake capacity, not lead generation, and would invest differently.
+This is the silent killer. If a firm's true market opportunity is 25 cases a month but they're only capturing 8, the gap isn't always a marketing problem—but they'll blame marketing anyway and keep increasing ad spend. The real cost is the 17 cases they could have taken but didn't, because they never had visibility into the full opportunity. A firm at 8 cases monthly with a $8,000 marketing spend might justify it as "affordable customer acquisition." A firm that could hit 15 cases with the same intake process would recognize that the real constraint is intake capacity, not lead generation, and would invest differently. [Understanding your customer acquisition cost (CAC) and comparing it to lifetime value is a foundational financial metric](https://www.investopedia.com/terms/c/customacquisitioncost.asp) that most law firms skip entirely, leaving money on the table.
 
 ## Calculating Your Firm's Annual Marketing Waste
 
@@ -95,7 +95,7 @@ If you improve your intake conversion from 8% to 12% (still very conservative), 
 
 ## The Accountability Question
 
-Here's where most firms get stuck: Their agency reports on leads and clicks. Their CRM reports on cases and revenue. Nobody reports on the bridge—the conversion rates that actually determine whether you're wasting money or spending it wisely. [This is exactly why accountability in law firm marketing is so hard to pin down, and why many firms end up firing their agencies without ever really understanding what went wrong](/blog/accountability-law-firm-marketing-agency-vs-consultant/).
+Here's where most firms get stuck: Their agency reports on leads and clicks. Their CRM reports on cases and revenue. Nobody reports on the bridge—the conversion rates that actually determine whether you're wasting money or spending it wisely. [This is exactly why accountability in law firm marketing is so hard to pin down, and why many firms end up firing their agencies without ever really understanding what went wrong](/blog/accountability-law-firm-marketing-agency-vs-consultant/). The [American Bar Association's legal technology resources](https://www.aba.org/advocacy/governmental-legislative-work/policy-positions/digital-divide) also emphasize that firms lacking proper data infrastructure often fail to achieve the visibility they need into their marketing performance.
 
 The fix: Stop asking your agency "how many leads did you generate?" Start asking "what's our consultation conversion rate compared to last quarter?" and "how fast are we responding to inbound leads?" Those questions change everything. They shift the incentive away from volume and toward quality and process.
 
