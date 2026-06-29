@@ -8,6 +8,7 @@ tags: ["law firm marketing", "Tampa Bay", "local SEO", "Tampa", "legal marketing
 seo_title: "Law Firm Marketing Consultant Tampa FL | Hughey LLC"
 seo_description: "Independent law firm marketing consultant serving Tampa, FL. 20+ years helping law firms measure cost per retained client and hold agencies accountable."
 draft: false
+keywords: ["law firm marketing consultant Tampa", "Tampa legal marketing", "independent marketing consultant Florida", "law firm SEO Tampa", "legal marketing strategy Tampa"]
 image: "/images/blog/law-firm-marketing-consultant-tampa-fl.webp"
 ---
 

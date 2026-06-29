@@ -8,6 +8,7 @@ tags: ["law-firm-marketing-consultant", "agency-vs-consultant", "law-firm-market
 seo_title: "Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know"
 seo_description: "The real difference between a law firm marketing agency and an independent consultant. Hidden markups, data ownership, and accountability — what firms need to know."
 draft: false
+keywords: ["law firm marketing agency", "independent marketing consultant", "law firm marketing ROI", "agency vs consultant", "legal marketing accountability"]
 image: "/images/blog/agency-vs-consultant-law-firm-marketing.webp"
 ---
 

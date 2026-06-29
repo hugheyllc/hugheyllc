@@ -8,6 +8,7 @@ tags: ["local SEO for law firms", "Google Maps for law firms", "local pack ranki
 seo_title: "Local Search Dominance: How Law Firms Win Their County | Hughey LLC"
 seo_description: "Learn how local SEO for law firms actually works — local pack rankings, citation stacking, Google Business Profile optimization, and why Maps beats your homepag"
 draft: false
+keywords: ["local SEO law firms", "Google Maps law firms", "local pack rankings", "law firm citation building", "county dominance legal marketing"]
 image: "/images/blog/local-search-law-firm-county-dominance.jpg"
 ---
 

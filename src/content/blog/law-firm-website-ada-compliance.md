@@ -8,6 +8,7 @@ tags: ["accessible-law-firm-website", "attorney-website-accessibility", "law-fir
 seo_title: "Law Firm Website ADA Compliance: How to Reduce Legal Risk and Improve SEO Simultaneously"
 seo_description: "ADA website accessibility lawsuits against law firms are increasing. The irony: an inaccessible attorney website creates legal exposure for the very professiona"
 draft: false
+keywords: ["law firm ADA compliance", "accessible attorney website", "WCAG law firm", "ADA website lawsuits", "legal website accessibility"]
 image: "/images/blog/law-firm-website-ada-compliance.webp"
 ---
 

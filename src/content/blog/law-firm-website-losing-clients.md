@@ -8,6 +8,7 @@ tags: ["attorney-website", "conversion-optimization", "law-firm-website", "legal
 seo_title: "Why Your Law Firm's Website Is Losing Clients Before They Even Call"
 seo_description: "Most law firm websites look professional but fail to convert. We break down the 4 specific, fixable reasons your site is bleeding potential clients — and how to"
 draft: false
+keywords: ["law firm website conversion", "attorney website optimization", "legal website design", "law firm lead generation", "website client acquisition"]
 image: "/images/blog/law-firm-website-losing-clients.webp"
 ---
 

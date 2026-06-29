@@ -8,6 +8,7 @@ tags: ["attorney-marketing-agency", "law-firm-marketing-results", "law-firm-mark
 seo_title: "Why Law Firm Marketing Retainers Often Underdeliver — And What to Do Instead"
 seo_description: "Law firm marketing retainers sound like a smart investment. In practice, many firms pay for years without clear evidence of ROI. Here's why it happens — and the"
 draft: false
+keywords: ["law firm marketing retainer", "legal marketing ROI", "marketing agency underdelivery", "law firm marketing results", "attorney marketing spending"]
 image: "/images/blog/law-firm-marketing-retainer-underdelivery.webp"
 ---
 

@@ -8,6 +8,7 @@ tags: ["attorney-backlinks", "law-firm-link-building", "law-firm-seo-authority",
 seo_title: "How Law Firms Build Backlinks Without Paying for Them"
 seo_description: "Backlinks remain one of Google's strongest ranking signals — but paid link schemes are a liability for law firms. Here's the legitimate link building playbook t"
 draft: false
+keywords: ["law firm link building", "attorney backlinks", "legal SEO authority", "organic link building", "law firm SEO strategy"]
 image: "/images/blog/law-firm-link-building.webp"
 ---
 

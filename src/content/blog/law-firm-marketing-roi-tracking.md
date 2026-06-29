@@ -8,6 +8,7 @@ tags: ["conversion tracking","law firm analytics","legal marketing attribution",
 seo_title: "How to Track Your Law Firm's Marketing ROI From First Click to Signed Retainer"
 seo_description: "Most law firms measure marketing by traffic and leads. The firms that grow fastest measure by signed retainers. Here's the tracking setup that closes the loop b"
 draft: false
+keywords: ["law firm marketing ROI", "legal marketing attribution", "conversion tracking law firms", "marketing analytics attorneys", "cost per retained client"]
 image: "/images/blog/law-firm-marketing-roi-tracking.webp"
 ---
 

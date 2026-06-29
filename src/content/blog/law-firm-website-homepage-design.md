@@ -8,6 +8,7 @@ tags: ["attorney-website-design", "law-firm-homepage-conversion", "law-firm-webs
 seo_title: "What Every Law Firm Website Homepage Needs to Convert Visitors in 2026"
 seo_description: "Your homepage is the highest-traffic page on your law firm website — and for most firms, its weakest converter. Here's the exact anatomy of a homepage that esta"
 draft: false
+keywords: ["law firm homepage design", "attorney website conversion", "legal website design 2026", "law firm website best practices", "homepage conversion optimization"]
 image: "/images/blog/law-firm-website-homepage-design.webp"
 ---
 

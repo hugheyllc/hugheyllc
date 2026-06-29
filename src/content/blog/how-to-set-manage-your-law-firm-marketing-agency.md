@@ -8,6 +8,7 @@ tags: ["agency management", "law firm marketing", "marketing ROI", "legal market
 seo_title: "How to Set &amp; Manage Your Law-Firm Marketing Agency"
 seo_description: "Learn how to choose, evaluate, and manage a legal marketing agency to ensure measurable ROI, clear communication, and accountability. Discover a proven framewor"
 draft: false
+keywords: ["law firm marketing agency management", "legal marketing ROI", "agency accountability", "law firm vendor management", "marketing agency evaluation"]
 image: "/images/blog/how-to-set-manage-your-law-firm-marketing-agency.webp"
 ---
 

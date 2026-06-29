@@ -8,6 +8,7 @@ tags: ["law-firm-marketing", "referral-tracking", "marketing-analytics", "intake
 seo_title: "Law Firm Referral Tracking: Why One Intake Question Isn't Enough"
 seo_description: "Most law firms rely on 'how did you hear about us?' to track referrals. That data is wrong. Here's a better system for tracking referral sources that actually retain."
 draft: false
+image: "/images/blog/law-firm-referral-tracking.jpg"
 keywords: ["law firm referral tracking", "legal marketing analytics", "attorney client intake", "law firm marketing attribution", "legal client acquisition", "referral source tracking", "law firm lead tracking"]
 ---
 

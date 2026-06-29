@@ -8,6 +8,7 @@ tags: ["attorney-advertising-florida", "florida-bar-advertising-rules", "law-fir
 seo_title: "Florida Bar Advertising Rules for Law Firms: What You Can (and Cannot) Do Online"
 seo_description: "Florida Bar advertising rules for law firms — what is allowed online, required disclaimers, social media rules, and how to stay compliant with attorney advertising."
 draft: false
+keywords: ["Florida Bar advertising rules", "attorney advertising compliance", "law firm marketing Florida", "Tampa attorney advertising", "legal marketing regulations"]
 image: "/images/blog/florida-bar-law-firm-advertising-rules.webp"
 ---
 

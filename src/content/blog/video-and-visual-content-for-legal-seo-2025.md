@@ -8,6 +8,7 @@ tags: ["SEO for law firms", "content marketing", "law firm SEO", "law firm websi
 seo_title: "Video, Visual and Interactive Content: The New Frontier for Legal SEO in 2025"
 seo_description: "User behavior in 2025 has changed how potential clients search, retain information and make decisions. Long text-based blogs are still important, but they are n"
 draft: false
+keywords: ["legal SEO video content", "law firm video marketing", "visual content attorneys", "interactive content legal SEO", "law firm content strategy 2025"]
 image: "/images/blog/video-and-visual-content-for-legal-seo-2025.webp"
 ---
 

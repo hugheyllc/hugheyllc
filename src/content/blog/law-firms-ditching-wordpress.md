@@ -8,6 +8,7 @@ tags: ["astro", "headless-cms", "law-firm-website", "website-performance", "word
 seo_title: "Why Smart Law Firms Are Ditching WordPress — And What They're Moving To"
 seo_description: "WordPress powers most law firm websites — but it's becoming a performance and security liability. Honest breakdown of the shift to modern web stacks, with real "
 draft: false
+keywords: ["law firm WordPress alternatives", "Astro law firm website", "headless CMS legal", "website performance law firms", "modern web stack attorneys"]
 image: "/images/blog/law-firms-ditching-wordpress.webp"
 ---
 

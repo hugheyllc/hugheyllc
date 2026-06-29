@@ -8,6 +8,7 @@ tags: ["marketing analytics", "marketing ROI", "law firm marketing", "agency man
 seo_title: "Why Most Law Firm Marketing Reports Are Fiction"
 seo_description: "Many agencies deliver glossy dashboards filled with impressions, clicks and social followers. They look impressive until you ask a simple question: did we retai"
 draft: false
+keywords: ["law firm marketing reports", "marketing analytics fiction", "agency reporting transparency", "marketing ROI law firms", "vanity metrics legal marketing"]
 image: "/images/blog/marketing-reports-fake.webp"
 ---
 
