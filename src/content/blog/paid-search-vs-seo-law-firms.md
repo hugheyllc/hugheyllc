@@ -6,7 +6,7 @@ author: "Joe Hughey"
 excerpt: "Google Ads or SEO? For law firms, the honest answer is both—but the allocation matters enormously. Here's how to run the actual math so you stop guessing and start budgeting like it's a business decision."
 tags: ["Google Ads", "SEO", "Law Firm Marketing", "Paid Search", "Budget Strategy", "Digital Marketing"]
 seo_title: "Google Ads for Law Firms vs SEO: The Math on Paid Search vs Organic"
-seo_description: "Should your law firm run Google Ads or invest in SEO? The real answer is both—but budget allocation makes or breaks the strategy. Here's how to do the math."
+seo_description: "Should your law firm run Google Ads or invest in SEO? The real answer is both—but budget allocation makes or breaks your strategy. Here's how to do the math."
 draft: false
 image: "/images/blog/paid-search-vs-seo-law-firms.jpg"
 ---

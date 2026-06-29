@@ -7,7 +7,7 @@ excerpt: "Solo practitioners can build effective marketing without large agency 
 tags: ["solo practitioners", "marketing budget", "DIY marketing", "cost-effective marketing", "law firm growth"]
 keywords: ["solo attorney marketing budget", "solo practitioner marketing", "law firm marketing on a budget", "DIY legal marketing", "bootstrap law firm marketing", "small law firm marketing strategy", "affordable legal marketing"]
 seo_title: "Solo Attorney Marketing Budget: DIY vs. Outsource Strategy"
-seo_description: "Solo practitioners don't need agency retainers to build marketing. Here's how to allocate a bootstrap budget and when to outsource for real growth."
+seo_description: "Solo practitioners don't need agency retainers to build effective marketing. Here's how to allocate a bootstrap budget and when to outsource for real growth."
 draft: false
 image: "/images/blog/solo-attorney-marketing-budget.jpg"
 ---

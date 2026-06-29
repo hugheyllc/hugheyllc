@@ -1,141 +1,92 @@
 # SEO & AEO Audit Report — hugheyllc.com
-**Last audited:** June 22, 2026 (automated weekly audit)
+
+**Date:** June 29, 2026  
+**Auditor:** Micky (automated)  
+**Build Status:** ✅ Pass (152 pages indexed)
 
 ---
 
 ## Summary
 
-| Area | Status | Issues Fixed |
-|------|--------|-------------|
-| robots.txt | ✅ Clean | — |
-| Sitemap | ✅ Clean | — |
-| Meta titles | ✅ Clean | — |
-| Meta descriptions | ✅ Fixed | 15 blog posts fixed |
-| Canonical tags | ✅ Clean | — |
-| JSON-LD schema | ✅ Clean | — |
-| Open Graph tags | ✅ Clean | — |
-| Image alt text | ✅ Clean | — |
-| Heading hierarchy | ✅ Clean | — |
-| Blog frontmatter | ✅ Fixed | 15 posts fixed |
-| FAQ/HowTo schema | ✅ Clean | — |
-| AEO readiness | ✅ Good | — |
+The site is in **strong SEO shape**. The BaseLayout provides comprehensive meta tags, Open Graph, Twitter Cards, JSON-LD schema (LocalBusiness, Organization, WebSite, Speakable), and proper canonical URLs on every page. Minor gaps in blog frontmatter were fixed and pushed.
+
+## Findings by Category
+
+### ✅ robots.txt
+- Well-configured with proper Allow/Disallow rules
+- Sitemap reference present (`sitemap-index.xml`)
+- Bad bot blocking (MJ12bot, AhrefsBot) and crawl-delay for SemrushBot
+
+### ✅ Sitemap
+- Auto-generated via `@astrojs/sitemap` with lastmod, changefreq, priority
+- Proper filtering of noindex/utility pages (search, privacy, admin, OAuth, playbook downloads)
+
+### ✅ Meta Titles & Descriptions
+- All pages have unique titles and descriptions
+- Blog posts use `seo_title` and `seo_description` frontmatter fields
+- Service pages, location pages, and core pages all properly tagged
+
+### ✅ Canonical URLs
+- Auto-generated in BaseLayout with trailing slash normalization
+- Key pages also pass explicit `canonical` prop
+
+### ✅ JSON-LD Schema
+- **Every page:** LocalBusiness, Organization, WebSite (with SearchAction), Speakable
+- **Homepage:** FAQPage schema with 7 FAQs
+- **Blog posts:** Article schema with author, datePublished, dateModified
+- **Service pages:** Service + FAQPage schemas
+- **Location pages:** LocalBusiness schema with geo coordinates
+- **Insights:** Article schema
+
+### ✅ Open Graph & Twitter Cards
+- Full OG tags on every page (title, description, url, type, image, site_name, locale)
+- Twitter summary_large_image cards with creator/site handles
+- Default OG image fallback (`/images/og-default.png`)
+
+### ✅ Image Alt Text
+- No empty `alt=""` attributes found
+- No `<img>` tags missing `alt` attributes (only CSS comments in Footer)
+
+### ✅ Heading Hierarchy
+- Single `<h1>` on homepage (Hero component)
+- Proper H2→H3 hierarchy in content sections
+- No heading level skips detected
+
+### ✅ AEO (Answer Engine Optimization) Readiness
+- `llms.txt` present in public/ with structured content for LLM crawlers
+- Speakable schema on every page targeting headings
+- FAQ schema on homepage and service pages
+- Clear, concise answer-format content in blog posts
+
+### 🔧 Fixed: Blog Frontmatter Keywords (18 files)
+**17 posts** were missing `keywords` frontmatter arrays. Added relevant keyword arrays to:
+- agency-vs-consultant-law-firm-marketing.md
+- florida-bar-law-firm-advertising-rules.md
+- how-to-set-manage-your-law-firm-marketing-agency.md
+- https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility.md
+- law-firm-crm-problems.md
+- law-firm-intake-speed.md
+- law-firm-link-building.md
+- law-firm-marketing-consultant-tampa-fl.md
+- law-firm-marketing-retainer-underdelivery.md
+- law-firm-marketing-roi-tracking.md
+- law-firm-website-ada-compliance.md
+- law-firm-website-homepage-design.md
+- law-firm-website-losing-clients.md
+- law-firms-ditching-wordpress.md
+- local-search-law-firm-county-dominance.md
+- marketing-reports-fake.md
+- video-and-visual-content-for-legal-seo-2025.md
+
+**1 post** (`law-firm-referral-tracking.md`) was missing the `image` frontmatter field — added with fallback path.
+
+### ⚠️ Minor Notes (No Action Needed)
+- `law-firm-referral-tracking.jpg` doesn't exist in `/public/images/blog/` — the blog template falls back to `og-default.png` gracefully. Consider generating a cover image for this post.
+- Pagefind warns about missing `data-pagefind-body` — cosmetic, indexing works fine on all 152 pages.
 
 ---
 
-## What Was Fixed
-
-### Blog seo_description Quality (15 posts)
-
-**Critical (internal notes leaking into meta descriptions):**
-- `2025-review.md` — description started with "Purpose: Provide a long-form retrospective..." (AI prompt artifact). Fixed with real description.
-- `benchmarking-your-marketing...md` — description started with "Introduction Benchmarking is one of..." (body copy). Fixed.
-- `call-tracking-crm...md` — description started with "The Silent Revenue Leak..." (intro text). Fixed.
-- `data-driven-marketing...md` — description was truncated mid-sentence. Fixed.
-- `how-predictive-analytics...md` — description started with "Introduction: The Next Frontier..." Fixed.
-- `predictive-analytics-law-firm-growth.md` — description started with "Introduction: The New Face of Legal Marketing..." (body copy). Fixed.
-
-**Truncated mid-word (auto-truncated at 160 char limit):**
-- `ai-tools-law-firm-marketing.md` — ended "...what act" → fixed
-- `ai-search-law-firms.md` — trailing space removed
-- `callrail-law-firm-setup-guide.md` — ended "...writ" → fixed
-- `do-law-firms-need-seo-agency.md` — ended "...you" → fixed
-- `eeat-law-firm-seo.md` — ended "...industr" → fixed
-- `from-ppc-to-profit...md` — ended "...prac" → fixed
-- `ga4-setup-law-firm-guide.md` — ended "...useful" → fixed
-- `business-law-firm-marketing.md` — ended "decisions," → fixed
-- `family-law-firm-marketing.md` — ended "...conver" → fixed
-- `evolving-law-firm-business-models...md` — ended "...priced" → fixed
-- `clearwater-law-firm-marketing.md` — ended "...marketing p" → fixed
-
-**Slightly over 160 chars (trimmed to ≤165):**
-- `agency-vs-consultant-law-firm-marketing.md` (168→164)
-- `florida-bar-law-firm-advertising-rules.md` (169→164)
-- `google-ads-law-firms.md` (172→164)
-- `law-firm-marketing-st-petersburg-fl.md` (172→161)
-- `business-law-firm-marketing.md` (178→168)
-
----
-
-## Clean / No Issues Found
-
-### robots.txt
-- Allows all major crawlers (Googlebot, Bingbot, Slurp)
-- Blocks MJ12bot
-- Rate-limits SemrushBot (crawl-delay: 10) — appropriate
-- Disallows /admin, /api, /pagefind, /*.json, /private, /draft — correct
-- Sitemap reference present: `https://hugheyllc.com/sitemap-index.xml` ✅
-
-### Sitemap
-- `sitemap-index.xml` + `sitemap-0.xml` generated by Astro integration ✅
-- Linked from robots.txt ✅
-- Linked in `<head>` via `<link rel="sitemap">` ✅
-
-### BaseLayout (applies to all pages)
-- Title: ✅ passed as prop, all pages have unique titles
-- Meta description: ✅ conditionally rendered (no empty tag)
-- Canonical: ✅ Auto-generated from `siteUrl + pathname` with trailing slash fallback
-- Robots: ✅ Full directives including `max-snippet:-1, max-image-preview:large`
-- OG tags: ✅ og:title, og:description, og:url, og:type, og:image (1200×630), og:site_name, og:locale
-- Twitter Card: ✅ summary_large_image, @HugheyJoe90718
-- JSON-LD: ✅ LocalBusiness, Organization, Speakable, WebSite (with SearchAction) on every page
-
-### Schema Quality
-- **LocalBusiness**: name, telephone, email, address, geo, areaServed, openingHours, sameAs ✅
-- **Organization**: logo with dimensions, sameAs (LinkedIn, Facebook, Twitter) ✅
-- **WebSite**: potentialAction SearchAction with urlTemplate ✅
-- **Speakable**: cssSelector targets h1, h2, .h-hl, .h-sub ✅
-- **FAQPage**: on homepage (7 questions) and services page (4 questions) ✅
-- **ProfessionalService**: on homepage with hasOfferCatalog ✅
-- **Person** (Joe Hughey): on /about with jobTitle, worksFor, sameAs ✅
-- **Article**: on all blog posts with datePublished, dateModified, author, publisher, image ✅
-- **BreadcrumbList**: on all key pages ✅
-
-### AEO Readiness
-- Speakable schema implemented site-wide ✅
-- FAQ schema on homepage and services ✅
-- Blog posts auto-detect FAQ sections and inject FAQPage schema ✅
-- llms.txt present at `/public/llms.txt` ✅
-- Content uses direct Q&A format suitable for AI citation ✅
-- Internal linking structure supports topical authority ✅
-
-### Image Alt Text
-- No `<img>` tags without `alt` attributes found in component files ✅
-- Blog posts use frontmatter `image` field; no inline images without alt
-
-### Heading Hierarchy
-- BaseLayout does not emit h1 — each page template is responsible ✅
-- Blog post h1: page title in hero (blog-hero or PageHero component) ✅
-- Service pages: h1 in PageHero, h2 for service names ✅
-- No skipped heading levels detected in page templates
-
-### Page-level canonicals
-- Homepage: `https://hugheyllc.com` ✅ (explicitly set)
-- Services: `https://hugheyllc.com/services/` ✅
-- Blog index: not explicitly set — falls back to auto-canonical from URL ✅
-- Blog posts: `https://hugheyllc.com/blog/{slug}/` ✅
-- Location pages: canonical set per page ✅
-
-### Privacy pages
-- Both `/privacy/` and `/privacy-policy/` exist — potential duplicate. Both appear to have canonicals pointing to their own URLs. Low risk if content differs.
-
----
-
-## Pagefind Note (pre-existing)
-Pagefind warns: `/privacy/` page has no `<html>` element and won't be indexed by site search. This is a pre-existing issue — not introduced by this audit. Low priority (privacy pages don't need internal search indexing).
-
----
-
-## Recommendations (not auto-fixed)
-
-1. **`predictive-analytics-law-firm-growth.md` slug mismatch** — the slug is `predictive-analytics-law-firm-growth` but the content is about video marketing. The file was likely renamed/repurposed. The description is fixed, but if redirects or URL changes are needed, that requires a manual decision.
-
-2. **Duplicate privacy pages** — `/privacy/` and `/privacy-policy/` both exist. Consider adding a canonical on `/privacy-policy/` pointing to `/privacy/` (or vice versa) to avoid any potential thin-content signals.
-
-3. **Pagefind `/privacy/` no-html warning** — pre-existing. The page likely renders without a full HTML wrapper. Low priority.
-
-4. **Google Ads law firm description** (172 chars originally) — trimmed to 164. If original was intentional for a specific reason, revert at your discretion.
-
----
-
-## Build Status
-✅ `npm run build` passed with no errors. Changes committed and pushed.
+## Commit
+- **Hash:** `8bb66e7`
+- **Message:** `SEO: Add missing keywords to 17 blog posts, add image field to referral-tracking post`
+- **Pushed:** ✅ main → origin/main
