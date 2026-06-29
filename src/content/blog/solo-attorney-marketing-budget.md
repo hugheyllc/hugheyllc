@@ -20,7 +20,7 @@ Most solos fall into one of two traps. Either they hire an agency and hemorrhage
 
 Before you allocate a single dollar, understand what "free" actually costs. If you spend five hours a week on marketing DIY—writing blog posts, managing your Google Business Profile, responding to reviews—that's 260 hours a year. At a conservative billing rate of $200/hour (and most solos bill higher), that's $52,000 in opportunity cost. You're not saving money; you're spending it at an opportunity cost. That math changes the calculus immediately.
 
-A solo attorney marketing budget typically ranges from $500–$3,000 monthly, depending on practice area and growth stage. Within that range, the allocation matters far more than the total. Firms that spend $1,500 strategically often outpace those spending $3,000 without a plan.
+A solo attorney marketing budget typically ranges from $500–$3,000 monthly, depending on practice area and growth stage. Within that range, the allocation matters far more than the total. Firms that spend $1,500 strategically often outpace those spending $3,000 without a plan. According to [the SBA's small business guide](https://www.sba.gov/business-guide/manage-your-business/marketing-and-sales), service-based businesses like law firms should allocate 7–10% of revenue to marketing—though solos often start lower while building case volume.
 
 ## Where to Start: The Three-Tier Decision Framework
 
@@ -80,7 +80,7 @@ Write one blog post every two weeks (300–500 words). Publish it on your websit
 
 Most solos try to write one post per month, get busy, miss it, then abandon the whole thing. The consistency matters more than the polish. A 400-word post answering "How much does a trademark cost?" published on schedule beats a 2,000-word masterpiece that never ships.
 
-[When you understand content marketing as a lead nurture tool, not a traffic driver](/blog/content-marketing-for-law-firms/), the scope shrinks immediately. You're not competing with Above the Law. You're answering client questions so they trust you enough to call.
+[When you understand content marketing as a lead nurture tool, not a traffic driver](/blog/content-marketing-for-law-firms/), the scope shrinks immediately. You're not competing with Above the Law. You're answering client questions so they trust you enough to call. If you're looking for peer guidance, [SCORE offers free mentoring](https://www.score.org/) to small business owners, including solos looking to structure their marketing strategy more effectively.
 
 ## The Playbook for Your First 90 Days
 
@@ -110,7 +110,7 @@ If you're bootstrapping on under $500/month, you cannot do everything. Prioritiz
 3. **Email follow-up system** (basic, no fancy CRM—$0–$100).
 4. **You write the content** (because you understand your clients better than anyone).
 
-Skip: agency retainers, SEO agencies that promise rankings, social media management, and branding consultants. None of those move cases for a solo on a bootstrap budget.
+Skip: agency retainers, SEO agencies that promise rankings, social media management, and branding consultants. None of those move cases for a solo on a bootstrap budget. The [American Bar Association's resources for solo practitioners](https://www.americanbar.org/groups/law_practice/) reinforce this approach—focusing on fundamentals before scaling.
 
 ## Building the System That Survives Growth
 
