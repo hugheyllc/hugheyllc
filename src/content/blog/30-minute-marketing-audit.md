@@ -56,122 +56,69 @@ Log into Google Ads (or get read-only access if your agency manages it). Pull a 
 - Is it stable? That's acceptable, but ask: are conversion rates improving to offset flat CPC?
 - Is it dropping? That's usually good, but confirm it's not because of lower-quality traffic.
 
-A rising CPC without rising conversion rates means your agency isn't optimizing. That's a conversation starter.
+A rising CPC without rising conversion rates means your agency isn't optimizing. That's a conversation starter. Check [Google Ads Help Center](https://support.google.com/google-ads) for optimization guides.
 
 **2. Intake Conversion Rate**
 
-This is where the real accountability happens. Pull:
+This is where the real accountability happens. Pull total leads (form fills, calls, chats) in GA4 last month, total intake appointments, and total cases signed. Calculate lead-to-appointment rate and appointment-to-case rate.
 
-- Total leads (form fills, calls, chats) in GA4 last month.
-- Total intake appointments scheduled (from your intake coordinator or CRM).
-- Total cases signed or retained (from your case management system).
-
-Calculate:
-
-- Lead-to-appointment rate (intakes scheduled ÷ total leads).
-- Appointment-to-case rate (cases signed ÷ intakes completed).
-
-If lead-to-appointment is below 20%, your intake process or lead quality is suffering. If appointment-to-case is below 40%, your intake or the sales process is leaking. Your agency can't control this entirely—but they should be helping you diagnose it.
+If lead-to-appointment is below 20%, your intake process or [lead quality is suffering](/blog/why-law-firms-fire-marketing-agency/). If appointment-to-case is below 40%, your intake is leaking. Your agency can't control this entirely—but they should be helping you diagnose it.
 
 **3. Channel-Specific ROAS (Return on Ad Spend)**
 
-For Google Ads and paid social, calculate:
-
-- Revenue from clients acquired through each channel (last 90 days).
-- Cost spent on that channel (same period).
-- ROAS = Revenue ÷ Cost.
-
-You're looking for ROAS above 3:1 in legal services (meaning $3 in client fees for every $1 spent). Anything below 2:1 is a problem. If your agency can't break this down by channel, that's a lack of attribution discipline.
+For Google Ads and paid social, calculate revenue from clients acquired through each channel (last 90 days) divided by cost spent. You're looking for ROAS above 3:1 in legal services. Anything below 2:1 is a problem. If [your agency can't break this down by channel](/blog/accountability-law-firm-marketing-agency-vs-consultant/), that's a lack of attribution discipline.
 
 **4. Lead Quality Score**
 
-Pull your call recordings (or a sample of 20 recent calls). Grade them:
+Pull your call recordings (sample of 10 recent calls). Grade them: A-tier (real need, credible, can pay, urgent), B-tier (real need, weaker signals), C-tier (bad fit). You want 50%+ A-tier. If more than 30% are C-tier, your agency is chasing volume over quality.
 
-- **A-tier**: Prospect with a real legal need, credible facts, ability to pay, and urgency.
-- **B-tier**: Real need, weaker facts or lower urgency.
-- **C-tier**: Curious caller, no real case, or bad fit.
+## Your 30-Minute Audit Timeline
 
-Count the percentage in each tier. You want 50%+ A-tier. If more than 30% are C-tier, your agency is chasing volume over quality—and burning budget on bad leads.
+**Minutes 1-5:** Verify access to GA4, Google Ads, call tracking. Check that [GA4 conversion events are firing](https://support.google.com/analytics/answer/9234069) and call tracking is live.
 
-## The Law Firm Marketing Audit Checklist: Your 30-Minute Breakdown
+**Minutes 6-10:** Pull GA4 traffic (last 90 days) and count leads by source. Are you hitting the volume promised?
 
-**Minutes 1-5: Access Verification**
-- Confirm you have read-only access to GA4, Google Ads, and call tracking.
-- Check that GA4 conversion events are firing.
-- Verify call tracking is live on ads and website.
+**Minutes 11-15:** Note Google Ads spend and CPC trends. Compare to three months prior. Flag zero-conversion campaigns.
 
-**Minutes 6-10: Traffic and Lead Volume**
-- Pull GA4 traffic (last 90 days). Is it growing, flat, or declining?
-- Count total leads by source (paid search, organic, paid social, direct, referral).
-- Are you getting the volume your contract promised?
+**Minutes 16-25:** Calculate lead-to-appointment and appointment-to-case rates. Identify leaks. Grade a sample of recent calls (A/B/C tier). Confirm correct attribution.
 
-**Minutes 11-15: Cost and Efficiency**
-- Note Google Ads spend and CPC trends.
-- Compare to prior three months. Is efficiency improving?
-- Flag any campaigns with zero conversions in 30+ days.
+**Minutes 26-30:** Create a simple spreadsheet (Metric | Last Month | Target | Status) and flag red/yellow/green items. Schedule a review call with your agency.
 
-**Minutes 16-20: Conversion Audit**
-- Calculate lead-to-appointment and appointment-to-case rates.
-- Identify where leaks occur (intake, legal review, cost estimate, etc.).
-- Note any disconnect between "leads" reported and actual intake appointments.
+## Red Flags Your Agency Should Be Able to Explain
 
-**Minutes 21-25: Quality and Attribution**
-- Listen to 5-10 recent calls (or review chat transcripts).
-- Grade for A/B/C tier leads.
-- Confirm each lead is correctly attributed to its source.
+**Rising CPC without rising conversions** — Your agency should tell you why (competitor bids, seasonality, new keywords). "Market conditions" without a plan means they're not optimizing.
 
-**Minutes 26-30: Documentation and Next Steps**
-- Create a simple spreadsheet: Metric | Last Month | 3-Month Avg | Target | Status.
-- Flag items in red (below benchmark), yellow (at risk), or green (on track).
-- Schedule a review call with your agency to discuss findings.
+**Disconnect between reported leads and actual intakes** — Your agency should trace leads from click to appointment. If they can't, they're not thinking like a partner.
 
-## Three Things Your Agency Should Explain (And If They Can't, That's a Problem)
-
-**1. Why CPC Is Moving**
-
-If your CPC is rising, your agency should tell you exactly why: Are competitor bids up? Is seasonality affecting your vertical? Are you testing new keywords? If they shrug and say "market conditions," they're not actively managing your account.
-
-**2. Where Leads Are Going**
-
-Your agency should be able to trace a lead from the ad click all the way to the intake appointment (or explain where it dropped). If they can't connect the dots, they're not running an integrated campaign—they're running ads and hoping your intake team does the rest.
-
-**3. Why Quality Matters More Than Volume**
-
-Some agencies optimize for lead count because it looks good in a monthly report. You're hiring them to produce *cases*, not phone rings. Any agency that can't explain the difference between a 50-call month (30 bad fits, 10 real cases) and a 20-call month (18 real cases) isn't thinking like a partner.
+**Volume over quality** — 50 bad-fit calls beats 20 qualified leads in their report, but destroys your ROAS. Hold them accountable for [cost per retained client](/blog/cost-per-retained-client-law-firm/), not just lead volume.
 
 ## Frequently Asked Questions
 
-### What's a "good" lead-to-appointment conversion rate for law firms?
+### What's a "good" lead-to-appointment conversion rate?
 
-It depends on practice area, intake process, and how you define "lead." But as a baseline: if you're collecting contact info (form, call), you should be reaching out to at least 40-50% within 24 hours. Of those contacted, 20-30% should convert to scheduled intakes. If your rate is below 15% lead-to-appointment, your intake process—not your marketing—is the bottleneck. Talk to your intake coordinator before blaming the agency.
+Baseline: if collecting contact info, reach out to 40-50% within 24 hours. Of those, 20-30% should become intakes. Below 15%? Your intake process, not marketing, is the problem.
 
-### Should I use GA4 or call tracking as my main lead source?
+### Should I use GA4 or call tracking?
 
-Both. GA4 shows all digital activity (organic, paid, referral). Call tracking shows phone calls with better attribution to specific campaigns. The gap between them—calls that show up in GA4 but not call tracking, or vice versa—tells you about tracking issues. Your agency should explain discrepancies, not ignore them.
+Both. GA4 shows all digital activity. Call tracking shows phone attribution. The gap tells you about tracking issues. Your agency should explain discrepancies.
 
-### How often should I run this audit?
+### How often should I audit?
 
-Quarterly. Run a quick version monthly (just CPC and lead volume), then a deep dive every 90 days. If you spot a red flag (CPC spiking, conversion rate dropping), audit immediately. Don't wait for the agency's next report.
+Quarterly deep dives; monthly quick checks (CPC and volume). If you spot red flags, audit immediately.
 
-### What if my agency refuses to give me direct dashboard access?
+### What if my agency won't give me access?
 
-That's a negotiation point. You don't need them to hand over login credentials, but you should have read-only access to your own Google Ads and GA4. If they refuse, their contract should include a clause requiring them to provide full transparency reports weekly. If they won't do either, you're not in a partnership—you're in a trust-based relationship. That works until it doesn't.
-
-### Can I do this audit myself if I'm not a marketer?
-
-Yes—this is designed to be runnable without expertise. You're not analyzing why something happened; you're flagging *what's* happening. Once you have the numbers, your agency should explain the "why." If they can't or won't, that's your signal to escalate or make a change.
+You should have read-only access to your own GA4 and Google Ads. If they refuse, require weekly transparency reports in your contract. If they won't do either, you're not in a partnership.
 
 ## What to Do After Your Audit
 
-**If everything looks green:** Ask your agency what optimization work is planned for the next 90 days. Don't just accept "maintaining performance." Expect month-over-month improvement in either lead volume, conversion rate, or cost efficiency.
+**Green flags:** Ask your agency what optimization is planned for the next 90 days. Expect month-over-month improvement in lead volume, conversion rate, or cost efficiency.
 
-**If you spot yellow flags:** Schedule a call, share your findings, and ask for a written recovery plan with specific metrics and deadlines. (Example: "CPC is up 18%. We'll A/B test three new ad headlines and report results in two weeks.")
+**Yellow flags:** Schedule a call, share findings, request a written recovery plan with metrics and deadlines.
 
-**If you find red flags:** Don't assume negligence. It might be a tracking issue, a seasonal dip, or a change you weren't aware of. Get clarity. If the agency can't explain the numbers or doesn't have a plan to fix them, that's when you consider [evaluating your current marketing agency](/blog/accountability-law-firm-marketing-agency-vs-consultant/) or [exploring what to do next](/blog/why-law-firms-fire-marketing-agency/).
+**Red flags:** Get clarity on the numbers. If your agency can't explain them or doesn't have a fix plan, that's when you [evaluate your current relationship](/blog/accountability-law-firm-marketing-agency-vs-consultant/) or [consider what's next](/blog/why-law-firms-fire-marketing-agency/).
 
----
-
-Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it's the same diagnostic I walk consulting clients through. It'll take another 15 minutes, but it covers items this post doesn't have room for (brand consistency, landing page performance, competitor benchmarking, etc.). Use it alongside this post and you'll have a complete picture of where your agency's performance actually stands.
+Start with the [free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it covers brand consistency, landing page performance, and competitor benchmarking. Use it alongside this post for a complete picture.
 
 ---
 
@@ -179,8 +126,3 @@ Start with [the free 25-point marketing audit checklist](/resources/marketing-au
 
 - [How to Evaluate Your Law Firm's Current Marketing Agency](/blog/accountability-law-firm-marketing-agency-vs-consultant/)
 - [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](/blog/why-law-firms-fire-marketing-agency/)
-- [5 Signs Your Law Firm Marketing Isn't Working (And What to Do About It)](/blog/signs-law-firm-marketing-failing/)
-
----
-
-**Questions about your own audit or your agency relationship?** Reach out. I've walked dozens of practices through this, and I'm happy to spend 15 minutes on a no-obligation call to help you think through what you're seeing.
