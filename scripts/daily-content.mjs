@@ -94,10 +94,12 @@ async function generateImage(prompt) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error('OPENAI_API_KEY not set');
   const body = JSON.stringify({
-    model: 'gpt-image-1',
+    model: 'gpt-image-2',
     prompt: `${prompt} ${IMAGE_STYLE}`,
     n: 1,
     size: '1536x1024',
+    quality: 'high',
+    response_format: 'b64_json',
   });
   const res = await request(
     {
@@ -117,7 +119,10 @@ async function generateImage(prompt) {
   }
   const json = JSON.parse(res.body.toString('utf8'));
   const b64 = json.data?.[0]?.b64_json;
-  if (!b64) throw new Error(`OpenAI image response missing b64_json: ${JSON.stringify(json).slice(0, 300)}`);
+  if (!b64) {
+    console.error('OpenAI response:', JSON.stringify(json).slice(0, 500));
+    throw new Error(`OpenAI image response missing b64_json`);
+  }
   return Buffer.from(b64, 'base64');
 }
 
