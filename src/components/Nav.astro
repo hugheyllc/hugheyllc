@@ -210,9 +210,9 @@ const services = [
 
   .nav-dd-menu {
     position: absolute;
-    top: calc(100% + 14px);
+    top: calc(100% + 8px);
     left: 50%;
-    transform: translateX(-50%) translateY(-6px);
+    transform: translateX(-50%) translateY(0);
     width: 420px;
     max-height: calc(100dvh - 140px);
     overflow-y: auto;
@@ -231,10 +231,10 @@ const services = [
   .nav-dd-menu::before {
     content: '';
     position: absolute;
-    top: -14px;
+    top: -8px;
     left: 0;
     right: 0;
-    height: 14px;
+    height: 8px;
   }
 
   .nav-dd:hover .nav-dd-menu,
@@ -242,7 +242,6 @@ const services = [
   .nav-dd:focus-within .nav-dd-menu {
     opacity: 1;
     pointer-events: auto;
-    transform: translateX(-50%) translateY(0);
   }
 
   .nav-dd-inner {
@@ -400,33 +399,48 @@ const services = [
       padding: 12px 28px !important;
     }
 
-    /* Mobile dropdown: show inline */
-    .nav-dd { flex-direction: column; align-items: center; width: 100%; gap: 16px; }
+    /* Mobile dropdown: hide by default, show when expanded */
+    .nav-dd { flex-direction: column; align-items: center; width: 100%; gap: 0; }
 
     .nav-dd-trigger {
       font-size: 20px;
       color: rgba(255, 255, 255, 0.7);
+      width: 100%;
+      justify-content: center;
     }
 
-    .nav-dd-chev { display: none; }
+    .nav-dd-chev {
+      display: inline-block;
+      margin-left: 8px;
+    }
 
     .nav-dd-menu {
       position: static;
       transform: none !important;
       width: 100%;
       max-width: 360px;
-      opacity: 1;
-      pointer-events: auto;
+      opacity: 0;
+      pointer-events: none;
       background: transparent;
       border: none;
       box-shadow: none;
       backdrop-filter: none;
-      margin-top: 4px;
+      margin-top: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.3s, max-height 0.3s;
+    }
+
+    .nav-dd:hover .nav-dd-menu,
+    .nav-dd.open .nav-dd-menu {
+      opacity: 1;
+      pointer-events: auto;
+      max-height: 500px;
     }
 
     .nav-dd-menu::before { display: none; }
 
-    .nav-dd-inner { padding: 0; gap: 8px; }
+    .nav-dd-inner { padding: 12px 0; gap: 8px; }
 
     .nav-dd-item { padding: 10px 14px; }
 
@@ -435,7 +449,7 @@ const services = [
     .nav-dd-all {
       text-align: center;
       border-top: 1px solid rgba(200, 151, 58, 0.15);
-      padding-top: 14px;
+      padding: 14px 14px 0;
     }
   }
 </style>
