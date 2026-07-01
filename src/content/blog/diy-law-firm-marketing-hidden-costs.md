@@ -1,7 +1,7 @@
 ---
 title: "The Hidden Costs of DIY Law Firm Marketing (And When to Stop)"
 slug: "diy-law-firm-marketing-hidden-costs"
-date: 2026-07-01
+date: 2026-07-08
 author: "Joe Hughey"
 excerpt: "Most law firms underestimate what in-house marketing actually costs. When you factor in partner time, the math on DIY usually doesn't work. Here's how to run the numbers."
 tags: ["law firm marketing", "marketing ROI", "in-house marketing", "outsourcing", "law firm operations", "Tampa Bay"]
