@@ -25,7 +25,7 @@ Every firm that consistently grows focuses on three categories: **cost efficienc
 
 This is your north star. If you don't know your CPRC, you're guessing. I've reviewed accounts where firms spent $8,000 per month on Google Ads and generated 30 leads, but only retained 2 clients. Their CPRC was $4,000. Another firm spent $3,000 and retained 4 clients — CPRC of $750. Which firm was winning? The second one, by a mile.
 
-To calculate CPRC: total marketing spend (all channels) ÷ number of new clients retained in that period. Track it monthly. Compare it to your average case value. If CPRC exceeds 30% of your average case value, you have a problem. For a deeper breakdown, check out our [cost per retained client framework](/blog/cost-per-retained-client-law-firm/).
+To calculate CPRC: total marketing spend (all channels) ÷ number of new clients retained in that period. Track it monthly. Compare it to your average case value. If CPRC exceeds 30% of your average case value, you have a problem. For a deeper breakdown, check out our [cost per retained client framework](/blog/cost-per-retained-client-law-firm/). You can also reference [Google Analytics conversion tracking documentation](https://support.google.com/analytics/answer/1033173) to ensure your data pipeline is accurate.
 
 **Pro tip:** Break CPRC down by channel. You'll often find that one channel (like referrals) has a CPRC of $200 while another (like paid search) is $3,000. That doesn't mean kill paid search — it means optimize it. But you can't optimize what you don't measure.
 
@@ -33,7 +33,7 @@ To calculate CPRC: total marketing spend (all channels) ÷ number of new clients
 
 Most firms track "lead conversion" as in "how many leads called us." That's useless. The only conversion that matters is from lead to retained client. In accounts I've reviewed, the average across practice areas is 15–25%. But the top-performing firms hit 40% or higher.
 
-Why the gap? **Intake process.** Firms that answer the phone within 60 seconds, have a trained intake person (not a paralegal pulled from a file), and follow up within 24 hours see conversion rates double. Firms that let calls go to voicemail or use a generic receptionist? They bleed leads.
+Why the gap? **Intake process.** Firms that answer the phone within 60 seconds, have a trained intake person (not a paralegal pulled from a file), and follow up within 24 hours see conversion rates double. Firms that let calls go to voicemail or use a generic receptionist? They bleed leads. The [American Bar Association's Law Practice Division](https://www.americanbar.org/groups/law_practice/) has published research on client intake best practices that supports this data.
 
 Track this: leads generated ÷ retained clients × 100 = conversion rate. If yours is below 20%, your marketing is paying for leads you're wasting. This is a classic example of why [lead quality matters more than volume](/blog/lead-quality-vs-volume-law-firm-metrics/) — something most partners don't realize until they see it on paper.
 
@@ -45,7 +45,7 @@ This metric reveals whether you're attracting the right cases. A firm that retai
 
 Track average case value monthly. If it's dropping, your marketing may be attracting lower-value leads — or your intake team is discounting too aggressively. Both are fixable, but only if you see the trend early.
 
-**Combine with CPRC:** If your CPRC is $1,000 and average case value is $5,000, your ROI is 5:1. If average case value drops to $2,500, your ROI is 2.5:1. That's the difference between a profitable firm and one that's breaking even. For more on connecting spend to outcomes, see our guide on [tracking law firm marketing ROI](/blog/law-firm-marketing-roi-metrics/).
+**Combine with CPRC:** If your CPRC is $1,000 and average case value is $5,000, your ROI is 5:1. If average case value drops to $2,500, your ROI is 2.5:1. That's the difference between a profitable firm and one that's breaking even. For more on connecting spend to outcomes, see our guide on [tracking law firm marketing ROI](/blog/law-firm-marketing-roi-metrics/). [Google Ads conversion tracking](https://support.google.com/google-ads/answer/6095821) can also help you measure which channels drive your highest-value clients.
 
 ## The Monthly Scorecard Template
 
