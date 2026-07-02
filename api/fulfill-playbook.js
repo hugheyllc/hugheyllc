@@ -3,7 +3,7 @@
 import { Resend } from 'resend';
 
 const PLAYBOOK_URL = 'https://hugheyllc.com/playbook/always-found-f3a9d2c1.html';
-const SUPPORT_EMAIL = 'joe@joehughey.com';
+const SUPPORT_EMAIL = 'joe@hugheyllc.com';
 const SUPABASE_URL = 'https://joyahdqniiqjmcmqjlue.supabase.co';
 
 function buyerEmailHtml(firstName) {

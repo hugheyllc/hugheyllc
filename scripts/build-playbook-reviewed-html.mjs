@@ -28,194 +28,220 @@ const html = `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="robots" content="noindex, nofollow" />
 <title>Always Reviewed. Always Ranked. — The Law Firm Review System Playbook | Hughey LLC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
 <style>
   :root {
-    --ink: #1a1a1a;
-    --rule: #d8d2c4;
-    --accent: #8a6a1f;
+    --ink: #09131F;
+    --navy: #0F2040;
+    --mid: #1B3360;
+    --gold: #C8973A;
+    --glt: #DDA94E;
+    --page: #FAFAF5;
+    --warm: #F4EDE0;
+    --text: #111827;
+    --sub: #4A5568;
+    --dim: #8896A5;
+    --bdr: #E2D8C8;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; background: #f7f4ed; color: var(--ink); }
+  html, body { margin: 0; padding: 0; background: var(--page); color: var(--text); }
   body {
-    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
-    font-size: 18px;
-    line-height: 1.65;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
+    font-weight: 400;
   }
   .toolbar {
     position: sticky;
     top: 0;
     z-index: 10;
-    background: #1a1a1a;
+    background: var(--ink);
     color: #fff;
-    padding: 12px 24px;
+    padding: 14px 28px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: inherit;
     font-size: 13px;
-    letter-spacing: 0.04em;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    letter-spacing: 0.08em;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
   }
-  .toolbar-brand { font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
-  .toolbar-brand span { color: #c8973a; }
-  .toolbar-actions { display: flex; gap: 12px; }
+  .toolbar-brand {
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .toolbar-brand span { color: var(--gold); }
+  .toolbar-actions { display: flex; gap: 14px; }
   .toolbar button, .toolbar a {
-    background: #c8973a;
-    color: #1a1a1a;
+    background: var(--gold);
+    color: var(--ink);
     border: none;
-    padding: 8px 18px;
+    padding: 10px 20px;
     border-radius: 2px;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.07em;
     cursor: pointer;
     text-decoration: none;
     font-family: inherit;
+    transition: all 0.2s ease;
   }
-  .toolbar button:hover, .toolbar a:hover { background: #d9a94c; }
+  .toolbar button:hover, .toolbar a:hover { background: var(--glt); transform: translateY(-1px); }
   main {
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
     background: #fff;
-    padding: 80px 72px 96px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    padding: 64px 60px 80px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
   }
   main h1 {
-    font-size: 36px;
+    font-size: 38px;
     line-height: 1.15;
-    margin: 0 0 8px;
+    margin: 0 0 6px;
     font-weight: 800;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
+    color: var(--navy);
   }
-  main h1:first-child { font-size: 44px; text-align: center; margin-bottom: 0; }
+  main h1:first-child {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 12px;
+    color: var(--navy);
+  }
+  main h1:first-child + p { text-align: center; font-size: 16px; color: var(--sub); margin-bottom: 28px; }
   main h1:not(:first-child) {
-    margin-top: 72px;
-    padding-top: 32px;
-    border-top: 3px double var(--rule);
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 2px solid var(--bdr);
   }
   main h2 {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 1.25;
-    margin: 48px 0 16px;
-    font-weight: 700;
-    letter-spacing: -0.01em;
+    margin: 44px 0 14px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    color: var(--navy);
   }
   main h3 {
-    font-size: 21px;
-    line-height: 1.3;
-    margin: 36px 0 12px;
+    font-size: 20px;
+    line-height: 1.35;
+    margin: 32px 0 10px;
     font-weight: 700;
-    color: #2a2a2a;
+    letter-spacing: -0.01em;
+    color: var(--text);
   }
   main h4 {
-    font-size: 17px;
-    line-height: 1.35;
-    margin: 28px 0 10px;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 24px 0 8px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--accent);
+    letter-spacing: 0.08em;
+    color: var(--gold);
   }
-  main p { margin: 0 0 18px; }
-  main strong { color: #000; }
-  main em { color: #2a2a2a; }
-  main a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
-  main a:hover { color: #6d521a; }
+  main p { margin: 0 0 16px; color: var(--text); }
+  main strong { color: var(--navy); font-weight: 700; }
+  main em { font-family: 'Libre Baskerville', Georgia, serif; font-style: italic; color: var(--navy); }
+  main a { color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--gold); transition: color 0.2s; }
+  main a:hover { color: var(--glt); border-color: var(--glt); }
   main hr {
     border: none;
-    border-top: 1px solid var(--rule);
-    margin: 40px 0;
+    border-top: 1px solid var(--bdr);
+    margin: 36px 0;
   }
-  main ul, main ol { margin: 0 0 20px; padding-left: 28px; }
-  main li { margin-bottom: 8px; }
+  main ul, main ol { margin: 0 0 18px; padding-left: 24px; color: var(--text); }
+  main li { margin-bottom: 7px; line-height: 1.7; }
   main blockquote {
-    margin: 22px 0;
-    padding: 4px 0 4px 22px;
-    border-left: 3px solid var(--accent);
-    color: #444;
+    margin: 20px 0;
+    padding: 0 0 0 20px;
+    border-left: 3px solid var(--gold);
+    color: var(--sub);
     font-style: italic;
+    font-family: 'Libre Baskerville', Georgia, serif;
   }
   main code {
-    font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-    background: #f3efe5;
-    border: 1px solid #e5dfcd;
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+    background: var(--page);
+    border: 1px solid var(--bdr);
     border-radius: 2px;
-    padding: 1px 6px;
-    font-size: 0.88em;
-    color: #5a4515;
+    padding: 2px 6px;
+    font-size: 0.9em;
+    color: var(--mid);
+    font-weight: 500;
   }
   main pre {
-    background: #fbf9f3;
-    border: 1px solid #e5dfcd;
-    border-left: 3px solid var(--accent);
+    background: var(--warm);
+    border: 1px solid var(--bdr);
+    border-left: 3px solid var(--gold);
     border-radius: 2px;
-    padding: 16px 18px;
-    margin: 20px 0;
+    padding: 14px 16px;
+    margin: 18px 0;
     overflow-x: auto;
     font-size: 13px;
-    line-height: 1.55;
+    line-height: 1.6;
   }
   main pre code {
     background: transparent;
     border: none;
     padding: 0;
     font-size: 13px;
-    color: #2a2a2a;
+    color: var(--ink);
   }
   main table {
     width: 100%;
     border-collapse: collapse;
-    margin: 22px 0;
-    font-size: 15px;
+    margin: 20px 0;
+    font-size: 14px;
   }
   main th, main td {
-    border: 1px solid var(--rule);
-    padding: 9px 12px;
+    border: 1px solid var(--bdr);
+    padding: 10px 12px;
     text-align: left;
     vertical-align: top;
   }
   main th {
-    background: #f3efe5;
+    background: var(--page);
     font-weight: 700;
+    color: var(--navy);
   }
-  /* Subtitle styling for the opening lines */
-  main > p:nth-of-type(1) {
-    text-align: center;
-    font-size: 22px;
-    color: #555;
-    margin-top: 4px;
-  }
+  main td { color: var(--text); }
 
   /* Print styles */
   @media print {
-    body { background: #fff; font-size: 11.5pt; }
+    body { background: #fff; font-size: 12pt; }
     .toolbar, .no-print { display: none !important; }
     main {
       max-width: 100%;
-      padding: 0;
+      padding: 0.5in 0.75in;
       margin: 0;
       box-shadow: none;
     }
-    main h1 { page-break-before: always; }
-    main h1:first-child { page-break-before: avoid; }
+    main h1 { page-break-after: avoid; }
+    main h1:first-child { page-break-after: avoid; }
     main h2, main h3, main h4 { page-break-after: avoid; }
     main pre, main blockquote, main table { page-break-inside: avoid; }
-    main a { color: #000; text-decoration: none; }
-    main pre { background: #f9f9f9; border-color: #ccc; }
+    main a { color: var(--navy); text-decoration: none; border: none; }
+    main a::after { content: ' (' attr(href) ')'; font-size: 0.9em; color: var(--dim); }
     @page {
-      margin: 0.7in 0.8in;
+      margin: 0.75in;
+      size: letter;
     }
   }
 
-  @media (max-width: 720px) {
-    main { padding: 48px 28px 64px; }
-    main h1:first-child { font-size: 32px; }
-    main h1:not(:first-child) { font-size: 26px; }
-    main h2 { font-size: 22px; }
+  @media (max-width: 768px) {
+    main { padding: 40px 24px 56px; }
+    main h1:first-child { font-size: 36px; }
+    main h1 { font-size: 28px; }
+    main h2 { font-size: 24px; }
     main h3 { font-size: 18px; }
-    main { font-size: 17px; }
+    body { font-size: 15px; }
+    main blockquote { padding-left: 16px; }
   }
 </style>
 </head>
