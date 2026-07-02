@@ -15,11 +15,11 @@ You should switch law firm marketing agencies when you see consistent patterns o
 
 ## 1. Reports Disappear or Become Useless
 
-When an agency stops sending reports, or the reports arrive with vague metrics like "impressions" and "engagement," something is wrong. In accounts I've reviewed, the first sign of trouble is almost always a shift from detailed, actionable reports to one-page summaries that tell you nothing. A good agency sends reports that show cost per lead, conversion trends, and specific actions taken. If you're getting fluff, ask for the raw data. If they can't provide it, that's a law firm marketing agency problem that will only get worse.
+When an agency stops sending reports, or the reports arrive with vague metrics like "impressions" and "engagement," something is wrong. In accounts I've reviewed, the first sign of trouble is almost always a shift from detailed, actionable reports to one-page summaries that tell you nothing. A good agency sends reports that show cost per lead, conversion trends, and specific actions taken. Per [Google's own guidance on measuring marketing performance](https://support.google.com/google-ads/answer/2998031), tracking and reporting on actual business outcomes (not just traffic metrics) is the foundation of accountability. If you're getting fluff, ask for the raw data. If they can't provide it, that's a law firm marketing agency problem that will only get worse.
 
 ## 2. You Own Nothing When You Leave
 
-This is the most expensive mistake I see firms make. Many agencies build websites, landing pages, and ad accounts in their own names. When you leave, you lose everything. I've worked with firms that paid tens of thousands for a site they couldn't take with them. Before you renew anything, check who owns your domain, your Google Ads account, your content, and your email list. If it's not you, that's a hard stop. For more on this, read about [what to look for in marketing contracts before you sign](/blog/law-firm-marketing-contract-red-flags/).
+This is the most expensive mistake I see firms make. Many agencies build websites, landing pages, and ad accounts in their own names. When you leave, you lose everything. I've worked with firms that paid tens of thousands for a site they couldn't take with them. Before you renew anything, check who owns your domain, your Google Ads account, your content, and your email list. If it's not you, that's a hard stop. The [American Bar Association provides guidance on retainer agreements](https://www.americanbar.org/groups/law_practice/publications/law_practice_today/) that includes ownership and work product considerations. For more on this, read about [what to look for in marketing contracts before you sign](/blog/law-firm-marketing-contract-red-flags/).
 
 ## 3. The Same Strategy for Every Client
 
@@ -31,7 +31,7 @@ If you're the one initiating every check-in and asking for status updates, the r
 
 ## 5. They Blame the Algorithm, the Platform, or the Economy
 
-Every agency hits rough patches. The good ones say, "We tried X, it didn't work, so we pivoted to Y and here are the results." The bad ones blame Google's latest update, Facebook's algorithm change, or the economy. I've seen agencies blame a slow month on the weather. If your agency can't take ownership of outcomes and show you what they're doing differently, you have an accountability problem — and it's often [the reason firms eventually fire their marketing agency](/blog/why-law-firms-fire-marketing-agency/).
+Every agency hits rough patches. The good ones say, "We tried X, it didn't work, so we pivoted to Y and here are the results." The bad ones blame Google's latest update, Facebook's algorithm change, or the economy. I've seen agencies blame a slow month on the weather. The [FTC's guidance on advertising claims](https://www.ftc.gov/news-events/news/2023/10/ftc-enforcement-action-targets-deceptive-advertising-claims) makes clear that service providers cannot make claims about performance results without substantiation. If your agency can't take ownership of outcomes and show you what they're doing differently, you have an accountability problem — and it's often [the reason firms eventually fire their marketing agency](/blog/why-law-firms-fire-marketing-agency/).
 
 ## 6. They Resist Audits and Third-Party Reviews
 
