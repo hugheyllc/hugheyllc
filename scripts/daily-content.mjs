@@ -600,54 +600,30 @@ async function notifyTelegram(text) {
 // ---------- Main ----------
 
 async function main() {
-  console.log('[1/7] Loading existing posts and strategy');
-  const existing = collectExistingPosts();
-  console.log(`     found ${existing.length} existing posts`);
-
-  // Check if a post was already published today (manually pushed before cron ran)
+  console.log('[PREFLIGHT] Checking for today\'s post...');
   const today = new Date().toISOString().slice(0, 10);
+  const existing = collectExistingPosts();
   const todayPost = existing.find((p) => p.date === today);
+  
+  if (todayPost) {
+    console.log(`❌ ABORT: Post already published today (${todayPost.slug})`);;
+    console.log(`   Joe must manually approve any multi-post days.`);
+    console.log(`   To post again today, delete the existing post and run again.`);
+    return;
+  }
+  
+  console.log('[1/7] Loading existing posts and strategy');
+  console.log(`     found ${existing.length} total posts, 0 for today ✓`);
   // Check if social was already posted today to avoid duplicates on re-runs
   const socialFlagFile = path.join(process.cwd(), `.social-posted-${today}`);
   const socialAlreadyPosted = fs.existsSync(socialFlagFile);
-  if (todayPost && socialAlreadyPosted) {
-    console.log(`     today's post and social already done: ${todayPost.slug} — nothing to do`);
+  if (socialAlreadyPosted) {
+    console.log(`     social already posted today — nothing to do`);
     return;
   }
-  if (todayPost) {
-    console.log(`     today's post already exists: ${todayPost.slug} — skipping blog/image generation, posting social only`);
+  if (false) { // This branch is now unreachable because we abort above if todayPost exists
     const structureIndex = existing.length;
-    console.log('[4/7] Posting to Twitter (today post already exists)');
-    try {
-      const tweet = await generateTweet({ title: todayPost.title, slug: todayPost.slug, excerpt: todayPost.excerpt });
-      const tweetId = await postTweet(tweet);
-      console.log(`     posted tweet id=${tweetId}`);
-    } catch (e) {
-      console.error(`     twitter failed: ${e.message}`);
-    }
-    console.log('[5/7] Posting to LinkedIn (today post already exists)');
-    try {
-      const liText = await generateLinkedInPost({ title: todayPost.title, slug: todayPost.slug, excerpt: todayPost.excerpt, structureIndex });
-      const liId = await postLinkedIn(liText);
-      console.log(`     posted linkedin id=${liId}`);
-      try {
-        await commentLinkedIn(liId, `Full breakdown: https://hugheyllc.com/blog/${todayPost.slug}/`);
-        console.log('     posted first-comment URL');
-      } catch (cErr) {
-        console.error(`     linkedin first-comment failed: ${cErr.message}`);
-      }
-    } catch (e) {
-      console.error(`     linkedin failed: ${e.message}`);
-    }
-    console.log('[6/7] Notifying Joe on Telegram');
-    try {
-      await notifyTelegram(`<b>${todayPost.title}</b>\nhugheyllc.com/blog/${todayPost.slug}/`);
-    } catch (e) {
-      console.error(`     telegram failed: ${e.message}`);
-    }
-    fs.writeFileSync(socialFlagFile, today);
-    console.log(`\nDone (social-only): ${todayPost.title}`);
-    return;
+    // Unreachable
   }
 
   let strategy = readStrategy();
