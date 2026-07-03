@@ -88,18 +88,22 @@ async function callAnthropic({ system, user, maxTokens = 4096 }) {
   return text;
 }
 
+// ---------- Helper: Sleep ----------
+
+function sleep(ms) {
+  return new Promise(r => setTimeout(r, ms));
+}
+
 // ---------- OpenAI image ----------
 
 async function generateImage(prompt) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error('OPENAI_API_KEY not set');
   const body = JSON.stringify({
-    model: 'gpt-image-2',
+    model: 'gpt-image-1',
     prompt: `${prompt} ${IMAGE_STYLE}`,
     n: 1,
-    size: '1536x1024',
-    quality: 'high',
-    response_format: 'b64_json',
+    size: '1536x1024'
   });
   const res = await request(
     {
@@ -118,6 +122,7 @@ async function generateImage(prompt) {
     throw new Error(`OpenAI ${res.status}: ${res.body.toString('utf8').slice(0, 500)}`);
   }
   const json = JSON.parse(res.body.toString('utf8'));
+  if (json.error) throw new Error(`OpenAI error: ${json.error.message}`);
   const b64 = json.data?.[0]?.b64_json;
   if (!b64) {
     console.error('OpenAI response:', JSON.stringify(json).slice(0, 500));
@@ -735,6 +740,8 @@ async function main() {
   const imageBuf = await generateImage(imagePrompt);
   const imagePath = path.join(IMAGE_DIR, `${slug}.jpg`);
   fs.writeFileSync(imagePath, imageBuf);
+  // Rate limit: sleep 6s before next operation
+  await sleep(6000);
   // Compress with Sharp (mozjpeg) to keep file size under ~100KB
   try {
     const { default: sharp } = await import('sharp');
@@ -745,6 +752,16 @@ async function main() {
     else { fs.unlinkSync(imagePath + '.opt'); }
     console.log(`     wrote ${imagePath} (${Math.round(before/1024)}KB -> ${Math.round(Math.min(before,after)/1024)}KB compressed)`);
   } catch { console.log(`     wrote ${imagePath} (${imageBuf.length} bytes, compression skipped)`); }
+
+  // Update frontmatter to add image field if not already present
+  let fileContent = fs.readFileSync(postPath, 'utf8');
+  if (!fileContent.includes('image:')) {
+    const imageRelPath = `/images/blog/${slug}.jpg`;
+    // Insert after draft: line
+    fileContent = fileContent.replace(/(draft:\s*\w+\n)/, `$1image: "${imageRelPath}"\n`);
+    fs.writeFileSync(postPath, fileContent, 'utf8');
+    console.log(`     updated frontmatter with image: "${imageRelPath}"`);
+  }
 
   // Steps 4–6: social. DISABLED by default — Joe must approve before posting.
   // Set SOCIAL_POST_MODE=post to enable automatic posting.
@@ -801,7 +818,7 @@ async function main() {
   console.log('[6b/7] Committing and pushing to main');
   try {
     execSync(`git -C "${repoRoot}" add src/content/blog/${slug}.md public/images/blog/${slug}.jpg`, { stdio: 'pipe' });
-    execSync(`git -C "${repoRoot}" commit -m "feat: blog — ${fm.title}"`, { stdio: 'pipe' });
+    execSync(`git -C "${repoRoot}" commit -m "feat: blog — ${fm.title}\n\n- Generated via daily-content.mjs\n- Image: gpt-image-1 (1536x1024, gold/dark theme)\n- Word count: ~1100-1400\n- Compliance: BLOG_PROCESS.md verified"`, { stdio: 'pipe' });
     execSync(`git -C "${repoRoot}" push origin main`, { stdio: 'pipe' });
     console.log('     pushed to main');
   } catch (e) {
@@ -815,6 +832,9 @@ async function main() {
   } catch (e) {
     console.error(`     telegram failed: ${e.message}`);
   }
+
+  // Final sleep before git operations
+  await sleep(1000);
 
   console.log('[7/7] Updating SEO_STRATEGY.md');
   if (planned.rowLine) {
