@@ -1,14 +1,22 @@
 ---
-title: "Content Marketing for Law Firms: What Actually Drives Retained Clients"
-slug: "content-marketing-for-law-firms"
-date: 2026-04-15
-author: "Joe Hughey"
-excerpt: "The fundamental problem is simple: most law firms write for Google, not for the person sitting at a kitchen table at 11pm wondering if they have a case. Th"
-tags: ["content-marketing", "law-firm-marketing", "law-firm-seo"]
-seo_title: "Content Marketing for Law Firms: Strategy That Drives Cases"
-seo_description: "How law firms should approach content marketing to attract and retain clients — not just traffic. Practical strategy from a law firm marketing consultant."
+title: 'Content Marketing for Law Firms: What Actually Drives Retained Clients'
+slug: content-marketing-for-law-firms
+date: 2026-04-15T00:00:00.000Z
+author: Joe Hughey
+excerpt: >-
+  The fundamental problem is simple: most law firms write for Google, not for
+  the person sitting at a kitchen table at 11pm wondering if they have a case.
+  Th
+tags:
+  - content-marketing
+  - law-firm-marketing
+  - law-firm-seo
+seo_title: 'Content Marketing for Law Firms: Strategy That Drives Cases'
+seo_description: >-
+  How law firms should approach content marketing to attract and retain clients
+  — not just traffic. Practical strategy from a law firm marketing consultant.
 draft: false
-image: "/images/blog/content-marketing-for-law-firms.webp"
+image: /images/blog/content-marketing-for-law-firms.jpg
 ---
 
 ## Why Most Law Firm Content Fails Before Anyone Reads It

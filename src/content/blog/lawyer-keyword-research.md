@@ -1,14 +1,25 @@
 ---
-title: "Keyword Research for Lawyers: How to Find the Terms That Actually Bring in Cases"
-slug: "lawyer-keyword-research"
-date: 2026-04-02
-author: "Joe Hughey"
-excerpt: "The rules that apply to most industries break down fast when you're doing keyword research for a law firm. Three factors make legal SEO its own discipline."
-tags: ["law-firm-seo", "keyword-research", "law-firm-marketing"]
-seo_title: "Keyword Research for Lawyers: A Step-by-Step Guide"
-seo_description: "How law firms should do keyword research — practice area targeting, local modifiers, intent mapping, and tools. From an independent law firm marketing consultant."
+title: >-
+  Keyword Research for Lawyers: How to Find the Terms That Actually Bring in
+  Cases
+slug: lawyer-keyword-research
+date: 2026-04-02T00:00:00.000Z
+author: Joe Hughey
+excerpt: >-
+  The rules that apply to most industries break down fast when you're doing
+  keyword research for a law firm. Three factors make legal SEO its own
+  discipline.
+tags:
+  - law-firm-seo
+  - keyword-research
+  - law-firm-marketing
+seo_title: 'Keyword Research for Lawyers: A Step-by-Step Guide'
+seo_description: >-
+  How law firms should do keyword research — practice area targeting, local
+  modifiers, intent mapping, and tools. From an independent law firm marketing
+  consultant.
 draft: false
-image: "/images/blog/lawyer-keyword-research.webp"
+image: /images/blog/lawyer-keyword-research.jpg
 ---
 
 ## Why Legal Keyword Research Is Different
