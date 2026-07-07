@@ -1,108 +1,230 @@
 # Daily Blog Process — Hughey LLC
 
-Autonomous. No review required. Runs every day.
+**Current Status:** 3-Phase Approval Workflow (Draft → Approve → Publish)  
+**Last Updated:** Jul 7, 2026  
+**Change Log:** Added mandatory deduplication checks to prevent duplicate content
 
 ---
 
-## Step 0: Duplicate Check
+## ⚠️ Duplicate Content Prevention (CRITICAL)
 
-Before writing, scan every existing post in `src/content/blog/` — titles, slugs, excerpts, and tags.
+**Issue Found (Jul 7, 2026):** 119 blog posts included multiple duplicates:
+- "30-minute-marketing-audit" posted twice with identical titles
+- "Agency vs. Consultant" covered in 9 separate posts
+- "SEO Best Practices" covered in 11 posts
+- Many geographic variations of the same core content
 
-If the planned topic has already been covered at the same angle:
-- Try a meaningfully different angle (different keyword, different buyer stage, different problem framing)
-- If no differentiated angle exists, skip to the next planned post
+**Current Solution:** All topic proposals are checked against `BLOG_TOPICS.md` inventory.
 
-"Same angle" means: same core question answered, same target reader, same primary keyword. Two posts can cover related ground if they answer different questions or target different keywords.
+**RULES:**
+1. **Check `BLOG_TOPICS.md`** before proposing any new topic
+2. **Avoid topics** listed in the "AVOID (Duplicate Risk)" section
+3. **Only generate topics** in the "Approved New Topics (2026)" section
+4. **No geographic variations** of the same content (FL location posts are complete)
+5. **No practice area variations** beyond existing coverage (PI, Family, Business, Criminal already covered)
 
-Log the check mentally — confirm no existing post makes the new one redundant before writing a word.
-
----
-
-## Step 1: Pick the Post
-
-Read `SEO_STRATEGY.md`. Find the next unwritten planned post in the content calendar table (Status: 🔲 Planned). Work through them in order.
-
-When all planned posts are exhausted: pick the next logical topic from the priority keyword clusters in the same file. Never write outside the strategy.
-
-Update the status to ✅ Published after posting.
+**Key File:** `BLOG_TOPICS.md` — this is the source of truth for topic approval.
 
 ---
 
-## Step 2: Write to Spec
+## 3-Phase Workflow
 
-Every post must:
+### Phase 1: Generate Draft (7 AM ET, Automated)
 
-- **Open with an AEO answer** — the first 150–200 words directly answer 1–2 of the AEO target questions from `SEO_STRATEGY.md`, in plain declarative sentences an AI system can extract
-- **Hit the target keyword** — use it naturally in the H1, first paragraph, and 2–3 times in the body
-- **Inline internal links** — 2–4 links to existing posts, embedded within the body text (not just a footer list). Use descriptive anchor text.
-- **End with a contextual CTA** — one sentence in the final paragraph, natural voice:
-  - Local SEO / GBP / citations / map pack topics → [Always Found Playbook](/resources/always-found-playbook/) ($97)
-  - Reviews / reputation / social proof topics → [Always Reviewed Playbook](/resources/always-reviewed-playbook/) ($97)
-  - Marketing audit / attribution / agency evaluation topics → [Free 25-point checklist](/resources/marketing-audit-checklist/)
-  - All other topics → [/contact/](/contact/)
-- **Related posts** — 2 links at the very bottom in the `*Related:*` format
-- **No fabricated content** — no made-up client names, firm names, case studies, or specific statistics. Use "a common pattern," "firms that do this typically see," or "in accounts I've reviewed" language only.
-- **Length:** 900–1,400 words
+`scripts/blog-generator.mjs` runs daily at 7 AM:
 
-Frontmatter required fields:
+1. **Select topic** from approved list in `BLOG_TOPICS.md`
+2. **Run dedup checks:**
+   - Check exact title matches in `src/content/blog/`
+   - Check for >70% word overlap
+   - Check against "AVOID" keywords list
+   - If any check fails → skip this topic, use next approved topic
+3. **Generate content** with Claude Sonnet (800–1200 words)
+4. **Generate image** with gpt-image-2 (OpenAI)
+5. **Save to `/drafts/` folder** with timestamp prefix (not published yet)
+6. **Send Telegram message** to Joe with draft preview + "✅ Publish" / "❌ Skip" buttons
+
+**Script:** `scripts/blog-generator.mjs`  
+**Environment:** Requires `ANTHROPIC_API_KEY` + `OPENAI_API_KEY`  
+**Cron Job:** "Daily Blog Generator (7 AM - Claude)" (ID: `2442fcbb-0e88-4a55-afc4-917f2b936c21`)
+
+---
+
+### Phase 2: Manual Approval (Joe Reviews)
+
+Joe receives Telegram message at 7 AM with:
+- **Post title** and slug
+- **Draft preview** (first 300 words)
+- **Two buttons:**
+  - ✅ **Publish** → moves draft to published folder, commits, pushes to GitHub
+  - ❌ **Skip** → deletes draft, notes reason in SEO_STRATEGY.md
+
+**No changes allowed during approval** — if Joe needs rewrites, he skips it and asks for a new draft.
+
+---
+
+### Phase 3: Publish (On Joe's Approval)
+
+When Joe clicks "✅ Publish":
+
+1. Move draft from `/drafts/` → `src/content/blog/`
+2. Generate thumbnail image (gpt-image-2) if not already created
+3. Optimize image for web (95% compression)
+4. Commit: `git commit -m "content: [Date] blog — [Title]"`
+5. Push to GitHub main branch
+6. Vercel auto-deploys
+7. Send confirmation to Joe: "Published: [Title]"
+
+**Script:** `scripts/blog-publish.mjs <draft-filename>`  
+**Result:** Post live on hugheyllc.com within 2-3 minutes
+
+---
+
+## Manual Post Submission (Alternative Workflow)
+
+If Joe wants to **manually post** content from `/drafts/`:
+
+```bash
+cd /data/Coding/hugheyllc-website
+node scripts/blog-publish.mjs 2026-07-08-sample-post.md
+```
+
+This publishes the draft and pushes to GitHub.
+
+---
+
+## Topic Selection Rules
+
+### ✅ APPROVED Topics (Safe to Generate)
+
+These topics are covered minimally and won't create duplicates:
+
+- Emerging AI Search (Google updates, Perplexity, agent-based indexing)
+- Regulatory Changes (Florida Bar updates, ethics)
+- Client Retention & Experience
+- Operational Efficiency (staffing, automation, workflow)
+- Firm Growth Stages (solo to 5-person, scaling, mergers)
+- Competitive Intelligence (win-loss analysis, positioning)
+- Underserved Practice Areas (elder law, estate planning, employment, DUI)
+
+### ⛔ AVOID Topics (Duplicate Risk)
+
+These topics are already covered extensively. **DO NOT** generate:
+
+- Agency vs. Consultant comparisons (9 posts)
+- General SEO best practices (11 posts)
+- Local Search optimization (14+ posts)
+- Marketing budget/ROI basics (8+ posts)
+- Content marketing for law firms (2 posts + multiple angles)
+- Google Ads setup (3 posts)
+- Personal injury / Family law / Business law marketing (already covered by practice area)
+
+**If you feel one of these needs updating:** Consolidate or rewrite existing posts instead of creating new ones.
+
+---
+
+## Frontmatter Template
+
+Every published post requires:
+
 ```yaml
-title:
-slug:
+title: "[Post Title]"
+slug: "[url-slug-here]"
 date: YYYY-MM-DD
 author: "Joe Hughey"
-excerpt:        # 1–2 sentences, used in cards and meta
-tags: []
-seo_title:      # same as title unless a better keyword fit exists
-seo_description: # 150–155 chars, includes target keyword
+excerpt: "[1-2 sentence summary for card preview]"
+tags: 
+  - keyword1
+  - keyword2
+seo_title: "[Keyword-optimized title, often same as title]"
+seo_description: "[150-155 character description]"
 draft: false
 image: "/images/blog/[slug].jpg"
 ```
 
 ---
 
-## Step 3: Generate the Image
+## Image Generation
 
-Use OpenAI `gpt-image-1` model. The prompt must reference the specific topic and angle of the post — not just the title.
+Every post gets a thumbnail image generated via gpt-image-2.
 
-**Prompt formula:**
-```
-[2–3 sentence description of what the post is about and its central tension or theme].
-Visual style: very dark near-black background, subtle warm gold accent lighting, minimalist sophisticated law firm business context, no text or words anywhere in the image, dramatic professional editorial lighting, widescreen 3:2 composition.
-```
-
-**Example (for a post about firms firing agencies):**
-> "A professional office environment where a formal business relationship is ending — tension between two parties, documents on a table, a sense of transition and accountability. Visual style: very dark near-black background, subtle warm gold accent lighting..."
-
-Save to: `public/images/blog/[slug].jpg`
+**Script:** `scripts/generate-images.mjs`  
+**Quality:** High-quality, law-firm-appropriate visuals  
+**Format:** JPG, optimized to 50-100KB for web  
+**Location:** `public/images/blog/[slug].jpg`
 
 ---
 
-## Step 4: Commit and Push to Main
+## Post Structure Requirements
+
+### Opening (AEO Answer)
+- First 150–200 words directly answer the main question
+- 2-3 declarative sentences AI systems can extract
+- No fluff, no intro narrative
+
+### Body
+- Use target keyword naturally (H1, first paragraph, 2-3x in body)
+- 2-4 internal links embedded contextually (not footer lists)
+- H2 subheadings, short paragraphs (2-3 sentences max)
+- Professional tone, direct voice
+- No fabricated data — use aggregate language ("firms typically see," "in accounts I've reviewed")
+
+### Length
+- 900–1,400 words
+
+### Closing
+- One-sentence CTA (natural, not salesy)
+- Link to relevant resource or /contact/
+
+---
+
+## Files to Monitor
+
+- **`BLOG_TOPICS.md`** — Source of truth for approved topics
+- **`SEO_STRATEGY.md`** — Historical content calendar (reference only)
+- **`src/content/blog/`** — Published posts (119+ total)
+- **`drafts/`** — Pending approval
+- **`scripts/blog-generator.mjs`** — Daily auto-generation
+- **`scripts/blog-publish.mjs`** — Publishing on approval
+
+---
+
+## Cron Jobs
+
+| Job | Schedule | Behavior |
+|-----|----------|----------|
+| Daily Blog Generator | 7 AM ET | Generate draft, send to Telegram |
+| Blog Health Monitor | 2 PM ET | Check if draft published, alert if stuck |
+
+Both jobs are in OpenClaw's cron scheduler.
+
+---
+
+## Git Workflow
 
 ```bash
-git add src/content/blog/[slug].md public/images/blog/[slug].jpg
-git commit -m "feat: [Month D] blog post — [Title]"
-git push origin dev
-git push origin dev:main
+# Generate and publish (manual)
+node scripts/blog-generator.mjs        # Creates draft in /drafts/
+node scripts/blog-publish.mjs [file]   # Moves to published, commits
+
+# Optimize and commit
+node scripts/optimize-images.mjs       # Compress all images 95%
+git add src/content/blog/ public/images/blog/
+git commit -m "content: [Date] blog — [Title]"
+git push origin main
 ```
 
 ---
 
-## Step 5: Notify Joe
+## Cleanup Checklist
 
-Send one Telegram message — nothing else:
-
-> **"[Post Title]"**
-> hugheyllc.com/blog/[slug]/
-
-No recap. No "here's what I did." Title and URL only.
+- [ ] Remove duplicate "30-minute-marketing-audit-agency-dashboard" (keep the older one)
+- [ ] Fix missing frontmatter on 3 posts (lawyer-keyword-research, mobile-first-indexing, the-seo-graveyard)
+- [ ] Consider consolidating 9 agency comparison posts into 3-4 definitive guides
+- [ ] Audit geographic variants for unnecessary duplication
 
 ---
 
-## What Never Changes
+## Questions?
 
-- Write every day. No skipping.
-- Strategy file is the only source of truth for topics.
-- If the planned queue runs out, extend it — don't improvise randomly.
-- Internal links must be inline, not just footer.
-- Image must relate to post content, not just be generic.
+Refer to `BLOG_TOPICS.md` for topic inventory or ask Joe.
