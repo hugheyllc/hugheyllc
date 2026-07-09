@@ -17,13 +17,29 @@ const ROOT = path.resolve(__dirname, '..');
 const BLOG_DIR = path.join(ROOT, 'src/content/blog');
 const IMAGES_DIR = path.join(ROOT, 'public/images/blog');
 
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+// Load API keys from env vars, or fall back to gateway config
+function loadKeysFromGatewayConfig() {
+  try {
+    const configPath = '/data/.openclaw/openclaw.json';
+    const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+    const providers = config?.models?.providers || {};
+    return {
+      anthropic: providers?.anthropic?.apiKey,
+      openai: providers?.openai?.apiKey
+    };
+  } catch (e) {
+    return { anthropic: null, openai: null };
+  }
+}
+
+const gatewayKeys = loadKeysFromGatewayConfig();
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || gatewayKeys.anthropic;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || gatewayKeys.openai;
 
 if (!ANTHROPIC_API_KEY || !OPENAI_API_KEY) {
   console.log(JSON.stringify({
     status: 'failed',
-    error: 'Missing ANTHROPIC_API_KEY or OPENAI_API_KEY',
+    error: 'Missing ANTHROPIC_API_KEY or OPENAI_API_KEY (checked env + gateway config)',
     timestamp: new Date().toISOString()
   }, null, 2));
   process.exit(1);
