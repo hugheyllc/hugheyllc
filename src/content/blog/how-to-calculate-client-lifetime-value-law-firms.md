@@ -93,7 +93,7 @@ You don't need sophisticated tools to start. You need clean data and a willingne
 
 **Step 3: Calculate your three inputs.** Average revenue per matter. Average matters per client. Average client lifespan. Multiply them together.
 
-**Step 4: Segment by practice area and source.** CLV varies dramatically. Your estate planning clients might have a CLV of $25,000 over a decade. Your one-time DUI clients might be $4,000. The [data tells you where to invest](/blog/data-driven-marketing-how-to-analyze-the-right-numbers-to-help-your-firm-grow/) and where to tighten your focus.
+**Step 4: Segment by practice area and source.** CLV varies dramatically. Your estate planning clients might have a CLV of $25,000 over a decade. Your one-time DUI clients might be $4,000. The numbers tell you where to invest and where to tighten focus.
 
 **Step 5: Recalculate quarterly.** CLV isn't static. As your retention efforts improve (or don't), the number moves. Track it over time alongside your cost per retained client. The gap between acquisition cost and lifetime value is your true marketing ROI.
 
