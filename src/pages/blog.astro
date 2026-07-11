@@ -13,9 +13,11 @@ const posts = allBlogPosts
 const featured = posts[0];
 const rest = posts.slice(1);
 
-function readTime(excerpt: string = '') {
-  const words = excerpt.split(/\s+/).length;
-  return Math.max(3, Math.ceil(words / 200));
+function readTime(body: string = '', excerpt: string = '') {
+  // Use full body for accurate count, fallback to excerpt if needed
+  const text = body || excerpt;
+  const words = text.split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / 200));
 }
 
 const blogSchema = {
@@ -64,7 +66,7 @@ const itemListSchema = {
               <time class="feat-date">
                 {new Date(featured.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
               </time>
-              <span class="feat-read">{readTime(featured.data.excerpt)} min read</span>
+              <span class="feat-read">{readTime(featured.body, featured.data.excerpt)} min read</span>
             </div>
             <h2 class="feat-title">{featured.data.title}</h2>
             <p class="feat-excerpt">{featured.data.excerpt}</p>
@@ -93,7 +95,7 @@ const itemListSchema = {
                 <time class="post-date">
                   {new Date(post.data.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
                 </time>
-                <span class="post-read">{readTime(post.data.excerpt)} min</span>
+                <span class="post-read">{readTime(post.body, post.data.excerpt)} min</span>
               </div>
               <h3 class="post-title">
                 <a href={`/blog/${post.id}/`}>{post.data.title}</a>
