@@ -9,6 +9,7 @@ seo_title: "Law Firm Marketing Waste Calculation: The Hidden Cost of Bad Marketi
 seo_description: "Stop guessing. This law firm marketing waste calculation reveals what underperformance costs your firm and how to stop burning cash on bad strategy."
 draft: false
 image: "/images/blog/law-firm-marketing-waste-calculation.jpg"
+keywords: ['marketing waste', 'inefficient spending', 'marketing ROI', 'budget allocation']
 ---
 
 # The Hidden Cost of Bad Legal Marketing: What Underperformance Actually Costs Your Firm

@@ -20,6 +20,7 @@ seo_description: >-
   Mobile-Friendly?
 draft: false
 image: /images/blog/mobile-first-indexing-and-law-firm-websites-is-yours-actuall.jpg
+keywords: ['mobile SEO', 'mobile-first indexing', 'mobile optimization', 'responsive design', 'mobile-friendly website']
 ---
 Google's mobile-first indexing means the mobile version of your law firm's website is now the primary version Google evaluates for rankings. If your site delivers a poor mobile experience—slow load times, unresponsive layouts, difficult navigation—you are actively losing search visibility. Most law firms assume their site is mobile-friendly because it technically loads on a phone, but that assumption is costing them cases.
 

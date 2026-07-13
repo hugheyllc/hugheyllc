@@ -9,6 +9,7 @@ seo_title: "SEO Audit for Law Firms Florida | What a Real Audit Uncovers"
 seo_description: "Find out what a proper SEO audit for law firms in Florida actually covers, what blind spots most firms have, and how to tell if your SEO is working or just cost"
 draft: false
 image: "/images/blog/law-firm-seo-audit-florida.jpg"
+keywords: ['SEO audit', 'Florida law firms', 'local SEO audit', 'website optimization']
 ---
 
 # The SEO Audit Every Florida Law Firm Needs (But Rarely Gets)

@@ -9,6 +9,7 @@ seo_title: "Law Firm Retargeting Ads: Audience Segments & Creative That Convert"
 seo_description: "Law firm retargeting ads only work with proper audience segmentation. The platforms, creative approaches, and tracking infrastructure that drive real ROI."
 draft: false
 image: "/images/blog/law-firm-retargeting-ads-strategy.jpg"
+keywords: ['retargeting ads', 'remarketing law firms', 'pixel retargeting', 'Google remarketing']
 ---
 
 # Law Firm Retargeting Ads: Stop Burning Money on Cold Audiences

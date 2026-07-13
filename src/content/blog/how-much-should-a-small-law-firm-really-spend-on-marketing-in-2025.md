@@ -9,6 +9,7 @@ seo_title: "How Much Should a Small Law Firm Spend on Marketing in 2025?"
 seo_description: "Practical law firm marketing budget benchmarks for 2025. Learn what small firms should spend by size, practice area, and growth stage — and how to track ROI."
 draft: false
 image: "/images/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-in-2025.webp"
+keywords: ['law firm marketing budget', 'small law firm budget', 'legal marketing spend', 'law firm marketing costs']
 ---
 
 # Practical budgeting rules for firm owners in 2025.

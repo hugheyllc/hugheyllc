@@ -17,6 +17,7 @@ seo_description: >-
   — not just traffic. Practical strategy from a law firm marketing consultant.
 draft: false
 image: /images/blog/content-marketing-for-law-firms.jpg
+keywords: ['content marketing', 'law firm content', 'legal content strategy', 'law firm blog', 'attorney blogging']
 ---
 
 ## Why Most Law Firm Content Fails Before Anyone Reads It

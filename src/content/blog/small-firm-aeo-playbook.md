@@ -9,6 +9,7 @@ seo_title: "The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025"
 seo_description: "For small and mid-sized law firms, the marketing landscape is rapidly evolving. Advanced marketing technology once reserved for large agencies is now accessible"
 draft: false
 image: "/images/blog/small-firm-aeo-playbook.webp"
+keywords: ['AEO strategy', 'Answer Engine Optimization', 'AI search optimization', 'small firm AEO']
 ---
 
 Google's AI Overviews (AEO) are reshaping how potential clients discover law firms. Unlike traditional organic search, where your firm appears in a ranked list of blue links, AI Overviews synthesize multiple sources into a single answer box at the top of the search results—often pulling directly from your content without sending a click your way. For small and mid-sized law firms, this shift demands a different strategy. You can't ignore it, but you also don't need to panic. What you need is a clear, practical approach to optimizing for AI Overviews while maintaining the organic visibility that still drives real business.

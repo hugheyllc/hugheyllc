@@ -12,6 +12,7 @@ seo_title: 7 Law Firm Marketing Agency Problems (And How to Avoid Them)
 seo_description: 7 Law Firm Marketing Agency Problems (And How to Avoid Them)
 draft: false
 image: /images/blog/7-law-firm-marketing-agency-problems-and-how-to-avoid-them.jpg
+keywords: ['law firm marketing agency', 'marketing agency problems', 'law firm marketing consultant', 'marketing red flags', 'hiring marketing agency']
 ---
 The most common law firm marketing agency problems include lack of transparency, cookie-cutter strategies, poor communication, vanity metric reporting, long lock-in contracts, no legal industry expertise, and failure to align with business development goals. These issues cost firms thousands of dollars and months of lost momentum. Understanding these problems before you sign an engagement letter is the single most effective way to protect your marketing investment.
 

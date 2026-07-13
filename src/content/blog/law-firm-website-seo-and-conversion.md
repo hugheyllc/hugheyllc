@@ -9,6 +9,7 @@ seo_title: "How to Build a Law Firm Website That Ranks on Google AND Converts Vi
 seo_description: "Most law firm websites are optimized for one or the other — ranking or converting. The best ones do both. Here's the framework we use to build sites that win on"
 draft: false
 image: "/images/blog/law-firm-website-seo-and-conversion.webp"
+keywords: ['website SEO', 'conversion optimization', 'law firm UX', 'SEO and conversions']
 ---
 
 There's a tension at the heart of most law firm website projects: the team focused on SEO wants one thing, and the team focused on design and conversion wants another. The result is usually a compromise that does neither particularly well.

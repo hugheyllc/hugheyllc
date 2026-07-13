@@ -9,6 +9,7 @@ seo_title: "Law Firm Content Calendar: Realistic Planning for Busy Firms | Hughe
 seo_description: "Learn how to build a law firm content calendar that doesn't fall apart in month two. Seasonal angles, practice-area clusters, automation, and what to never sche"
 draft: false
 image: "/images/blog/law-firm-content-calendar-strategy.jpg"
+keywords: ['content calendar', 'content planning', 'law firm editorial calendar', 'content scheduling']
 ---
 
 # The Law Firm Content Calendar Nobody Follows (And Why You Need One Anyway)

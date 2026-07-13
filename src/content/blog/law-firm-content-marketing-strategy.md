@@ -9,6 +9,7 @@ seo_title: "The Law Firm Content Marketing Strategy That Generates Cases, Not Ju
 seo_description: "Most law firm blogs generate traffic but not cases. The difference is strategy. Here's how to build a content program that moves prospective clients from search"
 draft: false
 image: "/images/blog/law-firm-content-marketing-strategy.webp"
+keywords: ['content marketing strategy', 'law firm content', 'legal content plan', 'attorney blogging']
 ---
 
 A law firm blog that ranks but doesn't generate cases isn't a marketing asset — it's a vanity metric. Traffic without conversion is just noise.

@@ -9,6 +9,7 @@ seo_title: "Google Ads for Law Firms vs SEO: The Math on Paid Search vs Organic"
 seo_description: "Should your law firm run Google Ads or invest in SEO? The real answer is both—but budget allocation makes or breaks your strategy. Here's how to do the math."
 draft: false
 image: "/images/blog/paid-search-vs-seo-law-firms.jpg"
+keywords: ['paid search', 'SEO vs PPC', 'law firm advertising', 'organic vs paid']
 ---
 
 # Paid Search vs. Organic SEO: The Math for Law Firms

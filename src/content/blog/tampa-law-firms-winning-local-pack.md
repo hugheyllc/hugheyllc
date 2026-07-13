@@ -9,6 +9,7 @@ seo_title: "How Tampa Law Firms Are Winning the Google Local Pack in 2026"
 seo_description: "The Google Local Pack — the three law firms that appear at the top of Tampa attorney searches — drives more qualified clicks than the organic results below it. "
 draft: false
 image: "/images/blog/tampa-law-firms-winning-local-pack.webp"
+keywords: ['Tampa law firms', 'local pack', 'Google Local Pack', 'Tampa SEO']
 ---
 
 When someone in Tampa searches "personal injury attorney" or "divorce lawyer Tampa," the first thing they see isn't the organic results — it's the Local Pack. Three businesses displayed at the top of the page, with star ratings, phone numbers, and distance information visible without a single click.

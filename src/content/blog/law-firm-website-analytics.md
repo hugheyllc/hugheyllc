@@ -9,6 +9,7 @@ seo_title: "What Your Law Firm's Website Analytics Are Actually Telling You (A P
 seo_description: "GA4 dashboards are full of numbers that feel important but rarely drive decisions. Here's a plain-English breakdown of the metrics that actually matter for law"
 draft: false
 image: "/images/blog/law-firm-website-analytics.webp"
+keywords: ['website analytics', 'GA4 setup', 'law firm metrics', 'traffic analysis']
 ---
 
 Most law firm websites are connected to Google Analytics. Most law firm managing partners have never opened it.

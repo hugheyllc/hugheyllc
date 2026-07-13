@@ -9,6 +9,7 @@ seo_title: "What Is E-E-A-T and Why It's the Most Important SEO Concept for Law 
 seo_description: "Google's E-E-A-T framework applies more strictly to law firm content than almost any other industry. How to demonstrate experience, expertise, authority, and trust."
 draft: false
 image: "/images/blog/eeat-law-firm-seo.webp"
+keywords: ["EEAT for law firms", "expertise authority trust", "legal authority signals", "law firm credibility", "content quality SEO"]
 ---
 
 For most industries, E-E-A-T is a helpful SEO framework but not an urgent priority. For law firms, it's the most consequential SEO concept on the board — because Google applies its E-E-A-T quality standards most strictly to exactly the category legal content falls into.

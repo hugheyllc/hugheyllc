@@ -20,6 +20,7 @@ seo_description: >-
   consultant.
 draft: false
 image: /images/blog/lawyer-keyword-research.jpg
+keywords: ['keyword research', 'lawyer keywords', 'legal keyword research', 'SEO keywords for attorneys', 'practice area keywords']
 ---
 
 ## Why Legal Keyword Research Is Different

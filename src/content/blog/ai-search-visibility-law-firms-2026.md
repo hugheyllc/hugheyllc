@@ -14,6 +14,7 @@ seo_title: "AI Search Visibility for Law Firms: ChatGPT, Perplexity, Claude"
 seo_description: "Law firms are losing visibility in AI search engines. Learn how to get your firm cited in ChatGPT, Perplexity, and Claude—and why it matters."
 draft: false
 image: "/images/blog/ai-search-visibility-law-firms-2026.jpg"
+keywords: ['AI search visibility', 'AI search engines for law firms', 'ChatGPT marketing', 'Perplexity law firms', 'AEO strategy', 'AI visibility']
 ---
 
 When a prospect now searches "personal injury lawyer near me," they don't always go to Google first. Many open ChatGPT, Perplexity, or Claude and ask directly. The AI synthesizes search results and gives them an answer—often citing specific firms and attorneys. If your firm isn't in that synthesis, you're invisible to a growing percentage of prospects.

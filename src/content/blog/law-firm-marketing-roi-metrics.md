@@ -9,6 +9,7 @@ seo_title: "Measuring Real Marketing ROI for Law Firms | Metrics That Actually M
 seo_description: "Stop chasing vanity metrics. Learn which marketing metrics actually connect to revenue for law firms, and how to measure real marketing ROI that drives retained"
 draft: false
 image: "/images/blog/law-firm-marketing-roi-metrics.jpg"
+keywords: ['marketing ROI', 'law firm metrics', 'marketing analytics', 'legal marketing measurement']
 ---
 
 # Measuring Real Marketing ROI: Metrics That Matter (Not Vanity Metrics)
