@@ -10,9 +10,9 @@
 
 ### Client Retention & Lifetime Value (8 topics)
 1. ✅ Client Retention Strategies for Law Firms: Beyond the Retainer Model (Published Jul 8, 2026)
-2. How to Calculate Client Lifetime Value (And Why It Matters More Than Lead Cost)
-3. Client Churn Analysis: Identifying and Fixing the Leak in Your Law Firm Pipeline
-4. The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes
+2. How to Calculate Client Lifetime Value (Published 2026-07-10)
+3. Client Churn Analysis: Identifying and Fixing the Leak in Your Law Firm Pipeline (Published 2026-07-14)
+4. The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes (Published 2026-07-14)
 5. Upselling and Cross-Selling in Law Firms: How to Grow Revenue From Your Best Clients
 6. Client Feedback Systems That Actually Improve Your Practice (Without Legal Risk)
 7. Post-Engagement Follow-Up: How to Stay Relevant After a Retainer Ends
