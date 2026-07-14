@@ -87,7 +87,7 @@ const articleSchema = {
     "@type": "Organization",
     "name": "Hughey LLC",
     "url": "https://hugheyllc.com",
-    "logo": { "@type": "ImageObject", "url": "https://hugheyllc.com/images/logo-icon.png" }
+    "logo": { "@type": "ImageObject", "url": "https://hugheyllc.com/images/logo.png" }
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": `https://hugheyllc.com/blog/${entry.id}/` },
   ...((entry.data.keywords?.length ?? tags?.length ?? 0) > 0 ? { "keywords": (entry.data.keywords ?? tags).join(", ") } : {}),

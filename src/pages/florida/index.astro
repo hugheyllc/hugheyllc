@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
+import Footer from '../../components/Footer.astro';
 
 const cities = [
   { name: 'Tampa Bay', href: '/location/', county: 'Hillsborough & Pinellas Counties', blurb: 'Home base. St. Petersburg, Tampa, Clearwater, and the Gulf Coast — one of the most competitive paid-search markets in Florida.' },
@@ -135,4 +136,5 @@ const serviceSchema = {
       color: var(--gold);
     }
   </style>
+  <Footer />
 </BaseLayout>

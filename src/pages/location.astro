@@ -1,12 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
+import Footer from '../components/Footer.astro';
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Hughey LLC",
-  "image": "https://hugheyllc.com/hughey-logo.png",
+  "image": "https://hugheyllc.com/images/logo.png",
   "description": "Law firm marketing consulting firm specializing in marketing operations for law firms.",
   "address": {
     "@type": "PostalAddress",
@@ -115,4 +116,6 @@ const schema = {
       box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52) !important;
     }
   </style>
+
+  <Footer />
 </BaseLayout>
