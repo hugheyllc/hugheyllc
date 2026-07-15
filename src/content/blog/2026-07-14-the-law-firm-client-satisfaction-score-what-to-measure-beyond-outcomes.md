@@ -1,15 +1,17 @@
 ---
 title: 'The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes'
-slug: the-law-firm-client-satisfaction-score-what-to-measure-beyon
+slug: the-law-firm-client-satisfaction-score-what-to-measure-beyond-outcomes
 date: '2026-07-14'
 author: Joe Hughey
 excerpt: 'The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes'
 tags:
-  - 'the law firm client satisfaction score: what to measure beyond outcomes'
+  - client satisfaction
+  - law firm metrics
+  - client retention
 seo_title: 'The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes'
-seo_description: 'The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes'
+seo_description: 'Learn what truly drives client satisfaction at law firms beyond just case outcomes. Measure the right metrics for retention and referrals.'
 draft: false
-image: /images/blog/the-law-firm-client-satisfaction-score-what-to-measure-beyon.jpg
+image: /images/blog/the-law-firm-client-satisfaction-score-what-to-measure-beyond-outcomes.jpg
 ---
 Client satisfaction at a law firm goes far beyond whether you won the case or closed the deal. The most satisfied clients are often those who felt informed, respected, and well-served throughout the process — regardless of the final outcome. If you're only measuring results, you're missing the data that actually predicts referrals, retention, and long-term firm growth.
 
