@@ -14,7 +14,7 @@
 3. Client Churn Analysis: Identifying and Fixing the Leak in Your Law Firm Pipeline (Published 2026-07-14)
 4. The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes (Published 2026-07-14)
 5. Upselling and Cross-Selling in Law Firms: How to Grow Revenue From Your Best Clients (Published 2026-07-15)
-6. Client Feedback Systems That Actually Improve Your Practice (Without Legal Risk)
+6. Client Feedback Systems That Actually Improve Your Practice (Without Legal Risk) (Published 2026-07-16)
 7. Post-Engagement Follow-Up: How to Stay Relevant After a Retainer Ends
 8. Seasonal Client Retention: Keeping Clients Engaged During Slow Periods
 

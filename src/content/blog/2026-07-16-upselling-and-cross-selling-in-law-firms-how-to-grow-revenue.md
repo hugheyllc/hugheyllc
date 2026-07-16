@@ -3,7 +3,7 @@ title: >-
   Upselling and Cross-Selling in Law Firms: How to Grow Revenue From Your Best
   Clients
 slug: upselling-and-cross-selling-in-law-firms-how-to-grow-revenue
-date: '2026-07-15'
+date: '2026-07-16'
 author: Joe Hughey
 excerpt: >-
   Upselling and Cross-Selling in Law Firms: How to Grow Revenue From Your Best
