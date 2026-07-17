@@ -1,5 +1,5 @@
-const { createClient } = require('@supabase/supabase-js');
-const { Resend } = require('resend');
+import { createClient } from '@supabase/supabase-js';
+import { Resend } from 'resend';
 
 const VALID_PASSWORD = process.env.CLIENT_PORTAL_PASSWORD || 'hughey2025';
 
@@ -14,7 +14,7 @@ function checkAuth(password) {
   return password === VALID_PASSWORD;
 }
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, OPTIONS');
@@ -164,7 +164,7 @@ module.exports = async function handler(req, res) {
     console.error('Client requests API error:', err);
     return res.status(500).json({ error: 'Internal server error', details: err.message });
   }
-};
+}
 
 async function sendNotificationEmail(request) {
   if (!process.env.RESEND_API_KEY) return;
