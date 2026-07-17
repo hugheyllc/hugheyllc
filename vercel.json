@@ -940,5 +940,11 @@
     }
   ],
   "outputDirectory": "dist",
-  "crons": []
+  "crons": [],
+  "functions": {
+    "api/**/*.{js,mjs,ts}": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
 }
