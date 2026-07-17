@@ -38,6 +38,8 @@ export default defineConfig({
           'https://hugheyllc.com/privacy-policy/',
           // OAuth utility page — noindex, should not be in sitemap
           'https://hugheyllc.com/oauth/callback/',
+          'https://hugheyllc.com/client-requests/',
+          'https://hugheyllc.com/admin/client-requests/',
         ];
         return !exclude.includes(page);
       },
