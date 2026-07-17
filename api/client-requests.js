@@ -1,21 +1,14 @@
-import { createClient } from '@supabase/supabase-js';
 import { Resend } from 'resend';
 
 const VALID_PASSWORD = process.env.CLIENT_PORTAL_PASSWORD || 'hughey2025';
-
-function getSupabase() {
-  return createClient(
-    process.env.SUPABASE_URL,
-    process.env.SUPABASE_SERVICE_ROLE_KEY
-  );
-}
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 function checkAuth(password) {
   return password === VALID_PASSWORD;
 }
 
 export default async function handler(req, res) {
-  // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Portal-Password');
@@ -30,8 +23,6 @@ export default async function handler(req, res) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
-  const supabase = getSupabase();
-
   try {
     if (req.method === 'POST') {
       const { client_name, email, phone, request_type, description, priority, due_date } = req.body;
@@ -45,79 +36,85 @@ export default async function handler(req, res) {
       const validPriorities = ['low', 'normal', 'high', 'urgent'];
       const finalPriority = validPriorities.includes(priority) ? priority : 'normal';
 
-      const { data, error } = await supabase
-        .from('client_requests')
-        .insert({
-          client_name,
-          email,
-          phone: phone || null,
-          request_type,
-          description,
-          priority: finalPriority,
-          due_date: due_date || null,
-          status: 'open',
-          notes: '',
-        })
-        .select()
-        .single();
+      const payload = {
+        client_name,
+        email,
+        phone: phone || null,
+        request_type,
+        description,
+        priority: finalPriority,
+        due_date: due_date || null,
+        status: 'open',
+        notes: '',
+      };
 
-      if (error) {
-        console.error('Supabase insert error:', error);
-        return res.status(500).json({ error: 'Failed to create request', details: error.message });
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_SERVICE_KEY,
+          'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
+          'Prefer': 'return=representation',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Supabase error:', response.status, errorText);
+        return res.status(500).json({ error: 'Failed to create request', details: errorText });
       }
 
+      const data = await response.json();
+      const insertedData = Array.isArray(data) ? data[0] : data;
+
       // Email notification (non-blocking)
-      sendNotificationEmail(data).catch(err => {
+      sendNotificationEmail(insertedData).catch(err => {
         console.error('Email notification failed:', err);
       });
 
       return res.status(201).json({
         success: true,
-        ticket_id: data.ticket_id,
-        message: `Request created successfully. Your ticket ID is ${data.ticket_id}.`,
+        ticket_id: insertedData.ticket_id,
+        message: `Request created successfully. Your ticket ID is ${insertedData.ticket_id}.`,
       });
     }
 
     if (req.method === 'GET') {
       const { status, priority, search, id } = req.query;
 
+      let query = `select=*&order=created_at.desc`;
+
       if (id) {
-        const { data, error } = await supabase
-          .from('client_requests')
-          .select('*')
-          .eq('id', id)
-          .single();
-
-        if (error || !data) {
-          return res.status(404).json({ error: 'Request not found' });
+        query = `select=*&id=eq.${id}`;
+      } else {
+        if (status && status !== 'all') {
+          query += `&status=eq.${status}`;
         }
-        return res.status(200).json(data);
+        if (priority && priority !== 'all') {
+          query += `&priority=eq.${priority}`;
+        }
+        if (search) {
+          query += `&or=(client_name.ilike.*${search}*,email.ilike.*${search}*,ticket_id.ilike.*${search}*,description.ilike.*${search}*)`;
+        }
       }
 
-      let query = supabase.from('client_requests').select('*').order('created_at', { ascending: false });
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?${query}`, {
+        method: 'GET',
+        headers: {
+          'apikey': SUPABASE_SERVICE_KEY,
+          'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
+        },
+      });
 
-      if (status && status !== 'all') {
-        query = query.eq('status', status);
-      }
-
-      if (priority && priority !== 'all') {
-        query = query.eq('priority', priority);
-      }
-
-      if (search) {
-        query = query.or(
-          `client_name.ilike.%${search}%,email.ilike.%${search}%,ticket_id.ilike.%${search}%,description.ilike.%${search}%`
-        );
-      }
-
-      const { data, error } = await query;
-
-      if (error) {
-        console.error('Supabase fetch error:', error);
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Supabase fetch error:', response.status, errorText);
         return res.status(500).json({ error: 'Failed to fetch requests' });
       }
 
-      return res.status(200).json(data || []);
+      const data = await response.json();
+      return res.status(200).json(Array.isArray(data) ? data : [data]);
     }
 
     if (req.method === 'PATCH') {
@@ -144,19 +141,25 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'No updates provided' });
       }
 
-      const { data, error } = await supabase
-        .from('client_requests')
-        .update(updates)
-        .eq('id', id)
-        .select()
-        .single();
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?id=eq.${id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_SERVICE_KEY,
+          'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
+          'Prefer': 'return=representation',
+        },
+        body: JSON.stringify(updates),
+      });
 
-      if (error) {
-        console.error('Supabase update error:', error);
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Supabase update error:', response.status, errorText);
         return res.status(500).json({ error: 'Failed to update request' });
       }
 
-      return res.status(200).json({ success: true, data });
+      const data = await response.json();
+      return res.status(200).json({ success: true, data: Array.isArray(data) ? data[0] : data });
     }
 
     return res.status(405).json({ error: 'Method not allowed' });
