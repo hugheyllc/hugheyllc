@@ -1,7 +1,6 @@
 {
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "framework": "astro",
   "redirects": [
     {
       "source": "/sitemap.xml",
@@ -925,8 +924,27 @@
           "value": "no-store, no-cache"
         }
       ]
+    },
+    {
+      "source": "/client-requests/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store, no-cache"
+        }
+      ]
     }
   ],
   "outputDirectory": "dist",
-  "crons": []
+  "crons": [],
+  "functions": {
+    "api/**/*.{js,mjs,ts}": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
 }

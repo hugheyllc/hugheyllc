@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.2",
+    "@supabase/supabase-js": "^2.110.7",
     "astro": "^6.2.1",
     "fast-xml-parser": "^5.7.2",
     "feather-icons": "^4.29.2",
