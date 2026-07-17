@@ -2,7 +2,7 @@ import { Resend } from 'resend';
 
 const VALID_PASSWORD = process.env.CLIENT_PORTAL_PASSWORD || 'hughey2025';
 const SUPABASE_URL = process.env.SUPABASE_URL;
-const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhla29td2h4c3RzZXJzc2d2Y2trIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU0MDE4ODMsImV4cCI6MjA4MDk3Nzg4M30.a_qebcyixF_BawNf7wOLd-yTEz0gFtIDQRaQNc6OoFc';
 
 function checkAuth(password) {
   return password === VALID_PASSWORD;
@@ -52,8 +52,7 @@ export default async function handler(req, res) {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'apikey': SUPABASE_SERVICE_KEY,
-          'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
+          'apikey': SUPABASE_ANON_KEY,
           'Prefer': 'return=representation',
         },
         body: JSON.stringify(payload),
@@ -68,7 +67,6 @@ export default async function handler(req, res) {
       const data = await response.json();
       const insertedData = Array.isArray(data) ? data[0] : data;
 
-      // Email notification (non-blocking)
       sendNotificationEmail(insertedData).catch(err => {
         console.error('Email notification failed:', err);
       });
@@ -102,8 +100,7 @@ export default async function handler(req, res) {
       const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?${query}`, {
         method: 'GET',
         headers: {
-          'apikey': SUPABASE_SERVICE_KEY,
-          'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
+          'apikey': SUPABASE_ANON_KEY,
         },
       });
 
@@ -145,8 +142,7 @@ export default async function handler(req, res) {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
-          'apikey': SUPABASE_SERVICE_KEY,
-          'Authorization': `Bearer ${SUPABASE_SERVICE_KEY}`,
+          'apikey': SUPABASE_ANON_KEY,
           'Prefer': 'return=representation',
         },
         body: JSON.stringify(updates),
