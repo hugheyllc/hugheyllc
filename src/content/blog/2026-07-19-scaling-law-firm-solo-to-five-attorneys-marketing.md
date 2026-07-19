@@ -9,8 +9,8 @@ tags:
   - "firm scaling"
   - "marketing strategy"
   - "small firm marketing"
-seo_title: "Solo to 5 Attorneys: Law Firm Marketing Shifts at Every Stage"
-seo_description: "Scaling from solo to five attorneys? Your marketing must evolve at each stage. Learn the specific shifts in budget, channels, and strategy that keep your pipeline full."
+seo_title: "Solo to 5 Attorneys: Law Firm Marketing Shifts by Stage"
+seo_description: "Scaling from solo to five attorneys? Your marketing must evolve at each stage. Learn the budget, channel, and strategy shifts that keep your pipeline full."
 keywords:
   - "scaling law firm marketing"
   - "solo to small firm growth"
