@@ -9,6 +9,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import { execSync } from 'child_process';
+import { validateTopic } from './validate-topic.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -271,6 +272,21 @@ async function generate() {
       result.error = `Duplicate detected: ${dupCheck.reason}`;
       markTopicUsed(topic); // Still mark as processed
       return result;
+    }
+    
+    // Validate topic against BLOG_TOPICS.md AVOID/APPROVED lists
+    const topicValidation = validateTopic(topic.title);
+    if (topicValidation.status === 'rejected') {
+      result.status = 'skipped';
+      result.duplicate = true;
+      result.error = `Topic validation failed: ${topicValidation.reasons.join('; ')}`;
+      console.error(`❌ Topic rejected by validator: ${topicValidation.reasons.join('; ')}`);
+      markTopicUsed(topic); // Mark as processed to avoid retrying
+      return result;
+    }
+    if (topicValidation.status === 'ambiguous') {
+      console.error(`⚠️  Topic is ambiguous (not in approved list): ${topicValidation.reasons.join('; ')}`);
+      // Continue but log warning — ambiguous topics may still be valid
     }
     
     console.error(`Generating: ${topic.title}`);
