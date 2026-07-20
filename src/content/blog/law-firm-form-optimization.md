@@ -9,6 +9,7 @@ seo_title: "Law Firm Contact Form Conversion: Fix Your Form, Get More Leads"
 seo_description: "Most law firm contact forms are leaking leads. Learn how to reduce form friction, improve law firm contact form conversion rates, and stop losing prospects to y"
 draft: false
 image: "/images/blog/law-firm-form-optimization.jpg"
+keywords: ["law firm contact forms", "contact form conversion", "legal form optimization", "law firm lead generation", "form friction", "contact form fields", "law firm CRO"]
 ---
 
 ## How Many Fields, and Why Prospects Aren't Filling Them Out
