@@ -15,7 +15,7 @@
 4. The Law Firm Client Satisfaction Score: What to Measure Beyond Outcomes (Published 2026-07-14)
 5. Upselling and Cross-Selling in Law Firms: How to Grow Revenue From Your Best Clients (Published 2026-07-15)
 6. Client Feedback Systems That Actually Improve Your Practice (Without Legal Risk) (Published 2026-07-16)
-7. Post-Engagement Follow-Up: How to Stay Relevant After a Retainer Ends
+7. Post-Engagement Follow-Up: How to Stay Relevant After a Retainer Ends (Published 2026-07-20)
 8. Seasonal Client Retention: Keeping Clients Engaged During Slow Periods
 
 ### Referral Generation (Without Relying on Google) (8 topics)
