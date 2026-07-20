@@ -20,6 +20,7 @@ seo_description: >-
   Clients
 draft: false
 image: /images/blog/upselling-and-cross-selling-in-law-firms-how-to-grow-revenue.jpg
+keywords: ["upselling law firms", "cross-selling legal services", "legal practice growth", "law firm revenue growth", "client expansion", "service bundling", "practice area marketing"]
 ---
 Upselling and cross-selling are two of the most underutilized revenue strategies in the legal industry. Most law firms spend significant resources chasing new clients while leaving money on the table with the ones they already have. If you want sustainable revenue growth, your existing client relationships are your greatest untapped asset.
 
