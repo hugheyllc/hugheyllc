@@ -13,7 +13,7 @@ tags:
 seo_title: 'Post-Engagement Follow-Up: How to Stay Relevant After a Retainer Ends'
 seo_description: 'Strategy for staying relevant after a law firm retainer ends. Build repeat business, referrals, and client loyalty with intentional follow-up.'
 draft: false
-image: /images/blog/post-engagement-follow-up-how-to-stay-relevant-after-a-retai.jpg
+image: null
 ---
 Staying relevant after a retainer ends comes down to one thing: intentional relationship maintenance. Most law firms let former clients drift away because no formal system exists to keep the connection alive. With the right follow-up strategy, a closed engagement becomes the foundation for referrals, repeat business, and long-term brand loyalty.
 
