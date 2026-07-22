@@ -254,7 +254,8 @@ async function sendAdminNotificationEmail(request) {
   const priorityColor = priorityColors[request.priority] || '#3B82F6';
 
   await resend.emails.send({
-    from: 'Hughey LLC <no-reply@notifications.hugheyllc.com>',
+    from: 'Hughey LLC <support@hugheyllc.com>',
+    replyTo: 'support@hugheyllc.com',
     to: 'joe@joehughey.com',
     subject: `[${request.ticket_id}] New Client Request: ${request.request_type} — ${request.client_name}`,
     html: `
@@ -309,7 +310,8 @@ async function sendClientConfirmationEmail(request) {
     : request.description;
 
   await resend.emails.send({
-    from: 'Hughey LLC <no-reply@notifications.hugheyllc.com>',
+    from: 'Hughey LLC <support@hugheyllc.com>',
+    replyTo: 'support@hugheyllc.com',
     to: request.email,
     subject: `[${request.ticket_id}] Your request has been received`,
     html: `
@@ -397,7 +399,8 @@ async function sendClientStatusEmail(ticket, newStatus, latestNotes) {
     : '';
 
   await resend.emails.send({
-    from: 'Hughey LLC <no-reply@notifications.hugheyllc.com>',
+    from: 'Hughey LLC <support@hugheyllc.com>',
+    replyTo: 'support@hugheyllc.com',
     to: ticket.email,
     subject: `[${ticket.ticket_id}] Your request status: ${statusLabel}`,
     html: `
