@@ -49,7 +49,7 @@ export default async function handler(req, res) {
         notes: '',
       };
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests`, {
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_portal_requests`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -99,7 +99,7 @@ export default async function handler(req, res) {
         }
       }
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?${query}`, {
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_portal_requests?${query}`, {
         method: 'GET',
         headers: {
           'apikey': SUPABASE_KEY,
@@ -141,7 +141,7 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'No updates provided' });
       }
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?id=eq.${id}`, {
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_portal_requests?id=eq.${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
