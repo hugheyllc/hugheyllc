@@ -85,9 +85,12 @@ export default async function handler(req, res) {
       const data = await response.json();
       const ticket = Array.isArray(data) ? data[0] : data;
 
-      // Fire-and-forget email notification
-      sendNotificationEmail(ticket).catch(err => {
-        console.error('Email notification failed:', err);
+      // Fire-and-forget: admin notification + client confirmation emails
+      sendAdminNotificationEmail(ticket).catch(err => {
+        console.error('Admin email notification failed:', err);
+      });
+      sendClientConfirmationEmail(ticket).catch(err => {
+        console.error('Client confirmation email failed:', err);
       });
 
       return res.status(201).json({
@@ -157,6 +160,18 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'No updates provided' });
       }
 
+      // Fetch the current ticket BEFORE updating so we can detect status changes
+      let currentTicket = null;
+      if (status) {
+        const fetchRes = await supabaseFetch(`client_requests?id=eq.${id}&select=*`, {
+          method: 'GET',
+        });
+        if (fetchRes.ok) {
+          const fetchData = await fetchRes.json();
+          currentTicket = Array.isArray(fetchData) ? fetchData[0] : fetchData;
+        }
+      }
+
       const response = await supabaseFetch(`client_requests?id=eq.${id}`, {
         method: 'PATCH',
         headers: {
@@ -173,7 +188,35 @@ export default async function handler(req, res) {
       }
 
       const data = await response.json();
-      return res.status(200).json({ success: true, data: Array.isArray(data) ? data[0] : data });
+      const updatedTicket = Array.isArray(data) ? data[0] : data;
+
+      // Send client email if status actually changed
+      if (status && currentTicket && currentTicket.status !== status) {
+        // Check dedup: only send if last_status_email_sent is null or >1 min ago
+        const lastSent = currentTicket.last_status_email_sent
+          ? new Date(currentTicket.last_status_email_sent).getTime()
+          : 0;
+        const now = Date.now();
+        const oneMinute = 60 * 1000;
+
+        if (!lastSent || (now - lastSent) > oneMinute) {
+          // Update last_status_email_sent timestamp
+          supabaseFetch(`client_requests?id=eq.${id}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ last_status_email_sent: new Date().toISOString() }),
+          }).catch(err => console.error('Failed to update last_status_email_sent:', err));
+
+          // Fire-and-forget: send status update email to client
+          sendClientStatusEmail(updatedTicket, status, notes).catch(err => {
+            console.error('Client status email failed:', err);
+          });
+        } else {
+          console.log(`Skipping status email for ${updatedTicket.ticket_id} — sent ${Math.round((now - lastSent) / 1000)}s ago`);
+        }
+      }
+
+      return res.status(200).json({ success: true, data: updatedTicket });
     }
 
     return res.status(405).json({ error: 'Method not allowed' });
@@ -183,10 +226,19 @@ export default async function handler(req, res) {
   }
 }
 
-// ── Email notification ──
-async function sendNotificationEmail(request) {
+// ── Shared email styles ──
+const EMAIL_STYLES = {
+  fontFamily: 'Georgia, serif',
+  maxWidth: '600px',
+  brandColor: '#C8973A',
+  inkColor: '#09131F',
+  dimColor: '#888',
+};
+
+// ── Admin notification email (existing, refactored) ──
+async function sendAdminNotificationEmail(request) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('RESEND_API_KEY not set — skipping email notification');
+    console.warn('RESEND_API_KEY not set — skipping admin email notification');
     return;
   }
 
@@ -206,8 +258,8 @@ async function sendNotificationEmail(request) {
     to: 'joe@joehughey.com',
     subject: `[${request.ticket_id}] New Client Request: ${request.request_type} — ${request.client_name}`,
     html: `
-      <div style="font-family: Georgia, serif; max-width: 600px; color: #09131F;">
-        <h2 style="border-bottom: 2px solid #C8973A; padding-bottom: 12px;">
+      <div style="font-family: ${EMAIL_STYLES.fontFamily}; max-width: ${EMAIL_STYLES.maxWidth}; color: ${EMAIL_STYLES.inkColor};">
+        <h2 style="border-bottom: 2px solid ${EMAIL_STYLES.brandColor}; padding-bottom: 12px;">
           New Client Request — ${request.ticket_id}
         </h2>
         <table style="width: 100%; border-collapse: collapse;">
@@ -221,15 +273,170 @@ async function sendNotificationEmail(request) {
           </tr>
           ${request.due_date ? `<tr><td style="padding: 8px 0; font-weight: bold;">Due Date</td><td>${escapeHtml(request.due_date)}</td></tr>` : ''}
         </table>
-        <div style="margin-top: 20px; background: #f9f6ef; border-left: 4px solid #C8973A; padding: 16px;">
+        <div style="margin-top: 20px; background: #f9f6ef; border-left: 4px solid ${EMAIL_STYLES.brandColor}; padding: 16px;">
           <strong>Description:</strong><br /><br />
           ${escapeHtml(request.description).replace(/\n/g, '<br>')}
         </div>
         <p style="margin-top: 24px;">
-          <a href="https://hugheyllc.com/admin/client-requests/" style="display:inline-block;padding:10px 24px;background:#C8973A;color:#09131F;text-decoration:none;font-weight:700;border-radius:3px;">View Dashboard →</a>
+          <a href="https://hugheyllc.com/admin/client-requests/" style="display:inline-block;padding:10px 24px;background:${EMAIL_STYLES.brandColor};color:${EMAIL_STYLES.inkColor};text-decoration:none;font-weight:700;border-radius:3px;">View Dashboard →</a>
         </p>
-        <p style="margin-top: 16px; font-size: 12px; color: #888;">
+        <p style="margin-top: 16px; font-size: 12px; color: ${EMAIL_STYLES.dimColor};">
           Reply to ${escapeHtml(request.client_name)} at <a href="mailto:${escapeHtml(request.email)}">${escapeHtml(request.email)}</a>
+        </p>
+      </div>
+    `,
+  });
+}
+
+// ── Client confirmation email (new ticket submitted) ──
+async function sendClientConfirmationEmail(request) {
+  if (!process.env.RESEND_API_KEY) {
+    console.warn('RESEND_API_KEY not set — skipping client confirmation email');
+    return;
+  }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
+
+  const priorityLabels = {
+    low: 'Low',
+    normal: 'Normal',
+    high: 'High',
+    urgent: 'Urgent',
+  };
+
+  const descriptionPreview = request.description.length > 200
+    ? request.description.substring(0, 200) + '...'
+    : request.description;
+
+  await resend.emails.send({
+    from: 'Hughey LLC <no-reply@notifications.hugheyllc.com>',
+    to: request.email,
+    subject: `[${request.ticket_id}] Your request has been received`,
+    html: `
+      <div style="font-family: ${EMAIL_STYLES.fontFamily}; max-width: ${EMAIL_STYLES.maxWidth}; color: ${EMAIL_STYLES.inkColor};">
+        <h2 style="border-bottom: 2px solid ${EMAIL_STYLES.brandColor}; padding-bottom: 12px; color: ${EMAIL_STYLES.inkColor};">
+          We've Received Your Request
+        </h2>
+        <p style="font-size: 15px; line-height: 1.6; color: #333;">
+          Thanks for submitting your request. We'll review it shortly and get back to you. Your ticket ID is <strong>${escapeHtml(request.ticket_id)}</strong>.
+        </p>
+
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+          <tr>
+            <td style="padding: 10px 0; font-weight: bold; width: 130px; color: ${EMAIL_STYLES.inkColor}; border-bottom: 1px solid #eee;">Ticket ID</td>
+            <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: ${EMAIL_STYLES.brandColor}; font-weight: bold;">${escapeHtml(request.ticket_id)}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-weight: bold; color: ${EMAIL_STYLES.inkColor}; border-bottom: 1px solid #eee;">Request Type</td>
+            <td style="padding: 10px 0; border-bottom: 1px solid #eee;">${escapeHtml(request.request_type)}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-weight: bold; color: ${EMAIL_STYLES.inkColor}; border-bottom: 1px solid #eee;">Priority</td>
+            <td style="padding: 10px 0; border-bottom: 1px solid #eee;">${escapeHtml(priorityLabels[request.priority] || request.priority)}</td>
+          </tr>
+        </table>
+
+        <div style="margin-top: 20px; background: #f9f6ef; border-left: 4px solid ${EMAIL_STYLES.brandColor}; padding: 16px;">
+          <strong style="color: ${EMAIL_STYLES.inkColor};">Your Request:</strong><br /><br />
+          <span style="color: #555;">${escapeHtml(descriptionPreview).replace(/\n/g, '<br>')}</span>
+        </div>
+
+        <p style="font-size: 15px; line-height: 1.6; color: #333; margin-top: 24px;">
+          We'll follow up with you directly once we've reviewed your request. No action is needed from you right now.
+        </p>
+
+        <hr style="border: none; border-top: 1px solid #eee; margin: 32px 0 16px;" />
+        <p style="font-size: 12px; color: ${EMAIL_STYLES.dimColor};">
+          Hughey LLC · Legal Marketing Consultancy<br />
+          St. Petersburg, FL · <a href="https://hugheyllc.com" style="color: ${EMAIL_STYLES.brandColor};">hugheyllc.com</a>
+        </p>
+      </div>
+    `,
+  });
+}
+
+// ── Client status update email ──
+async function sendClientStatusEmail(ticket, newStatus, latestNotes) {
+  if (!process.env.RESEND_API_KEY) {
+    console.warn('RESEND_API_KEY not set — skipping client status email');
+    return;
+  }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
+
+  const statusLabels = {
+    'open': 'Open',
+    'in-progress': 'In Progress',
+    'completed': 'Completed',
+  };
+
+  const statusMessages = {
+    'open': "Your request has been reopened. We'll review it again shortly.",
+    'in-progress': "We're actively working on your request. You'll hear from us soon.",
+    'completed': "Your request has been completed. You should be hearing from us shortly.",
+  };
+
+  const statusColors = {
+    'open': '#3B82F6',
+    'in-progress': '#D97706',
+    'completed': '#059669',
+  };
+
+  const statusLabel = statusLabels[newStatus] || newStatus;
+  const statusMessage = statusMessages[newStatus] || `Your request status has been updated to: ${statusLabel}.`;
+  const statusColor = statusColors[newStatus] || '#3B82F6';
+
+  // Only include notes section if notes were provided in this update and aren't empty
+  const notesSection = latestNotes && latestNotes.trim()
+    ? `
+      <div style="margin-top: 20px; background: #f9f6ef; border-left: 4px solid ${EMAIL_STYLES.brandColor}; padding: 16px;">
+        <strong style="color: ${EMAIL_STYLES.inkColor};">Note from our team:</strong><br /><br />
+        <span style="color: #555;">${escapeHtml(latestNotes).replace(/\n/g, '<br>')}</span>
+      </div>
+    `
+    : '';
+
+  await resend.emails.send({
+    from: 'Hughey LLC <no-reply@notifications.hugheyllc.com>',
+    to: ticket.email,
+    subject: `[${ticket.ticket_id}] Your request status: ${statusLabel}`,
+    html: `
+      <div style="font-family: ${EMAIL_STYLES.fontFamily}; max-width: ${EMAIL_STYLES.maxWidth}; color: ${EMAIL_STYLES.inkColor};">
+        <h2 style="border-bottom: 2px solid ${EMAIL_STYLES.brandColor}; padding-bottom: 12px; color: ${EMAIL_STYLES.inkColor};">
+          Request Status Update
+        </h2>
+
+        <table style="width: 100%; border-collapse: collapse; margin-top: 16px;">
+          <tr>
+            <td style="padding: 10px 0; font-weight: bold; width: 130px; color: ${EMAIL_STYLES.inkColor}; border-bottom: 1px solid #eee;">Ticket ID</td>
+            <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: ${EMAIL_STYLES.brandColor}; font-weight: bold;">${escapeHtml(ticket.ticket_id)}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-weight: bold; color: ${EMAIL_STYLES.inkColor}; border-bottom: 1px solid #eee;">Request Type</td>
+            <td style="padding: 10px 0; border-bottom: 1px solid #eee;">${escapeHtml(ticket.request_type)}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-weight: bold; color: ${EMAIL_STYLES.inkColor}; border-bottom: 1px solid #eee;">Status</td>
+            <td style="padding: 10px 0; border-bottom: 1px solid #eee;">
+              <span style="display:inline-block;padding:4px 12px;border-radius:4px;background:${statusColor};color:#fff;font-size:13px;font-weight:700;text-transform:uppercase;">${escapeHtml(statusLabel)}</span>
+            </td>
+          </tr>
+        </table>
+
+        <p style="font-size: 15px; line-height: 1.6; color: #333; margin-top: 24px;">
+          ${statusMessage}
+        </p>
+
+        ${notesSection}
+
+        <p style="font-size: 14px; line-height: 1.6; color: #555; margin-top: 24px;">
+          If you have any questions, feel free to reply to this email or reach out to us directly.
+        </p>
+
+        <hr style="border: none; border-top: 1px solid #eee; margin: 32px 0 16px;" />
+        <p style="font-size: 12px; color: ${EMAIL_STYLES.dimColor};">
+          Hughey LLC · Legal Marketing Consultancy<br />
+          St. Petersburg, FL · <a href="https://hugheyllc.com" style="color: ${EMAIL_STYLES.brandColor};">hugheyllc.com</a>
         </p>
       </div>
     `,
