@@ -1,6 +1,6 @@
 ---
 title: 'Google Business Profile Optimization for Law Firms: Beyond the Basics'
-slug: google-business-profile-optimization-for-law-firms-beyond-th
+slug: google-business-profile-law-firm-optimization
 date: '2026-07-02'
 author: Joe Hughey
 excerpt: 'Google Business Profile Optimization for Law Firms: Beyond the Basics'
@@ -11,7 +11,7 @@ tags:
 seo_title: 'Google Business Profile Optimization for Law Firms: Beyond the Basics'
 seo_description: 'Google Business Profile Optimization for Law Firms: Beyond the Basics'
 draft: false
-image: /images/blog/google-business-profile-optimization-for-law-firms-beyond-th.jpg
+image: /images/blog/google-business-profile-law-firm-optimization.jpg
 keywords: ['Google Business Profile', 'GBP optimization', 'local SEO law firms', 'Google local pack', 'local search ranking']
 ---
 Google Business Profile optimization for law firms goes far beyond claiming your listing and adding your phone number. A fully optimized GBP is the single most influential factor in local pack rankings, and most law firms are leaving significant visibility on the table by treating it as a set-it-and-forget-it asset. Firms that approach GBP as a dynamic marketing channel—not a static directory listing—consistently outperform competitors in local search results.
