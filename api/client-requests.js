@@ -1,5 +1,6 @@
 import { Resend } from 'resend';
 
+// Cache bust: 2026-07-22 15:12
 const VALID_PASSWORD = process.env.CLIENT_PORTAL_PASSWORD || 'hughey2025';
 const SUPABASE_URL = process.env.SUPABASE_URL || 'https://xekomwhxstserssgvckk.supabase.co';
 const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhla29td2h4c3RzZXJzc2d2Y2trIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NTQwMTg4MywiZXhwIjoyMDgwOTc3ODgzfQ.ae49zdSedHN3ZufhoUNCn_iAC5JdSBuTDiEDB-6XTuQ';
@@ -48,7 +49,7 @@ export default async function handler(req, res) {
         notes: '',
       };
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_portal_requests`, {
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -98,7 +99,7 @@ export default async function handler(req, res) {
         }
       }
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_portal_requests?${query}`, {
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?${query}`, {
         method: 'GET',
         headers: {
           'apikey': SUPABASE_KEY,
@@ -140,7 +141,7 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'No updates provided' });
       }
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_portal_requests?id=eq.${id}`, {
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?id=eq.${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
