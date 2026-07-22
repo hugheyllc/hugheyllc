@@ -19,8 +19,8 @@
 8. Seasonal Client Retention: Keeping Clients Engaged During Slow Periods (Published 2026-07-22)
 
 ### Referral Generation (Without Relying on Google) (8 topics)
-9. Building an Internal Referral Program: How to Get Partners and Staff Generating Leads
-10. Attorney-to-Attorney Referral Networks: The Untapped Marketing Channel Most Firms Ignore
+9. Building an Internal Referral Program: How to Get Partners and Staff Generating Leads (Published 2026-07-22)
+10. Attorney-to-Attorney Referral Networks: The Untapped Marketing Channel Most Firms Ignore (Published 2026-07-22)
 11. Strategic Partnerships With Accountants, Financial Advisors, and Business Consultants
 12. Co-Marketing Opportunities: Growing Your Firm by Partnering With Complementary Services
 13. Bar Association Networking: Turning Membership Into Real Business Development
