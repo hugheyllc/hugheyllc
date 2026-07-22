@@ -1,15 +1,25 @@
 import { Resend } from 'resend';
 
-// Cache bust: 2026-07-22 15:29
 const VALID_PASSWORD = process.env.CLIENT_PORTAL_PASSWORD || 'hughey2025';
-const SUPABASE_URL = process.env.SUPABASE_URL || 'https://xekomwhxstserssgvckk.supabase.co';
-const SUPABASE_KEY = process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhla29td2h4c3RzZXJzc2d2Y2trIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU0MDE4ODMsImV4cCI6MjA4MDk3Nzg4M30.a_qebcyixF_BawNf7wOLd-yTEz0gFtIDQRaQNc6OoFc';
+const SUPABASE_URL = process.env.SUPABASE_URL || 'https://joyahdqniiqjmcmqjlue.supabase.co';
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
 
 function checkAuth(password) {
   return password === VALID_PASSWORD;
 }
 
+async function supabaseFetch(path, options = {}) {
+  const url = `${SUPABASE_URL}/rest/v1/${path}`;
+  const headers = {
+    'apikey': SUPABASE_KEY,
+    'Authorization': `Bearer ${SUPABASE_KEY}`,
+    ...options.headers,
+  };
+  return fetch(url, { ...options, headers });
+}
+
 export default async function handler(req, res) {
+  // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Portal-Password');
@@ -19,12 +29,20 @@ export default async function handler(req, res) {
     return res.status(200).end();
   }
 
+  // Auth check
   const password = req.headers['x-portal-password'] || '';
   if (!checkAuth(password)) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
+  // Validate Supabase config
+  if (!SUPABASE_KEY) {
+    console.error('SUPABASE_SERVICE_ROLE_KEY not set');
+    return res.status(500).json({ error: 'Server configuration error' });
+  }
+
   try {
+    // ── POST: Create new ticket ──
     if (req.method === 'POST') {
       const { client_name, email, phone, request_type, description, priority, due_date } = req.body;
 
@@ -49,12 +67,10 @@ export default async function handler(req, res) {
         notes: '',
       };
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests`, {
+      const response = await supabaseFetch('client_requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'apikey': SUPABASE_KEY,
-          'Authorization': `Bearer ${SUPABASE_KEY}`,
           'Prefer': 'return=representation',
         },
         body: JSON.stringify(payload),
@@ -67,23 +83,25 @@ export default async function handler(req, res) {
       }
 
       const data = await response.json();
-      const insertedData = Array.isArray(data) ? data[0] : data;
+      const ticket = Array.isArray(data) ? data[0] : data;
 
-      sendNotificationEmail(insertedData).catch(err => {
+      // Fire-and-forget email notification
+      sendNotificationEmail(ticket).catch(err => {
         console.error('Email notification failed:', err);
       });
 
       return res.status(201).json({
         success: true,
-        ticket_id: insertedData.ticket_id,
-        message: `Request created successfully. Your ticket ID is ${insertedData.ticket_id}.`,
+        ticket_id: ticket.ticket_id,
+        message: `Request created successfully. Your ticket ID is ${ticket.ticket_id}.`,
       });
     }
 
+    // ── GET: List tickets with filters ──
     if (req.method === 'GET') {
       const { status, priority, search, id } = req.query;
 
-      let query = `select=*&order=created_at.desc`;
+      let query = 'select=*&order=created_at.desc';
 
       if (id) {
         query = `select=*&id=eq.${id}`;
@@ -95,21 +113,18 @@ export default async function handler(req, res) {
           query += `&priority=eq.${priority}`;
         }
         if (search) {
-          query += `&or=(client_name.ilike.*${search}*,email.ilike.*${search}*,ticket_id.ilike.*${search}*,description.ilike.*${search}*)`;
+          const s = encodeURIComponent(search);
+          query += `&or=(client_name.ilike.*${s}*,email.ilike.*${s}*,ticket_id.ilike.*${s}*,description.ilike.*${s}*)`;
         }
       }
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?${query}`, {
+      const response = await supabaseFetch(`client_requests?${query}`, {
         method: 'GET',
-        headers: {
-          'apikey': SUPABASE_KEY,
-          'Authorization': `Bearer ${SUPABASE_KEY}`,
-        },
       });
 
       if (!response.ok) {
         const errorText = await response.text();
-        console.error('Supabase fetch error:', response.status, errorText);
+        console.error('Supabase GET error:', response.status, errorText);
         return res.status(500).json({ error: 'Failed to fetch requests' });
       }
 
@@ -117,6 +132,7 @@ export default async function handler(req, res) {
       return res.status(200).json(Array.isArray(data) ? data : [data]);
     }
 
+    // ── PATCH: Update ticket status/notes ──
     if (req.method === 'PATCH') {
       const { id, status, notes } = req.body;
 
@@ -128,7 +144,7 @@ export default async function handler(req, res) {
       if (status) {
         const validStatuses = ['open', 'in-progress', 'completed'];
         if (!validStatuses.includes(status)) {
-          return res.status(400).json({ error: 'Invalid status' });
+          return res.status(400).json({ error: 'Invalid status. Must be: open, in-progress, or completed' });
         }
         updates.status = status;
       }
@@ -141,12 +157,10 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'No updates provided' });
       }
 
-      const response = await fetch(`${SUPABASE_URL}/rest/v1/client_requests?id=eq.${id}`, {
+      const response = await supabaseFetch(`client_requests?id=eq.${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
-          'apikey': SUPABASE_KEY,
-          'Authorization': `Bearer ${SUPABASE_KEY}`,
           'Prefer': 'return=representation',
         },
         body: JSON.stringify(updates),
@@ -154,7 +168,7 @@ export default async function handler(req, res) {
 
       if (!response.ok) {
         const errorText = await response.text();
-        console.error('Supabase update error:', response.status, errorText);
+        console.error('Supabase PATCH error:', response.status, errorText);
         return res.status(500).json({ error: 'Failed to update request' });
       }
 
@@ -169,8 +183,12 @@ export default async function handler(req, res) {
   }
 }
 
+// ── Email notification ──
 async function sendNotificationEmail(request) {
-  if (!process.env.RESEND_API_KEY) return;
+  if (!process.env.RESEND_API_KEY) {
+    console.warn('RESEND_API_KEY not set — skipping email notification');
+    return;
+  }
 
   const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -193,27 +211,36 @@ async function sendNotificationEmail(request) {
           New Client Request — ${request.ticket_id}
         </h2>
         <table style="width: 100%; border-collapse: collapse;">
-          <tr><td style="padding: 8px 0; font-weight: bold; width: 130px;">Client</td><td>${request.client_name}</td></tr>
-          <tr><td style="padding: 8px 0; font-weight: bold;">Email</td><td><a href="mailto:${request.email}">${request.email}</a></td></tr>
-          ${request.phone ? `<tr><td style="padding: 8px 0; font-weight: bold;">Phone</td><td><a href="tel:${request.phone}">${request.phone}</a></td></tr>` : ''}
-          <tr><td style="padding: 8px 0; font-weight: bold;">Type</td><td>${request.request_type}</td></tr>
+          <tr><td style="padding: 8px 0; font-weight: bold; width: 130px;">Client</td><td>${escapeHtml(request.client_name)}</td></tr>
+          <tr><td style="padding: 8px 0; font-weight: bold;">Email</td><td><a href="mailto:${escapeHtml(request.email)}">${escapeHtml(request.email)}</a></td></tr>
+          ${request.phone ? `<tr><td style="padding: 8px 0; font-weight: bold;">Phone</td><td><a href="tel:${escapeHtml(request.phone)}">${escapeHtml(request.phone)}</a></td></tr>` : ''}
+          <tr><td style="padding: 8px 0; font-weight: bold;">Type</td><td>${escapeHtml(request.request_type)}</td></tr>
           <tr>
             <td style="padding: 8px 0; font-weight: bold;">Priority</td>
-            <td><span style="display:inline-block;padding:3px 10px;border-radius:3px;background:${priorityColor};color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;">${request.priority}</span></td>
+            <td><span style="display:inline-block;padding:3px 10px;border-radius:3px;background:${priorityColor};color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;">${escapeHtml(request.priority)}</span></td>
           </tr>
-          ${request.due_date ? `<tr><td style="padding: 8px 0; font-weight: bold;">Due Date</td><td>${request.due_date}</td></tr>` : ''}
+          ${request.due_date ? `<tr><td style="padding: 8px 0; font-weight: bold;">Due Date</td><td>${escapeHtml(request.due_date)}</td></tr>` : ''}
         </table>
         <div style="margin-top: 20px; background: #f9f6ef; border-left: 4px solid #C8973A; padding: 16px;">
           <strong>Description:</strong><br /><br />
-          ${request.description.replace(/\n/g, '<br>')}
+          ${escapeHtml(request.description).replace(/\n/g, '<br>')}
         </div>
         <p style="margin-top: 24px;">
           <a href="https://hugheyllc.com/admin/client-requests/" style="display:inline-block;padding:10px 24px;background:#C8973A;color:#09131F;text-decoration:none;font-weight:700;border-radius:3px;">View Dashboard →</a>
         </p>
         <p style="margin-top: 16px; font-size: 12px; color: #888;">
-          Reply to ${request.client_name} at <a href="mailto:${request.email}">${request.email}</a>
+          Reply to ${escapeHtml(request.client_name)} at <a href="mailto:${escapeHtml(request.email)}">${escapeHtml(request.email)}</a>
         </p>
       </div>
     `,
   });
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }

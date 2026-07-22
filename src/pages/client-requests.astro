@@ -1,336 +1,358 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
-import Footer from '../components/Footer.astro';
 ---
 
 <BaseLayout
-  title="Client Request Portal | Hughey LLC"
+  title="Client Request Portal — Hughey LLC"
   description="Submit a service request to Hughey LLC."
   noindex={true}
 >
-  <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
-    <!-- Auth Gate -->
-    <div id="authGate" style="display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 40px 20px;">
-      <div style="max-width: 400px; width: 100%; text-align: center;">
-        <img src="/images/logo.png" alt="Hughey LLC" width="140" height="86" style="height:86px;width:auto;display:block;margin:0 auto 32px;" />
-        <h2 style="font-size: 22px; font-weight: 700; color: var(--white); margin-bottom: 8px;">Client Portal</h2>
-        <p style="color: rgba(255,255,255,0.5); font-size: 14px; margin-bottom: 28px;">Enter your access code to continue.</p>
-        <form id="authForm" style="display: flex; flex-direction: column; gap: 16px;">
-          <input type="password" id="authPassword" placeholder="Access code" autocomplete="off"
-            style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.05);border:1px solid rgba(200,151,58,0.2);border-radius:2px;color:var(--white);font-size:15px;font-family:inherit;text-align:center;letter-spacing:0.1em;" />
-          <button type="submit" style="background:var(--gold);color:var(--ink);font-family:var(--man);font-weight:800;font-size:13px;letter-spacing:0.07em;text-transform:uppercase;padding:14px 28px;border:none;border-radius:2px;cursor:pointer;transition:background 0.2s;">
-            Enter Portal
-          </button>
-          <div id="authError" style="display:none;color:#ff8080;font-size:13px;"></div>
-        </form>
+  <section class="cr-page">
+    <div class="cr-container">
+      <!-- Password Gate -->
+      <div id="gate" class="cr-gate">
+        <div class="cr-card">
+          <h1>Client Portal</h1>
+          <p class="cr-sub">Enter your access code to continue.</p>
+          <form id="gate-form" class="cr-gate-form">
+            <input
+              type="password"
+              id="gate-password"
+              placeholder="Access code"
+              autocomplete="off"
+              required
+            />
+            <button type="submit" class="cr-btn">Enter</button>
+          </form>
+          <p id="gate-error" class="cr-error" style="display:none;">Invalid access code.</p>
+        </div>
       </div>
-    </div>
 
-    <!-- Main Content (hidden until auth) -->
-    <div id="mainContent" style="display: none;">
-      <PageHero eyebrow="Client Portal" heading="Submit a <em>Request</em>" subheading="Tell us what you need. We'll create a ticket and get back to you." />
+      <!-- Request Form -->
+      <div id="form-section" class="cr-form-section" style="display:none;">
+        <div class="cr-card">
+          <h1>New Request</h1>
+          <p class="cr-sub">Tell us what you need and we'll get back to you.</p>
 
-      <div style="padding: 80px 0;">
-        <div class="w">
-          <div class="form-container">
-            <form id="requestForm" novalidate>
-              <div class="field-row">
-                <div class="field-group">
-                  <label for="clientName">Client / Firm Name *</label>
-                  <input type="text" id="clientName" name="client_name" required autocomplete="organization" />
-                </div>
-                <div class="field-group">
-                  <label for="requestType">Request Type *</label>
-                  <select id="requestType" name="request_type" required>
-                    <option value="">Select type…</option>
-                    <option value="Website Update">Website Update</option>
-                    <option value="SEO / Content">SEO / Content</option>
-                    <option value="Google Ads">Google Ads</option>
-                    <option value="Social Media">Social Media</option>
-                    <option value="Analytics / Reporting">Analytics / Reporting</option>
-                    <option value="Intake Optimization">Intake Optimization</option>
-                    <option value="Strategy Review">Strategy Review</option>
-                    <option value="Design / Creative">Design / Creative</option>
-                    <option value="Technical Issue">Technical Issue</option>
-                    <option value="Other">Other</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="field-row">
-                <div class="field-group">
-                  <label for="email">Email *</label>
-                  <input type="email" id="email" name="email" required autocomplete="email" />
-                </div>
-                <div class="field-group">
-                  <label for="phone">Phone</label>
-                  <input type="tel" id="phone" name="phone" autocomplete="tel" />
-                </div>
-              </div>
-
-              <div class="field-row">
-                <div class="field-group">
-                  <label for="priority">Priority *</label>
-                  <select id="priority" name="priority" required>
-                    <option value="normal" selected>Normal</option>
-                    <option value="low">Low</option>
-                    <option value="high">High</option>
-                    <option value="urgent">Urgent</option>
-                  </select>
-                </div>
-                <div class="field-group">
-                  <label for="dueDate">Due Date</label>
-                  <input type="date" id="dueDate" name="due_date" />
-                </div>
-              </div>
-
-              <div class="field-group">
-                <label for="description">Description *</label>
-                <textarea id="description" name="description" required rows="6" placeholder="Describe what you need in detail…"></textarea>
-              </div>
-
-              <div id="statusMessage" style="display:none;" role="alert"></div>
-
-              <button type="submit" id="submitBtn">
-                Submit Request →
-              </button>
-            </form>
-
-            <!-- Success State -->
-            <div id="successState" style="display:none; text-align:center; padding: 60px 20px;">
-              <div style="width:64px;height:64px;border-radius:50%;background:rgba(26,158,107,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1A9E6B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              </div>
-              <h2 style="font-size:24px;font-weight:700;color:var(--white);margin-bottom:8px;">Request Submitted</h2>
-              <p style="font-size:16px;color:rgba(255,255,255,0.6);margin-bottom:4px;">Your ticket ID is:</p>
-              <p id="ticketIdDisplay" style="font-size:28px;font-weight:800;color:var(--gold);letter-spacing:0.05em;margin-bottom:24px;font-family:var(--bar);"></p>
-              <p style="font-size:14px;color:rgba(255,255,255,0.45);margin-bottom:32px;">We'll review your request and get back to you shortly.</p>
-              <button id="newRequestBtn" style="background:transparent;border:1px solid rgba(200,151,58,0.35);color:var(--glt);font-family:var(--man);font-weight:600;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;padding:12px 24px;border-radius:2px;cursor:pointer;transition:border-color 0.2s,color 0.2s;">
-                Submit Another Request
-              </button>
+          <form id="request-form" class="cr-form">
+            <div class="cr-field">
+              <label for="client_name">Client / Firm Name <span class="req">*</span></label>
+              <input type="text" id="client_name" name="client_name" required />
             </div>
-          </div>
+
+            <div class="cr-row">
+              <div class="cr-field">
+                <label for="email">Email <span class="req">*</span></label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="cr-field">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+            </div>
+
+            <div class="cr-row">
+              <div class="cr-field">
+                <label for="request_type">Request Type <span class="req">*</span></label>
+                <select id="request_type" name="request_type" required>
+                  <option value="">Select type...</option>
+                  <option value="SEO Audit">SEO Audit</option>
+                  <option value="Content Strategy">Content Strategy</option>
+                  <option value="Website Update">Website Update</option>
+                  <option value="Analytics Review">Analytics Review</option>
+                  <option value="PPC Campaign">PPC Campaign</option>
+                  <option value="Intake Optimization">Intake Optimization</option>
+                  <option value="Vendor Evaluation">Vendor Evaluation</option>
+                  <option value="Social Media">Social Media</option>
+                  <option value="General Consulting">General Consulting</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="cr-field">
+                <label for="priority">Priority</label>
+                <select id="priority" name="priority">
+                  <option value="normal" selected>Normal</option>
+                  <option value="low">Low</option>
+                  <option value="high">High</option>
+                  <option value="urgent">Urgent</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="cr-field">
+              <label for="description">Description <span class="req">*</span></label>
+              <textarea id="description" name="description" rows="5" required placeholder="Describe what you need..."></textarea>
+            </div>
+
+            <div class="cr-field">
+              <label for="due_date">Preferred Due Date</label>
+              <input type="date" id="due_date" name="due_date" />
+            </div>
+
+            <p id="form-error" class="cr-error" style="display:none;"></p>
+
+            <button type="submit" id="submit-btn" class="cr-btn cr-btn-wide">
+              Submit Request
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Success State -->
+      <div id="success-section" class="cr-success" style="display:none;">
+        <div class="cr-card cr-card-center">
+          <div class="cr-check">✓</div>
+          <h1>Request Submitted</h1>
+          <p class="cr-sub">Your ticket ID is:</p>
+          <p class="cr-ticket-id" id="ticket-id"></p>
+          <p class="cr-sub">We'll review your request and follow up shortly. Save your ticket ID for reference.</p>
+          <button class="cr-btn" onclick="location.reload()">Submit Another</button>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+</BaseLayout>
 
-  <script>
-    let portalPassword = '';
+<style>
+  .cr-page {
+    min-height: 100vh;
+    background: var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
 
-    // Auth
-    const authGate = document.getElementById('authGate');
-    const mainContent = document.getElementById('mainContent');
-    const authForm = document.getElementById('authForm');
-    const authError = document.getElementById('authError');
-    const authPasswordInput = document.getElementById('authPassword') as HTMLInputElement;
+  .cr-container {
+    width: 100%;
+    max-width: 640px;
+  }
 
-    // Check stored auth
-    const stored = sessionStorage.getItem('portal_auth');
-    if (stored) {
-      portalPassword = stored;
-      authGate.style.display = 'none';
-      mainContent.style.display = 'block';
+  .cr-card {
+    background: var(--navy);
+    border: 1px solid var(--steel);
+    border-radius: 12px;
+    padding: 40px;
+  }
+
+  .cr-card-center {
+    text-align: center;
+  }
+
+  .cr-card h1 {
+    font-family: var(--bas);
+    color: var(--white);
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+  }
+
+  .cr-sub {
+    color: var(--dim);
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+
+  .cr-gate-form {
+    display: flex;
+    gap: 12px;
+  }
+
+  .cr-gate-form input {
+    flex: 1;
+  }
+
+  .cr-form .cr-field {
+    margin-bottom: 20px;
+  }
+
+  .cr-form label {
+    display: block;
+    color: var(--gcm);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+
+  .req {
+    color: var(--gold);
+  }
+
+  .cr-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    padding: 10px 14px;
+    background: var(--ink);
+    border: 1px solid var(--steel);
+    border-radius: 6px;
+    color: var(--white);
+    font-family: var(--man);
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+  }
+
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--gold);
+  }
+
+  select {
+    cursor: pointer;
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  .cr-btn {
+    padding: 10px 24px;
+    background: var(--gold);
+    color: var(--ink);
+    font-family: var(--man);
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .cr-btn:hover {
+    background: var(--glt);
+  }
+
+  .cr-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .cr-btn-wide {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+  }
+
+  .cr-error {
+    color: #EF4444;
+    font-size: 0.9rem;
+    margin-top: 12px;
+  }
+
+  .cr-check {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--ok);
+    color: var(--white);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+
+  .cr-ticket-id {
+    font-family: var(--bar);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--gold);
+    margin: 8px 0 20px;
+    letter-spacing: 2px;
+  }
+
+  @media (max-width: 600px) {
+    .cr-card {
+      padding: 28px 20px;
     }
 
-    authForm?.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const pw = authPasswordInput.value.trim();
-      if (!pw) return;
+    .cr-row {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
 
-      // Test the password by making a GET request
-      try {
-        const res = await fetch('/api/client-requests', {
-          headers: { 'X-Portal-Password': pw },
-        });
-        if (res.status === 401) {
-          authError.style.display = 'block';
-          authError.textContent = 'Invalid access code.';
+    .cr-gate-form {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<script>
+  let storedPassword = '';
+
+  // Gate form
+  document.getElementById('gate-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const pw = (document.getElementById('gate-password') as HTMLInputElement).value;
+    storedPassword = pw;
+
+    // Validate by making a test GET
+    fetch('/api/client-requests?limit=0', {
+      headers: { 'X-Portal-Password': pw },
+    })
+      .then((r) => {
+        if (r.status === 401) {
+          document.getElementById('gate-error')!.style.display = 'block';
           return;
         }
-        portalPassword = pw;
-        sessionStorage.setItem('portal_auth', pw);
-        authGate.style.display = 'none';
-        mainContent.style.display = 'block';
-      } catch {
-        authError.style.display = 'block';
-        authError.textContent = 'Connection error. Please try again.';
+        document.getElementById('gate')!.style.display = 'none';
+        document.getElementById('form-section')!.style.display = 'block';
+      })
+      .catch(() => {
+        document.getElementById('gate-error')!.style.display = 'block';
+      });
+  });
+
+  // Request form
+  document.getElementById('request-form')?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = document.getElementById('submit-btn') as HTMLButtonElement;
+    const errEl = document.getElementById('form-error')!;
+    errEl.style.display = 'none';
+    btn.disabled = true;
+    btn.textContent = 'Submitting...';
+
+    const formData = {
+      client_name: (document.getElementById('client_name') as HTMLInputElement).value.trim(),
+      email: (document.getElementById('email') as HTMLInputElement).value.trim(),
+      phone: (document.getElementById('phone') as HTMLInputElement).value.trim() || null,
+      request_type: (document.getElementById('request_type') as HTMLSelectElement).value,
+      description: (document.getElementById('description') as HTMLTextAreaElement).value.trim(),
+      priority: (document.getElementById('priority') as HTMLSelectElement).value,
+      due_date: (document.getElementById('due_date') as HTMLInputElement).value || null,
+    };
+
+    try {
+      const res = await fetch('/api/client-requests', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Portal-Password': storedPassword,
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || 'Failed to submit request');
       }
-    });
 
-    // Request Form
-    const form = document.getElementById('requestForm') as HTMLFormElement;
-    const statusEl = document.getElementById('statusMessage') as HTMLDivElement;
-    const submitBtn = document.getElementById('submitBtn') as HTMLButtonElement;
-    const successState = document.getElementById('successState');
-    const ticketIdDisplay = document.getElementById('ticketIdDisplay');
-    const newRequestBtn = document.getElementById('newRequestBtn');
-
-    form?.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Submitting…';
-      statusEl.style.display = 'none';
-
-      const data = {
-        client_name: (form.querySelector('#clientName') as HTMLInputElement).value,
-        email: (form.querySelector('#email') as HTMLInputElement).value,
-        phone: (form.querySelector('#phone') as HTMLInputElement).value || null,
-        request_type: (form.querySelector('#requestType') as HTMLSelectElement).value,
-        description: (form.querySelector('#description') as HTMLTextAreaElement).value,
-        priority: (form.querySelector('#priority') as HTMLSelectElement).value,
-        due_date: (form.querySelector('#dueDate') as HTMLInputElement).value || null,
-      };
-
-      try {
-        const res = await fetch('/api/client-requests', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'X-Portal-Password': portalPassword,
-          },
-          body: JSON.stringify(data),
-        });
-
-        const result = await res.json();
-
-        if (result.success) {
-          form.style.display = 'none';
-          successState.style.display = 'block';
-          ticketIdDisplay.textContent = result.ticket_id;
-          form.reset();
-        } else {
-          statusEl.style.display = 'block';
-          statusEl.className = 'status-error';
-          statusEl.textContent = result.error || 'Failed to submit. Please try again.';
-          submitBtn.disabled = false;
-          submitBtn.textContent = 'Submit Request →';
-        }
-      } catch {
-        statusEl.style.display = 'block';
-        statusEl.className = 'status-error';
-        statusEl.textContent = 'Connection error. Please try again or call 727-483-3222.';
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Submit Request →';
-      }
-    });
-
-    newRequestBtn?.addEventListener('click', () => {
-      successState.style.display = 'none';
-      form.style.display = 'flex';
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Submit Request →';
-    });
-  </script>
-
-  <style>
-    em { color: var(--glt); font-style: italic; }
-
-    .form-container {
-      max-width: 720px;
-      margin: 0 auto;
+      // Show success
+      document.getElementById('form-section')!.style.display = 'none';
+      document.getElementById('success-section')!.style.display = 'block';
+      document.getElementById('ticket-id')!.textContent = data.ticket_id;
+    } catch (err: any) {
+      errEl.textContent = err.message || 'Something went wrong. Please try again.';
+      errEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Submit Request';
     }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    .field-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-
-    .field-group {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    label {
-      font-size: 11px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: rgba(255, 255, 255, 0.5);
-    }
-
-    input, select, textarea {
-      width: 100%;
-      padding: 12px 16px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(200, 151, 58, 0.2);
-      border-radius: 2px;
-      color: var(--white);
-      font-size: 14px;
-      font-family: inherit;
-      transition: border-color 0.2s, background 0.2s;
-      box-sizing: border-box;
-    }
-
-    input:focus, select:focus, textarea:focus {
-      outline: none;
-      border-color: var(--gold);
-      background: rgba(255, 255, 255, 0.08);
-    }
-
-    select option { background: #09131F; }
-
-    textarea { resize: vertical; }
-
-    input[type="date"] {
-      color-scheme: dark;
-    }
-
-    button[type="submit"] {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 9px;
-      background: var(--gold);
-      color: var(--ink);
-      font-family: var(--man);
-      font-weight: 800;
-      font-size: 13px;
-      letter-spacing: 0.07em;
-      text-transform: uppercase;
-      padding: 16px 34px;
-      border: none;
-      border-radius: 2px;
-      cursor: pointer;
-      transition: all 0.25s;
-      box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);
-      align-self: flex-start;
-    }
-
-    button[type="submit"]:hover:not(:disabled) {
-      background: var(--glt);
-      transform: translateY(-1px);
-      box-shadow: 0 6px 36px rgba(200, 151, 58, 0.52);
-    }
-
-    button[type="submit"]:disabled {
-      opacity: 0.6;
-      cursor: not-allowed;
-    }
-
-    .status-error {
-      padding: 14px 18px;
-      background: rgba(255, 100, 100, 0.1);
-      border: 1px solid rgba(255, 100, 100, 0.2);
-      border-radius: 2px;
-      color: #ff8080;
-      font-size: 14px;
-      line-height: 1.5;
-    }
-
-    @media (max-width: 640px) {
-      .field-row { grid-template-columns: 1fr; }
-    }
-  </style>
-
-  <Footer />
-</BaseLayout>
+  });
+</script>
