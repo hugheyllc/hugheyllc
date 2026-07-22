@@ -1,6 +1,6 @@
 import { Resend } from 'resend';
 
-// Cache bust: 2026-07-22 15:17
+// Cache bust: 2026-07-22 15:23
 const VALID_PASSWORD = process.env.CLIENT_PORTAL_PASSWORD || 'hughey2025';
 const SUPABASE_URL = process.env.SUPABASE_URL || 'https://xekomwhxstserssgvckk.supabase.co';
 const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhla29td2h4c3RzZXJzc2d2Y2trIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NTQwMTg4MywiZXhwIjoyMDgwOTc3ODgzfQ.ae49zdSedHN3ZufhoUNCn_iAC5JdSBuTDiEDB-6XTuQ';
