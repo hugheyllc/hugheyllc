@@ -16,7 +16,7 @@
 5. Upselling and Cross-Selling in Law Firms: How to Grow Revenue From Your Best Clients (Published 2026-07-15)
 6. Client Feedback Systems That Actually Improve Your Practice (Without Legal Risk) (Published 2026-07-16)
 7. Post-Engagement Follow-Up: How to Stay Relevant After a Retainer Ends (Published 2026-07-18)
-8. Seasonal Client Retention: Keeping Clients Engaged During Slow Periods
+8. Seasonal Client Retention: Keeping Clients Engaged During Slow Periods (Published 2026-07-22)
 
 ### Referral Generation (Without Relying on Google) (8 topics)
 9. Building an Internal Referral Program: How to Get Partners and Staff Generating Leads
