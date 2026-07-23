@@ -87,9 +87,16 @@ export default async function handler(req, res) {
       const data = await response.json();
       const ticket = Array.isArray(data) ? data[0] : data;
 
-      // TODO: Email sending disabled temporarily to fix form
-      // Will re-enable once Resend configuration is verified
-      console.log(`[TICKET] ${ticket.ticket_id} created - emails disabled for now`);
+      // Fire-and-forget: send admin notification + client confirmation
+      sendAdminNotificationEmail(ticket).catch(err => {
+        console.error('Admin notification email failed:', err);
+      });
+
+      sendClientConfirmationEmail(ticket).catch(err => {
+        console.error('Client confirmation email failed:', err);
+      });
+
+      console.log(`[TICKET] ${ticket.ticket_id} created - confirmation emails sent`);
 
       return res.status(201).json({
         success: true,
