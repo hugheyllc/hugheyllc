@@ -168,7 +168,7 @@ export default async function handler(req, res) {
       // Fetch the current ticket BEFORE updating so we can detect status changes
       let currentTicket = null;
       if (status) {
-        const fetchRes = await supabaseFetch(`client_requests?id=eq.${id}&select=*`, {
+        const fetchRes = await supabaseFetch(`client_requests?ticket_id=eq.${id}&select=*`, {
           method: 'GET',
         });
         if (fetchRes.ok) {
@@ -177,7 +177,7 @@ export default async function handler(req, res) {
         }
       }
 
-      const response = await supabaseFetch(`client_requests?id=eq.${id}`, {
+      const response = await supabaseFetch(`client_requests?ticket_id=eq.${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -206,7 +206,7 @@ export default async function handler(req, res) {
 
         if (!lastSent || (now - lastSent) > oneMinute) {
           // Update last_status_email_sent timestamp
-          supabaseFetch(`client_requests?id=eq.${id}`, {
+          supabaseFetch(`client_requests?ticket_id=eq.${id}`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ last_status_email_sent: new Date().toISOString() }),
