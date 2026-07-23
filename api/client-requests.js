@@ -87,14 +87,27 @@ export default async function handler(req, res) {
       const data = await response.json();
       const ticket = Array.isArray(data) ? data[0] : data;
 
-      // Fire-and-forget: admin notification + client confirmation emails
-      sendAdminNotificationEmail(ticket).catch(err => {
-        console.error('Admin email notification failed:', err);
-      });
-      sendClientConfirmationEmail(ticket).catch(err => {
-        console.error('Client confirmation email failed:', err);
-      });
+      // Queue emails asynchronously without blocking response
+      try {
+        // Don't await - fire and forget
+        setImmediate(async () => {
+          console.log(`[QUEUE] Email tasks started for ${ticket.ticket_id}`);
+          try {
+            await sendAdminNotificationEmail(ticket);
+          } catch (err) {
+            console.error(`[EMAIL-ERROR] Admin failed for ${ticket.ticket_id}:`, err.message);
+          }
+          try {
+            await sendClientConfirmationEmail(ticket);
+          } catch (err) {
+            console.error(`[EMAIL-ERROR] Client failed for ${ticket.ticket_id}:`, err.message);
+          }
+        });
+      } catch (err) {
+        console.error(`[QUEUE-ERROR] Failed to queue emails:`, err.message);
+      }
 
+      // Send response immediately - emails will process in background
       return res.status(201).json({
         success: true,
         ticket_id: ticket.ticket_id,
@@ -240,7 +253,7 @@ const EMAIL_STYLES = {
 // ── Admin notification email (existing, refactored) ──
 async function sendAdminNotificationEmail(request) {
   if (!process.env.RESEND_API_KEY) {
-    console.error('RESEND_API_KEY not set — cannot send admin notification email');
+    console.warn('[MAIL] RESEND_API_KEY not configured - skipping admin email');
     return;
   }
 
@@ -290,9 +303,10 @@ async function sendAdminNotificationEmail(request) {
         </div>
       `,
     });
-    console.log(`✅ Admin email sent for ${request.ticket_id}:`, result.id);
+    console.log(`[MAIL] ✅ Admin email sent for ${request.ticket_id}`);
   } catch (err) {
-    console.error(`❌ Admin email failed for ${request.ticket_id}:`, err.message, err);
+    console.error(`[MAIL] ❌ Admin email failed for ${request.ticket_id}:`, err.message);
+    // Don't rethrow - just log
   }
 }
 
