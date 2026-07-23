@@ -300,20 +300,21 @@ async function sendClientConfirmationEmail(request) {
     return;
   }
 
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
-  const priorityLabels = {
-    low: 'Low',
-    normal: 'Normal',
-    high: 'High',
-    urgent: 'Urgent',
-  };
+    const priorityLabels = {
+      low: 'Low',
+      normal: 'Normal',
+      high: 'High',
+      urgent: 'Urgent',
+    };
 
-  const descriptionPreview = request.description.length > 200
-    ? request.description.substring(0, 200) + '...'
-    : request.description;
+    const descriptionPreview = request.description.length > 200
+      ? request.description.substring(0, 200) + '...'
+      : request.description;
 
-  await resend.emails.send({
+    const result = await resend.emails.send({
     from: 'Hughey LLC <support@hugheyllc.com>',
     replyTo: 'support@hugheyllc.com',
     to: request.email,
