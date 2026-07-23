@@ -478,30 +478,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     flex-wrap: wrap;
   }
 
-  /* Table cell text colors */
-  .ticket-id {
-    font-weight: 700;
-    color: #ffffff !important;
-    font-family: var(--bar);
-    letter-spacing: 1px;
-  }
 
-  .client-name {
-    color: #ffffff !important;
-    font-weight: 500;
-  }
-
-  .client-email {
-    font-size: 0.8rem;
-    color: #ffffff !important;
-    opacity: 0.8;
-  }
-
-  .ticket-date {
-    white-space: nowrap;
-    font-size: 0.85rem;
-    color: #ffffff !important;
-  }
 
   @media (max-width: 768px) {
     .ad-stats {
@@ -600,12 +577,12 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       .map(
         (t) => `
       <tr onclick="showDetail('${t.id}')">
-        <td class="ticket-id">${esc(t.ticket_id)}</td>
-        <td><span class="client-name">${esc(t.client_name)}</span><br><span class="client-email">${esc(t.email)}</span></td>
-        <td>${esc(t.request_type)}</td>
+        <td style="font-weight:700;color:#ffffff !important;font-family:var(--bar);letter-spacing:1px;">${esc(t.ticket_id)}</td>
+        <td><span style="color:#ffffff !important;font-weight:500;">${esc(t.client_name)}</span><br><span style="font-size:0.8rem;color:#ffffff !important;opacity:0.8;">${esc(t.email)}</span></td>
+        <td style="color:#ffffff !important;">${esc(t.request_type)}</td>
         <td><span class="badge badge-${t.priority}">${esc(t.priority)}</span></td>
         <td><span class="badge badge-${t.status}">${esc(t.status)}</span></td>
-        <td class="ticket-date">${formatDate(t.created_at)}</td>
+        <td style="white-space:nowrap;font-size:0.85rem;color:#ffffff !important;">${formatDate(t.created_at)}</td>
         <td>
           <button class="ad-btn ad-btn-sm ad-btn-status" onclick="event.stopPropagation();quickStatus('${t.id}','open')" ${t.status === 'open' ? 'style="background:#2563EB;color:#fff;border-color:#2563EB;"' : ''}>Open</button>
           <button class="ad-btn ad-btn-sm ad-btn-status" onclick="event.stopPropagation();quickStatus('${t.id}','in-progress')" ${t.status === 'in-progress' ? 'style="background:#D97706;color:#fff;border-color:#D97706;"' : ''}>WIP</button>
