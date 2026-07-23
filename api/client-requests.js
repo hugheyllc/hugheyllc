@@ -260,9 +260,9 @@ async function sendAdminNotificationEmail(request) {
     const priorityColor = priorityColors[request.priority] || '#3B82F6';
 
     const result = await resend.emails.send({
-    from: 'Hughey LLC <support@hugheyllc.com>',
-    replyTo: 'support@hugheyllc.com',
-    to: 'joe@joehughey.com',
+    from: 'Hughey LLC <joe@hugheyllc.com>',
+    replyTo: 'joe@hugheyllc.com',
+    to: 'joe@hugheyllc.com',
     subject: `[${request.ticket_id}] New Client Request: ${request.request_type} — ${request.client_name}`,
       html: `
         <div style="font-family: ${EMAIL_STYLES.fontFamily}; max-width: ${EMAIL_STYLES.maxWidth}; color: ${EMAIL_STYLES.inkColor};">
@@ -322,8 +322,8 @@ async function sendClientConfirmationEmail(request) {
       : request.description;
 
     const result = await resend.emails.send({
-    from: 'Hughey LLC <support@hugheyllc.com>',
-    replyTo: 'support@hugheyllc.com',
+    from: 'Hughey LLC <joe@hugheyllc.com>',
+    replyTo: 'joe@hugheyllc.com',
     to: request.email,
     subject: `[${request.ticket_id}] Your request has been received`,
     html: `
@@ -357,6 +357,9 @@ async function sendClientConfirmationEmail(request) {
 
         <p style="font-size: 15px; line-height: 1.6; color: #333; margin-top: 24px;">
           We'll follow up with you directly once we've reviewed your request. No action is needed from you right now.
+        </p>
+        <p style="font-size: 14px; line-height: 1.6; color: #555; margin-top: 16px;">
+          If you have any questions, feel free to reply to this email or contact us directly at <a href="mailto:joe@hugheyllc.com" style="color: ${EMAIL_STYLES.brandColor}; text-decoration: none; font-weight: 600;">joe@hugheyllc.com</a>.
         </p>
 
         <hr style="border: none; border-top: 1px solid #eee; margin: 32px 0 16px;" />
@@ -416,8 +419,8 @@ async function sendClientStatusEmail(ticket, newStatus, latestNotes) {
     : '';
 
   await resend.emails.send({
-    from: 'Hughey LLC <support@hugheyllc.com>',
-    replyTo: 'support@hugheyllc.com',
+    from: 'Hughey LLC <joe@hugheyllc.com>',
+    replyTo: 'joe@hugheyllc.com',
     to: ticket.email,
     subject: `[${ticket.ticket_id}] Your request status: ${statusLabel}`,
     html: `
