@@ -240,55 +240,60 @@ const EMAIL_STYLES = {
 // ── Admin notification email (existing, refactored) ──
 async function sendAdminNotificationEmail(request) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('RESEND_API_KEY not set — skipping admin notification email');
+    console.error('RESEND_API_KEY not set — cannot send admin notification email');
     return;
   }
 
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
-  const priorityColors = {
-    low: '#6B7280',
-    normal: '#3B82F6',
-    high: '#F59E0B',
-    urgent: '#EF4444',
-  };
+    const priorityColors = {
+      low: '#6B7280',
+      normal: '#3B82F6',
+      high: '#F59E0B',
+      urgent: '#EF4444',
+    };
 
-  const priorityColor = priorityColors[request.priority] || '#3B82F6';
+    const priorityColor = priorityColors[request.priority] || '#3B82F6';
 
-  await resend.emails.send({
+    const result = await resend.emails.send({
     from: 'Hughey LLC <support@hugheyllc.com>',
     replyTo: 'support@hugheyllc.com',
     to: 'joe@joehughey.com',
     subject: `[${request.ticket_id}] New Client Request: ${request.request_type} — ${request.client_name}`,
-    html: `
-      <div style="font-family: ${EMAIL_STYLES.fontFamily}; max-width: ${EMAIL_STYLES.maxWidth}; color: ${EMAIL_STYLES.inkColor};">
-        <h2 style="border-bottom: 2px solid ${EMAIL_STYLES.brandColor}; padding-bottom: 12px;">
-          New Client Request — ${request.ticket_id}
-        </h2>
-        <table style="width: 100%; border-collapse: collapse;">
-          <tr><td style="padding: 8px 0; font-weight: bold; width: 130px;">Client</td><td>${escapeHtml(request.client_name)}</td></tr>
-          <tr><td style="padding: 8px 0; font-weight: bold;">Email</td><td><a href="mailto:${escapeHtml(request.email)}">${escapeHtml(request.email)}</a></td></tr>
-          ${request.phone ? `<tr><td style="padding: 8px 0; font-weight: bold;">Phone</td><td><a href="tel:${escapeHtml(request.phone)}">${escapeHtml(request.phone)}</a></td></tr>` : ''}
-          <tr><td style="padding: 8px 0; font-weight: bold;">Type</td><td>${escapeHtml(request.request_type)}</td></tr>
-          <tr>
-            <td style="padding: 8px 0; font-weight: bold;">Priority</td>
-            <td><span style="display:inline-block;padding:3px 10px;border-radius:3px;background:${priorityColor};color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;">${escapeHtml(request.priority)}</span></td>
-          </tr>
-          ${request.due_date ? `<tr><td style="padding: 8px 0; font-weight: bold;">Due Date</td><td>${escapeHtml(request.due_date)}</td></tr>` : ''}
-        </table>
-        <div style="margin-top: 20px; background: #f9f6ef; border-left: 4px solid ${EMAIL_STYLES.brandColor}; padding: 16px;">
-          <strong>Description:</strong><br /><br />
-          ${escapeHtml(request.description).replace(/\n/g, '<br>')}
+      html: `
+        <div style="font-family: ${EMAIL_STYLES.fontFamily}; max-width: ${EMAIL_STYLES.maxWidth}; color: ${EMAIL_STYLES.inkColor};">
+          <h2 style="border-bottom: 2px solid ${EMAIL_STYLES.brandColor}; padding-bottom: 12px;">
+            New Client Request — ${request.ticket_id}
+          </h2>
+          <table style="width: 100%; border-collapse: collapse;">
+            <tr><td style="padding: 8px 0; font-weight: bold; width: 130px;">Client</td><td>${escapeHtml(request.client_name)}</td></tr>
+            <tr><td style="padding: 8px 0; font-weight: bold;">Email</td><td><a href="mailto:${escapeHtml(request.email)}">${escapeHtml(request.email)}</a></td></tr>
+            ${request.phone ? `<tr><td style="padding: 8px 0; font-weight: bold;">Phone</td><td><a href="tel:${escapeHtml(request.phone)}">${escapeHtml(request.phone)}</a></td></tr>` : ''}
+            <tr><td style="padding: 8px 0; font-weight: bold;">Type</td><td>${escapeHtml(request.request_type)}</td></tr>
+            <tr>
+              <td style="padding: 8px 0; font-weight: bold;">Priority</td>
+              <td><span style="display:inline-block;padding:3px 10px;border-radius:3px;background:${priorityColor};color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;">${escapeHtml(request.priority)}</span></td>
+            </tr>
+            ${request.due_date ? `<tr><td style="padding: 8px 0; font-weight: bold;">Due Date</td><td>${escapeHtml(request.due_date)}</td></tr>` : ''}
+          </table>
+          <div style="margin-top: 20px; background: #f9f6ef; border-left: 4px solid ${EMAIL_STYLES.brandColor}; padding: 16px;">
+            <strong>Description:</strong><br /><br />
+            ${escapeHtml(request.description).replace(/\n/g, '<br>')}
+          </div>
+          <p style="margin-top: 24px;">
+            <a href="https://hugheyllc.com/admin/client-requests/" style="display:inline-block;padding:10px 24px;background:${EMAIL_STYLES.brandColor};color:${EMAIL_STYLES.inkColor};text-decoration:none;font-weight:700;border-radius:3px;">View Dashboard →</a>
+          </p>
+          <p style="margin-top: 16px; font-size: 12px; color: ${EMAIL_STYLES.dimColor};">
+            Reply to ${escapeHtml(request.client_name)} at <a href="mailto:${escapeHtml(request.email)}">${escapeHtml(request.email)}</a>
+          </p>
         </div>
-        <p style="margin-top: 24px;">
-          <a href="https://hugheyllc.com/admin/client-requests/" style="display:inline-block;padding:10px 24px;background:${EMAIL_STYLES.brandColor};color:${EMAIL_STYLES.inkColor};text-decoration:none;font-weight:700;border-radius:3px;">View Dashboard →</a>
-        </p>
-        <p style="margin-top: 16px; font-size: 12px; color: ${EMAIL_STYLES.dimColor};">
-          Reply to ${escapeHtml(request.client_name)} at <a href="mailto:${escapeHtml(request.email)}">${escapeHtml(request.email)}</a>
-        </p>
-      </div>
-    `,
-  });
+      `,
+    });
+    console.log(`✅ Admin email sent for ${request.ticket_id}:`, result.id);
+  } catch (err) {
+    console.error(`❌ Admin email failed for ${request.ticket_id}:`, err.message, err);
+  }
 }
 
 // ── Client confirmation email (new ticket submitted) ──
@@ -356,17 +361,22 @@ async function sendClientConfirmationEmail(request) {
         </p>
       </div>
     `,
-  });
+    });
+    console.log(`✅ Client email sent for ${request.ticket_id}:`, result.id);
+  } catch (err) {
+    console.error(`❌ Client email failed for ${request.ticket_id}:`, err.message, err);
+  }
 }
 
 // ── Client status update email ──
 async function sendClientStatusEmail(ticket, newStatus, latestNotes) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('RESEND_API_KEY not set — skipping client status email');
+    console.error('RESEND_API_KEY not set — cannot send client status email');
     return;
   }
 
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
   const statusLabels = {
     'open': 'Open',
@@ -445,7 +455,11 @@ async function sendClientStatusEmail(ticket, newStatus, latestNotes) {
         </p>
       </div>
     `,
-  });
+    });
+    console.log(`✅ Status email sent for ${ticket.ticket_id}:`, result.id);
+  } catch (err) {
+    console.error(`❌ Status email failed for ${ticket.ticket_id}:`, err.message, err);
+  }
 }
 
 function escapeHtml(str) {
