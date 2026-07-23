@@ -108,6 +108,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <style>
+  /* CRITICAL CONTRAST FIXES - Using !important to ensure deployment */
+  .ad-table td {
+    color: #ffffff !important;
+  }
+  
+  .detail-notes textarea {
+    min-height: 120px !important;
+    color: #ffffff !important;
+  }
+  
+  .detail-value {
+    color: #ffffff !important;
+  }
+
   .ad-page {
     min-height: 100vh;
     background: var(--ink);
