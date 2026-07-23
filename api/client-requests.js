@@ -41,6 +41,12 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
+  // Validate Resend config
+  if (!process.env.RESEND_API_KEY) {
+    console.error('RESEND_API_KEY not set');
+    return res.status(500).json({ error: 'Email service not configured. Contact support.' });
+  }
+
   try {
     // ── POST: Create new ticket ──
     if (req.method === 'POST') {
@@ -238,8 +244,8 @@ const EMAIL_STYLES = {
 // ── Admin notification email (existing, refactored) ──
 async function sendAdminNotificationEmail(request) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('RESEND_API_KEY not set — skipping admin email notification');
-    return;
+    console.error('RESEND_API_KEY not set — cannot send admin notification email');
+    throw new Error('Email service not configured');
   }
 
   const resend = new Resend(process.env.RESEND_API_KEY);
@@ -292,8 +298,8 @@ async function sendAdminNotificationEmail(request) {
 // ── Client confirmation email (new ticket submitted) ──
 async function sendClientConfirmationEmail(request) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('RESEND_API_KEY not set — skipping client confirmation email');
-    return;
+    console.error('RESEND_API_KEY not set — cannot send client confirmation email');
+    throw new Error('Email service not configured');
   }
 
   const resend = new Resend(process.env.RESEND_API_KEY);
@@ -360,8 +366,8 @@ async function sendClientConfirmationEmail(request) {
 // ── Client status update email ──
 async function sendClientStatusEmail(ticket, newStatus, latestNotes) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('RESEND_API_KEY not set — skipping client status email');
-    return;
+    console.error('RESEND_API_KEY not set — cannot send client status email');
+    throw new Error('Email service not configured');
   }
 
   const resend = new Resend(process.env.RESEND_API_KEY);
