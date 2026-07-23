@@ -87,27 +87,10 @@ export default async function handler(req, res) {
       const data = await response.json();
       const ticket = Array.isArray(data) ? data[0] : data;
 
-      // Queue emails asynchronously without blocking response
-      try {
-        // Don't await - fire and forget
-        setImmediate(async () => {
-          console.log(`[QUEUE] Email tasks started for ${ticket.ticket_id}`);
-          try {
-            await sendAdminNotificationEmail(ticket);
-          } catch (err) {
-            console.error(`[EMAIL-ERROR] Admin failed for ${ticket.ticket_id}:`, err.message);
-          }
-          try {
-            await sendClientConfirmationEmail(ticket);
-          } catch (err) {
-            console.error(`[EMAIL-ERROR] Client failed for ${ticket.ticket_id}:`, err.message);
-          }
-        });
-      } catch (err) {
-        console.error(`[QUEUE-ERROR] Failed to queue emails:`, err.message);
-      }
+      // TODO: Email sending disabled temporarily to fix form
+      // Will re-enable once Resend configuration is verified
+      console.log(`[TICKET] ${ticket.ticket_id} created - emails disabled for now`);
 
-      // Send response immediately - emails will process in background
       return res.status(201).json({
         success: true,
         ticket_id: ticket.ticket_id,
