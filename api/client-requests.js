@@ -24,6 +24,11 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Portal-Password');
   res.setHeader('Content-Type', 'application/json');
+  
+  // DEBUG: Log Resend status on every request
+  if (req.method === 'POST' || req.method === 'PATCH') {
+    console.log('[POST/PATCH] RESEND_API_KEY present:', !!process.env.RESEND_API_KEY);
+  }
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
