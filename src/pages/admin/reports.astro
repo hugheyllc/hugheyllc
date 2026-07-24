@@ -55,6 +55,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <div id="report-body">
           <p class="ad-empty">Loading...</p>
         </div>
+
+        <!-- Detail Modal -->
+        <div id="modal" class="rep-modal" style="display:none;">
+          <div class="rep-modal-content">
+            <button class="rep-modal-close" id="modal-close">&times;</button>
+            <div id="modal-body"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -374,6 +382,122 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     font-family: var(--bar);
   }
 
+  /* Detail Modal */
+  .rep-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+
+  .rep-modal-content {
+    background: #0f1a2e;
+    border: 1px solid rgba(200, 151, 58, 0.3);
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 640px;
+    width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .rep-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #e5e7eb;
+    font-size: 1.75rem;
+    cursor: pointer;
+    line-height: 1;
+    z-index: 10;
+  }
+
+  .rep-modal-close:hover {
+    color: #ffffff;
+  }
+
+  .rep-detail-header {
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid rgba(200, 151, 58, 0.3);
+  }
+
+  .rep-detail-header h2 {
+    font-family: var(--bas);
+    color: var(--gold) !important;
+    font-size: 1.3rem;
+    margin: 0 0 4px;
+  }
+
+  .rep-detail-header p {
+    color: #d1d5db !important;
+    font-size: 0.85rem;
+    margin: 0;
+  }
+
+  .rep-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .rep-detail-field {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(200, 151, 58, 0.1);
+  }
+
+  .rep-detail-field.full {
+    grid-column: 1 / -1;
+  }
+
+  .rep-detail-label {
+    color: #9ca3af !important;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .rep-detail-value {
+    color: #ffffff !important;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .rep-detail-desc {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 14px;
+    color: #ffffff !important;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    font-size: 0.9rem;
+  }
+
+  .rep-detail-notes {
+    background: rgba(200, 151, 58, 0.06);
+    border: 1px solid rgba(200, 151, 58, 0.15);
+    border-radius: 8px;
+    padding: 14px;
+    color: #e5e7eb !important;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  .rep-table tbody tr {
+    cursor: pointer;
+  }
+
   @media (max-width: 768px) {
     .ad-header {
       flex-direction: column;
@@ -420,6 +544,99 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   document.getElementById('refresh-btn')?.addEventListener('click', loadAndRender);
   document.getElementById('export-btn')?.addEventListener('click', exportCSV);
+
+  // Modal close handlers
+  document.getElementById('modal-close')?.addEventListener('click', () => {
+    document.getElementById('modal')!.style.display = 'none';
+  });
+  document.getElementById('modal')?.addEventListener('click', (e) => {
+    if (e.target === document.getElementById('modal')) {
+      document.getElementById('modal')!.style.display = 'none';
+    }
+  });
+
+  // Delegate click on ticket rows
+  document.getElementById('report-body')?.addEventListener('click', (e) => {
+    const row = (e.target as HTMLElement).closest('tr[data-ticket-id]');
+    if (!row) return;
+    const ticketId = row.getAttribute('data-ticket-id');
+    if (ticketId) showTicketDetail(ticketId);
+  });
+
+  function showTicketDetail(ticketId: string) {
+    const ticket = allTickets.find((t) => t.ticket_id === ticketId || t.id === ticketId);
+    if (!ticket) return;
+
+    const modal = document.getElementById('modal')!;
+    const body = document.getElementById('modal-body')!;
+
+    body.innerHTML = `
+      <div class="rep-detail-header">
+        <h2>${esc(ticket.ticket_id)}</h2>
+        <p>${esc(ticket.request_type)}</p>
+      </div>
+
+      <div class="rep-detail-grid">
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Client</div>
+          <div class="rep-detail-value">${esc(ticket.client_name)}</div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Email</div>
+          <div class="rep-detail-value"><a href="mailto:${esc(ticket.email)}" style="color:var(--gold);">${esc(ticket.email)}</a></div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Phone</div>
+          <div class="rep-detail-value">${ticket.phone ? esc(ticket.phone) : '—'}</div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Request Type</div>
+          <div class="rep-detail-value">${esc(ticket.request_type)}</div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Priority</div>
+          <div class="rep-detail-value"><span class="badge badge-${esc(ticket.priority)}">${esc(ticket.priority)}</span></div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Status</div>
+          <div class="rep-detail-value"><span class="badge badge-${esc(ticket.status)}">${esc(ticket.status)}</span></div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Created</div>
+          <div class="rep-detail-value">${formatDate(ticket.created_at)}</div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Due Date</div>
+          <div class="rep-detail-value">${ticket.due_date ? formatDate(ticket.due_date) : '—'}</div>
+        </div>
+        ${ticket.updated_at ? `
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Last Updated</div>
+          <div class="rep-detail-value">${formatDate(ticket.updated_at)}</div>
+        </div>
+        <div class="rep-detail-field">
+          <div class="rep-detail-label">Age</div>
+          <div class="rep-detail-value">${daysSince(ticket.created_at)} days</div>
+        </div>
+        ` : ''}
+      </div>
+
+      <div class="rep-detail-field full" style="margin-top:16px;">
+        <div class="rep-detail-label">Description</div>
+        <div class="rep-detail-desc">${esc(ticket.description || 'No description')}</div>
+      </div>
+
+      <div class="rep-detail-field full" style="margin-top:16px;">
+        <div class="rep-detail-label">Notes</div>
+        ${ticket.notes
+          ? `<div class="rep-detail-notes">${esc(ticket.notes)}</div>`
+          : `<div class="rep-detail-value" style="color:#9ca3af !important;font-style:italic;">No notes</div>`
+        }
+      </div>
+    `;
+
+    modal.style.display = 'flex';
+  }
 
   async function loadAndRender() {
     try {
@@ -549,7 +766,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                   new Date(t.created_at).getTime() > new Date(l.created_at).getTime() ? t : l
                 );
                 return `
-                <tr>
+                <tr data-ticket-id="${esc(latest.ticket_id)}">
                   <td style="color:#fff;font-weight:600;">${esc(client)}</td>
                   <td style="color:#fff;font-family:var(--bar);font-size:1.05rem;">${tickets.length}</td>
                   <td>
@@ -610,7 +827,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             ${rows
               .map(
                 (t) => `
-              <tr>
+              <tr data-ticket-id="${esc(t.ticket_id)}">
                 <td><span class="rep-ticket-id">${esc(t.ticket_id)}</span></td>
                 <td style="color:#fff;">
                   <div style="font-weight:600;">${esc(t.client_name)}</div>
@@ -667,7 +884,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                   ${rows
                     .map(
                       (t) => `
-                    <tr>
+                    <tr data-ticket-id="${esc(t.ticket_id)}">
                       <td><span class="rep-ticket-id">${esc(t.ticket_id)}</span></td>
                       <td style="color:#fff;">${esc(t.client_name)}<div style="font-size:0.8rem;color:#d1d5db;">${esc(t.email)}</div></td>
                       <td style="color:#fff;">${esc(t.request_type)}</td>
