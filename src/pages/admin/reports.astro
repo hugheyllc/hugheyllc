@@ -1,0 +1,789 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Reports — Client Requests — Hughey LLC"
+  description="Admin reports for client request tickets."
+  noindex={true}
+>
+  <section class="ad-page">
+    <div class="ad-container">
+      <!-- Password Gate -->
+      <div id="gate" class="ad-gate">
+        <div class="ad-card ad-card-narrow">
+          <h1>Reports</h1>
+          <p class="ad-sub">Enter your access code to continue.</p>
+          <form id="gate-form" class="ad-gate-form">
+            <input
+              type="password"
+              id="gate-password"
+              placeholder="Access code"
+              autocomplete="off"
+              required
+            />
+            <button type="submit" class="ad-btn">Enter</button>
+          </form>
+          <p id="gate-error" class="ad-error" style="display:none;">Invalid access code.</p>
+        </div>
+      </div>
+
+      <!-- Dashboard -->
+      <div id="dashboard" style="display:none;">
+        <div class="ad-header">
+          <h1>Reports</h1>
+          <div class="ad-header-actions">
+            <a href="/admin/client-requests/" class="ad-btn ad-btn-outline">← Dashboard</a>
+            <button class="ad-btn" id="export-btn">Export CSV</button>
+          </div>
+        </div>
+
+        <!-- Report selector -->
+        <div class="ad-filters">
+          <label class="ad-label">Report:</label>
+          <select id="report-select">
+            <option value="summary">Summary Dashboard</option>
+            <option value="by-client">By Client</option>
+            <option value="open">Open Tickets</option>
+            <option value="in-progress">In Progress</option>
+            <option value="completed">Completed Tickets</option>
+            <option value="priority">Priority Breakdown</option>
+          </select>
+          <button class="ad-btn ad-btn-outline" id="refresh-btn">Refresh Data</button>
+        </div>
+
+        <div id="report-body">
+          <p class="ad-empty">Loading...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .ad-page {
+    min-height: 100vh;
+    background: var(--ink);
+    padding: 32px 20px;
+  }
+
+  .ad-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .ad-gate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+
+  .ad-card {
+    background: var(--navy);
+    border: 1px solid var(--steel);
+    border-radius: 12px;
+    padding: 40px;
+  }
+
+  .ad-card-narrow {
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .ad-card h1 {
+    font-family: var(--bas);
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  .ad-sub {
+    color: var(--dim);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .ad-gate-form {
+    display: flex;
+    gap: 12px;
+  }
+
+  .ad-gate-form input {
+    flex: 1;
+  }
+
+  .ad-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .ad-header h1 {
+    font-family: var(--bas);
+    color: var(--white);
+    font-size: 1.75rem;
+  }
+
+  .ad-header-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .ad-filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .ad-label {
+    color: var(--dim);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  input, select {
+    padding: 10px 14px;
+    background: var(--navy);
+    border: 1px solid var(--steel);
+    border-radius: 6px;
+    color: var(--white);
+    font-family: var(--man);
+    font-size: 0.9rem;
+  }
+
+  input:focus, select:focus {
+    outline: none;
+    border-color: var(--gold);
+  }
+
+  .ad-btn {
+    padding: 10px 20px;
+    background: var(--gold);
+    color: var(--ink);
+    font-family: var(--man);
+    font-weight: 700;
+    font-size: 0.85rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  .ad-btn:hover { background: var(--glt); }
+
+  .ad-btn-outline {
+    background: transparent;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+  }
+
+  .ad-btn-outline:hover {
+    background: var(--gold);
+    color: var(--ink);
+  }
+
+  .ad-error {
+    color: #EF4444;
+    font-size: 0.9rem;
+    margin-top: 12px;
+  }
+
+  .ad-empty {
+    text-align: center;
+    color: var(--dim);
+    padding: 40px;
+  }
+
+  /* Stats grid */
+  .rep-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .rep-stat {
+    background: var(--navy);
+    border: 1px solid var(--steel);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .rep-stat-num {
+    display: block;
+    font-family: var(--bar);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  .rep-stat-label {
+    color: var(--dim);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .rep-stat-open .rep-stat-num { color: #3B82F6; }
+  .rep-stat-progress .rep-stat-num { color: #F59E0B; }
+  .rep-stat-done .rep-stat-num { color: var(--ok); }
+  .rep-stat-urgent .rep-stat-num { color: #DC2626; }
+  .rep-stat-high .rep-stat-num { color: #D97706; }
+
+  /* Sections */
+  .rep-section {
+    background: var(--navy);
+    border: 1px solid var(--steel);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+
+  .rep-section h2 {
+    font-family: var(--bas);
+    color: var(--white);
+    font-size: 1.15rem;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--steel);
+    padding-bottom: 10px;
+  }
+
+  .rep-section h3 {
+    font-family: var(--bar);
+    color: var(--white);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+
+  /* Tables */
+  .rep-table-wrap {
+    overflow-x: auto;
+    background: var(--navy);
+    border: 1px solid var(--steel);
+    border-radius: 10px;
+  }
+
+  .rep-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  .rep-table th {
+    text-align: left;
+    padding: 12px 16px;
+    color: var(--dim);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--steel);
+    white-space: nowrap;
+  }
+
+  .rep-table td {
+    padding: 12px 16px;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(36, 58, 102, 0.5);
+    vertical-align: top;
+  }
+
+  .rep-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .rep-desc {
+    color: #d1d5db;
+    font-size: 0.85rem;
+    max-width: 380px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+
+  .rep-notes {
+    color: #d1d5db;
+    font-size: 0.8rem;
+    font-style: italic;
+    max-width: 300px;
+    line-height: 1.5;
+  }
+
+  .rep-ticket-id {
+    font-family: var(--bar);
+    letter-spacing: 1px;
+    color: var(--gold);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  /* Badges (shared with client-requests page) */
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .badge-open { background: #2563EB; color: #ffffff; }
+  .badge-in-progress { background: #D97706; color: #ffffff; }
+  .badge-completed { background: #059669; color: #ffffff; }
+  .badge-low { background: #6B7280; color: #ffffff; }
+  .badge-normal { background: #2563EB; color: #ffffff; }
+  .badge-high { background: #D97706; color: #ffffff; }
+  .badge-urgent { background: #DC2626; color: #ffffff; }
+
+  .rep-status-cell {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .rep-status-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: rgba(36, 58, 102, 0.6);
+    border-radius: 6px;
+    font-size: 0.78rem;
+    color: #ffffff;
+  }
+
+  .rep-status-chip strong {
+    color: var(--gold);
+    font-family: var(--bar);
+  }
+
+  @media (max-width: 768px) {
+    .ad-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .ad-gate-form {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<script>
+  let storedPassword = '';
+  let allTickets: any[] = [];
+  let currentReport = 'summary';
+
+  document.getElementById('gate-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const pw = (document.getElementById('gate-password') as HTMLInputElement).value;
+    storedPassword = pw;
+
+    fetch('/api/client-requests', {
+      headers: { 'X-Portal-Password': pw },
+    })
+      .then((r) => {
+        if (r.status === 401) {
+          document.getElementById('gate-error')!.style.display = 'block';
+          return;
+        }
+        document.getElementById('gate')!.style.display = 'none';
+        document.getElementById('dashboard')!.style.display = 'block';
+        loadAndRender();
+      })
+      .catch(() => {
+        document.getElementById('gate-error')!.style.display = 'block';
+      });
+  });
+
+  document.getElementById('report-select')?.addEventListener('change', (e) => {
+    currentReport = (e.target as HTMLSelectElement).value;
+    renderReport();
+  });
+
+  document.getElementById('refresh-btn')?.addEventListener('click', loadAndRender);
+  document.getElementById('export-btn')?.addEventListener('click', exportCSV);
+
+  async function loadAndRender() {
+    try {
+      const res = await fetch('/api/client-requests', {
+        headers: { 'X-Portal-Password': storedPassword },
+      });
+      if (!res.ok) throw new Error('Failed to load');
+      allTickets = await res.json();
+      renderReport();
+    } catch (err) {
+      document.getElementById('report-body')!.innerHTML =
+        '<p class="ad-empty">Failed to load tickets.</p>';
+    }
+  }
+
+  function renderReport() {
+    const body = document.getElementById('report-body')!;
+    switch (currentReport) {
+      case 'summary':      body.innerHTML = renderSummary(); break;
+      case 'by-client':    body.innerHTML = renderByClient(); break;
+      case 'open':         body.innerHTML = renderStatusList('open', 'Open Tickets'); break;
+      case 'in-progress':  body.innerHTML = renderStatusList('in-progress', 'In Progress Tickets'); break;
+      case 'completed':    body.innerHTML = renderStatusList('completed', 'Completed Tickets'); break;
+      case 'priority':     body.innerHTML = renderPriority(); break;
+    }
+  }
+
+  // ── Reports ──
+
+  function renderSummary(): string {
+    const total = allTickets.length;
+    const open = allTickets.filter((t) => t.status === 'open');
+    const inProgress = allTickets.filter((t) => t.status === 'in-progress');
+    const completed = allTickets.filter((t) => t.status === 'completed');
+
+    const priorities = ['urgent', 'high', 'normal', 'low'].map((p) => ({
+      key: p,
+      count: allTickets.filter((t) => t.priority === p).length,
+    }));
+
+    const avgAge = open.length
+      ? Math.round(
+          open.reduce((sum, t) => sum + daysSince(t.created_at), 0) / open.length
+        )
+      : 0;
+
+    const oldestOpen = open.length
+      ? open.reduce((oldest, t) =>
+          new Date(t.created_at).getTime() < new Date(oldest.created_at).getTime() ? t : oldest
+        )
+      : null;
+
+    return `
+      <div class="rep-stats">
+        <div class="rep-stat"><span class="rep-stat-num">${total}</span><span class="rep-stat-label">Total</span></div>
+        <div class="rep-stat rep-stat-open"><span class="rep-stat-num">${open.length}</span><span class="rep-stat-label">Open</span></div>
+        <div class="rep-stat rep-stat-progress"><span class="rep-stat-num">${inProgress.length}</span><span class="rep-stat-label">In Progress</span></div>
+        <div class="rep-stat rep-stat-done"><span class="rep-stat-num">${completed.length}</span><span class="rep-stat-label">Completed</span></div>
+        <div class="rep-stat"><span class="rep-stat-num">${avgAge}</span><span class="rep-stat-label">Avg Open Age (days)</span></div>
+      </div>
+
+      <div class="rep-section">
+        <h2>By Priority</h2>
+        <div class="rep-stats">
+          ${priorities
+            .map(
+              (p) => `
+            <div class="rep-stat rep-stat-${p.key}">
+              <span class="rep-stat-num">${p.count}</span>
+              <span class="rep-stat-label">${p.key}</span>
+            </div>
+          `
+            )
+            .join('')}
+        </div>
+      </div>
+
+      ${
+        oldestOpen
+          ? `
+        <div class="rep-section">
+          <h2>Oldest Open Ticket</h2>
+          <p style="color:#fff;">
+            <span class="rep-ticket-id">${esc(oldestOpen.ticket_id)}</span> —
+            ${esc(oldestOpen.client_name)} — ${esc(oldestOpen.request_type)} —
+            <span style="color:#d1d5db;">${daysSince(oldestOpen.created_at)} days old (${formatDate(oldestOpen.created_at)})</span>
+          </p>
+        </div>
+      `
+          : ''
+      }
+    `;
+  }
+
+  function renderByClient(): string {
+    const groups: Record<string, any[]> = {};
+    for (const t of allTickets) {
+      const key = t.client_name || 'Unknown';
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(t);
+    }
+
+    const sorted = Object.entries(groups).sort((a, b) => b[1].length - a[1].length);
+
+    if (sorted.length === 0) {
+      return '<p class="ad-empty">No tickets.</p>';
+    }
+
+    return `
+      <div class="rep-table-wrap">
+        <table class="rep-table">
+          <thead>
+            <tr>
+              <th>Client</th>
+              <th>Total</th>
+              <th>Breakdown</th>
+              <th>Latest Ticket</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${sorted
+              .map(([client, tickets]) => {
+                const open = tickets.filter((t) => t.status === 'open').length;
+                const wip = tickets.filter((t) => t.status === 'in-progress').length;
+                const done = tickets.filter((t) => t.status === 'completed').length;
+                const latest = tickets.reduce((l, t) =>
+                  new Date(t.created_at).getTime() > new Date(l.created_at).getTime() ? t : l
+                );
+                return `
+                <tr>
+                  <td style="color:#fff;font-weight:600;">${esc(client)}</td>
+                  <td style="color:#fff;font-family:var(--bar);font-size:1.05rem;">${tickets.length}</td>
+                  <td>
+                    <div class="rep-status-cell">
+                      ${open ? `<span class="rep-status-chip"><strong>${open}</strong> Open</span>` : ''}
+                      ${wip ? `<span class="rep-status-chip"><strong>${wip}</strong> WIP</span>` : ''}
+                      ${done ? `<span class="rep-status-chip"><strong>${done}</strong> Done</span>` : ''}
+                    </div>
+                  </td>
+                  <td style="color:#d1d5db;font-size:0.85rem;">
+                    <span class="rep-ticket-id">${esc(latest.ticket_id)}</span><br />
+                    ${formatDate(latest.created_at)}
+                  </td>
+                </tr>
+              `;
+              })
+              .join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderStatusList(status: string, heading: string): string {
+    const priorityRank: Record<string, number> = { urgent: 0, high: 1, normal: 2, low: 3 };
+    const rows = allTickets
+      .filter((t) => t.status === status)
+      .sort((a, b) => {
+        const pa = priorityRank[a.priority] ?? 99;
+        const pb = priorityRank[b.priority] ?? 99;
+        if (pa !== pb) return pa - pb;
+        return new Date(a.created_at).getTime() - new Date(b.created_at).getTime();
+      });
+
+    if (rows.length === 0) {
+      return `<p class="ad-empty">No ${heading.toLowerCase()}.</p>`;
+    }
+
+    return `
+      <div class="rep-section">
+        <h2>${esc(heading)} (${rows.length})</h2>
+      </div>
+      <div class="rep-table-wrap">
+        <table class="rep-table">
+          <thead>
+            <tr>
+              <th>Ticket</th>
+              <th>Client</th>
+              <th>Type</th>
+              <th>Priority</th>
+              <th>Created</th>
+              <th>${status === 'completed' ? 'Updated' : 'Age'}</th>
+              <th>Description</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows
+              .map(
+                (t) => `
+              <tr>
+                <td><span class="rep-ticket-id">${esc(t.ticket_id)}</span></td>
+                <td style="color:#fff;">
+                  <div style="font-weight:600;">${esc(t.client_name)}</div>
+                  <div style="font-size:0.8rem;color:#d1d5db;">${esc(t.email)}</div>
+                </td>
+                <td style="color:#fff;">${esc(t.request_type)}</td>
+                <td><span class="badge badge-${esc(t.priority)}">${esc(t.priority)}</span></td>
+                <td style="color:#fff;white-space:nowrap;font-size:0.85rem;">${formatDate(t.created_at)}</td>
+                <td style="color:#d1d5db;white-space:nowrap;font-size:0.85rem;">
+                  ${status === 'completed'
+                    ? formatDate(t.updated_at || t.created_at)
+                    : daysSince(t.created_at) + ' days'}
+                </td>
+                <td class="rep-desc">${esc(truncate(t.description, 220))}</td>
+                <td class="rep-notes">${t.notes ? esc(truncate(t.notes, 180)) : '—'}</td>
+              </tr>
+            `
+              )
+              .join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderPriority(): string {
+    const buckets = ['urgent', 'high', 'normal', 'low'];
+    return buckets
+      .map((p) => {
+        const rows = allTickets
+          .filter((t) => t.priority === p)
+          .sort(
+            (a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+          );
+        if (rows.length === 0) return '';
+        return `
+          <div class="rep-section">
+            <h2>
+              <span class="badge badge-${p}">${p}</span>
+              <span style="color:var(--dim);font-weight:400;font-size:0.9rem;margin-left:10px;">(${rows.length})</span>
+            </h2>
+            <div class="rep-table-wrap" style="border:none;">
+              <table class="rep-table">
+                <thead>
+                  <tr>
+                    <th>Ticket</th>
+                    <th>Client</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                    <th>Created</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${rows
+                    .map(
+                      (t) => `
+                    <tr>
+                      <td><span class="rep-ticket-id">${esc(t.ticket_id)}</span></td>
+                      <td style="color:#fff;">${esc(t.client_name)}<div style="font-size:0.8rem;color:#d1d5db;">${esc(t.email)}</div></td>
+                      <td style="color:#fff;">${esc(t.request_type)}</td>
+                      <td><span class="badge badge-${esc(t.status)}">${esc(t.status)}</span></td>
+                      <td style="color:#fff;white-space:nowrap;font-size:0.85rem;">${formatDate(t.created_at)}</td>
+                    </tr>
+                  `
+                    )
+                    .join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        `;
+      })
+      .join('');
+  }
+
+  // ── CSV export ──
+  function exportCSV() {
+    let rows: any[] = [];
+    let filename = 'tickets.csv';
+
+    switch (currentReport) {
+      case 'open':
+        rows = allTickets.filter((t) => t.status === 'open');
+        filename = 'open-tickets.csv';
+        break;
+      case 'in-progress':
+        rows = allTickets.filter((t) => t.status === 'in-progress');
+        filename = 'in-progress-tickets.csv';
+        break;
+      case 'completed':
+        rows = allTickets.filter((t) => t.status === 'completed');
+        filename = 'completed-tickets.csv';
+        break;
+      case 'by-client': {
+        const groups: Record<string, any[]> = {};
+        for (const t of allTickets) {
+          const key = t.client_name || 'Unknown';
+          (groups[key] ||= []).push(t);
+        }
+        const summary = Object.entries(groups).map(([client, tickets]) => ({
+          client_name: client,
+          total: tickets.length,
+          open: tickets.filter((t) => t.status === 'open').length,
+          in_progress: tickets.filter((t) => t.status === 'in-progress').length,
+          completed: tickets.filter((t) => t.status === 'completed').length,
+        }));
+        downloadCSV(summary, ['client_name', 'total', 'open', 'in_progress', 'completed'], 'by-client.csv');
+        return;
+      }
+      case 'summary':
+      case 'priority':
+      default:
+        rows = allTickets;
+        filename = currentReport === 'priority' ? 'by-priority.csv' : 'all-tickets.csv';
+    }
+
+    const columns = [
+      'ticket_id',
+      'client_name',
+      'email',
+      'phone',
+      'request_type',
+      'priority',
+      'status',
+      'created_at',
+      'due_date',
+      'description',
+      'notes',
+    ];
+    downloadCSV(rows, columns, filename);
+  }
+
+  function downloadCSV(rows: any[], columns: string[], filename: string) {
+    const header = columns.join(',');
+    const body = rows
+      .map((r) => columns.map((c) => csvEscape(r[c])).join(','))
+      .join('\n');
+    const csv = header + '\n' + body;
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+
+  function csvEscape(val: any): string {
+    if (val == null) return '';
+    const s = String(val);
+    if (/[",\n\r]/.test(s)) return '"' + s.replace(/"/g, '""') + '"';
+    return s;
+  }
+
+  // ── Helpers ──
+  function esc(str: any): string {
+    if (str == null) return '';
+    const div = document.createElement('div');
+    div.textContent = String(str);
+    return div.innerHTML;
+  }
+
+  function formatDate(iso: string): string {
+    if (!iso) return '—';
+    const d = new Date(iso);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  function daysSince(iso: string): number {
+    if (!iso) return 0;
+    const ms = Date.now() - new Date(iso).getTime();
+    return Math.max(0, Math.floor(ms / (1000 * 60 * 60 * 24)));
+  }
+
+  function truncate(s: string, n: number): string {
+    if (!s) return '';
+    return s.length > n ? s.slice(0, n) + '…' : s;
+  }
+</script>

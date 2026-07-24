@@ -142,10 +142,15 @@ export default async function handler(req, res) {
 
     // ── PATCH: Update ticket status/notes ──
     if (req.method === 'PATCH') {
-      const { id, status, notes } = req.body;
+      const { id, ticket_id, status, notes } = req.body;
 
-      if (!id) {
-        return res.status(400).json({ error: 'Missing request id' });
+      // Support both UUID (id) and human-readable (ticket_id) lookup.
+      // Frontend now sends UUID; older callers may send ticket_id.
+      const lookupField = id ? 'id' : (ticket_id ? 'ticket_id' : null);
+      const lookupValue = id || ticket_id;
+
+      if (!lookupField) {
+        return res.status(400).json({ error: 'Missing request id or ticket_id' });
       }
 
       const updates = {};
@@ -165,10 +170,13 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'No updates provided' });
       }
 
+      const encodedValue = encodeURIComponent(lookupValue);
+      const filterQuery = `${lookupField}=eq.${encodedValue}`;
+
       // Fetch the current ticket BEFORE updating so we can detect status changes
       let currentTicket = null;
       if (status) {
-        const fetchRes = await supabaseFetch(`client_requests?ticket_id=eq.${id}&select=*`, {
+        const fetchRes = await supabaseFetch(`client_requests?${filterQuery}&select=*`, {
           method: 'GET',
         });
         if (fetchRes.ok) {
@@ -177,7 +185,7 @@ export default async function handler(req, res) {
         }
       }
 
-      const response = await supabaseFetch(`client_requests?ticket_id=eq.${id}`, {
+      const response = await supabaseFetch(`client_requests?${filterQuery}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -189,11 +197,16 @@ export default async function handler(req, res) {
       if (!response.ok) {
         const errorText = await response.text();
         console.error('Supabase PATCH error:', response.status, errorText);
-        return res.status(500).json({ error: 'Failed to update request' });
+        return res.status(500).json({ error: 'Failed to update request', details: errorText });
       }
 
       const data = await response.json();
       const updatedTicket = Array.isArray(data) ? data[0] : data;
+
+      if (!updatedTicket) {
+        console.error('PATCH matched no rows for', filterQuery);
+        return res.status(404).json({ error: 'Ticket not found' });
+      }
 
       // Send client email if status actually changed
       if (status && currentTicket && currentTicket.status !== status) {
@@ -206,7 +219,7 @@ export default async function handler(req, res) {
 
         if (!lastSent || (now - lastSent) > oneMinute) {
           // Update last_status_email_sent timestamp
-          supabaseFetch(`client_requests?ticket_id=eq.${id}`, {
+          supabaseFetch(`client_requests?${filterQuery}`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ last_status_email_sent: new Date().toISOString() }),
@@ -243,7 +256,7 @@ const EMAIL_STYLES = {
 // ── Admin notification email (existing, refactored) ──
 async function sendAdminNotificationEmail(request) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('[MAIL] RESEND_API_KEY not configured - skipping admin email');
+    console.error('[MAIL] ❌ RESEND_API_KEY not set! Check Vercel environment variables.');
     return;
   }
 
@@ -303,7 +316,7 @@ async function sendAdminNotificationEmail(request) {
 // ── Client confirmation email (new ticket submitted) ──
 async function sendClientConfirmationEmail(request) {
   if (!process.env.RESEND_API_KEY) {
-    console.warn('RESEND_API_KEY not set — skipping client confirmation email');
+    console.error('[MAIL] ❌ RESEND_API_KEY not set! Check Vercel environment variables.');
     return;
   }
 
@@ -418,7 +431,7 @@ async function sendClientStatusEmail(ticket, newStatus, latestNotes) {
     `
     : '';
 
-  await resend.emails.send({
+  const result = await resend.emails.send({
     from: 'Hughey LLC <noreply@notifications.hugheyllc.com>',
     replyTo: 'joe@hugheyllc.com',
     to: ticket.email,

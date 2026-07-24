@@ -33,6 +33,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <!-- Header -->
         <div class="ad-header">
           <h1>Client Requests</h1>
+          <div class="ad-header-actions">
+            <a href="/admin/reports/" class="ad-btn ad-btn-outline">Reports →</a>
+          </div>
         </div>
 
         <!-- Stats -->
@@ -185,6 +188,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     font-family: var(--bas);
     color: var(--white);
     font-size: 1.75rem;
+  }
+
+  .ad-header-actions {
+    display: flex;
+    gap: 10px;
   }
 
   /* Stats */
@@ -362,7 +370,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   .badge-in-progress { background: #D97706; color: #ffffff; }
   .badge-completed { background: #059669; color: #ffffff; }
 
-  .badge-low { background: #374151; color: #e5e7eb; }
+  .badge-low { background: #6B7280; color: #ffffff; }
   .badge-normal { background: #2563EB; color: #ffffff; }
   .badge-high { background: #D97706; color: #ffffff; }
   .badge-urgent { background: #DC2626; color: #ffffff; }
@@ -550,16 +558,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     if (priority !== 'all') params.set('priority', priority);
     if (search) params.set('search', search);
 
+    const hasFilters = status !== 'all' || priority !== 'all' || !!search;
+
     try {
-      const res = await fetch(`/api/client-requests?${params.toString()}`, {
+      const filteredReq = fetch(`/api/client-requests?${params.toString()}`, {
         headers: { 'X-Portal-Password': storedPassword },
       });
+      const statsReq = hasFilters
+        ? fetch('/api/client-requests', { headers: { 'X-Portal-Password': storedPassword } })
+        : filteredReq;
 
-      if (!res.ok) throw new Error('Failed to load');
+      const [filteredRes, statsRes] = await Promise.all([filteredReq, statsReq]);
+      if (!filteredRes.ok) throw new Error('Failed to load');
 
-      allTickets = await res.json();
+      allTickets = await filteredRes.json();
+      const statsTickets = statsRes === filteredRes ? allTickets : await statsRes.json();
+
       renderTickets(allTickets);
-      updateStats(allTickets);
+      updateStats(statsTickets);
     } catch (err) {
       document.getElementById('tickets-body')!.innerHTML =
         '<tr><td colspan="7" class="ad-empty">Failed to load tickets.</td></tr>';
@@ -596,22 +612,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   }
 
   function updateStats(tickets: any[]) {
-    // For stats, we need unfiltered counts — refetch all if filters active
-    const status = (document.getElementById('filter-status') as HTMLSelectElement).value;
-    const hasFilters = status !== 'all';
-
-    if (hasFilters) {
-      // Just show filtered counts
-      document.getElementById('stat-total')!.textContent = String(tickets.length);
-      document.getElementById('stat-open')!.textContent = String(tickets.filter((t) => t.status === 'open').length);
-      document.getElementById('stat-progress')!.textContent = String(tickets.filter((t) => t.status === 'in-progress').length);
-      document.getElementById('stat-done')!.textContent = String(tickets.filter((t) => t.status === 'completed').length);
-    } else {
-      document.getElementById('stat-total')!.textContent = String(tickets.length);
-      document.getElementById('stat-open')!.textContent = String(tickets.filter((t) => t.status === 'open').length);
-      document.getElementById('stat-progress')!.textContent = String(tickets.filter((t) => t.status === 'in-progress').length);
-      document.getElementById('stat-done')!.textContent = String(tickets.filter((t) => t.status === 'completed').length);
-    }
+    document.getElementById('stat-total')!.textContent = String(tickets.length);
+    document.getElementById('stat-open')!.textContent = String(tickets.filter((t) => t.status === 'open').length);
+    document.getElementById('stat-progress')!.textContent = String(tickets.filter((t) => t.status === 'in-progress').length);
+    document.getElementById('stat-done')!.textContent = String(tickets.filter((t) => t.status === 'completed').length);
   }
 
   // Quick status update
@@ -626,10 +630,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         body: JSON.stringify({ id, status: newStatus }),
       });
 
-      if (!res.ok) throw new Error('Update failed');
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.error || 'Update failed');
+      }
       loadTickets();
     } catch (err) {
-      alert('Failed to update status');
+      alert('Failed to update status: ' + (err as Error).message);
     }
   };
 
@@ -695,8 +702,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   (window as any).saveNotes = async function (id: string) {
     const notes = (document.getElementById('modal-notes') as HTMLTextAreaElement).value;
+
     try {
-      await fetch('/api/client-requests', {
+      const res = await fetch('/api/client-requests', {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -704,8 +712,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         },
         body: JSON.stringify({ id, notes }),
       });
-      loadTickets();
-    } catch {}
+      if (res.ok) {
+        loadTickets();
+        document.getElementById('modal')!.style.display = 'none';
+      } else {
+        const err = await res.json().catch(() => ({}));
+        alert('Failed to save notes: ' + (err.error || res.status));
+      }
+    } catch (err) {
+      alert('Error saving notes: ' + err);
+    }
   };
 
   (window as any).updateAndClose = async function (id: string, status: string) {
