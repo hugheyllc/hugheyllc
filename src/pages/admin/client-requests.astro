@@ -724,16 +724,25 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <textarea id="edit-notes" rows="4" placeholder="Add notes..." style="${inputStyle}min-height:80px;resize:vertical;line-height:1.5;">${esc(ticket.notes || '')}</textarea>
       </div>
 
-      <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
-        <button class="ad-btn" id="save-ticket-btn" style="background:var(--gold);color:var(--ink);font-weight:700;padding:10px 24px;cursor:pointer;border:none;border-radius:6px;">Save Changes</button>
-        <span id="save-status" style="color:#10B981;font-size:0.85rem;display:none;">✓ Saved</span>
+      <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;">
+        <div style="display:flex;gap:10px;align-items:center;">
+          <button class="ad-btn" id="save-ticket-btn" style="background:var(--gold);color:var(--ink);font-weight:700;padding:10px 24px;cursor:pointer;border:none;border-radius:6px;">Save Changes</button>
+          <span id="save-status" style="color:#10B981;font-size:0.85rem;display:none;">✓ Saved</span>
+        </div>
+        <button id="delete-ticket-btn" style="background:transparent;color:#EF4444;border:1px solid #EF4444;padding:8px 16px;border-radius:6px;cursor:pointer;font-family:var(--man);font-size:0.8rem;font-weight:600;transition:all 0.2s;">Delete Ticket</button>
       </div>
     `;
 
     // Wire save button
     const ticketId = ticket.id;
+    const ticketLabel = ticket.ticket_id;
     document.getElementById('save-ticket-btn')!.addEventListener('click', () => {
       (window as any).saveTicket(ticketId);
+    });
+
+    // Wire delete button
+    document.getElementById('delete-ticket-btn')!.addEventListener('click', () => {
+      (window as any).deleteTicket(ticketId, ticketLabel);
     });
 
     modal.style.display = 'flex';
@@ -784,6 +793,34 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     } finally {
       btn.textContent = 'Save Changes';
       btn.disabled = false;
+    }
+  };
+
+  (window as any).deleteTicket = async function (id: string, ticketLabel: string) {
+    const deletePassword = prompt(`To delete ${ticketLabel}, enter the delete authorization code:`);
+    if (!deletePassword) return; // cancelled
+
+    if (!confirm(`Are you sure you want to permanently delete ${ticketLabel}? This cannot be undone.`)) return;
+
+    try {
+      const res = await fetch('/api/client-requests', {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Portal-Password': storedPassword,
+        },
+        body: JSON.stringify({ id, delete_password: deletePassword }),
+      });
+
+      if (res.ok) {
+        document.getElementById('modal')!.style.display = 'none';
+        loadTickets();
+      } else {
+        const err = await res.json().catch(() => ({}));
+        alert(err.error || 'Delete failed');
+      }
+    } catch (err) {
+      alert('Error deleting ticket: ' + err);
     }
   };
 

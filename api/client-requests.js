@@ -21,7 +21,7 @@ async function supabaseFetch(path, options = {}) {
 export default async function handler(req, res) {
   // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, OPTIONS');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Portal-Password');
   res.setHeader('Content-Type', 'application/json');
   
@@ -246,6 +246,58 @@ export default async function handler(req, res) {
       }
 
       return res.status(200).json({ success: true, data: updatedTicket });
+    }
+
+    // ── DELETE: Remove ticket (requires elevated password) ──
+    if (req.method === 'DELETE') {
+      const { id, ticket_id, delete_password } = req.body || {};
+
+      const deletePassword = process.env.DELETE_PASSWORD;
+      if (!deletePassword) {
+        console.error('DELETE_PASSWORD not configured on server');
+        return res.status(500).json({ error: 'Delete not configured. Contact administrator.' });
+      }
+
+      if (!delete_password || delete_password !== deletePassword) {
+        return res.status(403).json({ error: 'Invalid delete authorization code.' });
+      }
+
+      const lookupField = id ? 'id' : (ticket_id ? 'ticket_id' : null);
+      const lookupValue = id || ticket_id;
+
+      if (!lookupField) {
+        return res.status(400).json({ error: 'Missing request id or ticket_id' });
+      }
+
+      const encodedValue = encodeURIComponent(lookupValue);
+      const filterQuery = `${lookupField}=eq.${encodedValue}`;
+
+      // Fetch ticket first so we can log what was deleted
+      const fetchRes = await supabaseFetch(`client_requests?${filterQuery}&select=*`, {
+        method: 'GET',
+      });
+      let ticketInfo = null;
+      if (fetchRes.ok) {
+        const fetchData = await fetchRes.json();
+        ticketInfo = Array.isArray(fetchData) ? fetchData[0] : fetchData;
+      }
+
+      if (!ticketInfo) {
+        return res.status(404).json({ error: 'Ticket not found' });
+      }
+
+      const response = await supabaseFetch(`client_requests?${filterQuery}`, {
+        method: 'DELETE',
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Supabase DELETE error:', response.status, errorText);
+        return res.status(500).json({ error: 'Failed to delete request' });
+      }
+
+      console.log(`[TICKET] DELETED ${ticketInfo.ticket_id} (${ticketInfo.client_name}) by authorized user`);
+      return res.status(200).json({ success: true, deleted: ticketInfo.ticket_id });
     }
 
     return res.status(405).json({ error: 'Method not allowed' });
