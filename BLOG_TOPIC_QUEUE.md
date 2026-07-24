@@ -22,7 +22,7 @@
 9. Building an Internal Referral Program: How to Get Partners and Staff Generating Leads (Published 2026-07-22)
 10. Attorney-to-Attorney Referral Networks: The Untapped Marketing Channel Most Firms Ignore (Published 2026-07-22)
 11. Strategic Partnerships With Accountants, Financial Advisors, and Business Consultants (Published 2026-07-23)
-12. Co-Marketing Opportunities: Growing Your Firm by Partnering With Complementary Services
+12. Co-Marketing Opportunities: Growing Your Firm by Partnering With Complementary Services (Published 2026-07-24)
 13. Bar Association Networking: Turning Membership Into Real Business Development
 14. Industry-Specific Referral Sources: Who Sends Your Practice Area the Most Consistent Leads
 15. Referral Fee Structures and Marketing: Designing Programs That Actually Work
