@@ -489,6 +489,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 
 
+  /* Edit grid in modal */
+  .edit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  @media (max-width: 520px) {
+    .edit-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
   @media (max-width: 768px) {
     .ad-stats {
       grid-template-columns: repeat(2, 1fr);
@@ -640,7 +653,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     }
   };
 
-  // Detail modal
+  // Detail modal — fully editable
   (window as any).showDetail = function (id: string) {
     const ticket = allTickets.find((t) => t.id === id);
     if (!ticket) return;
@@ -648,60 +661,103 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     const modal = document.getElementById('modal')!;
     const body = document.getElementById('modal-body')!;
 
+    const inputStyle = 'width:100%;padding:8px 12px;background:#1a2940;border:1px solid rgba(200,151,58,0.3);border-radius:6px;color:#ffffff;font-family:var(--man);font-size:0.9rem;';
+    const labelStyle = 'color:#d1d5db;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;margin-bottom:4px;display:block;';
+    const selectStyle = inputStyle + 'cursor:pointer;';
+
+    const priorityOpts = ['low', 'normal', 'high', 'urgent'].map(
+      (p) => `<option value="${p}" ${ticket.priority === p ? 'selected' : ''}>${p.charAt(0).toUpperCase() + p.slice(1)}</option>`
+    ).join('');
+
+    const statusOpts = ['open', 'in-progress', 'completed'].map(
+      (s) => `<option value="${s}" ${ticket.status === s ? 'selected' : ''}>${s === 'in-progress' ? 'In Progress' : s.charAt(0).toUpperCase() + s.slice(1)}</option>`
+    ).join('');
+
+    const typeOpts = ['Website Update', 'Content Strategy', 'SEO Audit', 'PPC Campaign', 'General Consulting', 'Other'].map(
+      (t) => `<option value="${t}" ${ticket.request_type === t ? 'selected' : ''}>${t}</option>`
+    ).join('') + ((['Website Update', 'Content Strategy', 'SEO Audit', 'PPC Campaign', 'General Consulting', 'Other'].includes(ticket.request_type)) ? '' : `<option value="${esc(ticket.request_type)}" selected>${esc(ticket.request_type)}</option>`);
+
     body.innerHTML = `
-      <h2 style="font-family:var(--bas);color:var(--white);font-size:1.3rem;margin-bottom:20px;">
-        <span style="color:var(--gold);font-family:var(--bar);letter-spacing:1px;">${esc(ticket.ticket_id)}</span>
+      <h2 style="font-family:var(--bas);color:var(--gold);font-size:1.3rem;margin-bottom:4px;">
+        ${esc(ticket.ticket_id)}
       </h2>
+      <p style="color:#9ca3af;font-size:0.8rem;margin:0 0 20px;">Created ${formatDate(ticket.created_at)}</p>
 
-      <div class="detail-row">
-        <span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Client</span>
-        <span class="detail-value" style="color:#ffffff !important;">${esc(ticket.client_name)}</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Email</span>
-        <span class="detail-value" style="color:#ffffff !important;"><a href="mailto:${esc(ticket.email)}" style="color:var(--gold) !important;">${esc(ticket.email)}</a></span>
-      </div>
-      ${ticket.phone ? `<div class="detail-row"><span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Phone</span><span class="detail-value" style="color:#ffffff !important;"><a href="tel:${esc(ticket.phone)}" style="color:var(--gold) !important;">${esc(ticket.phone)}</a></span></div>` : ''}
-      <div class="detail-row">
-        <span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Type</span>
-        <span class="detail-value" style="color:#ffffff !important;">${esc(ticket.request_type)}</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Priority</span>
-        <span class="detail-value" style="color:#ffffff !important;"><span class="badge badge-${ticket.priority}">${esc(ticket.priority)}</span></span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Status</span>
-        <span class="detail-value" style="color:#ffffff !important;"><span class="badge badge-${ticket.status}">${esc(ticket.status)}</span></span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Created</span>
-        <span class="detail-value" style="color:#ffffff !important;">${formatDate(ticket.created_at)}</span>
-      </div>
-      ${ticket.due_date ? `<div class="detail-row"><span class="detail-label" style="color:#d1d5db !important;font-weight:600 !important;">Due Date</span><span class="detail-value" style="color:#ffffff !important;">${esc(ticket.due_date)}</span></div>` : ''}
-
-      <h3 style="color:#ffffff !important;font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-top:20px;margin-bottom:8px;font-weight:700 !important;">Description</h3>
-      <div class="detail-desc" style="color:#ffffff !important;background:rgba(0,0,0,0.4) !important;">${esc(ticket.description)}</div>
-
-      <div class="detail-notes">
-        <h3 style="color:#ffffff !important;font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;font-weight:700 !important;">Internal Notes</h3>
-        <textarea id="modal-notes" rows="8" placeholder="Add notes..." style="width:100% !important;min-height:120px !important;padding:12px !important;background:#1a2940 !important;border:1px solid rgba(200,151,58,0.4) !important;border-radius:6px !important;color:#ffffff !important;font-family:var(--man) !important;font-size:0.95rem !important;resize:vertical !important;line-height:1.5 !important;">${esc(ticket.notes || '')}</textarea>
-        <button class="ad-btn" style="margin-top:12px !important;background:var(--gold) !important;color:var(--ink) !important;border:1px solid var(--gold) !important;font-weight:700 !important;padding:10px 20px !important;cursor:pointer !important;" onclick="saveNotes('${ticket.id}')">Save Notes</button>
+      <div class="edit-grid">
+        <div class="edit-field">
+          <label style="${labelStyle}">Client Name</label>
+          <input id="edit-client" type="text" value="${esc(ticket.client_name)}" style="${inputStyle}" />
+        </div>
+        <div class="edit-field">
+          <label style="${labelStyle}">Email</label>
+          <input id="edit-email" type="email" value="${esc(ticket.email)}" style="${inputStyle}" />
+        </div>
+        <div class="edit-field">
+          <label style="${labelStyle}">Phone</label>
+          <input id="edit-phone" type="text" value="${esc(ticket.phone || '')}" placeholder="Optional" style="${inputStyle}" />
+        </div>
+        <div class="edit-field">
+          <label style="${labelStyle}">Request Type</label>
+          <select id="edit-type" style="${selectStyle}">${typeOpts}</select>
+        </div>
+        <div class="edit-field">
+          <label style="${labelStyle}">Priority</label>
+          <select id="edit-priority" style="${selectStyle}">${priorityOpts}</select>
+        </div>
+        <div class="edit-field">
+          <label style="${labelStyle}">Status</label>
+          <select id="edit-status" style="${selectStyle}">${statusOpts}</select>
+        </div>
+        <div class="edit-field">
+          <label style="${labelStyle}">Due Date</label>
+          <input id="edit-due" type="date" value="${ticket.due_date || ''}" style="${inputStyle}" />
+        </div>
       </div>
 
-      <div class="detail-actions" style="padding:16px !important;background:rgba(200,151,58,0.08) !important;border:1px solid rgba(200,151,58,0.2) !important;border-radius:8px !important;margin-top:20px !important;">
-        <p style="color:#ffffff !important;font-size:0.75rem;font-weight:700 !important;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:12px;margin-top:0 !important;">Update Status</p>
-        <button class="ad-btn ad-btn-sm" style="${ticket.status === 'open' ? 'background:#3B82F6 !important;color:#ffffff !important;border:1px solid #3B82F6 !important;font-weight:700 !important;' : 'background:#2d3e57 !important;color:#ffffff !important;border:1px solid #3d4d63 !important;'}padding:8px 12px !important;margin:4px 4px 4px 0 !important;" onclick="updateAndClose('${ticket.id}','open')">Open</button>
-        <button class="ad-btn ad-btn-sm" style="${ticket.status === 'in-progress' ? 'background:#F59E0B !important;color:#000000 !important;border:1px solid #F59E0B !important;font-weight:700 !important;' : 'background:#2d3e57 !important;color:#ffffff !important;border:1px solid #3d4d63 !important;'}padding:8px 12px !important;margin:4px 4px 4px 0 !important;" onclick="updateAndClose('${ticket.id}','in-progress')">In Progress</button>
-        <button class="ad-btn ad-btn-sm" style="${ticket.status === 'completed' ? 'background:#10B981 !important;color:#ffffff !important;border:1px solid #10B981 !important;font-weight:700 !important;' : 'background:#2d3e57 !important;color:#ffffff !important;border:1px solid #3d4d63 !important;'}padding:8px 12px !important;margin:4px 4px 4px 0 !important;" onclick="updateAndClose('${ticket.id}','completed')">Done</button>
+      <div style="margin-top:16px;">
+        <label style="${labelStyle}">Description</label>
+        <textarea id="edit-desc" rows="5" style="${inputStyle}min-height:100px;resize:vertical;line-height:1.5;">${esc(ticket.description || '')}</textarea>
+      </div>
+
+      <div style="margin-top:16px;">
+        <label style="${labelStyle}">Internal Notes</label>
+        <textarea id="edit-notes" rows="4" placeholder="Add notes..." style="${inputStyle}min-height:80px;resize:vertical;line-height:1.5;">${esc(ticket.notes || '')}</textarea>
+      </div>
+
+      <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+        <button class="ad-btn" id="save-ticket-btn" style="background:var(--gold);color:var(--ink);font-weight:700;padding:10px 24px;cursor:pointer;border:none;border-radius:6px;">Save Changes</button>
+        <span id="save-status" style="color:#10B981;font-size:0.85rem;display:none;">✓ Saved</span>
       </div>
     `;
+
+    // Wire save button
+    const ticketId = ticket.id;
+    document.getElementById('save-ticket-btn')!.addEventListener('click', () => {
+      (window as any).saveTicket(ticketId);
+    });
 
     modal.style.display = 'flex';
   };
 
-  (window as any).saveNotes = async function (id: string) {
-    const notes = (document.getElementById('modal-notes') as HTMLTextAreaElement).value;
+  (window as any).saveTicket = async function (id: string) {
+    const btn = document.getElementById('save-ticket-btn') as HTMLButtonElement;
+    const statusEl = document.getElementById('save-status')!;
+    btn.textContent = 'Saving...';
+    btn.disabled = true;
+    statusEl.style.display = 'none';
+
+    const payload: Record<string, any> = {
+      id,
+      client_name: (document.getElementById('edit-client') as HTMLInputElement).value.trim(),
+      email: (document.getElementById('edit-email') as HTMLInputElement).value.trim(),
+      phone: (document.getElementById('edit-phone') as HTMLInputElement).value.trim(),
+      request_type: (document.getElementById('edit-type') as HTMLSelectElement).value,
+      priority: (document.getElementById('edit-priority') as HTMLSelectElement).value,
+      status: (document.getElementById('edit-status') as HTMLSelectElement).value,
+      due_date: (document.getElementById('edit-due') as HTMLInputElement).value || null,
+      description: (document.getElementById('edit-desc') as HTMLTextAreaElement).value,
+      notes: (document.getElementById('edit-notes') as HTMLTextAreaElement).value,
+    };
 
     try {
       const res = await fetch('/api/client-requests', {
@@ -710,23 +766,25 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           'Content-Type': 'application/json',
           'X-Portal-Password': storedPassword,
         },
-        body: JSON.stringify({ id, notes }),
+        body: JSON.stringify(payload),
       });
       if (res.ok) {
+        statusEl.textContent = '✓ Saved';
+        statusEl.style.display = 'inline';
         loadTickets();
-        document.getElementById('modal')!.style.display = 'none';
+        setTimeout(() => {
+          document.getElementById('modal')!.style.display = 'none';
+        }, 600);
       } else {
         const err = await res.json().catch(() => ({}));
-        alert('Failed to save notes: ' + (err.error || res.status));
+        alert('Failed to save: ' + (err.error || res.status));
       }
     } catch (err) {
-      alert('Error saving notes: ' + err);
+      alert('Error saving ticket: ' + err);
+    } finally {
+      btn.textContent = 'Save Changes';
+      btn.disabled = false;
     }
-  };
-
-  (window as any).updateAndClose = async function (id: string, status: string) {
-    await (window as any).quickStatus(id, status);
-    document.getElementById('modal')!.style.display = 'none';
   };
 
   // Close modal
@@ -758,4 +816,3 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     });
   }
 </script>
-/* Deploy trigger: 1784768909 */

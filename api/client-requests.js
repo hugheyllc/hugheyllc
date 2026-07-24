@@ -142,7 +142,7 @@ export default async function handler(req, res) {
 
     // ── PATCH: Update ticket status/notes ──
     if (req.method === 'PATCH') {
-      const { id, ticket_id, status, notes } = req.body;
+      const { id, ticket_id, status, notes, client_name, email, phone, request_type, priority, description, due_date } = req.body;
 
       // Support both UUID (id) and human-readable (ticket_id) lookup.
       // Frontend now sends UUID; older callers may send ticket_id.
@@ -162,8 +162,19 @@ export default async function handler(req, res) {
         updates.status = status;
       }
 
-      if (notes !== undefined) {
-        updates.notes = notes;
+      if (notes !== undefined) updates.notes = notes;
+      if (client_name !== undefined) updates.client_name = client_name;
+      if (email !== undefined) updates.email = email;
+      if (phone !== undefined) updates.phone = phone || null;
+      if (request_type !== undefined) updates.request_type = request_type;
+      if (description !== undefined) updates.description = description;
+      if (due_date !== undefined) updates.due_date = due_date || null;
+      if (priority !== undefined) {
+        const validPriorities = ['low', 'normal', 'high', 'urgent'];
+        if (!validPriorities.includes(priority)) {
+          return res.status(400).json({ error: 'Invalid priority. Must be: low, normal, high, or urgent' });
+        }
+        updates.priority = priority;
       }
 
       if (Object.keys(updates).length === 0) {
