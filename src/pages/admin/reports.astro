@@ -228,7 +228,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   }
 
   .rep-stat-label {
-    color: var(--dim);
+    color: #d1d5db !important;
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -242,8 +242,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   /* Sections */
   .rep-section {
-    background: var(--navy);
-    border: 1px solid var(--steel);
+    background: var(--navy) !important;
+    border: 1px solid rgba(200, 151, 58, 0.2) !important;
     border-radius: 10px;
     padding: 24px;
     margin-bottom: 20px;
@@ -251,16 +251,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   .rep-section h2 {
     font-family: var(--bas);
-    color: var(--white);
+    color: #ffffff !important;
     font-size: 1.15rem;
     margin-bottom: 16px;
-    border-bottom: 1px solid var(--steel);
+    border-bottom: 1px solid rgba(200, 151, 58, 0.25) !important;
     padding-bottom: 10px;
   }
 
   .rep-section h3 {
     font-family: var(--bar);
-    color: var(--white);
+    color: #ffffff !important;
     font-size: 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -271,8 +271,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   /* Tables */
   .rep-table-wrap {
     overflow-x: auto;
-    background: var(--navy);
-    border: 1px solid var(--steel);
+    background: var(--navy) !important;
+    border: 1px solid rgba(200, 151, 58, 0.25) !important;
     border-radius: 10px;
   }
 
@@ -285,27 +285,32 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   .rep-table th {
     text-align: left;
     padding: 12px 16px;
-    color: var(--dim);
+    color: #d1d5db !important;
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 1px solid var(--steel);
+    border-bottom: 2px solid rgba(200, 151, 58, 0.3) !important;
     white-space: nowrap;
+    background: rgba(0, 0, 0, 0.2) !important;
   }
 
   .rep-table td {
     padding: 12px 16px;
-    color: #ffffff;
-    border-bottom: 1px solid rgba(36, 58, 102, 0.5);
+    color: #ffffff !important;
+    border-bottom: 1px solid rgba(200, 151, 58, 0.12) !important;
     vertical-align: top;
   }
 
+  .rep-table tbody tr:hover {
+    background: rgba(200, 151, 58, 0.05);
+  }
+
   .rep-table tr:last-child td {
-    border-bottom: none;
+    border-bottom: none !important;
   }
 
   .rep-desc {
-    color: #d1d5db;
+    color: #e5e7eb !important;
     font-size: 0.85rem;
     max-width: 380px;
     line-height: 1.5;
@@ -313,7 +318,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   }
 
   .rep-notes {
-    color: #d1d5db;
+    color: #e5e7eb !important;
     font-size: 0.8rem;
     font-style: italic;
     max-width: 300px;
@@ -361,7 +366,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     background: rgba(36, 58, 102, 0.6);
     border-radius: 6px;
     font-size: 0.78rem;
-    color: #ffffff;
+    color: #ffffff !important;
   }
 
   .rep-status-chip strong {
