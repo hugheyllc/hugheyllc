@@ -120,8 +120,6 @@ You should have read-only access to your own GA4 and Google Ads. If they refuse,
 
 Start with the [free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it covers brand consistency, landing page performance, and competitor benchmarking. Use it alongside this post for a complete picture.
 
----
-
 ## Related Reading
 
 - [How to Evaluate Your Law Firm's Current Marketing Agency](/blog/accountability-law-firm-marketing-agency-vs-consultant/)

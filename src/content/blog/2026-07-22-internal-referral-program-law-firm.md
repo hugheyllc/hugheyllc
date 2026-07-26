@@ -156,14 +156,10 @@ The goal isn't to replace your [lead tracking and referral systems](/blog/law-fi
 
 Internal referrals don't scale like a Google Ads campaign. But they don't cost like one either. And the clients they generate tend to be better fits, higher-value relationships, and more likely to refer others in turn.
 
----
-
 ## Related Reading
 
 - [Client Retention Strategies for Law Firms: Beyond the Retainer Model](/blog/client-retention-strategies-law-firms)
 - [Law Firm Referral Tracking: Measuring What's Actually Driving New Business](/blog/law-firm-referral-tracking)
 - [What High-Growth Law Firms Do Differently in Marketing](/blog/what-high-growth-law-firms-do-differently-marketing)
-
----
 
 *Joe Hughey is a law firm marketing consultant based in St. Petersburg, FL. He works exclusively with law firms on marketing strategy, agency oversight, and business development. [Schedule a conversation.](/contact)*

@@ -97,8 +97,6 @@ Referral relationships show results in 30-90 days. SEO and content take 6-12 mon
 
 It depends on your team's language capability. If no one on your marketing team speaks your target language fluently, you'll need either a consultant or agency with native-speaker capability. Multilingual marketing isn't just translation—it's cultural adaptation.
 
----
-
 Immigration law firm marketing isn't about spending more—it's about spending differently. Most immigration firms can build a sustainable practice by systematizing referrals, creating community trust, and building original multilingual content. That's a marketing engine that scales without requiring a six-figure annual ad budget. If you're ready to build this system for your firm, [let's talk](/contact/).
 
 ### Related Reading

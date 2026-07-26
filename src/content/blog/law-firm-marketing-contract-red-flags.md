@@ -113,8 +113,6 @@ Review the termination clause closely. Some include exceptions for "material bre
 ### Do I need a lawyer to review a marketing contract?
 For larger retainers (over $5K/month), yes. For smaller contracts, at minimum review it yourself using these red flags and ask the agency direct questions. A lawyer familiar with vendor contracts will catch nuances you miss, but this post covers 80% of the structural problems I see repeatedly.
 
----
-
 ### Related Reading
 
 - [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](/blog/agency-vs-consultant-law-firm-marketing/)

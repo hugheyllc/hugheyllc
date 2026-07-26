@@ -100,8 +100,6 @@ Ask three questions: Are you tracking our visibility in AI Overviews? Can I inde
 
 Not yet. The advance notice requirement currently only applies in the UK under the CMA ruling. However, the precedent is set. The DOJ's antitrust case against Google could result in similar transparency requirements in the US. Firms that build their own monitoring systems now won't need to rely on Google's disclosures when they eventually come.
 
----
-
 ## Take Control of Your Firm's Search Visibility
 
 The rules around search transparency are changing. The question is whether your firm will be ahead of the curve or reacting after the damage is done.

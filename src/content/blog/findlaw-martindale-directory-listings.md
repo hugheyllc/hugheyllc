@@ -93,8 +93,6 @@ The right question isn't "is FindLaw worth it?" It's "is my FindLaw spend produc
 
 If you'd like a second set of eyes on your current directory contracts, attribution setup, or marketing mix, [let's talk](/contact/). I'll help you see what's actually driving retained clients — and where the budget would work harder somewhere else.
 
----
-
 *Related:*
 
 - [Why Tampa Law Firms Are Moving Away From Directory-Dependent Marketing](/blog/tampa-law-firms-leaving-legal-directories/)

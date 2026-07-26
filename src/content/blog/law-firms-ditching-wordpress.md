@@ -82,7 +82,6 @@ This is the stack we use for our [law firm website development projects](/servic
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Why Your Law Firm's Website Is Losing Clients Before They Even Call](/blog/law-firm-website-losing-clients/)

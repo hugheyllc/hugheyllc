@@ -90,6 +90,4 @@ Similarly, if you're running paid campaigns and your reputation profile is weak,
 
 If your review strategy needs a reset, or you want a full audit of how your online reputation is affecting your search visibility and client acquisition, [get in touch](/contact/). We work with law firms who are serious about building a reputation that converts.
 
----
-
 *Related: [Google Business Profile Optimization for Law Firms: Beyond the Basics](/blog/google-business-profile-law-firm-optimization/) | [Technical SEO Wins Every Law Firm Overlooks](/blog/technical-seo-law-firms-overlooked/)*

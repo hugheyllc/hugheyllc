@@ -76,8 +76,6 @@ Most firms are at step one, partially. Steps two through five are where the actu
 
 The firms that systematically track and nurture referral relationships end up with a compounding asset. The relationships that send today keep sending — because those firms actually know who's sending, treat those sources well, and can see when the pipeline is thinning before it dries up.
 
----
-
 *Tracking where your best clients actually come from is foundational to any marketing strategy. If you're not sure whether your current system is giving you accurate data, the attribution guide in the resources section is a good starting point.*
 
 ## Frequently Asked Questions

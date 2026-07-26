@@ -84,7 +84,6 @@ Ask them for a report showing cost per retained client by campaign — not click
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Google Ads Quality Score for Law Firms: Why It Matters and How to Improve It](/blog/law-firm-google-ads-quality-score/)

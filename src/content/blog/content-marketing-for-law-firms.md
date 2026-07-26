@@ -28,8 +28,6 @@ The fundamental problem is simple: most law firms write for Google, not for the 
 
 Fix the premise first: every piece of content you publish should answer a real question a real client asked you — or would ask you — in a consultation.
 
----
-
 ## The Right Content Types and What Each One Does
 
 Not all content serves the same purpose. Mixing them up wastes time and kills your conversion rate.
@@ -41,8 +39,6 @@ Not all content serves the same purpose. Mixing them up wastes time and kills yo
 **FAQs** are underused and undervalued. A well-built FAQ page for a family law practice — covering questions like "Will I lose my house in a divorce?" or "Can my ex take my kids out of state without permission?" — does two things simultaneously. It ranks for long-tail, high-intent search queries, and it pre-qualifies prospects by giving them enough information to understand why they need representation. FAQs also reduce the time your intake staff spends answering the same questions over the phone.
 
 **Case results** (where ethics rules permit) build credibility faster than any other content type. Not generic "$1.2 million verdict" headlines — specific narratives. "Our client, a construction worker injured when scaffolding collapsed, was initially offered $40,000 by the insurance company. We took the case to trial and recovered $875,000." That story converts. It shows process, outcome, and the gap between what the other side offers and what a good lawyer actually gets. (Just review [Florida Bar advertising rules](/blog/florida-bar-law-firm-advertising-rules/) and the [Florida Bar Rules of Professional Conduct](https://www.floridabar.org/rules/rrtfb/) before publishing any case-result content.)
-
----
 
 ## Match Your Content to the Intake Journey
 
@@ -56,8 +52,6 @@ People move through predictable stages before they hire a lawyer. Your content s
 
 Build content intentionally for each stage. A firm that only publishes blog posts is missing the people who are ready to hire. A firm that only has practice area pages is invisible to the people who are still figuring out if they have a claim.
 
----
-
 ## A Realistic Editorial Calendar for a Small Firm
 
 You don't need a content agency. You need a system.
@@ -67,8 +61,6 @@ Here's what works for a two to five attorney firm: **two blog posts per month, o
 For the blog posts, pull your topics directly from intake calls. Tell your intake coordinator to log every question a prospect asks before they hire you. After thirty days, you'll have twenty content topics that are guaranteed to match actual search intent, because they came from actual people searching for answers.
 
 Schedule writing time like you schedule depositions. Block two hours at the start of each month. Write both posts in one session if you can. If you hate writing, record yourself answering a question, transcribe it, and edit the transcript into a post. Your voice is already in there — that makes it better content than anything a generic writer who doesn't know your practice will produce.
-
----
 
 ## Measuring Whether Content Is Driving Cases, Not Just Traffic
 
@@ -81,8 +73,6 @@ Traffic is vanity. Cases are the business. I push every firm I work with to trac
 **Keyword ranking for high-intent terms.** Not vanity keywords. Track whether you're ranking in the top five for "[your city] + [practice area] + lawyer," and track whether calls from organic search increase when rankings improve.
 
 Set a quarterly review. Pull the data, identify which content is actually producing consultations, and produce more content like it. Kill or rewrite the content that gets traffic but no calls.
-
----
 
 ## The Publishing Mistake That Quietly Kills Your Results
 
@@ -115,7 +105,6 @@ Realistic timeline: 6–9 months to see meaningful organic traffic from new cont
 Three categories convert disproportionately: (1) "How much is my case worth" style settlement-value content, (2) process-focused content like "what to expect in a Florida divorce" or "what happens after a car accident," and (3) detailed case results pages with anonymized specifics. Generic "what is personal injury law" content gets traffic but rarely converts. Write for someone who knows they have a problem — not someone learning about the field.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

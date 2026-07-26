@@ -85,8 +85,6 @@ Marketing without metrics is gambling. The scorecard above turns your marketing 
 
 For a step-by-step walkthrough, grab the free [25-point marketing audit checklist](/resources/marketing-audit-checklist/). It covers everything from tracking setup to optimization priorities.
 
----
-
 *Related:*
 - [Lead Quality vs. Lead Volume: Why Law Firms Measure the Wrong Metrics](/blog/lead-quality-vs-volume-law-firm-metrics/)
 - [How to Calculate Your True Cost Per Retained Client](/blog/cost-per-retained-client-law-firm/)

@@ -137,7 +137,6 @@ Yes, and it's underrated. Co-counseling with established firms while you build y
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Personal Injury Attorney Marketing in Tampa: The Local Playbook for a Competitive Market](/blog/personal-injury-attorney-marketing-tampa/)

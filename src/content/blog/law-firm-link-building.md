@@ -72,7 +72,6 @@ Link building is a long-term initiative — most strategies take 6–12 months t
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [What Is E-E-A-T and Why It's the Most Important SEO Concept for Law Firms](/blog/eeat-law-firm-seo/)

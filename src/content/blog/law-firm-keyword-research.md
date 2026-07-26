@@ -92,7 +92,6 @@ This map becomes your editorial calendar — ensuring every piece of content tar
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Keyword Research for Lawyers: How to Find the Terms That Actually Bring in Cases](/blog/lawyer-keyword-research/)

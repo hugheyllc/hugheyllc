@@ -137,7 +137,6 @@ E-E-A-T is a long-term investment in the credentials and authority signals that 
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [How Law Firms Build Backlinks Without Paying for Them](/blog/law-firm-link-building/)

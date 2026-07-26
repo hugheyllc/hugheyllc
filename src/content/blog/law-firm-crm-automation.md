@@ -60,7 +60,6 @@ The automation workflow produces its maximum value when connected to the [full a
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Why Speed-to-Contact Is the #1 Driver of Law Firm Growth](/blog/law-firm-intake-speed/)

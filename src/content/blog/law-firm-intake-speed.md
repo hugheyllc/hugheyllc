@@ -88,7 +88,6 @@ The firms winning in your market aren't necessarily spending more on marketing. 
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](/blog/law-firm-crm-automation/)

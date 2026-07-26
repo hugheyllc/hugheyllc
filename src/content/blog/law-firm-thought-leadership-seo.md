@@ -17,8 +17,6 @@ Law firms become known as experts in their field the same way anyone does: they 
 
 The gap between content marketing and thought leadership is worth naming. Content marketing is writing about your practice areas to rank for search terms. Thought leadership is staking out a point of view, demonstrating judgment, and publishing work that other professionals cite and reference. You want both. But most firms only get the first one, and wonder why their content doesn't move the needle.
 
----
-
 ## Why Thought Leadership Is an SEO Asset, Not Just a Reputation Play
 
 Google's algorithm rewards what it calls **E-E-A-T**: Experience, Expertise, Authoritativeness, and Trustworthiness. For law firms, this is not abstract. It means that the attorneys on your site need to be demonstrably real experts—with bylines, citations, speaking records, and external mentions that Google can verify.
@@ -26,8 +24,6 @@ Google's algorithm rewards what it calls **E-E-A-T**: Experience, Expertise, Aut
 When your partners publish in legal trade publications, contribute to bar association newsletters, get quoted in news coverage, or write analysis pieces that other legal blogs link to, Google notices. Those external signals feed directly into your domain authority and help your practice area pages rank. Publishing on external sites absolutely helps law firm SEO—provided those sites have genuine authority themselves and the content links back to your domain with relevant anchor text.
 
 This is the same logic behind [the link-building playbook law firms won't talk about](/blog/law-firm-link-building-strategy/): earned links from credible third-party sources are worth more than almost any on-page optimization you can do. Thought leadership content is one of the most reliable ways to earn them.
-
----
 
 ## The Operating System: Four Components That Work Together
 
@@ -66,8 +62,6 @@ Thought leadership drives traffic with intent. Make sure the destination is read
 
 Similarly, if you're putting money behind paid search while building organic authority, make sure you understand [the math on paid search vs. organic SEO for law firms](/blog/paid-search-vs-seo-law-firms/) so you're not over-investing in one channel while neglecting the other.
 
----
-
 ## What Derails Thought Leadership Programs
 
 A few patterns kill these programs reliably:
@@ -80,8 +74,6 @@ A few patterns kill these programs reliably:
 
 **Ignoring the technical foundation.** Thought leadership content won't rank if your site has technical problems that suppress crawling and indexing. The authority you build externally has to flow back to a site that Google can properly read. [Technical SEO wins every law firm overlooks](/blog/technical-seo-law-firms-overlooked/) covers the issues that quietly undercut content investment.
 
----
-
 ## The Long Game
 
 **Thought leadership for law firms** is not a campaign. It doesn't have a start and end date. It's an ongoing practice that builds compounding returns—more citations, more links, more name recognition, more inbound inquiries from people who already consider your attorneys credible before they pick up the phone.
@@ -89,7 +81,5 @@ A few patterns kill these programs reliably:
 The firms that do this well don't have bigger marketing budgets. They have a clearer strategy, a realistic publishing cadence, and the discipline to distribute what they produce. They also have the infrastructure to convert the interest that authority generates.
 
 If you want to build an authority strategy that actually drives rankings and client acquisition—not just a content library no one reads—[reach out here](/contact/). We work with law firms that are serious about the long game.
-
----
 
 *Related: [The Link-Building Playbook Law Firms Won't Talk About](/blog/law-firm-link-building-strategy/) | [The Law Firm Content Calendar Nobody Follows (And Why You Need One Anyway)](/blog/law-firm-content-calendar-strategy/)*

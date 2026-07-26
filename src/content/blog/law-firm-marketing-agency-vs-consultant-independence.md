@@ -140,8 +140,6 @@ Request your data and account access 30 days before the end of your agency contr
 
 Yes, and it's becoming more common. Many firms bring in a consultant for 8–10 hours monthly to review strategy, audit spend, and keep the agency honest. The consultant acts as your internal advocate and doesn't bill for execution, only for thinking. This hybrid model often surfaces $500–$2K monthly in wasted spend within the first 90 days.
 
----
-
 The law firm marketing agency vs. consultant decision isn't really about size or cost—it's about who owns the outcome when something doesn't work. Agencies are built to manage risk through diversification. Consultants own risk directly.
 
 Pick the model that aligns with what your firm actually needs right now. And if you're unsure whether your current setup is serving you, [reach out to discuss your situation](/contact/). I often help firms diagnose whether they're working with the right vendor structure before making a change.

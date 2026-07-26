@@ -142,7 +142,6 @@ Yes. FAQ schema is one of the most reliably extracted patterns by both Google's 
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [AEO / AIO Advertising for Law Firms: The 2025 Playbook for Paid AI Visibility](/blog/https-joehughey-com-aeo-aio-advertising-for-law-firms-the-2025-playbook-for-paid-ai-visibility/)

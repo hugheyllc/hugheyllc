@@ -16,8 +16,6 @@ keywords: ['SEO audit', 'Florida law firms', 'local SEO audit', 'website optimiz
 
 A proper **SEO audit for law firms in Florida** should tell you two things clearly: where your site is losing potential clients right now, and whether the money you're spending on SEO is doing anything at all. If your current vendor can't answer both of those questions with data, you don't have an SEO strategy — you have a retainer. Most law firms in Florida have never seen a real audit. What they've seen is a 40-page PDF with green checkmarks, a few keyword rankings, and a traffic graph pointed vaguely upward. That's a sales document dressed as an audit. This post breaks down what a legitimate audit actually covers, what the most common blind spots are for Florida firms specifically, and how to stop paying for SEO you can't evaluate.
 
----
-
 ## What a Real SEO Audit Actually Covers
 
 Let's start with structure. A legitimate **SEO audit for law firms** isn't a single deliverable — it's a diagnostic across four distinct areas. Miss any one of them and you're working with incomplete information.
@@ -68,8 +66,6 @@ A real backlink audit looks at:
 - **Competitive gap analysis** — What are the top-ranking firms in your market doing that you aren't? Where do they have links that you don't?
 - **Anchor text profile** — Over-optimized anchor text (too many links using exact-match keywords) is a flag that can trigger algorithmic penalties.
 
----
-
 ## The Biggest SEO Mistakes Florida Law Firms Make
 
 After looking at a lot of law firm websites, certain patterns show up repeatedly.
@@ -82,8 +78,6 @@ After looking at a lot of law firm websites, certain patterns show up repeatedly
 
 **Not tracking cost per retained client.** SEO spend without a clear view of what a retained client actually costs you is an open checkbook. [Clio's annual Legal Trends Report](https://www.clio.com/resources/legal-trends/) documents how few law firms track meaningful marketing ROI—making it easy for vendors to obscure underperformance. Before you evaluate whether your SEO is working, you need to know what "working" means in dollars. [Calculating your true cost per retained client](/blog/how-to-calculate-your-true-cost-per-retained-client/) gives you the framework to do that.
 
----
-
 ## How Do You Know If Your SEO Is Actually Working?
 
 The short answer: track the right metrics and require attribution clarity from whoever manages your SEO.
@@ -92,14 +86,10 @@ Rankings are a leading indicator, not a result. Traffic is an intermediate metri
 
 If you're working with a large vendor and feeling like you're not getting a straight answer, it's worth understanding the structural differences between agencies and independent consultants — [this breakdown of agency vs. consultant dynamics](/blog/agency-vs-consultant-what-every-firm-principal-should-know/) is direct about the tradeoffs.
 
----
-
 ## What to Do Next
 
 If you've never had an independent **SEO audit for your Florida law firm** — one that isn't tied to a vendor trying to sell you a package — it's worth having one done before you renew anything or sign anything new.
 
 I work with law firms in Tampa Bay and across Florida on exactly this: independent audits, honest assessments, and marketing strategy that connects to cases rather than vanity metrics. If you want to find out what's actually going on with your SEO before committing more budget, [reach out here](/contact/).
-
----
 
 *Related: [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](/blog/why-law-firms-fire-their-marketing-agency/) | [How to Calculate Your True Cost Per Retained Client](/blog/how-to-calculate-your-true-cost-per-retained-client/)*

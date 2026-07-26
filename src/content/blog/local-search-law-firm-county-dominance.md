@@ -93,6 +93,4 @@ None of it is complicated. Most of it is just maintenance and consistency — wh
 
 If you're ready to stop guessing why competitors are outranking you and start building the infrastructure that wins your county, [reach out through the contact page](/contact/). We work with law firms across the Tampa Bay area and Florida on exactly this kind of work — no retainer bloat, no agency hand-holding theater, just the mechanics that actually move rankings.
 
----
-
 *Related: [The SEO Audit Every Florida Law Firm Needs (But Rarely Gets)](/blog/law-firm-seo-audit-florida/) | [Personal Injury Marketing in Tampa Bay: What Actually Drives Cases](/blog/personal-injury-marketing-in-tampa-bay-what-actually-drives-cases/)*

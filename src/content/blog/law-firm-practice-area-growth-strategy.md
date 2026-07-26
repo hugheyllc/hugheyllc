@@ -104,8 +104,6 @@ Adding a practice area means entering a new service category (family law when yo
 
 Score each against three criteria: market size (can this generate 20+ retained cases per year?), competitive gap (is there a real positioning advantage?), and resource fit (do we have or can we build the expertise?). Weight each 1–10. The area with the highest combined score is your answer. Also consider: which aligns best with partner interests and firm culture? If nobody's excited about it, it won't get the attention it needs.
 
----
-
 If you want help building this assessment for your firm or validating your current growth strategy, [let's talk](/contact/).
 
 *Related:*

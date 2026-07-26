@@ -85,8 +85,6 @@ Your law firm CRM problem isn't about buying better software. It's about connect
 
 If you're unsure whether your CRM setup is costing you cases, I can walk you through a diagnostic review. We can identify the specific integration gaps and workflow failures that are silently hurting your intake. [Reach out and let's talk about what's happening with your pipeline.](/contact/)
 
----
-
 ### Related Reading
 
 - [Law Firm CRM Automation: How to Build an Intake Workflow That Follows Up So You Don't Have To](/blog/law-firm-crm-automation/)

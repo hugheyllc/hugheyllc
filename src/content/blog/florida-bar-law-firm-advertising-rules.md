@@ -128,11 +128,7 @@ One more consideration: if you're working with a marketing agency or freelance c
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing - not just runs campaigns - that's what I do at Hughey, LLC.
 
----
-
 If you want the review system that builds real velocity without chasing clients, [the Always Reviewed Playbook is the complete build — $97](/resources/always-reviewed-playbook/).
-
----
 
 ### Related Reading
 

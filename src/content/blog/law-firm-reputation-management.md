@@ -123,15 +123,11 @@ Review velocity compounds over time. You'll see new reviews appear within days i
 
 Many reputation management companies are overpriced and use automated tools that feel spammy. A structured in-house system, built into your client communication flow, usually works better and costs less. If you do hire someone, ensure they're not using fake review farms—that's a compliance nightmare.
 
----
-
 ## Building Sustainable Reputation Systems
 
 Reputation management for law firms works when you stop treating it as marketing and start treating it as operations. It's how you handle client feedback, how consistently you show up online, and whether your firm information is accurate everywhere it appears.
 
 If you want the review system that builds real velocity without chasing clients, [the Always Reviewed Playbook is the complete build—$97](/resources/always-reviewed-playbook/).
-
----
 
 ### Related Reading
 

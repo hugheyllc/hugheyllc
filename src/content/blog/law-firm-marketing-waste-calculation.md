@@ -97,8 +97,6 @@ For a deeper dive into the specific metrics you should be tracking, check out my
 
 If you're ready to stop guessing and start knowing, download our [free 25-point marketing audit checklist](/resources/marketing-audit-checklist/).
 
----
-
 *Related:*
 - [How to Calculate Your Law Firm's True Cost Per Retained Client](/blog/cost-per-retained-client-law-firm/)
 - [The 30-Minute Marketing Audit: What to Pull From Your Agency's Dashboard Right Now](/blog/30-minute-marketing-audit-agency-dashboard/)

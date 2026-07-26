@@ -104,7 +104,6 @@ AI agents combine LLM reasoning with autonomous task execution. These systems wi
 
 By 2025, AI is no longer optional. The firms that thrive will be the ones who understand how to direct it. Prompt engineering is now a core legal skill on par with legal writing, statutory interpretation, and client communication.
 
-
 ## FAQs
 
 **What is prompt engineering and why does it matter in legal practice?**
@@ -132,7 +131,6 @@ Prompt engineering offers the greatest measurable ROI in high volume, language h
 Firms should begin by creating an internal AI policy, defining approved use cases, implementing data confidentiality safeguards, and training attorneys and staff on structured prompting techniques. Next, firms can test AI supported workflows within a single practice area, build prompt libraries tailored to recurring tasks, and assign oversight responsibility to a designated AI champion or operations leader. The goal is to standardize prompting practices so the firm achieves consistent, defensible, and ethically sound outputs.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

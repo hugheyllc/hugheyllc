@@ -86,6 +86,4 @@ The **Google Ads for law firms vs SEO** debate is a distraction. The real work i
 
 If you're running both channels with no clear allocation logic—or you've been told to pick one—it's worth having a direct conversation about the math. [Reach out here](/contact/) and we can look at what your numbers actually support.
 
----
-
 *Related: [How to Calculate Your True Cost Per Retained Client](/blog/how-to-calculate-your-true-cost-per-retained-client/) | [Practice Area Landing Pages That Convert (Not Just Rank)](/blog/law-firm-landing-pages-conversion/)*

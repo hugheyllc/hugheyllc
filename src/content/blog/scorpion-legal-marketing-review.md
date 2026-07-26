@@ -129,7 +129,6 @@ Yes — and you should. Request 3–5 references from law firms in your practice
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Law Firm Marketing Agency vs. Independent Consultant: What Every Firm Principal Should Know Before Signing a Contract](/blog/agency-vs-consultant-law-firm-marketing/)

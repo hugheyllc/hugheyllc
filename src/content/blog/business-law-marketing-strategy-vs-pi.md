@@ -124,8 +124,6 @@ Track: cost per qualified conversation (not lead), average sales cycle length, n
 
 Honest answer: most business law firms can't tell because they're measuring the wrong metrics. Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/)—it's the same diagnostic I walk consulting clients through and it will reveal whether your current agency is even measuring the right outcomes for B2B legal services.
 
----
-
 ### Related Reading
 
 - [Business Law Firm Marketing: How B2B Legal Services Are Won Online in 2026](/blog/business-law-firm-marketing/)

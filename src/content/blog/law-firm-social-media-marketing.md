@@ -87,8 +87,6 @@ Many successful firms don't do social media marketing at all. They rely on refer
 
 Social media marketing for law firms is a *choice*, not a requirement. Make sure you understand what you're choosing—and what it will actually cost you in terms of time, money, and opportunity.
 
----
-
 ## Frequently Asked Questions
 
 ### Should law firms be on Instagram?
@@ -111,11 +109,7 @@ Yes, but be cautious. A LinkedIn manager should understand your practice area, y
 
 Facebook's algorithm doesn't favor business posts, and the platform's audience is there for personal connection and entertainment, not professional services research. Most law firm Facebook posts get seen by fewer than 100 people—often fewer than 20. The cost-per-engagement is typically three to five times higher than LinkedIn, and the engagement is lower-quality (shares and comments from non-buyers rather than inquiries from prospects).
 
----
-
 If you're allocating budget to social media, LinkedIn is the only platform that typically pays back for law firms. If you want to understand which channels are actually driving leads and fees into your firm, [let's talk](/contact/).
-
----
 
 ### Related Reading
 

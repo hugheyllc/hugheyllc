@@ -65,7 +65,6 @@ The biggest opportunities for law firms in 2026 lie in:
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Hyper Personalization and Client Experience: How Law Firms Win in 2025](/blog/hyper-personalization-and-client-experience-how-law-firms-win-in-2025/)

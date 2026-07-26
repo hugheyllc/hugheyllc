@@ -79,7 +79,6 @@ Yes — and that's often the best setup. Most of our clients keep their existing
 
 If you'd like a second opinion from an [law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Law Firm Marketing Consultant in St. Petersburg, FL](/blog/law-firm-marketing-st-petersburg-fl/)

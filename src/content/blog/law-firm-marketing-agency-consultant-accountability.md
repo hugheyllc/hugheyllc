@@ -124,8 +124,6 @@ Ask them to show you [your cost per retained client by channel](/blog/cost-per-r
 
 It depends on the contract. Most agency contracts have termination clauses (usually 30–90 days notice, sometimes a penalty). Consultant projects are usually scoped to an end date. Either way, read your contract before you sign. If it locks you in for 12+ months with penalties, that's a signal that they don't trust the value they're delivering.
 
----
-
 The accountability question isn't abstract. It determines whether you're working with someone who owns the problem or someone who manages the problem. Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/) — it's the same diagnostic I walk consulting clients through to figure out what's actually broken before they hire anyone.
 
 ### Related Reading

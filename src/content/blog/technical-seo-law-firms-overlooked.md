@@ -18,8 +18,6 @@ The most common technical SEO issues hurting law firm rankings have nothing to d
 
 Most law firms have invested real money in content. Blog posts, practice area pages, attorney bios. The words are there. The technical foundation those words are sitting on? Usually a mess. That's where **technical SEO for law firms** gets interesting—and where firms that pay attention to it quietly outrank competitors who don't.
 
----
-
 ## Core Web Vitals: Stop Ignoring the Numbers
 
 Google's **Core Web Vitals**—Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS)—are measurable, fixable, and largely ignored by law firm marketing teams.
@@ -31,8 +29,6 @@ CLS measures visual stability—how much the page jumps around while loading. If
 INP replaced the old First Input Delay metric and measures how responsive your page is to user interaction. Bloated JavaScript—often from third-party plugins, intake forms, or chat tools layered onto cheap WordPress themes—is the usual culprit.
 
 Run your firm's site through Google's PageSpeed Insights right now. If you're scoring below 50 on mobile, you have a problem that no amount of blog content will fix.
-
----
 
 ## Crawlability: Can Google Even Find Your Pages?
 
@@ -47,8 +43,6 @@ Common crawlability problems include:
 
 If you've ever redesigned your law firm's website without properly mapping old URLs to new ones, there's a good chance you're sitting on a graveyard of broken links and lost rankings. The [law firm website redesign SEO preservation](/blog/law-firm-website-redesign-seo-preservation/) issue is one of the most preventable disasters in legal marketing—and one of the most common.
 
----
-
 ## Schema Markup: The Tactic Almost Nobody Implements Correctly
 
 **Structured data** tells Google exactly what your content is about, in a language Google actually reads. For law firms, this means implementing schema types that surface useful information directly in search results—attorney profiles, practice area pages, local business data, FAQ content.
@@ -59,8 +53,6 @@ The wrong implementation—or no implementation—means you're leaving that visi
 
 If you want the full breakdown on what to implement and how, the [schema markup guide for law firms](/blog/law-firm-schema-markup-implementation/) covers it in detail. The short version: at minimum, you should have `LegalService` or `Attorney` schema on your key pages, `LocalBusiness` schema with accurate NAP data, and `FAQPage` schema where appropriate.
 
----
-
 ## Mobile-First Indexing: Your Desktop Site Is Irrelevant
 
 Google indexes the mobile version of your site. Not the desktop version. The mobile version.
@@ -68,8 +60,6 @@ Google indexes the mobile version of your site. Not the desktop version. The mob
 This has been true since 2019. Many law firm websites still behave as though it isn't. Navigation that collapses into an unusable hamburger menu. Text that's technically readable but requires pinching and zooming. CTAs that are impossible to tap on a phone screen.
 
 If your mobile experience is poor, your rankings will reflect it. Period. The [mobile-first indexing guide for law firms](/blog/law-firm-mobile-first-indexing-seo/) gets into the specifics, but the audit starts with pulling up your own site on your phone and asking whether you'd fill out a contact form on it. Most attorneys wouldn't.
-
----
 
 ## Site Architecture and Internal Linking
 
@@ -79,15 +69,11 @@ A flat site architecture—where every important page is within a few clicks of 
 
 Internal linking is also one of the most underused tools in **technical SEO for law firms**. If you've published content but haven't built internal links pointing to it, you're relying entirely on Google to discover and prioritize it on its own. That's not a strategy.
 
----
-
 ## HTTPS, Security Headers, and the Basics That Still Get Missed
 
 Yes, your site should be on HTTPS. In 2025 this is table stakes. But mixed content errors—where a page loads over HTTPS but pulls in images or scripts over HTTP—can still trigger browser security warnings and create issues with how Google treats the page.
 
 Beyond that, **security headers** like Content Security Policy and X-Frame-Options are worth implementing. They're not direct ranking factors, but they prevent the kind of site compromises that can get your firm's website flagged or deindexed entirely. That's a bad day for everyone.
-
----
 
 ## The Audit You Actually Need
 
@@ -97,10 +83,6 @@ None of this is complicated in theory. In practice, it requires someone who know
 
 If you want a clear picture of where your firm's site actually stands, [The SEO Audit Every Florida Law Firm Needs](/blog/law-firm-seo-audit-florida/) lays out what a real audit covers—not a free automated report that tells you your meta descriptions are too long.
 
----
-
 If your firm is ready to stop guessing about what's holding your rankings back, [get in touch](/contact/). We look at the full picture—technical foundation, content, local presence—and tell you what's actually worth fixing.
-
----
 
 *Related: [The Law Firm Website Redesign Trap: How to Keep Your Rankings When You Rebuild](/blog/law-firm-website-redesign-seo-preservation/) | [Schema Markup for Law Firms: The Unsexy Tactic That Actually Moves the Needle](/blog/law-firm-schema-markup-implementation/)*

@@ -17,8 +17,6 @@ Law firms overpay for Google Ads clicks for one simple reason: they set up campa
 
 Here's where the leaks typically are.
 
----
-
 ## Mistake #1: Treating Broad Match Keywords Like a Strategy
 
 Broad match keywords are Google's way of spending your budget creatively. You bid on "personal injury attorney" and Google helpfully shows your ad to someone searching "how to file an insurance claim myself." Technically related. Not your client.
@@ -84,8 +82,6 @@ Retargeting campaigns keep your firm visible to people who have already shown in
 Add up bad match types, missing negatives, weak landing pages, broken tracking, and no retargeting, and it's not unusual to find that 40 to 60 percent of a law firm's monthly PPC budget is generating zero qualified leads. On a $10,000/month ad spend, that's $4,000 to $6,000 in waste — every month.
 
 The campaigns that perform don't do anything magical. They're just managed: reviewed regularly, tested systematically, and adjusted based on actual conversion data rather than impressions and click-through rates. For a fuller look at how paid search stacks up against organic as a long-term investment, [the math for law firms comparing paid search vs. SEO](/blog/paid-search-vs-seo-law-firms/) is worth your time.
-
----
 
 If your firm is running Google Ads and you're not confident the spend is generating qualified consultations, the account deserves a hard look. [Reach out](/contact/) and we'll dig into where the budget is actually going.
 

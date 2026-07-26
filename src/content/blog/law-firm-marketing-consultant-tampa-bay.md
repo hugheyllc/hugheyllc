@@ -112,7 +112,6 @@ I prioritize Tampa Bay because local market knowledge is part of what I deliver 
 
 If you'd like a second opinion from an [law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Law Firm Marketing Consultant in Tampa, FL](/blog/law-firm-marketing-consultant-tampa-fl/)

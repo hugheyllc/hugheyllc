@@ -127,8 +127,6 @@ That's the wrong agency. Marketing outcomes are measurable—qualified leads, ph
 
 Absolutely. Tell the agency upfront that you're handling some channels internally and they can't restrict you from doing that. Good agencies will appreciate the clarity. Bad ones will push back and reveal they're more interested in lock-in than partnership.
 
----
-
 If you're in the middle of a contract negotiation or about to renew with an existing agency, start with these three: performance clawbacks, data ownership, and a realistic term length. Those three terms determine 80% of whether the relationship will work. If the agency resists all three, you already know what kind of partner they'll be.
 
 Start with [the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/)—it's the same diagnostic I walk consulting clients through before they decide whether to renegotiate with their current agency or make a change.

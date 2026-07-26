@@ -134,13 +134,7 @@ Critically important — more than most local markets. Tampa consumers explicitl
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
----
-
 Both systems — local SEO and reviews — work together. [The Playbook Bundle gives you both for $147 (saves $47)](/resources/playbook-bundle/).
-
----
-
----
 
 ### Related Reading
 

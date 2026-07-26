@@ -84,7 +84,6 @@ Reallocate as performance data accumulates. Forecasts suggest AI-search ad share
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [The Small-Firm Playbook for Google’s AI Overviews (AEO) in 2025](/blog/small-firm-aeo-playbook/)

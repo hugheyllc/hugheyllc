@@ -18,8 +18,6 @@ A law firm contact form should have **three to five fields** in most cases. Name
 
 Why are prospects not filling out your contact form? Usually one of three reasons: the form asks for too much too soon, it doesn't feel secure, or it's buried three clicks deep on a page that wasn't designed to convert. None of those are traffic problems. They're friction problems — and friction is fixable.
 
----
-
 ## The Friction Audit: What's Actually Killing Your Conversions
 
 Before you redesign anything, you need to understand where people are dropping off. Most law firms don't have this data. They look at overall website traffic, feel good about the numbers, and assume leads are flowing. They're not connecting the dots between visits and submissions.
@@ -31,8 +29,6 @@ Here's what to look for:
 - **Page load speed.** A form on a slow page doesn't get seen. If your contact page takes more than three seconds to load, a meaningful percentage of prospects are already gone.
 - **Placement.** If your contact form only exists on a dedicated Contact page, you're leaving conversions on the table. Forms belong on practice area pages too — close to where the decision happens.
 - **Trust signals.** Is there anything near the form that reduces anxiety? Attorney credentials, a brief privacy note, a simple reassurance about confidentiality? Absence of trust signals is its own kind of friction.
-
----
 
 ## What Questions Should Actually Be on a Law Firm Intake Form
 
@@ -50,8 +46,6 @@ Noticeably absent: matter type dropdown menus with seventeen options, referral s
 
 If you want to qualify leads before they hit your calendar, add one conditional question — something like "Are you the person affected, or are you contacting us on someone's behalf?" That's genuinely useful and adds minimal friction.
 
----
-
 ## The Copy Around the Form Matters as Much as the Form Itself
 
 This is the part most firms ignore entirely. The headline above your form, the subhead, and the button text are doing real conversion work — or they're not doing any.
@@ -64,8 +58,6 @@ The paragraph above the form should answer an unspoken question the prospect has
 
 This ties directly into [building practice area landing pages that convert, not just rank](/blog/law-firm-landing-pages-conversion/) — the form is the endpoint of a persuasion sequence, and every element of that page is either building toward the submission or undermining it.
 
----
-
 ## Response Time Is a Conversion Variable Too
 
 Your form conversion rate doesn't end at submission. It ends when a prospect becomes a client. If someone fills out your form and doesn't hear back for 48 hours, the conversion is lost — even though the form did its job.
@@ -75,8 +67,6 @@ This is an operational problem that masquerades as a marketing problem. Firms bl
 If you're running paid search traffic to your contact pages — and you should be comparing [the math between paid search and organic SEO for law firms](/blog/paid-search-vs-seo-law-firms/) before you scale spend — a slow response time is burning real money on every delayed follow-up.
 
 Setting expectations on the form itself helps. A simple line like "We respond to all inquiries within one business day" manages anxiety and reduces the likelihood that a prospect fires off three more contact forms to your competitors while waiting.
-
----
 
 ## A/B Testing: The Part Firms Skip
 
@@ -91,8 +81,6 @@ You don't need sophisticated tooling to start. Test one variable at a time:
 
 Track submissions, not just visits. If you're not measuring **law firm contact form conversion** rates at the page level, you're flying blind. This connects directly to the broader problem of [tracking marketing ROI with metrics that actually matter](/blog/law-firm-marketing-roi-metrics/) — form conversion rate is a metric worth monitoring weekly, not quarterly.
 
----
-
 ## The Technical Layer You Probably Haven't Checked
 
 Forms break. Not dramatically — they just quietly stop submitting, or stop sending notifications, or start routing to a spam folder. This happens more often than firms realize, especially after website updates.
@@ -106,15 +94,11 @@ Check:
 
 These are unglamorous checks. They're also the kind of [technical issue that quietly kills performance](/blog/technical-seo-law-firms-overlooked/) while everyone's attention is on content and ads.
 
----
-
 ## The Compounding Effect of Getting This Right
 
 Improving **law firm contact form conversion** doesn't just affect the leads your current traffic generates. It changes the ROI calculation on everything else you're doing — SEO, paid search, retargeting. [Retargeting campaigns for law firms](/blog/law-firm-retargeting-ads-strategy/) exist specifically to bring back the people who visited and didn't convert. If your form is the reason they didn't convert the first time, retargeting them back to the same broken experience just compounds the waste.
 
 Get the form right first. Then scale the traffic.
-
----
 
 If your contact form is losing leads you've already paid to attract, that's a fixable problem — and the fix usually takes less time than the redesign your firm is probably considering instead. [Reach out at /contact/](/contact/) and we'll take a look at what's actually happening with your form and the pages around it.
 

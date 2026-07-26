@@ -18,8 +18,6 @@ Marketing ROI for law firms is simple to define and surprisingly hard to measure
 
 So let's fix that. This post breaks down which numbers actually matter, which ones are noise dressed up as signal, and how to build a reporting structure that tells you what your marketing spend is actually doing.
 
----
-
 ## The Vanity Metric Problem
 
 Vanity metrics are numbers that move in the right direction without necessarily meaning anything. Impressions. Clicks. Website sessions. Social engagement. These are not useless — they can be useful diagnostics — but they are not outcomes. They are activity.
@@ -27,8 +25,6 @@ Vanity metrics are numbers that move in the right direction without necessarily 
 The reason law firm marketing reports default to vanity metrics is simple: they're easy to generate and they almost always look good. Traffic goes up when you publish content. Impressions go up when you run ads. Neither tells you whether a single qualified client walked through your door as a result.
 
 **The test for any metric is this: can you draw a direct line from this number to a retained client or a rejected case?** If you can't, it's context at best. It's a distraction at worst.
-
----
 
 ## The Metrics That Actually Connect to Revenue
 
@@ -58,8 +54,6 @@ Not every inquiry is a lead. Not every lead is qualified. If your intake team is
 
 **Track the percentage of inquiries that meet your basic intake criteria.** A falling qualified lead rate is often the first sign that your targeting has drifted — your content is pulling the wrong audience, your keywords are too broad, or your ad copy is attracting curiosity instead of intent.
 
----
-
 ## Diagnostic Metrics Worth Watching (With Context)
 
 Some metrics don't connect directly to revenue but they tell you why revenue metrics are moving the way they are.
@@ -70,8 +64,6 @@ Some metrics don't connect directly to revenue but they tell you why revenue met
 
 **Time on site and bounce rate by landing page** — if people are clicking your ad and leaving in twelve seconds, the ad and the landing page are misaligned. This doesn't tell you whether you're getting clients, but it tells you why you're not.
 
----
-
 ## Why Most Firms Don't Have This Data
 
 The tracking infrastructure required to measure real marketing ROI for law firms is not complicated, but it requires someone to actually set it up. That means call tracking software, proper UTM parameters on ad campaigns, a CRM that logs lead sources, and intake workflows that capture how each client found you.
@@ -80,13 +72,9 @@ Most firms are missing at least two of those four. And most agencies are not inc
 
 If you've never had a proper audit of your tracking setup, [The SEO Audit Every Florida Law Firm Needs (But Rarely Gets)](/blog/law-firm-seo-audit-florida/) covers how to evaluate what you're actually measuring versus what you think you're measuring.
 
----
-
 ## A Word on Directory Listings
 
 FindLaw, Martindale, Avvo — these platforms generate a lot of leads in the broad sense of the word. They generate far fewer retained clients per dollar spent than most firms realize, and the qualified lead rate is often low. If you're tracking lead volume from directories without tracking retention rate and case value, you may be paying for the appearance of pipeline. The deeper analysis on this is in [FindLaw and Martindale: Are Directory Listings Still Worth It?](/blog/findlaw-and-martindale-are-directory-listings-still-worth-it/)
-
----
 
 ## What Good Reporting Actually Looks Like
 
@@ -98,14 +86,10 @@ A report that serves a managing partner should answer three questions every mont
 
 Everything else is supporting detail. If your current reporting doesn't answer those three questions, you're not measuring marketing ROI for law firms — you're measuring marketing activity, which is a very different and much less useful thing.
 
----
-
 ## The Bottom Line
 
 Clicks don't pay overhead. Impressions don't close cases. Page views are not clients. Until you've built the reporting infrastructure that connects your marketing spend to retained revenue, you are flying without instruments — and you are almost certainly wasting money somewhere you haven't identified yet.
 
 If you want to work through what your current metrics are actually telling you and build a measurement framework that connects to real outcomes, [reach out here](/contact/). We work with law firms that are done guessing.
-
----
 
 *Related: [How to Calculate Your True Cost Per Retained Client](/blog/how-to-calculate-your-true-cost-per-retained-client/) | [Why Law Firms Fire Their Marketing Agency (And What to Do Instead)](/blog/why-law-firms-fire-their-marketing-agency/)*

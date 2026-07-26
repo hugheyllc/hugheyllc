@@ -145,7 +145,6 @@ If you're missing more than two checkboxes, your GA4 isn't yet useful for decisi
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [CallRail for Law Firms: The Complete Setup and Integration Guide](/blog/callrail-law-firm-setup-guide/)

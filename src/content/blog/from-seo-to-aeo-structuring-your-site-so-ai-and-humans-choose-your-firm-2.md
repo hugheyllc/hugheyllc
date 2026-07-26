@@ -156,9 +156,7 @@ Build internal linking from FAQ → Pillar → Practice → Contact
 Track AEO KPIs
 </li>
 
-
 ## Ready to Optimize for AEO?
-
 
 Your next clients are asking AI assistants for answers - make sure they find yours.
 
@@ -185,7 +183,6 @@ No. AEO enhances SEO by adding structured data, clear entities, and concise answ
 Organization, LegalService, Attorney, FAQ, HowTo, and Review schema.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing - not just runs campaigns - that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

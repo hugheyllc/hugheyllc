@@ -104,8 +104,6 @@ The transition should take 30 days maximum. Pull all your data, get copies of ev
 
 If you've been thinking about making a change or want to audit your current agency's performance against real benchmarks, [let's talk](/contact/). I can help you understand what's working and what needs to shift—whether that's fixing the current relationship or planning a move.
 
----
-
 ### Related Reading
 
 - [Law Firm Marketing Agency vs. Independent Consultant](/blog/agency-vs-consultant-law-firm-marketing/)

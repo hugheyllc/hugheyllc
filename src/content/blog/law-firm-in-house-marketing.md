@@ -135,8 +135,6 @@ Yes, and this is often the right move for mid-market firms. A coordinator handle
 
 In-house means you hire a full-time employee and own all strategy and execution. A hybrid model usually means you hire a coordinator or operations person ($40,000-$55,000) and contract with a fractional consultant for 10-15 hours per month ($3,000-$5,000/month). The hybrid approach costs a bit more, but eliminates skill-gap risk and provides oversight. The consultant trains the in-house person and owns accountability for performance.
 
----
-
 ### Related Reading
 
 - [How to Hire an Independent Law Firm Marketing Consultant (And Avoid the Agency Model Trap)](/blog/how-to-hire-independent-law-firm-marketing-consultant/)

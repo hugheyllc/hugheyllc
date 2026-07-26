@@ -28,7 +28,6 @@ Social media algorithms now heavily prioritize short-form video. Platforms like 
 
 Potential content ideas:
 
-
 - “What to do after a car accident”
 
 - “Do I need a lawyer for a misdemeanor?”
@@ -42,7 +41,6 @@ Videos that answer one clear question and include a strong call to action are se
 Over 80% of legal searches have local intent. That means optimizing your law firm’s [Google Business Profile](/blog/law-firm-google-business-profile/) and building local backlinks can yield higher ROI than national campaigns.
 
 Make sure you:
-
 
 - List services and service areas
 
@@ -66,7 +64,6 @@ If you don’t know where your clients are coming from, you can’t scale your s
 
 These tools help you:
 
-
 - Track calls and form submissions by source
 
 - Understand the true ROI of each campaign
@@ -80,7 +77,6 @@ The legal marketing landscape is changing—but for law firm owners who are proa
 Stay ahead, stay measurable, and stay client-centered. That’s how law firms will win in the year ahead.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

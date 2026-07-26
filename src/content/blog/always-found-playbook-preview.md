@@ -113,8 +113,6 @@ If you're in the middle — ranking somewhere between position 4 and 11, with a 
 
 **[Get the Always Found Playbook — $97](https://hugheyllc.com/resources/always-found-playbook/)**
 
----
-
 *If you'd rather have someone run the playbook for your firm instead of running it yourself, [that's exactly what I do](/contact/). The first conversation is free, and I'll tell you honestly whether the playbook is enough or whether you actually need help.*
 
 *Related: [Local SEO for Law Firms](/blog/local-seo-law-firms/) · [How Tampa Law Firms Are Winning the Google Local Pack](/blog/tampa-law-firms-winning-local-pack/)*

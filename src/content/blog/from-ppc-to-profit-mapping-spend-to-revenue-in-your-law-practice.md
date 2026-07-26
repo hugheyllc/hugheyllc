@@ -42,7 +42,6 @@ Once your PPC data connects seamlessly to your intake and financial systems, you
 
  
 
-
 ## Ready to learn how to best use your marketing dollars? Let’s connect.
 
 [Book a discovery call](/contact/)
@@ -70,7 +69,6 @@ Dashboards like Google Looker Studio help visualize real-time KPIs such as cost 
 The best way to improve PPC profitability is to optimize campaigns based on signed-client revenue instead of clicks. When firms evaluate ads by profit contribution rather than vanity metrics, they allocate budget more accurately and maximize return on their marketing spend.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

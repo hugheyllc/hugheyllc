@@ -82,7 +82,6 @@ Reference: [Google's image SEO best practices](https://developers.google.com/sea
 
 [**HubSpot Video Marketing Benchmarks**](https://blog.hubspot.com/marketing/state-of-video-marketing-new-data)
 
-
 ## Video, Visual and Interactive Content: The New Frontier for Legal SEO
 
 **Why does visual content help legal SEO?**
@@ -105,7 +104,6 @@ Yes. Tools like calculators, assessments, and checklists increase participation 
 
 They are highly beneficial. YouTube boosts visibility, provides additional ranking opportunities, and improves trust.
 
-
 Visuals increase engagement, dwell time, and user interaction—signals that search engines use to assess content quality.
 
 Short explainers, FAQ videos, attorney introductions, tutorials, and case‑process breakdowns typically perform well.
@@ -121,7 +119,6 @@ Schedule a discovery call.</h2>
 [Book a discovery call](/contact/)
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

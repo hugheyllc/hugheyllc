@@ -114,7 +114,6 @@ The real payoff arrives in months 3–6 when you have enough call and conversion
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [How to Set Up GA4 for a Law Firm: The Configuration Guide Agencies Skip](/blog/ga4-setup-law-firm-guide/)

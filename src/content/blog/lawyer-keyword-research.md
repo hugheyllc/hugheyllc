@@ -33,8 +33,6 @@ The rules that apply to most industries break down fast when you're doing keywor
 
 **Case type specificity separates winners from losers.** "Personal injury lawyer" and "motorcycle accident lawyer" describe the same attorney in many firms, but they attract different searchers at very different stages. The more specific the case type, the more likely the searcher already knows they have a case. Specificity equals conversion.
 
----
-
 ## How to Categorize Legal Keywords
 
 Before you build a single page or write a single piece of content, sort your target keywords into three buckets.
@@ -68,8 +66,6 @@ These searchers already know your firm exists and are looking for you specifical
 
 You should rank first for your own name without much effort. The value here is reputation management — make sure what shows up when someone searches your name tells the story you want told.
 
----
-
 ## Tools That Actually Do the Work
 
 **Google Search Console (GSC)** is your first stop if the site is already live. GSC shows you which queries are already driving impressions and clicks. Look for keywords where you rank positions 6–15 — those are your fastest wins. A page ranking 8th needs refinement, not rebuilding. Google's own [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) is the right reference if you want to validate the on-page changes you make alongside the keyword work.
@@ -79,8 +75,6 @@ You should rank first for your own name without much effort. The value here is r
 **SEMrush** — or its close competitor Ahrefs — is where you do competitive intelligence. **Plug in your top competitor's domain and look at their organic keyword rankings.** You'll quickly see which terms they're capturing that you aren't. The Keyword Gap tool shows you terms competitors rank for that you don't appear for at all. That list becomes your content roadmap.
 
 A practical workflow: start with Keyword Planner to build a seed list, validate and expand in SEMrush, then check GSC to see which terms are already showing up in your existing performance data.
-
----
 
 ## Local Modifier Strategy
 
@@ -110,8 +104,6 @@ Case type depth means breaking out specific accident types, injury types, and ca
 
 Each of these represents a searcher with a specific situation. A page targeting "Tampa Uber accident attorney" will convert better for that specific searcher than a generic personal injury page will — every time.
 
----
-
 ## Long-Tail Queries That Actually Convert
 
 The keywords with the highest search volume aren't always the ones that bring in cases. **Long-tail queries — three, four, five words or more — often convert at higher rates** because the searcher has already self-qualified.
@@ -127,8 +119,6 @@ High-converting long-tail examples for a PI firm:
 The query "how much is my car accident settlement worth" tells you the searcher believes they have a case and wants to understand their financial recovery. That's a client. Write a thorough page answering that question, include a strong call to action, and capture that traffic with a contact form or callback option.
 
 Use **"People Also Ask" boxes and Google's autocomplete suggestions** as a free long-tail keyword generator. Search your seed terms and document every related question that surfaces. Those questions become FAQ sections, blog posts, and supplemental content on practice area pages. This kind of intent-mapped content sits at the heart of any serious [content marketing program for a law firm](/blog/content-marketing-for-law-firms/).
-
----
 
 ## Practical Example: PI Firm in Tampa
 
@@ -165,7 +155,6 @@ More specific, almost always. "Lawyer near me" has high volume but terrible inte
 A full refresh once a year is plenty. What changes more often: monitoring Search Console monthly for new queries you're appearing for (often a goldmine of long-tail opportunities), and watching competitor content quarterly to spot gaps they've closed or new terms they're pursuing. Treat keyword research as ongoing maintenance, not an annual project that gets shelved between updates.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

@@ -148,8 +148,6 @@ Compete on speed and availability. Large firms often have slower intake because 
 
 Referrals from bail bondsmen, local law enforcement connections, and repeat client referrals are typically high-converting but hard to scale. Google Business Profile with honest, fast reviews helps. Facebook ads can work if targeted narrowly to local geographic areas with specific charges (DUI, drug possession). But none of these matter if your intake can't handle the volume. Build for speed first, then expand channels.
 
----
-
 If you want help building an intake system that actually captures and converts urgent prospects, [let's talk](/contact/).
 
 ### Related Reading

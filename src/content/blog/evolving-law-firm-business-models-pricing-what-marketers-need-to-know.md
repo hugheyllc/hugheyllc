@@ -54,7 +54,6 @@ Common obstacles include internal resistance, lack of structure, and concerns ab
 https://www.youtube.com/watch?v=QFAGAJ8xMKM
 Pricing has become a marketing advantage. Transparent, predictable pricing builds trust and positions your firm as a modern, client-focused business.
 
-
 ## Evolving Law‑Firm Business Models &amp; Pricing: What Marketers Need to Know
 
 **What are alternative fee arrangements (AFAs)?**
@@ -77,7 +76,6 @@ Not when properly scoped. Many firms earn higher margins due to clearer expectat
 
 Use website updates, intake scripts, service pages, and targeted ads to explain how predictable pricing benefits clients.
 
-
 AFAs are non-hourly pricing models such as flat fees, subscriptions, hybrid pricing, or success-based billing that offer clients more predictability and value.
 
 Yes. Clients respond positively to transparent pricing, which reduces friction and increases consultation requests.
@@ -88,13 +86,11 @@ Not when properly scoped. Many firms earn higher margins due to clearer expectat
 
 Use website updates, intake scripts, service pages, and targeted ads to explain how predictable pricing benefits clients.
 
-
 ## Ready to modernize your firm’s pricing and attract higher-quality clients? Schedule a strategy call today and get a customized plan built for your market.
 
 [Book a discovery call](/contact/)
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

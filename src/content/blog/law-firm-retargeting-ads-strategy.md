@@ -20,8 +20,6 @@ Here's how you should actually use retargeting: build distinct audience segments
 
 Most law firms that complain retargeting doesn't work have one thing in common: they set it up once, let it run, and checked the click-through rate occasionally. That's not a strategy. That's a slow budget drain.
 
----
-
 ## Why Generic Retargeting Is a Waste of Money
 
 If someone bounced off your homepage in four seconds, they are not a warm lead. Spending $8 CPMs to follow them to YouTube for the next month is not marketing—it's optimism with a credit card.
@@ -29,8 +27,6 @@ If someone bounced off your homepage in four seconds, they are not a warm lead. 
 The whole premise of retargeting is that prior intent signals future behavior. But a homepage visit is the weakest possible intent signal. It means someone clicked a link. That's it.
 
 You need to segment deeper before you spend a dollar. This is the same problem that shows up across [paid search vs. organic SEO for law firms](/blog/paid-search-vs-seo-law-firms/)—wasted ad spend in legal is brutal, and retargeting compounds it when set up carelessly.
-
----
 
 ## The Audience Segments That Actually Matter
 
@@ -62,8 +58,6 @@ This audience gets softer creative—educational content, trust signals, maybe a
 
 If you're running video ads or have YouTube content, people who watched 50%+ of a video are a distinct segment worth targeting. They demonstrated sustained attention. That's rare and valuable.
 
----
-
 ## What Platform Should Law Firms Use for Retargeting?
 
 The honest answer: it depends on practice area and client profile.
@@ -77,8 +71,6 @@ The honest answer: it depends on practice area and client profile.
 **LinkedIn** is expensive and mostly only justified for B2B legal work—commercial litigation, employment defense, corporate law.
 
 Don't spread your budget across every platform at launch. Pick one or two, get the data, then expand.
-
----
 
 ## Creative That Doesn't Scream Desperation
 
@@ -96,8 +88,6 @@ A few principles:
 
 **Include social proof thoughtfully.** Review counts, recognitions, years in practice. Not fabricated specifics—real, verifiable signals that reduce perceived risk.
 
----
-
 ## The Tracking Infrastructure You Need First
 
 None of this works without clean tracking. Before you run a dollar of **law firm retargeting ads**, you need:
@@ -111,8 +101,6 @@ If you're unsure whether your tracking is clean, it probably isn't. This is one 
 
 Also worth checking: if your site recently went through a redesign, your pixel implementation may have broken. It happens more often than firms realize.
 
----
-
 ## What to Expect (And When to Adjust)
 
 Retargeting is not a switch you flip and walk away from. The first 30 days are data collection. You're learning which segments engage, which creative resonates, and where the funnel breaks down.
@@ -121,8 +109,6 @@ If click-through rates are high but conversions are low, the landing page is the
 
 If CPAs are reasonable but volume is low, your audience pools are too small—either expand your traffic sources or widen the retargeting window. Organic traffic growth feeds retargeting audience pools directly.
 
----
-
 ## The Bottom Line
 
 Retargeting is one of the more efficient channels available to law firms—when it's built on real audience segmentation, matched creative, and clean tracking. It's also one of the easiest ways to burn budget when it's treated as a set-it-and-forget-it tactic.
@@ -130,5 +116,4 @@ Retargeting is one of the more efficient channels available to law firms—when 
 The firms that win with **law firm retargeting ads** are the ones that treat it as a system, not a checkbox.
 
 If you want to audit what you're currently running—or build a retargeting strategy that's actually connected to your intake funnel—[reach out here](/contact/). This is the kind of work that looks simple until you get into it, and the details are where the money is.
-
 

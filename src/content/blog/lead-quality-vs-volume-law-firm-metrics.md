@@ -106,8 +106,6 @@ Not without more context. If your intake team changed and conversion improved dr
 
 Ask your agency for conversion data first. "How many of your leads become cases?" If they can't answer, they don't have qualified data. If they say "we don't control that," they're right—but then their job is easier than you thought, and they should be cheaper. Demand quarterly reports on cost-per-retained-client, not monthly reports on lead count. The metric you measure is the metric you optimize for.
 
----
-
 The firms that grow fastest aren't the ones generating the most leads. They're the ones converting their best leads into clients and understanding exactly how much that conversion costs. That means measuring quality, not volume. It means closing the attribution gap. It means calculating cost-per-retained-client and deciding whether that number makes sense for your business.
 
 If you're still measuring mostly by lead volume, start here: audit one month of leads end-to-end. See how many qualified. See how many converted. Calculate what each case actually cost. Then you'll know whether your problem is with lead generation, qualification, or conversion. And you can fix the right thing.

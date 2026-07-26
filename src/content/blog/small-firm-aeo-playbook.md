@@ -83,7 +83,6 @@ The firms winning right now in AI Overviews aren't obsessing over the feature it
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)

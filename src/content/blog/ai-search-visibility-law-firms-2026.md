@@ -141,8 +141,6 @@ The firms that adapt now—the ones that optimize schema, build topical authorit
 
 AI search is here. The visibility question isn't whether to optimize for it—it's whether you'll do it before your competitors do.
 
----
-
 **Related Reading:**
 - [From SEO to AEO: Structuring Your Site So AI and Humans Choose Your Firm](/blog/from-seo-to-aeo-structuring-your-site-so-ai-and-humans-choose-your-firm-2/)
 - [AI Tools for Law Firm Marketing: What Actually Works in 2026](/blog/ai-tools-law-firm-marketing/)

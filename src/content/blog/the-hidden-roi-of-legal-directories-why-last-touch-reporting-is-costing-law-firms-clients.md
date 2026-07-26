@@ -129,7 +129,6 @@ Highlights how often directories assist GBP calls
 - Implement a simple review-request process that occasionally routes happy clients to a directory profile.
 - Schedule quarterly profile reviews to catch outdated information and missed opportunities — the same cadence I recommend for the [marketing audit checklist](/resources/marketing-audit-checklist/).
 
-
 ## Hyper Personalization and Client Experience: How Law Firms Win in 2025
 
 **Do legal directories still matter in 2025–2026?**
@@ -158,7 +157,6 @@ You should avoid spreading yourself thin across dozens of low-value listings, bu
 
 Directory reviews influence consumer trust directly and can be surfaced in AI summaries or third-party widgets. They also balance your GBP review profile by showing consistent sentiment and detail across multiple platforms.
 
-
 Yes. Directories are still a core trust signal for legal consumers, and they are now also a data source for AI systems. They influence both human decision-making and machine-generated summaries, even when your analytics
 
 does not show a direct conversion.
@@ -175,11 +173,7 @@ Directory reviews influence consumer trust directly and can be surfaced in AI su
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
----
-
 If you want the review system that builds real velocity without chasing clients, [the Always Reviewed Playbook is the complete build — $97](/resources/always-reviewed-playbook/).
-
----
 
 ### Related Reading
 

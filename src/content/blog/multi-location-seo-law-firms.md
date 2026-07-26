@@ -19,8 +19,6 @@ Here's the short answer to the questions every multi-office managing partner eve
 
 If you have five offices and you're doing local SEO the same way a solo firm in one city does it, you're leaving a significant amount of search visibility on the table. Here's how to stop doing that.
 
----
-
 ## One Website vs. Multiple Websites: Stop Debating It
 
 The multi-site argument comes up constantly. The logic sounds reasonable on the surface: each city gets its own domain, its own brand, its own everything. In practice, you're creating five websites that each need separate SEO investment, separate content programs, separate link-building, and separate technical maintenance.
@@ -28,8 +26,6 @@ The multi-site argument comes up constantly. The logic sounds reasonable on the 
 Unless your offices operate as genuinely independent firms with separate brands, one website with dedicated location pages is the right call. Google is good at understanding that a firm based in Tampa with offices in Orlando, Miami, and Jacksonville is a multi-location practice—provided you structure the site to make that obvious.
 
 **The non-negotiable: every office needs its own location page.** Not a shared contact page with a table of addresses. A full, substantive page for each office that speaks to the local market, references local courts and venues where appropriate, and gives Google enough geographic signal to connect that page to local searches in that city.
-
----
 
 ## How Google Business Profile Fits Into This
 
@@ -43,8 +39,6 @@ A few rules that matter:
 - Each listing should link to its corresponding location page on your website—not your homepage.
 - Categories, hours, and service areas need to be set correctly for each listing individually. Copy-pasting the same information with a different address is not sufficient.
 - Reviews matter per location. A firm with 200 reviews on its Tampa listing and 4 reviews on its Orlando listing will rank very differently in those two markets. Managing reviews across multiple GBP profiles is a real operational challenge—one worth taking seriously. [Reputation Management for Law Firms: Review Sites That Actually Matter](/blog/law-firm-review-management/) covers which platforms to prioritize and how to build a review strategy that scales.
-
----
 
 ## Location Page Architecture: How to Avoid Cannibalization
 
@@ -62,8 +56,6 @@ Each location page should:
 
 This is not about spinning the same content five different ways. It's about actually knowing something about each market and demonstrating that on the page. If all five of your location pages read identically except for the city name swapped in, you have a thin content problem that will hurt all five pages.
 
----
-
 ## Technical Signals That Support Local Rankings
 
 The structural work matters more than most firms realize. [Technical SEO wins every law firm overlooks](/blog/technical-seo-law-firms-overlooked/) are especially relevant in multi-location contexts, because the problems compound across pages.
@@ -75,8 +67,6 @@ Specifically:
 **Internal linking.** Location pages should link to relevant practice area pages and vice versa. If someone lands on your Tampa office page looking for estate planning, they should find a clear path to your estate planning content. If someone lands on your estate planning page, location-specific links should help them find the relevant office.
 
 **URL structure.** Keep it clean and logical. Something like `/locations/tampa/` or `/offices/orlando/` is better than `/page?id=47&loc=orl`. This seems obvious but a surprising number of firms have location pages buried in query strings.
-
----
 
 ## Content Strategy Across Multiple Markets
 
@@ -90,15 +80,11 @@ A few approaches that work:
 
 The firms that dominate local search in multiple markets are not doing this occasionally. They have a consistent content operation. [The Law Firm Content Calendar Nobody Follows (And Why You Need One Anyway)](/blog/law-firm-content-calendar-strategy/) addresses how to build that discipline without it falling apart two months in.
 
----
-
 ## Link Building for Multiple Locations
 
 Backlinks remain a significant ranking factor, and local links—from local news outlets, bar associations, chambers of commerce, community organizations—carry extra weight for local rankings. The challenge with a multi-location firm is that link-building efforts need to be geographically distributed, not concentrated entirely on one office.
 
 A link from the Tampa Bay Business Journal helps your Tampa presence. It does almost nothing for your Jacksonville rankings. This is why [The Link-Building Playbook Law Firms Won't Talk About](/blog/law-firm-link-building-strategy/) emphasizes local citation building and local PR as components of the strategy, not afterthoughts.
-
----
 
 ## The Measurement Problem
 
@@ -106,14 +92,10 @@ Tracking local rankings across five or more markets is not a one-dashboard job. 
 
 If your analytics are still showing you aggregate website traffic without location-level attribution, you're managing blind. [Conversion Tracking for Law Firms: Beyond Google Analytics](/blog/advanced-conversion-tracking-law-firms/) covers the setup that actually tells you what's working where.
 
----
-
 ## The Bottom Line
 
 **Multi-location SEO for law firms** is a systems problem, not just an SEO problem. It requires consistent NAP data, individual GBP management, substantive location pages, distributed link-building, and location-level analytics. Firms that treat all five offices as one SEO entity and wonder why they only rank in one city have their answer.
 
 If you're managing a multi-office firm and want an honest assessment of where your local search presence is broken, [reach out](/contact/). We work with law firm networks on exactly this kind of structured local SEO—no generic audits, no cookie-cutter recommendations.
-
----
 
 *Related: [Schema Markup for Law Firms: The Unsexy Tactic That Actually Moves the Needle](/blog/law-firm-schema-markup-implementation/) | [Reputation Management for Law Firms: Review Sites That Actually Matter](/blog/law-firm-review-management/)*

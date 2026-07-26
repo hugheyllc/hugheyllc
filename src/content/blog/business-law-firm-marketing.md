@@ -56,7 +56,6 @@ The attribution challenge in business law is the long time-to-retain. A client w
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [AI Tools for Law Firm Marketing: What Actually Works in 2026 (And What Doesn't)](/blog/ai-tools-law-firm-marketing/)

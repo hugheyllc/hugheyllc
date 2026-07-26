@@ -20,8 +20,6 @@ What potential clients actually want to see is simple: proof that you handle the
 
 Here's how to build pages that rank *and* close business.
 
----
-
 ## The Core Problem: Ranking Is Not the Goal
 
 Every firm wants to rank for "[city] personal injury attorney" or "[state] estate planning lawyer." Fair enough. But ranking is the beginning of the funnel, not the end. A page that ranks on page one and converts at 0.8% is underperforming a page that ranks on page two and converts at 4%.
@@ -29,8 +27,6 @@ Every firm wants to rank for "[city] personal injury attorney" or "[state] estat
 Most firms measure SEO success by position and traffic. They should be measuring **retained clients per month from organic search**. If you want to dig into that distinction, the framework in [Measuring Real Marketing ROI: Metrics That Matter (Not Vanity Metrics)](/blog/law-firm-marketing-roi-metrics/) covers why vanity metrics will lead you to keep paying for things that don't work.
 
 The point here is structural: if your practice area page isn't built to convert, more traffic just means more wasted opportunity.
-
----
 
 ## What a Converting Practice Area Page Actually Looks Like
 
@@ -63,8 +59,6 @@ This sounds obvious. It isn't practiced. Firms routinely build hybrid pages that
 
 Choose one. Usually that's a phone number with a click-to-call button and a simple contact form. Every other element on the page should support that one action.
 
----
-
 ## The SEO Layer: Keywords That Don't Kill Readability
 
 Yes, you need the keyword. **Landing page design for law firms** — or in practice, your specific practice area keyword — needs to appear in the H1, the first paragraph, a subheading or two, and naturally throughout the body. That's not a secret.
@@ -74,8 +68,6 @@ What kills conversion is when firms treat keyword density as the primary editori
 Write for the reader first. Then review for keyword placement. In most cases, if you've written clearly about the topic, the keywords land naturally.
 
 For firms doing this across multiple markets, [Local Search Dominance: How Law Firms Win Their County](/blog/local-search-law-firm-county-dominance/) goes deeper on geographic targeting without resorting to the "city + practice area" page farm approach that Google is increasingly penalizing.
-
----
 
 ## What Most Firms Get Wrong on Practice Area Pages
 
@@ -87,8 +79,6 @@ For firms doing this across multiple markets, [Local Search Dominance: How Law F
 
 **Ignoring mobile.** The majority of legal searches happen on phones. If your practice area page requires pinching, zooming, or hunting for a contact form, your mobile conversion rate is a disaster. This falls squarely under the technical issues an [SEO audit every Florida law firm needs](/blog/law-firm-seo-audit-florida/) would flag immediately.
 
----
-
 ## A Note on Practice Area Pages vs. Campaign Landing Pages
 
 There's a distinction worth making. Your **practice area page** lives in your site's permanent architecture — it's the page you want to rank organically for years.
@@ -99,8 +89,6 @@ If you're running paid campaigns without dedicated landing pages — sending ad 
 
 For firms spending on personal injury marketing specifically, [Personal Injury Marketing in Tampa Bay: What Actually Drives Cases](/blog/personal-injury-marketing-in-tampa-bay-what-actually-drives-cases/) addresses the full-funnel view, including how landing pages fit into paid and organic strategy together.
 
----
-
 ## The Measurement Question
 
 Once your practice area pages are built or rebuilt, you need to track what's actually happening. That means conversion tracking — not just pageviews. Form submissions, phone calls (with call tracking), and ultimately, how many of those contacts became retained clients.
@@ -109,8 +97,6 @@ If you want a framework for calculating what each retained client actually costs
 
 The firms that win at this aren't necessarily the ones with the best-looking pages. They're the ones who know what's working and double down on it.
 
----
-
 ## Bottom Line
 
 A practice area page that only ranks is a missed opportunity. Every visitor who lands on your page and leaves without contacting you is a case you didn't get. **Landing page design for law firms** needs to be evaluated on that standard — conversions, contacts, retained clients — not impressions and session duration.
@@ -118,7 +104,5 @@ A practice area page that only ranks is a missed opportunity. Every visitor who 
 If your current pages aren't converting at the rate your traffic should support, the problem is almost always structural. The good news is that it's fixable.
 
 If you want a direct assessment of what's wrong and what to do about it, [contact me here](/contact/). No pitch deck, no agency proposal. Just a straight conversation about what your pages need.
-
----
 
 *Related: [Measuring Real Marketing ROI: Metrics That Matter (Not Vanity Metrics)](/blog/law-firm-marketing-roi-metrics/) | [Local Search Dominance: How Law Firms Win Their County](/blog/local-search-law-firm-county-dominance/)*

@@ -119,7 +119,6 @@ If you're a managing partner or firm principal in Tampa Bay or anywhere in Flori
 
 If you'd like a second opinion from an [law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Law Firm Marketing Agency vs. Technical Partner: Why the Difference Determines Your ROI](/blog/law-firm-marketing-agency-vs-technical-partner/)

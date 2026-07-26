@@ -118,7 +118,6 @@ Average cost per consult (especially from paid video campaigns)
 
 When video metrics connect to real client outcomes, marketing becomes truly measurable — the same principle that drives our [data analysis work for law firms](/services/data-analysis-for-law-firms/).
 
-
 ## FAQs
 
 **Can law firms use client testimonials in videos?**
@@ -134,7 +133,6 @@ Absolutely. Video increases engagement, time on page, and trust signals — all 
 Start with 2–3 videos per month on YouTube, LinkedIn, and your website. Consistency matters more than volume.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
-
 
 ### Related Reading
 

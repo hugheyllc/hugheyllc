@@ -108,7 +108,6 @@ I've seen firms move from 5.2 to 7.8 in 90 days. It requires system, not genius.
 
 If you'd like a second opinion from an [independent law firm marketing consultant](https://hugheyllc.com/) who actually builds the infrastructure behind law firm marketing — not just runs campaigns — that's what I do at Hughey, LLC.
 
-
 ### Related Reading
 
 - [Google Ads for Law Firms: Why Most Campaigns Fail — And What the Winning Ones Do Differently](/blog/google-ads-law-firms/)

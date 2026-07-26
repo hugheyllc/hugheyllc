@@ -101,8 +101,6 @@ Absolutely. Many firms use a consultant for strategy and oversight while an agen
 
 For a consultant: 6–8 weeks to diagnose and present findings. For an agency: 90 days minimum to see early lead data, but don't judge conversion until month 4–6 (some practice areas have longer sales cycles). If you still can't articulate what's working vs. what's not by month 6, that's a sign the relationship isn't set up for accountability.
 
----
-
 The choice between a law firm marketing agency and an independent consultant isn't really about which is "better"—it's about what your firm needs right now. If you need execution and you have the bandwidth to manage an agency, go agency. If you need someone to own the strategy and you want alignment around actual growth metrics, go consultant. And if you're not sure which problem you're trying to solve, [start with the free 25-point marketing audit checklist](/resources/marketing-audit-checklist/)—it's the same diagnostic I walk consulting clients through.
 
 ### Related Reading
