@@ -24,12 +24,12 @@
 11. Strategic Partnerships With Accountants, Financial Advisors, and Business Consultants (Published 2026-07-23)
 12. Co-Marketing Opportunities: Growing Your Firm by Partnering With Complementary Services (Published 2026-07-24)
 13. Bar Association Networking: Turning Membership Into Real Business Development (Published 2026-07-25)
-14. Industry-Specific Referral Sources: Who Sends Your Practice Area the Most Consistent Leads
-15. Referral Fee Structures and Marketing: Designing Programs That Actually Work
-16. Client Advocacy Programs: Converting Satisfied Clients Into Your Best Salespeople
+14. Industry-Specific Referral Sources: Who Sends Your Practice Area the Most Consistent Leads (Published 2026-07-26)
+15. Referral Fee Structures and Marketing: Designing Programs That Actually Work (Published 2026-07-28)
+16. Client Advocacy Programs: Converting Satisfied Clients Into Your Best Salespeople (Published 2026-07-28)
 
 ### Pricing, Value-Based Billing & Profitability (8 topics)
-17. Value-Based Billing vs. Hourly: What Marketing Looks Like When You Change Your Model
+17. Value-Based Billing vs. Hourly: What Marketing Looks Like When You Change Your Model (Published 2026-07-28)
 18. Contingency Fee Optimization: How Marketing Strategy Changes With Your Billing Model
 19. Flat-Fee Legal Services: Marketing and Profitability in an Unbundled Market
 20. Pricing Power: How to Market Your Law Firm When You're Not the Cheapest Option
