@@ -845,8 +845,12 @@
   ],
   "headers": [
     {
-      "source": "/:path*",
+      "source": "/((?!blog|sitemap|assets|images|admin|api|client-requests).*)",
       "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=1800, s-maxage=3600"
+        },
         {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
@@ -935,6 +939,24 @@
         {
           "key": "Cache-Control",
           "value": "no-store, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/blog/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap*.xml",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=43200, s-maxage=86400"
         }
       ]
     }
