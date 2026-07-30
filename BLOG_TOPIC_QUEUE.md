@@ -31,7 +31,7 @@
 ### Pricing, Value-Based Billing & Profitability (8 topics)
 17. Value-Based Billing vs. Hourly: What Marketing Looks Like When You Change Your Model (Published 2026-07-28)
 18. Contingency Fee Optimization: How Marketing Strategy Changes With Your Billing Model (Published 2026-07-29)
-19. Flat-Fee Legal Services: Marketing and Profitability in an Unbundled Market (Published 2026-07-30)
+19. Flat-Fee Legal Services: Marketing and Profitability in an Unbundled Market (Published 2026-07-30) (Published 2026-07-30)
 20. Pricing Power: How to Market Your Law Firm When You're Not the Cheapest Option
 21. Profitability by Practice Area: Which Services Are Actually Making Your Firm Money
 22. Cost Analysis: Understanding Which Marketing Channels Drive Your Highest-Margin Cases
