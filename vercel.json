@@ -952,7 +952,16 @@
       ]
     },
     {
-      "source": "/sitemap*.xml",
+      "source": "/sitemap-index.xml",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=43200, s-maxage=86400"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap-:page.xml",
       "headers": [
         {
           "key": "Cache-Control",
