@@ -34,7 +34,7 @@
 19. Flat-Fee Legal Services: Marketing and Profitability in an Unbundled Market (Published 2026-07-30) (Published 2026-07-30)
 20. Pricing Power: How to Market Your Law Firm When You're Not the Cheapest Option (Published 2026-08-02)
 21. Profitability by Practice Area: Which Services Are Actually Making Your Firm Money (Published 2026-08-02)
-22. Cost Analysis: Understanding Which Marketing Channels Drive Your Highest-Margin Cases
+22. Cost Analysis: Understanding Which Marketing Channels Drive Your Highest-Margin Cases (Published 2026-08-03)
 23. Legal Subscription Services and Retainer Models: New Pricing, New Marketing
 24. Bundled vs. Unbundled Legal Services: How Your Marketing Message Changes
 
