@@ -12,8 +12,7 @@ seo_title: 'Pricing Power: How to Market Your Law Firm When You''re Not the Chea
 seo_description: 'Pricing Power: How to Market Your Law Firm When You''re Not the Cheapest Option'
 draft: false
 image: /images/blog/pricing-power-how-to-market-your-law-firm-when-youre-not-the.jpg
----
-Marketing a law firm that charges premium rates requires shifting the conversation from price to value — and doing it consistently across every client touchpoint. The firms that succeed at this aren't hiding their rates; they're building a case so compelling that price becomes a secondary concern. If you're not the cheapest option in your market, that's actually a position you can own and market effectively.
+---Marketing a law firm that charges premium rates requires shifting the conversation from price to value — and doing it consistently across every client touchpoint. The firms that succeed at this aren't hiding their rates; they're building a case so compelling that price becomes a secondary concern. If you're not the cheapest option in your market, that's actually a position you can own and market effectively.
 
 ## Why Cheap Is a Race You Don't Want to Win
 
@@ -80,7 +79,5 @@ The most powerful pricing tool a law firm has is reputation. When a prospective 
 Reputation building is a long game. It requires consistency in thought leadership, active relationship cultivation with referral sources, and the discipline to stay in your lane rather than chasing every practice area. But the firms that invest in it find that pricing objections become rarer over time, not more common.
 
 In my experience, the firms with the strongest reputations rarely lead with marketing in the traditional sense. They lead with substance, and the marketing follows naturally.
-
----
 
 If you're ready to stop competing on price and start building the kind of positioning that makes your rates a non-issue, reach out and let's talk about where your firm stands.
