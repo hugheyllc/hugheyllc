@@ -24,9 +24,15 @@ if (!fs.existsSync(DRAFTS_DIR)) {
 }
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 if (!ANTHROPIC_API_KEY) {
   console.error('Missing ANTHROPIC_API_KEY');
+  process.exit(1);
+}
+
+if (!OPENAI_API_KEY) {
+  console.error('Missing OPENAI_API_KEY');
   process.exit(1);
 }
 
@@ -191,6 +197,50 @@ function getRelatedPosts(keywords, limit = 4) {
   return candidates.sort((a, b) => b.score - a.score).slice(0, limit);
 }
 
+async function generateImage(title, slug) {
+  const prompt = `Professional blog header image for "${title}" - a law firm marketing concept. Modern, clean design with business/legal context. High quality, suitable for blog header on professional law firm website.`;
+  
+  try {
+    const response = await fetch('https://api.openai.com/v1/images/generations', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${OPENAI_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: 'dall-e-3',
+        prompt,
+        n: 1,
+        size: '1792x1024',
+        quality: 'standard'
+      })
+    });
+
+    if (!response.ok) {
+      const err = await response.json();
+      throw new Error(`${response.status} - ${err.error?.message || JSON.stringify(err)}`);
+    }
+
+    const data = await response.json();
+    const imageUrl = data.data[0].url;
+    
+    // Download image and save to public/images/blog/
+    const imageDir = path.join(ROOT, 'public/images/blog');
+    if (!fs.existsSync(imageDir)) {
+      fs.mkdirSync(imageDir, { recursive: true });
+    }
+    
+    const imagePath = path.join(imageDir, `${slug}.jpg`);
+    const imageResponse = await fetch(imageUrl);
+    const imageBuffer = await imageResponse.arrayBuffer();
+    fs.writeFileSync(imagePath, Buffer.from(imageBuffer));
+    
+    return `/images/blog/${slug}.jpg`;
+  } catch (e) {
+    throw new Error('Image generation failed: ' + e.message);
+  }
+}
+
 async function generateContent(topic) {
   const relatedPosts = getRelatedPosts(topic.keywords);
   const relatedLinks = relatedPosts
@@ -296,6 +346,11 @@ async function generate() {
     const slug = slugify(topic.title);
     const postDate = topic.date;
     
+    // Generate image
+    console.error(`Generating image for: ${topic.title}`);
+    const imagePath = await generateImage(topic.title, slug);
+    console.error(`✅ Image generated: ${imagePath}`);
+    
     const excerpt = topic.title.substring(0, 155);
     const frontmatter = {
       title: topic.title,
@@ -307,7 +362,7 @@ async function generate() {
       seo_title: topic.title,
       seo_description: excerpt,
       draft: false,
-      image: `/images/blog/${slug}.jpg`
+      image: imagePath
     };
     
     const markdown = matter.stringify(content, frontmatter);
