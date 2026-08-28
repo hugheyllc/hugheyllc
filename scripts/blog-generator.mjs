@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Blog Generator — Claude Sonnet
- * Generates blog drafts from approved queue, prevents duplicates, stores in /drafts/ for approval
+ * Blog Generator v2 — Improved
+ * Enforces inline links requirement with clearer Claude prompt
  */
 
 import fs from 'fs';
@@ -45,28 +45,22 @@ function slugify(title) {
     .substring(0, 60);
 }
 
-/**
- * Check if a post with similar title already exists
- */
 function checkDuplicate(title) {
   const slug = slugify(title);
   
-  // Check exact file match in blog directory
   if (fs.existsSync(path.join(BLOG_DIR, `${slug}.md`))) {
     return { isDuplicate: true, reason: 'Exact slug match exists in published' };
   }
   
-  // Check git history for this slug
   try {
     const gitLog = execSync(`cd ${ROOT} && git log --all --oneline -- "src/content/blog/${slug}.md" 2>/dev/null`, { encoding: 'utf-8' });
     if (gitLog.trim()) {
       return { isDuplicate: true, reason: 'Found in git history' };
     }
   } catch (e) {
-    // No match in git, continue
+    // No match in git
   }
   
-  // Check title similarity (>80% match on key words)
   const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
   for (const file of files) {
     try {
@@ -76,7 +70,6 @@ function checkDuplicate(title) {
       const existingTitle = (data.title || '').toLowerCase();
       const newTitle = title.toLowerCase();
       
-      // Check if titles are very similar (same slug or >80% word overlap)
       const newWords = new Set(newTitle.split(/\W+/).filter(w => w.length > 3));
       const existingWords = new Set(existingTitle.split(/\W+/).filter(w => w.length > 3));
       
@@ -93,17 +86,13 @@ function checkDuplicate(title) {
         }
       }
     } catch (e) {
-      // Skip this file if error
+      // Skip
     }
   }
   
   return { isDuplicate: false };
 }
 
-/**
- * Parse next uncommented topic from BLOG_TOPIC_QUEUE.md
- * Format: "N. Topic Title"
- */
 function getNextTopic() {
   if (!fs.existsSync(BLOG_QUEUE_FILE)) {
     console.error(`Queue file not found: ${BLOG_QUEUE_FILE}`);
@@ -113,22 +102,18 @@ function getNextTopic() {
   const content = fs.readFileSync(BLOG_QUEUE_FILE, 'utf8');
   const lines = content.split('\n');
   
-  // Find first uncommented, non-published topic line
   for (const line of lines) {
     const trimmed = line.trim();
     
-    // Skip headers, comments, empty lines
     if (!trimmed || trimmed.startsWith('#') || trimmed.startsWith('---') || trimmed.startsWith('**')) {
       continue;
     }
     
-    // Match pattern: "N. Topic Title"
     const match = trimmed.match(/^\d+\.\s+(.+?)(?:\s*\(.*?\))?$/);
     if (match) {
       const topicTitle = match[1].trim();
       
-      // Skip if line contains "(Published" or "✅"
-      if (line.includes('Published') || line.includes('✅')) {
+      if (line.includes('Published') || line.includes('✅') || line.includes('SKIPPED')) {
         continue;
       }
       
@@ -144,9 +129,6 @@ function getNextTopic() {
   return null;
 }
 
-/**
- * Mark topic as used in queue by adding check mark
- */
 function markTopicUsed(topic) {
   const content = fs.readFileSync(BLOG_QUEUE_FILE, 'utf8');
   const lines = content.split('\n');
@@ -155,8 +137,7 @@ function markTopicUsed(topic) {
     const trimmed = line.trim();
     const match = trimmed.match(/^\d+\.\s+(.+?)(?:\s*\(.*?\))?$/);
     
-    if (match && match[1].trim() === topic.title && !line.includes('Published')) {
-      // Add publication marker
+    if (match && match[1].trim() === topic.title && !line.includes('Published') && !line.includes('SKIPPED')) {
       return line + ` (Published ${topic.date})`;
     }
     return line;
@@ -165,7 +146,7 @@ function markTopicUsed(topic) {
   fs.writeFileSync(BLOG_QUEUE_FILE, updated);
 }
 
-function getRelatedPosts(keywords, limit = 4) {
+function getRelatedPosts(keywords, limit = 5) {
   const keywordArray = keywords.slice(0, 5).map(k => k.toLowerCase()).filter(k => k.length > 2);
   const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
   const candidates = [];
@@ -190,7 +171,7 @@ function getRelatedPosts(keywords, limit = 4) {
         candidates.push({ slug, title: data.title || 'Untitled', score });
       }
     } catch (e) {
-      // Skip file on error
+      // Skip
     }
   }
   
@@ -222,8 +203,6 @@ async function generateImage(title, slug) {
 
     const data = await response.json();
     
-    // Handle both URL and base64 response formats
-    let imageBuffer;
     const imageDir = path.join(ROOT, 'public/images/blog');
     if (!fs.existsSync(imageDir)) {
       fs.mkdirSync(imageDir, { recursive: true });
@@ -231,15 +210,13 @@ async function generateImage(title, slug) {
     const imagePath = path.join(imageDir, `${slug}.jpg`);
     
     if (data.data?.[0]?.b64_json) {
-      // Handle base64 encoded response
       const b64Data = data.data[0].b64_json;
-      imageBuffer = Buffer.from(b64Data, 'base64');
+      const imageBuffer = Buffer.from(b64Data, 'base64');
       fs.writeFileSync(imagePath, imageBuffer);
     } else if (data.data?.[0]?.url) {
-      // Handle URL response
       const imageUrl = data.data[0].url;
       const imageResponse = await fetch(imageUrl);
-      imageBuffer = await imageResponse.arrayBuffer();
+      const imageBuffer = await imageResponse.arrayBuffer();
       fs.writeFileSync(imagePath, Buffer.from(imageBuffer));
     } else {
       throw new Error(`Invalid response structure: ${JSON.stringify(data).substring(0, 200)}`);
@@ -253,28 +230,62 @@ async function generateImage(title, slug) {
 
 async function generateContent(topic) {
   const relatedPosts = getRelatedPosts(topic.keywords);
-  const relatedLinks = relatedPosts
-    .map(p => `- [${p.title}](/blog/${p.slug}/)`)
+  
+  // Build a formatted list of related posts for the prompt
+  const relatedPostsList = relatedPosts
+    .map((p, i) => `${i + 1}. [${p.title}](/blog/${p.slug}/)`)
     .join('\n');
   
-  const prompt = `You are Joe Hughey, a law firm marketing consultant writing for Hughey LLC's blog.
+  // Build prompt with STRICT inline link requirements
+  const prompt = `You are Joe Hughey, a law firm marketing consultant with 20+ years of law firm marketing experience. Write a blog post with this title:
 
-Write a blog post with this title:
+TITLE: "${topic.title}"
 
-Title: "${topic.title}"
+HARD REQUIREMENTS (non-negotiable):
 
-REQUIREMENTS:
-1. AEO Answer (first 200 words): Start with 2-3 direct sentences answering the main question
-2. Length: 900-1,400 words
-3. Inline links: Naturally embed 2-3 of these posts in the body if relevant:
-${relatedLinks || '   (no related posts)'}
-4. Structure: Use H2 subheadings, keep paragraphs 2-3 sentences
-5. Voice: Direct, professional, practical — no fluff
-6. Tone: Authoritative but conversational
-7. Ending: One sentence CTA
-8. Data: No fabricated metrics — use aggregate language ("many firms", "in my experience")
+1. OPENING SECTION (minimum 150-200 words):
+   - Start with 2-3 sentences that directly answer the title as a question
+   - This is the "AEO answer" - make it substantial and meaty
+   - Don't rush to subheadings - spend real words on this opening
 
-Write ONLY the body content (no frontmatter, no title, no markdown heading).`;
+2. TOTAL LENGTH: 900-1,400 words
+
+3. INLINE MARKDOWN LINKS (ABSOLUTELY REQUIRED - you MUST include 2-3):
+   Available related articles:
+${relatedPostsList}
+
+   YOUR JOB: Weave 2-3 of these links DIRECTLY INTO your paragraphs as you write. Not at the end. Not in a "Related Posts" section. IN THE BODY.
+
+   CORRECT EXAMPLES:
+   "As I covered in depth in [Building an Internal Referral Program](/blog/building-an-internal-referral-program-law-firm/), your own team is often the best..."
+   "This parallels what I explored in [Strategic Partnerships With Accountants](/blog/strategic-partnerships-with-accountants-financial-advisors/), where I showed that..."
+   "I detailed this approach in [Thought Leadership on LinkedIn](/blog/legal-thought-leadership-on-linkedin/), but here's how it applies specifically..."
+
+   AFTER YOU FINISH: Count the links in your response. There should be at least 2-3 markdown links in different sections of your body text.
+
+4. STRUCTURE:
+   - Use H2 subheadings (##)
+   - Keep paragraphs 2-3 sentences
+   - No Related Posts list at the bottom
+
+5. VOICE:
+   - Direct, professional, practical
+   - Use "in my experience", "I've found", "from what I've seen"
+   - Write from Joe's perspective as a law firm marketing expert
+
+6. TONE: Authoritative but conversational. You're talking to law firm owners and marketing directors.
+
+7. ENDING: One clear, direct call-to-action sentence
+
+8. DATA: Use only aggregate language ("many firms", "most clients", "I've noticed"). Never fabricate metrics or specific percentages.
+
+DO NOT INCLUDE:
+- YAML frontmatter
+- Title heading (we'll add it)
+- Author byline
+- "Related Posts" section
+
+WRITE ONLY: The body content for the blog post.`;
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -286,7 +297,7 @@ Write ONLY the body content (no frontmatter, no title, no markdown heading).`;
       },
       body: JSON.stringify({
         model: 'claude-sonnet-4-6',
-        max_tokens: 2000,
+        max_tokens: 2500,
         messages: [{ role: 'user', content: prompt }]
       })
     });
@@ -297,7 +308,15 @@ Write ONLY the body content (no frontmatter, no title, no markdown heading).`;
     }
 
     const data = await response.json();
-    return data.content[0].text;
+    const content = data.content[0].text;
+    
+    // Verify inline links are present
+    const linkCount = (content.match(/\[.+?\]\(\/blog\/.+?\//g) || []).length;
+    if (linkCount < 2) {
+      console.error(`WARNING: Generated content has only ${linkCount} inline links (expected 2-3). Content may not meet requirements.`);
+    }
+    
+    return content;
   } catch (e) {
     throw new Error('Content generation failed: ' + e.message);
   }
@@ -314,7 +333,6 @@ async function generate() {
   };
 
   try {
-    // Get next topic from queue
     const topic = getNextTopic();
     if (!topic) {
       result.status = 'failed';
@@ -324,39 +342,34 @@ async function generate() {
     
     result.topic = topic.title;
     
-    // Check for duplicates BEFORE generating
     const dupCheck = checkDuplicate(topic.title);
     if (dupCheck.isDuplicate) {
       result.status = 'skipped';
       result.duplicate = true;
       result.error = `Duplicate detected: ${dupCheck.reason}`;
-      markTopicUsed(topic); // Still mark as processed
+      markTopicUsed(topic);
       return result;
     }
     
-    // Validate topic against BLOG_TOPICS.md AVOID/APPROVED lists
     const topicValidation = validateTopic(topic.title);
     if (topicValidation.status === 'rejected') {
       result.status = 'skipped';
       result.duplicate = true;
       result.error = `Topic validation failed: ${topicValidation.reasons.join('; ')}`;
       console.error(`❌ Topic rejected by validator: ${topicValidation.reasons.join('; ')}`);
-      markTopicUsed(topic); // Mark as processed to avoid retrying
+      markTopicUsed(topic);
       return result;
     }
     if (topicValidation.status === 'ambiguous') {
       console.error(`⚠️  Topic is ambiguous (not in approved list): ${topicValidation.reasons.join('; ')}`);
-      // Continue but log warning — ambiguous topics may still be valid
     }
     
     console.error(`Generating: ${topic.title}`);
     const content = await generateContent(topic);
     
-    // Generate slug and prepare frontmatter
     const slug = slugify(topic.title);
     const postDate = topic.date;
     
-    // Generate image
     console.error(`Generating image for: ${topic.title}`);
     const imagePath = await generateImage(topic.title, slug);
     console.error(`✅ Image generated: ${imagePath}`);
@@ -380,7 +393,6 @@ async function generate() {
     const filepath = path.join(DRAFTS_DIR, filename);
     fs.writeFileSync(filepath, markdown);
     
-    // Mark as used in queue
     markTopicUsed(topic);
     
     result.status = 'success';
