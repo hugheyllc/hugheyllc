@@ -41,8 +41,8 @@
 ### Niche Practice Areas (Underrepresented) (12 topics)
 25. Intellectual Property Law Marketing: How to Position Your Firm in a Specialized Field (Published 2026-08-25)
 26. Estate Planning and Probate Marketing: Reaching High-Net-Worth Clients at the Right Time (SKIPPED - Too similar to referral sources post) (Published 2026-08-28)
-27. Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals (SKIPPED - Insufficient related posts)
-28. Bankruptcy Law Marketing: Reaching Debtors (Ethically) When They Need Help Most (SKIPPED - Insufficient related posts for inline links)
+27. Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals (SKIPPED - Insufficient related posts) (Published 2026-08-28)
+28. Bankruptcy Law Marketing: Reaching Debtors (Ethically) When They Need Help Most (SKIPPED - Insufficient related posts for inline links) (Published 2026-08-28)
 29. Employment Law Marketing: B2B vs. B2C Strategies for HR and Individual Clients (SKIPPED - Insufficient related posts)
 30. Healthcare Law and Medical Practice Marketing: Compliance-First Strategies (SKIPPED - Insufficient related posts)
 31. Construction and Surety Bond Law: Marketing to Contractors and Developers (SKIPPED - Insufficient related posts)
@@ -53,8 +53,8 @@
 36. Nonprofit and Tax-Exempt Organizations Law: Marketing Professional Services (SKIPPED - Insufficient related posts)
 
 ### LinkedIn for Lawyers & Professional Networking (7 topics)
-37. LinkedIn for Law Firm Partners: Building Personal Brands That Generate Business
-38. Legal Thought Leadership on LinkedIn: How to Position Your Firm as Trusted Advisors
+37. LinkedIn for Law Firm Partners: Building Personal Brands That Generate Business (Published 2026-08-28)
+38. Legal Thought Leadership on LinkedIn: How to Position Your Firm as Trusted Advisors (Published 2026-08-28)
 39. LinkedIn Content Strategy for Attorneys: What Actually Gets Engagement From Your Peers
 40. LinkedIn Networking for Business Development: Turning Connections Into Retainers
 41. LinkedIn Ads for Law Firms: B2B Legal Service Lead Generation
