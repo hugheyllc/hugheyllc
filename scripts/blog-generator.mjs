@@ -208,11 +208,10 @@ async function generateImage(title, slug) {
         'Authorization': `Bearer ${OPENAI_API_KEY}`
       },
       body: JSON.stringify({
-        model: 'dall-e-3',
+        model: 'gpt-image-2',
         prompt,
         n: 1,
-        size: '1792x1024',
-        quality: 'standard'
+        size: '1024x1024'
       })
     });
 
@@ -222,18 +221,29 @@ async function generateImage(title, slug) {
     }
 
     const data = await response.json();
-    const imageUrl = data.data[0].url;
     
-    // Download image and save to public/images/blog/
+    // Handle both URL and base64 response formats
+    let imageBuffer;
     const imageDir = path.join(ROOT, 'public/images/blog');
     if (!fs.existsSync(imageDir)) {
       fs.mkdirSync(imageDir, { recursive: true });
     }
-    
     const imagePath = path.join(imageDir, `${slug}.jpg`);
-    const imageResponse = await fetch(imageUrl);
-    const imageBuffer = await imageResponse.arrayBuffer();
-    fs.writeFileSync(imagePath, Buffer.from(imageBuffer));
+    
+    if (data.data?.[0]?.b64_json) {
+      // Handle base64 encoded response
+      const b64Data = data.data[0].b64_json;
+      imageBuffer = Buffer.from(b64Data, 'base64');
+      fs.writeFileSync(imagePath, imageBuffer);
+    } else if (data.data?.[0]?.url) {
+      // Handle URL response
+      const imageUrl = data.data[0].url;
+      const imageResponse = await fetch(imageUrl);
+      imageBuffer = await imageResponse.arrayBuffer();
+      fs.writeFileSync(imagePath, Buffer.from(imageBuffer));
+    } else {
+      throw new Error(`Invalid response structure: ${JSON.stringify(data).substring(0, 200)}`);
+    }
     
     return `/images/blog/${slug}.jpg`;
   } catch (e) {

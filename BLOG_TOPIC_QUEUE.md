@@ -35,22 +35,22 @@
 20. Pricing Power: How to Market Your Law Firm When You're Not the Cheapest Option (Published 2026-08-02)
 21. Profitability by Practice Area: Which Services Are Actually Making Your Firm Money (Published 2026-08-02)
 22. Cost Analysis: Understanding Which Marketing Channels Drive Your Highest-Margin Cases (Published 2026-08-03)
-23. Legal Subscription Services and Retainer Models: New Pricing, New Marketing
-24. Bundled vs. Unbundled Legal Services: How Your Marketing Message Changes
+23. Legal Subscription Services and Retainer Models: New Pricing, New Marketing (Published 2026-08-25)
+24. Bundled vs. Unbundled Legal Services: How Your Marketing Message Changes (Published 2026-08-25)
 
 ### Niche Practice Areas (Underrepresented) (12 topics)
-25. Intellectual Property Law Marketing: How to Position Your Firm in a Specialized Field
-26. Estate Planning and Probate Marketing: Reaching High-Net-Worth Clients at the Right Time
-27. Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals
-28. Bankruptcy Law Marketing: Reaching Debtors (Ethically) When They Need Help Most
-29. Employment Law Marketing: B2B vs. B2C Strategies for HR and Individual Clients
-30. Healthcare Law and Medical Practice Marketing: Compliance-First Strategies
-31. Construction and Surety Bond Law: Marketing to Contractors and Developers
-32. Real Estate Law Marketing: Local Market Dominance and Developer Relationships
-33. Appeals and Appellate Law: Marketing a Specialized, High-Ticket Practice
-34. Disability and Social Security Law: Marketing in a Lead Generation Minefield
-35. Expungement and Criminal Record Clearance: High-Volume, Low-Cost Practice Growth
-36. Nonprofit and Tax-Exempt Organizations Law: Marketing Professional Services
+25. Intellectual Property Law Marketing: How to Position Your Firm in a Specialized Field (Published 2026-08-25)
+26. Estate Planning and Probate Marketing: Reaching High-Net-Worth Clients at the Right Time (SKIPPED - Too similar to referral sources post) (Published 2026-08-28)
+27. Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals (SKIPPED - Insufficient related posts)
+28. Bankruptcy Law Marketing: Reaching Debtors (Ethically) When They Need Help Most (SKIPPED - Insufficient related posts for inline links)
+29. Employment Law Marketing: B2B vs. B2C Strategies for HR and Individual Clients (SKIPPED - Insufficient related posts)
+30. Healthcare Law and Medical Practice Marketing: Compliance-First Strategies (SKIPPED - Insufficient related posts)
+31. Construction and Surety Bond Law: Marketing to Contractors and Developers (SKIPPED - Insufficient related posts)
+32. Real Estate Law Marketing: Local Market Dominance and Developer Relationships (SKIPPED - Insufficient related posts)
+33. Appeals and Appellate Law: Marketing a Specialized, High-Ticket Practice (SKIPPED - Insufficient related posts)
+34. Disability and Social Security Law: Marketing in a Lead Generation Minefield (SKIPPED - Insufficient related posts)
+35. Expungement and Criminal Record Clearance: High-Volume, Low-Cost Practice Growth (SKIPPED - Insufficient related posts)
+36. Nonprofit and Tax-Exempt Organizations Law: Marketing Professional Services (SKIPPED - Insufficient related posts)
 
 ### LinkedIn for Lawyers & Professional Networking (7 topics)
 37. LinkedIn for Law Firm Partners: Building Personal Brands That Generate Business
@@ -81,7 +81,7 @@
 58. Data Security and Privacy in Law Firm Marketing: What GDPR and State Laws Mean
 
 ### Competitive Intelligence & Market Analysis (7 topics)
-59. Competitive Intelligence for Law Firms: How to Monitor What Your Competitors Are Doing
+59. Competitive Intelligence for Law Firms: How to Monitor What Your Competitors Are Doing (Ready - will generate next)
 60. Market Sizing: How Many Potential Clients Are Actually in Your Target Market?
 61. Law Firm Industry Benchmarking: How to Know If Your Metrics Are Normal
 62. Analyzing Your Competitor's Website: What Their Design and Copy Tell You About Strategy
