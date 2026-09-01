@@ -9,7 +9,7 @@ tags:
 seo_title: 'LinkedIn Groups and Communities: Building Your Professional Network at Scale'
 seo_description: 'LinkedIn Groups and Communities: Building Your Professional Network at Scale'
 draft: false
-image: /images/blog/linkedin-groups-and-communities-building-your-professional-n.png
+image: null
 ---
 LinkedIn Groups and Communities are one of the most underutilized tools in a law firm's marketing arsenal — and that's actually good news for the firms willing to put in the work. When used strategically, they give you direct access to concentrated pools of your ideal clients and referral sources, all organized by industry, profession, or interest. The key insight most law firms miss is that LinkedIn Groups aren't just networking rooms — they're listening posts, credibility platforms, and relationship accelerators all rolled into one. Rather than broadcasting your message into the void and hoping the right people see it, Groups let you show up consistently in front of a self-selected audience that has already told you what they care about. And at a time when organic reach on social media continues to shrink, Groups remain one of the few places where genuine conversation still drives real visibility.
 
