@@ -54,4 +54,29 @@ export default defineConfig({
     // Sharp-based image optimization (default)
     // No passthrough — Astro will optimize <Image> components
   },
+  hooks: {
+    "astro:build:done": async ({ dir }) => {
+      // Copy generated sitemaps to public/ for production serving
+      const fs = require('fs');
+      const path = require('path');
+      const distDir = dir.pathname;
+      const publicDir = path.join(process.cwd(), 'public');
+      
+      try {
+        const sitemapIndex = path.join(distDir, 'sitemap-index.xml');
+        const sitemap0 = path.join(distDir, 'sitemap-0.xml');
+        
+        if (fs.existsSync(sitemapIndex)) {
+          fs.copyFileSync(sitemapIndex, path.join(publicDir, 'sitemap-index.xml'));
+          console.log('✓ Copied sitemap-index.xml to public/');
+        }
+        if (fs.existsSync(sitemap0)) {
+          fs.copyFileSync(sitemap0, path.join(publicDir, 'sitemap-0.xml'));
+          console.log('✓ Copied sitemap-0.xml to public/');
+        }
+      } catch (err) {
+        console.error('⚠ Sitemap copy failed:', err.message);
+      }
+    },
+  },
 });
