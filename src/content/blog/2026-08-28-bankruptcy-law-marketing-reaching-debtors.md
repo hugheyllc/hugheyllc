@@ -9,7 +9,7 @@ tags:
 seo_title: 'Bankruptcy Law Marketing: Reaching Debtors'
 seo_description: 'Bankruptcy Law Marketing: Reaching Debtors'
 draft: false
-image: /images/blog/bankruptcy-law-marketing-reaching-debtors.jpg
+image: /images/blog/bankruptcy-law-marketing-reaching-debtors.png
 ---
 Bankruptcy law marketing requires a fundamentally different approach than most other practice areas because your potential clients are in financial distress, often ashamed, and actively searching for help at a moment of crisis. The attorneys who consistently attract quality bankruptcy cases understand how to meet debtors where they are — both emotionally and digitally. Done right, bankruptcy marketing builds a steady pipeline of clients who are motivated, ready to act, and genuinely in need of your services.
 

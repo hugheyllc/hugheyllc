@@ -179,7 +179,7 @@ function getRelatedPosts(keywords, limit = 5) {
 }
 
 async function generateImage(title, slug) {
-  const prompt = `Professional blog header image for "${title}" - a law firm marketing concept. Modern, clean design with business/legal context. High quality, suitable for blog header on professional law firm website.`;
+  const prompt = `Create a premium editorial blog image inspired by the tension and practical angle of this topic: "${title}". Use a dark ink background with dramatic gold accent lighting, consistent with a sophisticated law firm marketing brand. Show unique, topic-specific visual storytelling rather than generic legal symbols or a literal rendering of the title. No text, titles, labels, letters, numbers, logos, captions, watermarks, or typography anywhere in the image.`;
   
   try {
     const response = await fetch('https://api.openai.com/v1/images/generations', {
@@ -192,7 +192,8 @@ async function generateImage(title, slug) {
         model: 'gpt-image-2',
         prompt,
         n: 1,
-        size: '1024x1024'
+        size: '1536x1024',
+        output_format: 'png'
       })
     });
 
@@ -207,7 +208,7 @@ async function generateImage(title, slug) {
     if (!fs.existsSync(imageDir)) {
       fs.mkdirSync(imageDir, { recursive: true });
     }
-    const imagePath = path.join(imageDir, `${slug}.jpg`);
+    const imagePath = path.join(imageDir, `${slug}.png`);
     
     if (data.data?.[0]?.b64_json) {
       const b64Data = data.data[0].b64_json;
@@ -222,7 +223,7 @@ async function generateImage(title, slug) {
       throw new Error(`Invalid response structure: ${JSON.stringify(data).substring(0, 200)}`);
     }
     
-    return `/images/blog/${slug}.jpg`;
+    return `/images/blog/${slug}.png`;
   } catch (e) {
     throw new Error('Image generation failed: ' + e.message);
   }
@@ -267,6 +268,8 @@ ${relatedPostsList}
    - Use H2 subheadings (##)
    - Keep paragraphs 2-3 sentences
    - No Related Posts list at the bottom
+   - Do not use horizontal rules (---, ***, ===) anywhere
+   - Use H2 subheadings only; do not use H1, H3, or deeper headings
 
 5. VOICE:
    - Direct, professional, practical

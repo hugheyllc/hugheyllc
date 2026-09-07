@@ -10,7 +10,7 @@ tags:
 seo_title: 'Legal Subscription Services and Retainer Models: New Pricing, New Marketing'
 seo_description: 'Legal Subscription Services and Retainer Models: New Pricing, New Marketing'
 draft: false
-image: /images/blog/legal-subscription-services-and-retainer-models-new-pricing-.jpg
+image: /images/blog/legal-subscription-services-and-retainer-models-new-pricing-.png
 ---
 Legal subscription services and retainer models are reshaping how law firms price and package their work — and they require a fundamentally different marketing approach than traditional hourly billing. Instead of selling a one-time transaction, you're selling an ongoing relationship with predictable value. That shift changes everything from how you position your firm to how you close new clients.
 

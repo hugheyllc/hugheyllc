@@ -9,6 +9,7 @@ tags:
 seo_title: 'Bundled vs. Unbundled Legal Services: How Your Marketing Message Changes'
 seo_description: 'Bundled vs. Unbundled Legal Services: How Your Marketing Message Changes'
 draft: false
+image: /images/blog/bundled-vs-unbundled-legal-services-how-your-marketing-messa.png
 ---
 Marketing bundled legal services looks nothing like marketing unbundled ones. The service model you choose fundamentally reshapes your value proposition, your target client, and the language you use to reach them. Get this distinction wrong, and your messaging will attract the wrong clients — or worse, attract no one at all.
 

@@ -55,16 +55,16 @@
 ### LinkedIn for Lawyers & Professional Networking (7 topics)
 37. LinkedIn for Law Firm Partners: Building Personal Brands That Generate Business (Published 2026-08-28)
 38. Legal Thought Leadership on LinkedIn: How to Position Your Firm as Trusted Advisors (Published 2026-08-28)
-39. LinkedIn Content Strategy for Attorneys: What Actually Gets Engagement From Your Peers
-40. LinkedIn Networking for Business Development: Turning Connections Into Retainers
-41. LinkedIn Ads for Law Firms: B2B Legal Service Lead Generation
-42. LinkedIn Groups and Communities: Building Your Professional Network at Scale
-43. LinkedIn Video and Articles: Humanizing Your Law Firm Beyond Text Posts
+39. LinkedIn Content Strategy for Attorneys: What Actually Gets Engagement From Your Peers (Published 2026-09-07)
+40. LinkedIn Networking for Business Development: Turning Connections Into Retainers (Published 2026-09-07)
+41. LinkedIn Ads for Law Firms: B2B Legal Service Lead Generation (Published 2026-09-07)
+42. LinkedIn Groups and Communities: Building Your Professional Network at Scale (Published 2026-09-07)
+43. LinkedIn Video and Articles: Humanizing Your Law Firm Beyond Text Posts (Published 2026-09-07)
 
 ### Staffing, Hiring & Building Your Marketing Team (6 topics)
-44. Hiring Your First In-House Marketing Person: What to Look For (And What to Avoid)
-45. Building a Law Firm Marketing Team Structure: Generalists vs. Specialists
-46. Law Firm Marketing Contractor vs. Employee: The Cost and Effectiveness Comparison
+44. Hiring Your First In-House Marketing Person: What to Look For (And What to Avoid) (Published 2026-09-07)
+45. Building a Law Firm Marketing Team Structure: Generalists vs. Specialists (Published 2026-09-07)
+46. Law Firm Marketing Contractor vs. Employee: The Cost and Effectiveness Comparison (Published 2026-09-07)
 47. Compensation for Law Firm Marketing Staff: Salary Benchmarks and Incentive Structures
 48. Training Your Legal Team on Marketing Compliance: Ethics Training for Business Development
 49. Law Firm Marketing Burnout: Why Your Team Is Leaving (And How to Retain Them)
