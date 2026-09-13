@@ -8,7 +8,7 @@ tags: ["SEO", "Law Firm Marketing", "Website Strategy", "Information Architectur
 seo_title: "Law Firm Service Page Organization SEO: Stop Burying Your Best Practice Areas"
 seo_description: "Most law firms organize service pages for visual balance, not search authority. Here's how law firm service page organization SEO actually works — and what to f"
 draft: false
-image: "/images/blog/law-firm-service-page-hierarchy.jpg"
+image: "/images/blog/law-firm-service-page-hierarchy.png"
 ---
 
 # The Service Page Hierarchy Mistake: Why Your Most Profitable Practice Areas Get Buried in Navigation

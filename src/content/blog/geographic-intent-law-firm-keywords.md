@@ -8,7 +8,7 @@ tags: ["SEO", "Local Search", "Keywords", "Tampa Bay", "Law Firm Marketing", "Ge
 seo_title: "Geographic Intent Legal Keywords Tampa Bay: Why 'Near Me' Isn't Your Best Target"
 seo_description: "Most Tampa Bay law firms chase the wrong search keywords. Here's what geographic intent legal keywords actually drive qualified cases — and why 'best lawyer nea"
 draft: false
-image: "/images/blog/geographic-intent-law-firm-keywords.jpg"
+image: "/images/blog/geographic-intent-law-firm-keywords.png"
 ---
 
 # The Geographic Intent Problem: Why 'Best [Practice Area] Lawyer Near Me' Isn't Your Money Keyword

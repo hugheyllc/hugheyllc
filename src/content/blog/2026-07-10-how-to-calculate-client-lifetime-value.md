@@ -12,7 +12,7 @@ tags:
 seo_title: "How to Calculate Client Lifetime Value for Law Firms | Hughey LLC"
 seo_description: "Learn how to calculate client lifetime value for your law firm. CLV reveals the true worth of client relationships and why it matters more than lead cost."
 draft: false
-image: "/images/blog/how-to-calculate-client-lifetime-value-law-firms.jpg"
+image: "/images/blog/how-to-calculate-client-lifetime-value-law-firms.png"
 keywords: ["client lifetime value", "CLV law firms", "legal marketing metrics", "client retention", "law firm revenue", "marketing ROI", "client value calculation"]
 ---
 

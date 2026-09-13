@@ -8,7 +8,7 @@ tags: ["local SEO", "multi-location SEO", "law firm SEO", "Google Business Profi
 seo_title: "Multi-Location SEO for Law Firms: Rank Every Office Without Cannibalizing Traffic"
 seo_description: "Learn how law firms with multiple offices should structure their website, Google Business Profiles, and local content to rank in every market without stepping o"
 draft: false
-image: "/images/blog/multi-location-seo-law-firms.jpg"
+image: "/images/blog/multi-location-seo-law-firms.png"
 ---
 
 # Multi-Location SEO for Law Firm Networks and Offices

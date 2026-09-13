@@ -8,7 +8,7 @@ tags: ["law firm website personalization", "dynamic content", "law firm marketin
 seo_title: "Law Firm Website Personalization: Dynamic Content That Converts | Hughey LLC"
 seo_description: "Learn how law firm website personalization and dynamic content can increase conversions by showing different visitors what they actually need—without the creep "
 draft: false
-image: "/images/blog/law-firm-website-personalization-dynamic-content.jpg"
+image: "/images/blog/law-firm-website-personalization-dynamic-content.png"
 ---
 
 ## Your Website Is Treating a Nervous First-Time Visitor Like a Returning Referral. That's a Problem.

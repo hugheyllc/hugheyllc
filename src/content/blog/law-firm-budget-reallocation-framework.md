@@ -8,7 +8,7 @@ tags: ["law firm marketing", "budget allocation", "marketing ROI", "channel attr
 seo_title: "Law Firm Marketing Budget Allocation ROI: The Reallocation Framework"
 seo_description: "Stop guessing which marketing channels to cut. This framework uses attribution, contribution margin, and velocity analysis to optimize law firm marketing budget"
 draft: false
-image: "/images/blog/law-firm-budget-reallocation-framework.jpg"
+image: "/images/blog/law-firm-budget-reallocation-framework.png"
 ---
 
 # The Marketing Budget Reallocation Framework: How to Fire Underperforming Channels Without Guessing

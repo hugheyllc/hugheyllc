@@ -8,7 +8,7 @@ tags: ["SEO", "Keyword Research", "Competitor Analysis", "Law Firm Marketing", "
 seo_title: "Competitor Keyword Research for Law Firms | Rival SEO Analysis"
 seo_description: "Find out what competitor law firms are ranking for, which keywords they're missing, and how to use that intelligence to outrank them in local search. Step-by-st"
 draft: false
-image: "/images/blog/law-firm-competitor-keyword-research.jpg"
+image: "/images/blog/law-firm-competitor-keyword-research.png"
 keywords: ['keyword research', 'competitor analysis', 'law firm keywords', 'legal keyword research']
 ---
 

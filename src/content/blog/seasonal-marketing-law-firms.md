@@ -8,7 +8,7 @@ tags: ["law firm marketing", "seasonal marketing", "content strategy", "PPC", "e
 seo_title: "Seasonal Marketing for Law Firms: Tax, Estate Planning & Injury Season"
 seo_description: "Learn how to run seasonal marketing campaigns for law firms that capture clients before they start searching. Timing, tactics, and practice area playbooks insid"
 draft: false
-image: "/images/blog/seasonal-marketing-law-firms.jpg"
+image: "/images/blog/seasonal-marketing-law-firms.png"
 ---
 
 # Seasonal Marketing Campaigns for Law Firms (Tax, Estate Planning, Injury Season)

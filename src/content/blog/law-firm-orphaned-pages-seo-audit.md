@@ -8,7 +8,7 @@ tags: ["SEO for law firms", "law firm website audit", "internal linking", "orpha
 seo_title: "Orphaned Pages SEO Audit for Law Firms | HugheyLLC"
 seo_description: "Orphaned pages silently kill law firm SEO authority. Learn how to find unlinked pages on your law firm website, why internal linking matters for rankings, and h"
 draft: false
-image: "/images/blog/law-firm-orphaned-pages-seo-audit.jpg"
+image: "/images/blog/law-firm-orphaned-pages-seo-audit.png"
 ---
 
 # The Law Firm SEO Audit Nobody Runs: Orphaned Pages That Kill Your Authority

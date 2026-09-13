@@ -8,7 +8,7 @@ tags: ["SEO", "Law Firm Marketing", "Practice Area Strategy", "Keyword Cannibali
 seo_title: "Law Firm Practice Area SEO Conflicts: The Cannibalization Problem"
 seo_description: "Ranking for multiple practice areas but still losing leads? Law firm practice area SEO conflicts are more common than you think. Here's how to diagnose and fix "
 draft: false
-image: "/images/blog/practice-area-cannibalization-seo.jpg"
+image: "/images/blog/practice-area-cannibalization-seo.png"
 ---
 
 # The Practice Area Cannibalization Problem: When Your SEO Strategy Eats Itself

@@ -8,7 +8,7 @@ tags: ["marketing metrics", "law firm marketing", "ROI", "accountability"]
 seo_title: "The Law Firm Marketing Scorecard: Monthly Metrics That Actually Matter"
 seo_description: "A practical monthly scorecard for law firm marketing performance metrics — cost per retained client, conversion rates, and the numbers that drive growth."
 draft: false
-image: "/images/blog/law-firm-marketing-scorecard.jpg"
+image: "/images/blog/law-firm-marketing-scorecard.png"
 keywords: ['marketing scorecard', 'KPI tracking', 'law firm metrics', 'marketing performance']
 ---
 

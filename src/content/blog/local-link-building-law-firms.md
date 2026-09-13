@@ -8,7 +8,7 @@ tags: ["local SEO", "link building", "law firm marketing", "legal SEO", "Florida
 seo_title: "Local Link Building for Law Firms: What Actually Moves Rankings in Your Market"
 seo_description: "Law firm local SEO link building explained without the fluff. Discover which local link sources actually move rankings in your county and how to get them system"
 draft: false
-image: "/images/blog/local-link-building-law-firms.jpg"
+image: "/images/blog/local-link-building-law-firms.png"
 ---
 
 # Local Link Building for Law Firms: The Boring But Unbeatable Tactic

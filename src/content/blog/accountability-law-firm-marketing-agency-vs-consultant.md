@@ -8,7 +8,7 @@ tags: ["law firm marketing", "marketing agency", "accountability", "consulting",
 seo_title: "Accountability in Law Firm Marketing: Agency vs. Consultant"
 seo_description: "Law firm marketing accountability matters more than promises. Learn what to demand from agencies and consultants to protect your firm's budget and growth."
 draft: false
-image: "/images/blog/accountability-law-firm-marketing-agency-vs-consultant.jpg"
+image: "/images/blog/accountability-law-firm-marketing-agency-vs-consultant.png"
 keywords: ["law firm marketing agency accountability", "marketing agency results guarantee", "law firm marketing ROI", "legal marketing consulting", "marketing agency transparency", "law firm marketing metrics", "legal marketing accountability"]
 ---
 

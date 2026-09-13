@@ -9,7 +9,7 @@ seo_title: "Why Your Law Firm's CRM Isn't Working (And What to Do About It)"
 seo_description: "Law firm CRM problems cost you cases. Learn why adoption fails, integration gaps kill visibility, and what to fix first."
 draft: false
 keywords: ["law firm CRM", "CRM adoption law firms", "legal CRM integration", "law firm pipeline management", "intake CRM workflow"]
-image: "/images/blog/law-firm-crm-problems.jpg"
+image: "/images/blog/law-firm-crm-problems.png"
 ---
 
 Your law firm bought a CRM. You trained everyone. Three months later, half your staff isn't using it, pipeline visibility is worse than before, and you have no idea why leads are falling through the cracks.

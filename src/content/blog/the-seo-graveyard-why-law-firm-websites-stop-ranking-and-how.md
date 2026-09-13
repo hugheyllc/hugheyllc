@@ -19,7 +19,7 @@ seo_description: >-
   The SEO Graveyard: Why Law Firm Websites Stop Ranking (And How to Resurrect
   Them)
 draft: false
-image: /images/blog/the-seo-graveyard-why-law-firm-websites-stop-ranking-and-how.jpg
+image: /images/blog/the-seo-graveyard-why-law-firm-websites-stop-ranking-and-how.png
 keywords: ['SEO rankings', 'ranking decline', 'SEO recovery', 'why websites lose rankings', 'ranking factors']
 ---
 Law firm websites stop ranking because of accumulated neglect, not sudden catastrophe. The most common causes include outdated content, technical debt that compounds over time, algorithm updates that penalize stale or thin pages, and competitors who simply outwork you. Recovery is possible, but it requires an honest diagnosis followed by disciplined execution.

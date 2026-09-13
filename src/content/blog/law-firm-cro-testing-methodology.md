@@ -8,7 +8,7 @@ tags: ["law firm website optimization", "conversion rate optimization", "A/B tes
 seo_title: "Conversion Rate Testing for Law Firm Websites | Law Firm Website Optimization"
 seo_description: "Stop guessing which website change improved your leads. Learn the testing methodology law firms can use to actually know what drives conversions — without a dat"
 draft: false
-image: "/images/blog/law-firm-cro-testing-methodology.jpg"
+image: "/images/blog/law-firm-cro-testing-methodology.png"
 ---
 
 # Conversion Rate Testing for Law Firm Websites: Which Element Actually Changed Your Lead Volume

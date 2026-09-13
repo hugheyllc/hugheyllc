@@ -13,7 +13,7 @@ tags:
 seo_title: "Building an Internal Referral Program for Law Firms: Partners and Staff as Lead Sources"
 seo_description: "Learn how to build an internal referral program that gets your law firm's partners, associates, and staff generating consistent leads. Practical structure, incentives, and tracking."
 draft: false
-image: /images/blog/internal-referral-program-law-firm.jpg
+image: /images/blog/internal-referral-program-law-firm.png
 schema:
   "@context": "https://schema.org"
   "@type": "Article"

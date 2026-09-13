@@ -8,7 +8,7 @@ tags: ["law firm intake", "intake audit", "law firm marketing", "lead conversion
 seo_title: "Law Firm Intake Process Audit: Step-by-Step Guide"
 seo_description: "A practical law firm intake process audit you can run yourself. Map every lead path, find the leaks, and stop losing retained clients to broken handoffs."
 draft: false
-image: "/images/blog/law-firm-intake-process-audit.jpg"
+image: "/images/blog/law-firm-intake-process-audit.png"
 keywords: ["law firm intake audit", "law firm intake process", "legal intake optimization", "law firm lead conversion", "client intake management", "legal marketing audit", "law firm operations audit", "intake process improvement"]
 ---
 

@@ -8,7 +8,7 @@ tags: ["law firm marketing", "multi-office law firms", "local SEO", "law firm ne
 seo_title: "Law Firm Network Marketing Strategy: Why Multi-Office Firms Lose Local Rankings"
 seo_description: "Centralized marketing kills local SEO for multi-office law firms. Learn why your network locations lose to solo competitors and how to build a law firm network "
 draft: false
-image: "/images/blog/marketing-law-firm-networks-multi-office.jpg"
+image: "/images/blog/marketing-law-firm-networks-multi-office.png"
 ---
 
 # Marketing for Law Firm Networks: Why Multi-Office Firms Lose Local Rankings

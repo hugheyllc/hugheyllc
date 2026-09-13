@@ -8,7 +8,7 @@ tags: ["content marketing", "legal marketing", "content repurposing", "law firm 
 seo_title: "Content Repurposing for Legal Marketing: A Workflow Law Firms Actually Use"
 seo_description: "Stop letting good blog posts die after one publish. Here's a content repurposing system for law firms that creates real marketing assets without creating busywo"
 draft: false
-image: "/images/blog/content-repurposing-strategy-law-firms.jpg"
+image: "/images/blog/content-repurposing-strategy-law-firms.png"
 ---
 
 # The Content Repurposing Strategy That Law Firms Actually Execute

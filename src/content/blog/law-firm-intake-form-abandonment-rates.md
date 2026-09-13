@@ -8,7 +8,7 @@ tags: ["intake forms", "conversion optimization", "law firm marketing", "lead ge
 seo_title: "Law Firm Intake Form Conversion Optimization | Stop Losing Clients at Field 3"
 seo_description: "Your law firm intake form is longer than it needs to be and shorter on results than it should be. Learn the minimal viable form approach that reduces abandonmen"
 draft: false
-image: "/images/blog/law-firm-intake-form-abandonment-rates.jpg"
+image: "/images/blog/law-firm-intake-form-abandonment-rates.png"
 ---
 # The Intake Form That's Costing You Clients: Form Abandonment in Legal Services
 

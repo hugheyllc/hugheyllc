@@ -8,7 +8,7 @@ tags: ["CRM", "lead management", "law firm marketing", "intake", "lead abandonme
 seo_title: "The Abandoned Lead Audit: Finding Lost Cases in Your Law Firm CRM"
 seo_description: "Most law firms have no idea how many leads die inside their own CRM. Here's how to run a law firm lead abandonment audit and recover cases you've already paid t"
 draft: false
-image: "/images/blog/abandoned-lead-audit-law-firms.jpg"
+image: "/images/blog/abandoned-lead-audit-law-firms.png"
 ---
 
 # The Abandoned Lead Audit: Finding the Cases You're Losing in Your Own CRM

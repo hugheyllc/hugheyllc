@@ -8,7 +8,7 @@ tags: ["SEO", "Referral Marketing", "Law Firm Marketing", "B2B Marketing", "Lega
 seo_title: "Law Firm Referral Partner Marketing SEO: Why You're Invisible to Referring Lawyers"
 seo_description: "Most law firms optimize SEO for clients and ignore the lawyers who refer to them. Learn how law firm referral partner marketing SEO works — and why it requires "
 draft: false
-image: "/images/blog/law-firm-referral-partner-seo-visibility.jpg"
+image: "/images/blog/law-firm-referral-partner-seo-visibility.png"
 ---
 
 # The Referral Partner SEO Mistake: Why Your Law Firm Isn't Getting Referrals

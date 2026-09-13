@@ -19,7 +19,7 @@ seo_description: >-
   modifiers, intent mapping, and tools. From an independent law firm marketing
   consultant.
 draft: false
-image: /images/blog/lawyer-keyword-research.jpg
+image: /images/blog/lawyer-keyword-research.png
 keywords: ['keyword research', 'lawyer keywords', 'legal keyword research', 'SEO keywords for attorneys', 'practice area keywords']
 ---
 

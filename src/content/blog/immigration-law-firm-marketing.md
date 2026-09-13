@@ -9,7 +9,7 @@ seo_title: "Immigration Law Firm Marketing: Build Trust and Scale Your Practice"
 seo_description: "Immigration law firm marketing requires multilingual reach, community trust, and referral networks. Learn the strategy that works."
 keywords: ["immigration law firm marketing", "immigration attorney marketing", "immigration lawyer SEO", "multilingual law firm marketing", "referral-based legal marketing", "immigration practice growth", "legal marketing for immigration firms"]
 draft: false
-image: "/images/blog/immigration-law-firm-marketing.jpg"
+image: "/images/blog/immigration-law-firm-marketing.png"
 ---
 
 Immigration law firm marketing operates in a fundamentally different ecosystem than personal injury or family law. Your clients are often bilingual or non-English speakers, they rely heavily on word-of-mouth and community networks, and they're searching for information across multiple languages and platforms. This means a one-size-fits-all legal marketing strategy will fail. You need a system built specifically for how immigration clients actually find and vet attorneys.

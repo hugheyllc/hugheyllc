@@ -9,7 +9,7 @@ keywords: ["business law marketing strategy", "B2B legal services marketing", "b
 seo_title: "Business Law Firm Marketing Strategy: How B2B Legal Services Differ From PI"
 seo_description: "Business law marketing requires different strategy than PI. Learn why sales cycles, stakeholders, and intent keywords change everything for B2B legal firms."
 draft: false
-image: "/images/blog/business-law-marketing-strategy-vs-pi.jpg"
+image: "/images/blog/business-law-marketing-strategy-vs-pi.png"
 ---
 
 Business law firm marketing operates on an entirely different axis than personal injury marketing. That matters because most law firm marketing agencies—especially those built on the PI playbook—apply the wrong framework to B2B legal services.

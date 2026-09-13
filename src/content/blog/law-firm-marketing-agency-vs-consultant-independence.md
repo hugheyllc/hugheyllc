@@ -9,7 +9,7 @@ seo_title: "Law Firm Marketing Agency vs. Consultant: When Independence Beats Sc
 seo_description: "Decide between a law firm marketing agency and independent consultant. Compare accountability, cost, and results to choose what fits your firm."
 keywords: ["law firm marketing agency vs consultant", "independent marketing consultant law firms", "law firm marketing accountability", "when to hire marketing consultant vs agency", "law firm marketing consultant benefits", "agency vs independent marketer"]
 draft: false
-image: "/images/blog/law-firm-marketing-agency-vs-consultant-independence.jpg"
+image: "/images/blog/law-firm-marketing-agency-vs-consultant-independence.png"
 ---
 
 The choice between a law firm marketing agency and an independent consultant comes down to one thing: who actually owns the outcome?

@@ -8,7 +8,7 @@ tags: ["legal marketing consultant", "law firm marketing strategy", "legal marke
 seo_title: "Legal Marketing Consulting: Strategy vs. Busy Work | Hughey LLC"
 seo_description: "A real legal marketing consultant diagnoses problems and builds strategy. Learn how to tell the difference before you waste another retainer on tactical busywor"
 draft: false
-image: "/images/blog/legal-marketing-consulting-strategy-vs-tactics.jpg"
+image: "/images/blog/legal-marketing-consulting-strategy-vs-tactics.png"
 ---
 
 # Legal Marketing Consulting: What Separates Real Strategy From Busy Work

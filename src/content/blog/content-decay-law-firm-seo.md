@@ -8,7 +8,7 @@ tags: ["SEO", "Content Strategy", "Law Firm Marketing", "Content Audit", "Legal 
 seo_title: "Content Decay: How Outdated Legal Content Hurts Your Law Firm's SEO Rankings"
 seo_description: "Old blog posts about expired laws, past deadlines, and obsolete programs are silently killing your law firm's search authority. Here's how to diagnose and fix c"
 draft: false
-image: "/images/blog/content-decay-law-firm-seo.jpg"
+image: "/images/blog/content-decay-law-firm-seo.png"
 ---
 
 # The Content Decay Problem: How Your Old Blog Posts Are Actively Hurting Your Rankings

@@ -8,7 +8,7 @@ tags: ["content strategy", "niche law firms", "cannabis law marketing", "IP law 
 seo_title: "Content Strategy for Niche Law Practices: Cannabis, IP & Immigration | Hughey LLC"
 seo_description: "Cannabis law, IP, and immigration firms need a different playbook. Learn how to build a marketing strategy for niche law practices that dominates micro-vertical"
 draft: false
-image: "/images/blog/niche-law-practice-content-strategy.jpg"
+image: "/images/blog/niche-law-practice-content-strategy.png"
 ---
 
 # Content Strategy for Niche Law Practices (Cannabis, IP, Immigration)

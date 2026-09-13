@@ -9,7 +9,7 @@ seo_title: "What the UK Google Ruling Means for Law Firm Marketing in the US"
 seo_description: "The UK's CMA ruling forces Google to be transparent about rankings and AI Overviews. Here's what it means for US law firms and how to prepare."
 keywords: ["UK Google ruling law firms", "CMA Google transparency", "Google AI Overviews law firms", "law firm SEO 2026", "Google ranking transparency", "law firm search visibility", "legal marketing Google changes"]
 draft: false
-image: "/images/blog/uk-google-ruling-law-firm-marketing.jpg"
+image: "/images/blog/uk-google-ruling-law-firm-marketing.png"
 ---
 
 Something happened in the UK last week that most law firm managing partners won't hear about for months — if they hear about it at all. And by the time they do, the firms that were paying attention will already have adjusted.

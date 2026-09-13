@@ -8,7 +8,7 @@ tags: ["PPC", "Google Ads", "Law Firm Marketing", "Paid Search", "Legal Marketin
 seo_title: "PPC Management Mistakes That Drain Law Firm Budgets | Hughey LLC"
 seo_description: "Law firms overpay for Google Ads clicks because of bad targeting, weak landing pages, and no optimization. Find out where your PPC budget is leaking — and fix i"
 draft: false
-image: "/images/blog/law-firm-ppc-mistakes.jpg"
+image: "/images/blog/law-firm-ppc-mistakes.png"
 ---
 
 # PPC Management Mistakes That Drain Law Firm Budgets

@@ -8,7 +8,7 @@ tags: ["marketing attribution", "law firm marketing", "multi-touch attribution",
 seo_title: "Marketing Attribution Modeling for Law Firms: Multi-Touch Reality Check"
 seo_description: "Last-click attribution is killing your law firm's marketing strategy. Learn how multi-touch attribution modeling reveals the real path to a retained case—and wh"
 draft: false
-image: "/images/blog/marketing-attribution-modeling-law-firms.jpg"
+image: "/images/blog/marketing-attribution-modeling-law-firms.png"
 ---
 
 # Marketing Attribution Modeling for Law Firms: The Multi-Touch Reality Check

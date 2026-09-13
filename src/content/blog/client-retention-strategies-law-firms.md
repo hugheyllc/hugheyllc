@@ -11,7 +11,7 @@ tags:
 seo_title: "Client Retention Strategies for Law Firms: Beyond the Retainer Model"
 seo_description: "Proven client retention strategies for law firms that go beyond retainers. Build lasting relationships, increase lifetime value, and reduce acquisition costs."
 draft: false
-image: /images/blog/client-retention-strategies-law-firms.jpg
+image: /images/blog/client-retention-strategies-law-firms.png
 keywords: ['client retention', 'law firm retention', 'client experience', 'retention strategy', 'customer lifetime value']
 ---
 

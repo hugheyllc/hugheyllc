@@ -8,7 +8,7 @@ tags: ["law firm marketing", "marketing metrics", "lead quality", "attribution",
 seo_title: "Law Firm Lead Quality Metrics: Volume vs. Quality in 2026"
 seo_description: "Learn why law firm lead quality metrics matter more than volume. How to measure cost-per-retained-client instead of vanity metrics."
 draft: false
-image: "/images/blog/lead-quality-vs-volume-law-firm-metrics.jpg"
+image: "/images/blog/lead-quality-vs-volume-law-firm-metrics.png"
 keywords: ["law firm lead quality metrics", "lead quality vs volume", "cost per retained client", "law firm lead metrics", "law firm attribution", "quality leads for law firms", "law firm conversion metrics"]
 ---
 

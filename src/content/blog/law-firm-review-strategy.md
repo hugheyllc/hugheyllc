@@ -8,7 +8,7 @@ tags: ["law-firm-marketing", "google-reviews", "reputation-management"]
 seo_title: "How to Get More Google Reviews for Your Law Firm (Without Violating Ethics Rules)"
 seo_description: "Your law firm is probably leaving reviews on the table. Not because you don't deserve them, but because you've built no system to ask for them—and you're t"
 draft: false
-image: "/images/blog/law-firm-review-strategy.jpg"
+image: "/images/blog/law-firm-review-strategy.png"
 keywords: ["law firm Google reviews", "lawyer ethics rules reviews", "legal marketing review strategy", "attorney reputation management", "how to get client reviews", "law firm review system", "lawyer review compliance", "legal ethics online reviews"]
 ---
 

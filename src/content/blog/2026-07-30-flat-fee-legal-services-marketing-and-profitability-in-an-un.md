@@ -9,7 +9,7 @@ tags:
 seo_title: 'Flat-Fee Legal Services: Marketing and Profitability in an Unbundled Market'
 seo_description: 'Flat-Fee Legal Services: Marketing and Profitability in an Unbundled Market'
 draft: false
-image: /images/blog/flat-fee-legal-services-marketing-and-profitability-in-an-un.jpg
+image: /images/blog/flat-fee-legal-services-marketing-and-profitability-in-an-un.png
 ---
 Flat-fee legal services can be both profitable and marketable when positioned correctly — but most firms that struggle with this model do so because they conflate pricing strategy with marketing strategy. The key is understanding that clients choose flat fees for predictability, not necessarily for savings, and your marketing needs to reflect that distinction. When you align your messaging with what clients actually want and build your pricing around real cost data, unbundled legal services become a genuine competitive advantage.
 

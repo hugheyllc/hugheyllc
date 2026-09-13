@@ -8,7 +8,7 @@ tags: ["link building", "law firm SEO", "legal marketing", "backlinks", "earned 
 seo_title: "Link Building for Law Firms: The Playbook That Actually Works | Hughey LLC"
 seo_description: "Discover real link-building strategies for law firms—bar directories, earned media, content plays, and more. No fluff, no paid link schemes. Just what moves ran"
 draft: false
-image: "/images/blog/law-firm-link-building-strategy.jpg"
+image: "/images/blog/law-firm-link-building-strategy.png"
 ---
 
 # The Link-Building Playbook Law Firms Won't Talk About

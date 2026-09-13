@@ -8,7 +8,7 @@ tags: ["law firm content marketing SEO", "helpful content update", "legal SEO", 
 seo_title: "Google Helpful Content Update: Why Law Firm Content Stopped Ranking"
 seo_description: "Google's helpful content update crushed thin, templated law firm blog posts. Learn what type of legal content ranks now and how to fix your law firm content mar"
 draft: false
-image: "/images/blog/google-helpful-content-update-law-firms.jpg"
+image: "/images/blog/google-helpful-content-update-law-firms.png"
 ---
 
 # The Google Helpful Content Update and Law Firm Websites: Why Your Content Stopped Ranking

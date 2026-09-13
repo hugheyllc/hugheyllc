@@ -8,7 +8,7 @@ tags: ["law firm copywriting", "law firm marketing", "service pages", "legal mar
 seo_title: "Law Firm Copywriting: Why Your Service Pages Sound Generic (And How to Fix It)"
 seo_description: "Your service pages read like every other firm's. Learn how law firm marketing copywriting should differentiate you — practically, specifically, and in a way pro"
 draft: false
-image: "/images/blog/law-firm-copywriting-differentiation.jpg"
+image: "/images/blog/law-firm-copywriting-differentiation.png"
 ---
 
 # The Law Firm Copywriting Problem: Why Your Service Pages Sound Like Every Other Firm

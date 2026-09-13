@@ -8,7 +8,7 @@ tags: ["SEO", "Law Firm Marketing", "Keywords", "PPC", "Legal Marketing Strategy
 seo_title: "Why Law Firms Waste Money on Broad Keywords | Law Firm Keyword Strategy"
 seo_description: "Broad keywords drain your budget and rarely convert. Learn which keywords actually bring in clients and how to build a law firm keyword strategy built on intent"
 draft: false
-image: "/images/blog/law-firm-broad-keywords-waste-money.jpg"
+image: "/images/blog/law-firm-broad-keywords-waste-money.png"
 ---
 
 # Why Law Firms Waste Money on Broad Keywords (And Which Ones Actually Convert)

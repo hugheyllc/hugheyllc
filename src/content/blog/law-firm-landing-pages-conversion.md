@@ -8,7 +8,7 @@ tags: ["landing pages", "law firm marketing", "conversion optimization", "practi
 seo_title: "Practice Area Landing Pages That Convert | Law Firm Landing Page Design"
 seo_description: "Ranking is only half the job. Learn how landing page design for law firms should be structured to turn search traffic into retained clients — not just website v"
 draft: false
-image: "/images/blog/law-firm-landing-pages-conversion.jpg"
+image: "/images/blog/law-firm-landing-pages-conversion.png"
 keywords: ['landing page optimization', 'conversion rate optimization', 'legal landing pages', 'law firm CRO']
 ---
 

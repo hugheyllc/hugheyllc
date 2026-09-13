@@ -8,7 +8,7 @@ tags: ["lead scoring", "law firm CRM", "lead qualification", "law firm marketing
 seo_title: "Law Firm Lead Scoring: Why Your CRM Can't Qualify Leads | Hughey LLC"
 seo_description: "Your CRM has hundreds of leads and no way to rank them. Learn how law firm lead scoring works, what data to use, and how to stop letting hot cases go cold."
 draft: false
-image: "/images/blog/law-firm-lead-scoring-crm-qualification.jpg"
+image: "/images/blog/law-firm-lead-scoring-crm-qualification.png"
 ---
 
 # The Law Firm Lead Scoring Problem: Why Your CRM Can't Tell a Hot Lead From Cold

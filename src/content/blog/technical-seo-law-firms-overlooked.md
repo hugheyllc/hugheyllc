@@ -8,7 +8,7 @@ tags: ["technical SEO", "law firm SEO", "Core Web Vitals", "schema markup", "sit
 seo_title: "Technical SEO for Law Firms: The Overlooked Wins That Actually Move Rankings"
 seo_description: "Most law firm websites have solid content and broken everything else. Core Web Vitals, schema markup, crawlability—here's what's quietly killing your rankings."
 draft: false
-image: "/images/blog/technical-seo-law-firms-overlooked.jpg"
+image: "/images/blog/technical-seo-law-firms-overlooked.png"
 keywords: ['technical SEO', 'law firm website speed', 'site structure', 'crawl optimization']
 ---
 

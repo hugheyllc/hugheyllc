@@ -8,7 +8,7 @@ tags: ["content marketing", "law firm marketing", "content calendar", "SEO", "co
 seo_title: "Law Firm Content Calendar: Realistic Planning for Busy Firms | Hughey LLC"
 seo_description: "Learn how to build a law firm content calendar that doesn't fall apart in month two. Seasonal angles, practice-area clusters, automation, and what to never sche"
 draft: false
-image: "/images/blog/law-firm-content-calendar-strategy.jpg"
+image: "/images/blog/law-firm-content-calendar-strategy.png"
 keywords: ['content calendar', 'content planning', 'law firm editorial calendar', 'content scheduling']
 ---
 

@@ -13,7 +13,7 @@ tags:
 seo_title: "AI Search Visibility for Law Firms: ChatGPT, Perplexity, Claude"
 seo_description: "Law firms are losing visibility in AI search engines. Learn how to get your firm cited in ChatGPT, Perplexity, and Claude—and why it matters."
 draft: false
-image: "/images/blog/ai-search-visibility-law-firms-2026.jpg"
+image: "/images/blog/ai-search-visibility-law-firms-2026.png"
 keywords: ['AI search visibility', 'AI search engines for law firms', 'ChatGPT marketing', 'Perplexity law firms', 'AEO strategy', 'AI visibility']
 ---
 

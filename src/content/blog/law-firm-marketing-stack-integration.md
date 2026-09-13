@@ -8,7 +8,7 @@ tags: ["marketing technology", "CRM", "PPC", "analytics", "law firm marketing", 
 seo_title: "Law Firm Marketing Technology Integration: Website, CRM, PPC & Analytics"
 seo_description: "Your law firm's marketing tools aren't talking to each other—and it's costing you cases. Here's how to connect your website, CRM, PPC, and analytics into a stac"
 draft: false
-image: "/images/blog/law-firm-marketing-stack-integration.jpg"
+image: "/images/blog/law-firm-marketing-stack-integration.png"
 ---
 
 # The Law Firm Marketing Integration Nightmare: Connecting Your Website, CRM, PPC, and Analytics

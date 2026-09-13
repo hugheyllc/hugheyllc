@@ -8,7 +8,7 @@ tags: ["SEO", "Keyword Research", "Law Firm Marketing", "Content Strategy", "Loc
 seo_title: "Keyword Difficulty Scores Are Lying to Law Firms | Hughey LLC"
 seo_description: "Keyword difficulty scores from SEO tools mislead law firms constantly. Learn how to actually evaluate ranking chances in legal search and find the gaps your com"
 draft: false
-image: "/images/blog/keyword-difficulty-scores-law-firms.jpg"
+image: "/images/blog/keyword-difficulty-scores-law-firms.png"
 ---
 # Keyword Difficulty Scores Are Lying to You (And How Law Firms Should Actually Rank)
 

@@ -9,7 +9,7 @@ seo_title: "Law Firm Practice Area Growth Strategy: Market Analysis & Resource A
 seo_description: "How to choose which practice area to grow using market sizing, competitive gap analysis, and realistic resource allocation. A strategic framework."
 keywords: ["law firm practice area growth strategy", "practice area selection", "law firm market analysis", "competitive gap analysis for law firms", "practice area expansion", "law firm specialization strategy", "which practice area to focus on"]
 draft: false
-image: "/images/blog/law-firm-practice-area-growth-strategy.jpg"
+image: "/images/blog/law-firm-practice-area-growth-strategy.png"
 ---
 
 Most law firms choose their next practice area to grow on gut feeling. A partner thinks family law looks attractive because a competitor is doing well, or estate planning seems like an easy add because they already have some clients in that space. Then they hire someone, maybe invest in some ads, and wonder two years later why they haven't built a sustainable book of business.

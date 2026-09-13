@@ -8,7 +8,7 @@ tags: ["law firm marketing", "local seo", "multi-location strategy", "google bus
 seo_title: "Multi-Location Law Firm Marketing: Avoid Internal Competition"
 seo_description: "How to market multiple law firm offices effectively without cannibalizing leads. GBP strategy, local content, and internal competition prevention."
 draft: false
-image: "/images/blog/multi-location-law-firm-marketing.jpg"
+image: "/images/blog/multi-location-law-firm-marketing.png"
 keywords: ["multi-location law firm marketing", "law firm office competition", "google business profile multiple locations", "localized legal content strategy", "multi-office law firm growth", "preventing lead cannibalization", "local seo multiple offices"]
 ---
 

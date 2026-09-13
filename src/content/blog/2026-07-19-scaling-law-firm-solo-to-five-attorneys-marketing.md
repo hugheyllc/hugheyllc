@@ -18,7 +18,7 @@ keywords:
   - "small law firm scaling"
   - "adding attorneys marketing"
 draft: false
-image: "/images/blog/scaling-law-firm-solo-to-five-attorneys-marketing.jpg"
+image: "/images/blog/scaling-law-firm-solo-to-five-attorneys-marketing.png"
 ---
 
 When a solo practitioner adds their first associate, the marketing that built the practice almost always breaks. The referral network that sustained one attorney cannot sustain two. The Google Business Profile that ranked for your name does not rank for a firm name that barely exists yet. The budget that covered one person's caseload falls short the moment you need to feed a second mouth. Scaling a law firm from solo practice to five attorneys requires a fundamentally different marketing approach at each stage — not more of the same, but a deliberate shift in channels, messaging, and budget allocation.

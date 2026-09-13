@@ -8,7 +8,7 @@ tags: ["law firm marketing audit", "legal marketing", "law firm SEO", "revenue a
 seo_title: "Law Firm Marketing Audit That Predicts Revenue, Not Just Traffic | Hughey LLC"
 seo_description: "Stop auditing vanity metrics. Learn the law firm marketing audit framework that connects website performance, lead quality, and follow-up to actual case closure"
 draft: false
-image: "/images/blog/law-firm-marketing-audit-revenue-prediction.jpg"
+image: "/images/blog/law-firm-marketing-audit-revenue-prediction.png"
 ---
 
 # The Law Firm Marketing Audit That Actually Predicts Revenue (Not Just Traffic)

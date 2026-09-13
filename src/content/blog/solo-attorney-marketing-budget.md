@@ -9,7 +9,7 @@ keywords: ["solo attorney marketing budget", "solo practitioner marketing", "law
 seo_title: "Solo Attorney Marketing Budget: DIY vs. Outsource Strategy"
 seo_description: "Solo practitioners don't need agency retainers to build effective marketing. Here's how to allocate a bootstrap budget and when to outsource for real growth."
 draft: false
-image: "/images/blog/solo-attorney-marketing-budget.jpg"
+image: "/images/blog/solo-attorney-marketing-budget.png"
 ---
 
 A solo attorney's marketing budget is different—not because the channels change, but because the decision framework is inverted. You're not deciding what to cut from an unlimited pool; you're deciding what *not* to build because you have finite hours and finite cash. The real question isn't whether you should do SEO or Google Ads or reviews—it's which of those three will move cases *right now* with the smallest time and money investment.

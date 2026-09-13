@@ -8,7 +8,7 @@ tags: ["local SEO", "Google Business Profile", "AI search", "law firm marketing"
 seo_title: "Local SEO for Law Firms: What Still Works in 2026"
 seo_description: "Local SEO law firms 2026 guide: Google Business Profile optimization, AI search visibility, and proven tactics for ranking in the local pack algorithm."
 draft: false
-image: "/images/blog/local-seo-law-firms-2026.jpg"
+image: "/images/blog/local-seo-law-firms-2026.png"
 keywords: ["local SEO for law firms", "Google Business Profile optimization", "AI search optimization", "law firm local marketing", "legal SEO 2026", "local search ranking factors", "attorney local visibility"]
 ---
 

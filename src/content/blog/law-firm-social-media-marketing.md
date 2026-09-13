@@ -9,7 +9,7 @@ seo_title: "Law Firm Social Media Marketing: Why LinkedIn Works (and Instagram D
 seo_description: "Law firm social media marketing fails on most platforms. LinkedIn is where attorneys actually convert. Learn what works in 2026."
 keywords: ["law firm social media marketing", "LinkedIn for law firms", "social media ROI for attorneys", "law firm Facebook marketing", "legal marketing social platforms", "LinkedIn legal marketing strategy", "attorney social media strategy"]
 draft: false
-image: "/images/blog/law-firm-social-media-marketing.jpg"
+image: "/images/blog/law-firm-social-media-marketing.png"
 ---
 
 Most law firms spend 12 to 24 months on social media marketing and see almost nothing to show for it. They post on Facebook and Instagram regularly. They hire someone to manage it. They spend $500 to $2,000 a month on ads. Then they get frustrated and quit.

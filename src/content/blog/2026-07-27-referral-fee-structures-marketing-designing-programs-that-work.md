@@ -13,7 +13,7 @@ tags:
 seo_title: "Referral Fee Structures for Law Firms: Designing Programs That Work"
 seo_description: "Learn how to structure referral fees, comply with bar rules, and design programs that attract quality referrers."
 draft: false
-image: /images/blog/referral-fee-structures-marketing-designing-programs-that-work.jpg
+image: /images/blog/referral-fee-structures-marketing-designing-programs-that-work.png
 ---
 
 # Referral Fee Structures and Marketing: Designing Programs That Actually Work

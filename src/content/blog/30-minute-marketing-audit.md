@@ -9,7 +9,7 @@ seo_title: "The 30-Minute Marketing Audit: What to Pull From Your Agency's Dashb
 seo_description: "Run a hands-on marketing audit on your agency. Check GA4, call tracking, CPC trends, and intake conversion in 30 minutes to verify your marketing spend is working."
 keywords: ["law firm marketing audit checklist", "how to audit marketing agency", "law firm marketing metrics", "GA4 for law firms", "marketing accountability law firms", "agency performance dashboard", "law firm marketing ROI", "marketing agency evaluation"]
 draft: false
-image: "/images/blog/30-minute-marketing-audit.jpg"
+image: "/images/blog/30-minute-marketing-audit.png"
 ---
 
 # The 30-Minute Marketing Audit: What to Pull From Your Agency's Dashboard Right Now

@@ -8,7 +8,7 @@ tags: ["CRM", "law firm marketing", "marketing integration", "HubSpot", "Salesfo
 seo_title: "Law Firm CRM Marketing Integration Problems: Salesforce, HubSpot & More"
 seo_description: "Your law firm CRM isn't helping marketing because it was never wired to it. Learn what data needs to sync, which platforms create the most problems, and how to "
 draft: false
-image: "/images/blog/law-firm-crm-marketing-integration-failure.jpg"
+image: "/images/blog/law-firm-crm-marketing-integration-failure.png"
 ---
 
 # The CRM That Broke Your Law Firm's Marketing: Salesforce, HubSpot, and Others

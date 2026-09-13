@@ -8,7 +8,7 @@ tags: ["law firm SEO", "competitor analysis", "legal marketing", "law firm marke
 seo_title: "Law Firm Competitor Analysis SEO: What They're Not Doing Well"
 seo_description: "Most law firms do competitor analysis backwards. Learn how to run a law firm competitor analysis SEO framework that finds exploitable gaps—not just keyword list"
 draft: false
-image: "/images/blog/law-firm-competitor-analysis-framework.jpg"
+image: "/images/blog/law-firm-competitor-analysis-framework.png"
 ---
 
 # The Competitor Analysis Law Firms Skip (That Costs Them Cases)

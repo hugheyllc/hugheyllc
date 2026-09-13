@@ -8,7 +8,7 @@ tags: ["chatbots", "law firm lead generation", "conversion rate optimization", "
 seo_title: "Law Firm Chatbot Conversion Rates: Why Bad Automation Loses Leads"
 seo_description: "Most law firm chatbots hurt conversions more than they help. Learn why chatbots without human escalation kill law firm chatbot conversion rates — and what to do"
 draft: false
-image: "/images/blog/law-firm-chatbot-leads-lost.jpg"
+image: "/images/blog/law-firm-chatbot-leads-lost.png"
 ---
 # The AI Chatbot Trap: Why Law Firms Are Losing Leads to Bad Automation
 

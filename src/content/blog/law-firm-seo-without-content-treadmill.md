@@ -8,7 +8,7 @@ tags: ["law firm SEO", "content strategy", "technical SEO", "local SEO", "law fi
 seo_title: "Law Firm SEO Strategy: Rank Without Constant Content | Hughey LLC"
 seo_description: "Discover a law firm SEO strategy that prioritizes minimal content, topical authority, and technical fundamentals over constant publishing. Less noise, more rank"
 draft: false
-image: "/images/blog/law-firm-seo-without-content-treadmill.jpg"
+image: "/images/blog/law-firm-seo-without-content-treadmill.png"
 ---
 
 # The Law Firm SEO Strategy That Doesn't Require Constant Content

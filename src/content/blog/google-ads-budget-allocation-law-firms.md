@@ -8,7 +8,7 @@ tags: ["Google Ads", "Law Firm Marketing", "PPC", "Budget Allocation", "Legal Ma
 seo_title: "Google Ads for Law Firms Budget: The Allocation Math That Actually Works"
 seo_description: "How much should a law firm spend on Google Ads? Here's the budget allocation framework that separates firms generating cases from firms generating invoices from"
 draft: false
-image: "/images/blog/google-ads-budget-allocation-law-firms.jpg"
+image: "/images/blog/google-ads-budget-allocation-law-firms.png"
 ---
 
 # Google Ads for Law Firms: The Budget Allocation Math That Works

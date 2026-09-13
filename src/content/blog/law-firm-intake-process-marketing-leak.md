@@ -8,7 +8,7 @@ tags: ["law firm intake", "lead qualification", "legal marketing", "law firm ope
 seo_title: "The Intake Process Problem Disguised as a Marketing Problem | Hughey LLC"
 seo_description: "Law firms lose qualified leads not because marketing failed, but because intake is broken. Learn how to diagnose the difference and fix the actual problem."
 draft: false
-image: "/images/blog/law-firm-intake-process-marketing-leak.jpg"
+image: "/images/blog/law-firm-intake-process-marketing-leak.png"
 ---
 
 # The Intake Process Problem Disguised as a Marketing Problem

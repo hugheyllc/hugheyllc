@@ -8,7 +8,7 @@ tags: ["thought leadership", "law firm marketing", "SEO", "content strategy", "a
 seo_title: "Thought Leadership for Law Firms: The Authority Strategy That Drives Rankings and Clients"
 seo_description: "Learn how thought leadership for law firms builds search authority, earns high-quality backlinks, and turns your attorneys into the names clients already trust "
 draft: false
-image: "/images/blog/law-firm-thought-leadership-seo.jpg"
+image: "/images/blog/law-firm-thought-leadership-seo.png"
 ---
 
 # The Authority Strategy: Building Your Firm's Thought Leadership

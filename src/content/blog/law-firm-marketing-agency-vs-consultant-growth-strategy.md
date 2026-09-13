@@ -9,7 +9,7 @@ keywords: ["law firm marketing agency vs consultant", "independent marketing con
 seo_title: "Law Firm Marketing Agency vs. Consultant: Who Should Handle Your Growth Strategy"
 seo_description: "Compare law firm marketing agencies and independent consultants. Learn when each model delivers accountability, depth, and real growth."
 draft: false
-image: "/images/blog/law-firm-marketing-agency-vs-consultant-growth-strategy.jpg"
+image: "/images/blog/law-firm-marketing-agency-vs-consultant-growth-strategy.png"
 ---
 
 The difference between hiring a law firm marketing agency and working with an independent consultant comes down to one thing: how decisions get made when results don't match what was promised.

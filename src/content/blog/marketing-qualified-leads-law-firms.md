@@ -8,7 +8,7 @@ tags: ["law firm marketing", "lead generation", "MQL", "intake", "legal marketin
 seo_title: "Marketing Qualified Leads for Law Firms: How to Define 'Ready' | Hughey LLC"
 seo_description: "Learn how to define marketing qualified leads for law firms, when to hand a lead to a lawyer, and how MQL vs SQL alignment drives better intake outcomes and mor"
 draft: false
-image: "/images/blog/marketing-qualified-leads-law-firms.jpg"
+image: "/images/blog/marketing-qualified-leads-law-firms.png"
 ---
 
 # Marketing Qualified Leads (MQLs) for Law Firms: Defining What 'Ready' Actually Means

@@ -9,7 +9,7 @@ seo_title: "Law Firm In-House Marketing: Build vs. Buy and When It Works"
 seo_description: "Law firm in-house marketing can reduce costs—but brings hidden overhead. Learn when building works, when it fails, and the hybrid model that works best."
 keywords: ["law firm in-house marketing", "build vs buy marketing", "in-house marketing team", "law firm marketing hire", "marketing department", "internal marketing hire", "hybrid marketing model"]
 draft: false
-image: "/images/blog/law-firm-in-house-marketing.jpg"
+image: "/images/blog/law-firm-in-house-marketing.png"
 ---
 
 When a law firm decides to bring marketing in-house, the pitch is almost always the same: eliminate the agency markup, keep everything under control, build institutional knowledge, and scale without recurring monthly fees. It sounds logical. It rarely works the way partners imagine.

@@ -11,7 +11,7 @@ tags:
 seo_title: 'Pricing Power: How to Market Your Law Firm When You''re Not the Cheapest Option'
 seo_description: 'Pricing Power: How to Market Your Law Firm When You''re Not the Cheapest Option'
 draft: false
-image: /images/blog/pricing-power-how-to-market-your-law-firm-when-youre-not-the.jpg
+image: /images/blog/pricing-power-how-to-market-your-law-firm-when-youre-not-the.png
 ---Marketing a law firm that charges premium rates requires shifting the conversation from price to value — and doing it consistently across every client touchpoint. The firms that succeed at this aren't hiding their rates; they're building a case so compelling that price becomes a secondary concern. If you're not the cheapest option in your market, that's actually a position you can own and market effectively.
 
 ## Why Cheap Is a Race You Don't Want to Win

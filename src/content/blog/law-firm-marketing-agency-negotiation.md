@@ -9,7 +9,7 @@ keywords: ["law firm marketing agency negotiation", "marketing agency contract t
 seo_title: "How to Negotiate Better Terms With Your Law Firm Marketing Agency"
 seo_description: "Negotiate performance clawbacks, data ownership, and exclusivity with your law firm marketing agency. What to demand in contract terms."
 draft: false
-image: "/images/blog/law-firm-marketing-agency-negotiation.jpg"
+image: "/images/blog/law-firm-marketing-agency-negotiation.png"
 ---
 
 Most law firm leaders negotiate marketing agency contracts the same way they negotiate everything else: by focusing on the monthly retainer. That's a mistake.

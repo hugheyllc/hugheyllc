@@ -19,7 +19,7 @@ seo_description: >-
   Intellectual Property Law Marketing: How to Position Your Firm in a
   Specialized Field
 draft: false
-image: /images/blog/intellectual-property-law-marketing-how-to-position-your-fir.jpg
+image: /images/blog/intellectual-property-law-marketing-how-to-position-your-fir.png
 ---
 Marketing an intellectual property law firm requires a sharper focus than general practice marketing. Your clients — inventors, startups, established brands, and creative professionals — are sophisticated buyers who need to trust that you understand their world before they'll consider working with you. The firms that win in this space do so by building credibility within specific IP verticals, not by casting a wide net.
 

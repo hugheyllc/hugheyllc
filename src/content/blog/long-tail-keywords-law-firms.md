@@ -8,7 +8,7 @@ tags: ["SEO", "Law Firm Marketing", "Keywords", "Long-Tail SEO", "Lead Generatio
 seo_title: "Long-Tail Keywords Law Firm ROI: Why You're Ranking for the Wrong Terms"
 seo_description: "Most law firms confuse easy rankings with valuable rankings. Learn how to evaluate long-tail keywords for actual ROI — not just traffic that never converts to c"
 draft: false
-image: "/images/blog/long-tail-keywords-law-firms.jpg"
+image: "/images/blog/long-tail-keywords-law-firms.png"
 ---
 
 # The Long-Tail Trap: Why Law Firms Rank for Searches Nobody Cares About

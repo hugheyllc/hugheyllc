@@ -19,7 +19,7 @@ seo_description: >-
   Contingency Fee Optimization: How Marketing Strategy Changes With Your Billing
   Model
 draft: false
-image: /images/blog/contingency-fee-optimization-how-marketing-strategy-changes-.jpg
+image: /images/blog/contingency-fee-optimization-how-marketing-strategy-changes-.png
 ---
 Contingency fee firms don't just need different marketing tactics — they need an entirely different marketing philosophy. When your revenue depends on winning cases rather than billing hours, your client acquisition strategy, your intake process, and even your messaging must align with that financial reality. The firms that thrive on contingency understand that they're essentially investors in their clients' cases, and that changes everything about how they should market.
 

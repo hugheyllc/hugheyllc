@@ -9,7 +9,7 @@ seo_title: "Law Firm Marketing Contract Red Flags: What to Review Before Signing
 seo_description: "Audit your law firm marketing contract for ownership clauses, termination traps, IP rights, and performance guarantees. Red flags to catch before you sign."
 keywords: ["law firm marketing contract red flags", "marketing contract termination clause", "marketing agency ownership clause", "law firm marketing agreement", "performance guarantees marketing contract"]
 draft: false
-image: "/images/blog/law-firm-marketing-contract-red-flags.jpg"
+image: "/images/blog/law-firm-marketing-contract-red-flags.png"
 ---
 
 Most law firms sign marketing contracts the way they handle closing disclosures—they trust the vendor, skim the middle, and hope nothing breaks. That trust is often misplaced. The four biggest law firm marketing contract red flags—ownership clauses, termination conditions, intellectual property traps, and phantom performance guarantees—are deliberately buried in language that sounds reasonable on a first read. By the time a firm realizes they're locked into a two-year commitment with no exit, their previous agency owns their Google Ads account, or they're paying penalties for "underperformance" that was never clearly defined, it's too late.

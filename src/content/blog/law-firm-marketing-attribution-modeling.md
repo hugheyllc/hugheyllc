@@ -8,7 +8,7 @@ tags: ["law firm marketing", "attribution modeling", "marketing ROI", "conversio
 seo_title: "Law Firm Marketing Attribution: Which Channel Actually Closes Deals | Hughey LLC"
 seo_description: "Stop guessing which marketing channel brought in your best clients. Learn how attribution modeling and law firm marketing ROI tracking actually work — and how t"
 draft: false
-image: "/images/blog/law-firm-marketing-attribution-modeling.jpg"
+image: "/images/blog/law-firm-marketing-attribution-modeling.png"
 ---
 
 # Law Firm Marketing Attribution: Stop Guessing Which Channel Actually Closed the Deal

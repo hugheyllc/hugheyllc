@@ -19,7 +19,7 @@ seo_description: >-
   Value-Based Billing vs. Hourly: What Marketing Looks Like When You Change Your
   Model
 draft: false
-image: /images/blog/value-based-billing-vs-hourly-what-marketing-looks-like-when.jpg
+image: /images/blog/value-based-billing-vs-hourly-what-marketing-looks-like-when.png
 ---
 When law firms switch from hourly billing to value-based billing, their marketing has to change fundamentally — not just the messaging, but the entire client acquisition strategy. Hourly billing markets your time; value-based billing markets your outcomes. The shift requires you to reposition how you present your firm, who you target, and how you have conversations about fees before an engagement begins.
 

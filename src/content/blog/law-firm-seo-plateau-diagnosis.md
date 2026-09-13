@@ -8,7 +8,7 @@ tags: ["law firm SEO", "SEO plateau", "legal marketing", "search rankings", "law
 seo_title: "Why Your Law Firm's SEO Stalled | Law Firm SEO Plateau Diagnosis"
 seo_description: "Law firm SEO not working anymore? Your rankings stalled because you've done the easy work and stopped. Here's what actually breaks a legal SEO plateau."
 draft: false
-image: "/images/blog/law-firm-seo-plateau-diagnosis.jpg"
+image: "/images/blog/law-firm-seo-plateau-diagnosis.png"
 ---
 
 # Why Your Law Firm's SEO Stalled (And It's Not Google's Fault)

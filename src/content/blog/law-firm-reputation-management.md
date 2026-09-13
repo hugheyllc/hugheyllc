@@ -9,7 +9,7 @@ seo_title: "Law Firm Reputation Management: Beyond Google Reviews"
 seo_description: "Master law firm reputation management with systems for review velocity, negative review response, and third-party profile audits."
 keywords: ["law firm reputation management", "Google reviews for lawyers", "legal reputation online", "negative review response law firm", "attorney online reputation", "law firm profile audit"]
 draft: false
-image: "/images/blog/law-firm-reputation-management.jpg"
+image: "/images/blog/law-firm-reputation-management.png"
 ---
 
 ## The Truth About Law Firm Reputation Management

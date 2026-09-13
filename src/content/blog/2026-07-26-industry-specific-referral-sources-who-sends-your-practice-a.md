@@ -13,7 +13,7 @@ tags:
 seo_title: "Industry-Specific Referral Sources: Who Sends Your Practice Area the Most Leads"
 seo_description: "Family law from therapists and CPAs. PI from chiropractors. Business law from accountants. Learn which referral sources work best for each practice area."
 draft: false
-image: /images/blog/industry-specific-referral-sources-who-sends-your-practice-a.jpg
+image: /images/blog/industry-specific-referral-sources-who-sends-your-practice-a.png
 ---
 The most consistent referral sources for a law firm depend almost entirely on practice area. A divorce attorney and a mergers and acquisitions lawyer have virtually nothing in common when it comes to who sends them quality leads. Understanding which professional relationships to prioritize — by practice area — is one of the highest-leverage moves a firm can make in its marketing strategy.
 

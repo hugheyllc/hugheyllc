@@ -16,7 +16,7 @@ seo_description: >-
   How law firms should approach content marketing to attract and retain clients
   — not just traffic. Practical strategy from a law firm marketing consultant.
 draft: false
-image: /images/blog/content-marketing-for-law-firms.jpg
+image: /images/blog/content-marketing-for-law-firms.png
 keywords: ['content marketing', 'law firm content', 'legal content strategy', 'law firm blog', 'attorney blogging']
 ---
 

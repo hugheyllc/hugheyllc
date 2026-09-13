@@ -8,7 +8,7 @@ tags: ["SEO", "boutique law firms", "niche law firm SEO", "legal marketing", "co
 seo_title: "Niche Law Firm SEO for Boutique Practices: Own a Small Market Completely"
 seo_description: "Boutique law firms face a paradox: specialization reduces search volume but eliminates competition. Learn how niche law firm SEO helps boutique practices domina"
 draft: false
-image: "/images/blog/boutique-law-firm-niche-seo-challenge.jpg"
+image: "/images/blog/boutique-law-firm-niche-seo-challenge.png"
 ---
 
 # The Boutique Law Firm Problem: Why Specialization Is Killing Your Search Visibility

@@ -8,7 +8,7 @@ tags: ["lead nurturing", "intake", "conversion rate optimization", "law firm mar
 seo_title: "Why Law Firms Lose Leads After Contact | Law Firm Lead Nurturing"
 seo_description: "Most law firms lose leads not because of bad marketing, but because of broken intake and follow-up. Learn how to fix your law firm lead nurturing process and co"
 draft: false
-image: "/images/blog/law-firm-lead-follow-up-conversion.jpg"
+image: "/images/blog/law-firm-lead-follow-up-conversion.png"
 ---
 
 # Why Law Firms Lose Leads After Contact (And How to Fix It)

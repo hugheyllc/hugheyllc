@@ -11,7 +11,7 @@ tags:
 seo_title: 'Google Business Profile Optimization for Law Firms: Beyond the Basics'
 seo_description: 'Google Business Profile Optimization for Law Firms: Beyond the Basics'
 draft: false
-image: /images/blog/google-business-profile-law-firm-optimization.jpg
+image: /images/blog/google-business-profile-law-firm-optimization.png
 keywords:
   - Google Business Profile
   - GBP optimization

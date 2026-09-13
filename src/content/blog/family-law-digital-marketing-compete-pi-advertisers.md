@@ -8,7 +8,7 @@ tags: ["family law marketing", "digital marketing strategy", "ppc advertising", 
 seo_title: "Family Law Digital Marketing: How to Compete Against High-Budget Advertisers"
 seo_description: "Family law digital marketing strategy that competes with PI firms. Budget-efficient niche targeting, emotional keywords, and conversion-focused tactics."
 draft: false
-image: "/images/blog/family-law-digital-marketing-compete-pi-advertisers.jpg"
+image: "/images/blog/family-law-digital-marketing-compete-pi-advertisers.png"
 keywords: ["family law marketing", "family law digital marketing", "legal marketing strategy", "family law SEO", "attorney PPC advertising", "divorce lawyer marketing", "family law firm advertising", "niche legal marketing"]
 ---
 

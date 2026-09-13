@@ -8,7 +8,7 @@ tags: ["Criminal Defense", "Law Firm Marketing", "Intake Strategy", "Lead Genera
 seo_title: "Criminal Defense Marketing Strategy: Speed-to-Contact & Urgent Lead Capture"
 seo_description: "Criminal defense marketing requires speed, 24/7 availability, and emotional urgency. Learn the strategy that wins cases before competitors call."
 draft: false
-image: "/images/blog/criminal-defense-marketing-strategy.jpg"
+image: "/images/blog/criminal-defense-marketing-strategy.png"
 keywords: ["criminal defense marketing strategy", "criminal defense lead generation", "criminal defense intake", "DUI marketing strategy", "urgent legal leads", "criminal defense attorney marketing", "law firm speed-to-contact"]
 ---
 

@@ -8,7 +8,7 @@ tags: ["reputation management", "law firm SEO", "Google reviews", "client review
 seo_title: "Law Firm Reputation Management: Review Sites That Actually Matter"
 seo_description: "Discover which review platforms matter most for law firm reputation management, how negative reviews affect your SEO, and where to focus your client review stra"
 draft: false
-image: "/images/blog/law-firm-review-management.jpg"
+image: "/images/blog/law-firm-review-management.png"
 ---
 
 # Reputation Management for Law Firms: Review Sites That Actually Matter

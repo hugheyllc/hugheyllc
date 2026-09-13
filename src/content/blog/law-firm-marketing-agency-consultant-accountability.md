@@ -9,7 +9,7 @@ seo_title: "Law Firm Marketing Agency vs. Consultant: Who's Accountable When Res
 seo_description: "Marketing agency vs consultant for law firms. Learn the accountability difference and what to demand from either model for better ROI."
 keywords: ["law firm marketing agency vs consultant", "law firm marketing consultant", "independent consultant accountability", "agency vs consultant accountability", "law firm marketing responsibility", "marketing agency contracts", "consultant vs agency"]
 draft: false
-image: "/images/blog/law-firm-marketing-agency-consultant-accountability.jpg"
+image: "/images/blog/law-firm-marketing-agency-consultant-accountability.png"
 ---
 
 When a law firm's marketing isn't working, the first question isn't usually "Did we pick the right vendor?" It's "Who do I hold accountable?" That matters because the answer changes everything about how you structure the relationship, what you measure, and what happens when results don't materialize.

@@ -8,7 +8,7 @@ tags: ["website speed", "law firm marketing", "conversion optimization", "techni
 seo_title: "Law Firm Website Speed Optimization: Stop Losing Leads to Slow Load Times"
 seo_description: "Slow page load times are quietly draining your law firm's leads. Learn the exact law firm website speed optimization fixes that improve form completions and sto"
 draft: false
-image: "/images/blog/law-firm-website-speed-conversion-impact.jpg"
+image: "/images/blog/law-firm-website-speed-conversion-impact.png"
 ---
 # Law Firm Website Speed: The Conversion Killer Nobody Measures
 

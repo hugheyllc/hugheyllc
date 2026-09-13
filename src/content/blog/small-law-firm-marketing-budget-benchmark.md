@@ -8,7 +8,7 @@ tags: ["law firm marketing budget", "legal marketing", "small law firm", "market
 seo_title: "Marketing Spend Benchmarking for Small Law Firms | Real Budget Numbers"
 seo_description: "How much should law firms spend on marketing? The standard 2-5% benchmark ignores practice area and geography. Here are the real numbers for small and solo law "
 draft: false
-image: "/images/blog/small-law-firm-marketing-budget-benchmark.jpg"
+image: "/images/blog/small-law-firm-marketing-budget-benchmark.png"
 ---
 
 # Marketing Spend Benchmarking for Small Law Firms (The Real Numbers)
