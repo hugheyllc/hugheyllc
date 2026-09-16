@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/google-helpful-content-update-law-firms.png"
 ---
 
-# The Google Helpful Content Update and Law Firm Websites: Why Your Content Stopped Ranking
-
 Google's helpful content update did exactly what it promised: it stopped ranking content written for search engines and started ranking content written for people. For law firms, that distinction matters more than most industries realize. The legal web is littered with blog posts that technically answer a question while telling the reader nothing useful — and Google got very good at identifying them. If your law firm's organic traffic dropped over the past year and your content calendar hasn't changed, your content is probably the problem.
 
 What Google ranks now in law firm content marketing SEO is specific, experience-informed writing that demonstrates actual knowledge of how legal situations unfold. Generic posts that explain what a personal injury lawsuit *is* without explaining what a client should actually *do* — those are getting buried. Your competitors whose content is outranking yours probably sound like lawyers talking to clients. Yours might sound like a legal dictionary.

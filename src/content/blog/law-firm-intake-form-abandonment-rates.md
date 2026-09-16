@@ -10,7 +10,6 @@ seo_description: "Your law firm intake form is longer than it needs to be and sh
 draft: false
 image: "/images/blog/law-firm-intake-form-abandonment-rates.png"
 ---
-# The Intake Form That's Costing You Clients: Form Abandonment in Legal Services
 
 Prospects are not completing your law firm intake form because it asks too much too soon. That's the short answer. The longer answer involves friction, cognitive load, and the fact that someone considering whether to hire a lawyer is already anxious — and your 18-field form is the equivalent of a first date that opens with "So, what's your annual income?"
 

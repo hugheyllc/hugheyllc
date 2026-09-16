@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/long-tail-keywords-law-firms.png"
 ---
 
-# The Long-Tail Trap: Why Law Firms Rank for Searches Nobody Cares About
-
 A long-tail keyword is worth targeting for your law firm when two things are true simultaneously: people are actually searching it, and the person searching it is close to hiring someone. That's the whole filter. Most firms apply neither test. They chase keywords because they're easy to rank for — low competition, specific phrasing, minimal domain authority required — and then wonder why the phone isn't ringing. **Long-tail keywords law firm ROI** isn't determined by how easy the ranking was. It's determined by whether the ranking produces a consultation that produces a retainer. Those are very different measurements, and conflating them is expensive.
 
 ## The Difference Between Search Volume and Search Value

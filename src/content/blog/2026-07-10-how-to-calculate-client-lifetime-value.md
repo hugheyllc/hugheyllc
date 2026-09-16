@@ -16,8 +16,6 @@ image: "/images/blog/how-to-calculate-client-lifetime-value-law-firms.png"
 keywords: ["client lifetime value", "CLV law firms", "legal marketing metrics", "client retention", "law firm revenue", "marketing ROI", "client value calculation"]
 ---
 
-# How to Calculate Client Lifetime Value (And Why It Matters More Than Lead Cost)
-
 Client lifetime value (CLV) is the total revenue a single client generates for your law firm across every engagement over the entire relationship. To calculate it, multiply your average case value by the average number of matters per client by your average client retention period. A client who hires you for a $10,000 matter once is worth $10,000. A client who returns for three matters over five years is worth $30,000 — and that distinction should fundamentally change how you spend your marketing budget.
 
 Most law firms fixate on lead cost. They celebrate a $75 cost-per-lead month. They agonize over a $200 one. But lead cost tells you nothing about the revenue side of the equation. A $200 lead that becomes a $45,000 lifetime client is the best money you ever spent. A $75 lead that never retains or never comes back is just a cheap dead end.

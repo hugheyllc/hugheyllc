@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/content-decay-law-firm-seo.png"
 ---
 
-# The Content Decay Problem: How Your Old Blog Posts Are Actively Hurting Your Rankings
-
 Old blog posts hurt your rankings when Google determines the information is stale and users signal the same thing by bouncing. That's not a theory — it's how search quality evaluation works. If you published a post in 2020 about PPP loan forgiveness, SBA deadline extensions, or eviction moratoriums, and it's still sitting on your site without updates, you have a **outdated legal content SEO rankings** problem. Not a minor housekeeping issue. An active drag on your authority. The answer to whether you should delete or update outdated content is: almost always update, occasionally redirect, and rarely delete — but you need a framework to know which is which. That framework is what this post is about.
 
 ---

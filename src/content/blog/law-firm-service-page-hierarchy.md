@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-service-page-hierarchy.png"
 ---
 
-# The Service Page Hierarchy Mistake: Why Your Most Profitable Practice Areas Get Buried in Navigation
-
 Organize your service pages by **search demand and revenue priority** — not alphabetically, not by how long you've practiced each area, and not by what looks balanced in a nav bar. The order and depth of your practice area pages signal to Google what your firm is actually about. If your most profitable practice area is three clicks deep and sharing a page with three other services, you have an architecture problem. Navigation order doesn't directly determine rankings, but it shapes crawl priority, internal link equity, and — critically — what Google decides your site is *about*.
 
 Most firms get this wrong because they build their websites the way they'd design a brochure: everything gets equal space, everything looks tidy, and the result is a site that's authoritative about nothing in particular.

@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/content-repurposing-strategy-law-firms.png"
 ---
 
-# The Content Repurposing Strategy That Law Firms Actually Execute
-
 **Content repurposing for legal marketing** is one of those concepts that sounds obvious until you try to implement it. The short answer to how law firms get more value from existing blog content: stop treating each post as a one-and-done event, and build a simple downstream workflow that turns one piece of writing into three or four usable assets. That's it. The problem isn't the idea — it's that most repurposing advice is written by people who've never had to squeeze this work into a two-person marketing operation at a 12-attorney firm.
 
 This post gives you the actual workflow. Not the aspirational content calendar with seventeen steps. The version a managing partner or marketing director can hand to one capable person and actually see executed.

@@ -12,8 +12,6 @@ image: "/images/blog/technical-seo-law-firms-overlooked.png"
 keywords: ['technical SEO', 'law firm website speed', 'site structure', 'crawl optimization']
 ---
 
-# Technical SEO Wins Every Law Firm Overlooks
-
 The most common technical SEO issues hurting law firm rankings have nothing to do with your content. Slow load times, broken internal links, missing structured data, duplicate pages, and crawl errors are quietly dragging down sites that otherwise look perfectly professional. Site speed, specifically, affects law firm search rankings more than most managing partners want to believe—Google uses Core Web Vitals as a ranking signal, and a page that takes four seconds to load on mobile is a page that doesn't rank, no matter how well-written the copy is.
 
 Most law firms have invested real money in content. Blog posts, practice area pages, attorney bios. The words are there. The technical foundation those words are sitting on? Usually a mess. That's where **technical SEO for law firms** gets interesting—and where firms that pay attention to it quietly outrank competitors who don't.

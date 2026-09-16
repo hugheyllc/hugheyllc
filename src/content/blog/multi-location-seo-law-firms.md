@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/multi-location-seo-law-firms.png"
 ---
 
-# Multi-Location SEO for Law Firm Networks and Offices
-
 **Multi-location SEO for law firms** is not just regular SEO with extra steps. It's a different problem with a specific set of failure modes—and most firms walk straight into all of them.
 
 Here's the short answer to the questions every multi-office managing partner eventually asks: No, you don't need a separate website for each office. One well-structured site handles multiple locations just fine—often better than five separate domains you'll never properly maintain. And yes, each office can rank locally, but only if you treat each location as its own entity within that single site rather than burying them in a footer or a generic "Our Offices" page no one reads.
