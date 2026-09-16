@@ -15,12 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-1. Google Local Services Ads for Law Firms: How Google Screened Leads Actually Perform
-   - Angle: LSA lead quality, disputes, budget control, how LSA fits beside Google Ads and organic
-   - Don't overlap: google-ads-law-firms, paid-search-vs-seo-law-firms, google-business-profile-law-firm-optimization
-2. What a Fractional CMO Does for a Law Firm (And When Your Firm Is Ready for One)
-   - Angle: scope, cost range, how a fractional CMO sits above vendors, readiness signals. Not an agency vs. consultant comparison
-   - Don't overlap: law-firm-marketing-agency-vs-consultant-growth-strategy, law-firm-in-house-marketing, how-to-hire-independent-law-firm-marketing-consultant
 3. Spam Leads and Click Fraud: How Fake Inquiries Drain Law Firm Ad Budgets
    - Angle: bot form fills, junk calls, click fraud detection, what to demand from your PPC vendor
    - Don't overlap: law-firm-ppc-mistakes, law-firm-negative-keywords
@@ -150,6 +144,8 @@ Topics from the July 8 queue that have a live post:
 - #43 LinkedIn Video and Articles (2026-09-04-linkedin-video-and-articles..., Sep 4)
 - #44 Hiring First In-House Marketer (2026-09-05-hiring-your-first-in-house..., Sep 5)
 - #45 Marketing Team Structure (2026-09-06-building-a-law-firm-marketing-team-structure..., Sep 6)
+- #2 Fractional CMO (fractional-cmo-law-firms, Sep 16)
+- #1 Google Local Services Ads (google-local-services-ads-law-firms, Sep 16)
 
 ## Retired (Do Not Write)
 
