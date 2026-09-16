@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-orphaned-pages-seo-audit.png"
 ---
 
-# The Law Firm SEO Audit Nobody Runs: Orphaned Pages That Kill Your Authority
-
 Orphaned pages are pages on your website that no other page links to. Google's crawlers find pages by following links — if nothing links to a page, the crawlers either never find it or visit it so rarely it might as well not exist. For **SEO for law firms**, this is a quiet, slow-moving problem that compounds over time. Every orphaned page is a piece of content that builds zero authority for your domain, passes zero link equity anywhere, and often ranks for nothing. It just sits there, costing you hosting resources and crawl budget while doing absolutely no work.
 
 If you've wondered why your site feels stuck despite publishing consistent content, this is one of the first places to look.

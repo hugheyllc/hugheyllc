@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/marketing-law-firm-networks-multi-office.png"
 ---
 
-# Marketing for Law Firm Networks: Why Multi-Office Firms Lose Local Rankings
-
 Multi-office law firms struggle with local search rankings for a straightforward reason: **centralized marketing treats every office like it's the same office**. It isn't. Your Tampa location competes against Tampa attorneys. Your Denver location competes against Denver attorneys. When your marketing team in one city writes one page, runs one campaign, and manages one Google Business Profile strategy for all of them, you've handed every local solo practitioner a structural advantage they didn't have to earn.
 
 The correct **law firm network marketing strategy** does not pick between centralized efficiency and local relevance. It builds a system that delivers both — with clear ownership, location-specific assets, and a content architecture that Google can actually understand. That's a harder problem than most firms want to admit, and it's why so many networks keep losing ground to smaller competitors they should be outspending by a factor of ten.

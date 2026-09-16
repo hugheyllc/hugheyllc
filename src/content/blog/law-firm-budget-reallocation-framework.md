@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-budget-reallocation-framework.png"
 ---
 
-# The Marketing Budget Reallocation Framework: How to Fire Underperforming Channels Without Guessing
-
 Here's how a law firm should split its marketing budget across channels: based on what's actually generating signed retainers, not what's generating clicks, impressions, or vendor enthusiasm. And here's the metric you use to decide which channels to cut: **contribution margin per closed matter**, traced back to the originating channel. If a channel can't demonstrate a credible path from spend to signed client, it doesn't get a line item — it gets a conversation about whether it belongs in the budget at all.
 
 That's the short answer. The longer answer is a framework. Most firms skip it because it requires pulling data from three or four systems that don't talk to each other and doing some math that makes their vendor relationships uncomfortable. That discomfort is exactly why it works.

@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-marketing-scorecard.png"
 keywords: ['marketing scorecard', 'KPI tracking', 'law firm metrics', 'marketing performance']
 ---
 
-# The Law Firm Marketing Scorecard: Monthly Metrics That Actually Matter
-
 **How do I know if my law firm marketing is working?** Look at one number first: **cost per retained client**. If you don't know that figure, you're flying blind. Second, track **lead-to-retention conversion rate** — the percentage of new leads that actually become paying clients. Third, measure **average case value per retained client**. If these three numbers are moving in the right direction, your marketing is working. If not, stop everything and fix your intake process before spending another dollar on ads. That's the short answer. Now let's build the full scorecard.
 
 When I consult with law firm owners, the first thing I ask is simple: "Show me your monthly marketing dashboard." Nine times out of ten, I get a blank stare or a stack of ad platform reports. Those reports tell you how many clicks you bought — not whether your firm is growing profitably. Real **law firm marketing performance metrics** aren't vanity numbers. They're the numbers that connect directly to your bottom line. This scorecard is built from patterns I've seen across hundreds of firms over two decades. Use it to cut through the noise.

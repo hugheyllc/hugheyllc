@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-retargeting-ads-strategy.png"
 keywords: ['retargeting ads', 'remarketing law firms', 'pixel retargeting', 'Google remarketing']
 ---
 
-# Law Firm Retargeting Ads: Stop Burning Money on Cold Audiences
-
 **Law firm retargeting ads** work when you target the right people with the right message. They fail—and they fail expensively—when you treat your entire website audience as one undifferentiated blob and chase them around the internet with the same generic banner for 90 days.
 
 Here's how you should actually use retargeting: build distinct audience segments based on behavior, serve creative that matches where each segment is in the decision process, and stop paying to annoy people who were never going to hire you anyway.

@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/google-ads-budget-allocation-law-firms.png"
 ---
 
-# Google Ads for Law Firms: The Budget Allocation Math That Works
-
 How much should a law firm spend on Google Ads? Enough to be competitive in your market — and not a dollar more on keywords that don't close. The honest answer most firms don't want to hear: if you're spending less than $3,000–$5,000 per month in a mid-size market on a competitive practice area, you're probably invisible. And if you're spending more than that without tracking which clicks turned into signed retainers, you're just making Google richer.
 
 What's the right budget split between search and display ads for lawyers? For most firms: **90% search, 10% display at most** — and that display budget should be remarketing only until your search campaigns are converting profitably. Brand awareness display campaigns for law firms are almost always a waste. Your potential client isn't browsing the internet hoping to see a banner ad for your DUI practice.

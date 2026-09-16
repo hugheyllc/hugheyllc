@@ -10,7 +10,6 @@ seo_description: "Slow page load times are quietly draining your law firm's lead
 draft: false
 image: "/images/blog/law-firm-website-speed-conversion-impact.png"
 ---
-# Law Firm Website Speed: The Conversion Killer Nobody Measures
 
 A slow law firm website doesn't just annoy people — it costs you clients. Every additional second your page takes to load, a meaningful percentage of potential clients leave before they ever see your contact form. A good page load time for a law firm website is under three seconds. Ideally under two. If your site is hitting four, five, or six seconds — and many are — you're not competing on merit anymore. You're losing on infrastructure. **Law firm website speed optimization** isn't a nice-to-have technical checkbox. It's a direct revenue lever, and most firms have never touched it.
 

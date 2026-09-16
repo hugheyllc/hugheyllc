@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-competitor-keyword-research.png"
 keywords: ['keyword research', 'competitor analysis', 'law firm keywords', 'legal keyword research']
 ---
 
-# Competitor Keyword Research for Law Firms: What Your Rivals Are Actually Ranking For
-
 To find the keywords your competitor law firms rank for, you need three things: the right tools, their domain names, and about two hours. Tools like Semrush, Ahrefs, and Moz will export every keyword a competitor ranks for — positions, search volume, traffic estimates, and the specific URLs doing the ranking. That's your starting inventory. A proper **law firm competitor keyword analysis** doesn't stop at "what are they ranking for" — it answers the more useful question: *where are they weak, and can I be stronger there?* This post walks through that process step by step, from pulling the data to deciding what to build.
 
 ## Step 1: Identify Your Real Competitors (Not Who You Think They Are)

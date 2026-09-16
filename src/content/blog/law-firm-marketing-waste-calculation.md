@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-marketing-waste-calculation.png"
 keywords: ['marketing waste', 'inefficient spending', 'marketing ROI', 'budget allocation']
 ---
 
-# The Hidden Cost of Bad Legal Marketing: What Underperformance Actually Costs Your Firm
-
 **Why do law firms overspend on marketing?** Because most firms measure the wrong things. They track vanity metrics—page views, impressions, clicks—instead of cost per retained client. They hire agencies that promise volume but deliver noise. They spread budgets across too many channels without tracking which ones actually generate cases. And they avoid the hard work of calculating their true **law firm marketing waste calculation** because that would force them to admit their current strategy isn't working. The result: firms burn 30-50% of their marketing budget on channels that never produce a single retained client.
 
 Let me be blunt: I've reviewed marketing spend for firms that thought they were "trying everything." In reality, they were doing nothing well. They had no dashboard, no conversion tracking, no idea which channel produced their last three retained cases. That's not marketing. That's gambling with firm revenue.

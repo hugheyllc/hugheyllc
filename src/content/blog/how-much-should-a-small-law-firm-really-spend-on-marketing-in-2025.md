@@ -12,8 +12,6 @@ image: "/images/blog/how-much-should-a-small-law-firm-really-spend-on-marketing-
 keywords: ['law firm marketing budget', 'small law firm budget', 'legal marketing spend', 'law firm marketing costs']
 ---
 
-# Practical budgeting rules for firm owners in 2025.
-
 Most law firm owners I talk to spend either nothing on marketing or everything on marketing, and neither strategy works. [Clio's Legal Trends Report](https://www.clio.com/resources/legal-trends/) shows that the majority of law firms lack clear visibility into which marketing channels actually produce retained clients—which is why budgeting defaults to guesswork. The firms that build predictable pipelines—the ones that aren't panicked about next quarter's revenue—operate from a **real marketing budget tied to business goals**. That budget changes by firm size, practice area, local competition, and growth stage. But the logic behind it stays the same: you're investing in visibility and conversion, and you need to know what you're willing to spend to acquire a client who's actually profitable.
 
 Let me walk you through how to think about this, what the actual benchmarks are, and how to avoid the two traps I see constantly: underfunding marketing and then wondering why your referral network dries up, or overfunding it without tracking what's actually working.

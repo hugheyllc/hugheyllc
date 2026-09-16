@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-ppc-mistakes.png"
 ---
 
-# PPC Management Mistakes That Drain Law Firm Budgets
-
 Law firms overpay for Google Ads clicks for one simple reason: they set up campaigns and walk away. **Pay per click for law firms** is expensive by nature — legal keywords routinely cost $50 to $200+ per click — but the real budget drain usually isn't the cost per click. It's the waste baked into campaigns that nobody is actively managing. Broad match keywords pulling in irrelevant traffic. Ad copy that sounds like every other firm on the page. Landing pages that load slow and ask for nothing specific. If your pay per click campaigns haven't been audited in the last 90 days, you're almost certainly paying for clicks that will never become clients.
 
 Here's where the leaks typically are.

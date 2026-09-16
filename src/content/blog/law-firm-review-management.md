@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-review-management.png"
 ---
 
-# Reputation Management for Law Firms: Review Sites That Actually Matter
-
 Where should law firms ask clients to leave reviews? Google. Start there, stay focused, and treat everything else as secondary. If a prospective client searches your firm's name and your Google Business Profile shows 12 reviews from 2019, that's the first impression — and it's doing real damage. **Law firm reputation management** isn't a PR exercise. It's a concrete ranking signal and a client conversion lever. As for negative reviews: yes, they affect your SEO, but not in the way most firms panic about. A few negative reviews in a sea of strong ones can actually signal authenticity. Zero reviews, or a stagnant review count, is the real red flag to Google and to prospective clients.
 
 Not every review platform is worth your attention. Attorneys spread themselves thin chasing Yelp, Avvo, Lawyers.com, and half a dozen others while neglecting the two or three platforms that actually drive decisions. Here's how to think about this strategically.

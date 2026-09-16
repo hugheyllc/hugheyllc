@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/marketing-qualified-leads-law-firms.png"
 ---
 
-# Marketing Qualified Leads (MQLs) for Law Firms: Defining What 'Ready' Actually Means
-
 A **marketing qualified lead** for a law firm is a prospective client who has demonstrated enough interest and fit — based on their behavior, stated need, and case characteristics — to justify a lawyer's time. That's it. Not every website visitor. Not every form fill. Not everyone who downloaded your estate planning checklist at 11pm on a Tuesday.
 
 When should a lead be handed to a lawyer? When you have reasonable evidence that the person has a real legal problem your firm handles, in a geography you serve, and they've taken an action that signals intent beyond casual curiosity. Everything before that point is still a marketing problem, not a sales problem.
