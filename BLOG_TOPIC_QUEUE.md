@@ -15,9 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-3. Spam Leads and Click Fraud: How Fake Inquiries Drain Law Firm Ad Budgets
-   - Angle: bot form fills, junk calls, click fraud detection, what to demand from your PPC vendor
-   - Don't overlap: law-firm-ppc-mistakes, law-firm-negative-keywords
 4. Florida Tort Reform and Personal Injury Marketing: Adjusting Case Mix, Messaging and Spend After HB 837
    - Angle: shorter filing window and comparative fault changes, which case types to pursue, how intake screening changes
    - Don't overlap: personal-injury-law-firm-marketing, personal-injury-marketing-tampa-bay, contingency-fee-optimization-how-marketing-strategy-changes-
@@ -146,6 +143,7 @@ Topics from the July 8 queue that have a live post:
 - #45 Marketing Team Structure (2026-09-06-building-a-law-firm-marketing-team-structure..., Sep 6)
 - #2 Fractional CMO (fractional-cmo-law-firms, Sep 16)
 - #1 Google Local Services Ads (google-local-services-ads-law-firms, Sep 16)
+- #3 Spam Leads and Click Fraud (click-fraud-law-firms, Sep 18)
 
 ## Retired (Do Not Write)
 
