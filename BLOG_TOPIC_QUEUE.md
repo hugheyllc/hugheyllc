@@ -15,9 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-4. Florida Tort Reform and Personal Injury Marketing: Adjusting Case Mix, Messaging and Spend After HB 837
-   - Angle: shorter filing window and comparative fault changes, which case types to pursue, how intake screening changes
-   - Don't overlap: personal-injury-law-firm-marketing, personal-injury-marketing-tampa-bay, contingency-fee-optimization-how-marketing-strategy-changes-
 5. Estate Planning and Probate Marketing: Reaching Clients Before a Crisis Forces the Decision
    - Angle: long consideration cycle, seminars, adult-child influencers, trigger events. Not seasonal campaigns or referral partners
    - Don't overlap: seasonal-marketing-law-firms, strategic-partnerships-with-accountants-financial-advisors-a, law-firm-marketing-sarasota-fl
@@ -144,6 +141,7 @@ Topics from the July 8 queue that have a live post:
 - #2 Fractional CMO (fractional-cmo-law-firms, Sep 16)
 - #1 Google Local Services Ads (google-local-services-ads-law-firms, Sep 16)
 - #3 Spam Leads and Click Fraud (click-fraud-law-firms, Sep 18)
+- #4 Florida Tort Reform and Personal Injury Marketing (florida-tort-reform-personal-injury-marketing, Sep 21)
 
 ## Retired (Do Not Write)
 
