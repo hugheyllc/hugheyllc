@@ -15,9 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-5. Estate Planning and Probate Marketing: Reaching Clients Before a Crisis Forces the Decision
-   - Angle: long consideration cycle, seminars, adult-child influencers, trigger events. Not seasonal campaigns or referral partners
-   - Don't overlap: seasonal-marketing-law-firms, strategic-partnerships-with-accountants-financial-advisors-a, law-firm-marketing-sarasota-fl
 6. Win-Loss Analysis for Law Firms: What Consultations That Didn't Sign Can Teach You
    - Angle: interviewing lost prospects, coding loss reasons, feeding findings back to marketing and intake
    - Don't overlap: abandoned-lead-audit-law-firms, law-firm-lead-follow-up-conversion
@@ -142,6 +139,7 @@ Topics from the July 8 queue that have a live post:
 - #1 Google Local Services Ads (google-local-services-ads-law-firms, Sep 16)
 - #3 Spam Leads and Click Fraud (click-fraud-law-firms, Sep 18)
 - #4 Florida Tort Reform and Personal Injury Marketing (florida-tort-reform-personal-injury-marketing, Sep 21)
+- #5 Estate Planning and Probate Marketing (estate-planning-marketing-law-firms, Sep 23)
 
 ## Retired (Do Not Write)
 
