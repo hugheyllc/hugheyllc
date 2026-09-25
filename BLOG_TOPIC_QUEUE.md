@@ -15,9 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-6. Win-Loss Analysis for Law Firms: What Consultations That Didn't Sign Can Teach You
-   - Angle: interviewing lost prospects, coding loss reasons, feeding findings back to marketing and intake
-   - Don't overlap: abandoned-lead-audit-law-firms, law-firm-lead-follow-up-conversion
 7. Performance Max for Law Firms: When Google's Automation Helps and When It Buys Junk
    - Angle: PMax vs. search campaigns, asset groups, brand exclusions, lead quality controls
    - Don't overlap: google-ads-law-firms, google-ads-budget-allocation-law-firms, law-firm-google-ads-quality-score
@@ -140,6 +137,7 @@ Topics from the July 8 queue that have a live post:
 - #3 Spam Leads and Click Fraud (click-fraud-law-firms, Sep 18)
 - #4 Florida Tort Reform and Personal Injury Marketing (florida-tort-reform-personal-injury-marketing, Sep 21)
 - #5 Estate Planning and Probate Marketing (estate-planning-marketing-law-firms, Sep 23)
+- #6 Win-Loss Analysis for Law Firms (win-loss-analysis-law-firms, Sep 25)
 
 ## Retired (Do Not Write)
 
