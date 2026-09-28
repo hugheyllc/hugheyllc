@@ -15,9 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-7. Performance Max for Law Firms: When Google's Automation Helps and When It Buys Junk
-   - Angle: PMax vs. search campaigns, asset groups, brand exclusions, lead quality controls
-   - Don't overlap: google-ads-law-firms, google-ads-budget-allocation-law-firms, law-firm-google-ads-quality-score
 8. Intake Staffing Models: In-House Team vs. Virtual Receptionist vs. Hybrid
    - Angle: cost, coverage hours, conversion quality, handoff to CRM, how to evaluate answering services
    - Don't overlap: law-firm-intake-speed, law-firm-intake-process-audit, law-firm-intake-process-marketing-leak
@@ -138,6 +135,7 @@ Topics from the July 8 queue that have a live post:
 - #4 Florida Tort Reform and Personal Injury Marketing (florida-tort-reform-personal-injury-marketing, Sep 21)
 - #5 Estate Planning and Probate Marketing (estate-planning-marketing-law-firms, Sep 23)
 - #6 Win-Loss Analysis for Law Firms (win-loss-analysis-law-firms, Sep 25)
+- #7 Performance Max for Law Firms (performance-max-law-firms, Sep 28)
 
 ## Retired (Do Not Write)
 
