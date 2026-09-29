@@ -6,6 +6,12 @@ const services = [
   { slug: 'intake-process-optimization', title: 'Intake Optimization', desc: 'Convert more of the leads you already have.' },
   { slug: 'strategic-marketing-for-law-firms', title: 'Strategic Marketing', desc: '12-month integrated marketing plan.' },
 ];
+
+const markets = [
+  { href: '/florida/tampa/', title: 'Tampa', desc: 'Hillsborough County law firms.' },
+  { href: '/florida/st-petersburg/', title: 'St. Petersburg', desc: 'Pinellas County law firms. Home office.' },
+  { href: '/location/', title: 'Tampa Bay', desc: 'Hillsborough, Pinellas, Pasco and Manatee.' },
+];
 ---
 
 <nav id="nav">
@@ -38,6 +44,26 @@ const services = [
             </a>
           ))}
           <a href="/services" class="nav-dd-all" role="menuitem">View all services →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-dd" id="navMarketsDd">
+      <a href="/florida/" class="nav-dd-trigger" aria-haspopup="true" aria-expanded="false">
+        Markets
+        <svg class="nav-dd-chev" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+      <div class="nav-dd-menu nav-dd-menu-sm" role="menu">
+        <div class="nav-dd-inner">
+          {markets.map(m => (
+            <a href={m.href} class="nav-dd-item" role="menuitem">
+              <div class="nav-dd-item-head">
+                <span class="nav-dd-item-title">{m.title}</span>
+              </div>
+              <span class="nav-dd-item-desc">{m.desc}</span>
+            </a>
+          ))}
+          <a href="/florida/" class="nav-dd-all" role="menuitem">All Florida markets →</a>
         </div>
       </div>
     </div>
@@ -226,6 +252,8 @@ const services = [
     transition: opacity 0.18s, transform 0.18s;
     z-index: 700;
   }
+
+  .nav-dd-menu-sm { width: 320px; }
 
   /* Hover bridge to avoid menu vanishing when moving cursor */
   .nav-dd-menu::before {
