@@ -21,7 +21,8 @@ interface Props {
   crumbs: Crumb[];
   businessSchema: Record<string, any>;
   serviceArea: string;
-  practiceAreas: string;
+  practiceAreas: string[];
+  practiceHeading?: string;
   office?: boolean;
   nearby: Nearby[];
   faqs: Faq[];
@@ -31,7 +32,7 @@ interface Props {
 
 const {
   title, description, canonical, eyebrow, heading, subheading, crumbs,
-  businessSchema, serviceArea, practiceAreas, office = false, nearby, faqs,
+  businessSchema, serviceArea, practiceAreas, practiceHeading = 'Practice Areas We Serve', office = false, nearby, faqs,
   ctaHeading, ctaText,
 } = Astro.props;
 
@@ -104,24 +105,35 @@ const faqSchema = {
               <p>{serviceArea}</p>
             </div>
             <div class="lm-card">
-              <h3>Practice Areas</h3>
-              <p>{practiceAreas}</p>
-            </div>
-            <div class="lm-card">
               <h3>Nearby Markets</h3>
               <ul class="lm-links">
                 {nearby.map(n => <li><a href={n.href}>{n.label} →</a></li>)}
               </ul>
             </div>
             <div class="lm-card lm-cta-card">
-              <h3>Talk to Joe</h3>
-              <p>A direct conversation about your firm's numbers. No sales pitch.</p>
+              <h3>Schedule a Strategy Call</h3>
+              <p>A direct conversation with a senior strategist about your firm's numbers. No sales pitch.</p>
               <a href="/contact/" class="lm-btn">Schedule a Free Call →</a>
             </div>
           </aside>
         </div>
       </div>
     </div>
+
+    <section class="lm-practice">
+      <div class="w">
+        <div class="lm-practice-inner">
+          <div class="lm-practice-head">
+            <span>Across the practice spectrum</span>
+            <h2>{practiceHeading}</h2>
+            <p>From solo practitioners to multi-office firms, our team works with practices where the path from first contact to signed retainer can be measured and improved.</p>
+          </div>
+          <ul class="lm-practice-grid">
+            {practiceAreas.map(p => <li>{p}</li>)}
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <section class="lm-faq">
       <div class="w">
@@ -239,6 +251,25 @@ const faqSchema = {
   }
   .lm-btn:hover { background: var(--glt); }
   .lm-btn-lg { font-size: 13px; padding: 18px 36px; box-shadow: 0 4px 28px rgba(200,151,58,0.42); }
+
+  .lm-practice { padding: 72px 0; border-top: 1px solid rgba(200,151,58,0.15); background: rgba(200,151,58,0.03); }
+  .lm-practice-inner { max-width: 1180px; margin: 0 auto; }
+  .lm-practice-head { max-width: 760px; margin: 0 0 36px; }
+  .lm-practice-head span {
+    display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--glt); margin-bottom: 10px;
+  }
+  .lm-practice-head h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin: 0 0 14px; }
+  .lm-practice-head p { font-size: 16px; line-height: 1.7; color: rgba(255,255,255,0.7); margin: 0; }
+  .lm-practice-grid {
+    list-style: none; padding: 0; margin: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    border-top: 1px solid rgba(200,151,58,0.18); border-left: 1px solid rgba(200,151,58,0.18);
+  }
+  .lm-practice-grid li {
+    padding: 16px 18px; font-size: 15px; font-weight: 600; color: rgba(255,255,255,0.86);
+    border-right: 1px solid rgba(200,151,58,0.18); border-bottom: 1px solid rgba(200,151,58,0.18);
+  }
 
   .lm-faq { padding: 72px 0; border-top: 1px solid rgba(200,151,58,0.15); }
   .lm-faq-inner { max-width: 820px; margin: 0 auto; }
