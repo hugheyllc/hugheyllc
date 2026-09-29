@@ -1,0 +1,134 @@
+---
+import LocalMarketPage from '../../components/LocalMarketPage.astro';
+
+const url = 'https://hugheyllc.com/florida/st-petersburg/';
+
+const businessSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": `${url}#service`,
+  "name": "Hughey LLC: Legal Marketing Consultant, St. Petersburg",
+  "description": "St. Petersburg based legal marketing consultant for Pinellas County law firms. Cost per retained client measurement, agency accountability, intake optimization and marketing strategy.",
+  "url": url,
+  "telephone": "+17274833222",
+  "email": "joe@hugheyllc.com",
+  "image": "https://hugheyllc.com/images/logo.png",
+  "priceRange": "$$",
+  "parentOrganization": { "@id": "https://hugheyllc.com/#business" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5412 Dover St NE",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "postalCode": "33703",
+    "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 27.8206, "longitude": -82.6331 },
+  "openingHours": ["Mo-Fr 09:00-17:00"],
+  "areaServed": [
+    { "@type": "City", "name": "St. Petersburg, FL" },
+    { "@type": "City", "name": "Clearwater, FL" },
+    { "@type": "AdministrativeArea", "name": "Pinellas County, FL" }
+  ],
+  "serviceType": ["Legal marketing consulting", "Law firm marketing strategy", "Marketing attribution", "Agency management", "Intake optimization"],
+  "founder": { "@type": "Person", "name": "Joe Hughey", "url": "https://hugheyllc.com/about/" }
+};
+
+const faqs = [
+  {
+    q: 'Are you actually based in St. Petersburg?',
+    a: "Yes. Hughey LLC's office is at 5412 Dover St NE in St. Petersburg. I work with Pinellas County firms in person, from downtown St. Pete to Clearwater, Largo and the beaches.",
+  },
+  {
+    q: 'How is a legal marketing consultant different from a St. Pete marketing agency?',
+    a: "Agencies sell execution and report on their own work. I don't run ads or build websites. I measure what your agencies, directories and referral sources actually produce in signed clients, and I help you move budget toward what works.",
+  },
+  {
+    q: 'Do Pinellas County firms need a different strategy than Tampa firms?',
+    a: 'Often, yes. Pinellas is a smaller, more relationship-driven market, and many practices here depend on referrals, reviews and the maps pack as much as on paid search. At the same time, Tampa firms and national advertisers bid into Pinellas searches, so a St. Pete firm needs to know exactly where its clients come from before it spends to compete.',
+  },
+  {
+    q: 'Which practice areas do you work with in St. Petersburg?',
+    a: 'Family law, estate planning and probate, elder law, business law, real estate, employment, and property and insurance disputes, along with other practices where intake and attribution can be measured and improved.',
+  },
+  {
+    q: 'How much does it cost to work with you?',
+    a: 'Engagements are structured hourly or as a monthly retainer, depending on scope. We start with a free call so I can understand your situation and tell you honestly whether I can help.',
+  },
+];
+---
+
+<LocalMarketPage
+  title="Legal Marketing St. Petersburg, FL | Law Firm Marketing Consultant | Hughey LLC"
+  description="St. Petersburg based legal marketing consultant for Pinellas County law firms. Measure cost per retained client, hold agencies accountable, and fix intake. Free call."
+  canonical={url}
+  eyebrow="St. Petersburg • Pinellas County"
+  heading="Legal Marketing Consultant<br /><em>St. Petersburg, FL</em>"
+  subheading="Based in St. Pete. Working with Pinellas County law firms that want to know what their marketing actually produces in signed clients."
+  crumbs={[
+    { name: 'Home', url: 'https://hugheyllc.com/' },
+    { name: 'Florida', url: 'https://hugheyllc.com/florida/' },
+    { name: 'Tampa Bay', url: 'https://hugheyllc.com/location/' },
+    { name: 'St. Petersburg', url },
+  ]}
+  businessSchema={businessSchema}
+  serviceArea="Downtown St. Petersburg • Northeast St. Pete • Gulfport • Pinellas Park • Largo • Seminole • Clearwater • Dunedin • Palm Harbor • Tarpon Springs • St. Pete Beach and the Gulf beaches"
+  practiceAreas="Family Law • Estate Planning & Probate • Elder Law • Business Law • Real Estate • Employment • Property & Insurance Disputes"
+  office={true}
+  nearby={[
+    { label: 'Tampa', href: '/florida/tampa/' },
+    { label: 'Tampa Bay region', href: '/location/' },
+    { label: 'Naples', href: '/florida/naples/' },
+    { label: 'All Florida markets', href: '/florida/' },
+  ]}
+  faqs={faqs}
+  ctaHeading="Let's Look at Your Numbers Together"
+  ctaText="I'm local. If your Pinellas County firm wants a clear answer on which marketing is producing clients, let's talk over coffee or on a call."
+>
+  <p class="lm-lede">St. Petersburg is where Hughey LLC lives. After more than 20 years working only in legal marketing, I help Pinellas County firms answer the one question their vendors never do: what does it cost us to sign a new client, channel by channel?</p>
+
+  <p>I'm an independent <a href="/">law firm marketing consultant</a>, not an agency. I don't sell ads, websites or SEO packages. I sit above the vendors you already use, tie their work to retained clients, and help you spend where the results are.</p>
+
+  <h2>How Legal Marketing Works in Pinellas County</h2>
+
+  <div class="lm-facts">
+    <div class="lm-fact"><span>Courts</span><strong>Sixth Judicial Circuit, Pinellas and Pasco</strong></div>
+    <div class="lm-fact"><span>Legal hubs</span><strong>Downtown St. Pete and Clearwater</strong></div>
+    <div class="lm-fact"><span>Market shape</span><strong>Boutique firms, referral-heavy, review-sensitive</strong></div>
+    <div class="lm-fact"><span>Competition</span><strong>Tampa and national firms bidding across the bay</strong></div>
+  </div>
+
+  <p>Pinellas is a peninsula with a lot of lawyers and a lot of history. Much of the local bar is made up of small and mid-size practices, many built over decades on referrals from other attorneys, financial advisors and past clients. Stetson Law's presence in Gulfport keeps a steady pipeline of new lawyers coming into the market, and plenty of them hang their own shingle.</p>
+
+  <p>That shapes how marketing works here. Reviews, the Google maps pack and word of mouth carry more weight than in larger metros. But St. Pete searchers still see Tampa firms and national advertisers in their results, and a local firm that competes on the wrong terms can spend heavily without gaining ground.</p>
+
+  <p>The market has also shifted. The 2024 hurricane season brought property, insurance and real estate problems to thousands of Pinellas households, and the county's older population keeps demand for estate planning, probate and elder law strong. Firms that understand those patterns can target them. Firms that don't end up buying generic traffic.</p>
+
+  <h2>Where St. Pete Firms Lose Money</h2>
+
+  <ul>
+    <li><strong>Referral sources nobody tracks.</strong> Firms often know referrals are their best channel but can't say which referrers send the cases that pay. That makes the relationship work impossible to prioritize.</li>
+    <li><strong>Paying to reach Hillsborough when clients live in Pinellas.</strong> Bay-wide ad targeting and directory packages often spend across the bridges on searchers who will never drive to your office.</li>
+    <li><strong>A maps listing left on autopilot.</strong> For many Pinellas practices the Google Business Profile drives more calls than the website, and it gets the least attention.</li>
+    <li><strong>Intake that can't keep up.</strong> Small firms lose callers to voicemail, slow follow-up and forms that sit in an inbox. Those leads were already paid for.</li>
+    <li><strong>Vendor reports that measure activity.</strong> Rankings, impressions and clicks are easy to report and say nothing about fees collected.</li>
+  </ul>
+
+  <p class="lm-pull">A small firm can't afford to guess. Every dollar needs to be traceable to a signed client, or it should be moved.</p>
+
+  <h2>What I Do for St. Petersburg Law Firms</h2>
+
+  <ol class="lm-steps">
+    <li><h3>Map your marketing and intake</h3><p>Every vendor, listing, referral source and intake step in one picture, so the gaps are visible.</p></li>
+    <li><h3>Measure cost per retained client</h3><p>Spend tied to calls, consults and signed matters by channel, including referrals. <a href="/services/data-analysis-for-law-firms/">See data analysis</a>.</p></li>
+    <li><h3>Hold your vendors to outcomes</h3><p>Shared KPIs and regular reviews that ask what each agency produced in clients. <a href="/services/agency-management-for-law-firms/">See agency management</a>.</p></li>
+    <li><h3>Tighten intake</h3><p>Faster response, better qualification and a clean handoff to the attorney. <a href="/services/intake-process-optimization/">See intake optimization</a>.</p></li>
+    <li><h3>Plan the next 12 months</h3><p>A written plan with retained-client targets that grows what works in your part of the bay. <a href="/services/strategic-marketing-for-law-firms/">See strategic marketing</a>.</p></li>
+  </ol>
+
+  <h2>Local, Independent and Accountable</h2>
+
+  <p>Being in St. Pete means I know the courthouses, the bar associations and the neighborhoods your clients come from. Being independent means my only incentive is your result. I'll tell you when to cut a channel, when a vendor is underperforming and when the fix is inside your intake process rather than in your ad budget.</p>
+
+  <p>I also work with firms across the bay in <a href="/florida/tampa/">Tampa</a>, throughout the <a href="/location/">Tampa Bay area</a> and across <a href="/florida/">Florida</a>.</p>
+</LocalMarketPage>

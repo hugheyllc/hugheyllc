@@ -107,3 +107,8 @@ Tampa law firms should expect a data-driven approach that connects marketing inv
 ### How long does it take to see results from law firm marketing consulting in Tampa?
 
 Most law firms begin seeing initial improvements in their marketing systems and tracking within 30-60 days, with more substantial results in lead quality and client acquisition typically visible within 3-6 months. The timeline depends on your current marketing foundation and the competitiveness of your specific practice area in the Tampa market.
+
+
+---
+
+**Working with a consultant in Tampa?** See how I help Hillsborough County firms measure cost per retained client on the [Tampa legal marketing page](/florida/tampa/).

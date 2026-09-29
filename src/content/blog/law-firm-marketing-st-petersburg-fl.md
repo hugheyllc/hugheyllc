@@ -102,3 +102,8 @@ Personal injury, family law, and criminal defense firms see the greatest benefit
 ### How much does law firm marketing consulting cost in St. Petersburg?
 
 Law firm marketing consulting costs vary based on firm size, practice areas, and scope of services, typically ranging from monthly retainers to project-based fees. The best consultants focus on ROI and cost per retained client rather than charging for activities that don't directly impact your bottom line.
+
+
+---
+
+**Based in Pinellas County?** See how I work with local firms on the [St. Petersburg legal marketing page](/florida/st-petersburg/).

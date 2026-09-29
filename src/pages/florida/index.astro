@@ -4,7 +4,9 @@ import PageHero from '../../components/PageHero.astro';
 import Footer from '../../components/Footer.astro';
 
 const cities = [
-  { name: 'Tampa Bay', href: '/location/', county: 'Hillsborough & Pinellas Counties', blurb: 'Home base. St. Petersburg, Tampa, Clearwater, and the Gulf Coast — one of the most competitive paid-search markets in Florida.' },
+  { name: 'Tampa', href: '/florida/tampa/', county: 'Hillsborough County', blurb: 'Crowded at the top of the funnel. Large firms, heavy advertisers and agencies on every corner. The work is proving which spend produces signed clients.' },
+  { name: 'St. Petersburg', href: '/florida/st-petersburg/', county: 'Pinellas County', blurb: 'Home base. Boutique, referral-driven firms where reviews, the maps pack and intake speed decide who gets the call.' },
+  { name: 'Tampa Bay', href: '/location/', county: 'Hillsborough, Pinellas, Pasco & Manatee', blurb: 'One media market, two very different legal markets. Geo-targeting and attribution across the bridges.' },
   { name: 'Orlando', href: '/florida/orlando/', county: 'Orange County', blurb: "Florida's third-largest paid-search market. Theme park PI, tourism intake, and bilingual attribution gaps." },
   { name: 'Miami', href: '/florida/miami/', county: 'Miami-Dade County', blurb: "Florida's largest and most expensive legal market. English/Spanish attribution and international lead filtering define the work." },
   { name: 'Jacksonville', href: '/florida/jacksonville/', county: 'Duval County', blurb: "North Florida's largest legal market. Military intake, I-95 corridor PI, and St. Johns County transplant growth." },
@@ -25,32 +27,56 @@ const breadcrumbSchema = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "name": "Hughey LLC — Law Firm Marketing Consulting (Florida)",
+  "@id": "https://hugheyllc.com/florida/#service",
+  "name": "Hughey LLC: Legal Marketing Consultant, Florida",
   "url": "https://hugheyllc.com/florida/",
+  "telephone": "+17274833222",
+  "parentOrganization": { "@id": "https://hugheyllc.com/#business" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5412 Dover St NE",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "postalCode": "33703",
+    "addressCountry": "US"
+  },
   "areaServed": {
     "@type": "State",
     "name": "Florida"
   }
 };
+
+const flFaqs = [
+  { q: 'Do you work with law firms outside Tampa Bay?', a: "Yes. I'm based in St. Petersburg and work in person across Tampa Bay. Firms elsewhere in Florida work with me remotely, with on-site visits when they help." },
+  { q: 'Why does Florida legal marketing need a Florida specialist?', a: "The Florida Bar's advertising rules are strict and specific, tort reform in 2023 changed the economics of several practice areas, and markets like Miami, Tampa and Naples behave nothing alike. Generic agency playbooks miss all three." },
+  { q: 'How much does it cost?', a: 'Engagements are hourly or on a monthly retainer depending on scope. The first step is a free call.' },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": flFaqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })),
+};
 ---
 
 <BaseLayout
-  title="Law Firm Marketing Consultant — Florida | Hughey LLC"
-  description="Independent law firm marketing consulting across Florida — Tampa Bay, Orlando, Miami, Jacksonville, Fort Lauderdale, Naples, and West Palm Beach. Attribution, strategy, agency accountability."
+  title="Legal Marketing Florida | Law Firm Marketing Consultant | Hughey LLC"
+  description="Independent legal marketing consultant for Florida law firms, based in St. Petersburg. Tampa, St. Pete, Orlando, Miami, Jacksonville and more. Cost per retained client, not clicks."
   canonical="https://hugheyllc.com/florida/"
-  schema={[breadcrumbSchema, serviceSchema]}
+  schema={[breadcrumbSchema, serviceSchema, faqSchema]}
 >
   <div style="background: var(--ink); color: var(--white); min-height: 100vh;">
     <PageHero
-      eyebrow="Florida Coverage"
-      heading={`Law Firm Marketing Consultant<br /><em>Across Florida</em>`}
-      subheading="Independent marketing strategy, attribution, and agency accountability for Florida law firms — from the Panhandle to the Keys. Based in St. Petersburg."
+      eyebrow="Florida Legal Marketing"
+      heading={`Legal Marketing Consultant<br /><em>Across Florida</em>`}
+      subheading="Independent marketing strategy, attribution and agency accountability for Florida law firms. Based in St. Petersburg, working statewide."
     />
 
     <div style="padding: 64px 0;">
       <div class="w">
-        <div style="max-width: 760px; margin: 0 auto 48px;">
-          <p style="font-size: 17px; line-height: 1.8; color: rgba(255,255,255,0.78);">Every Florida legal market has its own marketing dynamic. Tampa's competitive paid-search and Miami's bilingual attribution problems look nothing alike. Naples is a referral-driven boutique market. Jacksonville is rebuilding around population growth. Each city below has its own playbook — and a page that explains how the work changes in that market.</p>
+        <div class="fl-intro">
+          <p>Every Florida legal market has its own marketing dynamic. Tampa's crowded paid search and Miami's bilingual attribution problems look nothing alike. Naples and St. Petersburg run on referrals. Jacksonville and Pasco are growing faster than their lawyers' marketing. Each market below has its own page on how the work changes there.</p>
+          <p>What doesn't change is the question I help every firm answer: <strong>what does it cost you to sign a new client, channel by channel?</strong> I'm not an agency. I don't run ads or build websites. I sit above the vendors you already have and make sure they're producing retained clients.</p>
         </div>
 
         <div class="city-list">
@@ -68,11 +94,47 @@ const serviceSchema = {
       </div>
     </div>
 
+    <div class="fl-section">
+      <div class="w">
+        <div class="fl-narrow">
+          <h2>What Makes Florida Legal Marketing Different</h2>
+          <div class="fl-points">
+            <div>
+              <h3>The Florida Bar's advertising rules</h3>
+              <p>Florida regulates lawyer advertising more closely than most states, down to how results, testimonials and specialization claims can be presented. Marketing built by generalist agencies often misses it. I review campaigns with those rules in mind. <a href="/blog/florida-bar-law-firm-advertising-rules/">Read the overview</a>.</p>
+            </div>
+            <div>
+              <h3>Tort reform changed the math</h3>
+              <p>HB 837 in 2023 shortened the general negligence filing window and changed comparative fault. Case values and case mix shifted, and marketing budgets built on the old numbers need a second look. <a href="/blog/florida-tort-reform-personal-injury-marketing/">How firms are adjusting</a>.</p>
+            </div>
+            <div>
+              <h3>Markets that don't behave alike</h3>
+              <p>Bilingual intake in South Florida, retirees and seasonal residents on the Gulf Coast, fast growth along I-4 and in North Florida. A single statewide playbook wastes money in all of them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fl-section fl-faq">
+      <div class="w">
+        <div class="fl-narrow">
+          <h2>Common Questions</h2>
+          {flFaqs.map(f => (
+            <details>
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </div>
+
     <div style="padding: 64px 0; background: rgba(200, 151, 58, 0.05); border-top: 1px solid rgba(200, 151, 58, 0.15);">
       <div class="w">
         <div style="max-width: 760px; margin: 0 auto; text-align: center;">
           <h2 style="font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin-bottom: 16px;">Not in One of These Cities?</h2>
-          <p style="font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin-bottom: 32px;">I work with law firms across Florida — and nationally on remote engagements. If your market isn't listed, the work is the same: attribution, strategy, and agency accountability.</p>
+          <p style="font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin-bottom: 32px;">I work with law firms across Florida and nationally on remote engagements. If your market isn't listed, the work is the same: attribution, strategy and agency accountability.</p>
           <a href="/contact/" style="display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--ink); font-family: var(--man); font-weight: 800; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; padding: 18px 36px; border-radius: 2px; text-decoration: none; transition: all 0.25s; box-shadow: 0 4px 28px rgba(200, 151, 58, 0.42);">
             Schedule a Free Call →
           </a>
@@ -83,6 +145,19 @@ const serviceSchema = {
 
   <style>
     em { color: var(--glt); font-style: italic; }
+    .fl-intro { max-width: 760px; margin: 0 auto 48px; }
+    .fl-intro p { font-size: 17px; line-height: 1.8; color: rgba(255,255,255,0.78); margin: 0 0 20px; }
+    .fl-intro strong { color: var(--white); }
+    .fl-section { padding: 64px 0; border-top: 1px solid rgba(200, 151, 58, 0.15); }
+    .fl-narrow { max-width: 900px; margin: 0 auto; }
+    .fl-section h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin: 0 0 28px; }
+    .fl-points { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; }
+    .fl-points h3 { font-size: 18px; font-weight: 800; color: var(--white); margin: 0 0 10px; }
+    .fl-points p { font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.72); margin: 0; }
+    .fl-points a, .fl-faq a { color: var(--glt); }
+    .fl-faq details { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 20px 0; }
+    .fl-faq summary { cursor: pointer; font-size: 18px; font-weight: 700; color: var(--white); }
+    .fl-faq details p { margin: 14px 0 0; font-size: 16px; line-height: 1.75; color: rgba(255,255,255,0.72); }
     .city-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

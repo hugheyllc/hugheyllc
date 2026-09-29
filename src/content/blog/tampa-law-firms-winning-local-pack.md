@@ -84,3 +84,8 @@ Yes, proximity to the searcher is a major ranking factor for the Local Pack. How
 ### What's the difference between Local Pack and organic search results for lawyers?
 
 The Local Pack appears above organic search results and focuses on geographic proximity and local signals like Google Business Profile optimization and reviews. Organic results rely more on traditional SEO factors like website content, backlinks, and domain authority, though location still matters for local search terms.
+
+
+---
+
+**Tampa firm?** See how I work with Hillsborough County practices on the [Tampa legal marketing page](/florida/tampa/).

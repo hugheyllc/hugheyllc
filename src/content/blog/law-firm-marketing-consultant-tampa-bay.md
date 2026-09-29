@@ -135,3 +135,8 @@ While remote consultants can be effective, a local Tampa Bay consultant offers a
 
 ### What's the difference between a general marketing consultant and one who specializes in law firms?
 Legal marketing specialists understand attorney advertising regulations, legal industry terminology, and the unique challenges of marketing professional services. They're familiar with legal directories, bar association requirements, and ethical considerations that general marketers may overlook.
+
+
+---
+
+**Ready to talk?** See how I work with firms across the bay on the [Tampa Bay legal marketing page](/location/).

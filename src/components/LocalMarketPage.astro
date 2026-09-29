@@ -1,0 +1,269 @@
+---
+/**
+ * Shared layout for local market landing pages (Tampa, St. Petersburg, Tampa Bay).
+ * Body copy goes in the default slot. Sidebar, FAQ and schema are driven by props.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from './PageHero.astro';
+import Footer from './Footer.astro';
+
+interface Faq { q: string; a: string }
+interface Crumb { name: string; url: string }
+interface Nearby { label: string; href: string }
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  eyebrow: string;
+  heading: string;
+  subheading: string;
+  crumbs: Crumb[];
+  businessSchema: Record<string, any>;
+  serviceArea: string;
+  practiceAreas: string;
+  office?: boolean;
+  nearby: Nearby[];
+  faqs: Faq[];
+  ctaHeading: string;
+  ctaText: string;
+}
+
+const {
+  title, description, canonical, eyebrow, heading, subheading, crumbs,
+  businessSchema, serviceArea, practiceAreas, office = false, nearby, faqs,
+  ctaHeading, ctaText,
+} = Astro.props;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": crumbs.map((c, i) => ({
+    "@type": "ListItem", "position": i + 1, "name": c.name, "item": c.url,
+  })),
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  schema={[businessSchema, breadcrumbSchema, faqSchema]}
+>
+  <div class="lm-page">
+    <PageHero
+      eyebrow={eyebrow}
+      heading={heading}
+      subheading={subheading}
+      cta={{ label: 'Schedule a Free Call →', href: '/contact/' }}
+    />
+
+    <nav class="lm-crumbs w" aria-label="Breadcrumb">
+      {crumbs.map((c, i) => (
+        <>
+          {i > 0 && <span aria-hidden="true">/</span>}
+          {i < crumbs.length - 1
+            ? <a href={c.url.replace('https://hugheyllc.com', '') || '/'}>{c.name}</a>
+            : <span class="lm-crumb-current">{c.name}</span>}
+        </>
+      ))}
+    </nav>
+
+    <div class="lm-main">
+      <div class="w">
+        <div class="lm-grid">
+          <article class="lm-body">
+            <slot />
+          </article>
+
+          <aside class="lm-side">
+            {office && (
+              <div class="lm-card">
+                <h3>Office</h3>
+                <p>
+                  Hughey LLC<br />
+                  5412 Dover St NE<br />
+                  St. Petersburg, FL 33703<br />
+                  <a href="tel:+17274833222">727-483-3222</a><br />
+                  Mon to Fri, 9am to 5pm ET
+                </p>
+              </div>
+            )}
+            <div class="lm-card">
+              <h3>Service Area</h3>
+              <p>{serviceArea}</p>
+            </div>
+            <div class="lm-card">
+              <h3>Practice Areas</h3>
+              <p>{practiceAreas}</p>
+            </div>
+            <div class="lm-card">
+              <h3>Nearby Markets</h3>
+              <ul class="lm-links">
+                {nearby.map(n => <li><a href={n.href}>{n.label} →</a></li>)}
+              </ul>
+            </div>
+            <div class="lm-card lm-cta-card">
+              <h3>Talk to Joe</h3>
+              <p>A direct conversation about your firm's numbers. No sales pitch.</p>
+              <a href="/contact/" class="lm-btn">Schedule a Free Call →</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <section class="lm-faq">
+      <div class="w">
+        <div class="lm-faq-inner">
+          <h2>Common Questions</h2>
+          {faqs.map(f => (
+            <details>
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="lm-final">
+      <div class="w">
+        <div class="lm-final-inner">
+          <h2>{ctaHeading}</h2>
+          <p>{ctaText}</p>
+          <a href="/contact/" class="lm-btn lm-btn-lg">Schedule a Free Call →</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <Footer />
+</BaseLayout>
+
+<style is:global>
+  .lm-page { background: var(--ink); color: var(--white); }
+  .lm-page .ph-heading em { color: var(--glt); font-style: italic; }
+
+  .lm-crumbs {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    padding-top: 20px; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+  }
+  .lm-crumbs a { color: rgba(255,255,255,0.55); text-decoration: none; }
+  .lm-crumbs a:hover { color: var(--glt); }
+  .lm-crumb-current { color: var(--glt); }
+
+  .lm-main { padding: 56px 0 72px; }
+  .lm-grid {
+    display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 60px;
+    align-items: start; max-width: 1180px; margin: 0 auto;
+  }
+
+  .lm-body { font-size: 17px; line-height: 1.85; color: rgba(255,255,255,0.82); }
+  .lm-body p { margin: 0 0 24px; }
+  .lm-body .lm-lede { font-size: 20px; line-height: 1.7; color: var(--white); }
+  .lm-body h2 {
+    font-size: clamp(24px, 3vw, 32px); font-weight: 800; color: var(--white);
+    margin: 52px 0 20px; letter-spacing: -0.02em; line-height: 1.2;
+  }
+  .lm-body h3 { font-size: 19px; font-weight: 800; color: var(--white); margin: 0 0 8px; }
+  .lm-body ul { margin: 0 0 24px; padding-left: 22px; display: flex; flex-direction: column; gap: 12px; }
+  .lm-body li { color: rgba(255,255,255,0.78); }
+  .lm-body a { color: var(--glt); text-decoration: underline; text-underline-offset: 3px; }
+  .lm-body a:hover { color: var(--white); }
+  .lm-body strong { color: var(--white); font-weight: 700; }
+
+  /* Pull quote used once per page for the positioning line */
+  .lm-pull {
+    border-left: 3px solid var(--gold); padding: 6px 0 6px 24px; margin: 40px 0;
+    font-size: 22px; line-height: 1.5; font-weight: 700; color: var(--white);
+  }
+
+  /* Numbered method steps */
+  .lm-steps { list-style: none; padding: 0 !important; counter-reset: step; gap: 0 !important; }
+  .lm-steps li {
+    counter-increment: step; position: relative; padding: 22px 0 22px 64px;
+    border-top: 1px solid rgba(200,151,58,0.15);
+  }
+  .lm-steps li:last-child { border-bottom: 1px solid rgba(200,151,58,0.15); }
+  .lm-steps li::before {
+    content: counter(step, decimal-leading-zero); position: absolute; left: 0; top: 22px;
+    font-family: var(--man); font-weight: 800; font-size: 22px; color: var(--gold);
+  }
+  .lm-steps li p { margin: 0; }
+
+  /* Market fact grid */
+  .lm-facts {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 0 0 32px;
+  }
+  .lm-fact {
+    background: rgba(200,151,58,0.05); border: 1px solid rgba(200,151,58,0.18);
+    border-radius: 4px; padding: 18px 20px;
+  }
+  .lm-fact span {
+    display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--glt); margin-bottom: 6px;
+  }
+  .lm-fact strong { font-size: 16px; line-height: 1.4; }
+
+  .lm-side { position: sticky; top: 140px; display: flex; flex-direction: column; gap: 18px; }
+  .lm-card {
+    background: rgba(200,151,58,0.05); border: 1px solid rgba(200,151,58,0.18);
+    border-radius: 4px; padding: 22px;
+  }
+  .lm-card h3 {
+    font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--glt); margin: 0 0 10px;
+  }
+  .lm-card p { font-size: 14px; line-height: 1.65; color: rgba(255,255,255,0.72); margin: 0; }
+  .lm-card a { color: var(--white); text-decoration: none; }
+  .lm-card a:hover { color: var(--glt); }
+  .lm-links { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+  .lm-cta-card { background: rgba(200,151,58,0.1); }
+
+  .lm-btn {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 14px;
+    background: var(--gold); color: var(--ink) !important; font-family: var(--man); font-weight: 800;
+    font-size: 12px; letter-spacing: 0.07em; text-transform: uppercase; padding: 12px 22px;
+    border-radius: 2px; text-decoration: none; transition: background 0.2s;
+  }
+  .lm-btn:hover { background: var(--glt); }
+  .lm-btn-lg { font-size: 13px; padding: 18px 36px; box-shadow: 0 4px 28px rgba(200,151,58,0.42); }
+
+  .lm-faq { padding: 72px 0; border-top: 1px solid rgba(200,151,58,0.15); }
+  .lm-faq-inner { max-width: 820px; margin: 0 auto; }
+  .lm-faq h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin: 0 0 28px; }
+  .lm-faq details { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 20px 0; }
+  .lm-faq summary {
+    cursor: pointer; font-size: 18px; font-weight: 700; color: var(--white); list-style: none;
+    display: flex; justify-content: space-between; gap: 16px;
+  }
+  .lm-faq summary::-webkit-details-marker { display: none; }
+  .lm-faq summary::after { content: '+'; color: var(--gold); font-size: 22px; line-height: 1; }
+  .lm-faq details[open] summary::after { content: '−'; }
+  .lm-faq details p { margin: 14px 0 0; font-size: 16px; line-height: 1.75; color: rgba(255,255,255,0.72); }
+
+  .lm-final { padding: 72px 0; background: rgba(200,151,58,0.05); border-top: 1px solid rgba(200,151,58,0.15); }
+  .lm-final-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+  .lm-final h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; margin: 0 0 16px; }
+  .lm-final p { font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.72); margin: 0 0 18px; }
+
+  @media (max-width: 900px) {
+    .lm-grid { grid-template-columns: 1fr; gap: 40px; }
+    .lm-side { position: static; }
+  }
+  @media (max-width: 560px) {
+    .lm-facts { grid-template-columns: 1fr; }
+    .lm-steps li { padding-left: 48px; }
+  }
+</style>
