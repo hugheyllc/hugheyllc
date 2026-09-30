@@ -15,9 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-8. Intake Staffing Models: In-House Team vs. Virtual Receptionist vs. Hybrid
-   - Angle: cost, coverage hours, conversion quality, handoff to CRM, how to evaluate answering services
-   - Don't overlap: law-firm-intake-speed, law-firm-intake-process-audit, law-firm-intake-process-marketing-leak
 9. Employment Law Marketing: B2B vs. B2C Strategies for Employers and Employees
    - Don't overlap: business-law-firm-marketing, business-law-marketing-strategy-vs-pi
 10. Pay-Per-Lead Services for Law Firms: Renting Cases vs. Owning Demand
@@ -136,6 +133,7 @@ Topics from the July 8 queue that have a live post:
 - #5 Estate Planning and Probate Marketing (estate-planning-marketing-law-firms, Sep 23)
 - #6 Win-Loss Analysis for Law Firms (win-loss-analysis-law-firms, Sep 25)
 - #7 Performance Max for Law Firms (performance-max-law-firms, Sep 28)
+- #8 Intake Staffing Models: In-House Team vs. Virtual Receptionist vs. Hybrid (law-firm-intake-staffing-models, Sep 30)
 
 ## Retired (Do Not Write)
 
