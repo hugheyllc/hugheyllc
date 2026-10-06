@@ -28,7 +28,7 @@ function buyerEmailHtml(firstName) {
       <p style="font-size: 14px; line-height: 1.7; color: #666; margin-top: 32px;">— Joe Hughey<br/>Hughey LLC</p>
 
       <hr style="border: none; border-top: 1px solid #eee; margin: 32px 0;" />
-      <p style="font-size: 12px; color: #999;">Hughey LLC · 5412 Dover St NE, St. Petersburg, FL 33703 · <a href="https://hugheyllc.com" style="color: #999;">hugheyllc.com</a></p>
+      <p style="font-size: 12px; color: #999;">Hughey LLC · 5214 Dover St NE, St. Petersburg, FL 33703 · <a href="https://hugheyllc.com" style="color: #999;">hugheyllc.com</a></p>
     </div>
   `;
 }
