@@ -15,9 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-11. Attorney Bio Pages That Convert: The Most Visited Pages Firms Neglect
-    - Angle: conversion copy, proof, photos, CTAs. E-E-A-T and schema only as supporting points
-    - Don't overlap: eeat-law-firm-seo, law-firm-schema-markup, law-firm-website-homepage-design
 12. FTC Truth-in-Advertising Rules for Law Firms: Where Federal Rules Stack on Top of Bar Rules
     - Don't overlap: florida-bar-law-firm-advertising-rules
 13. Podcast Guesting for Lawyers: Using Other People's Audiences for Authority and Leads
@@ -131,6 +128,7 @@ Topics from the July 8 queue that have a live post:
 - #8 Intake Staffing Models: In-House Team vs. Virtual Receptionist vs. Hybrid (law-firm-intake-staffing-models, Sep 30)
 - #9 Employment Law Marketing: B2B vs. B2C Strategies for Employers and Employees (employment-law-firm-marketing, Oct 2)
 - #10 Pay-Per-Lead Services for Law Firms: Renting Cases vs. Owning Demand (pay-per-lead-law-firms, Oct 5)
+- #11 Attorney Bio Pages That Convert: The Most Visited Pages Firms Neglect (attorney-bio-pages-that-convert, Oct 7)
 
 ## Retired (Do Not Write)
 
