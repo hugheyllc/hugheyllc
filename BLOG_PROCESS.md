@@ -167,7 +167,8 @@ Every post gets a thumbnail image generated via gpt-image-2.
 - 2-4 internal links embedded contextually (not footer lists)
 - H2 subheadings, short paragraphs (2-3 sentences max)
 - Professional tone, direct voice
-- No fabricated data — use aggregate language ("firms typically see," "in accounts I've reviewed")
+- No fabricated data — use aggregate language ("firms typically see," "a common pattern is")
+- Never first person singular and never about Joe: no "I", "me", "my", no personal anecdotes, no mentions of Joe in the body. "We" only for Hughey LLC as a firm. FAQ questions in third person. See the Voice Rule in BLOG_TOPIC_QUEUE.md
 
 ### Length
 - 900–1,400 words
