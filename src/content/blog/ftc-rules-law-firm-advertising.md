@@ -14,9 +14,9 @@ image: "/images/blog/ftc-rules-law-firm-advertising.png"
 
 Do FTC rules apply to law firm advertising? In practice, yes, in the places where your marketing looks like any other business's marketing. State bars and supreme courts remain the primary regulators of what lawyers can say about themselves, but federal law against deceptive advertising, fake reviews and unwanted commercial email does not disappear because the advertiser has a bar card.
 
-Most firms I talk to treat compliance as a single question: "Does this pass the Bar rules?" That is the right first question, and it is not the last one. Your review requests, your email list, your paid testimonials and the copy your vendor wrote for you can each raise a federal issue that your state ethics rules never mention.
+Most firms treat compliance as a single question: "Does this pass the Bar rules?" That is the right first question, and it is not the last one. Your review requests, your email list, your paid testimonials and the copy your vendor wrote for you can each raise a federal issue that your state ethics rules never mention.
 
-The FTC does not publish a separate rulebook for lawyers. It applies the same standards it applies to everyone: claims must be truthful, must be backed by evidence, and must not leave out facts that change how a reasonable person reads them. This post covers where those standards touch law firm marketing, and what to check this quarter. I am not a lawyer, so confirm specifics with your ethics counsel.
+The FTC does not publish a separate rulebook for lawyers. It applies the same standards it applies to everyone: claims must be truthful, must be backed by evidence, and must not leave out facts that change how a reasonable person reads them. This post covers where those standards touch law firm marketing, and what to check this quarter. It is not legal advice, so confirm specifics with your ethics counsel.
 
 ## How FTC Rules for Law Firm Advertising Fit With Bar Rules
 
@@ -30,7 +30,7 @@ The layers can disagree in both directions. A statement can satisfy your Bar rul
 
 A claim does not have to be false to be deceptive. Omissions count. A page that advertises a "free consultation" without mentioning the conditions, or a headline that implies a result the firm cannot support, can be a problem even if every individual word is defensible.
 
-Here are the patterns I see most often in law firm marketing:
+These are the patterns that show up most often in law firm marketing:
 
 - **Unsubstantiated superlatives presented as fact.** "Tampa's most aggressive trial team" is puffery to some readers and a factual claim to others. If you cannot back it up, do not state it as fact.
 - **Implied results.** Case result pages with no context about what made the matter unusual invite the wrong conclusion about what a typical client should expect.
@@ -52,15 +52,15 @@ For a law firm, that translates into a short list:
 3. Do not display a curated selection of reviews and describe it as representative of all your reviews.
 4. Be careful with threats to sue over a negative review. Responding professionally is both safer and better marketing.
 
-If your agency promises "review generation," ask exactly how. My [review strategy guidance](/blog/law-firm-review-strategy/) covers compliant ways to ask, and the [social proof post](/blog/law-firm-social-proof-strategy/) shows how to put credibility signals to work without leaning on star ratings.
+If your agency promises "review generation," ask exactly how. The [law firm review strategy guide](/blog/law-firm-review-strategy/) covers compliant ways to ask, and the [social proof post](/blog/law-firm-social-proof-strategy/) shows how to put credibility signals to work without leaning on star ratings.
 
 ## Email, Lead Sources and Vendor Copy
 
 Commercial email is the other everyday overlap. The FTC's [CAN-SPAM compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) requires accurate sender information, a clear way to opt out, honored opt-out requests and a physical postal address in marketing messages. Firms that blast a purchased list or bury the unsubscribe link are the ones that get complaints. The practical setup is in [the law firm email marketing post](/blog/law-firm-email-marketing/).
 
-Lead sources raise a quieter issue. If you buy leads, you inherit some risk from how those leads were generated. Misleading ads and unclear consent language upstream can become your problem downstream, which is one reason I treat [pay-per-lead services](/blog/pay-per-lead-law-firms/) as a vendor oversight question and not just a cost question.
+Lead sources raise a quieter issue. If you buy leads, you inherit some risk from how those leads were generated. Misleading ads and unclear consent language upstream can become your problem downstream, which is why [pay-per-lead services](/blog/pay-per-lead-law-firms/) are a vendor oversight question and not just a cost question.
 
-Vendor copy is the biggest blind spot. Your name is on the site, so you are responsible for what it says. I have reviewed agency-written pages with invented claims about firm size, "award-winning" language with no award named, and recycled testimonials from other clients. The firm, not the vendor, answers the bar complaint.
+Vendor copy is the biggest blind spot. Your name is on the site, so you are responsible for what it says. Agency-written pages routinely turn up with invented claims about firm size, "award-winning" language with no award named, and recycled testimonials from other clients. The firm, not the vendor, answers the bar complaint.
 
 ## A Quarterly Compliance Check for Your Marketing
 
@@ -68,7 +68,7 @@ Run this once a quarter. It takes an afternoon.
 
 - **Inventory claims.** List every "best," "top," "most experienced" and results claim on your site and ads. Keep a file showing support for each, or remove it.
 - **Audit reviews.** Check that no review was written, paid for or incentivized by your team or vendors.
-- **Test the email footer.** Send yourself a campaign. Is the sender accurate, the address present and the unsubscribe link working?
+- **Test the email footer.** Send a test campaign to an internal address. Is the sender accurate, the address present and the unsubscribe link working?
 - **Read vendor deliverables.** Make approval of all public copy a written step in your agency agreement.
 - **Check disclosures.** Make sure conditions on offers appear next to the offer, in readable type.
 
@@ -82,7 +82,7 @@ If you want a second set of eyes on how your marketing holds up across both laye
 
 The FTC does not run a separate lawyer-advertising program, since state supreme courts and bars regulate the profession. But its authority against deceptive advertising, fake reviews and unlawful commercial email reaches business marketing generally, and law firm marketing can fall inside that.
 
-### Can I pay clients for online reviews?
+### Can a law firm pay clients for online reviews?
 
 Avoid it. The FTC's fake review rule bars compensation tied to the sentiment of a review, and your state ethics rules may add their own limits on giving value for endorsements. Ask for honest reviews without incentives, and have ethics counsel approve any program.
 
@@ -90,6 +90,6 @@ Avoid it. The FTC's fake review rule bars compensation tied to the sentiment of 
 
 Generally yes, when the email promotes your services. Include accurate sender details, a physical address and a working opt-out, and honor opt-outs promptly. Purely transactional messages about an existing matter are treated differently from marketing messages.
 
-### Who is responsible if my marketing agency writes a misleading page?
+### Who is responsible if a marketing agency writes a misleading page?
 
 The firm. You publish the content under your name, and a bar or regulator will look at you first. Require written approval of copy before it goes live and keep records of who approved what.
