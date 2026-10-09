@@ -101,7 +101,7 @@ image: "/images/blog/[slug].jpg"
 - **Body:** 900-1,400 total words
   - H2 subheadings (2-3 sentences per section)
   - Natural internal links (2-4 posts referenced contextually)
-  - Professional, direct voice
+  - Professional, direct voice. Never first person singular (no "I", "me", "my") and never about Joe. See Voice Rule in BLOG_TOPIC_QUEUE.md
   - No fabricated data (use aggregate language: "firms typically see")
 - **Closing:** One-sentence CTA (natural, not salesy)
 - **Related Reading:** 2-3 internal links at bottom

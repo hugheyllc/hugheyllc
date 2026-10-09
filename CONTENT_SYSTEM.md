@@ -48,7 +48,8 @@ draft: false
 ```
 
 ### Writing Guidelines
-- Joe Hughey's voice: authoritative, direct, practical, no fluff
+- Firm voice: authoritative, direct, practical, no fluff
+- Never first person singular and never about Joe: no "I", "me", "my", no personal anecdotes. "We" only for Hughey LLC as a firm (see Voice Rule in BLOG_TOPIC_QUEUE.md)
 - 800-1,200 words per post
 - Include target keyword in first paragraph
 - Answer an AEO question in the first 200 words (declarative, extractable by AI)

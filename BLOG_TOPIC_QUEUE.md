@@ -10,6 +10,18 @@
 - Before writing, check it against every post in `src/content/blog/` and the "Don't overlap" slugs listed under it. If it overlaps, stop and report. Do not mark it Published.
 - After the post is approved and merged, move the line to **Published From Queue** with the date and slug.
 - Never write a topic listed under **Retired**.
+- Every post must follow the **Voice Rule** below.
+
+## Voice Rule (Required on Every Post)
+
+Posts are never about Joe and never written in the first person singular.
+
+- No "I", "I'm", "I've", "I'd", "me", "my", "mine" or "myself" anywhere in the body, headings, FAQ questions, excerpt or SEO fields.
+- No mentions of Joe or Joe Hughey in the body, not even as an example name in a quote.
+- No personal anecdotes ("in accounts I've reviewed", "firms I talk to", "I have watched"). Use neutral or firm-level phrasing instead: "firms typically see", "a common pattern is", "in audits of law firm sites".
+- FAQ questions are written in the third person ("Can a law firm pay for reviews?"), not "Can I...".
+- "We" is allowed only for Hughey LLC as a firm, mainly in the CTA. Never use "I am not a lawyer"; use "This is not legal advice" instead.
+- Before committing, scan the post for the words above. If any appear, rewrite those sentences before opening the PR.
 
 Thematic saturation (do not add new topics here): agency vs. consultant, local SEO / local search, marketing budget and ROI, attribution, AI search / AEO, landing pages and site speed, intake audits, geographic city variations.
 
