@@ -15,8 +15,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-12. FTC Truth-in-Advertising Rules for Law Firms: Where Federal Rules Stack on Top of Bar Rules
-    - Don't overlap: florida-bar-law-firm-advertising-rules
 13. Podcast Guesting for Lawyers: Using Other People's Audiences for Authority and Leads
     - Don't overlap: law-firm-thought-leadership-seo, content-repurposing-strategy-law-firms
 14. Spanish-Language Legal Marketing in Florida: Beyond Translating Your Website
@@ -129,6 +127,7 @@ Topics from the July 8 queue that have a live post:
 - #9 Employment Law Marketing: B2B vs. B2C Strategies for Employers and Employees (employment-law-firm-marketing, Oct 2)
 - #10 Pay-Per-Lead Services for Law Firms: Renting Cases vs. Owning Demand (pay-per-lead-law-firms, Oct 5)
 - #11 Attorney Bio Pages That Convert: The Most Visited Pages Firms Neglect (attorney-bio-pages-that-convert, Oct 7)
+- #12 FTC Truth-in-Advertising Rules for Law Firms: Where Federal Rules Stack on Top of Bar Rules (ftc-rules-law-firm-advertising, Oct 9)
 
 ## Retired (Do Not Write)
 
