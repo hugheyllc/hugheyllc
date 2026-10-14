@@ -27,9 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-14. Spanish-Language Legal Marketing in Florida: Beyond Translating Your Website
-    - Angle: bilingual intake, Spanish-language search behavior, separate pages vs. translation, media buys
-    - Don't overlap: immigration-law-firm-marketing
 15. Elder Law Marketing: Reaching Adult Children Making Decisions for Aging Parents
     - Don't overlap: estate planning topic above (#5), industry-specific-referral-sources-who-sends-your-practice-a
 16. Client Onboarding: What Happens in the First 30 Days After a Client Signs
@@ -139,6 +136,7 @@ Topics from the July 8 queue that have a live post:
 - #11 Attorney Bio Pages That Convert: The Most Visited Pages Firms Neglect (attorney-bio-pages-that-convert, Oct 7)
 - #12 FTC Truth-in-Advertising Rules for Law Firms: Where Federal Rules Stack on Top of Bar Rules (ftc-rules-law-firm-advertising, Oct 9)
 - #13 Podcast Guesting for Lawyers: Using Other People's Audiences for Authority and Leads (podcast-guesting-for-lawyers, Oct 12)
+- #14 Spanish-Language Legal Marketing in Florida: Beyond Translating Your Website (spanish-language-legal-marketing-florida, Oct 14)
 
 ## Retired (Do Not Write)
 
