@@ -31,8 +31,6 @@ schema:
   "description": "How law firms can build internal referral programs that turn partners, associates, and staff into consistent lead generators."
 ---
 
-# Building an Internal Referral Program: How to Get Partners and Staff Generating Leads
-
 **An internal referral program turns every person in your firm into a business development asset — without requiring anyone to become a salesperson.** The most effective referral source a law firm has isn't Google Ads or a marketing agency. It's the people who already work there. They have relationships. They go to dinner parties, youth sports games, church, networking events. They know hundreds of people who will, at some point in their life, need legal help.
 
 The problem isn't that your team doesn't want to help the firm grow. The problem is that most firms have never given them a clear structure for doing it. No process, no incentives, no follow-through. So nothing happens. Referrals come in sporadically, go untracked, and the firm never knows what's actually working.

@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-content-calendar-strategy.png"
 keywords: ['content calendar', 'content planning', 'law firm editorial calendar', 'content scheduling']
 ---
 
-# The Law Firm Content Calendar Nobody Follows (And Why You Need One Anyway)
-
 A **law firm content calendar** should answer two questions before anything else: *what do we publish* and *when do we publish it?* Most firms skip both and end up with a blog that gets three posts in January and goes dark until someone remembers it exists in October.
 
 How often should law firms publish? Consistently beats frequently every time. One solid, well-targeted post per month will outperform a burst of eight posts followed by six months of silence. Algorithms notice. So do prospective clients who land on your site and see the last update was eighteen months ago.

@@ -10,7 +10,6 @@ seo_description: "Most law firm chatbots hurt conversions more than they help. L
 draft: false
 image: "/images/blog/law-firm-chatbot-leads-lost.png"
 ---
-# The AI Chatbot Trap: Why Law Firms Are Losing Leads to Bad Automation
 
 Yes, chatbots can help law firms capture leads. They can also torch your conversion rate, frustrate prospects at their most vulnerable moment, and send people straight to your competitor. Which outcome you get depends almost entirely on how the chatbot is built — and most are built badly. **Law firm chatbot conversion rates** don't fail because the technology is wrong. They fail because firms deploy automation as a cost-cutting measure and call it a strategy.
 

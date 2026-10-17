@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/fractional-cmo-law-firms.jpg"
 ---
 
-# Fractional Chief Marketing Officer for Law Firms: When You Need Strategy But Not a Full Hire
-
 A **fractional CMO for law firms** is a senior marketing strategist who works with your firm on a part-time or contract basis—typically 10 to 20 hours a week—at a fraction of the cost of a full-time hire. They own your marketing strategy, manage vendors and internal staff, set budgets, and are accountable for results. They are not a consultant who writes a 40-page deck and disappears. They show up, they execute, and they answer for the numbers. Whether that model fits your firm depends on one question: do you have a marketing problem or a marketing leadership problem? If campaigns keep underperforming and nobody can tell you why, you have a leadership problem. A fractional CMO is almost certainly the right call.
 
 ## What a Fractional CMO Actually Does at a Law Firm

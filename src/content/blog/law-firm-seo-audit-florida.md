@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-seo-audit-florida.png"
 keywords: ['SEO audit', 'Florida law firms', 'local SEO audit', 'website optimization']
 ---
 
-# The SEO Audit Every Florida Law Firm Needs (But Rarely Gets)
-
 A proper **SEO audit for law firms in Florida** should tell you two things clearly: where your site is losing potential clients right now, and whether the money you're spending on SEO is doing anything at all. If your current vendor can't answer both of those questions with data, you don't have an SEO strategy — you have a retainer. Most law firms in Florida have never seen a real audit. What they've seen is a 40-page PDF with green checkmarks, a few keyword rankings, and a traffic graph pointed vaguely upward. That's a sales document dressed as an audit. This post breaks down what a legitimate audit actually covers, what the most common blind spots are for Florida firms specifically, and how to stop paying for SEO you can't evaluate.
 
 ## What a Real SEO Audit Actually Covers

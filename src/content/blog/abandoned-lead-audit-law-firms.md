@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/abandoned-lead-audit-law-firms.png"
 ---
 
-# The Abandoned Lead Audit: Finding the Cases You're Losing in Your Own CRM
-
 Law firms lose leads inside their CRM for one simple reason: **no one is accountable for what happens after a lead is entered.** It gets logged, maybe assigned, and then it waits. Staff get busy. Follow-up slips. The lead goes cold. Six months later it's buried under 200 newer contacts, and nobody noticed because the firm was already chasing the next intake call. That's law firm lead abandonment in its most common form — not a technology failure, not a software problem. A process failure that the software is quietly recording while you ignore it.
 
 If you want to find abandoned leads in your CRM, the audit is not complicated: pull every contact added in the last 12 months, filter by status, and count how many never had a second touchpoint. What you find will be uncomfortable. Most firms that do this exercise for the first time discover that a meaningful percentage of their logged leads — people who called, filled out a form, or were referred — received one outreach attempt and nothing after that. You already paid to acquire those leads. They're still sitting in your system.

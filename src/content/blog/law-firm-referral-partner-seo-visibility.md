@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-referral-partner-seo-visibility.png"
 ---
 
-# The Referral Partner SEO Mistake: Why Your Law Firm Isn't Getting Referrals
-
 If you want more referrals from other law firms, start by accepting an uncomfortable truth: the way you've built your website has almost nothing to do with how a referring attorney decides whether to send you a case. You've spent months — maybe years — optimizing for the person Googling "personal injury lawyer near me" at 11pm. That's fine. But the immigration attorney across town who just got a client asking about a workers' comp claim? She's searching differently, evaluating differently, and deciding based on signals your current SEO strategy doesn't even address.
 
 **Law firm referral partner marketing SEO** is a distinct discipline. It's not a subset of your client-facing strategy. It's a parallel one — and for firms that rely heavily on referrals, it may be more important than anything else you're doing online.

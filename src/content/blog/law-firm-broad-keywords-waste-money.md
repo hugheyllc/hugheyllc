@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-broad-keywords-waste-money.png"
 ---
 
-# Why Law Firms Waste Money on Broad Keywords (And Which Ones Actually Convert)
-
 Your law firm should target keywords that signal **specific intent to hire**, not general curiosity. "Personal injury lawyer" gets searched constantly. So does "what is negligence." One of those searches is a potential client. The other is probably a law student or someone who just watched a courtroom drama. A real **law firm keyword strategy** doesn't chase volume — it chases the person who's already decided they need an attorney and is now choosing which one to call.
 
 Why do law firms rank for keywords that don't generate clients? Because their SEO vendor is optimizing for rankings, not revenue. High-volume keywords look impressive in a monthly report. They're also the keywords where the searcher hasn't committed to anything yet. You can hit page one for "car accident" and see exactly zero intake form submissions from it.

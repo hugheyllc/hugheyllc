@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/small-law-firm-marketing-budget-benchmark.png"
 ---
 
-# Marketing Spend Benchmarking for Small Law Firms (The Real Numbers)
-
 Small law firms should generally spend between **5% and 12% of gross revenue on marketing**, depending on growth stage and practice area. Solo practitioners trying to build a client base from scratch often need to be at the higher end of that range — sometimes beyond it — for the first two to three years. If you're asking whether your law firm marketing budget is too low, it probably is. The more useful question is: too low *relative to what*, exactly?
 
 The standard benchmark you'll find cited across legal industry publications — that vague "2-5% of revenue" figure — is essentially an average across all firm sizes, all practice areas, and all geographies. It tells you roughly as much as knowing the average temperature in the United States. Technically true. Practically useless.

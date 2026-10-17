@@ -12,8 +12,6 @@ draft: false
 image: "/images/blog/30-minute-marketing-audit.png"
 ---
 
-# The 30-Minute Marketing Audit: What to Pull From Your Agency's Dashboard Right Now
-
 You hired a marketing agency six months ago. They send monthly reports. They say things are "on track." But you're not sure if you're actually getting what you're paying for—or what questions to even ask.
 
 This is where a law firm marketing audit checklist becomes your accountability tool. I'm not talking about a pre-hire discovery process. I mean a diagnostic you run *right now* on an existing agency relationship: pulling real numbers from GA4, call tracking, Google Ads, and intake conversion to see if your spend is actually producing qualified leads and cases.

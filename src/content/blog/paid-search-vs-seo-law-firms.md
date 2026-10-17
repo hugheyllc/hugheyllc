@@ -12,8 +12,6 @@ image: "/images/blog/paid-search-vs-seo-law-firms.png"
 keywords: ['paid search', 'SEO vs PPC', 'law firm advertising', 'organic vs paid']
 ---
 
-# Paid Search vs. Organic SEO: The Math for Law Firms
-
 Should law firms use Google Ads or focus on organic SEO? Both. That's the answer, and anyone telling you otherwise is either selling you something or hasn't run the numbers. The more useful question is how to allocate budget between the two so neither channel bleeds money while the other starves. **Google Ads for law firms vs SEO** isn't a binary choice—it's a resource allocation problem. And like most resource allocation problems in law firm marketing, it gets solved with math, not gut feelings.
 
 As for cost per case: paid search almost always runs higher per retained client than organic, sometimes dramatically so. Organic search, once it's working, can deliver leads at a fraction of the cost per acquisition. The catch is that "once it's working" can take 6 to 18 months depending on your market, practice area, and how much foundational work has been neglected. That gap is exactly where Google Ads earns its place in the budget.

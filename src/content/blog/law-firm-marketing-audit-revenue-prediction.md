@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-marketing-audit-revenue-prediction.png"
 ---
 
-# The Law Firm Marketing Audit That Actually Predicts Revenue (Not Just Traffic)
-
 A **law firm marketing audit** should measure what drives revenue—not what fills a slide deck. That means lead volume, lead quality, conversion rates at every stage of the intake funnel, and the direct line between a marketing channel and a closed case. Traffic tells you how many people showed up. Revenue tells you how many hired you. Those are not the same number, and most audits never reconcile the two.
 
 Can a marketing audit predict how many clients a law firm will get? With the right data, yes—within a reasonable range. Not because it's magic, but because once you map your conversion rates at each funnel stage, the math becomes fairly straightforward. The breakdown almost always happens at the same three or four points. Find those, fix them, and the output goes up. That's the audit most consultants skip, because it requires access to your CRM, your intake records, and an honest conversation about what happens after someone fills out a contact form.

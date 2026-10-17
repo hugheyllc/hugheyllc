@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-cro-testing-methodology.png"
 ---
 
-# Conversion Rate Testing for Law Firm Websites: Which Element Actually Changed Your Lead Volume
-
 Here's how law firms should test website changes to improve conversions: change one thing at a time, measure it against a baseline over a long enough window to matter, and don't declare victory until the math says so. That's it. That's the whole framework — and almost nobody does it.
 
 If you want to know whether a website change actually improved your lead volume, you need two things: a control (what existed before) and enough time or traffic to produce results that aren't just noise. Most firms skip both. They redesign the whole site, launch it in October, get more calls in November, and conclude the redesign worked. Maybe it did. Maybe personal injury season picked up. Maybe a competitor went dark. You don't know, because you didn't test — you just changed things and waited.

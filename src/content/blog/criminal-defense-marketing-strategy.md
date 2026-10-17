@@ -12,8 +12,6 @@ image: "/images/blog/criminal-defense-marketing-strategy.png"
 keywords: ["criminal defense marketing strategy", "criminal defense lead generation", "criminal defense intake", "DUI marketing strategy", "urgent legal leads", "criminal defense attorney marketing", "law firm speed-to-contact"]
 ---
 
-# Criminal Defense Marketing: What Works When Every Lead Is Urgent
-
 Criminal defense marketing operates in a fundamentally different world than personal injury or family law. Your prospect isn't comparison shopping at midnight on a Thursday. They're arrested, frightened, maybe calling from a holding cell or sitting next to a bail bondsman. They need a lawyer *now*, and they'll work with the first competent person who answers.
 
 According to the [Bureau of Justice Statistics](https://bjs.ojp.gov/data/arrests), tens of millions of arrests occur in the U.S. annually—creating a constant pool of time-sensitive legal needs. Florida alone sees hundreds of thousands of arrests per year, making it one of the most active criminal defense markets in the country.

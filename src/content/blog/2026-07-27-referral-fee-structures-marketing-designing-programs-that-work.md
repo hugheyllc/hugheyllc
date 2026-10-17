@@ -16,8 +16,6 @@ draft: false
 image: /images/blog/referral-fee-structures-marketing-designing-programs-that-work.png
 ---
 
-# Referral Fee Structures and Marketing: Designing Programs That Actually Work
-
 **A referral program that doesn't compensate referrers fairly dies quietly.** You'll announce it with enthusiasm. Your staff will nod along. Nothing will happen. Six months later, you'll convince yourself that "people should refer just because it's the right thing to do" — and then you'll never mention the program again.
 
 The firms that generate consistent referral volume have one thing in common: they've built a referral fee structure that actually motivates people to send business your way. This isn't about being generous. It's about aligning incentives so that referring clients is an obvious decision for other professionals, staff members, and past clients.

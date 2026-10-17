@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-seo-without-content-treadmill.png"
 ---
 
-# The Law Firm SEO Strategy That Doesn't Require Constant Content
-
 Yes, a law firm can rank without publishing constantly. The content treadmill — three blog posts a week, a newsletter, a podcast, a social drip — is something SEO vendors sell, not something Google requires. What Google actually rewards is relevance, authority, and a technically sound site. A **law firm SEO strategy built on minimal content** can absolutely achieve all three. The minimum content a firm actually needs is: one well-built page per core practice area, a clean site architecture, consistent local signals, and enough authority to outpace the competition in your specific market. That's it. If your competitors are thin, you don't need to be a media company. You need to be slightly better than them on the things that matter.
 
 The rest of this post is the alternative playbook.

@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-lead-scoring-crm-qualification.png"
 ---
 
-# The Law Firm Lead Scoring Problem: Why Your CRM Can't Tell a Hot Lead From Cold
-
 **Law firm lead scoring** is the process of assigning value to inbound leads based on how likely they are to become a signed client—and how valuable that client is likely to be. It matters because without it, your intake team is essentially working in the dark, spending equal time on a tire-kicker who submitted a contact form at 2 a.m. and a referral from a trusted source who needs representation by Friday. That's not a workflow problem. That's a revenue problem.
 
 The way to prioritize which leads deserve immediate follow-up is simple in theory: the ones with the highest probability of converting into a qualified case get called first. In practice, most firms have no system for making that determination. They follow up in the order leads arrived, or whoever remembered to check the CRM, or whoever the receptionist happened to reach on the first try. That's not a strategy. That's luck.

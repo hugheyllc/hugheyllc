@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-intake-process-marketing-leak.png"
 ---
 
-# The Intake Process Problem Disguised as a Marketing Problem
-
 Law firms lose qualified leads after contact for one primary reason: **intake is treated as an afterthought**. The marketing team is accountable for traffic and form fills. Nobody owns what happens next. So when lead volume looks fine but signed clients don't follow, the instinct is to blame the campaign, tweak the targeting, or hire a new SEO vendor. That's the wrong diagnosis — and it's an expensive one.
 
 The difference between a marketing problem and an intake problem is actually straightforward. If leads are arriving but not converting, you don't have a marketing problem. You have a **law firm lead qualification process** problem. Marketing got someone to raise their hand. Intake failed to shake it. These are not the same failure, and they don't have the same fix.

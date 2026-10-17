@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/niche-law-practice-content-strategy.png"
 ---
 
-# Content Strategy for Niche Law Practices (Cannabis, IP, Immigration)
-
 Specialized law practices should ignore most of what they read about content marketing. The advice is written for firms chasing broad, high-volume keywords — personal injury, divorce, DUI — where volume is the game. That is not your game. For a **cannabis law firm**, an **IP boutique**, or an **immigration practice**, the marketing strategy for niche law practices looks fundamentally different: smaller audiences, sharper intent, and clients who already know what they need. Your job is to be the obvious answer when they go looking.
 
 Can niche practices compete in search with larger firms? Yes — and in many cases they have a structural advantage. A 50-attorney general practice firm is not going to create genuinely authoritative content on Schedule III reclassification implications for cannabis operators. You can. That depth is exactly what earns rankings, trust, and retained clients in low-volume, high-value practice areas.

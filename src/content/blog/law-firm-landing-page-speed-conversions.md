@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-landing-page-speed-conversions.jpg"
 ---
 
-# The Law Firm Landing Page Velocity Problem: When Slow Sites Lose More Than Traffic
-
 Page speed affects law firm conversion rates the same way a slow receptionist affects client intake—people leave before the process even starts. If your landing page takes more than three seconds to load, a measurable percentage of your visitors are gone. Not browsing other pages. Gone. The ideal load time for a law firm landing page is under two seconds, and under one second on mobile is where you stop leaving real money on the table. Most law firm sites are nowhere close.
 
 Here's the part that rarely gets said plainly: **law firm landing page speed is not primarily an SEO problem.** Google cares about it, yes. But the conversion penalty hits you first and harder than any ranking penalty ever will. Someone clicked your PPC ad, your Google Map listing, or your organic result. They're already interested. A slow page is where you lose them—and you paid to get them there.

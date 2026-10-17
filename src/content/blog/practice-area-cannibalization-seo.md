@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/practice-area-cannibalization-seo.png"
 ---
 
-# The Practice Area Cannibalization Problem: When Your SEO Strategy Eats Itself
-
 Here's the short answer to why you rank for multiple practice areas but still get fewer leads than you expect: Google doesn't see one law firm with five practice areas. It sees five competitors sharing one domain, all elbowing each other for the same ranking real estate. The result is diluted authority, confused signals, and a search engine that can't figure out which page to show — so it shows none of them consistently. As for preventing your practice areas from competing with each other in search, that's an architecture problem, not a content problem. You don't fix it by publishing more blog posts. You fix it by making deliberate decisions about how your pages are structured, what keywords each one owns, and which practice area your firm actually wants to lead with.
 
 That's the problem. Now let's talk about why it happens and what you actually do about it.

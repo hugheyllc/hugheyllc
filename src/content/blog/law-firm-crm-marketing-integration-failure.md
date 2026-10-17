@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-crm-marketing-integration-failure.png"
 ---
 
-# The CRM That Broke Your Law Firm's Marketing: Salesforce, HubSpot, and Others
-
 Your CRM isn't helping your marketing efforts because it was never actually connected to them. That's the honest answer. Most law firms buy Salesforce, HubSpot, or a practice management hybrid, hand the login to someone in intake, and call it a day. Marketing keeps running campaigns. The CRM keeps logging contacts. And neither system has any idea what the other is doing. The result is **law firm CRM marketing integration problems** that look invisible until you ask a simple question: which of our marketing channels is actually producing retained clients? Nobody can answer it. The data exists — it's just in three different places, formatted differently, and nobody mapped the fields.
 
 This post is about what actually needs to sync, where the common platforms fall apart, and why fixing it is less about switching software and more about deciding what you want to know.

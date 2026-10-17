@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/legal-marketing-consulting-strategy-vs-tactics.png"
 ---
 
-# Legal Marketing Consulting: What Separates Real Strategy From Busy Work
-
 A **legal marketing consultant** should do two things: diagnose what's actually wrong with your firm's marketing, and build a strategy that fixes it. That's it. If someone pitches you a retainer and leads with deliverables — posts per month, reports per week, campaigns per quarter — you're not talking to a strategist. You're talking to a vendor who borrowed a consultant's job title.
 
 The difference between a marketing agency and a legal marketing consultant matters. An agency executes. They produce content, manage ads, build pages, run campaigns. A consultant figures out *what* to execute and *why*, then either hands that off or holds the agency accountable for results. If your consultant is doing both, make sure they're charging you for both and actually doing both well. Most aren't.

@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-landing-pages-conversion.png"
 keywords: ['landing page optimization', 'conversion rate optimization', 'legal landing pages', 'law firm CRO']
 ---
 
-# Practice Area Landing Pages That Convert (Not Just Rank)
-
 **Landing page design for law firms** has one job: turn a stranger with a legal problem into a phone call or a form submission. That's it. Not to impress bar association committees. Not to showcase your firm's founding history. Not to list every jurisdiction you've ever touched.
 
 What potential clients actually want to see is simple: proof that you handle their specific problem, evidence that you're competent, and a frictionless path to contact you. Most law firm practice area pages deliver none of that. They're keyword-stuffed walls of text written for Google's crawlers, not for the person who just got served divorce papers at work and is reading your site on a lunch break.

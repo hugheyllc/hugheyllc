@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/seasonal-marketing-law-firms.png"
 ---
 
-# Seasonal Marketing Campaigns for Law Firms (Tax, Estate Planning, Injury Season)
-
 **Seasonal marketing for law firms** works on a simple principle: your clients don't decide they need a lawyer in the abstract. Something happens — tax season looms, a parent dies without a will, a car wreck puts them in the hospital — and suddenly they're searching. The firms that win those cases aren't the ones who start marketing when the phone stops ringing. They're the ones who positioned themselves six to eight weeks before the spike. Most law firm marketing runs a quarter behind the demand curve. This post is about getting in front of it.
 
 ## Why Timing Is the Whole Game

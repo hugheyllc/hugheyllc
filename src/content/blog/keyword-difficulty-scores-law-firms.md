@@ -10,7 +10,6 @@ seo_description: "Keyword difficulty scores from SEO tools mislead law firms con
 draft: false
 image: "/images/blog/keyword-difficulty-scores-law-firms.png"
 ---
-# Keyword Difficulty Scores Are Lying to You (And How Law Firms Should Actually Rank)
 
 **Keyword difficulty for law firm SEO** is not what your SEO tool says it is. The score sitting next to a keyword in Ahrefs or Semrush is a blended metric built on link data — how many backlinks the top-ranking pages have accumulated. That's it. It doesn't account for whether those pages are actually good. It doesn't know that legal search is dominated by Avvo, Justia, and FindLaw pages that rank on domain authority alone while containing content a paralegal intern wouldn't be proud of. A keyword showing a difficulty score of 72 might be completely winnable for a focused law firm with a well-structured practice area page. A keyword showing 38 might be locked up by a regional firm that has been publishing content for a decade and has an iron grip on local intent.
 

@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-lead-follow-up-conversion.png"
 ---
 
-# Why Law Firms Lose Leads After Contact (And How to Fix It)
-
 Law firms lose leads in the intake process for one simple reason: there is no process. A prospect fills out a form, calls the office, or chats in — and then waits. Sometimes hours. Sometimes days. Sometimes they stop waiting and call someone else. The best way to follow up with prospective clients is fast, personal, and systematic — and most firms are zero for three. If you want to improve your law firm's conversion rate, stop blaming your marketing budget and start looking at what happens after the lead arrives. That's where the real losses are.
 
 **Law firm lead nurturing** isn't a complicated concept. It means staying engaged with a prospect from first contact through signed retainer — without letting them fall through the cracks. The problem is that most law firms treat nurturing as an afterthought, something that happens if the intake coordinator has time. It doesn't happen. Leads die quietly.

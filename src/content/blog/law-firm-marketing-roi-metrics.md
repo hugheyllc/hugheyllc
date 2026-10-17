@@ -12,8 +12,6 @@ image: "/images/blog/law-firm-marketing-roi-metrics.png"
 keywords: ['marketing ROI', 'law firm metrics', 'marketing analytics', 'legal marketing measurement']
 ---
 
-# Measuring Real Marketing ROI: Metrics That Matter (Not Vanity Metrics)
-
 Marketing ROI for law firms is simple to define and surprisingly hard to measure: you spent X, you got Y in retained revenue, and the difference tells you whether the investment made sense. That's the whole framework. The problem is that most firms never get to Y because they stop at things that feel like progress — page views, social followers, form submissions — without ever connecting those numbers to a signed retainer. If your agency sends you a monthly report full of green arrows and you still can't tell whether your marketing is driving cases, the metrics are lying to you by omission.
 
 So let's fix that. This post breaks down which numbers actually matter, which ones are noise dressed up as signal, and how to build a reporting structure that tells you what your marketing spend is actually doing.

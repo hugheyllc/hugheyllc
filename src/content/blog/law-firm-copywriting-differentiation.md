@@ -11,8 +11,6 @@ draft: false
 image: "/images/blog/law-firm-copywriting-differentiation.png"
 ---
 
-# The Law Firm Copywriting Problem: Why Your Service Pages Sound Like Every Other Firm
-
 Law firms should write service pages differently than they currently do — which is to say, they should write them like actual businesses trying to win specific clients, not like brochures assembled by a committee afraid of saying anything concrete. The most common copywriting mistake law firms make is describing what they do instead of why it matters to the person reading it. The result is a page that sounds professional, hits all the practice area keywords, and tells the prospect absolutely nothing useful about whether your firm is the right choice for their situation.
 
 **Law firm marketing copywriting** is not about sounding authoritative. It is about making a stranger feel like they found the right place. Those are different goals, and most firms are optimizing for the wrong one.

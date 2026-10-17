@@ -12,8 +12,6 @@ keywords: ["local SEO law firms", "Google Maps law firms", "local pack rankings"
 image: "/images/blog/local-search-law-firm-county-dominance.png"
 ---
 
-# Local Search Dominance: How Law Firms Win Their County
-
 Some law firms show up first in local searches because they've done the work to tell Google — repeatedly and consistently — exactly where they are, who they serve, and what they practice. That's it. There's no algorithm secret. **Local SEO for law firms** comes down to proximity, relevance, and authority, and the firms winning their county are winning on all three. The ones buried on page two are usually failing on at least one. This post breaks down the mechanics: local pack rankings, citation building, competitor analysis, and what actually moves the needle when your market is a single county or metro area.
 
 ## Geography Is a Competitive Advantage — If You Use It

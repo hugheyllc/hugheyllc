@@ -15,8 +15,6 @@ image: /images/blog/client-retention-strategies-law-firms.png
 keywords: ['client retention', 'law firm retention', 'client experience', 'retention strategy', 'customer lifetime value']
 ---
 
-# Client Retention Strategies for Law Firms: Beyond the Retainer Model
-
 Here's a number that should keep you up at night: it costs five to seven times more to acquire a new client than to keep an existing one. And yet most law firms spend the vast majority of their marketing budget chasing new leads while treating past clients like closed files.
 
 The retainer model has long been the default "retention strategy" in legal. Lock a client into a monthly agreement, send invoices, repeat. But retainers aren't retention — they're billing structures. When the agreement ends or the client's needs shift, there's nothing holding the relationship together.
