@@ -35,6 +35,19 @@
       "default": false,
       "type": "boolean"
     },
+    "image": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_date": {
+      "type": "string",
+      "format": "date-time"
+    },
     "$schema": {
       "type": "string"
     }
