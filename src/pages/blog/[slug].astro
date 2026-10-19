@@ -22,16 +22,18 @@ const { Content } = await render(entry);
 const { title, seo_title, seo_description, date, updated_date, author, excerpt, tags } = entry.data;
 const siteUrl = 'https://hugheyllc.com';
 
+// Raw source is needed for FAQ parsing below, so always read it
+let raw = '';
+try {
+  const filePath = path.join(process.cwd(), (entry as any).filePath);
+  raw = fs.readFileSync(filePath, 'utf8');
+} catch (e) { /* fallback gracefully */ }
+
 // Use frontmatter image field, fall back to regex parse if needed
 let coverImage: string | undefined = entry.data.image;
-let raw = '';
 if (!coverImage) {
-  try {
-    const filePath = path.join(process.cwd(), (entry as any).filePath);
-    raw = fs.readFileSync(filePath, 'utf8');
-    const match = raw.match(/^image:\s*"([^"]+)"/m);
-    if (match) coverImage = match[1];
-  } catch (e) { /* fallback gracefully */ }
+  const match = raw.match(/^image:\s*"([^"]+)"/m);
+  if (match) coverImage = match[1];
 }
 
 // Reading time

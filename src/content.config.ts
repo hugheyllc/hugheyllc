@@ -13,6 +13,12 @@ const blog = defineCollection({
     seo_title: z.string(),
     seo_description: z.string(),
     draft: z.boolean().default(false),
+    // Tile and cover image path from frontmatter. Without this field Zod
+    // strips it and blog tiles fall back to /images/blog/<id>.png, which
+    // breaks for every post whose image is .jpg or .webp.
+    image: z.string().optional(),
+    keywords: z.array(z.string()).optional(),
+    updated_date: z.coerce.date().optional(),
   }),
 });
 
