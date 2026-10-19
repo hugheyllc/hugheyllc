@@ -27,9 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-16. Client Onboarding: What Happens in the First 30 Days After a Client Signs
-    - Angle: welcome sequence, expectation setting, early review and referral moments. Not long-term retention
-    - Don't overlap: client-retention-strategies-law-firms, the-law-firm-client-satisfaction-score-what-to-measure-beyond-outcomes
 17. Legal Advertising on Meta and Google: Platform Policies That Get Law Firm Ads Rejected
     - Angle: Google legal services verification, Meta Special Ad Categories, disapproval patterns
     - Don't overlap: florida-bar-law-firm-advertising-rules, law-firm-social-media-marketing
@@ -136,6 +133,7 @@ Topics from the July 8 queue that have a live post:
 - #13 Podcast Guesting for Lawyers: Using Other People's Audiences for Authority and Leads (podcast-guesting-for-lawyers, Oct 12)
 - #14 Spanish-Language Legal Marketing in Florida: Beyond Translating Your Website (spanish-language-legal-marketing-florida, Oct 14)
 - #15 Elder Law Marketing: Reaching Adult Children Making Decisions for Aging Parents (elder-law-marketing-adult-children, Oct 16)
+- #16 Client Onboarding: What Happens in the First 30 Days After a Client Signs (law-firm-client-onboarding, Oct 19)
 
 ## Retired (Do Not Write)
 
