@@ -27,7 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-18. Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals
 19. Facebook and Instagram Ads for Law Firms: Targeting and Creative That Work Within the Rules
     - Angle: paid campaign mechanics only. Organic social is already covered
     - Don't overlap: law-firm-social-media-marketing, law-firm-retargeting-ads-strategy
@@ -132,6 +131,7 @@ Topics from the July 8 queue that have a live post:
 - #15 Elder Law Marketing: Reaching Adult Children Making Decisions for Aging Parents (elder-law-marketing-adult-children, Oct 16)
 - #16 Client Onboarding: What Happens in the First 30 Days After a Client Signs (law-firm-client-onboarding, Oct 19)
 - #17 Legal Advertising on Meta and Google: Platform Policies That Get Law Firm Ads Rejected (law-firm-ads-rejected, Oct 21)
+- #18 Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals (workers-compensation-law-marketing, Oct 23)
 
 ## Retired (Do Not Write)
 
