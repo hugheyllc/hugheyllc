@@ -27,9 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-19. Facebook and Instagram Ads for Law Firms: Targeting and Creative That Work Within the Rules
-    - Angle: paid campaign mechanics only. Organic social is already covered
-    - Don't overlap: law-firm-social-media-marketing, law-firm-retargeting-ads-strategy
 20. Media Relations for Lawyers: How to Get Quoted in News Stories About Your Practice Area
     - Don't overlap: law-firm-link-building-strategy, law-firm-thought-leadership-seo
 21. Email Deliverability for Law Firms: Why Your Nurture Emails Land in Spam
@@ -132,6 +129,7 @@ Topics from the July 8 queue that have a live post:
 - #16 Client Onboarding: What Happens in the First 30 Days After a Client Signs (law-firm-client-onboarding, Oct 19)
 - #17 Legal Advertising on Meta and Google: Platform Policies That Get Law Firm Ads Rejected (law-firm-ads-rejected, Oct 21)
 - #18 Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals (workers-compensation-law-marketing, Oct 23)
+- #19 Facebook and Instagram Ads for Law Firms: Targeting and Creative That Work Within the Rules (facebook-ads-law-firms, Oct 26)
 
 ## Retired (Do Not Write)
 
