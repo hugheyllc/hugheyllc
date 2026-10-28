@@ -27,8 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-20. Media Relations for Lawyers: How to Get Quoted in News Stories About Your Practice Area
-    - Don't overlap: law-firm-link-building-strategy, law-firm-thought-leadership-seo
 21. Email Deliverability for Law Firms: Why Your Nurture Emails Land in Spam
     - Angle: SPF/DKIM/DMARC, platform selection, list hygiene. Not email strategy
     - Don't overlap: law-firm-email-marketing
@@ -130,6 +128,7 @@ Topics from the July 8 queue that have a live post:
 - #17 Legal Advertising on Meta and Google: Platform Policies That Get Law Firm Ads Rejected (law-firm-ads-rejected, Oct 21)
 - #18 Workers' Compensation Law Marketing: Lead Generation for Claims and Appeals (workers-compensation-law-marketing, Oct 23)
 - #19 Facebook and Instagram Ads for Law Firms: Targeting and Creative That Work Within the Rules (facebook-ads-law-firms, Oct 26)
+- #20 Media Relations for Lawyers: How to Get Quoted in News Stories About Your Practice Area (media-relations-for-lawyers, Oct 28)
 
 ## Retired (Do Not Write)
 
