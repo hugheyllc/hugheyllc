@@ -27,7 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-22. Real Estate Law Marketing: Local Market Relationships With Agents, Lenders and Developers
 23. Text Message Marketing for Law Firms: TCPA Compliance and Intake Use Cases
     - Don't overlap: law-firm-crm-automation, lawmatics-vs-clio-grow
 24. Webinar Strategy for Law Firms: Educational Events That Qualify and Convert Leads
@@ -127,6 +126,7 @@ Topics from the July 8 queue that have a live post:
 - #19 Facebook and Instagram Ads for Law Firms: Targeting and Creative That Work Within the Rules (facebook-ads-law-firms, Oct 26)
 - #20 Media Relations for Lawyers: How to Get Quoted in News Stories About Your Practice Area (media-relations-for-lawyers, Oct 28)
 - #21 Email Deliverability for Law Firms: Why Your Nurture Emails Land in Spam (email-deliverability-law-firms, Oct 30)
+- #22 Real Estate Law Marketing: Local Market Relationships With Agents, Lenders and Developers (real-estate-law-firm-marketing, Nov 2)
 
 ## Retired (Do Not Write)
 
