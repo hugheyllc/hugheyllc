@@ -27,8 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-24. Webinar Strategy for Law Firms: Educational Events That Qualify and Convert Leads
-    - Don't overlap: content-repurposing-strategy-law-firms, law-firm-email-marketing
 25. Mass Tort Marketing: How the Lead Generation Model Works and Where Firms Get Burned
     - Don't overlap: contingency-fee-optimization-how-marketing-strategy-changes-, personal-injury-law-firm-marketing
 26. Practice Management Software and Marketing Data: What Clio Manage, MyCase and PracticePanther Can Tell You
@@ -126,6 +124,7 @@ Topics from the July 8 queue that have a live post:
 - #21 Email Deliverability for Law Firms: Why Your Nurture Emails Land in Spam (email-deliverability-law-firms, Oct 30)
 - #22 Real Estate Law Marketing: Local Market Relationships With Agents, Lenders and Developers (real-estate-law-firm-marketing, Nov 2)
 - #23 Text Message Marketing for Law Firms: TCPA Compliance and Intake Use Cases (text-message-marketing-law-firms, Nov 4)
+- #24 Webinar Strategy for Law Firms: Educational Events That Qualify and Convert Leads (webinar-strategy-law-firms, Nov 6)
 
 ## Retired (Do Not Write)
 
