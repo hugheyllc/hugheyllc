@@ -27,8 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-25. Mass Tort Marketing: How the Lead Generation Model Works and Where Firms Get Burned
-    - Don't overlap: contingency-fee-optimization-how-marketing-strategy-changes-, personal-injury-law-firm-marketing
 26. Practice Management Software and Marketing Data: What Clio Manage, MyCase and PracticePanther Can Tell You
     - Angle: using matter and billing data for marketing decisions. Not intake CRM comparison
     - Don't overlap: lawmatics-vs-clio-grow, law-firm-crm-problems, law-firm-marketing-stack-integration
@@ -125,6 +123,7 @@ Topics from the July 8 queue that have a live post:
 - #22 Real Estate Law Marketing: Local Market Relationships With Agents, Lenders and Developers (real-estate-law-firm-marketing, Nov 2)
 - #23 Text Message Marketing for Law Firms: TCPA Compliance and Intake Use Cases (text-message-marketing-law-firms, Nov 4)
 - #24 Webinar Strategy for Law Firms: Educational Events That Qualify and Convert Leads (webinar-strategy-law-firms, Nov 6)
+- #25 Mass Tort Marketing: How the Lead Generation Model Works and Where Firms Get Burned (mass-tort-marketing-law-firms, Nov 9)
 
 ## Retired (Do Not Write)
 
