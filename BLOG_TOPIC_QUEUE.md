@@ -27,9 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-28. TV, Radio and Billboard Advertising: How Law Firms Measure Channels That Don't Click
-    - Angle: vanity numbers, market-level lift, branded search lift, intake source coding
-    - Don't overlap: law-firm-marketing-attribution-modeling, marketing-attribution-modeling-law-firms
 29. Healthcare Law Marketing: Compliance-First Strategies for Reaching Medical Practices
 30. Law Firm Branding and Rebranding: When a New Name or Identity Is Worth the Risk
     - Don't overlap: law-firm-copywriting-differentiation, marketing-law-firm-networks-multi-office
@@ -121,6 +118,7 @@ Topics from the July 8 queue that have a live post:
 - #25 Mass Tort Marketing: How the Lead Generation Model Works and Where Firms Get Burned (mass-tort-marketing-law-firms, Nov 9)
 - #26 Practice Management Software and Marketing Data: What Clio Manage, MyCase and PracticePanther Can Tell You (practice-management-software-marketing-data, Nov 11)
 - #27 Bar Association Networking (bar-association-networking-law-firms, Nov 13)
+- #28 TV, Radio and Billboard Advertising: How Law Firms Measure Channels That Don't Click (measure-law-firm-tv-advertising, Nov 16)
 
 ## Retired (Do Not Write)
 
