@@ -27,8 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-30. Law Firm Branding and Rebranding: When a New Name or Identity Is Worth the Risk
-    - Don't overlap: law-firm-copywriting-differentiation, marketing-law-firm-networks-multi-office
 31. YouTube Advertising for Attorneys: Video Ads That Educate and Convert
     - Angle: paid YouTube campaigns only
     - Don't overlap: law-firm-video-marketing, video-and-visual-content-for-legal-seo-2025
@@ -119,6 +117,7 @@ Topics from the July 8 queue that have a live post:
 - #27 Bar Association Networking (bar-association-networking-law-firms, Nov 13)
 - #28 TV, Radio and Billboard Advertising: How Law Firms Measure Channels That Don't Click (measure-law-firm-tv-advertising, Nov 16)
 - #29 Healthcare Law Marketing: Compliance-First Strategies for Reaching Medical Practices (healthcare-law-firm-marketing, Nov 18)
+- #30 Law Firm Branding and Rebranding: When a New Name or Identity Is Worth the Risk (law-firm-rebranding, Nov 20)
 
 ## Retired (Do Not Write)
 
