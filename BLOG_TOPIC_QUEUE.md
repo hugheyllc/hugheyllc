@@ -27,7 +27,6 @@ Thematic saturation (do not add new topics here): agency vs. consultant, local S
 
 ## Queue
 
-33. Social Security Disability Law Marketing: Competing in a Lead Generation Minefield
 34. Direct Mail for Law Firms: Where Print Still Outperforms Digital
 35. Market Segmentation for Law Firms: Beyond Geography
     - Angle: demographic, behavioral and case-value segments applied to messaging and spend
@@ -116,6 +115,7 @@ Topics from the July 8 queue that have a live post:
 - #30 Law Firm Branding and Rebranding: When a New Name or Identity Is Worth the Risk (law-firm-rebranding, Nov 20)
 - #31 YouTube Advertising for Attorneys: Video Ads That Educate and Convert (youtube-ads-for-attorneys, Nov 23)
 - #32 Speaking Engagements and Conference Marketing: Building Authority From the Stage (speaking-engagements-for-lawyers, Nov 25)
+- #33 Social Security Disability Law Marketing: Competing in a Lead Generation Minefield (social-security-disability-law-marketing, Nov 27)
 
 ## Retired (Do Not Write)
 
